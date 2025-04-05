@@ -1,0 +1,23 @@
+[core]
+	editor = fleet
+[user]
+	email = vincent.alias.bernier@gmail.ca
+	name = Rocko
+[merge]
+	tool = bc
+[mergetool "bc"]
+	path = /usr/local/bin/bcomp
+	trustExitCode = true
+[alias]
+	resolve = "!f() { git mergetool --tool=bc \"$@\"; }; f"
+[push]
+	default = current
+[mergetool]
+	keepBackup = false
+[credential]
+	helper = store
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

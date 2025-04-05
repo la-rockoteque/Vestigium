@@ -1,0 +1,142 @@
+{
+  "name": "Runes of Inconsequence",
+  "level": 0,
+  "school": "P",
+  "time": [
+    {
+      "number": 1,
+      "unit": "reaction"
+    }
+  ],
+  "range": {
+    "type": "point",
+    "distance": {
+      "type": "feet",
+      "amount": 0
+    }
+  },
+  "duration": [
+    {
+      "type": "permanent",
+      "ends": [
+        "dispel"
+      ]
+    },
+    {
+      "type": "timed",
+      "duration": {
+        "type": "round",
+        "amount": 0,
+        "upTo": true
+      },
+      "concentration": true
+    }
+  ],
+  "classes": {
+    "fromClassList": [
+      {
+        "name": "Sorcerer",
+        "source": "PHB"
+      },
+      {
+        "name": "Bard",
+        "source": "PHB"
+      }
+    ]
+  },
+  "entries": [
+    "You inscribe a rune onto a piece of paper, document, or surface. The rune hums with unstable magical nonsense, waiting for the next creature to read or open the marked object. When triggered, the rune unleashes a harmless but dramatic effect that startles, annoys, or mildly entertains.",
+    "The effect is randomly determined by rolling a {@dice d6}:",
+    "The rune fades after being triggered. A creature that succeeds a DC 13 Arcana check while inspecting the document can spot the rune before triggering it.",
+    "{@dice d6} | Harmless Effect",
+    "---|----------------",
+    "1  | A burst of confetti and a trumpet fanfare plays.",
+    "2  | The reader hears a magical raspberry blown directly into their ear.",
+    "3  | A tiny banner pops out: “Gotcha!”",
+    "4  | The paper insults the reader in a refined accent.",
+    "5  | Glitter explodes everywhere. It sticks.",
+    "6  | A small illusory bird flaps out and poops ghost ink on them."
+  ],
+  "source": "Vestigium",
+  "entriesHigherLevel": [
+    {
+      "type": "entries",
+      "name": "At Higher Levels",
+      "entries": [
+        "You can place one additional rune per spellcasting modifier (minimum of 1), but only one rune may be triggered at a time, and all runes share the same effect for the day."
+      ]
+    }
+  ],
+  "components": {
+    "v": true,
+    "s": true
+  },
+  "abilityCheck": [
+    "strength",
+    "intelligence"
+  ],
+  "miscTags": [
+    "HL",
+    "THP",
+    "SGT",
+    "PRM",
+    "SCL",
+    "SCT",
+    "SMN",
+    "MAC",
+    "TP",
+    "FMV",
+    "RO",
+    "LGTS",
+    "LGT",
+    "UBA",
+    "PS",
+    "OBS",
+    "DFT",
+    "AAD",
+    "OBJ",
+    "ADV",
+    "PIR"
+  ],
+  "damageInflict": [
+    "acid",
+    "bludgeoning"
+  ],
+  "fluff": {
+    "entries": [
+      "blip blap blop"
+    ],
+    "images": [
+      {
+        "type": "image",
+        "href": {
+          "type": "external",
+          "url": "https://placehold.co/40x40"
+        }
+      }
+    ]
+  },
+  "spellAttack": [
+    "M",
+    "R",
+    "O"
+  ],
+  "savingThrow": [
+    "strength",
+    "dexterity"
+  ],
+  "areaTags": [
+    "ST",
+    "MT",
+    "C",
+    "N",
+    "Y",
+    "S",
+    "R",
+    "Q",
+    "L",
+    "H",
+    "W"
+  ],
+  "page": 12
+}
