@@ -1,6 +1,24 @@
 {
-    "pack": "compendium.spells",
-    "documents": [
+    "meta_": {
+        "sources": [
+            {
+                "json": "VestigiumConcordCitySpells",
+                "abbreviation": "VSTGCC",
+                "full": "Vestigium - Guide to Concord City",
+                "authors": [
+                    "Velum Cineris"
+                ],
+                "convertedBy": [
+                    "Vincent Bernier"
+                ],
+                "version": "1.0"
+            }
+        ],
+        "dateAdded": 2560611200,
+        "dateLastModified": 2560611200,
+        "edition": "classic"
+    },
+    "spells": [
         {
             "name": "Runes of Inconsequence",
             "level": 0,
