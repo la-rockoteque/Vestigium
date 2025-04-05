@@ -1,8 +1,8 @@
 [core]
 	editor = fleet
 [user]
-	email = vincent.alias.bernier@gmail.ca
-	name = Rocko
+	email = vincent.a.bernier@gmail.ca
+	name = la-rockoteque
 [merge]
 	tool = bc
 [mergetool "bc"]
