@@ -14,10 +14,20 @@ dependencies = [
     "notebook (>=7.3.3,<8.0.0)",
     "inflection (>=0.5.1,<0.6.0)",
     "pillow (>=11.1.0,<12.0.0)",
-    "image (>=1.5.33,<2.0.0)"
+    "image (>=1.5.33,<2.0.0)",
+    "diffusers (>=0.33.0,<0.34.0)",
+    "torch (>=2.6.0,<3.0.0)",
+    "transformers (>=4.51.1,<5.0.0)",
+    "accelerate (>=1.6.0,<2.0.0)",
+    "hf-xet (>=1.0.2,<2.0.0)",
+    "torchvision (>=0.21.0,<0.22.0)"
 ]
 
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pypdf2 = "^3.0.1"
+
