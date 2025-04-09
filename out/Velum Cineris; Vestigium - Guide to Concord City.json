@@ -5,7 +5,7 @@
                 "json": "VestigiumConcordCitySpells",
                 "abbreviation": "VSTGCC",
                 "full": "Vestigium - Guide to Concord City",
-                "url": "https://github.com/TheGiddyLimit/homebrew",
+                "url": "https://github.com/la-rockoteque/Vestigium/blob/main/out/Velum%20Cineris%3B%20Vestigium%20-%20Guide%20to%20Concord%20City.json",
                 "authors": [
                     "Velum Cineris"
                 ],
@@ -16,8 +16,8 @@
             }
         ],
         "dateAdded": 1743879729,
-        "dateLastModified": 1744234662.731776,
-        "_dateLastModifiedHash": "ab631fb5461b9162edf715d399160f9b",
+        "dateLastModified": 1744236912.265165,
+        "_dateLastModifiedHash": "1d2b1727fe957906373fa00c594b91c1",
         "edition": "classic"
     },
     "spell": [
@@ -34214,8 +34214,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -34283,8 +34283,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -34352,8 +34352,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -34421,8 +34421,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -34490,8 +34490,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -34559,8 +34559,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -34628,8 +34628,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -34697,8 +34697,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -34766,8 +34766,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -34835,8 +34835,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -34904,8 +34904,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -34973,8 +34973,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -34999,12 +34999,12 @@
                     "t"
                 ],
                 "weapons": [
-                    "{@item S|vstgcc|S}",
-                    "{@item i|vstgcc|i}",
-                    "{@item m|vstgcc|m}",
-                    "{@item p|vstgcc|p}",
-                    "{@item l|vstgcc|l}",
-                    "{@item e|vstgcc|e}",
+                    "{@item S|VSTGCC|S}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item m|VSTGCC|m}",
+                    "{@item p|VSTGCC|p}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item e|VSTGCC|e}",
                     "simple"
                 ],
                 "skills": [
@@ -35118,8 +35118,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -35205,189 +35205,189 @@
                     "t"
                 ],
                 "weapons": [
-                    "{@item S|vstgcc|S}",
-                    "{@item i|vstgcc|i}",
-                    "{@item m|vstgcc|m}",
-                    "{@item p|vstgcc|p}",
-                    "{@item l|vstgcc|l}",
-                    "{@item e|vstgcc|e}",
-                    "{@item ,|vstgcc|,}",
-                    "{@item  |vstgcc| }",
-                    "{@item B|vstgcc|B}",
-                    "{@item r|vstgcc|r}",
-                    "{@item a|vstgcc|a}",
-                    "{@item s|vstgcc|s}",
-                    "{@item s|vstgcc|s}",
-                    "{@item  |vstgcc| }",
-                    "{@item K|vstgcc|K}",
-                    "{@item n|vstgcc|n}",
-                    "{@item u|vstgcc|u}",
-                    "{@item c|vstgcc|c}",
-                    "{@item k|vstgcc|k}",
-                    "{@item l|vstgcc|l}",
-                    "{@item e|vstgcc|e}",
-                    "{@item s|vstgcc|s}",
-                    "{@item ,|vstgcc|,}",
-                    "{@item  |vstgcc| }",
-                    "{@item F|vstgcc|F}",
-                    "{@item o|vstgcc|o}",
-                    "{@item l|vstgcc|l}",
-                    "{@item d|vstgcc|d}",
-                    "{@item i|vstgcc|i}",
-                    "{@item n|vstgcc|n}",
-                    "{@item g|vstgcc|g}",
-                    "{@item  |vstgcc| }",
-                    "{@item P|vstgcc|P}",
-                    "{@item o|vstgcc|o}",
-                    "{@item c|vstgcc|c}",
-                    "{@item k|vstgcc|k}",
-                    "{@item e|vstgcc|e}",
-                    "{@item t|vstgcc|t}",
-                    "{@item  |vstgcc| }",
-                    "{@item K|vstgcc|K}",
-                    "{@item n|vstgcc|n}",
-                    "{@item i|vstgcc|i}",
-                    "{@item f|vstgcc|f}",
-                    "{@item e|vstgcc|e}",
-                    "{@item ,|vstgcc|,}",
-                    "{@item  |vstgcc| }",
-                    "{@item K|vstgcc|K}",
-                    "{@item a|vstgcc|a}",
-                    "{@item l|vstgcc|l}",
-                    "{@item i|vstgcc|i}",
-                    "{@item  |vstgcc| }",
-                    "{@item S|vstgcc|S}",
-                    "{@item t|vstgcc|t}",
-                    "{@item i|vstgcc|i}",
-                    "{@item c|vstgcc|c}",
-                    "{@item k|vstgcc|k}",
-                    "{@item s|vstgcc|s}",
-                    "{@item  |vstgcc| }",
-                    "{@item (|vstgcc|(}",
-                    "{@item P|vstgcc|P}",
-                    "{@item a|vstgcc|a}",
-                    "{@item i|vstgcc|i}",
-                    "{@item r|vstgcc|r}",
-                    "{@item )|vstgcc|)}",
-                    "{@item ,|vstgcc|,}",
-                    "{@item  |vstgcc| }",
-                    "{@item S|vstgcc|S}",
-                    "{@item l|vstgcc|l}",
-                    "{@item i|vstgcc|i}",
-                    "{@item n|vstgcc|n}",
-                    "{@item g|vstgcc|g}",
-                    "{@item s|vstgcc|s}",
-                    "{@item h|vstgcc|h}",
-                    "{@item o|vstgcc|o}",
-                    "{@item t|vstgcc|t}",
-                    "{@item ,|vstgcc|,}",
-                    "{@item  |vstgcc| }",
-                    "{@item S|vstgcc|S}",
-                    "{@item t|vstgcc|t}",
-                    "{@item u|vstgcc|u}",
-                    "{@item n|vstgcc|n}",
-                    "{@item  |vstgcc| }",
-                    "{@item G|vstgcc|G}",
-                    "{@item u|vstgcc|u}",
-                    "{@item n|vstgcc|n}",
-                    "{@item ,|vstgcc|,}",
-                    "{@item  |vstgcc| }",
-                    "{@item T|vstgcc|T}",
-                    "{@item a|vstgcc|a}",
-                    "{@item s|vstgcc|s}",
-                    "{@item e|vstgcc|e}",
-                    "{@item r|vstgcc|r}",
-                    "{@item  |vstgcc| }",
-                    "{@item D|vstgcc|D}",
-                    "{@item a|vstgcc|a}",
-                    "{@item r|vstgcc|r}",
-                    "{@item t|vstgcc|t}",
-                    "{@item  |vstgcc| }",
-                    "{@item (|vstgcc|(}",
-                    "{@item B|vstgcc|B}",
-                    "{@item a|vstgcc|a}",
-                    "{@item y|vstgcc|y}",
-                    "{@item o|vstgcc|o}",
-                    "{@item n|vstgcc|n}",
-                    "{@item e|vstgcc|e}",
-                    "{@item t|vstgcc|t}",
-                    "{@item )|vstgcc|)}",
-                    "{@item ,|vstgcc|,}",
-                    "{@item  |vstgcc| }",
-                    "{@item T|vstgcc|T}",
-                    "{@item e|vstgcc|e}",
-                    "{@item m|vstgcc|m}",
-                    "{@item p|vstgcc|p}",
-                    "{@item o|vstgcc|o}",
-                    "{@item r|vstgcc|r}",
-                    "{@item a|vstgcc|a}",
-                    "{@item l|vstgcc|l}",
-                    "{@item  |vstgcc| }",
-                    "{@item B|vstgcc|B}",
-                    "{@item l|vstgcc|l}",
-                    "{@item a|vstgcc|a}",
-                    "{@item d|vstgcc|d}",
-                    "{@item e|vstgcc|e}",
-                    "{@item  |vstgcc| }",
-                    "{@item (|vstgcc|(}",
-                    "{@item P|vstgcc|P}",
-                    "{@item r|vstgcc|r}",
-                    "{@item o|vstgcc|o}",
-                    "{@item t|vstgcc|t}",
-                    "{@item o|vstgcc|o}",
-                    "{@item t|vstgcc|t}",
-                    "{@item y|vstgcc|y}",
-                    "{@item p|vstgcc|p}",
-                    "{@item e|vstgcc|e}",
-                    "{@item )|vstgcc|)}",
-                    "{@item ,|vstgcc|,}",
-                    "{@item  |vstgcc| }",
-                    "{@item V|vstgcc|V}",
-                    "{@item i|vstgcc|i}",
-                    "{@item b|vstgcc|b}",
-                    "{@item r|vstgcc|r}",
-                    "{@item a|vstgcc|a}",
-                    "{@item t|vstgcc|t}",
-                    "{@item i|vstgcc|i}",
-                    "{@item o|vstgcc|o}",
-                    "{@item n|vstgcc|n}",
-                    "{@item  |vstgcc| }",
-                    "{@item B|vstgcc|B}",
-                    "{@item l|vstgcc|l}",
-                    "{@item a|vstgcc|a}",
-                    "{@item d|vstgcc|d}",
-                    "{@item e|vstgcc|e}",
-                    "{@item  |vstgcc| }",
-                    "{@item (|vstgcc|(}",
-                    "{@item P|vstgcc|P}",
-                    "{@item r|vstgcc|r}",
-                    "{@item o|vstgcc|o}",
-                    "{@item t|vstgcc|t}",
-                    "{@item o|vstgcc|o}",
-                    "{@item t|vstgcc|t}",
-                    "{@item y|vstgcc|y}",
-                    "{@item p|vstgcc|p}",
-                    "{@item e|vstgcc|e}",
-                    "{@item )|vstgcc|)}",
-                    "{@item ,|vstgcc|,}",
-                    "{@item  |vstgcc| }",
-                    "{@item T|vstgcc|T}",
-                    "{@item u|vstgcc|u}",
-                    "{@item n|vstgcc|n}",
-                    "{@item i|vstgcc|i}",
-                    "{@item n|vstgcc|n}",
-                    "{@item g|vstgcc|g}",
-                    "{@item  |vstgcc| }",
-                    "{@item F|vstgcc|F}",
-                    "{@item o|vstgcc|o}",
-                    "{@item r|vstgcc|r}",
-                    "{@item k|vstgcc|k}",
-                    "{@item  |vstgcc| }",
-                    "{@item B|vstgcc|B}",
-                    "{@item l|vstgcc|l}",
-                    "{@item a|vstgcc|a}",
-                    "{@item d|vstgcc|d}",
-                    "{@item e|vstgcc|e}",
+                    "{@item S|VSTGCC|S}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item m|VSTGCC|m}",
+                    "{@item p|VSTGCC|p}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item e|VSTGCC|e}",
+                    "{@item ,|VSTGCC|,}",
+                    "{@item  |VSTGCC| }",
+                    "{@item B|VSTGCC|B}",
+                    "{@item r|VSTGCC|r}",
+                    "{@item a|VSTGCC|a}",
+                    "{@item s|VSTGCC|s}",
+                    "{@item s|VSTGCC|s}",
+                    "{@item  |VSTGCC| }",
+                    "{@item K|VSTGCC|K}",
+                    "{@item n|VSTGCC|n}",
+                    "{@item u|VSTGCC|u}",
+                    "{@item c|VSTGCC|c}",
+                    "{@item k|VSTGCC|k}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item e|VSTGCC|e}",
+                    "{@item s|VSTGCC|s}",
+                    "{@item ,|VSTGCC|,}",
+                    "{@item  |VSTGCC| }",
+                    "{@item F|VSTGCC|F}",
+                    "{@item o|VSTGCC|o}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item d|VSTGCC|d}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item n|VSTGCC|n}",
+                    "{@item g|VSTGCC|g}",
+                    "{@item  |VSTGCC| }",
+                    "{@item P|VSTGCC|P}",
+                    "{@item o|VSTGCC|o}",
+                    "{@item c|VSTGCC|c}",
+                    "{@item k|VSTGCC|k}",
+                    "{@item e|VSTGCC|e}",
+                    "{@item t|VSTGCC|t}",
+                    "{@item  |VSTGCC| }",
+                    "{@item K|VSTGCC|K}",
+                    "{@item n|VSTGCC|n}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item f|VSTGCC|f}",
+                    "{@item e|VSTGCC|e}",
+                    "{@item ,|VSTGCC|,}",
+                    "{@item  |VSTGCC| }",
+                    "{@item K|VSTGCC|K}",
+                    "{@item a|VSTGCC|a}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item  |VSTGCC| }",
+                    "{@item S|VSTGCC|S}",
+                    "{@item t|VSTGCC|t}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item c|VSTGCC|c}",
+                    "{@item k|VSTGCC|k}",
+                    "{@item s|VSTGCC|s}",
+                    "{@item  |VSTGCC| }",
+                    "{@item (|VSTGCC|(}",
+                    "{@item P|VSTGCC|P}",
+                    "{@item a|VSTGCC|a}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item r|VSTGCC|r}",
+                    "{@item )|VSTGCC|)}",
+                    "{@item ,|VSTGCC|,}",
+                    "{@item  |VSTGCC| }",
+                    "{@item S|VSTGCC|S}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item n|VSTGCC|n}",
+                    "{@item g|VSTGCC|g}",
+                    "{@item s|VSTGCC|s}",
+                    "{@item h|VSTGCC|h}",
+                    "{@item o|VSTGCC|o}",
+                    "{@item t|VSTGCC|t}",
+                    "{@item ,|VSTGCC|,}",
+                    "{@item  |VSTGCC| }",
+                    "{@item S|VSTGCC|S}",
+                    "{@item t|VSTGCC|t}",
+                    "{@item u|VSTGCC|u}",
+                    "{@item n|VSTGCC|n}",
+                    "{@item  |VSTGCC| }",
+                    "{@item G|VSTGCC|G}",
+                    "{@item u|VSTGCC|u}",
+                    "{@item n|VSTGCC|n}",
+                    "{@item ,|VSTGCC|,}",
+                    "{@item  |VSTGCC| }",
+                    "{@item T|VSTGCC|T}",
+                    "{@item a|VSTGCC|a}",
+                    "{@item s|VSTGCC|s}",
+                    "{@item e|VSTGCC|e}",
+                    "{@item r|VSTGCC|r}",
+                    "{@item  |VSTGCC| }",
+                    "{@item D|VSTGCC|D}",
+                    "{@item a|VSTGCC|a}",
+                    "{@item r|VSTGCC|r}",
+                    "{@item t|VSTGCC|t}",
+                    "{@item  |VSTGCC| }",
+                    "{@item (|VSTGCC|(}",
+                    "{@item B|VSTGCC|B}",
+                    "{@item a|VSTGCC|a}",
+                    "{@item y|VSTGCC|y}",
+                    "{@item o|VSTGCC|o}",
+                    "{@item n|VSTGCC|n}",
+                    "{@item e|VSTGCC|e}",
+                    "{@item t|VSTGCC|t}",
+                    "{@item )|VSTGCC|)}",
+                    "{@item ,|VSTGCC|,}",
+                    "{@item  |VSTGCC| }",
+                    "{@item T|VSTGCC|T}",
+                    "{@item e|VSTGCC|e}",
+                    "{@item m|VSTGCC|m}",
+                    "{@item p|VSTGCC|p}",
+                    "{@item o|VSTGCC|o}",
+                    "{@item r|VSTGCC|r}",
+                    "{@item a|VSTGCC|a}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item  |VSTGCC| }",
+                    "{@item B|VSTGCC|B}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item a|VSTGCC|a}",
+                    "{@item d|VSTGCC|d}",
+                    "{@item e|VSTGCC|e}",
+                    "{@item  |VSTGCC| }",
+                    "{@item (|VSTGCC|(}",
+                    "{@item P|VSTGCC|P}",
+                    "{@item r|VSTGCC|r}",
+                    "{@item o|VSTGCC|o}",
+                    "{@item t|VSTGCC|t}",
+                    "{@item o|VSTGCC|o}",
+                    "{@item t|VSTGCC|t}",
+                    "{@item y|VSTGCC|y}",
+                    "{@item p|VSTGCC|p}",
+                    "{@item e|VSTGCC|e}",
+                    "{@item )|VSTGCC|)}",
+                    "{@item ,|VSTGCC|,}",
+                    "{@item  |VSTGCC| }",
+                    "{@item V|VSTGCC|V}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item b|VSTGCC|b}",
+                    "{@item r|VSTGCC|r}",
+                    "{@item a|VSTGCC|a}",
+                    "{@item t|VSTGCC|t}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item o|VSTGCC|o}",
+                    "{@item n|VSTGCC|n}",
+                    "{@item  |VSTGCC| }",
+                    "{@item B|VSTGCC|B}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item a|VSTGCC|a}",
+                    "{@item d|VSTGCC|d}",
+                    "{@item e|VSTGCC|e}",
+                    "{@item  |VSTGCC| }",
+                    "{@item (|VSTGCC|(}",
+                    "{@item P|VSTGCC|P}",
+                    "{@item r|VSTGCC|r}",
+                    "{@item o|VSTGCC|o}",
+                    "{@item t|VSTGCC|t}",
+                    "{@item o|VSTGCC|o}",
+                    "{@item t|VSTGCC|t}",
+                    "{@item y|VSTGCC|y}",
+                    "{@item p|VSTGCC|p}",
+                    "{@item e|VSTGCC|e}",
+                    "{@item )|VSTGCC|)}",
+                    "{@item ,|VSTGCC|,}",
+                    "{@item  |VSTGCC| }",
+                    "{@item T|VSTGCC|T}",
+                    "{@item u|VSTGCC|u}",
+                    "{@item n|VSTGCC|n}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item n|VSTGCC|n}",
+                    "{@item g|VSTGCC|g}",
+                    "{@item  |VSTGCC| }",
+                    "{@item F|VSTGCC|F}",
+                    "{@item o|VSTGCC|o}",
+                    "{@item r|VSTGCC|r}",
+                    "{@item k|VSTGCC|k}",
+                    "{@item  |VSTGCC| }",
+                    "{@item B|VSTGCC|B}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item a|VSTGCC|a}",
+                    "{@item d|VSTGCC|d}",
+                    "{@item e|VSTGCC|e}",
                     "simple"
                 ],
                 "skills": [
@@ -35501,8 +35501,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -35616,12 +35616,12 @@
                     "d"
                 ],
                 "weapons": [
-                    "{@item S|vstgcc|S}",
-                    "{@item i|vstgcc|i}",
-                    "{@item m|vstgcc|m}",
-                    "{@item p|vstgcc|p}",
-                    "{@item l|vstgcc|l}",
-                    "{@item e|vstgcc|e}",
+                    "{@item S|VSTGCC|S}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item m|VSTGCC|m}",
+                    "{@item p|VSTGCC|p}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item e|VSTGCC|e}",
                     "simple"
                 ],
                 "skills": [
@@ -35735,8 +35735,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -35862,12 +35862,12 @@
                     "t"
                 ],
                 "weapons": [
-                    "{@item S|vstgcc|S}",
-                    "{@item i|vstgcc|i}",
-                    "{@item m|vstgcc|m}",
-                    "{@item p|vstgcc|p}",
-                    "{@item l|vstgcc|l}",
-                    "{@item e|vstgcc|e}",
+                    "{@item S|VSTGCC|S}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item m|VSTGCC|m}",
+                    "{@item p|VSTGCC|p}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item e|VSTGCC|e}",
                     "simple"
                 ],
                 "skills": [
@@ -35981,8 +35981,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -36108,12 +36108,12 @@
                     "t"
                 ],
                 "weapons": [
-                    "{@item S|vstgcc|S}",
-                    "{@item i|vstgcc|i}",
-                    "{@item m|vstgcc|m}",
-                    "{@item p|vstgcc|p}",
-                    "{@item l|vstgcc|l}",
-                    "{@item e|vstgcc|e}",
+                    "{@item S|VSTGCC|S}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item m|VSTGCC|m}",
+                    "{@item p|VSTGCC|p}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item e|VSTGCC|e}",
                     "simple"
                 ],
                 "skills": [
@@ -36227,8 +36227,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -36354,12 +36354,12 @@
                     "t"
                 ],
                 "weapons": [
-                    "{@item S|vstgcc|S}",
-                    "{@item i|vstgcc|i}",
-                    "{@item m|vstgcc|m}",
-                    "{@item p|vstgcc|p}",
-                    "{@item l|vstgcc|l}",
-                    "{@item e|vstgcc|e}",
+                    "{@item S|VSTGCC|S}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item m|VSTGCC|m}",
+                    "{@item p|VSTGCC|p}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item e|VSTGCC|e}",
                     "simple"
                 ],
                 "skills": [
@@ -36473,8 +36473,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -36628,12 +36628,12 @@
                     "t"
                 ],
                 "weapons": [
-                    "{@item S|vstgcc|S}",
-                    "{@item i|vstgcc|i}",
-                    "{@item m|vstgcc|m}",
-                    "{@item p|vstgcc|p}",
-                    "{@item l|vstgcc|l}",
-                    "{@item e|vstgcc|e}",
+                    "{@item S|VSTGCC|S}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item m|VSTGCC|m}",
+                    "{@item p|VSTGCC|p}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item e|VSTGCC|e}",
                     "simple"
                 ],
                 "skills": [
@@ -36747,8 +36747,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -36902,12 +36902,12 @@
                     "t"
                 ],
                 "weapons": [
-                    "{@item S|vstgcc|S}",
-                    "{@item i|vstgcc|i}",
-                    "{@item m|vstgcc|m}",
-                    "{@item p|vstgcc|p}",
-                    "{@item l|vstgcc|l}",
-                    "{@item e|vstgcc|e}",
+                    "{@item S|VSTGCC|S}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item m|VSTGCC|m}",
+                    "{@item p|VSTGCC|p}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item e|VSTGCC|e}",
                     "simple"
                 ],
                 "skills": [
@@ -37021,8 +37021,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -37124,12 +37124,12 @@
                     "d"
                 ],
                 "weapons": [
-                    "{@item S|vstgcc|S}",
-                    "{@item i|vstgcc|i}",
-                    "{@item m|vstgcc|m}",
-                    "{@item p|vstgcc|p}",
-                    "{@item l|vstgcc|l}",
-                    "{@item e|vstgcc|e}",
+                    "{@item S|VSTGCC|S}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item m|VSTGCC|m}",
+                    "{@item p|VSTGCC|p}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item e|VSTGCC|e}",
                     "simple"
                 ],
                 "skills": [
@@ -37243,8 +37243,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -37346,12 +37346,12 @@
                     "d"
                 ],
                 "weapons": [
-                    "{@item S|vstgcc|S}",
-                    "{@item i|vstgcc|i}",
-                    "{@item m|vstgcc|m}",
-                    "{@item p|vstgcc|p}",
-                    "{@item l|vstgcc|l}",
-                    "{@item e|vstgcc|e}",
+                    "{@item S|VSTGCC|S}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item m|VSTGCC|m}",
+                    "{@item p|VSTGCC|p}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item e|VSTGCC|e}",
                     "simple"
                 ],
                 "skills": [
@@ -37465,8 +37465,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -37568,12 +37568,12 @@
                     "d"
                 ],
                 "weapons": [
-                    "{@item S|vstgcc|S}",
-                    "{@item i|vstgcc|i}",
-                    "{@item m|vstgcc|m}",
-                    "{@item p|vstgcc|p}",
-                    "{@item l|vstgcc|l}",
-                    "{@item e|vstgcc|e}",
+                    "{@item S|VSTGCC|S}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item m|VSTGCC|m}",
+                    "{@item p|VSTGCC|p}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item e|VSTGCC|e}",
                     "simple"
                 ],
                 "skills": [
@@ -37687,8 +37687,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -37783,12 +37783,12 @@
                     "d"
                 ],
                 "weapons": [
-                    "{@item S|vstgcc|S}",
-                    "{@item i|vstgcc|i}",
-                    "{@item m|vstgcc|m}",
-                    "{@item p|vstgcc|p}",
-                    "{@item l|vstgcc|l}",
-                    "{@item e|vstgcc|e}",
+                    "{@item S|VSTGCC|S}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item m|VSTGCC|m}",
+                    "{@item p|VSTGCC|p}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item e|VSTGCC|e}",
                     "simple"
                 ],
                 "skills": [
@@ -37902,8 +37902,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -37997,12 +37997,12 @@
                     "t"
                 ],
                 "weapons": [
-                    "{@item S|vstgcc|S}",
-                    "{@item i|vstgcc|i}",
-                    "{@item m|vstgcc|m}",
-                    "{@item p|vstgcc|p}",
-                    "{@item l|vstgcc|l}",
-                    "{@item e|vstgcc|e}",
+                    "{@item S|VSTGCC|S}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item m|VSTGCC|m}",
+                    "{@item p|VSTGCC|p}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item e|VSTGCC|e}",
                     "simple"
                 ],
                 "skills": [
@@ -38116,8 +38116,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -38197,12 +38197,12 @@
             "startingProficiencies": {
                 "armor": [],
                 "weapons": [
-                    "{@item S|vstgcc|S}",
-                    "{@item i|vstgcc|i}",
-                    "{@item m|vstgcc|m}",
-                    "{@item p|vstgcc|p}",
-                    "{@item l|vstgcc|l}",
-                    "{@item e|vstgcc|e}",
+                    "{@item S|VSTGCC|S}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item m|VSTGCC|m}",
+                    "{@item p|VSTGCC|p}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item e|VSTGCC|e}",
                     "simple"
                 ],
                 "skills": [
@@ -38316,8 +38316,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -38403,12 +38403,12 @@
                     "t"
                 ],
                 "weapons": [
-                    "{@item S|vstgcc|S}",
-                    "{@item i|vstgcc|i}",
-                    "{@item m|vstgcc|m}",
-                    "{@item p|vstgcc|p}",
-                    "{@item l|vstgcc|l}",
-                    "{@item e|vstgcc|e}",
+                    "{@item S|VSTGCC|S}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item m|VSTGCC|m}",
+                    "{@item p|VSTGCC|p}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item e|VSTGCC|e}",
                     "simple"
                 ],
                 "skills": [
@@ -38522,8 +38522,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -38609,12 +38609,12 @@
                     "t"
                 ],
                 "weapons": [
-                    "{@item S|vstgcc|S}",
-                    "{@item i|vstgcc|i}",
-                    "{@item m|vstgcc|m}",
-                    "{@item p|vstgcc|p}",
-                    "{@item l|vstgcc|l}",
-                    "{@item e|vstgcc|e}",
+                    "{@item S|VSTGCC|S}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item m|VSTGCC|m}",
+                    "{@item p|VSTGCC|p}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item e|VSTGCC|e}",
                     "simple"
                 ],
                 "skills": [
@@ -38728,8 +38728,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -38843,12 +38843,12 @@
                     "t"
                 ],
                 "weapons": [
-                    "{@item S|vstgcc|S}",
-                    "{@item i|vstgcc|i}",
-                    "{@item m|vstgcc|m}",
-                    "{@item p|vstgcc|p}",
-                    "{@item l|vstgcc|l}",
-                    "{@item e|vstgcc|e}",
+                    "{@item S|VSTGCC|S}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item m|VSTGCC|m}",
+                    "{@item p|VSTGCC|p}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item e|VSTGCC|e}",
                     "simple"
                 ],
                 "skills": [
@@ -38962,8 +38962,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
@@ -39057,12 +39057,12 @@
                     "d"
                 ],
                 "weapons": [
-                    "{@item S|vstgcc|S}",
-                    "{@item i|vstgcc|i}",
-                    "{@item m|vstgcc|m}",
-                    "{@item p|vstgcc|p}",
-                    "{@item l|vstgcc|l}",
-                    "{@item e|vstgcc|e}",
+                    "{@item S|VSTGCC|S}",
+                    "{@item i|VSTGCC|i}",
+                    "{@item m|VSTGCC|m}",
+                    "{@item p|VSTGCC|p}",
+                    "{@item l|VSTGCC|l}",
+                    "{@item e|VSTGCC|e}",
                     "simple"
                 ],
                 "skills": [
@@ -39176,8 +39176,8 @@
                     }
                 ]
             },
-            "spellcastingAbility": NaN,
-            "casterProgression": NaN,
+            "spellcastingAbility": "",
+            "casterProgression": "",
             "cantripProgression": [],
             "classTableGroups": {
                 "colLabels": [
