@@ -17,8 +17,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1744366342,
-        "_dateLastModifiedHash": "2f9d3dfb50",
+        "dateLastModified": 1744371189,
+        "_dateLastModifiedHash": "8e53668144",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -37466,7 +37466,12 @@
                 }
             ],
             "subclassTitle": "Pseudoscience",
-            "classFeatures": []
+            "classFeatures": [
+                "Protocols|Parascientist|VestigiumGuidetoConcordCity|1",
+                "Spellcasting|Parascientist|VestigiumGuidetoConcordCity|1",
+                "Containment Glyphs|Parascientist|VestigiumGuidetoConcordCity|2",
+                "Creed (Subclass)|Parascientist|VestigiumGuidetoConcordCity|3"
+            ]
         },
         {
             "source": "VestigiumGuidetoConcordCity",
@@ -37655,7 +37660,10 @@
                 }
             ],
             "subclassTitle": "Anomaly",
-            "classFeatures": []
+            "classFeatures": [
+                "Mutation Core|Anomalous|VestigiumGuidetoConcordCity|1",
+                "Surge Events|Anomalous|VestigiumGuidetoConcordCity|1"
+            ]
         },
         {
             "source": "VestigiumGuidetoConcordCity",
@@ -38182,7 +38190,13 @@
                 }
             ],
             "subclassTitle": "Oath",
-            "classFeatures": []
+            "classFeatures": [
+                "Spellcasting|Enforcer|VestigiumGuidetoConcordCity|1",
+                "Consecrate/Desecrate|Enforcer|VestigiumGuidetoConcordCity|1",
+                "Spellcasting in a Zone|Enforcer|VestigiumGuidetoConcordCity|1",
+                "Empowered Zone|Enforcer|VestigiumGuidetoConcordCity|5",
+                "Spellcasting Restriction|Enforcer|VestigiumGuidetoConcordCity|1"
+            ]
         },
         {
             "source": "VestigiumGuidetoConcordCity",
@@ -38481,7 +38495,9 @@
                 }
             ],
             "subclassTitle": "Division",
-            "classFeatures": []
+            "classFeatures": [
+                "Placeholder|Containment Officer|VestigiumGuidetoConcordCity|1"
+            ]
         },
         {
             "source": "VestigiumGuidetoConcordCity",
@@ -38629,7 +38645,9 @@
                 }
             ],
             "subclassTitle": "Wavelength",
-            "classFeatures": []
+            "classFeatures": [
+                "Spellcasting|Conduit|VestigiumGuidetoConcordCity|1"
+            ]
         },
         {
             "source": "VestigiumGuidetoConcordCity",
@@ -38777,7 +38795,9 @@
                 }
             ],
             "subclassTitle": "Calamity",
-            "classFeatures": []
+            "classFeatures": [
+                "Spellcasting|Scourge|VestigiumGuidetoConcordCity|1"
+            ]
         },
         {
             "source": "VestigiumGuidetoConcordCity",
@@ -39074,7 +39094,9 @@
                 }
             ],
             "subclassTitle": "Agency",
-            "classFeatures": []
+            "classFeatures": [
+                "Placeholder|Covert Agent|VestigiumGuidetoConcordCity|1"
+            ]
         },
         {
             "source": "VestigiumGuidetoConcordCity",
@@ -39392,7 +39414,9 @@
                 }
             ],
             "subclassTitle": "Organisation",
-            "classFeatures": []
+            "classFeatures": [
+                "Placeholder|Mobster|VestigiumGuidetoConcordCity|1"
+            ]
         },
         {
             "source": "VestigiumGuidetoConcordCity",
@@ -39538,10 +39562,169 @@
                 }
             ],
             "subclassTitle": "Mech Type",
-            "classFeatures": []
+            "classFeatures": [
+                "Placeholder|Framewalker|VestigiumGuidetoConcordCity|1"
+            ]
         }
     ],
     "classFeature": [
+        {
+            "className": "Anomalous",
+            "name": "Mutation Core",
+            "level": 1,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "Instead of spell slots or sorcery points, the Anomalous channels magic through a Mutation Core, an unstable internal anomaly that reshapes reality around them.\nYou don’t “cast” spells in the traditional sense. Instead, your anomaly surges with unstable power that manifests as spells, anomalies, or effects.\nEach Mutation Core has a Stability Threshold (how much it can safely channel).\nAs you use your powers, you accumulate Instability — and when you exceed your threshold, you risk triggering a Surge Event (like Wild Magic but more narrative/paranormal and world-breaking).",
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Ability",
+                    "entries": [
+                        "Instead of spell slots or sorcery points, the Anomalous channels magic through a Mutation Core, an unstable internal anomaly that reshapes reality around them.\nYou don’t “cast” spells in the traditional sense. Instead, your anomaly surges with unstable power that manifests as spells, anomalies, or effects.\nEach Mutation Core has a Stability Threshold (how much it can safely channel).\nAs you use your powers, you accumulate Instability — and when you exceed your threshold, you risk triggering a Surge Event (like Wild Magic but more narrative/paranormal and world-breaking).",
+                        {
+                            "type": "entries",
+                            "name": "Spellcasting Ability",
+                            "entries": [
+                                {
+                                    "type": "entries",
+                                    "name": "Spellcasting Ability",
+                                    "entries": [
+                                        "Wisdom is your spellcasting ability for your druid spells, you harvest the decays and renewal of urban settings. In addition. you use your Wisdom modifier when setting the saving throw DC for a duird spell you cast and when making an attack roll with one.\n                                                ",
+                                        {
+                                            "type": "abilityDc",
+                                            "name": "Modifier",
+                                            "attributes": [
+                                                "con"
+                                            ]
+                                        },
+                                        {
+                                            "type": "abilityAttackMod",
+                                            "name": "Modifier",
+                                            "attributes": [
+                                                "con"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": "Anomalous",
+            "name": "Surge Events",
+            "level": 1,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "Anomalous Surges aren’t random nonsense like classic wild magic. They’re narrative-altering phenomena. Some examples:\n\t•\tSpatial Ripple: Nearby architecture bends, doors lead to the wrong places for 1 minute.\n\t•\tMemory Leak: You forget your last turn entirely (including what you cast).\n\t•\tEntity Residue: A translucent version of you appears, mimicking your movements for 1 round.\n\t•\tEcho Pulse: Your spell repeats at the start of the next round, hitting a random target.\n\t•\tContainment Breach: You glow with paranormal radiation. All enemies within 10 feet gain 1d4 Instability."
+            ]
+        },
+        {
+            "className": "Architect",
+            "name": "Spellcasting",
+            "level": 1,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "You know all the spells from the architect spell list",
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Ability",
+                    "entries": [
+                        "You know all the spells from the architect spell list",
+                        {
+                            "type": "entries",
+                            "name": "Urban Attunement",
+                            "entries": [
+                                "At 1st level you know all the cantrips on the architect spell list. You can only cast a cantrip when you are standing on the appropriate terrain for that cantrip."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Preparing and Casting Spells",
+                            "entries": [
+                                "As an architect, your spells are bound to the terrain you stand on. You know all spells from the architect spell list, but you can only cast those associated with your current environment. Rooftops, stairwells, tunnels, alleys — each shape the flow of energy in different ways. |\nThe Architect table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest. |\nWisdom is your spellcasting ability for architect spells, as your magic stems from your intuitive link with the structures around you. |\n\nYou do not prepare spells. Instead, the spells available to you at any given time are determined by your current terrain. If you are not in a location associated with any spells, you cannot cast architect spells until you move into terrain that qualifies. |"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Spellcasting Ability",
+                            "entries": [
+                                {
+                                    "type": "entries",
+                                    "name": "Spellcasting Ability",
+                                    "entries": [
+                                        "Wisdom is your spellcasting ability for your druid spells, you harvest the decays and renewal of urban settings. In addition. you use your Wisdom modifier when setting the saving throw DC for a duird spell you cast and when making an attack roll with one.\n                                                ",
+                                        {
+                                            "type": "abilityDc",
+                                            "name": "Modifier",
+                                            "attributes": [
+                                                "wis"
+                                            ]
+                                        },
+                                        {
+                                            "type": "abilityAttackMod",
+                                            "name": "Modifier",
+                                            "attributes": [
+                                                "wis"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Ritual Casting",
+                            "entries": [
+                                "You can cast an architect spell as a ritual if that spell has the ritual tag and you have the spell prepared.\n                                        "
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": "Architect",
+            "name": "Strata (Subclass)",
+            "level": 2,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "At 2nd level, choose your Architect Stratum — a layer of architectural philosophy embedded in your being.",
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Ability",
+                    "entries": [
+                        "At 2nd level, choose your Architect Stratum — a layer of architectural philosophy embedded in your being.",
+                        {
+                            "type": "entries",
+                            "name": "Stratum of Rust",
+                            "entries": [
+                                "Metal rots like flesh. The city was never built to last."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Stratum of Concrete",
+                            "entries": [
+                                "The world is steel and stone. And I am its guardian."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Stratum of Neon",
+                            "entries": [
+                                "The lights never go out, and neither do I."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         {
             "className": "Archivist",
             "name": "Paranormal Filing System (PFS)",
@@ -39613,163 +39796,307 @@
             ]
         },
         {
-            "className": "Operative",
-            "name": "Ranged Combat Style",
+            "className": "Conduit",
+            "name": "Spellcasting",
             "level": 1,
             "source": "VestigiumGuidetoConcordCity",
             "classSource": "VestigiumGuidetoConcordCity",
             "entries": [
-                "Pick a style of tactical engagement:"
+                "You know all the spells from the conduit spell list",
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Ability",
+                    "entries": [
+                        "You know all the spells from the conduit spell list",
+                        {
+                            "type": "entries",
+                            "name": "Spellcasting Ability",
+                            "entries": [
+                                {
+                                    "type": "entries",
+                                    "name": "Spellcasting Ability",
+                                    "entries": [
+                                        "Intelligence is your spellcasting ability for your conduit spells. In addition. you use your Intelligence modifier when setting the saving throw DC for a conduit spell you cast and when making an attack roll with one.\n                                                ",
+                                        {
+                                            "type": "abilityDc",
+                                            "name": "Modifier",
+                                            "attributes": [
+                                                "int"
+                                            ]
+                                        },
+                                        {
+                                            "type": "abilityAttackMod",
+                                            "name": "Modifier",
+                                            "attributes": [
+                                                "wis"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
             ]
         },
         {
-            "className": "Operative",
-            "name": "Kill Zone Setup",
-            "level": 2,
-            "source": "VestigiumGuidetoConcordCity",
-            "classSource": "VestigiumGuidetoConcordCity",
-            "entries": [
-                "As a bonus action, you can designate a 30-ft cone or 60-ft line as your Kill Zone. Until the start of your next turn, ranged attacks into that zone:\n\t•\tIgnore cover\n\t•\tDeal extra damage equal to your INT mod\n\t•\tGain +1 to attack if target moved this turn\n"
-            ]
-        },
-        {
-            "className": "Operative",
-            "name": "Operative Division (Subclass)",
-            "level": 3,
-            "source": "VestigiumGuidetoConcordCity",
-            "classSource": "VestigiumGuidetoConcordCity",
-            "entries": [
-                "Choose a specialization:"
-            ]
-        },
-        {
-            "className": "Operative",
-            "name": "Breach Protocols",
-            "level": 5,
-            "source": "VestigiumGuidetoConcordCity",
-            "classSource": "VestigiumGuidetoConcordCity",
-            "entries": [
-                "You gain “Protocol Charges” per rest. Spend 1 to:\n\t•\tAuto-succeed Stealth or Investigation for a shot\n\t•\tIgnore paranormal resistances\n\t•\tReroute damage through an anomaly (deal psychic instead of piercing)"
-            ]
-        },
-        {
-            "className": "Operative",
-            "name": "Second Shot Theory",
-            "level": 9,
-            "source": "VestigiumGuidetoConcordCity",
-            "classSource": "VestigiumGuidetoConcordCity",
-            "entries": [
-                "If you miss with a firearm attack, you can store the trajectory and attempt the shot again next turn with double the bonus — if you hit, it’s a guaranteed crit."
-            ]
-        },
-        {
-            "className": "Operative",
-            "name": "Locked Scope",
-            "level": 13,
-            "source": "VestigiumGuidetoConcordCity",
-            "classSource": "VestigiumGuidetoConcordCity",
-            "entries": [
-                "Once per rest, you may enter Focus Mode for 1 minute. During this time:\n\t•\tYou gain darkvision and tremorsense 30 ft\n\t•\tRanged weapon attacks do not provoke opportunity attacks\n\t•\tYou may use bonus actions to reposition without provoking"
-            ]
-        },
-        {
-            "className": "Operative",
-            "name": "O.S.S. Trigger",
-            "level": 17,
-            "source": "VestigiumGuidetoConcordCity",
-            "classSource": "VestigiumGuidetoConcordCity",
-            "entries": [
-                "Once per long rest, perform a perfect zero-noise kill:\n\t•\tMake a single attack from stealth; if it hits, target is instantly incapacitated (save vs. death if they are legendary)\n\t•\tLeaves no sound, no visible trace, and cannot be magically tracked unless a very high-level spell is used"
-            ]
-        },
-        {
-            "className": "Operative",
-            "name": "Apex Strike",
-            "level": 0,
-            "source": "VestigiumGuidetoConcordCity",
-            "classSource": "VestigiumGuidetoConcordCity",
-            "entries": [
-                "You can delay an attack up to 1 minute, waiting for the perfect moment. When fired:\n\t•\tYou deal maximum weapon damage\n\t•\tThe shot pierces reality, damaging any invisible/paranormal/ethereal targets in its path\n\t•\tEveryone within 100 ft hears absolutely nothing"
-            ]
-        },
-        {
-            "className": "Runner",
-            "name": "Momentum",
+            "className": "Containment officer",
+            "name": "Placeholder",
             "level": 1,
             "source": "VestigiumGuidetoConcordCity",
             "classSource": "VestigiumGuidetoConcordCity",
             "entries": [
-                "Your movement builds up kinetic energy. Every 10 feet you move on your turn grants a Momentum Die (d4), to a max of 3. You can spend these dice:\n\t•\tTo add to damage (melee or thrown)\n\t•\tTo boost an Acrobatics, Stealth, or Initiative roll\n\t•\tTo reduce falling damage\n\t•\tTo redirect a ranged attack by “displacing” your location at the last second"
+                "This feature serves as a placeholder"
             ]
         },
         {
-            "className": "Runner",
-            "name": "Flowstate",
+            "className": "Covert agent",
+            "name": "Placeholder",
+            "level": 1,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "This feature serves as a placeholder"
+            ]
+        },
+        {
+            "className": "Cultist",
+            "name": "Doctrine of the Voice",
+            "level": 1,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "You have a cultic voice — unnaturally persuasive or horrifying. As a bonus action, speak a Sermon that affects all creatures within 30 ft who can hear you:\n        •        Inspire: Grant temporary HP\n        •        Condemn: Deal psychic damage or impose fear\n        •        Unify: Let allies share senses or bonuses\n\nYou can speak a Sermon a number of times per day equal to your WIS modifier."
+            ]
+        },
+        {
+            "className": "Cultist",
+            "name": "Spellcasting",
+            "level": 1,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "You cast spells",
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Ability",
+                    "entries": [
+                        "You cast spells",
+                        {
+                            "type": "abilityDc",
+                            "name": "Modifier",
+                            "attributes": [
+                                "wis"
+                            ]
+                        },
+                        {
+                            "type": "abilityAttackMod",
+                            "name": "Modifier",
+                            "attributes": [
+                                "wis"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": "Cultist",
+            "name": "Follower’s Favor",
             "level": 2,
             "source": "VestigiumGuidetoConcordCity",
             "classSource": "VestigiumGuidetoConcordCity",
             "entries": [
-                "While moving, if you avoid touching the ground for 10+ feet, you enter Flowstate:\n\t•\tGain +2 AC until the start of your next turn\n\t•\tCan ignore difficult terrain\n\t•\tImmune to attacks of opportunity for the turn"
+                "You gain Followers — not physical NPCs, but metaphysical shadows of belief. These fuel your powers:\n\t•\tStart with 2 Followers. You gain more when creatures convert, witness your miracles, or fail to resist your sermons.\n\t•\tSpend 1 Follower to:\n\t•\tReroll a failed spell save\n\t•\tCast without components\n\t•\tDelay a condition for 1 turn\n\t•\tProject your voice through walls or static"
             ]
         },
         {
-            "className": "Runner",
-            "name": "Rift Art (Subclass)",
+            "className": "Cultist",
+            "name": "Creed (Subclass)",
             "level": 3,
             "source": "VestigiumGuidetoConcordCity",
             "classSource": "VestigiumGuidetoConcordCity",
             "entries": [
-                "Choose your method of transcending physicality:"
+                "Choose you specialization",
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Ability",
+                    "entries": [
+                        "Choose you specialization",
+                        {
+                            "type": "entries",
+                            "name": "The Hollow Creed",
+                            "entries": [
+                                "Worship revelation through madness, visions, and self-immolation"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "The Masked Creed",
+                            "entries": [
+                                "Worship a physical anomaly (ooze, swarm, hunger, etc.). Focus on summoning and corruption"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "The Consuming Creed",
+                            "entries": [
+                                "Worship personas, false identities, and shape-shifting prophets"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "The Burning Creed",
+                            "entries": [
+                                "Worship nothingness and unknowing. Silence and fear become your weapons"
+                            ]
+                        }
+                    ]
+                }
             ]
         },
         {
-            "className": "Runner",
-            "name": "Vaultbreaker",
+            "className": "Cultist",
+            "name": "Ritual Command",
             "level": 5,
             "source": "VestigiumGuidetoConcordCity",
             "classSource": "VestigiumGuidetoConcordCity",
             "entries": [
-                "You may use a bonus action to leap 20 feet without provoking attacks. If you land adjacent to a creature, you may shove or disarm them as part of the move."
+                "Once per rest, you may perform a Commandment, a powerful reality-altering sermon:\n\t•\t“The Flesh is False” – All enemies take psychic damage unless they kneel or look away.\n\t•\t“The Path Must Be Obeyed” – Designate a direction; allies who move that way get +2 AC and movement.\n\t•\t“The Witness Shall Not Fall” – Ally within 30 ft is immune to death saving throws for 1 minute."
             ]
         },
         {
-            "className": "Runner",
-            "name": "Chrono Reflex",
+            "className": "Cultist",
+            "name": "Icon of Belief",
             "level": 9,
             "source": "VestigiumGuidetoConcordCity",
             "classSource": "VestigiumGuidetoConcordCity",
             "entries": [
-                "Once per short rest, when a creature misses you, you may rewind to the position you were in at the beginning of your last turn and repeat your turn from that spot, with new decisions."
+                "You project a symbol, effigy, or glowing word into the world:\n\t•\tEnemies must save or fixate on it (or deny it, causing fear)\n\t•\tAllies can rally to it for resistance, damage bonuses, or guidance\n\t•\tThe Icon can be altered each day with different inscriptions"
             ]
         },
         {
-            "className": "Runner",
-            "name": "Wall of Air",
+            "className": "Cultist",
+            "name": "Cult of One",
             "level": 13,
             "source": "VestigiumGuidetoConcordCity",
             "classSource": "VestigiumGuidetoConcordCity",
             "entries": [
-                "While in Flowstate, your movement displaces enough paranormal static to create an aura of distortion:\n\t•\tRanged attacks suffer disadvantage\n\t•\tCreatures within 5 feet of you have a 20% chance to miss entirely as your afterimages flicker"
+                "You may project phantom followers even when alone. For 10 minutes:\n\t•\tYour sermons still affect multiple “targets”\n\t•\tYour voice echoes unnaturally, granting you advantage on CHA/WIS checks\n\t•\tYou appear as a crowd to magical detection"
             ]
         },
         {
-            "className": "Runner",
-            "name": "Flicker Clash",
+            "className": "Cultist",
+            "name": "Ascension Event",
             "level": 17,
             "source": "VestigiumGuidetoConcordCity",
             "classSource": "VestigiumGuidetoConcordCity",
             "entries": [
-                "You may take 2 turns in a row once per long rest. Between them, you temporarily vanish into a “skip” — a fractured echo of your future self. You appear in two places at once for the duration, leaving a copy that distracts or deals psychic damage."
+                "Once per long rest, trigger a religious rupture — a mass event where you become more than mortal:\n\t•\tGain flight, radiant or shadow aura, and immunity to fear or charm\n\t•\tSermons deal damage and heal simultaneously\n\t•\tYou may attempt to convert all hostile creatures within 60 ft (WIS save or become Charmed for 1 minute)"
             ]
         },
         {
-            "className": "Runner",
-            "name": "Step Outside Time",
-            "level": 20,
+            "className": "Enforcer",
+            "name": "Spellcasting",
+            "level": 1,
             "source": "VestigiumGuidetoConcordCity",
             "classSource": "VestigiumGuidetoConcordCity",
             "entries": [
-                "Once per long rest, you fully leave normal space for 6 seconds. During this turn:\n\t•\tYou may move up to 300 ft\n\t•\tYou take no attacks, ignore all terrain, and walk through walls\n\t•\tAfterward, choose one:\n\t•\tReturn to your body (as if nothing happened)\n\t•\tSwap places with an ally\n\t•\tAppear beside a target and land a critical hit with advantage"
+                "You know all the spells from the enforcer spell list",
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Ability",
+                    "entries": [
+                        "You know all the spells from the enforcer spell list",
+                        {
+                            "type": "entries",
+                            "name": "Spellcasting Ability",
+                            "entries": [
+                                {
+                                    "type": "entries",
+                                    "name": "Spellcasting Ability",
+                                    "entries": [
+                                        "Wisdom is your spellcasting ability for your enforcer spells. In addition. you use your Wisdom modifier when setting the saving throw DC for a enforcer spell you cast and when making an attack roll with one.\n                                                ",
+                                        {
+                                            "type": "abilityDc",
+                                            "name": "Modifier",
+                                            "attributes": [
+                                                "wis"
+                                            ]
+                                        },
+                                        {
+                                            "type": "abilityAttackMod",
+                                            "name": "Modifier",
+                                            "attributes": [
+                                                "wis"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": "Enforcer",
+            "name": "Consecrate/Desecrate",
+            "level": 1,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "You can create a Consecrated or Desecrated Zone as a bonus action, once per long rest at level 2, twice at level 5, and scaling up.\n\t•\tLasts 1 minute, unless dismissed early.\n\t•\tRadius begins at 10 feet and scales to 30–60 feet at higher levels.\n\t•\tYou can choose Consecrate or Desecrate when creating the zone:\n\t•\tConsecrate: benefits allies, weakens undead, improves healing, buffs divine/holy spells.\n\t•\tDesecrate: empowers necrotic or dark energy, weakens divine effects, buffs fear/control spells."
+            ]
+        },
+        {
+            "className": "Enforcer",
+            "name": "Spellcasting in a Zone",
+            "level": 1,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "You gain one of the following effects when casting spells while standing in your own zone:\n\t•\t+1 to spell attack rolls (or spell save DC)\n\t•\t+1 spell level for damage/healing scaling (1/rest)\n\t•\tImmunity to concentration disruption on saving throws\n\t•\tBonus effects tied to spell school (e.g., Evocation gains extra 5 ft radius)\n\nAt level 13+, allies also benefit from your zone effects if they cast while within it."
+            ]
+        },
+        {
+            "className": "Enforcer",
+            "name": "Empowered Zone",
+            "level": 5,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "At higher levels, you can spend a spell slot to Empower your zone:\n\t•\tDouble the radius\n\t•\tIncrease duration to 10 minutes\n\t•\tTurn spell effects cast in zone into magical difficult terrain, aura suppression, or radiating fear"
+            ]
+        },
+        {
+            "className": "Enforcer",
+            "name": "Spellcasting Restriction",
+            "level": 1,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "You can only cast a spell when on a consecrated/desecrated zone"
+            ]
+        },
+        {
+            "className": "Framewalker",
+            "name": "Placeholder",
+            "level": 1,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "This feature serves as a placeholder"
+            ]
+        },
+        {
+            "className": "Hacker",
+            "name": "Spellcasting",
+            "level": 1,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "You know all the spells from the hacker spell list"
             ]
         },
         {
@@ -39887,14 +40214,14 @@
                         "Starting at level two, you can expand medical equipement to achieve the same result as a spell. When you expand a spell slot, you must also pay the cost with medical equipement worth 100 fold the spell slot.",
                         {
                             "type": "abilityDc",
-                            "name": "Trauma Response",
+                            "name": "Modifier",
                             "attributes": [
                                 "int"
                             ]
                         },
                         {
                             "type": "abilityAttackMod",
-                            "name": "Trauma Response",
+                            "name": "Modifier",
                             "attributes": [
                                 "int"
                             ]
@@ -39992,40 +40319,134 @@
             ]
         },
         {
-            "className": "Cultist",
-            "name": "Doctrine of the Voice",
+            "className": "Mobster",
+            "name": "Placeholder",
             "level": 1,
             "source": "VestigiumGuidetoConcordCity",
             "classSource": "VestigiumGuidetoConcordCity",
             "entries": [
-                "You have a cultic voice — unnaturally persuasive or horrifying. As a bonus action, speak a Sermon that affects all creatures within 30 ft who can hear you:\n        •        Inspire: Grant temporary HP\n        •        Condemn: Deal psychic damage or impose fear\n        •        Unify: Let allies share senses or bonuses\n\nYou can speak a Sermon a number of times per day equal to your WIS modifier."
+                "This feature serves as a placeholder"
             ]
         },
         {
-            "className": "Cultist",
-            "name": "Spellcasting",
+            "className": "Operative",
+            "name": "Ranged Combat Style",
             "level": 1,
             "source": "VestigiumGuidetoConcordCity",
             "classSource": "VestigiumGuidetoConcordCity",
             "entries": [
-                "You cast spells",
+                "Pick a style of tactical engagement:"
+            ]
+        },
+        {
+            "className": "Operative",
+            "name": "Kill Zone Setup",
+            "level": 2,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "As a bonus action, you can designate a 30-ft cone or 60-ft line as your Kill Zone. Until the start of your next turn, ranged attacks into that zone:\n\t•\tIgnore cover\n\t•\tDeal extra damage equal to your INT mod\n\t•\tGain +1 to attack if target moved this turn\n"
+            ]
+        },
+        {
+            "className": "Operative",
+            "name": "Operative Division (Subclass)",
+            "level": 3,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "Choose a specialization:"
+            ]
+        },
+        {
+            "className": "Operative",
+            "name": "Breach Protocols",
+            "level": 5,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "You gain “Protocol Charges” per rest. Spend 1 to:\n\t•\tAuto-succeed Stealth or Investigation for a shot\n\t•\tIgnore paranormal resistances\n\t•\tReroute damage through an anomaly (deal psychic instead of piercing)"
+            ]
+        },
+        {
+            "className": "Operative",
+            "name": "Second Shot Theory",
+            "level": 9,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "If you miss with a firearm attack, you can store the trajectory and attempt the shot again next turn with double the bonus — if you hit, it’s a guaranteed crit."
+            ]
+        },
+        {
+            "className": "Operative",
+            "name": "Locked Scope",
+            "level": 13,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "Once per rest, you may enter Focus Mode for 1 minute. During this time:\n\t•\tYou gain darkvision and tremorsense 30 ft\n\t•\tRanged weapon attacks do not provoke opportunity attacks\n\t•\tYou may use bonus actions to reposition without provoking"
+            ]
+        },
+        {
+            "className": "Operative",
+            "name": "O.S.S. Trigger",
+            "level": 17,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "Once per long rest, perform a perfect zero-noise kill:\n\t•\tMake a single attack from stealth; if it hits, target is instantly incapacitated (save vs. death if they are legendary)\n\t•\tLeaves no sound, no visible trace, and cannot be magically tracked unless a very high-level spell is used"
+            ]
+        },
+        {
+            "className": "Operative",
+            "name": "Apex Strike",
+            "level": 0,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "You can delay an attack up to 1 minute, waiting for the perfect moment. When fired:\n\t•\tYou deal maximum weapon damage\n\t•\tThe shot pierces reality, damaging any invisible/paranormal/ethereal targets in its path\n\t•\tEveryone within 100 ft hears absolutely nothing"
+            ]
+        },
+        {
+            "className": "Parascientist",
+            "name": "Protocols",
+            "level": 1,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "Parascientists don’t know all spells — they must record, document, and interpret anomalies through fieldwork and research.",
                 {
                     "type": "entries",
                     "name": "Spellcasting Ability",
                     "entries": [
-                        "You cast spells",
+                        "Parascientists don’t know all spells — they must record, document, and interpret anomalies through fieldwork and research.",
                         {
-                            "type": "abilityDc",
-                            "name": "Spellcasting",
-                            "attributes": [
-                                "wis"
+                            "type": "entries",
+                            "name": "Pseudocatalyst Array",
+                            "entries": [
+                                "At 1st level, you are issued (or build) a Pseudocatalyst — a stable, self-recharging experimental device embedded in your field kit or neural interface. It is not capable of casting full spell protocols, but it continuously emits low-energy phenomena known as baseline emissions, which most researchers refer to as cantrips.\n\nUnlike full Catalysts, the Pseudocatalyst:\n\t•\tNever runs out of energy\n\t•\tCannot cast leveled spells\n\t•\tCannot be replaced, destroyed, or modified without significant surgery or research downtime\n\nCantrip Functionality:\n\t•\tYou know a fixed number of cantrips, chosen from the Parascientist cantrip list\n\t•\tThese can be cast at will without expending spell slots or Catalyst charges\n\t•\tCantrips are always routed through your Pseudocatalyst — they might have visual/sonic traits such as glitchy UI displays, hissing fuses, or analog sparks"
                             ]
                         },
                         {
-                            "type": "abilityAttackMod",
-                            "name": "Spellcasting",
-                            "attributes": [
-                                "wis"
+                            "type": "entries",
+                            "name": "Copying Protocols",
+                            "entries": [
+                                "You can copy additional spells into your Catalog by:\n\t•\tFinding occult research notes, unstable spell blueprints, or ancient punchcards\n\t•\tSpending time (1 hour/spell level) and resources (50 gp/spell level) to decipher & stabilize the anomaly"
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Catalysts",
+                            "entries": [
+                                "You do not cast spells traditionally. Instead, you rely on Catalysts — specialized devices, constructs, or encoded rituals that allow you to interact with anomalous forces.\n\nEach Catalyst governs a specific Field of Study (like “Aetheric Containment,” “Neural Manipulation,” or “Reality Folding”), and contains a limited pool of spell slots. You only gain access to spells associated with that Catalyst’s field."
+                            ]
+                        },
+                        {
+                            "type": "entries",
+                            "name": "Ritual Casting",
+                            "entries": [
+                                "You can ritual cast any Parascientist spell with the [R] tag in your Manual, as long as the spell level is ≤ 5 and you have appropriate containment gear or tech to simulate the ritual."
                             ]
                         }
                     ]
@@ -40033,17 +40454,61 @@
             ]
         },
         {
-            "className": "Cultist",
-            "name": "Follower’s Favor",
+            "className": "Parascientist",
+            "name": "Spellcasting",
+            "level": 1,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "You begin with a Catalog (spellbook) containing 6 1st-level spells of your choice from the parascientist spell list.",
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Ability",
+                    "entries": [
+                        "You begin with a Catalog (spellbook) containing 6 1st-level spells of your choice from the parascientist spell list.",
+                        {
+                            "type": "entries",
+                            "name": "Spellcasting Ability",
+                            "entries": [
+                                {
+                                    "type": "entries",
+                                    "name": "Spellcasting Ability",
+                                    "entries": [
+                                        "Intelligence is your spellcasting ability for your parascientist spells. In addition. you use your Intelligence modifier when setting the saving throw DC for a parascientist spell you cast and when making an attack roll with one.\n                                                ",
+                                        {
+                                            "type": "abilityDc",
+                                            "name": "Modifier",
+                                            "attributes": [
+                                                "int"
+                                            ]
+                                        },
+                                        {
+                                            "type": "abilityAttackMod",
+                                            "name": "Modifier",
+                                            "attributes": [
+                                                "int"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "className": "Parascientist",
+            "name": "Containment Glyphs",
             "level": 2,
             "source": "VestigiumGuidetoConcordCity",
             "classSource": "VestigiumGuidetoConcordCity",
             "entries": [
-                "You gain Followers — not physical NPCs, but metaphysical shadows of belief. These fuel your powers:\n\t•\tStart with 2 Followers. You gain more when creatures convert, witness your miracles, or fail to resist your sermons.\n\t•\tSpend 1 Follower to:\n\t•\tReroll a failed spell save\n\t•\tCast without components\n\t•\tDelay a condition for 1 turn\n\t•\tProject your voice through walls or static"
+                "A Parascientist may cast a spell as a glyph instead — planting traps, scanners, or conditional wards."
             ]
         },
         {
-            "className": "Cultist",
+            "className": "Parascientist",
             "name": "Creed (Subclass)",
             "level": 3,
             "source": "VestigiumGuidetoConcordCity",
@@ -40088,72 +40553,18 @@
             ]
         },
         {
-            "className": "Cultist",
-            "name": "Ritual Command",
-            "level": 5,
-            "source": "VestigiumGuidetoConcordCity",
-            "classSource": "VestigiumGuidetoConcordCity",
-            "entries": [
-                "Once per rest, you may perform a Commandment, a powerful reality-altering sermon:\n\t•\t“The Flesh is False” – All enemies take psychic damage unless they kneel or look away.\n\t•\t“The Path Must Be Obeyed” – Designate a direction; allies who move that way get +2 AC and movement.\n\t•\t“The Witness Shall Not Fall” – Ally within 30 ft is immune to death saving throws for 1 minute."
-            ]
-        },
-        {
-            "className": "Cultist",
-            "name": "Icon of Belief",
-            "level": 9,
-            "source": "VestigiumGuidetoConcordCity",
-            "classSource": "VestigiumGuidetoConcordCity",
-            "entries": [
-                "You project a symbol, effigy, or glowing word into the world:\n\t•\tEnemies must save or fixate on it (or deny it, causing fear)\n\t•\tAllies can rally to it for resistance, damage bonuses, or guidance\n\t•\tThe Icon can be altered each day with different inscriptions"
-            ]
-        },
-        {
-            "className": "Cultist",
-            "name": "Cult of One",
-            "level": 13,
-            "source": "VestigiumGuidetoConcordCity",
-            "classSource": "VestigiumGuidetoConcordCity",
-            "entries": [
-                "You may project phantom followers even when alone. For 10 minutes:\n\t•\tYour sermons still affect multiple “targets”\n\t•\tYour voice echoes unnaturally, granting you advantage on CHA/WIS checks\n\t•\tYou appear as a crowd to magical detection"
-            ]
-        },
-        {
-            "className": "Cultist",
-            "name": "Ascension Event",
-            "level": 17,
-            "source": "VestigiumGuidetoConcordCity",
-            "classSource": "VestigiumGuidetoConcordCity",
-            "entries": [
-                "Once per long rest, trigger a religious rupture — a mass event where you become more than mortal:\n\t•\tGain flight, radiant or shadow aura, and immunity to fear or charm\n\t•\tSermons deal damage and heal simultaneously\n\t•\tYou may attempt to convert all hostile creatures within 60 ft (WIS save or become Charmed for 1 minute)"
-            ]
-        },
-        {
-            "className": "Architect",
+            "className": "Persona",
             "name": "Spellcasting",
             "level": 1,
             "source": "VestigiumGuidetoConcordCity",
             "classSource": "VestigiumGuidetoConcordCity",
             "entries": [
-                "You know all the spells from the architect spell list",
+                "You know all the spells from the Persona spell list",
                 {
                     "type": "entries",
                     "name": "Spellcasting Ability",
                     "entries": [
-                        "You know all the spells from the architect spell list",
-                        {
-                            "type": "entries",
-                            "name": "Urban Attunement",
-                            "entries": [
-                                "At 1st level you know all the cantrips on the architect spell list. You can only cast a cantrip when you are standing on the appropriate terrain for that cantrip."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Preparing and Casting Spells",
-                            "entries": [
-                                "As an architect, your spells are bound to the terrain you stand on. You know all spells from the architect spell list, but you can only cast those associated with your current environment. Rooftops, stairwells, tunnels, alleys — each shape the flow of energy in different ways. |\nThe Architect table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest. |\nWisdom is your spellcasting ability for architect spells, as your magic stems from your intuitive link with the structures around you. |\n\nYou do not prepare spells. Instead, the spells available to you at any given time are determined by your current terrain. If you are not in a location associated with any spells, you cannot cast architect spells until you move into terrain that qualifies. |"
-                            ]
-                        },
+                        "You know all the spells from the Persona spell list",
                         {
                             "type": "entries",
                             "name": "Spellcasting Ability",
@@ -40162,30 +40573,23 @@
                                     "type": "entries",
                                     "name": "Spellcasting Ability",
                                     "entries": [
-                                        "Wisdom is your spellcasting ability for your druid spells, you harvest the decays and renewal of urban settings. In addition. you use your Wisdom modifier when setting the saving throw DC for a duird spell you cast and when making an attack roll with one.\n                                                ",
+                                        "Charisma is your spellcasting ability for your persona spells. In addition. you use your Charisma modifier when setting the saving throw DC for a persona spell you cast and when making an attack roll with one.\n                                                ",
                                         {
                                             "type": "abilityDc",
-                                            "name": "Urban Attunement",
+                                            "name": "Modifier",
                                             "attributes": [
-                                                "wis"
+                                                "cha"
                                             ]
                                         },
                                         {
                                             "type": "abilityAttackMod",
-                                            "name": "Urban Attunement",
+                                            "name": "Modifier",
                                             "attributes": [
-                                                "wis"
+                                                "cha"
                                             ]
                                         }
                                     ]
                                 }
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Ritual Casting",
-                            "entries": [
-                                "You can cast an architect spell as a ritual if that spell has the ritual tag and you have the spell prepared.\n                                        "
                             ]
                         }
                     ]
@@ -40193,37 +40597,47 @@
             ]
         },
         {
-            "className": "Architect",
-            "name": "Strata (Subclass)",
+            "className": "Persona",
+            "name": "Hype Dice",
             "level": 2,
             "source": "VestigiumGuidetoConcordCity",
             "classSource": "VestigiumGuidetoConcordCity",
             "entries": [
-                "At 2nd level, choose your Architect Stratum — a layer of architectural philosophy embedded in your being.",
+                "You start with a number of Hype Dice equal to your Charisma modifier + proficiency bonus, regained on a long rest."
+            ]
+        },
+        {
+            "className": "Persona",
+            "name": "Carreer",
+            "level": 3,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "At third level you may choose a carreer:",
                 {
                     "type": "entries",
                     "name": "Spellcasting Ability",
                     "entries": [
-                        "At 2nd level, choose your Architect Stratum — a layer of architectural philosophy embedded in your being.",
+                        "At third level you may choose a carreer:",
                         {
                             "type": "entries",
-                            "name": "Stratum of Rust",
+                            "name": "Micro-influencer",
                             "entries": [
-                                "Metal rots like flesh. The city was never built to last."
+                                "You are a memetic vector. Your very existence trends. You’re not always in control of your message—but your message always controls others."
                             ]
                         },
                         {
                             "type": "entries",
-                            "name": "Stratum of Concrete",
+                            "name": "Life-coach",
                             "entries": [
-                                "The world is steel and stone. And I am its guardian."
+                                "You manifest empowerment through parasocial manipulation, corporate wellness-speak, and weaponized optimism. You aren’t a healer—you coach through collapse."
                             ]
                         },
                         {
                             "type": "entries",
-                            "name": "Stratum of Neon",
+                            "name": "Amateur pornstar",
                             "entries": [
-                                "The lights never go out, and neither do I."
+                                "Your spellcasting is fueled by taboo, intimacy, and an unfiltered link between attention and arousal. You don’t seduce—you broadcast erotic power that bypasses defenses and floods the senses."
                             ]
                         }
                     ]
@@ -40237,7 +40651,41 @@
             "source": "VestigiumGuidetoConcordCity",
             "classSource": "VestigiumGuidetoConcordCity",
             "entries": [
-                "Intelligence is your manifestation ability for your psionic power, Does not “cast spells” but manipulates mental currents, perceptions, and stored patterns of thought. In addition. you use your Intelligence modifier when setting the saving throw DC for a psionic power you manifest and when making an attack roll with one.\n                                                "
+                "Intelligence is your manifestation ability for your psionic power, Does not “cast spells” but manipulates mental currents, perceptions, and stored patterns of thought. In addition. you use your Intelligence modifier when setting the saving throw DC for a psionic power you manifest and when making an attack roll with one.\n                                                ",
+                {
+                    "type": "entries",
+                    "name": "Spellcasting Ability",
+                    "entries": [
+                        "Intelligence is your manifestation ability for your psionic power, Does not “cast spells” but manipulates mental currents, perceptions, and stored patterns of thought. In addition. you use your Intelligence modifier when setting the saving throw DC for a psionic power you manifest and when making an attack roll with one.\n                                                ",
+                        {
+                            "type": "entries",
+                            "name": "Manifestation Ability",
+                            "entries": [
+                                {
+                                    "type": "entries",
+                                    "name": "Spellcasting Ability",
+                                    "entries": [
+                                        "Intelligence is your manifesting ability for your psionic powers. In addition. you use your Intelligence modifier when setting the saving throw DC for a psionic power you cast and when making an attack roll with one.\n                                                ",
+                                        {
+                                            "type": "abilityDc",
+                                            "name": "Modifier",
+                                            "attributes": [
+                                                "int"
+                                            ]
+                                        },
+                                        {
+                                            "type": "abilityAttackMod",
+                                            "name": "Modifier",
+                                            "attributes": [
+                                                "int"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
             ]
         },
         {
@@ -40313,78 +40761,123 @@
             ]
         },
         {
-            "className": "Persona",
+            "className": "Runner",
+            "name": "Momentum",
+            "level": 1,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "Your movement builds up kinetic energy. Every 10 feet you move on your turn grants a Momentum Die (d4), to a max of 3. You can spend these dice:\n\t•\tTo add to damage (melee or thrown)\n\t•\tTo boost an Acrobatics, Stealth, or Initiative roll\n\t•\tTo reduce falling damage\n\t•\tTo redirect a ranged attack by “displacing” your location at the last second"
+            ]
+        },
+        {
+            "className": "Runner",
+            "name": "Flowstate",
+            "level": 2,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "While moving, if you avoid touching the ground for 10+ feet, you enter Flowstate:\n\t•\tGain +2 AC until the start of your next turn\n\t•\tCan ignore difficult terrain\n\t•\tImmune to attacks of opportunity for the turn"
+            ]
+        },
+        {
+            "className": "Runner",
+            "name": "Rift Art (Subclass)",
+            "level": 3,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "Choose your method of transcending physicality:"
+            ]
+        },
+        {
+            "className": "Runner",
+            "name": "Vaultbreaker",
+            "level": 5,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "You may use a bonus action to leap 20 feet without provoking attacks. If you land adjacent to a creature, you may shove or disarm them as part of the move."
+            ]
+        },
+        {
+            "className": "Runner",
+            "name": "Chrono Reflex",
+            "level": 9,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "Once per short rest, when a creature misses you, you may rewind to the position you were in at the beginning of your last turn and repeat your turn from that spot, with new decisions."
+            ]
+        },
+        {
+            "className": "Runner",
+            "name": "Wall of Air",
+            "level": 13,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "While in Flowstate, your movement displaces enough paranormal static to create an aura of distortion:\n\t•\tRanged attacks suffer disadvantage\n\t•\tCreatures within 5 feet of you have a 20% chance to miss entirely as your afterimages flicker"
+            ]
+        },
+        {
+            "className": "Runner",
+            "name": "Flicker Clash",
+            "level": 17,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "You may take 2 turns in a row once per long rest. Between them, you temporarily vanish into a “skip” — a fractured echo of your future self. You appear in two places at once for the duration, leaving a copy that distracts or deals psychic damage."
+            ]
+        },
+        {
+            "className": "Runner",
+            "name": "Step Outside Time",
+            "level": 20,
+            "source": "VestigiumGuidetoConcordCity",
+            "classSource": "VestigiumGuidetoConcordCity",
+            "entries": [
+                "Once per long rest, you fully leave normal space for 6 seconds. During this turn:\n\t•\tYou may move up to 300 ft\n\t•\tYou take no attacks, ignore all terrain, and walk through walls\n\t•\tAfterward, choose one:\n\t•\tReturn to your body (as if nothing happened)\n\t•\tSwap places with an ally\n\t•\tAppear beside a target and land a critical hit with advantage"
+            ]
+        },
+        {
+            "className": "Scourge",
             "name": "Spellcasting",
             "level": 1,
             "source": "VestigiumGuidetoConcordCity",
             "classSource": "VestigiumGuidetoConcordCity",
             "entries": [
-                "You know all the spells from the Persona spell list",
+                "Youy learn spells from the scourge list as you level up",
                 {
                     "type": "entries",
                     "name": "Spellcasting Ability",
                     "entries": [
-                        "You know all the spells from the Persona spell list",
-                        {
-                            "type": "abilityDc",
-                            "name": "Influence",
-                            "attributes": [
-                                "cha"
-                            ]
-                        },
-                        {
-                            "type": "abilityAttackMod",
-                            "name": "Influence",
-                            "attributes": [
-                                "cha"
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "className": "Persona",
-            "name": "Hype Dice",
-            "level": 2,
-            "source": "VestigiumGuidetoConcordCity",
-            "classSource": "VestigiumGuidetoConcordCity",
-            "entries": [
-                "You start with a number of Hype Dice equal to your Charisma modifier + proficiency bonus, regained on a long rest."
-            ]
-        },
-        {
-            "className": "Persona",
-            "name": "Carreer",
-            "level": 3,
-            "source": "VestigiumGuidetoConcordCity",
-            "classSource": "VestigiumGuidetoConcordCity",
-            "entries": [
-                "At third level you may choose a carreer:",
-                {
-                    "type": "entries",
-                    "name": "Spellcasting Ability",
-                    "entries": [
-                        "At third level you may choose a carreer:",
+                        "Youy learn spells from the scourge list as you level up",
                         {
                             "type": "entries",
-                            "name": "Micro-influencer",
+                            "name": "Spellcasting Ability",
                             "entries": [
-                                "You are a memetic vector. Your very existence trends. You’re not always in control of your message—but your message always controls others."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Life-coach",
-                            "entries": [
-                                "You manifest empowerment through parasocial manipulation, corporate wellness-speak, and weaponized optimism. You aren’t a healer—you coach through collapse."
-                            ]
-                        },
-                        {
-                            "type": "entries",
-                            "name": "Amateur pornstar",
-                            "entries": [
-                                "Your spellcasting is fueled by taboo, intimacy, and an unfiltered link between attention and arousal. You don’t seduce—you broadcast erotic power that bypasses defenses and floods the senses."
+                                {
+                                    "type": "entries",
+                                    "name": "Spellcasting Ability",
+                                    "entries": [
+                                        "Charisma is your spellcasting ability for your scourge spells. In addition. you use your Charisma modifier when setting the saving throw DC for a scourge spell you cast and when making an attack roll with one.\n                                                ",
+                                        {
+                                            "type": "abilityDc",
+                                            "name": "Modifier",
+                                            "attributes": [
+                                                "char"
+                                            ]
+                                        },
+                                        {
+                                            "type": "abilityAttackMod",
+                                            "name": "Modifier",
+                                            "attributes": [
+                                                "char"
+                                            ]
+                                        }
+                                    ]
+                                }
                             ]
                         }
                     ]
@@ -40572,6 +41065,805 @@
             "source": "VestigiumGuidetoConcordCity",
             "entries": [
                 "Perception checks reliant on sight are made at disadvantage."
+            ]
+        }
+    ],
+    "feat": [
+        {
+            "name": "red tape specialist",
+            "source": "VSTGCC",
+            "entries": [
+                "You understand that in Concord City, bureaucracy is a weapon.",
+                "Gain proficiency in **Persuasion** and **Investigation** (or Expertise if already proficient).",
+                " Once per long rest, you can **file an official complaint, request, or report** that legally delays an action for 24 hours (such as an eviction, corporate ruling, or arrest).",
+                " You can produce a **convincing legal document** once per day (e.g., fake permits, access requests, cease-and-desist orders)."
+            ]
+        },
+        {
+            "name": "corporate chameleon",
+            "source": "VSTGCC",
+            "entries": [
+                "You blend into the machine, adapting to corporate environments effortlessly.",
+                "Gain proficiency in **Deception** and **Insight** (or Expertise if already proficient).",
+                " You can **impersonate an employee** of any business or government office",
+                " your disguise automatically works unless directly challenged.",
+                " Once per long rest, you can **gain temporary access to a restricted area** by exploiting corporate loopholes or security blind spots."
+            ]
+        },
+        {
+            "name": "analog mind",
+            "source": "VSTGCC",
+            "entries": [
+                "Your thought patterns are too outdated to be predicted by modern surveillance.",
+                "You are **immune to mind-reading from digital sources** (AI, computers, automated psychic scans).",
+                " Spells or abilities that attempt to detect you must succeed on an **Intelligence saving throw (DC 8 + your proficiency bonus + Intelligence modifier)** or receive distorted, outdated, or incorrect information.",
+                " You have **advantage on Insight checks** to detect digital or paranormal manipulation of reality."
+            ]
+        },
+        {
+            "name": "ghost in the system",
+            "source": "VSTGCC",
+            "entries": [
+                "You exist between the cracks of Concord City's data networks.",
+                "Gain proficiency in **Stealth** and **Deception** (or Expertise if already proficient).",
+                " Your **identity does not appear in any official records unless you choose it to**—databases show conflicting or outdated results when checked.",
+                " Once per long rest, you can **erase traces of your presence**, making it impossible to track you digitally for 24 hours."
+            ]
+        },
+        {
+            "name": "scavenger’s instinct",
+            "source": "VSTGCC",
+            "entries": [
+                "Everything has a use if you know where to look.",
+                "Gain proficiency in **Investigation** and **Sleight of Hand** (or Expertise if already proficient).",
+                " You can **assess the value of any object at a glance** and determine its usefulness in a makeshift capacity.",
+                " Once per day, when searching in an urban area, you **find a useful item worth up to 10 gp**, such as a lockpick, old ID badge, or emergency ration."
+            ]
+        },
+        {
+            "name": "residual anomaly",
+            "source": "VSTGCC",
+            "entries": [
+                "Something changed you during The Emergence, leaving behind a mark.",
+                "Choose **one minor paranormal trait** (e.g., static in your voice, flickering pupils, a faint glow in your hands).",
+                " You **do not appear clearly on security cameras, photographs, or digital scans** unless you force yourself to.",
+                " Once per long rest, you can **produce an eerie but harmless paranormal effect**, such as flickering lights, whispering voices, or a brief glitch in local electronics."
+            ]
+        },
+        {
+            "name": "vestigium touched",
+            "source": "VSTGCC",
+            "entries": [
+                "You are subtly attuned to anomalies, feeling the echoes of their presence.",
+                "Gain proficiency in **Arcana** and **Insight** (or Expertise if already proficient).",
+                " Once per day, when touching an anomaly or supernatural object, you receive **a brief vision or cryptic insight** into its nature or history.",
+                " If an anomaly targets you with a supernatural effect, you may **roll a d6 and add it to your saving throw** (once per long rest)."
+            ]
+        },
+        {
+            "name": "unstable presence",
+            "source": "VSTGCC",
+            "entries": [
+                "Reality struggles to hold you in place.",
+                "Your **shadow sometimes moves independently**, your **footsteps occasionally echo twice**, and your **reflection lags in mirrors**.",
+                " You have **advantage on saving throws against spells and abilities that detect thoughts, predict actions, or influence your mind.**",
+                " Once per long rest, you can **phase through a thin object** (a barred gate, a glass window, or a locked metal door)."
+            ]
+        },
+        {
+            "name": "glitch in the ledger",
+            "source": "VSTGCC",
+            "entries": [
+                "You shouldn’t exist, and yet you do.",
+                "You **do not have a registered legal identity**, making you extremely difficult to track through normal means.",
+                " Once per long rest, you can **forge or erase a digital record of yourself** (such as altering your employment status, legal documents, or criminal record).",
+                " When someone attempts to **investigate your past**, they must make an **Intelligence (Investigation) check (DC 15 + your proficiency bonus)** or receive conflicting, outdated, or missing data."
+            ]
+        },
+        {
+            "name": "analog operator",
+            "source": "VSTGCC",
+            "entries": [
+                "You are trained in outdated but reliable tech that corporations overlook.",
+                "Gain proficiency in **Thieves' Tools** and **Tinker’s Tools** (or Expertise if already proficient).",
+                " You can **operate, repair, and hack analog technology** (CRT monitors, punch-card databases, electromagnetic locks, etc.) with **advantage**.",
+                " Once per long rest, you can **improvise a temporary tool from scrap materials**, such as a shortwave radio, mechanical disruptor, or lock bypass."
+            ]
+        },
+        {
+            "name": "data phantom",
+            "source": "VSTGCC",
+            "entries": [
+                "Your presence in the digital world is elusive, fragmented, and untraceable.",
+                "Gain proficiency in **Deception** and **Computers** (if applicable).",
+                " You can **erase digital records of your presence** with a successful **Intelligence (Investigation) or Dexterity (Sleight of Hand) check (DC 15).**",
+                " Once per long rest, you can **send a false data ping** to mislead surveillance, making it appear as if you were somewhere else."
+            ]
+        },
+        {
+            "name": "brutalist combatant",
+            "source": "VSTGCC",
+            "entries": [
+                "You excel at turning your surroundings into deadly tools.",
+                "Gain **proficiency in Athletics and Intimidation** (or Expertise if already proficient).",
+                " **When using an improvised weapon**, it deals **+2 damage** due to your sheer force and efficiency.",
+                " If fighting in an **urban or industrial environment**, you have **advantage on attacks that involve the surroundings** (throwing debris, using pipes as clubs, slamming foes into walls)."
+            ]
+        },
+        {
+            "name": "security force training",
+            "source": "VSTGCC",
+            "entries": [
+                "You have professional combat training, whether from corporate security or private enforcement.",
+                "Gain proficiency in **Athletics** and **Perception** (or Expertise if already proficient).",
+                " You can **analyze enemy formations**, granting **advantage on Initiative rolls.**",
+                " Once per long rest, you can **command an ally within 30 feet**, allowing them to **take the Dash or Dodge action as a reaction.**"
+            ]
+        },
+        {
+            "name": "paranormal containment specialist",
+            "source": "VSTGCC",
+            "entries": [
+                "You know how to disable and suppress anomalous threats.",
+                "Gain proficiency in **Arcana and Athletics** (or Expertise if already proficient).",
+                " You have **advantage on grappling checks against creatures affected by anomalies.**",
+                " Once per long rest, when **restraining an anomaly**, you can impose **disadvantage on its next saving throw.**"
+            ]
+        },
+        {
+            "name": "velvet persuasion",
+            "source": "VSTGCC",
+            "entries": [
+                "You know exactly how to make someone feel like they’re the most important person in the world—until they’re not.",
+                "Gain proficiency in **Persuasion** and **Deception** (or Expertise if already proficient).",
+                " When making a **Charisma check to seduce, manipulate, or entice someone**, you may roll with **advantage** once per long rest.",
+                " If you spend **at least 10 minutes alone with a target in a social setting**, you can plant a **subtle suggestion in their mind** that lingers for **24 hours** (this does not function as magical charm, but influences their decision-making)."
+            ]
+        },
+        {
+            "name": "familiarity breeds desire",
+            "source": "VSTGCC",
+            "entries": [
+                "You have mastered the art of cultivating intimacy for personal or professional gain.",
+                "Gain proficiency in **Insight** and **Performance** (or Expertise if already proficient).",
+                " When interacting with someone **over multiple encounters**, your **social checks gradually improve**, gaining **+1 each time (up to +3) after successive meetings.**",
+                " If you spend **a long rest with someone in a romantic or intimate setting**, you gain **advantage on Charisma checks** against them for the next **24 hours.**"
+            ]
+        },
+        {
+            "name": "dangerous liaisons",
+            "source": "VSTGCC",
+            "entries": [
+                "You attract those who should know better—but don’t.",
+                "When engaging in **risky, illicit, or forbidden affairs**, you gain **advantage on Persuasion and Deception checks.**",
+                " Once per long rest, if you **share a moment of intimacy** with someone, you can subtly influence their next **major decision**, making them **second-guess or reconsider** an action that would directly harm you.",
+                " If you spend **at least an hour with someone**, you can roll **Insight (DC 15)** to determine **what they desire most from you in a personal or intimate context.**"
+            ]
+        },
+        {
+            "name": "the art of ruin",
+            "source": "VSTGCC",
+            "entries": [
+                "You are an expert at seduction, but your affections come with a cost.",
+                "Gain proficiency in **Deception** and **Persuasion** (or Expertise if already proficient).",
+                " If you charm, seduce, or manipulate someone over multiple encounters, they gain a **compulsion to seek you out** even when it is against their better judgment.",
+                " Once per long rest, if a target **falls for your deception or seduction**, they have **disadvantage on Insight checks against you for 24 hours.**"
+            ]
+        },
+        {
+            "name": "mutually assured devotion",
+            "source": "VSTGCC",
+            "entries": [
+                "When you love, you make it a bond that cannot be easily broken.",
+                "Choose one willing person to be your **Devoted Partner**. This connection lasts until you **consciously sever it** or they **betray you**.",
+                " When within **30 feet of your Devoted Partner**, you can each **sense the other’s emotions** without speaking.",
+                " If either of you is **attacked**, the other can use their **reaction to impose disadvantage on the attack roll once per long rest.**"
+            ]
+        },
+        {
+            "name": "synthetic love",
+            "source": "VSTGCC",
+            "entries": [
+                "You understand that romance, like everything else in Concord City, is a transaction.",
+                "Gain proficiency in **Persuasion and Insight** (or Expertise if already proficient).",
+                " You can **fake genuine romantic or sexual attraction convincingly**, making Insight checks to detect your deception **roll at disadvantage**.",
+                " Once per long rest, you can **convince someone to do a favor for you**, as long as it is framed as an emotional investment in your relationship."
+            ]
+        },
+        {
+            "name": "unshakable chemistry",
+            "source": "VSTGCC",
+            "entries": [
+                "Some connections transcend logic. Whether for passion or protection, you and another are inextricably linked.",
+                "Choose one willing person to be your **Bound Companion**. This bond lasts until **severed by betrayal, death, or mutual agreement.**",
+                " When within **10 feet of your Bound Companion**, you each gain a **+1 bonus to saving throws**.",
+                " If your Bound Companion **falls unconscious**, you gain **advantage on all attacks and saving throws** until the end of your next turn."
+            ]
+        },
+        {
+            "name": "blackmail and pillow talk",
+            "source": "VSTGCC",
+            "entries": [
+                "Your lovers always say too much, and you never forget what you hear.",
+                "Gain proficiency in **Deception** and **Investigation** (or Expertise if already proficient).",
+                " If you spend **at least an hour in a private setting** with someone, you may learn **one secret** about them that can be used for leverage.",
+                " Once per long rest, when confronted with an **NPC or enemy**, you can declare that you **already know something incriminating about them**, forcing them to make a **Wisdom saving throw (DC 8 + your Charisma modifier + proficiency bonus)** or become **hesitant, nervous, or vulnerable** for 10 minutes."
+            ]
+        },
+        {
+            "name": "blood and roses",
+            "source": "VSTGCC",
+            "entries": [
+                "For you, passion and violence are different sides of the same blade.",
+                "Gain proficiency in **Intimidation** and **Persuasion** (or Expertise if already proficient).",
+                " If you engage in **a passionate or violent act**, you gain **advantage on your next Charisma check** against that person.",
+                " If someone **physically harms you in an intimate or social setting**, you can force them to make a **Wisdom saving throw (DC 8 + Charisma modifier + proficiency bonus)** or become **shaken and vulnerable to your manipulation** for 1 minute."
+            ]
+        },
+        {
+            "name": "seductive threat",
+            "source": "VSTGCC",
+            "entries": [
+                "You don’t just allure—you make them afraid of what they’d lose if they displease you.",
+                "Gain proficiency in **Intimidation and Persuasion** (or Expertise if already proficient).",
+                " If someone **flirts, courts, or propositions you**, you can roll **Intimidation instead of Persuasion** to steer the situation to your advantage.",
+                " If a target is **romantically attracted to you**, they must succeed on a **Wisdom saving throw (DC 8 + your Charisma modifier + proficiency bonus)** or **hesitate before taking a harmful action against you.**"
+            ]
+        },
+        {
+            "name": "tactile manipulation",
+            "source": "VSTGCC",
+            "entries": [
+                "A simple touch is enough to change their mind.",
+                "Gain proficiency in **Sleight of Hand** and **Deception** (or Expertise if already proficient).",
+                " When making a Charisma-based skill check, you can **physically touch the target** to gain **advantage** if they are not hostile.",
+                " If a target is **already charmed, infatuated, or emotionally vulnerable**, you can make a **free Deception or Persuasion check** against them once per short rest."
+            ]
+        },
+        {
+            "name": "romantic fixation",
+            "source": "VSTGCC",
+            "entries": [
+                "Some people can’t let go. You know how to use that.",
+                "When you engage in **a meaningful romantic or sexual encounter**, the other person becomes **fixated on you** unless they succeed on a **Wisdom saving throw (DC 8 + Charisma modifier + proficiency bonus).**",
+                " This fixation causes them to **become protective, emotionally unbalanced, or prone to jealousy.**",
+                " If their fixation is used against them (by yourself or another), they suffer **disadvantage on Insight checks and Wisdom saving throws** related to you."
+            ]
+        },
+        {
+            "name": "addictive presence",
+            "source": "VSTGCC",
+            "entries": [
+                "Once someone has had a taste of you, they never quite shake the craving.",
+                "Gain proficiency in **Persuasion and Deception** (or Expertise if already proficient).",
+                " After spending **at least 1 hour in an intimate or emotionally vulnerable setting with someone**, they suffer **disadvantage on Insight checks against you for 24 hours.**",
+                " If they willingly part with you, they must succeed on a **Wisdom saving throw (DC 8 + Charisma modifier + proficiency bonus)** or experience **emotional withdrawal**, making them prone to **impulsive or desperate actions to see you again.**"
+            ]
+        },
+        {
+            "name": "momentum fighter",
+            "source": "VSTGCC",
+            "entries": [
+                "The more you move, the harder you are to stop.",
+                "If you move **at least 10 feet** before making a melee attack, you gain **+2 to the attack roll**.",
+                " If you successfully hit a target after moving **at least 20 feet**, you can choose to **shove them 5 feet** in any direction.",
+                " If you reduce a creature to 0 HP with a melee attack, you can **immediately move 10 feet** without provoking opportunity attacks."
+            ]
+        },
+        {
+            "name": "close quarters brutality",
+            "source": "VSTGCC",
+            "entries": [
+                "You specialize in tight spaces where there’s no room to run.",
+                "When you are **within 5 feet of a creature**, **ranged attacks against you have disadvantage**.",
+                " If you **grapple a creature**, you can use a **bonus action to deal 1d6 bludgeoning damage**.",
+                " If you are **grappled or restrained**, you have **advantage on attack rolls** against the creature restraining you."
+            ]
+        },
+        {
+            "name": "second wind threshold",
+            "source": "VSTGCC",
+            "entries": [
+                "You fight hardest when your back is against the wall.",
+                "When you are below **half your maximum HP**, you gain **+1 AC and +2 to damage rolls**.",
+                " When you are at **10 HP or lower**, you have **advantage on all Strength and Constitution saving throws**.",
+                " Once per long rest, if you are reduced to 0 HP, you can **stay at 1 HP instead** and take an **immediate bonus action attack** before going down."
+            ]
+        },
+        {
+            "name": "wrecking force",
+            "source": "VSTGCC",
+            "entries": [
+                "Your strikes aren’t just meant to wound—they’re meant to break things.",
+                "Your melee attacks **ignore resistance to bludgeoning, piercing, and slashing damage** from non-magical sources.",
+                " When you **critically hit** with a melee weapon or improvised weapon, you can choose to **damage the target’s armor or shield**, reducing its AC by **1 (to a minimum of 10)**.",
+                " When fighting in **an urban environment**, you can use **destructible objects** (walls, furniture, pipes, doors) to **gain cover or deal additional improvised damage** (GM discretion)."
+            ]
+        },
+        {
+            "name": "opportunist",
+            "source": "VSTGCC",
+            "entries": [
+                "Every mistake is an opening for you.",
+                "If a creature **misses you with an attack**, you can use your **reaction** to make an **improvised weapon attack** or an **unarmed strike**.",
+                " If a creature **within 5 feet of you takes damage from another source**, you can use your **reaction** to make an **attack of opportunity** against them.",
+                " If you reduce a creature to **0 HP**, your next **attack roll before the end of your next turn has advantage**."
+            ]
+        },
+        {
+            "name": "exploiter’s instinct",
+            "source": "VSTGCC",
+            "entries": [
+                "You don’t fight fair—you fight smart.",
+                "When you **attack a creature that is prone, restrained, blinded, or incapacitated**, you deal **+1d6 damage**.",
+                " If you hit a **creature affected by a status condition**, you can use a **bonus action to attempt a Disarm, Shove, or Grapple.**",
+                " If you successfully **grapple or shove** an opponent, you gain **advantage on your next melee attack against them**."
+            ]
+        },
+        {
+            "name": "adaptable combatant",
+            "source": "VSTGCC",
+            "entries": [
+                "You learn faster than your enemies can react.",
+                "When you **take damage from a melee attack**, you gain **+1 AC against that enemy until the start of your next turn**.",
+                " If you miss an attack, you can use your **reaction to analyze your opponent**, gaining **advantage on your next attack against them**.",
+                " Once per long rest, if you are **affected by a condition (stunned, paralyzed, grappled, etc.)**, you can **end the effect at the start of your next turn** by taking an **additional 1d8 psychic damage**."
+            ]
+        },
+        {
+            "name": "savage counterattack",
+            "source": "VSTGCC",
+            "entries": [
+                "Pain only makes you fight harder.",
+                "When a creature **hits you with a melee attack**, you can use your **reaction to immediately strike back**, dealing **1d6 damage** even if they are out of your reach.",
+                " If you take **critical damage**, your next attack roll has **advantage and deals +1d8 extra damage**.",
+                " If you are **bloodied (at or below half HP)**, you can add **+2 to your melee attack rolls** until you regain hit points."
+            ]
+        },
+        {
+            "name": "instinctive feint",
+            "source": "VSTGCC",
+            "entries": [
+                "You fight by forcing your opponent to misstep before you strike.",
+                "As a **bonus action**, you can **fake an attack**, forcing a creature within **5 feet** to make a **Wisdom saving throw (DC 8 + your proficiency bonus + Charisma modifier).**"
+            ]
+        },
+        {
+            "name": "fury over precision",
+            "source": "VSTGCC",
+            "entries": [
+                "You don’t care about technique—you just keep swinging until something breaks.",
+                "If you **miss an attack**, you can **reroll the attack with disadvantage** once per turn.",
+                " Once per short rest, if you **fail a Strength, Dexterity, or Constitution check**, you can choose to **succeed instead but take 1d8 damage from overexertion**.",
+                " If you **score a critical hit**, you can make **one additional melee attack as a bonus action**."
+            ]
+        },
+        {
+            "name": "break their rhythm",
+            "source": "VSTGCC",
+            "entries": [
+                "A well-placed strike can disrupt even the strongest opponent’s flow.",
+                "If you hit a creature, you can **reduce their movement speed by 10 feet** until the start of your next turn.",
+                " When you **attack a creature using Multiattack, Extra Attack, or other multiple-attack features**, you can force them to make a **Dexterity saving throw (DC 8 + your proficiency bonus + Strength or Dexterity modifier).**"
+            ]
+        },
+        {
+            "name": "unyielding drive",
+            "source": "VSTGCC",
+            "entries": [
+                "You refuse to stop moving, no matter how hard they hit you.",
+                "You gain **advantage on Strength and Constitution saving throws against being knocked prone, restrained, or incapacitated**.",
+                " If you are **forced to move against your will**, you can reduce the distance by **5 feet** (minimum 0 feet).",
+                " If you use **your full movement on your turn**, you gain **temporary hit points equal to your proficiency bonus**."
+            ]
+        },
+        {
+            "name": "master of the social web",
+            "source": "VSTGCC",
+            "entries": [
+                "You navigate Concord City's social scene like a predator—every conversation is an opportunity.",
+                "Gain proficiency in **Persuasion and Insight** (or Expertise if already proficient).",
+                " Once per long rest, when engaged in a **social conflict (negotiation, deception, debate, or manipulation)**, you can roll with **advantage** and choose to **reroll a failed check once**.",
+                " If you spend **at least 10 minutes in conversation** with someone, you can determine **one of the following**:"
+            ]
+        },
+        {
+            "name": "crisis negotiator",
+            "source": "VSTGCC",
+            "entries": [
+                "You specialize in de-escalating situations before they spiral out of control.",
+                "Gain proficiency in **Persuasion** and **Insight** (or Expertise if already proficient).",
+                " If combat is about to start, you can make a **Persuasion check (DC 15 + the enemy’s highest Wisdom modifier)** to stall hostilities for **1d4 rounds**, giving time to talk.",
+                " If you successfully **convince an enemy to stand down**, you gain **advantage on your next ability check or attack roll** against them should negotiations fail.",
+                " Once per long rest, if a hostile creature **spares an ally or backs down** due to your influence, you gain **inspiration**."
+            ]
+        },
+        {
+            "name": "cultivated persona",
+            "source": "VSTGCC",
+            "entries": [
+                "You are known for something, whether by design or fate.",
+                "Choose a **public reputation** (charismatic leader, mysterious outsider, brutal enforcer, silver-tongued fixer, etc.).",
+                " When interacting with NPCs who **have heard of you**, you gain **advantage on Charisma-based checks** related to your reputation.",
+                " Once per long rest, you can declare that you **\"know someone\" in the city** who owes you a favor. The GM determines the nature of the contact and how much they are willing to help."
+            ]
+        },
+        {
+            "name": "the right words at the right time",
+            "source": "VSTGCC",
+            "entries": [
+                "You always seem to say exactly what needs to be said.",
+                "Gain proficiency in **Deception and Persuasion** (or Expertise if already proficient).",
+                " When you hear a conversation **for at least 1 minute**, you can **insert yourself seamlessly** without suspicion.",
+                " Once per long rest, when making an **argument, speech, or lie**, you can make it **undeniably compelling**—forcing a listener to at least **consider it seriously** unless they succeed on a **Wisdom saving throw (DC 8 + your Charisma modifier + proficiency bonus).**"
+            ]
+        },
+        {
+            "name": "charming confidence",
+            "source": "VSTGCC",
+            "entries": [
+                "You disarm others with wit, charm, and presence alone.",
+                "Gain proficiency in **Performance** and **Deception** (or Expertise if already proficient).",
+                " You can **redirect hostility** during social interactions—when someone targets you **with anger or aggression**, you can roll **Persuasion (DC 15)** to make them hesitate or redirect their frustration elsewhere.",
+                " If someone is **attracted to or impressed by you**, they **roll Insight and Perception checks against you with disadvantage.**"
+            ]
+        },
+        {
+            "name": "corporate eloquence",
+            "source": "VSTGCC",
+            "entries": [
+                "You’ve learned to weaponize legal jargon, policies, and corporate-speak.",
+                "Gain proficiency in **Investigation and Persuasion** (or Expertise if already proficient).",
+                " When dealing with **bureaucrats, corporate officials, or security personnel**, you can roll **Persuasion with advantage** if you cite regulations, policies, or procedural loopholes.",
+                " If you present a **forged document or legal argument**, the target must make an **Intelligence saving throw (DC 8 + your Intelligence modifier + proficiency bonus)** or accept it as legitimate until proven otherwise."
+            ]
+        },
+        {
+            "name": "underworld diplomat",
+            "source": "VSTGCC",
+            "entries": [
+                "Even criminals have rules. You know how to navigate the spaces between threats.",
+                "Gain proficiency in **Intimidation and Persuasion** (or Expertise if already proficient).",
+                " When dealing with criminals, smugglers, and enforcers, you can **request temporary neutrality** once per long rest (forcing hostile individuals to make a **Wisdom save (DC 8 + Charisma modifier + proficiency bonus)** to resist).",
+                " If a negotiation **turns violent**, you have **advantage on initiative rolls** against those who broke the deal."
+            ]
+        },
+        {
+            "name": "voice of authority",
+            "source": "VSTGCC",
+            "entries": [
+                "When you speak, people listen—whether they like it or not.",
+                "Gain proficiency in **Intimidation and Insight** (or Expertise if already proficient).",
+                " When you issue a **direct command in an authoritative tone**, a target must make a **Wisdom saving throw (DC 8 + Charisma modifier + proficiency bonus)** or hesitate before acting against your will.",
+                " If you successfully establish dominance over a conversation, you can **gain a minor boon** from an NPC (extra time, information, a reluctant favor, etc.)."
+            ]
+        },
+        {
+            "name": "master of subtext",
+            "source": "VSTGCC",
+            "entries": [
+                "You speak in layered meanings, and only those who understand your intent truly hear you.",
+                "Gain proficiency in **Deception and Insight** (or Expertise if already proficient).",
+                " You can **embed secret messages** in normal conversations. Those listening must succeed on an **Intelligence (Investigation) check (DC 15 + your proficiency bonus)** to decipher the true meaning.",
+                " Once per long rest, if you spend **10 minutes talking to someone**, you can determine **if they are lying**, unless they succeed on a **Deception check contested by your Insight.**"
+            ]
+        },
+        {
+            "name": "carefully measured response",
+            "source": "VSTGCC",
+            "entries": [
+                "You control conversations by knowing exactly how much emotion to show.",
+                "Gain proficiency in **Deception and Insight** (or Expertise if already proficient).",
+                " You can **choose to display false emotions** in conversation, forcing an observer to make an **Insight check (DC 8 + Charisma modifier + proficiency bonus)** to read your true intentions.",
+                " When you remain **composed under pressure**, those who attempt to intimidate or coerce you must make a **Wisdom saving throw (DC 15 + your proficiency bonus)** or be **psychologically unsettled for 1 minute**."
+            ]
+        },
+        {
+            "name": "slipping through the cracks",
+            "source": "VSTGCC",
+            "entries": [
+                "You know how to exit a conversation, situation, or location before it turns against you.",
+                "Gain proficiency in **Stealth and Deception** (or Expertise if already proficient).",
+                " If a conversation **turns confrontational**, you can roll **Deception vs. Insight** to subtly slip away before things escalate.",
+                " Once per long rest, when caught in **an interrogation, corporate meeting, or formal setting**, you can create **a perfect excuse to leave** without arousing suspicion."
+            ]
+        },
+        {
+            "name": "feigning innocence",
+            "source": "VSTGCC",
+            "entries": [
+                "No matter what happens, you always look like the least suspicious person in the room.",
+                "Gain proficiency in **Deception and Performance** (or Expertise if already proficient).",
+                " If accused of wrongdoing, you can force the accuser to **roll Insight with disadvantage** to determine your guilt.",
+                " Once per long rest, you can **pass yourself off as a bystander or victim**, forcing a pursuer to **hesitate before taking action against you.**"
+            ]
+        },
+        {
+            "name": "siren’s promise",
+            "source": "VSTGCC",
+            "entries": [
+                "Your words linger in the minds of others, compelling them long after you’ve gone.",
+                "Gain proficiency in **Persuasion and Performance** (or Expertise if already proficient).",
+                " If you promise **something vague and emotionally compelling**, the listener must succeed on a **Wisdom saving throw (DC 8 + Charisma modifier + proficiency bonus)** or feel **compelled to believe in your sincerity.**",
+                " Once per long rest, you can convince **one neutral or friendly NPC to go against their better judgment** in your favor."
+            ]
+        },
+        {
+            "name": "urban navigator",
+            "source": "VSTGCC",
+            "entries": [
+                "You instinctively know how to move through Concord City’s streets, alleys, and transit networks.",
+                "Gain proficiency in **Investigation and Survival** (or Expertise if already proficient).",
+                " You always know the **fastest route** to a destination in the city, avoiding traffic, security patrols, and common surveillance spots.",
+                " When being **chased through an urban environment**, you can roll **Survival or Acrobatics (DC 15)** to gain **+10 feet of movement for 1 minute**.",
+                " You have **advantage on checks to find hidden or illegal transportation services** (black-market taxis, underground railway routes, smuggling tunnels, etc.)."
+            ]
+        },
+        {
+            "name": "vehicular improvisation",
+            "source": "VSTGCC",
+            "entries": [
+                "If it has wheels or an engine, you can make it move.",
+                "Gain proficiency in **Land Vehicles** and **Tinker’s Tools** (or Expertise if already proficient).",
+                " You can **hotwire a vehicle** with a successful **Dexterity (Sleight of Hand) or Intelligence (Vehicles) check (DC 15)**, taking 1 minute.",
+                " Once per long rest, if a vehicle is **damaged or non-functional**, you can perform a **quick repair**, restoring **temporary operability for 1d4 hours**.",
+                " When using an **improvised or stolen vehicle**, you have **advantage on checks to avoid detection or pursuit**."
+            ]
+        },
+        {
+            "name": "high-speed reflexes",
+            "source": "VSTGCC",
+            "entries": [
+                "Your mind and body react faster than the average driver or pilot.",
+                "Gain proficiency in **Land Vehicles or Air Vehicles** (or Expertise if already proficient).",
+                " You have **advantage on Dexterity saving throws** to **avoid crashing, flipping, or losing control** of a vehicle.",
+                " Once per short rest, you can **perform a high-speed maneuver** (a sudden turn, controlled drift, or rapid acceleration) that forces **pursuers or obstacles to make a DC 15 Dexterity saving throw or lose their position**.",
+                " If an enemy targets you while you're in a moving vehicle, you can **impose disadvantage on the attack roll once per long rest** by using the vehicle as cover."
+            ]
+        },
+        {
+            "name": "jump-start specialist",
+            "source": "VSTGCC",
+            "entries": [
+                "A little ingenuity can make almost any transport work—at least temporarily.",
+                "Gain proficiency in **Tinker’s Tools** and **one type of Vehicles** (Land, Water, or Air).",
+                " If a vehicle is **damaged or out of power**, you can roll **Intelligence (Tinker’s Tools) (DC 15)** to restore it to **limited function for 1d4 hours**.",
+                " Once per long rest, if you have access to **spare parts or scrap**, you can **jury-rig a broken transport system** (e.g., a train door, an elevator, or an electric bike).",
+                " If you work on a vehicle for **at least an hour**, you can improve its **top speed by 10% for the next 24 hours**."
+            ]
+        },
+        {
+            "name": "subway ghost",
+            "source": "VSTGCC",
+            "entries": [
+                "You know the underground tunnels and transit systems better than most.",
+                "Gain proficiency in **Stealth and Survival** (or Expertise if already proficient).",
+                " You know **how to access and navigate the hidden sections of Concord City's transit networks**, including **maintenance tunnels, abandoned stations, and ventilation shafts**.",
+                " Once per long rest, you can **guide a group (up to 6 people) through the subway system undetected**, avoiding surveillance and ticketing barriers.",
+                " If pursued, you have **advantage on Stealth checks when hiding in subway stations, train yards, or tunnel networks**."
+            ]
+        },
+        {
+            "name": "parkour adept",
+            "source": "VSTGCC",
+            "entries": [
+                "Vehicles are optional—you prefer the rooftops and alleyways of the city.",
+                "Gain proficiency in **Acrobatics and Athletics** (or Expertise if already proficient).",
+                " You can **climb vertical surfaces at normal speed** if there are ledges, pipes, or fire escapes available.",
+                " When jumping between rooftops or over obstacles, you can roll **Acrobatics (DC 13)** to extend your jump by **5 extra feet**.",
+                " If you fall **from a height of 20 feet or less**, you can roll **Dexterity (Acrobatics) (DC 10)** to land safely and avoid damage."
+            ]
+        },
+        {
+            "name": "motorcade tactician",
+            "source": "VSTGCC",
+            "entries": [
+                "You know how to move as part of a convoy, using other vehicles for cover and advantage.",
+                "Gain proficiency in **Land Vehicles** and **Perception** (or Expertise if already proficient).",
+                " When traveling in a **group of vehicles**, you can roll **Intelligence (Vehicles) (DC 14)** to coordinate movement, granting **+1 AC to all allied vehicles** for 1 minute.",
+                " If a vehicle in your convoy is targeted by **gunfire, magic, or a road hazard**, you can use your **reaction** to attempt a maneuver, forcing **attackers to reroll one attack roll**.",
+                " Once per long rest, if driving in **heavy traffic**, you can **find an optimal escape route**, allowing your group to **avoid pursuit for 1d4 minutes**."
+            ]
+        },
+        {
+            "name": "unstoppable driver",
+            "source": "VSTGCC",
+            "entries": [
+                "No barricade, blockade, or pile-up is going to stop you.",
+                "Gain proficiency in **Land Vehicles** and **Athletics** (or Expertise if already proficient).",
+                " When driving a vehicle, you can **plow through obstacles or barriers** without taking damage if your speed is **at least 30 feet per round**.",
+                " If a vehicle you’re driving would take damage from **a crash or collision**, you can roll **Dexterity (Vehicles) (DC 15)** to **halve the damage and maintain control**.",
+                " If a vehicle you’re in is **about to be hijacked, stopped, or rammed**, you can use your **reaction to perform an emergency maneuver**, increasing your AC against the attack by **+3** for that round."
+            ]
+        },
+        {
+            "name": "aerial daredevil",
+            "source": "VSTGCC",
+            "entries": [
+                "You treat altitude like an advantage, not a danger.",
+                "Gain proficiency in **Air Vehicles** and **Perception** (or Expertise if already proficient).",
+                " You have **advantage on Dexterity checks to control aircraft in difficult conditions**, such as **stormy weather, pursuit, or mechanical failures**.",
+                " If forced to **bail out** of an aerial vehicle, you can roll **Acrobatics (DC 15)** to reduce fall damage by **half**.",
+                " Once per long rest, you can perform a **high-risk maneuver** (barrel roll, nose dive, or rapid ascent), forcing **pursuers to make a DC 15 Dexterity saving throw or lose position**."
+            ]
+        },
+        {
+            "name": "smuggler’s instinct",
+            "source": "VSTGCC",
+            "entries": [
+                "You know how to transport cargo and people without drawing attention.",
+                "Gain proficiency in **Deception and Land Vehicles** (or Expertise if already proficient).",
+                " You have **advantage on checks to disguise or hide contraband in vehicles** from routine searches.",
+                " Once per long rest, when passing through **a checkpoint, customs office, or border security**, you can make a **Deception check (DC 15)** to ensure no one looks too closely.",
+                " If being **followed**, you can roll **Survival (DC 14)** to choose an **unorthodox escape route**, such as alleyways, water channels, or underground roads."
+            ]
+        },
+        {
+            "name": "devoted beyond reason",
+            "source": "VSTGCC",
+            "entries": [
+                "Your faith is absolute, unwavering, and a source of unshakable will.",
+                "Gain proficiency in **Insight and Religion** (or Expertise if already proficient).",
+                " You have **advantage on saving throws against fear, mind control, and enchantments** if resisting would contradict your faith.",
+                " Once per long rest, if you are **at 0 HP**, you can choose to **remain conscious for 1 additional round**, ignoring death saving throws until the start of your next turn."
+            ]
+        },
+        {
+            "name": "scripture in flesh",
+            "source": "VSTGCC",
+            "entries": [
+                "The tenets of your faith are more than words—they are inscribed upon your body and soul.",
+                "Gain proficiency in **Calligrapher’s Supplies** and **Religion** (or Expertise if already proficient).",
+                " You may **permanently inscribe a sacred scripture, oath, or doctrine onto your skin**, which grants **advantage on saving throws against supernatural deception (illusion, false visions, or mental manipulation).**",
+                " Once per long rest, you can **invoke your inscription aloud**, granting yourself or an ally within **30 feet** temporary hit points equal to **your proficiency bonus + your Wisdom modifier.**"
+            ]
+        },
+        {
+            "name": "orator of the divine word",
+            "source": "VSTGCC",
+            "entries": [
+                "When you speak of your faith, even skeptics find themselves listening.",
+                "Gain proficiency in **Persuasion and Religion** (or Expertise if already proficient).",
+                " When preaching, debating, or defending your faith, you can make **Persuasion or Intimidation checks with advantage** once per short rest.",
+                " Once per long rest, if you **speak on behalf of your religion or deity**, you can impose **disadvantage on an Insight check made against you**, making it harder for others to see through your conviction (or deception)."
+            ]
+        },
+        {
+            "name": "bureaucrat of the divine order",
+            "source": "VSTGCC",
+            "entries": [
+                "Faith must be organized, structured, and enforced with absolute precision.",
+                "Gain proficiency in **Investigation and Religion** (or Expertise if already proficient).",
+                " You instinctively know the **hierarchies, power structures, and legal precedents of your faith**, allowing you to navigate religious bureaucracy without issue.",
+                " If you **draft a written decree, edict, or ruling in the name of your faith**, non-hostile religious adherents must make a **Wisdom saving throw (DC 8 + your Intelligence or Charisma modifier + proficiency bonus)** or feel compelled to **follow the directive unless it contradicts their direct interests.**"
+            ]
+        },
+        {
+            "name": "touched by the nameless",
+            "source": "VSTGCC",
+            "entries": [
+                "Something ancient has taken notice of you. Your prayers no longer feel one-sided.",
+                "Gain proficiency in **Arcana and Religion** (or Expertise if already proficient).",
+                " Once per long rest, you can **meditate in silence for 10 minutes**, seeking an omen, vision, or cryptic whisper from an unknown force. The answer is **never direct, always fragmented, and may not be what you wished to hear.**",
+                " When confronted with an **anomaly, eldritch phenomenon, or divine occurrence**, you can roll an **Insight check (DC 15)** to determine if it aligns with your unknown patron’s design."
+            ]
+        },
+        {
+            "name": "butcher’s delight",
+            "source": "VSTGCC",
+            "entries": [
+                "Some people see bodies. You see raw materials.",
+                "Gain proficiency in **Medicine and Stealth** (or Expertise if already proficient).",
+                " When you kill a creature with a melee weapon, you can choose to **disfigure the body**, making it impossible to tell how they died or who they were without magical intervention.",
+                " Once per long rest, you can **harvest a piece of the corpse** (flesh, bone, teeth) and use it as a **gruesome trophy**, granting you **advantage on Intimidation checks for 1 hour**.",
+                " If you consume **a portion of your victim’s flesh**, you gain **temporary hit points equal to their Constitution modifier (minimum 1)**."
+            ]
+        },
+        {
+            "name": "no witnesses",
+            "source": "VSTGCC",
+            "entries": [
+                "A good killer doesn’t just take lives. They erase them.",
+                "Gain proficiency in **Deception and Stealth** (or Expertise if already proficient).",
+                " When you kill a creature, you can take an **additional action to destroy evidence**, making it **twice as difficult** for others to determine the cause of death.",
+                " Once per long rest, after killing someone in complete secrecy, you can use a **bonus action to make all creatures within 30 feet roll a Perception check (DC 8 + your Dexterity modifier + proficiency bonus).**"
+            ]
+        },
+        {
+            "name": "carve the fear into them",
+            "source": "VSTGCC",
+            "entries": [
+                "A corpse is a warning. A body is a message.",
+                "Gain proficiency in **Intimidation and Medicine** (or Expertise if already proficient).",
+                " When you kill someone, you can **leave behind a grotesque calling card** (carved symbols, missing body parts, unnatural poses). Any enemy who **sees your work** must make a **Wisdom saving throw (DC 8 + your Strength or Dexterity modifier + proficiency bonus)** or suffer **disadvantage on attacks against you for 24 hours** due to sheer terror.",
+                " If you **torture or maim someone without killing them**, they have **disadvantage on all Charisma-based checks for 1d4 days** due to lingering trauma.",
+                " If a creature is **actively searching for you or investigating your crimes**, they must make an **Intelligence saving throw (DC 15)** or become **obsessed with you**, making reckless decisions that hinder their judgment."
+            ]
+        },
+        {
+            "name": "executioner’s poise",
+            "source": "VSTGCC",
+            "entries": [
+                "You take no joy in killing. That does not mean you hesitate.",
+                "Gain proficiency in **Athletics and Perception** (or Expertise if already proficient).",
+                " When attacking **a restrained, paralyzed, or helpless target**, your attacks **automatically hit**.",
+                " If you **publicly execute someone or perform a brutal kill**, all creatures within 30 feet must make a **Wisdom saving throw (DC 8 + your Strength modifier + proficiency bonus)** or become **frightened of you for 1 minute**.",
+                " If you kill **at least three people in one scene**, you gain **advantage on all Intimidation checks for the next hour**."
+            ]
+        },
+        {
+            "name": "silencer",
+            "source": "VSTGCC",
+            "entries": [
+                "You don’t leave survivors. That’s why they fear you.",
+                "Gain proficiency in **Stealth and Deception** (or Expertise if already proficient).",
+                " When you kill someone, you can choose to **silence their death**, ensuring that **no sound escapes within a 10-foot radius** (lasts for 1 minute).",
+                " If you **succeed on a Stealth check before attacking**, your first attack **automatically critically hits** if it lands.",
+                " If you kill a creature and are not immediately seen, any other creatures must succeed on a **Perception check (DC 15)** or **not notice the kill for 1d4 rounds**."
+            ]
+        },
+        {
+            "name": "sick pleasure",
+            "source": "VSTGCC",
+            "entries": [
+                "Pain is just another language. You like to hear people scream.",
+                "Gain proficiency in **Intimidation and Medicine** (or Expertise if already proficient).",
+                " When attacking an **unarmed, restrained, or incapacitated creature**, you deal **an additional 1d6 psychic damage** from sheer agony.",
+                " If you torture someone for **at least 10 minutes**, they must make a **Wisdom saving throw (DC 8 + your Charisma modifier + proficiency bonus)** or **spill all information you request**.",
+                " When you kill a creature that was **pleading for mercy**, you gain **temporary hit points equal to your proficiency bonus**."
+            ]
+        },
+        {
+            "name": "they’ll never find the body",
+            "source": "VSTGCC",
+            "entries": [
+                "A body is only evidence if someone finds it.",
+                "Gain proficiency in **Survival and Stealth** (or Expertise if already proficient).",
+                " When you kill a creature, you can spend **10 minutes disposing of the body**, making it **undetectable without magic or forensic expertise**.",
+                " Once per long rest, you can make a **Survival (DC 15) check** to **ensure no forensic traces remain**, eliminating footprints, blood trails, and signs of struggle.",
+                " If you kill someone in **a public place but remain unnoticed**, you have **advantage on Stealth checks to leave the scene unseen**."
+            ]
+        },
+        {
+            "name": "no faces, no names",
+            "source": "VSTGCC",
+            "entries": [
+                "The dead don’t need identities. Neither do you.",
+                "Gain proficiency in **Disguise Kit and Deception** (or Expertise if already proficient).",
+                " You can use a **bonus action to disguise yourself after committing a murder**, making you appear **like a different person (height, weight, and face subtly altered).**",
+                " Once per long rest, after killing a creature, you can **erase their presence**, making it so that no one remembers what they looked like **unless they pass an Intelligence saving throw (DC 15)**.",
+                " If you kill someone **wearing a uniform or identification**, you can assume their identity with **advantage on Deception checks** for 24 hours."
+            ]
+        },
+        {
+            "name": "blood pact assassin",
+            "source": "VSTGCC",
+            "entries": [
+                "Your kills are not just for you. They are offerings to something greater.",
+                "Gain proficiency in **Religion and Stealth** (or Expertise if already proficient).",
+                " When you kill a creature, you may **whisper a ritual prayer** over their body. If you do, you can roll **1d20**:"
+            ]
+        },
+        {
+            "name": "blackout murderer",
+            "source": "VSTGCC",
+            "entries": [
+                "They never see you coming. They never see you leave.",
+                "Gain proficiency in **Stealth and Perception** (or Expertise if already proficient).",
+                " When in **dim light or darkness**, you can move **silently**, making **no noise at all unless you choose to**.",
+                " If you kill a creature while **completely unseen**, you can use a **bonus action to immediately Hide**.",
+                " Once per long rest, if you remain **completely still for 1 minute**, you become **functionally invisible to non-magical detection**, as if you had blended into the environment."
+            ]
+        },
+        {
+            "name": "executioner’s habit",
+            "source": "VSTGCC",
+            "entries": [
+                "Killing isn’t just something you do. It’s who you are.",
+                "Gain proficiency in **Intimidation and Athletics** (or Expertise if already proficient).",
+                " If you **reduce a creature to 0 HP**, you can **immediately make an additional melee attack** as a **bonus action**.",
+                " Once per long rest, you can **decapitate or dismember** a foe on a killing blow, causing all enemies within **30 feet** to make a **Wisdom saving throw (DC 15)** or become **frightened for 1 minute**.",
+                " When targeting an **injured creature (below half HP)**, your melee attacks **deal an additional 1d4 damage** due to precision and cruelty."
             ]
         }
     ]
