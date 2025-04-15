@@ -1,0 +1,9 @@
+.two-columns {
+    column-count: 2;
+    column-gap: 40px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}

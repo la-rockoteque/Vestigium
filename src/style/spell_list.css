@@ -1,0 +1,4 @@
+.two-columns {
+    column-count: 4;
+    column-gap: 40px;
+}

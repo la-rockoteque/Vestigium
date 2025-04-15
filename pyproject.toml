@@ -20,7 +20,9 @@ dependencies = [
     "transformers (>=4.51.1,<5.0.0)",
     "accelerate (>=1.6.0,<2.0.0)",
     "hf-xet (>=1.0.2,<2.0.0)",
-    "torchvision (>=0.21.0,<0.22.0)"
+    "torchvision (>=0.21.0,<0.22.0)",
+    "pdfkit (>=1.0.0,<2.0.0)",
+    "weasyprint (>=65.0,<66.0)"
 ]
 
 

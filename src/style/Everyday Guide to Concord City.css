@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive);
+
+body {
+    background-color: #F8F8F8;
+    /* Light gray background */
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+    /* Adjust spacing */
+    font-family: "Courier New", Courier, monospace;
+    /* Typewriter / Redacted Report */
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    color: #2C2C2C;
+    /* Vault Black */
+    background-color: #EDEDED;
+    /* Subtle Header Background */
+    padding: 5px;
+    border-bottom: 3px solid #2C2C2C;
+    /* Strong Bureaucratic Divider */
+}
+
+h2 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #2C2C2C;
+    border-bottom: 2px solid #8F8F8F;
+}
+
+h3 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    color: #5A5A5A;
+    text-transform: uppercase;
+    border-bottom: gray dashed 1px;
+}
+
+h4 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    color: #8F8F8F;
+}
+
+hr {
+    border: 2px dashed #8F8F8F;
+    /* Looks like an official document break */
+}
+
+.blockquote {
+    background-color: #EDEDED;
+    border-left: 4px solid #2C2C2C;
+    padding: 10px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* --- Tables: Bureaucratic Report Style --- */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #D6D6D6;
+    /* Ash Gray */
+    color: #2C2C2C;
+    /* Vault Black */
+    padding: 8px;
+    border-bottom: 3px solid #8F8F8F;
+    /* Stronger Border */
+    text-transform: uppercase;
+}
+
+td {
+    background-color: #F8F8F8;
+    /* Paper White */
+    color: #5A5A5A;
+    /* Charcoal Gray */
+    padding: 8px;
+    border-bottom: 1px solid #BFBFBF;
+    /* Soft Grid */
+}
+
+/* --- Links: Subtle and Official-Looking --- */
+a {
+    color: #2C2C2C;
+    text-decoration: none;
+    border-bottom: 1px dashed #8F8F8F;
+}
+
+a:hover {
+    color: #5A5A5A;
+    border-bottom: 1px solid #5A5A5A;
+}
