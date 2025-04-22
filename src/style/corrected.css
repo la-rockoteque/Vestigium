@@ -1,0 +1,18 @@
+.corrected {
+    position: relative;
+    text-decoration: line-through;
+    color: black;
+}
+
+.corrected::after {
+    content: var(--correction, "Default Text");;
+    font-size: 12px;
+    color: var(--Palette-Midnight-Blue);
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    font-family: 'Cedarville Cursive', cursive;
+
+    -webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+}

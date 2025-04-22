@@ -9,7 +9,7 @@ grouped = df_sorted.groupby('Level')
 
 def row_to_markdown(level, group):
     list = "\n".join([f"- {row['Spell Name']}" for _, row in group.iterrows()])
-    return f"{level}\n\n{list}"
+    return f"##### {level}\n\n{list}"
 
 markdown = [row_to_markdown(level, group) for level, group in grouped]
 

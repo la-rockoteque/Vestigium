@@ -1,0 +1,929 @@
+```metadata
+title: Ashen Vault - Class Wizard
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+/*=======--- Example CSS styling ---=======*/
+/* Any CSS here will apply to your document! */
+@import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Oswald:wght@200..700&family=Permanent+Marker&display=swap);
+:root {
+    --rotate: 20deg;
+    --left: unset;
+    --top: unset;
+    --correction: "correction";
+    --source: "https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png";
+}
+
+
+.page:has(.frontCover) {
+    background-color: black;
+}
+
+.page:has(.frontCover) .coverBackground {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -1cm;
+    left: 0;
+    z-index: -1;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/fa0aecb2b116f619f411d1acbd4fffa2.webp');
+    background-size: cover;
+    background-position: left;
+    mask-image: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 20%), rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: linear-gradient(270deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+.page:has(.frontCover) .coverImage {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -7cm;
+    left: 0;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/0a0b5e7e9496fd06deac901172f5455f.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.page:has(.frontCover) h1,
+.page:has(.frontCover) h2,
+.page:has(.frontCover) h3 {
+    border-bottom: unset;
+    -webkit-text-stroke: unset;
+    text-stroke: unset;
+    ;
+}
+
+.page:has(.frontCover) h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: White;
+    margin-top: 50px;
+    font-family: "Oswald", sans-serif;
+    background: none;
+}
+
+.page:has(.frontCover) h2 {
+    font-size: 2rem;
+    letter-spacing: 8.5px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.page:has(.frontCover) h3 {
+    margin-top: 10px;
+    text-decoration: underline overline #d1d1d1;
+}
+
+.page:has(.frontCover) .footnote {
+    font-size: 1.5rem;
+    color: #d1d1d1;
+    margin-top: 30px;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 2px gray;
+    ;
+    text-stroke: 2px gray;
+    text-align: right;
+}
+
+/* Removes Drop Caps */
+.page h1 + p:first-letter {
+    all: unset;
+}
+.page .footnote {
+    border-top: lightgray dotted 2px;
+    width: 80%;
+    color: gray;
+    bottom: 28px;
+}
+.page .footnote > h1 {
+    background-color: transparent;
+    border: none;
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+.inline-block.pageNumber {
+    font-size: 1cm;
+    color: black;
+}
+/* Removes Small-Caps in first line */
+.page h1 + p:first-line {
+    all: unset;
+}
+.page {
+    background-color: #f8f8f8;
+    /* Light gray background */
+    background-image: radial-gradient(
+        circle,
+        rgba(0, 0, 0, 0.1) 1px,
+        transparent 1px
+    );
+    background-size: 20px 20px;
+    /* Adjust spacing */
+    font-family: "Courier New", Courier, monospace;
+    /* Typewriter / Redacted Report */
+}
+
+.page:has(.preface) {
+    columns: 1;
+    column-span: all;
+    gap: 5px;
+    text-align: center;
+
+}
+
+
+.page:after,
+.page:has(.frontCover):after,
+.page:has(.preface):after,
+.page:has(.insideCover):after,
+.page:nth-child(even)::after {
+    all: unset;
+    content: "Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.";
+    transform-origin: top right;
+    transform: rotate(270deg);
+    white-space: nowrap;
+    position: absolute;
+    right: 1.5cm;
+    top: 0px;
+    color: gray;
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    width: 29cm;
+}
+.page:before {
+    all: unset;
+    content: "Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.";
+    transform-origin: top left;
+    transform: rotate(90deg);
+    white-space: nowrap;
+    position: absolute;
+    left: 1.5cm;
+    top: 0px;
+    color: gray;
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    width: 29cm;
+}
+.page:has(.preface) .logo {
+    top: 10cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 0.075cm black);
+}
+.page:has(.insideCover) .logo {
+    top: 0.5cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 0.075cm black);
+}
+.page:has(.insideCover) p,
+.page:has(.insideCover) ul {
+    margin-top: 20px;
+    text-align: left;
+}
+.page:has(.insideCover) .logo > img {
+    height: 2cm;
+    width: 1.8cm;
+    opacity: 0.1;
+    filter: none;
+}
+.page:has(.preface) .logo > img {
+    height: 10cm;
+    width: 9cm;
+    opacity: 0.1;
+    filter: none;
+}
+
+.page:has(.preface),
+.page:has(.insideCover) {
+    background: none;
+    background-color: #f8f8f8;
+}
+
+.coverpicture {
+    margin-top: 1.5cm;
+    max-width: 15cm;
+    max-height: 15cm;
+}
+
+.coverpicture > img {
+    max-width: 100%;
+    max-height: 100%;
+    mix-blend-mode: luminosity;
+}
+
+.page h1 {
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    color: #2c2c2c;
+    /* Vault Black */
+    background-color: #ededed;
+    /* Subtle Header Background */
+    padding: 5px;
+    border-bottom: 3px solid #2c2c2c;
+    /* Strong Bureaucratic Divider */
+}
+.page:has(.insideCover) h1,
+.page:has(.preface) h1,
+.page:has(.partCover) h1 {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    background-color: #ededed;
+    /* Subtle Header Background */
+    color: #2c2c2c;
+    /* Vault Black */
+    padding: 5px;
+    border-bottom: 0;
+}
+.page:has(.preface) h1 {
+    -webkit-text-stroke: 0;
+}
+.page:has(.insideCover) h1 {
+    background-image: linear-gradient(
+        45deg,
+        #f7f7f7 25%,
+        #dbdbdb 25%,
+        #dbdbdb 50%,
+        #f7f7f7 50%,
+        #f7f7f7 75%,
+        #dbdbdb 75%,
+        #dbdbdb 100%
+    );
+    background-size: 14.14px 14.14px;
+}
+.page:has(.insideCover) .footnote,
+.page:has(.preface) .footnote,
+.page:has(.partCover) .footnote {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+    -webkit-text-stroke: 0;
+    text-align: left;
+}
+.block .footnote {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+}
+.page h2 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #2c2c2c;
+    border-bottom: 2px solid #8f8f8f;
+}
+.page:has(.insideCover) h2,
+.page:has(.preface) h2,
+.page:has(.partCover) h2 {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+    border-bottom: 0;
+}
+.page:has(.preface) h2 {
+    -webkit-text-stroke: 0;
+}
+.page h3,
+.page:has(.insideCover) h3,
+.page:has(.preface) h3,
+.page:has(.partCover) h3 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    color: #5a5a5a;
+    text-transform: uppercase;
+    border-bottom: gray dashed 1px;
+}
+.page h4,
+.page:has(.insideCover) h4,
+.page:has(.preface) h4,
+.page:has(.partCover) h4 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    color: #8f8f8f;
+}
+.page .redacted {
+    background-color: black;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+.page:has(.preface) hr {
+    margin: 10px;
+    position: relative;
+    width: 100%;
+    height: 5mm;
+    /* Adjust height to match a real ruler */
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0mm,
+        transparent 0.8mm,
+        black 0.8mm,
+        black 1mm
+    );
+    filter: none;
+}
+.page:has(.insideCover) hr {
+    position: relative;
+    width: 100%;
+    height: 1mm;
+    /* Adjust height to match a real ruler */
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0mm,
+        transparent 0.8mm,
+        black 0.8mm,
+        black 1mm
+    );
+}
+page hr {
+    border: 2px dashed #8f8f8f;
+    /* Looks like an official document break */
+}
+.page blockquote {
+    background-color: #ededed;
+    border-left: 4px solid #2c2c2c;
+    padding: 10px;
+    font-family: "Courier New", Courier, monospace;
+}
+/* --- Tables: Bureaucratic Report Style --- */
+.page table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.page th {
+    background-color: #d6d6d6;
+    /* Ash Gray */
+    color: #2c2c2c;
+    /* Vault Black */
+    padding: 8px;
+    border-bottom: 3px solid #8f8f8f;
+    /* Stronger Border */
+    text-transform: uppercase;
+}
+.page td {
+    background-color: #f8f8f8;
+    /* Paper White */
+    color: #5a5a5a;
+    /* Charcoal Gray */
+    padding: 8px;
+    border-bottom: 1px solid #bfbfbf;
+    /* Soft Grid */
+}
+/* --- Links: Subtle and Official-Looking --- */
+.page a {
+    color: #2c2c2c;
+    text-decoration: none;
+    border-bottom: 1px dashed #8f8f8f;
+}
+.page a:hover {
+    color: #5a5a5a;
+    border-bottom: 1px solid #5a5a5a;
+}
+.post-it {
+    left: var(--left);
+    top: var(--top);
+    transform: rotate(var(--rotate));
+    max-width: 250px;
+    max-height: 240px;
+    width: 250px;
+    height: 240px;
+    position: relative;
+    background: #ffa;
+    overflow: hidden;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 0 0 0 30px/45px;
+    box-shadow: inset 0 -40px 40px rgba(0, 0, 0, 0.05),
+        inset 0 25px 10px rgba(0, 0, 0, 0.07), 0 5px 6px 5px rgba(0, 0, 0, 0.2);
+    font-family: "Cedarville Cursive", cursive;
+    line-height: 1.7em;
+    font-size: 19px;
+    -webkit-mask-image: url(data:image/png;
+    base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+    color: #130d6b;
+}
+.post-it:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    background: #ffa;
+    box-shadow: 3px -2px 10px rgba(0, 0, 0, 0.2),
+        inset 15px -15px 15px rgba(0, 0, 0, 0.3);
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    transform: skewX(25deg);
+}
+.smudge {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/5d4334616f20bd1d1f059f6007892650.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.smudge:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 10cm;
+    height: 10cm;
+
+    background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 1) 19%,
+        rgba(255, 255, 255, 0) 52%
+    );
+    background-blend-mode: lighten;
+}
+
+.coffee-stain {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f74119a30ba73c9c5b3a7cc1aa9d7d42.png")
+        no-repeat center;
+    background-size: contain;
+    mix-blend-mode: multiply;
+}
+
+.corrected {
+    position: relative;
+    text-decoration: line-through;
+    color: black;
+}
+
+.corrected::after {
+    content: var(--correction, "Default Text");
+    font-size: 12px;
+    color: #0f3d75;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    font-family: "Cedarville Cursive", cursive;
+
+    -webkit-mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+}
+
+.paperclip {
+    position: absolute;
+    display: block;
+    top: -10px;
+    left: var(--left, 60);
+    width: 50px;
+    height: 150px;
+    transform: rotate(-15deg); /* Slight tilt for realism */
+    opacity: 0.8; /* Slight transparency */
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/421f492b3660fca7d119964aff1f24db.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.polaroid {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    max-width: 10cm;
+    max-height: 10cm;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png")
+        no-repeat center;
+    background-size: contain;
+    transform-origin: top left;
+}
+
+.polaroid > p > img {
+    margin-left: 1.26cm;
+    margin-top: 0.74cm;
+    height: 7.4cm;
+    width: 7.5cm;
+    object-fit: cover;
+    mix-blend-mode: screen;
+}
+
+.doodle.dog1 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/6d860afef532110ae76b559ace75dfa7.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.dog2 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/e2820894e1c1c58cb9d710e5522858fc.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.cat1 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/b43f55649f7f416de20109ce0f3b6722.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.cat2 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/898133d59ab4ce7d036283cf075620e2.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.doodle {
+    position: relative;
+    top: var(--top);
+    left: var(--left);
+    display: block;
+    width: 150px;
+    height: 150px;
+    -webkit-mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-repeat: repeat;
+}
+
+.fading {
+    background: linear-gradient(
+        to bottom,
+        black 10%,
+        rgba(0, 0, 0, 0.8) 30%,
+        rgba(0, 0, 0, 0.6) 50%,
+        rgba(0, 0, 0, 0.4) 70%,
+        rgba(0, 0, 0, 0.1) 90%,
+        transparent
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+```
+
+{{frontCover}}
+{{coverBackground}}
+## Class
+# Wizard
+## The Ruinbrigner
+
+{{footnote 
+#### A.S.T.R.A.L Training Material
+}}
+\page
+
+{{insideCover}}
+
+# CONFIDENTIAL  
+## ⚠ A.S.T.R.A.L.⚠  
+## ANTHROPOLOGICAL SURVEY DIVISION  
+___  
+
+This document is the sole property of the **Agency for Surveillance, Tracking, and Regulation of Anomalous Landscapes (A.S.T.R.A.L.)** and is classified under **Biometric Analysis Protocol O-92**. Unauthorized access, duplication, or distribution constitutes a direct violation of the **Anomalous Contingency Act (A.C.A. §17-42)** and will trigger immediate countermeasures.  
+
+By accessing this file, you acknowledge:  
+- You have the **necessary clearance** to review classified **biological intelligence**.  
+- You are subject to **continuous biometric and cognitive monitoring** under **Anthropological Compliance Mandate 24-B**.  
+- Any **unauthorized replication or dissemination** will result in the activation of **Containment Directive Theta**, authorizing full intervention by **Bio-Security Division Kappa**.  
+- Disclosure of restricted genetic analysis will **invoke subject-specific erasure protocols**, up to and including **cognitive redaction under Directive 88-P**.  
+
+This document provides **ongoing surveillance data, species profiling, and genetic deviation reports** concerning the recognized **sentient populations of Concord City and its surrounding territories**. Due to **unresolved discrepancies regarding human emergence events**, data integrity remains under **constant review by the Oversight Bureau (O.B.)**.  
+
+If you are not the intended recipient, cease all interaction immediately and report this breach to **A.S.T.R.A.L. Oversight Bureau (O.B.)** via secure terminal [O.B.//DIRECT-LINK-SEC/347-99]. Failure to comply will escalate to **Genetic Contingency Response Protocol Cobalt-7**.  
+
+{{logo ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png)}}  
+
+### **Vorraki – Species Designation: Homo Voracis**  
+**Summary:** The **Vorraki** are **genetically optimized for high-impact physicality, rapid muscular repair, and combat-oriented reflex enhancement**. Their **distinct genetic subtypes** exhibit **adaptive resilience**, ensuring dominance across a wide range of physically demanding environments. While traditionally relegated to **security, enforcement, and paramilitary operations**, emerging Vorraki power structures suggest an **ongoing transition toward economic and political self-sufficiency**, particularly in **black-market security, logistics, and organized paramilitary enterprises**. **Containment is not advised—negotiation remains the recommended control mechanism.**  
+
+**A.S.T.R.A.L. – DEFENDING REALITY AGAINST GENETIC UNCERTAINTY**  
+**Everything is under observation.**  
+{{pageNumber,auto}}
+\page
+## **Wizard**  
+*Corporate Thaumaturge | Paranormal Scholar | Reality Engineer | Occult Archivist*  
+
+> *"Knowledge isn’t just power—it’s leverage."*  
+> — **Elder Laurent Cassiel, Dawnkeepers**  
+
+### **Thematic Overview**  
+Wizards in Concord City are intellectuals who **decipher the mysteries of reality, bend the laws of magic, and archive lost knowledge**. Some work within corporate **research facilities**, others operate as **renegade scholars**, unraveling **forbidden secrets and occult artifacts**. Unlike sorcerers who wield **raw power**, wizards refine their magic through careful **experimentation, formulas, and innovation**.
+- Wizards are **scholars, scientists, and researchers of the paranormal**.  
+- Some work for **Thaumatech, A.S.T.R.A.L., or underground libraries**.  
+- Others unlock forbidden **arcane blueprints, hacking reality like a system**.  
+- Their power is **meticulous, intellectual, and ever-expanding**.  
+
+### **Creating a Wizard**  
+- Where did you study the arcane—corporate labs, hidden libraries, or self-taught discoveries?  
+- Do you believe in **preserving knowledge, selling it, or destroying it?**  
+- What drives you—**scientific curiosity, power, or unlocking reality’s deepest truths?**  
+
+---
+
+## **Class Features**  
+As a **Wizard**, you gain the following class features.
+
+### **Hit Points**  
+- **Hit Dice:** *1d6 per Wizard level*  
+- **Hit Points at 1st Level:** *6 + Constitution modifier*  
+- **Hit Points at Higher Levels:** *1d6 (or 4) + Constitution modifier per level after 1st*  
+
+### **Proficiencies**  
+- **Armor:** *None*  
+- **Weapons:** *Daggers, quarterstaffs, small firearms*  
+- **Tools:** *Choose one: arcane interface, data encryption tools, ritual equipment*  
+- **Saving Throws:** *Intelligence, Wisdom*  
+- **Skills:** *Choose two from Arcana, History, Insight, Investigation, Medicine, and Persuasion*  
+
+### **Equipment**  
+You start with the following equipment, in addition to any granted by your background:  
+- *(a)* an arcane tablet or *(b)* a portable spell database  
+- *(a)* a high-tech grimoire or *(b)* a cybernetic interface  
+- *(a)* an experimental spell stabilizer or *(b)* a Thaumatech research log  
+
+
+{{wide
+## **Class Table**  
+| Level | Proficiency Bonus | Features | Cantrips Known | Spells Known | Spell Slots (1st-9th) |  
+|:-:|:-:|:--|:-:|:-:|:-:|  
+| 1st | +2 | Spellcasting, Arcane Recovery | 3 | 6 | 2 |  
+| 2nd | +2 | Arcane Tradition | 3 | 7 | 3 |  
+| 3rd | +2 | - | 3 | 8 | 4 |  
+| 4th | +2 | Ability Score Improvement | 4 | 9 | 4 |  
+| 5th | +3 | - | 4 | 10 | 4 |  
+| 6th | +3 | Arcane Tradition Feature | 4 | 11 | 4 |  
+| 7th | +3 | - | 4 | 12 | 4 |  
+| 8th | +3 | Ability Score Improvement | 4 | 13 | 4 |  
+| 9th | +4 | - | 4 | 14 | 4 |  
+| 10th | +4 | Arcane Tradition Feature | 5 | 15 | 4 |  
+| 11th | +4 | - | 5 | 16 | 4 |  
+| 12th | +4 | Ability Score Improvement | 5 | 17 | 4 |  
+| 13th | +5 | - | 5 | 18 | 4 |  
+| 14th | +5 | Arcane Tradition Feature | 5 | 19 | 4 |  
+| 15th | +5 | - | 5 | 20 | 4 |  
+| 16th | +5 | Ability Score Improvement | 5 | 21 | 4 |  
+| 17th | +6 | - | 5 | 22 | 4 |  
+| 18th | +6 | Spell Mastery | 5 | 22 | 4 |  
+| 19th | +6 | Ability Score Improvement | 5 | 22 | 4 |  
+| 20th | +6 | Signature Spells | 5 | 22 | 4 |  
+}}
+
+
+{{pageNumber,auto}}
+\page
+
+## **Subclasses: Arcane Traditions**  
+At **2nd level**, you choose an Arcane Tradition that defines your research.
+
+---
+
+### **School of Reality Bending**  
+*"Laws of nature? Mere suggestions."*  
+
+#### **Features & Playstyle**  
+- **Manipulates existence itself, altering space, time, and probability.**  
+- Uses **causality shifts, paradoxes, and dimensional warping** in spellcasting.  
+- Common among **anomaly researchers, reality hackers, and unstable magicians.**  
+
+#### **School Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 2nd | **Phase Distortion** – Minor reality alterations occur around you. Objects flicker, colors shift, and small inconsistencies arise. Gain *Misty Step* once per short rest. |  
+| 6th | **Temporal Shift** – Once per long rest, you can briefly rewind time, allowing you to redo your last action (attack, spell, or movement). |  
+| 10th | **Parallel Cognition** – Your mind holds two thoughts at once. You can concentrate on two spells simultaneously, but if you fail a concentration save, both spells end. |  
+| 14th | **True Paradox** – Once per long rest, you can alter causality itself, forcing a creature to reroll any roll and take the worst result. |  
+
+---
+
+### **School of Thaumatech Integration**  
+*"Why choose between science and magic when I can use both?"*  
+
+#### **Features & Playstyle**  
+- **Combines magic with cutting-edge technology for efficiency and enhancement.**  
+- Uses **spell storage, energy rerouting, and cybernetic enhancements** to optimize casting.  
+- Common among **Thaumatech scientists, corporate spell engineers, and cyber-mages.**  
+
+#### **School Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 2nd | **Spell Circuitry** – You can store a prepared spell in a device (such as a gauntlet or datapad), allowing you to cast it as a bonus action later. |  
+| 6th | **Energy Conduits** – When casting a spell, you can transfer any excess energy into a magical device, storing it for later use. |  
+| 10th | **Arcane Recalibration** – Once per short rest, you can modify a spell as you cast it, changing its damage type or increasing its range. |  
+| 14th | **Cybernetic Overclock** – Once per long rest, you can temporarily enter an enhanced state, reducing the casting time of all your spells by one step (e.g., from an action to a bonus action). |  
+
+---
+
+### **School of the Lost Codex**  
+*"What is forgotten is not gone. It simply waits to be found."*  
+
+#### **Features & Playstyle**  
+- **Dedicates study to ancient, lost, and forbidden magical knowledge.**  
+- Uses **forgotten spells, secret archives, and rare magical techniques.**  
+- Common among **arcane historians, archivists, and explorers of lost knowledge.**  
+
+#### **School Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 2nd | **Echoes of the Past** – You can glimpse into ancient spells, allowing you to copy and prepare spells from any class’s spell list once per long rest. |  
+| 6th | **Forbidden Secrets** – Once per long rest, you can attempt to cast a spell beyond your normal level, rolling an Arcana check (DC 10 + spell level). On success, you cast it; on failure, it fizzles. |  
+| 10th | **Archive of Power** – You can store an additional prepared spell each day beyond your normal limit. |  
+| 14th | **Codex Mastery** – When casting a spell, you can tap into its hidden potential, increasing its spell save DC by 2 or doubling its duration. |  
+
+---
+
+### **School of the Observer**  
+*"Magic isn’t a gift. It’s data waiting to be classified."*  
+
+#### **Features & Playstyle**  
+- **Specializes in anomaly containment, magical forensics, and classified research.**  
+- Uses **containment spells, predictive magic, and reality mapping techniques.**  
+- Common among **A.S.T.R.A.L. researchers, containment specialists, and paranormal scholars.**  
+
+{{pageNumber,auto}}
+\page
+
+#### **School Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 2nd | **Anomalous Detection** – You can analyze a magical anomaly, detecting its origin, composition, and whether it is contained or active. |  
+| 6th | **Predictive Modeling** – Once per short rest, you can glimpse a moment into the future, granting yourself or an ally advantage on an attack roll, saving throw, or ability check. |  
+| 10th | **Containment Protocols** – You can use a reaction to suppress an ongoing magical effect or shift an area of unstable magic into a controlled state for 1 minute. |  
+| 14th | **Sanctioned Reality** – Once per long rest, you can rewrite a magical effect as it happens, altering its target, range, or school of magic before it resolves. |  
+
+---
+
+### **School of the Arcane Lineage**  
+*"Once, magic was the world’s foundation. I am its last witness."*  
+
+#### **Features & Playstyle**  
+- **Draws from an ancient world that existed before The Emergence.**  
+- Uses **pure magic, untied to anomalies or technology, to shape reality.**  
+- Common among **last survivors of ancient bloodlines, lost scholars, and remnants of a forgotten civilization.**  
+
+#### **School Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 2nd | **Primordial Arcana** – Your magic is untouched by modern influences. Once per long rest, you can ignore counterspell, dispel magic, or other negation effects. |  
+| 6th | **Echo of the First Age** – You can recover a spell slot of 3rd level or lower once per short rest without expending resources. |  
+| 10th | **Untouched Knowledge** – You can cast a single spell you do not know once per long rest by drawing upon forgotten arcane knowledge. |  
+| 14th | **Legacy Unbroken** – Your connection to the lost past allows you to permanently alter one known spell, changing its school, damage type, or interaction with magic. |  
+
+---
+
+### **School of Neural Weaving**  
+*"The mind is another battlefield. And I always win."*  
+
+#### **Features & Playstyle**  
+- **Manipulates thought, memory, and cognition as a form of magic.**  
+- Excels at **rewriting perception, implanting false realities, and overriding free will.**  
+- Common among **corporate interrogators, psychic enforcers, and information brokers.**  
+
+#### **School Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 2nd | **Synaptic Override** – When you cast *Charm Person* or *Suggestion*, the target has disadvantage on their saving throw. |  
+| 6th | **Cognitive Ghost** – Once per long rest, you can leave behind an illusory imprint of yourself that continues a conversation or interaction for 1 minute. |  
+| 10th | **Thought Extraction** – You can force a creature within 30 feet to make an Intelligence saving throw. On failure, you learn one of their thoughts or memories. |  
+| 14th | **Neural Collapse** – Once per long rest, you can flood a target’s mind with overwhelming information, stunning them for 1 minute. |  
+
+---
+
+### **School of Industrial Thaumaturgy**  
+*"Magic is a tool. And I am its engineer."*  
+
+#### **Features & Playstyle**  
+- **Adapts arcane spells into mass-production industrial processes.**  
+- Excels at **magical efficiency, large-scale enchantment, and automated casting.**  
+- Common among **corporate spell-engineers, Thaumatech developers, and urban artificers.**  
+
+#### **School Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 2nd | **Automated Spellcasting** – You can bind a spell into an enchanted device, allowing it to trigger once under specific conditions. |  
+| 6th | **Thaumic Recycling** – When you successfully dispel a magical effect, you regain half the spell’s original slot cost. |  
+| 10th | **Spell Factory** – You can cast a ritual spell in half the normal time, as long as you use industrial or technological components. |  
+| 14th | **Arcane Mass Production** – Once per long rest, you can duplicate a spell you just cast, applying the same effects to a second target. |  
+
+---
+
+### **School of the Forgotten Signal**  
+*"The broadcast never stopped. We just learned to ignore it."*  
+
+#### **Features & Playstyle**  
+- **Taps into an ancient, continuous transmission of arcane energy.**  
+- Uses **radio frequencies, digital echoes, and unstable broadcasts to shape magic.**  
+- Common among **signal cultists, rogue cryptographers, and arcane broadcasters.**  
+
+{{pageNumber,auto}}
+\page
+
+#### **School Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 2nd | **Signal Synchronization** – Once per short rest, you can link with an ongoing broadcast, allowing you to communicate with distant creatures as if using *Sending*. |  
+| 6th | **Interference Field** – You can create an area where all verbal communication (including spell incantations) is distorted, imposing disadvantage on spells that require speech. |  
+| 10th | **Frequency Tuning** – You can attune to a specific wavelength of magic, allowing you to temporarily detect hidden enchantments or concealed messages. |  
+| 14th | **The Final Broadcast** – Once per long rest, you can emit a powerful arcane transmission that forces all creatures within 60 feet to make an Intelligence saving throw or be overwhelmed with cryptic knowledge, stunning them for 1 minute. |  
+
+---
+
+### **School of Arcane Containment**  
+*"Magic is dangerous. That’s why I keep it locked away."*  
+
+#### **Features & Playstyle**  
+- **Specializes in sealing, suppressing, and neutralizing rogue magic.**  
+- Uses **containment fields, spell negation, and arcane suppression.**  
+- Common among **A.S.T.R.A.L. enforcers, magical prison wardens, and anti-magic specialists.**  
+
+#### **School Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 2nd | **Arcane Seal** – You can prevent a creature from casting spells for 1 minute if they fail a Wisdom saving throw against your spell save DC. |  
+| 6th | **Nullification Barrier** – Once per long rest, you can create a 10-foot-radius field where all magic is suppressed, including your own. |  
+| 10th | **Containment Glyph** – You can inscribe a binding sigil on a surface that prevents magical entities from passing through unless they succeed on a Charisma save. |  
+| 14th | **Absolute Suppression** – Once per long rest, you can shut down all ongoing magical effects within 30 feet for 1 minute, rendering all spells inert. |  
+
+---
+
+### **School of The Archivist’s Veil**  
+*"Knowledge was lost for a reason. And yet, I seek it."*  
+
+#### **Features & Playstyle**  
+- **Dedicates study to lost texts, encrypted lore, and dangerous forgotten spells.**  
+- Uses **forbidden knowledge, layered encryption, and magic hidden from reality.**  
+- Common among **clandestine historians, secret-keepers, and archivists of the occult.**  
+
+#### **School Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 2nd | **Hidden Codices** – You can magically encode spells and texts so that only those you designate can read them. |  
+| 6th | **Unveiling Ritual** – Once per long rest, you can attempt to decode a hidden or encrypted magical effect as if using *Comprehend Languages* and *Identify* simultaneously. |  
+| 10th | **Obscured Presence** – You become immune to divination spells and scrying effects, and any attempt to locate you via magic fails. |  
+| 14th | **Erase from Record** – Once per long rest, you can temporarily remove a target from all written and magical records for 24 hours. |  
+
+---
+
+### **School of Arcane Remnants**  
+*"Not all magic survives intact. I use what remains."*  
+
+#### **Features & Playstyle**  
+- **Harnesses broken, unstable, or fragmented magical effects.**  
+- Uses **glitches, arcane instability, and incomplete spellwork to unpredictable ends.**  
+- Common among **urban scavenger-mages, anomaly casters, and lost spell researchers.**  
+
+#### **School Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 2nd | **Residual Magic** – When you cast a spell, roll a d6. On a 6, the spell does not consume a spell slot. |  
+| 6th | **Arcane Flicker** – If you fail a spellcasting roll, you can attempt to redirect the spell toward a different target instead of losing the effect. |  
+| 10th | **Unstable Casting** – Once per short rest, you can cast a spell of one level higher than your highest available slot. On a roll of 1 on a d20, the spell misfires with unexpected results. |  
+| 14th | **Echo of Forgotten Power** – Once per long rest, you can randomly generate a spell from an unknown source (GM discretion) and cast it, regardless of spell slot limitations. |  
+
+---
+
+## **Quick Build**  
+You can make a **Wizard** quickly by following these suggestions:  
+- Choose **Gnome or Elf** for a thematic fit.  
+- Pick the **Corporate Researcher** or **Occult Archivist** background.  
+- Prioritize **Intelligence**, followed by **Dexterity or Wisdom**.  
+- Take a high-tech grimoire and an experimental spell stabilizer for maximum research potential.  

@@ -1,0 +1,944 @@
+```metadata
+title: 'Ashen Vault - Species: Pykari'
+description: ''
+tags: []
+systems:
+  - 5e
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+/*=======--- Example CSS styling ---=======*/
+/* Any CSS here will apply to your document! */
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+:root {
+    --rotate: 20deg;
+    --left: unset;
+    --top: unset;
+    --correction: "correction";
+    --source: 'https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png';
+
+    --hazard-yellow: #ffcc00;
+    --radiation-black: #111;
+    --industrial-gray: #3b3b3b;
+    --warning-red: #b20000;
+    --distressed-white: #f5f5f5;
+    --background-paper: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f1ec070e75cb548a01624335bbca1b87.png');
+}
+
+/* Nuclear, Industrial, Radiation Themed Overhaul */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+
+/* Removes Drop Caps */
+.page h1+p:first-letter {
+    all: unset;
+}
+
+
+.page:has(.frontCover) {
+    background:unset;
+    background-color: #CFBDA4;
+}
+
+.page:has(.frontCover) .coverBackground {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -1cm;
+    left: 0;
+    z-index: -1;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/517429e8a63e8067a69aefa9aa8d0335.webp');
+    background-size: cover;
+    background-position: center;
+    mask-image: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 20%), rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: linear-gradient(270deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+.page:has(.frontCover) .coverImage {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -7cm;
+    left: 0;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/0a0b5e7e9496fd06deac901172f5455f.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.page:has(.frontCover) h1,
+.page:has(.frontCover) h2,
+.page:has(.frontCover) h3 {
+    border: unset;
+    background-color: unset;
+    -webkit-text-stroke: unset;
+    text-stroke: unset;
+    color:white;
+    mix-blend-mode: normal;
+}
+
+.page:has(.frontCover) h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: White;
+    margin-top: 50px;
+    font-family: "Oswald", sans-serif;
+    background: none;
+}
+
+.page:has(.frontCover) h2 {
+    font-size: 2rem;
+    letter-spacing: 8.5px;
+    text-align: center;
+    margin-top: 20px;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.page:has(.frontCover) h3 {
+	  color: white;
+    margin-top: 10px;
+    text-decoration: underline overline #d1d1d1;
+}
+
+.page:has(.frontCover) h4 {
+   letter-spacing: 10px;
+	 color: white;
+   font-family: "Oswald", sans-serif;
+}
+
+
+.page:has(.frontCover) .footnote {
+    font-size: 1.5rem;
+    margin-top: 30px;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 2px gray;
+    ;
+    text-stroke: 2px gray;
+    text-align: right;
+}
+
+.page li {
+    text-align: left;
+}
+
+.page .footnote {
+    border-top: lightgray dotted 2px;
+    width: 80%;
+    color: gray;
+    bottom: 28px;
+}
+
+.page .footnote>h1 {
+    background-color: transparent;
+    border: none;
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+
+/* Removes Small-Caps in first line */
+.page h1+p:first-line {
+    all: unset;
+}
+
+.page {
+    background-image: var(--background-paper);
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    color: var(--radiation-black);
+    text-transform: uppercase;
+    filter: contrast(85%) brightness(90%);
+}
+
+.page:has(.insideCover) p,
+.page:has(.insideCover) ul {
+    text-align: left;
+}
+
+.page .subheading {
+    columns: 1;
+    column-span: all;
+    -webkit-column-span: all;
+    display: flex;
+    margin-top: -2px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    align-items: stretch;
+    mix-blend-mode: overlay;
+}
+
+.page .subheading p,
+.page .subheading ul,
+.page:has(.insideCover) .subheading p {
+    border: 2px solid var(--industrial-gray);
+    padding: 2px 10px;
+    flex-grow: 1;
+    text-align: right;
+    font-size: 9px;
+    max-width: 400px
+}
+
+.page .subheading ul,
+.page:has(.insideCover) .subheading ul {
+    list-style-position: inside;
+    margin: 0;
+}
+
+
+.page:after,
+.page:has(.insideCover):after,
+.page:nth-child(even)::after {
+    all: unset;
+    content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+    transform-origin: top right;
+    transform: rotate(270deg);
+    white-space: nowrap;
+    position: absolute;
+    right: 1.5cm;
+    top: 0px;
+    text-transform: uppercase;
+    width: 29cm;
+    font-family: 'Special Elite', sans-serif;
+    color: var(--warning-red);
+    mix-blend-mode: multiply;
+}
+
+.page:before {
+    all: unset;
+    content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+    transform-origin: top left;
+    transform: rotate(90deg);
+    white-space: nowrap;
+    position: absolute;
+    left: 1.5cm;
+    top: 0px;
+    text-transform: uppercase;
+    width: 29cm;
+    font-family: 'Special Elite', sans-serif;
+    color: var(--warning-red);
+    mix-blend-mode: multiply;
+}
+
+.page:has(.insideCover) .logo {
+    top: 0.5cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 .075cm black);
+}
+
+.page:has(.insideCover) .logo>img {
+    height: 2cm;
+    width: 1.8cm;
+    opacity: 0.1;
+    filter: none;
+}
+
+.page:has(.insideCover) {
+    background-image: var(--background-paper);
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    color: var(--radiation-black);
+    text-transform: uppercase;
+    filter: contrast(85%) brightness(90%);
+}
+
+.coverpicture {
+    margin-top: 1.5cm;
+    max-width: 15cm;
+    max-height: 15cm;
+    mix-blend-mode: overlay;
+}
+
+.coverpicture>img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.radiationsymbol {
+    margin-top: 1.5cm;
+    max-width: 12cm;
+    max-height: 12cm;
+    mix-blend-mode: multiply;
+}
+
+.radiationsymbol>img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: -14cm;
+}
+
+.page h1,
+.page:has(.insideCover) h1,
+.page:has(.partCover) h1 {
+    font-size: 32px;
+    font-family: 'Special Elite', sans-serif;
+    background: none;
+    background-color: var(--industrial-gray);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    mix-blend-mode: color-burn;
+}
+
+
+.page:has(.insideCover) .footnote,
+.page:has(.partCover) .footnote,
+.block .footnote {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #2C2C2C;
+    -webkit-text-stroke: 0;
+    text-align: left;
+}
+
+.page h2,
+.page:has(.insideCover) h2,
+.page:has(.partCover) h2 {
+    font-size: 24px;
+    text-align: left;
+    color: var(--industrial-gray);
+    font-family: 'Oswald', sans-serif;
+    padding: 5px;
+    text-align: center;
+    background-color: var(--hazard-yellow);
+    border: 5px solid var(--industrial-gray);
+    margin: 5px;
+    mix-blend-mode: multiply;
+}
+
+.page h3,
+.page:has(.insideCover) h3,
+.page:has(.partCover) h3 {
+    font-size: 25px;
+    color: var(--industrial-gray);
+    font-family: 'Special Elite', sans-serif;
+    margin-top: 15px
+
+}
+
+.page h3 {
+    border: none;
+}
+
+.page h4,
+.page:has(.insideCover) h4,
+.page:has(.partCover) h4 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    color: #8F8F8F;
+}
+
+.page:has(.insideCover) hr,
+.page hr {
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+    width: 80%;
+    height: 1mm;
+    background: none;
+    background-color: var(--industrial-gray);
+    mix-blend-mode: overlay;
+}
+
+.page blockquote {
+    background: rgba(255, 204, 0, 0.2);
+    border-left: 6px solid var(--hazard-yellow);
+    padding: 12px;
+    font-family: 'Special Elite', sans-serif;
+    text-align: justify;
+    font-style: italic;
+}
+
+/* --- Tables: Bureaucratic Report Style --- */
+.page table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.page th {
+    background-color: #D6D6D6;
+    /* Ash Gray */
+    color: #2C2C2C;
+    /* Vault Black */
+    padding: 8px;
+    border-bottom: 3px solid #8F8F8F;
+    /* Stronger Border */
+    text-transform: uppercase;
+}
+
+.page td {
+    background-color: #F8F8F8;
+    /* Paper White */
+    color: #5A5A5A;
+    /* Charcoal Gray */
+    padding: 8px;
+    border-bottom: 1px solid #BFBFBF;
+    /* Soft Grid */
+}
+
+
+.post-it {
+    left: var(--left);
+    top: var(--top);
+    transform: rotate(var(--rotate));
+    max-width: 250px;
+    max-height: 240px;
+    width: 250px;
+    height: 240px;
+    position: relative;
+    background: #ffa;
+    overflow: hidden;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 0 0 0 30px/45px;
+    box-shadow: inset 0 -40px 40px rgba(0, 0, 0, 0.05), inset 0 25px 10px rgba(0, 0, 0, 0.07), 0 5px 6px 5px rgba(0, 0, 0, 0.2);
+    font-family: 'Cedarville Cursive', cursive;
+    line-height: 1.7em;
+    font-size: 19px;
+    -webkit-mask-image: url(data:image/png;
+ base64, iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+    color: #130d6b;
+}
+
+.post-it:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    background: #ffa;
+    box-shadow: 3px -2px 10px rgba(0, 0, 0, 0.2), inset 15px -15px 15px rgba(0, 0, 0, 0.3);
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    transform: skewX(25deg);
+}
+
+.smudge {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/5d4334616f20bd1d1f059f6007892650.png') no-repeat center;
+    background-size: contain;
+
+
+}
+
+.smudge:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 10cm;
+    height: 10cm;
+
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 19%, rgba(255, 255, 255, 0) 52%);
+    background-blend-mode: lighten
+}
+
+
+.coffee-stain {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f74119a30ba73c9c5b3a7cc1aa9d7d42.png') no-repeat center;
+    background-size: contain;
+    mix-blend-mode: multiply;
+}
+
+
+.corrected {
+    position: relative;
+    text-decoration: line-through;
+    color: black;
+}
+
+.corrected::after {
+    content: var(--correction, "Default Text");
+    ;
+    font-size: 12px;
+    color: #0F3D75;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    font-family: 'Cedarville Cursive', cursive;
+
+    -webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+}
+
+
+.paperclip {
+
+    position: absolute;
+    display-block;
+    top: -10px;
+    left: var(--left, 60);
+    width: 50px;
+    height: 150px;
+    transform: rotate(-15deg);
+    /* Slight tilt for realism */
+    opacity: 0.8;
+    /* Slight transparency */
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/421f492b3660fca7d119964aff1f24db.png') no-repeat center;
+    background-size: contain;
+}
+
+.polaroid {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    max-width: 10cm;
+    max-height: 10cm;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png') no-repeat center;
+    background-size: contain;
+    transform-origin: top left;
+}
+
+.polaroid>p>img {
+    margin-left: 1.26cm;
+    margin-top: 0.74cm;
+    height: 7.4cm;
+    width: 7.5cm;
+    object-fit: cover;
+    mix-blend-mode: screen;
+}
+
+
+.fading {
+    background: linear-gradient(to bottom, black 10%, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.4) 70%, rgba(0, 0, 0, 0.1) 90%, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.page .stamped-text {
+    font-family: 'Special Elite', sans-serif;
+    font-size: 14px;
+    color: var(--radiation-black);
+    padding: 5px;
+    border: 2px solid var(--warning-red);
+    display: inline-block;
+    transform: rotate(-10deg);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin: 10px 0;
+}
+
+.page .block {
+    position: relative;
+}
+
+.page .handwritten {
+    font-family: "Permanent Marker", serif;
+    color: var(--industrial-gray);
+    font-size: 18px;
+    position: absolute;
+    transform: rotate(3deg);
+    mix-blend-mode: multiply;
+    text-shadow:
+        -1px -1px 2px rgba(0, 0, 0, 0.6),
+        2px 2px 5px rgba(255, 100, 0, 0.2);
+    /* Burn glow */
+    filter: blur(0.5px) contrast(95%);
+}
+
+.page .warning-label {
+    display: inline-block;
+    background: var(--warning-red);
+    color: white;
+    padding: 6px 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Special Elite', sans-serif;
+    transform: rotate(8deg);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.page .burn {
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/7a8d9b181eef72191276fb227eb43962.png');
+    width: 7cm;
+    height: 7cm;
+    background-size: contain;
+    background-repeat: no-repeat;
+    mix-blend-mode: hard-light;
+    margin-bottom: -7cm;
+    margin-right: -7cm;
+
+    position: relative;
+    top: -3.5cm;
+    left: -3.5cm;
+
+}
+
+.page .burn+* {
+    margin-top: -5px;
+    ;
+}
+
+.page .radiation-symbol {
+    background: url('/mnt/data/Ashen_Vault_Template_Dreadmere.webp') no-repeat center;
+    background-size: contain;
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+}
+
+.page .redacted {
+    background: black;
+    color: black;
+    padding: 3px 8px;
+    border-radius: 2px;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+
+.page .classified {
+    background-color: var(--warning-red);
+    color: white;
+    padding: 7px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Special Elite', sans-serif;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transform: rotate(-5deg);
+    display: inline-block;
+    margin: 5px;
+}
+
+
+.page .isotope {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page .orbital {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid gray;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page .electron {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    background: blue;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.page .nucleus {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+}
+
+.page .proton {
+    display: flex;
+    background: darkred;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.page .neutron {
+    display: flex;
+    background: gray;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    top: -10px;
+    left: 10px;
+}
+
+.page .neutron+.neutron {
+    top: -38px;
+    left: -10px;
+}
+
+.particle {
+  color: white;
+}
+
+
+
+.page .notation {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    mix-blend-mode: color-burn;
+}
+
+.page .symbol {
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    color: gray;
+    width: 100%;
+}
+
+.page .nuclear {
+    margin-top: 2cm;
+    columns: 1;
+    column-span: all;
+    -webkit-column-span: all;
+    display: flex;
+    filter: brightness(40%);
+    mix-blend-mode: overlay;
+}
+
+.block.polaroid {
+	position: absolute;
+	top: var(--top);
+	left: var(--left);
+	width: 10cm;
+	height: 10cm;
+	max-width: 10cm;
+	max-height: 10cm;
+	background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png') no-repeat center;
+	background-size: contain;
+	transform-origin: top left;
+  filter: brightness(80%);
+}
+
+.block.polaroid>p>img {
+	margin-left: 0cm;
+	margin-top: 0.74cm;
+	height: 7.4cm;
+	width: 7.5cm;
+	object-fit: cover;
+	mix-blend-mode: screen;
+}
+
+.page .burn {
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/7a8d9b181eef72191276fb227eb43962.png');
+    width: 20cm;
+    height: 20cm;
+    background-size: contain;
+    background-repeat: no-repeat;
+    mix-blend-mode: luminosity;
+    margin-bottom: -7cm;
+    margin-right: -7cm;
+    z-index: -1;
+    position: absolute;
+	  top: var(--top);
+	  left: var(--left);
+
+}
+
+.page .burn+* {
+    margin-top: -5px;
+}
+```
+
+{{frontCover}}
+{{coverBackground}}
+## Species
+
+# Pykari
+## The Wandering Sparks
+
+{{footnote 
+#### A.S.T.R.A.L Genus Research
+}}
+
+\page
+{{insideCover}}
+
+{{polaroid,--left:5cm,rotate:-6deg,top:10cm;
+  ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/517429e8a63e8067a69aefa9aa8d0335.webp)
+}}
+{{polaroid,--left:5cm,rotate:-10deg,top:10cm;
+  ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/517429e8a63e8067a69aefa9aa8d0335.webp)
+}}
+{{polaroid,--left:5cm,rotate:6deg,top:10cm;
+  ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/517429e8a63e8067a69aefa9aa8d0335.webp)
+}}
+
+{{polaroid,--left:5cm,rotate:7deg,top:9.2cm;
+  ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/517429e8a63e8067a69aefa9aa8d0335.webp)
+}}
+{{polaroid,--left:5cm,rotate:1deg,top:10cm;
+  ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/517429e8a63e8067a69aefa9aa8d0335.webp)
+}}
+{{burn,--left:-10cm,top:-8cm;}}
+\page
+{{insideCover}}  
+# **CONFIDENTIAL**  
+## ⚠ A.S.T.R.A.L. ⚠  
+## **ANTHROPOLOGICAL SURVEY DIVISION**  
+___  
+
+This document is the sole property of the **Agency for Surveillance, Tracking, and Regulation of Anomalous Landscapes (A.S.T.R.A.L.)** and is classified under **Biometric Analysis Protocol O-92**. Unauthorized access, duplication, or distribution constitutes a direct violation of the **Anomalous Contingency Act (A.C.A. §17-42)** and will trigger immediate countermeasures.  
+
+By accessing this file, you acknowledge:  
+- You have the **necessary clearance** to review classified **biological intelligence**.  
+- You are subject to **continuous biometric and cognitive monitoring** under **Anthropological Compliance Mandate 24-B**.  
+- Any **unauthorized replication or dissemination** will result in the activation of **Containment Directive Theta**, authorizing full intervention by **Bio-Security Division Kappa**.  
+- Disclosure of restricted genetic analysis will **invoke subject-specific erasure protocols**, up to and including **cognitive redaction under Directive 88-P**.  
+
+This document provides **ongoing surveillance data, species profiling, and genetic deviation reports** concerning the recognized **sentient populations of Concord City and its surrounding territories**. Due to **unresolved discrepancies regarding the migratory patterns and ethereal anomalies linked to the Pykari**, data integrity remains under **constant review by the Oversight Bureau (O.B.)**.  
+
+If you are not the intended recipient, cease all interaction immediately and report this breach to **A.S.T.R.A.L. Oversight Bureau (O.B.)** via secure terminal [O.B.//DIRECT-LINK-SEC/347-99]. Failure to comply will escalate to **Genetic Contingency Response Protocol Cobalt-7**.  
+
+### **Pykari – Species Designation: Homo Ignis Nomadica**  
+**Summary:** The **Pykari**, colloquially referred to as the **Wandering Sparks**, exhibit a high degree of **nomadic resilience, ethereal sensitivity, and anomalous adaptability** to shifting environmental conditions. Their physiology suggests a **latent connection to residual Ashen Spiral energies**, with **sustained bio-thermic fluctuations** that have yet to be fully mapped.  
+
+Surveillance notes indicate that the **Pykari maintain an intrinsic reliance on migratory patterns dictated by unknown variables**, with reports of their **untraceable disappearances and spontaneous relocations defying conventional geographic tracking**. Due to their **apparent ability to manipulate their presence within an environment**, they have been flagged under **Observational Tier Theta**, requiring continued **sub-etheric scans and contingency protocols** to ensure strategic oversight.  
+
+Further analysis is required to determine the **extent of Pykari interaction with anomalous ley-line events** and their **unusual resistance to localized reality distortions**. The potential implications of their **ethereal displacement abilities** remain **a subject of high-priority research**.  
+
+**A.S.T.R.A.L. – DEFENDING REALITY AGAINST GENETIC UNCERTAINTY**  
+**Everything is under observation.**  
+
+\page
+
+# **Pykari – The Wandering Sparks**  
+*Small, swift, and bound to the unseen threads of fate, the Pykari move like embers carried by the wind. Their presence is fleeting, their wisdom ancient.*  
+
+Pykari descend from the **Ashen Spiral**, a celestial realm of shifting fire and ephemeral echoes. Some claim they were once **spirits of the Spiral**, their forms woven from ember and motion before they chose to take physical shape.  
+
+Their **skin is deep obsidian black**, absorbing the warmth of the world, while their **thick, curly hair** flows in hues of **dark brown, fiery red, or golden copper**. Their **wide almond-shaped eyes** gleam with hidden insight, always watching, always listening. Their features are sharp yet expressive—**pointed noses, high cheekbones, and lips that curve easily into knowing smiles.**  
+
+Though they have **no single homeland**, Pykari have spread across **both Mycea and Vestigium**, their nomadic nature keeping them ever on the move. They **trust the unseen, follow signs and omens, and believe that the world whispers to those who know how to listen**.  
+
+---
+
+## **Pykari Traits**  
+Your Pykari character has the following racial traits.  
+
+### **Ability Score Increase**  
+- Your **Dexterity** score increases by **2**.  
+- Your **Charisma** or **Wisdom** score increases by **1** (your choice).  
+
+### **Age**  
+Pykari mature quickly, reaching adulthood by **15 years old**, but they live long for their size—**often surpassing 180 years**. Elders say the fire within them burns slow but never fully fades.  
+
+### **Size**  
+Pykari are **incredibly small**, standing between **2'8" and 3'4"** and weighing no more than **40 lbs**. Your size is **Small**.  
+
+### **Speed**  
+Your base walking speed is **30 feet**.  
+
+### **Darkvision**  
+Your connection to the **Ashen Spiral** grants you **Darkvision up to 60 feet**. You see the world in **shades of deep red and orange**, as if embers still smolder in the shadows.  
+
+### **Racial Traits**  
+- **Flickering Step.** Once per short rest, you can use a **bonus action** to teleport **up to 10 feet** to an unoccupied space you can see. When you do, you leave behind a faint ember glow that lingers for a moment.  
+- **Spiral Instincts.** You have **advantage on saving throws** against being **charmed or frightened**.  
+- **Nomadic Adaptability.** You gain **proficiency in two skills** of your choice from **Stealth, Insight, Survival, or Performance**.  
+- **Whisper of the Flames.** You know the **Produce Flame** cantrip. At 3rd level, you can cast **Detect Magic** once per long rest without a spell slot. At 5th level, you can cast **Misty Step** once per long rest. Your spellcasting ability for these spells is **Charisma or Wisdom** (your choice).  
+
+---
+
+## **Pykari Subraces**  
+Pykari are not defined by land, but by **movement and tradition**. Their subraces reflect the way they interact with the world around them.  
+
+### **Emberkin** *(The Flame Dancers)*  
+*Born with fire in their veins, the Emberkin move like a spark in dry grass—fast, fleeting, and unstoppable.*  
+
+The **Emberkin Pykari** are lively, unpredictable, and **always moving**. They are the storytellers, fire-dancers, and tricksters of their kind, carrying **laughter and chaos wherever they go**. Their presence is magnetic, their energy contagious.  
+
+Their **hair often has fiery undertones**, glowing in certain lights, and their **skin shimmers faintly in the dark**, as if embers still linger beneath.  
+
+#### **Traits:**  
+- **Ability Score Increase.** Your **Charisma** score increases by **1**. 
+{{burn,--left:5cm,top:20cm;}}
+\page
+- **Fatebound Fortune.** Once per long rest, when you **roll a natural 1 on an attack, ability check, or saving throw**, you can reroll it and take the second result.  
+- **Dancer’s Agility.** You have **proficiency in Acrobatics or Performance** (your choice).  
+- **Kindled Resilience.** You have **resistance to fire damage**.  
+
+\page  
+
+### **Shadowroot** *(The Hidden Flames)*  
+*Some embers burn low, waiting for the right moment to rise again.*  
+
+The **Shadowroot Pykari** are quiet observers, moving unseen between the cracks of society. They are **scouts, spies, and survivalists**, lingering where others would never think to look. They believe **true wisdom comes from patience**, and those who rush ahead often miss what’s most important.  
+
+Their **eyes absorb more light than they reflect**, making them excellent at hiding in the dark. Their **movements are feather-light**, allowing them to slip through the world **unnoticed, unseen, unheard**.  
+
+#### **Traits:**  
+- **Ability Score Increase.** Your **Wisdom** score increases by **1**.  
+- **Silent Frame.** You can **move at full speed while Stealthing** without penalty.  
+- **Peripheral Awareness.** You have **proficiency in Perception**.  
+- **Veil of the Spiral.** Once per long rest, you can **cast Pass Without Trace** without expending a spell slot.  
+
+---
+
+### **Stormtouched** *(The Wanderers of Fate)*  
+*Lightning never strikes the same place twice. Neither do the Stormtouched.*  
+
+Some Pykari are **born under storms**, their souls infused with restless energy. They **move fast, think fast, and live fast**, never staying in one place too long. Stormtouched Pykari are **swift-footed nomads**, feeling **the pull of fate more strongly than others**.  
+
+Their **hair crackles with static in dry air**, and their **eyes flicker with tiny sparks** when excited. They move **with an eerie sense of foresight**, as if they already know what comes next.  
+
+#### **Traits:**  
+- **Ability Score Increase.** Your **Dexterity** score increases by **1**.  
+- **Fleet of Foot.** Your base walking speed increases to **35 feet**.  
+- **Storm Reflexes.** You have **advantage on Dexterity saving throws against traps and environmental hazards**.  
+- **Fated Dash.** Once per short rest, when an enemy attacks you, you can use your **reaction** to move **15 feet** without provoking opportunity attacks.  
+
+---
+
+### **Pykari in Mycea**  
+In **Mycea**, Pykari wander the **Verdant Cradle, the Ember Wastes, and the Floating Reaches**, rarely settling in one place for long. They serve as **guides, lorekeepers, and spirit-dancers**, their words weaving tales that shape **history, fate, and legend**. Some believe they still carry **fragments of the Ashen Spiral** within them, allowing them to glimpse **what lies beyond the veil of time**.  
+
+### **Pykari in Vestigium**  
+In **Vestigium**, Pykari carve out lives in **hidden alleys, underground circuits, and the ever-moving shadows of the city**. They excel as **street performers, smugglers, data-runners, and fortune-tellers**, their nimble hands and sharp instincts making them **essential to both the underworld and the elite**. Many have traded their **fire-dancing for neon-lit hacking**, their **whispered omens** now carried through encrypted networks.  

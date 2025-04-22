@@ -1,12 +1,15 @@
 import pandas as pd
 import re
 
+
 def extract_magic_items(md_file, output_csv, output_excel):
     with open(md_file, "r", encoding="utf-8") as file:
         content = file.read()
 
     # Regular expression to capture magic items
-    item_pattern = re.findall(r"### \*(.*?)\*\n\*(.*?)\*\n(.*?)(?=\n###|\Z)", content, re.DOTALL)
+    item_pattern = re.findall(
+        r"### \*(.*?)\*\n\*(.*?)\*\n(.*?)(?=\n###|\Z)", content, re.DOTALL
+    )
 
     # Extracted data
     data = []
@@ -19,23 +22,45 @@ def extract_magic_items(md_file, output_csv, output_excel):
 
         # Split full type into magic item type and specific item type
         if "(" in full_type and ")" in full_type:
-            magic_item_type, specific_item_type = re.match(r"(.*?) \((.*?)\)", full_type).groups()
+            magic_item_type, specific_item_type = re.match(
+                r"(.*?) \((.*?)\)", full_type
+            ).groups()
         else:
             magic_item_type, specific_item_type = full_type, "General"
 
         # Clean up the description text
         description = description.strip().replace("\n", " ")
 
-        data.append([name, magic_item_type.strip(), specific_item_type.strip(), rarity.strip(), description])
+        data.append(
+            [
+                name,
+                magic_item_type.strip(),
+                specific_item_type.strip(),
+                rarity.strip(),
+                description,
+            ]
+        )
 
     # Create a DataFrame
-    df = pd.DataFrame(data, columns=["Name", "Magic Item Type", "Specific Item Type", "Rarity", "Description"])
+    df = pd.DataFrame(
+        data,
+        columns=[
+            "Name",
+            "Magic Item Type",
+            "Specific Item Type",
+            "Rarity",
+            "Description",
+        ],
+    )
 
     # Save to CSV and Excel
     df.to_csv(output_csv, index=False)
     df.to_excel(output_excel, index=False)
 
-    print(f"Extraction complete. Files saved as:\nCSV: {output_csv}\nExcel: {output_excel}")
+    print(
+        f"Extraction complete. Files saved as:\nCSV: {output_csv}\nExcel: {output_excel}"
+    )
+
 
 # Example usage
 md_file = "Magic_Items.md"  # Change to your Markdown file path

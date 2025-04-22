@@ -1,0 +1,56 @@
+```metadata
+title: 'Homebrew Initiative Rule: Party Initiative'
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+# Homebrew Initiative Rule: Party Initiative
+
+:
+To streamline combat and emphasize teamwork, all players in the party act on the same initiative count. This rule replaces the standard initiative system in D&D 5e.
+
+
+:::
+
+
+
+### Initiative Roll:
+At the start of combat, the party rolls a single initiative check using the highest Dexterity (Initiative) modifier in the group.
+The party can also each make an initiative roll and take the higher roll.
+The Dungeon Master rolls initiative for enemy groups separately.
+Combat Flow:
+
+### Combat Flow:
+When the party’s turn arrives, players act in any order they choose. They can discuss tactics, adjust strategies, and decide who acts first.
+Once all players have decided on their turns, all the turns resolve. THe party can choose how the turns resolve.
+
+### Conditions & Effects:
+If a player is affected by a condition that impacts their initiative (such as being surprised or stunned), they still lose their action on the party’s turn.
+Effects that last “until the end of a character’s next turn” end when the party’s next turn ends.
+Ready Action Adjustments:
+
+### Ready Action Adjustments:
+Players can still use the Ready action, specifying triggers as usual. Triggers can occur at any time during the round.
+Surprise Rounds:
+
+### Surprise Rounds:
+If the party is surprised, enemies get a full round of actions before the party can act. If only some players are surprised, the rest can act as usual when the party’s turn comes up.
+Ties in Initiative:
+
+### Ties in Initiative:
+If the party ties with an enemy's initiative, the party acts first unless the enemy has a feature that grants advantage on initiative.
+Optional Rule: Dynamic Initiative (Advanced Play)
+
+### Optional Rule: Dynamic Initiative (Advanced Play):
+At the start of each round, roll initiative for both the party and enemies again. This creates more dynamic and unpredictable combat.
+
+{{imageMaskEdge7,--offset:5%,--rotation:270
+  ![](https://i.pinimg.com/736x/5f/35/46/5f3546be4b8c9d012cbb725f2bd85de9.jpg){height:100%}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+

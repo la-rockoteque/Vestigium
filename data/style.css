@@ -322,13 +322,6 @@ page hr {
     /* Looks like an official document break */
 }
 
-.page blockquote {
-    background-color: #EDEDED;
-    border-left: 4px solid #2C2C2C;
-    padding: 10px;
-    font-family: "Courier New", Courier, monospace;
-}
-
 /* --- Tables: Bureaucratic Report Style --- */
 .page table {
     border-collapse: collapse;

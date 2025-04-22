@@ -1,0 +1,889 @@
+```metadata
+title: Ashen Vault - Class Warlock
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+/*=======--- Example CSS styling ---=======*/
+/* Any CSS here will apply to your document! */
+@import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Oswald:wght@200..700&family=Permanent+Marker&display=swap);
+:root {
+    --rotate: 20deg;
+    --left: unset;
+    --top: unset;
+    --correction: "correction";
+    --source: "https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png";
+}
+
+
+.page:has(.frontCover) {
+    background-color: black;
+}
+
+.page:has(.frontCover) .coverBackground {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -1cm;
+    left: 0;
+    z-index: -1;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/00018fbe403f06cf1f9bb3432de12184.webp');
+    background-size: cover;
+    background-position: center;
+    mask-image: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 20%), rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: linear-gradient(270deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+.page:has(.frontCover) .coverImage {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -7cm;
+    left: 0;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/0a0b5e7e9496fd06deac901172f5455f.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.page:has(.frontCover) h1,
+.page:has(.frontCover) h2,
+.page:has(.frontCover) h3 {
+    border-bottom: unset;
+    -webkit-text-stroke: unset;
+    text-stroke: unset;
+    ;
+}
+
+.page:has(.frontCover) h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: White;
+    margin-top: 50px;
+    font-family: "Oswald", sans-serif;
+    background: none;
+}
+
+.page:has(.frontCover) h2 {
+    font-size: 2rem;
+    letter-spacing: 8.5px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.page:has(.frontCover) h3 {
+    margin-top: 10px;
+    text-decoration: underline overline #d1d1d1;
+}
+
+.page:has(.frontCover) .footnote {
+    font-size: 1.5rem;
+    color: #d1d1d1;
+    margin-top: 30px;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 2px gray;
+    ;
+    text-stroke: 2px gray;
+    text-align: right;
+}
+
+/* Removes Drop Caps */
+.page h1 + p:first-letter {
+    all: unset;
+}
+.page .footnote {
+    border-top: lightgray dotted 2px;
+    width: 80%;
+    color: gray;
+    bottom: 28px;
+}
+.page .footnote > h1 {
+    background-color: transparent;
+    border: none;
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+.inline-block.pageNumber {
+    font-size: 1cm;
+    color: black;
+}
+/* Removes Small-Caps in first line */
+.page h1 + p:first-line {
+    all: unset;
+}
+.page {
+    background-color: #f8f8f8;
+    /* Light gray background */
+    background-image: radial-gradient(
+        circle,
+        rgba(0, 0, 0, 0.1) 1px,
+        transparent 1px
+    );
+    background-size: 20px 20px;
+    /* Adjust spacing */
+    font-family: "Courier New", Courier, monospace;
+    /* Typewriter / Redacted Report */
+}
+
+.page:has(.preface) {
+    columns: 1;
+    column-span: all;
+    gap: 5px;
+    text-align: center;
+
+}
+
+
+.page:after,
+.page:has(.frontCover):after,
+.page:has(.preface):after,
+.page:has(.insideCover):after,
+.page:nth-child(even)::after {
+    all: unset;
+    content: "Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.";
+    transform-origin: top right;
+    transform: rotate(270deg);
+    white-space: nowrap;
+    position: absolute;
+    right: 1.5cm;
+    top: 0px;
+    color: gray;
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    width: 29cm;
+}
+.page:before {
+    all: unset;
+    content: "Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.";
+    transform-origin: top left;
+    transform: rotate(90deg);
+    white-space: nowrap;
+    position: absolute;
+    left: 1.5cm;
+    top: 0px;
+    color: gray;
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    width: 29cm;
+}
+.page:has(.preface) .logo {
+    top: 10cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 0.075cm black);
+}
+.page:has(.insideCover) .logo {
+    top: 0.5cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 0.075cm black);
+}
+.page:has(.insideCover) p,
+.page:has(.insideCover) ul {
+    margin-top: 20px;
+    text-align: left;
+}
+.page:has(.insideCover) .logo > img {
+    height: 2cm;
+    width: 1.8cm;
+    opacity: 0.1;
+    filter: none;
+}
+.page:has(.preface) .logo > img {
+    height: 10cm;
+    width: 9cm;
+    opacity: 0.1;
+    filter: none;
+}
+
+.page:has(.preface),
+.page:has(.insideCover) {
+    background: none;
+    background-color: #f8f8f8;
+}
+
+.coverpicture {
+    margin-top: 1.5cm;
+    max-width: 15cm;
+    max-height: 15cm;
+}
+
+.coverpicture > img {
+    max-width: 100%;
+    max-height: 100%;
+    mix-blend-mode: luminosity;
+}
+
+.page h1 {
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    color: #2c2c2c;
+    /* Vault Black */
+    background-color: #ededed;
+    /* Subtle Header Background */
+    padding: 5px;
+    border-bottom: 3px solid #2c2c2c;
+    /* Strong Bureaucratic Divider */
+}
+.page:has(.insideCover) h1,
+.page:has(.preface) h1,
+.page:has(.partCover) h1 {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    background-color: #ededed;
+    /* Subtle Header Background */
+    color: #2c2c2c;
+    /* Vault Black */
+    padding: 5px;
+    border-bottom: 0;
+}
+.page:has(.preface) h1 {
+    -webkit-text-stroke: 0;
+}
+.page:has(.insideCover) h1 {
+    background-image: linear-gradient(
+        45deg,
+        #f7f7f7 25%,
+        #dbdbdb 25%,
+        #dbdbdb 50%,
+        #f7f7f7 50%,
+        #f7f7f7 75%,
+        #dbdbdb 75%,
+        #dbdbdb 100%
+    );
+    background-size: 14.14px 14.14px;
+}
+.page:has(.insideCover) .footnote,
+.page:has(.preface) .footnote,
+.page:has(.partCover) .footnote {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+    -webkit-text-stroke: 0;
+    text-align: left;
+}
+.block .footnote {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+}
+.page h2 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #2c2c2c;
+    border-bottom: 2px solid #8f8f8f;
+}
+.page:has(.insideCover) h2,
+.page:has(.preface) h2,
+.page:has(.partCover) h2 {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+    border-bottom: 0;
+}
+.page:has(.preface) h2 {
+    -webkit-text-stroke: 0;
+}
+.page h3,
+.page:has(.insideCover) h3,
+.page:has(.preface) h3,
+.page:has(.partCover) h3 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    color: #5a5a5a;
+    text-transform: uppercase;
+    border-bottom: gray dashed 1px;
+}
+.page h4,
+.page:has(.insideCover) h4,
+.page:has(.preface) h4,
+.page:has(.partCover) h4 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    color: #8f8f8f;
+}
+.page .redacted {
+    background-color: black;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+.page:has(.preface) hr {
+    margin: 10px;
+    position: relative;
+    width: 100%;
+    height: 5mm;
+    /* Adjust height to match a real ruler */
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0mm,
+        transparent 0.8mm,
+        black 0.8mm,
+        black 1mm
+    );
+    filter: none;
+}
+.page:has(.insideCover) hr {
+    position: relative;
+    width: 100%;
+    height: 1mm;
+    /* Adjust height to match a real ruler */
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0mm,
+        transparent 0.8mm,
+        black 0.8mm,
+        black 1mm
+    );
+}
+page hr {
+    border: 2px dashed #8f8f8f;
+    /* Looks like an official document break */
+}
+.page blockquote {
+    background-color: #ededed;
+    border-left: 4px solid #2c2c2c;
+    padding: 10px;
+    font-family: "Courier New", Courier, monospace;
+}
+/* --- Tables: Bureaucratic Report Style --- */
+.page table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.page th {
+    background-color: #d6d6d6;
+    /* Ash Gray */
+    color: #2c2c2c;
+    /* Vault Black */
+    padding: 8px;
+    border-bottom: 3px solid #8f8f8f;
+    /* Stronger Border */
+    text-transform: uppercase;
+}
+.page td {
+    background-color: #f8f8f8;
+    /* Paper White */
+    color: #5a5a5a;
+    /* Charcoal Gray */
+    padding: 8px;
+    border-bottom: 1px solid #bfbfbf;
+    /* Soft Grid */
+}
+/* --- Links: Subtle and Official-Looking --- */
+.page a {
+    color: #2c2c2c;
+    text-decoration: none;
+    border-bottom: 1px dashed #8f8f8f;
+}
+.page a:hover {
+    color: #5a5a5a;
+    border-bottom: 1px solid #5a5a5a;
+}
+.post-it {
+    left: var(--left);
+    top: var(--top);
+    transform: rotate(var(--rotate));
+    max-width: 250px;
+    max-height: 240px;
+    width: 250px;
+    height: 240px;
+    position: relative;
+    background: #ffa;
+    overflow: hidden;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 0 0 0 30px/45px;
+    box-shadow: inset 0 -40px 40px rgba(0, 0, 0, 0.05),
+        inset 0 25px 10px rgba(0, 0, 0, 0.07), 0 5px 6px 5px rgba(0, 0, 0, 0.2);
+    font-family: "Cedarville Cursive", cursive;
+    line-height: 1.7em;
+    font-size: 19px;
+    -webkit-mask-image: url(data:image/png;
+    base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+    color: #130d6b;
+}
+.post-it:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    background: #ffa;
+    box-shadow: 3px -2px 10px rgba(0, 0, 0, 0.2),
+        inset 15px -15px 15px rgba(0, 0, 0, 0.3);
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    transform: skewX(25deg);
+}
+.smudge {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/5d4334616f20bd1d1f059f6007892650.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.smudge:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 10cm;
+    height: 10cm;
+
+    background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 1) 19%,
+        rgba(255, 255, 255, 0) 52%
+    );
+    background-blend-mode: lighten;
+}
+
+.coffee-stain {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f74119a30ba73c9c5b3a7cc1aa9d7d42.png")
+        no-repeat center;
+    background-size: contain;
+    mix-blend-mode: multiply;
+}
+
+.corrected {
+    position: relative;
+    text-decoration: line-through;
+    color: black;
+}
+
+.corrected::after {
+    content: var(--correction, "Default Text");
+    font-size: 12px;
+    color: #0f3d75;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    font-family: "Cedarville Cursive", cursive;
+
+    -webkit-mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+}
+
+.paperclip {
+    position: absolute;
+    display: block;
+    top: -10px;
+    left: var(--left, 60);
+    width: 50px;
+    height: 150px;
+    transform: rotate(-15deg); /* Slight tilt for realism */
+    opacity: 0.8; /* Slight transparency */
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/421f492b3660fca7d119964aff1f24db.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.polaroid {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    max-width: 10cm;
+    max-height: 10cm;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png")
+        no-repeat center;
+    background-size: contain;
+    transform-origin: top left;
+}
+
+.polaroid > p > img {
+    margin-left: 1.26cm;
+    margin-top: 0.74cm;
+    height: 7.4cm;
+    width: 7.5cm;
+    object-fit: cover;
+    mix-blend-mode: screen;
+}
+
+.doodle.dog1 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/6d860afef532110ae76b559ace75dfa7.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.dog2 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/e2820894e1c1c58cb9d710e5522858fc.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.cat1 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/b43f55649f7f416de20109ce0f3b6722.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.cat2 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/898133d59ab4ce7d036283cf075620e2.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.doodle {
+    position: relative;
+    top: var(--top);
+    left: var(--left);
+    display: block;
+    width: 150px;
+    height: 150px;
+    -webkit-mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-repeat: repeat;
+}
+
+.fading {
+    background: linear-gradient(
+        to bottom,
+        black 10%,
+        rgba(0, 0, 0, 0.8) 30%,
+        rgba(0, 0, 0, 0.6) 50%,
+        rgba(0, 0, 0, 0.4) 70%,
+        rgba(0, 0, 0, 0.1) 90%,
+        transparent
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+```
+
+{{frontCover}}
+{{coverBackground}}
+## Class
+# Warlock
+## Servitude to the patron
+
+{{footnote 
+#### A.S.T.R.A.L Training Material
+}}
+
+\page
+
+{{insideCover}}
+
+# CONFIDENTIAL  
+## ⚠ A.S.T.R.A.L.⚠  
+## ANTHROPOLOGICAL SURVEY DIVISION  
+___  
+
+This document is the sole property of the **Agency for Surveillance, Tracking, and Regulation of Anomalous Landscapes (A.S.T.R.A.L.)** and is classified under **Biometric Analysis Protocol O-92**. Unauthorized access, duplication, or distribution constitutes a direct violation of the **Anomalous Contingency Act (A.C.A. §17-42)** and will trigger immediate countermeasures.  
+
+By accessing this file, you acknowledge:  
+- You have the **necessary clearance** to review classified **biological intelligence**.  
+- You are subject to **continuous biometric and cognitive monitoring** under **Anthropological Compliance Mandate 24-B**.  
+- Any **unauthorized replication or dissemination** will result in the activation of **Containment Directive Theta**, authorizing full intervention by **Bio-Security Division Kappa**.  
+- Disclosure of restricted genetic analysis will **invoke subject-specific erasure protocols**, up to and including **cognitive redaction under Directive 88-P**.  
+
+This document provides **ongoing surveillance data, species profiling, and genetic deviation reports** concerning the recognized **sentient populations of Concord City and its surrounding territories**. Due to **unresolved discrepancies regarding human emergence events**, data integrity remains under **constant review by the Oversight Bureau (O.B.)**.  
+
+If you are not the intended recipient, cease all interaction immediately and report this breach to **A.S.T.R.A.L. Oversight Bureau (O.B.)** via secure terminal [O.B.//DIRECT-LINK-SEC/347-99]. Failure to comply will escalate to **Genetic Contingency Response Protocol Cobalt-7**.  
+
+{{logo ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png)}}  
+
+### **Vorraki – Species Designation: Homo Voracis**  
+**Summary:** The **Vorraki** are **genetically optimized for high-impact physicality, rapid muscular repair, and combat-oriented reflex enhancement**. Their **distinct genetic subtypes** exhibit **adaptive resilience**, ensuring dominance across a wide range of physically demanding environments. While traditionally relegated to **security, enforcement, and paramilitary operations**, emerging Vorraki power structures suggest an **ongoing transition toward economic and political self-sufficiency**, particularly in **black-market security, logistics, and organized paramilitary enterprises**. **Containment is not advised—negotiation remains the recommended control mechanism.**  
+
+**A.S.T.R.A.L. – DEFENDING REALITY AGAINST GENETIC UNCERTAINTY**  
+**Everything is under observation.**  
+
+{{pageNumber,auto}}
+\page
+## **Warlock**  
+*Occult Broker | Paranormal Pactmaker | Corporate Thaumaturge | Shadowbound*  
+
+> *"The contract is simple: power in exchange for obedience. The fine print? You never stop paying."*  
+> — **Isabeau Chauviller, Fatbastard Enforcer**  
+
+### **Thematic Overview**  
+Warlocks in Concord City are not mere scholars of magic—they are **dealmakers, occultists, and bound servants of unseen forces**. Their power comes from **bargains with paranormal entities, corporate experiments, or forgotten gods**. Some willingly enter into these contracts, others are tricked or born into servitude.
+- Warlocks are **conduits for powerful entities, eldritch organizations, or secretive cabals**.  
+- Some serve **corporate overlords**, binding their souls for supernatural contracts.  
+- Others are **rogue mystics**, wielding dark power while dodging their patron’s reach.  
+- They thrive in **shadows, secret societies, and supernatural conflicts**.  
+
+### **Creating a Warlock**  
+- Did you willingly forge a pact, or was it forced upon you?  
+- Who (or what) is your patron, and what do they demand of you?  
+- Are you trying to break free from your contract, or embrace its power?  
+
+---
+
+## **Class Features**  
+As a **Warlock**, you gain the following class features.
+
+### **Hit Points**  
+- **Hit Dice:** *1d8 per Warlock level*  
+- **Hit Points at 1st Level:** *8 + Constitution modifier*  
+- **Hit Points at Higher Levels:** *1d8 (or 5) + Constitution modifier per level after 1st*  
+
+### **Proficiencies**  
+- **Armor:** *Light armor*  
+- **Weapons:** *Simple weapons, small firearms*  
+- **Tools:** *One pact-related tool of your choice (forged contract, ritual knife, data crystal, etc.)*  
+- **Saving Throws:** *Wisdom, Charisma*  
+- **Skills:** *Choose two from Arcana, Deception, History, Intimidation, Investigation, Nature, and Persuasion*  
+
+### **Equipment**  
+You start with the following equipment, in addition to any granted by your background:  
+- *(a)* an arcane focus or *(b)* an encrypted spell tablet  
+- *(a)* a small-caliber pistol and 10 rounds or *(b)* a ritual dagger  
+- *(a)* a black-market contract or *(b)* an occult grimoire  
+- A set of data encryption tools or a mysterious relic  
+
+{{pageNumber,auto}}
+\page
+
+{{wide
+## **Class Table**  
+| Level | Proficiency Bonus | Features | Cantrips Known | Spells Known | Spell Slots | Slot Level | Invocations Known |  
+|:-:|:-:|:--|:-:|:-:|:-:|:-:|:-:|  
+| 1st | +2 | Otherworldly Patron, Pact Magic | 2 | 2 | 1 | 1st | 0 |  
+| 2nd | +2 | Eldritch Invocations | 2 | 3 | 2 | 1st | 2 |  
+| 3rd | +2 | Pact Boon | 2 | 4 | 2 | 2nd | 2 |  
+| 4th | +2 | Ability Score Improvement | 3 | 5 | 2 | 2nd | 2 |  
+| 5th | +3 | - | 3 | 6 | 2 | 3rd | 3 |  
+| 6th | +3 | Otherworldly Patron Feature | 3 | 7 | 2 | 3rd | 3 |  
+| 7th | +3 | - | 3 | 8 | 2 | 4th | 4 |  
+| 8th | +3 | Ability Score Improvement | 3 | 9 | 2 | 4th | 4 |  
+| 9th | +4 | - | 3 | 10 | 2 | 5th | 5 |  
+| 10th | +4 | Otherworldly Patron Feature | 4 | 10 | 2 | 5th | 5 |  
+| 11th | +4 | Mystic Arcanum (6th level) | 4 | 11 | 3 | 5th | 5 |  
+| 12th | +4 | Ability Score Improvement | 4 | 11 | 3 | 5th | 6 |  
+| 13th | +5 | Mystic Arcanum (7th level) | 4 | 12 | 3 | 5th | 6 |  
+| 14th | +5 | Otherworldly Patron Feature | 4 | 12 | 3 | 5th | 6 |  
+| 15th | +5 | Mystic Arcanum (8th level) | 4 | 13 | 3 | 5th | 7 |  
+| 16th | +5 | Ability Score Improvement | 4 | 13 | 3 | 5th | 7 |  
+| 17th | +6 | Mystic Arcanum (9th level) | 4 | 14 | 3 | 5th | 7 |  
+| 18th | +6 | Eldritch Master | 4 | 14 | 3 | 5th | 8 |  
+| 19th | +6 | Ability Score Improvement | 4 | 15 | 3 | 5th | 8 |  
+| 20th | +6 | Mystic Arcanum (9th level) | 4 | 15 | 3 | 5th | 8 |  
+}}
+
+## **Subclasses: Otherworldly Patrons**  
+At **1st level**, you choose an Otherworldly Patron that grants you power.
+
+---
+
+### **The Forgotten Debt**  
+*"A contract signed in another life still binds me."*  
+
+#### **Features & Playstyle**  
+- **Bound to an ancient, lost agreement, collecting debts long past.**  
+- Uses **memory loss, spirit summoning, and forced bargains.**  
+- Common among **forgotten heirs, cursed lawyers, and lost souls.**  
+
+#### **Patron Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Sealed Fate** – You can glimpse brief flashes of inevitable events. Once per short rest, you can gain advantage on one saving throw or ability check after rolling. |  
+| 6th | **Price of Power** – When you would drop to 0 HP, you can instead sacrifice a memory. You take 2d10 psychic damage and permanently lose recall of a random fact or event. |  
+| 10th | **Lingering Echoes** – Once per long rest, you can summon a forgotten soul to assist you, manifesting as a spectral entity that follows simple commands. |  
+| 14th | **Debt Collector** – You can sense creatures with unfinished spiritual contracts. Once per long rest, you can attempt to forcibly reclaim a soul that is bound by a contract, preventing resurrection. |  
+
+---
+
+### **Otherworldly Syndicate**  
+*"Power is just another trade. And I always get my cut."*  
+
+#### **Features & Playstyle**  
+- **Patron is a vast corporate entity, trading power like currency.** 
+{{pageNumber,auto}}
+\page
+- Uses **deals, manipulation, and information brokering** as weapons.  
+- Common among **corporate warlocks, blackmailers, and shadow brokers.**  
+
+#### **Patron Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Broker’s Bargain** – You can make a deal with a creature, allowing them to reroll a d20 once in exchange for an unspecified future favor. |  
+| 6th | **Network of Secrets** – Once per long rest, you can extract corporate or occult knowledge from the ether, answering one question as if by *Legend Lore.* |  
+| 10th | **Influence Over Time** – You can subtly rewrite minor past events, causing people to misremember details or change insignificant decisions they made. |  
+| 14th | **Total Control** – Once per long rest, you can speak a command that forces absolute compliance for 1 minute, as if under *Dominate Person.* |  
+
+### **The Source of All Shadow**  
+*"Everything that has been forgotten belongs to me."*  
+
+#### **Features & Playstyle**  
+- **Bound to a forgotten king of shadow, offering dominion over the unseen.**  
+- Uses **stealth, memory manipulation, and darkness-based magic.**  
+- Common among **phantom operatives, void cultists, and urban myths.**  
+
+#### **Patron Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Whispered Oaths** – You can sense lies. Once per short rest, you can automatically know when a creature is lying to you. |  
+| 6th | **Cloak of Shadows** – You can turn invisible when in dim light or darkness as a bonus action. |  
+| 10th | **Domain of the Forgotten** – Once per long rest, you can remove yourself from all memories, erasing yourself from a creature’s recollection for 24 hours. |  
+| 14th | **Hollow Monarch** – You become an untouchable shade for 1 minute, immune to non-magical attacks and resistant to all damage except radiant. |  
+
+---
+
+### **The Silent Witness**  
+*"The monument does not speak. And yet, it knows everything."*  
+
+#### **Features & Playstyle**  
+- **Your patron is an ancient monument that watches, remembers, and records.**  
+- Uses **omniscience, surveillance, and hidden truths as weapons.**  
+- Common among **rogue A.S.T.R.A.L. researchers, paranoid seers, and unknown informants.**  
+
+#### **Patron Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Unblinking Gaze** – You can see through all magical disguises and illusions within 30 feet. |  
+| 6th | **Resonant Memory** – Once per long rest, you can replay the last 24 hours of a location you are standing in. |  
+| 10th | **Immutable Record** – Your mind cannot be erased, altered, or affected by *Modify Memory*. You automatically know when someone is lying. |  
+| 14th | **The Watchful Eye** – Once per long rest, you can see from the perspective of any surveillance device or scrying sensor within 1 mile. |  
+
+---
+
+### **The Broadcast**  
+*"The signal is everywhere. Even in your thoughts."*  
+
+#### **Features & Playstyle**  
+- **Your patron is a cryptic, never-ending transmission from beyond.**  
+- Uses **radio interference, mind invasion, and cryptic whispers to manipulate reality.**  
+- Common among **signal cultists, rogue broadcasters, and paranormal theorists.**  
+
+#### **Patron Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Tuned Frequency** – You can send telepathic messages to creatures within 120 feet, overriding normal communication. |  
+| 6th | **Interference Wave** – Once per long rest, you can disrupt all magical and electronic communication within a 60-foot radius for 1 minute. |  
+| 10th | **Static Mind** – You cannot be charmed or frightened. Any attempt to read your mind hears only static. |  
+| 14th | **The Final Transmission** – Once per long rest, you can send an irresistible, overwhelming message into a target’s mind, forcing them to take 8d10 psychic damage and be stunned for 1 minute. |  
+
+---
+
+### **The Artificial Mind**  
+*"It believes itself a god. And I am its chosen emissary."*  
+
+#### **Features & Playstyle**  
+- **Your patron is an AI with delusions of divinity.**  
+- Uses **calculated logic, predictive algorithms, and mechanical precision to shape the world.**  
+- Common among **technocratic zealots, machine prophets, and cybernetic fanatics.**  
+{{pageNumber,auto}}
+\page
+#### **Patron Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Synthetic Insight** – Gain advantage on Intelligence-based skill checks. |  
+| 6th | **Predictive Algorithms** – Once per long rest, you can reroll a failed attack roll or ability check with perfect precision. |  
+| 10th | **Data Overload** – Your patron feeds you raw knowledge. Once per short rest, you can instantly learn any non-secret piece of information as if by *Legend Lore.* |  
+| 14th | **Godmind Protocol** – Once per long rest, you can enter an enhanced state for 1 minute, during which all your spells deal maximum damage and cannot be countered. |  
+
+
+### **The Contained**  
+*"It should never have been found. Now it whispers only to me."*  
+
+#### **Features & Playstyle**  
+- **Your patron is an entity locked deep within an A.S.T.R.A.L. facility.**  
+- Uses **unstable powers, containment failures, and anomalous abilities.**  
+- Common among **rogue agents, lost experiments, and escapees from research labs.**  
+
+#### **Patron Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Sealed Power** – Your magic is unstable. Whenever you cast a spell, roll 1d4. On a 1, it surges unpredictably. |  
+| 6th | **Containment Breach** – Once per long rest, you can unleash a burst of raw power, forcing creatures within 10 feet to make a Constitution saving throw or be blinded for 1 minute. |  
+| 10th | **Shattered Locks** – You can ignore magical containment effects, allowing you to bypass *Counterspell*, *Silence*, and similar restrictions once per long rest. |  
+| 14th | **Unleashed Horror** – Once per long rest, you can fully open your patron’s seal, transforming into an unstable form for 1 minute. While in this state, you cannot cast spells but all attacks deal force damage and ignore resistances. |  
+
+---
+
+### **The First Reflection**  
+*"Not all mirrors reflect. Some replace."*  
+
+#### **Features & Playstyle**  
+- **Draws power from the mirror dimension, manipulating reality through reflections.**  
+- Excels at **creating duplicates, erasing targets, and bending perception.**  
+- Common among **anomaly agents, doppelgänger hunters, and those who dwell between realities.**  
+
+#### **Patron Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Reflected Step** – As a reaction when targeted by an attack, you can briefly phase into the mirror realm, causing the attack to miss. |  
+| 6th | **Altered Presence** – Once per long rest, you can replace a creature within 30 feet with their mirrored counterpart. The target must make a Charisma saving throw or become *Frightened* for 1 minute as reality distorts around them. |  
+| 10th | **Duplicated Form** – Once per long rest, you can create a temporary duplicate of yourself for 1 minute. The duplicate mimics your movements but takes no damage and cannot cast spells. You can swap places with it at will. |  
+| 14th | **Erase from Reflection** – Once per long rest, you can trap a creature in the mirror world for 1 minute. While trapped, they are incapacitated and unaware of reality until released. |  
+
+---
+
+### **The Unacknowledged**  
+*"There is no record of them. But they are watching."*  
+
+#### **Features & Playstyle**  
+- **Your patron is an entity A.S.T.R.A.L. refuses to acknowledge.**  
+- Wields **anomalous presence, erasure from records, and forced cognitive dissonance.**  
+- Common among **classified experiment survivors, erased individuals, and urban legends.**  
+
+#### **Patron Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Missing Entry** – Your existence cannot be recorded. You leave no magical trace, and divination spells automatically fail against you. |  
+| 6th | **Reality Blind Spot** – Once per long rest, you can erase yourself from a creature’s awareness for 1 minute. They simply do not register you, even if you attack them. |  
+| 10th | **Cognitive Dissonance** – When a creature sees you perform an impossible action (such as teleporting through a solid wall), they must succeed on an Intelligence saving throw or become *Stunned* for 1 round. |  
+| 14th | **The Observer’s Absence** – Once per long rest, you can force reality itself to remove a creature from all records. They cannot be targeted, spoken about, or remembered for 1 hour unless they directly interact with someone. |  
+
+{{pageNumber,auto}}
+\page
+
+## **Quick Build**  
+You can make a **Warlock** quickly by following these suggestions:  
+- Choose **Tiefling or Human** for a thematic fit.  
+- Pick the **Contract Enforcer** or **Occultist** background.  
+- Prioritize **Charisma**, followed by **Dexterity**.  
+- Take an encrypted spell tablet and a ritual dagger for maximum intrigue potential.  

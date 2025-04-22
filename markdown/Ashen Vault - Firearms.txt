@@ -1,0 +1,581 @@
+```metadata
+title: Ashen Vault - Firearms
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap);
+
+:root {
+    --HB_Color_Background: #FDFDFD;
+    /* Soft white, mimics paper */
+    --HB_Color_Accent: #D1D5DB;
+    /* Light gray for dividers */
+    --HB_Color_HeaderText: #C9D1D9;
+    /* Light corporate steel-white */
+    --HB_Color_HeaderUnderline: #8B949E;
+    /* Professional soft gray for dividers */
+    --HB_Color_MonsterStatBackground: #21262D;
+    /* Dark navy-slate for structured data */
+    --HB_Color_HorizontalRule: #58A6FF;
+    /* Corporate bright blue for emphasis */
+    --HB_Color_CaptionText: #8B949E;
+    /* Soft gray for secondary text */
+    --HB_Color_Footnotes: #C9D1D9;
+    /* Soft corporate white, slightly muted */
+    --HB_Color_WatercolorStain: #484F58;
+    /* Darkened slate gray for subtle overlays */
+    --HB_Color_Text: #2C3E50;
+    /* Professional dark blue-gray */
+    --TOC: 'include'
+}
+
+.page h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.page h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.page h3 {
+  font-family: 'Lora', serif;
+  font-size: 1.5rem;
+  color: #d1d1d1;
+  font-weight: normal;
+  margin-top: 30px;
+}
+
+.page:after {
+ display: none;
+}
+
+.page:has(.preface) {
+    columns: 1;
+    column-span: all;
+    background: linear-gradient(to bottom, #111, #333);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lora', serif;
+  font-size: 1rem;
+  color: #d1d1d1;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.page:has(.preface) h1 {
+  text-align: center;
+  color: #ff4747; /* Bright red for emphasis */
+    font-family: 'Orbitron', sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.page:has(.preface) h2 {
+  text-align: center;
+  color: #ff4747; /* Bright red for emphasis */
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+
+.page:has(.frontCover) {
+    background: linear-gradient(to bottom, #111, #333);
+    color: white;
+}
+
+.page:has(.frontCover) .coverBackground {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -1cm;
+    left: 0;
+    z-index: -1;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/9635fc6cb489b92e61114364b9e54ebe.webp');
+    background-size: cover;
+    background-position: center;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 20%), rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 53%);
+}
+
+.page:has(.frontCover) .coverImage {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -7cm;
+    left: 0;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/0a0b5e7e9496fd06deac901172f5455f.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.page:has(.frontCover) h1,
+.page:has(.frontCover) h2,
+.page:has(.frontCover) h3 {
+    border-bottom: unset;
+    -webkit-text-stroke: unset;
+    text-stroke: unset;
+    ;
+}
+
+.page:has(.frontCover) h1 {
+    font-size: 10rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    color: #ff4747;
+    margin-top: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.page:has(.frontCover) h2 {
+    font-size: 2rem;
+    letter-spacing: 8.5px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.page:has(.frontCover) h3 {
+    margin-top: 10px;
+    text-decoration: underline overline #d1d1d1;
+}
+
+.page:has(.frontCover) .footnote {
+    font-size: 1.5rem;
+    color: #d1d1d1;
+    margin-top: 30px;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 2px gray;
+    ;
+    text-stroke: 2px gray;
+    text-align: right;
+}
+
+.block.productlist {
+    columns: 1;
+    column-span: all;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.page:has(.productlist) h1 {
+    font-size: 0.5cm;
+}
+
+.block.product {
+    width: 8.82cm;
+}
+
+.page:has(.productlist) h1 {
+    font-family: "Arial", sans-serif;
+}
+
+.page:has(.productlist) .block .product h3 {
+
+    font-family: "Arial", sans-serif;
+}
+
+.page:has(.productlist) .block .product em {
+    color: gray;
+}
+
+.page {
+  background: linear-gradient(to bottom, #111, #333); /* Dark background */
+  color: white;
+  font-family: 'Roboto', sans-serif; /* Modern, clean font */
+  line-height: 1.6;
+}
+
+
+.page h1+p::first-letter {
+    all: unset;
+}
+
+.page h1+p::first-line {
+    font-variant: small-caps
+}
+
+
+/* Table Styles */
+table {
+  width: 100%;
+  margin: 30px 0;
+  border-collapse: collapse;
+  background-color: #222;
+  border: 1px solid #444;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #444;
+    text-align: left;
+  padding: 10px 20px;
+}
+
+th {
+  background-color: #333;
+  font-weight: bold;
+  color: #ff4747;
+}
+
+td {
+  background-color: #444;
+  color: #ddd;
+  border-bottom: 2px dotted rgba(90, 90, 90, 0.9);
+}
+
+
+/* Product List Styling */
+.productlist {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.product {
+  background: #333;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+
+.product p {
+  color: #ddd;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.productlist .product strong {
+  color: #ff4747;
+}
+
+
+```
+
+{{frontCover}}
+{{coverBackground}}
+# Firearms
+## Rules for Modern Settings
+
+
+{{coverImage}}
+{{footnote 
+#### Sponsored by
+### Titan Security Solutions
+}}
+
+
+\page
+{{preface}}
+
+# Preface
+
+Titan Security Solutions is proud to present our latest advancements in weaponry and security technology—designed for those who demand the highest levels of performance, reliability, and precision. As a leader in the field of security and defense, we specialize in providing cutting-edge solutions that ensure safety, power, and efficiency in the most demanding environments.
+
+Our flagship products, including the Titan Plasma Rifle and Exo-Armored Tactical Gear, represent the pinnacle of modern security technology. Crafted from the finest alloys and powered by state-of-the-art energy systems, these tools are not just instruments of defense—they are symbols of strength, adaptability, and unmatched reliability.
+
+## Weapons You Can Trust
+
+In today’s ever-evolving threat landscape, traditional methods of defense are no longer sufficient. That’s why Titan Security Solutions is pioneering a new era of weaponry. Our Titan Plasma Rifles combine sleek, futuristic design with unrivaled firepower, utilizing cutting-edge energy technology to provide maximum impact while maintaining optimal control. Whether you are securing a high-profile facility, conducting covert operations, or protecting vital assets, our weapons deliver precision, speed, and power when it matters most.
+
+## Security Solutions That Adapt
+
+At Titan Security Solutions, we understand that each mission requires a tailored approach. That’s why we provide comprehensive security systems that adapt to the unique needs of your operation. From integrated surveillance technologies to personalized protection units, our solutions empower security teams with the tools they need to maintain control, mitigate risks, and respond swiftly to any threat.
+
+## Trusted by Professionals
+
+Used by military forces, private security firms, and government agencies worldwide, Titan Security Solutions is the trusted name in professional-grade security. Our clients rely on us for advanced weaponry, tactical gear, and security technology that exceeds expectations in every mission. Whether your objective is securing high-value assets, crowd control, or emergency response, Titan Security Solutions offers unparalleled products and services to meet your needs.
+
+Join the ranks of those who demand the best. Titan Security Solutions—where excellence is not an option, but a standard.
+
+{{pageNumber,auto}}
+\page
+{{wide
+# Firearms
+
+| Name | Cost | Damage | Weight | Properties |
+|------|------|--------|--------|------------|
+| Handgun | 1,000 credit | 3d6 piercing | 3 lb. | Ammunition (range 50/200), reload 6 |
+| Revolver | 1,500 credit | 3d8 piercing | 4 lb. | Ammunition (range 40/160), reload 6, loud |
+| Submachine Gun | 3,000 credit | 4d6 piercing | 6 lb. | Ammunition (range 60/250), burst fire, reload 30 |
+| Shotgun | 3,500 credit | 4d10 piercing | 8 lb. | Ammunition (range 30/90), spread, reload 6 |
+| Hunting Rifle | 5,000 credit | 5d12 piercing | 9 lb. | Ammunition (range 120/500), reload 5, high velocity |
+| Sniper Rifle | 8,000 credit | 6d10 piercing | 12 lb. | Ammunition (range 200/800), reload 5, scope required |
+| Assault Rifle | 6,500 credit | 4d8 piercing | 10 lb. | Ammunition (range 100/400), burst fire, reload 30 |
+| Heavy Machine Gun | 12,000 credit | 6d12 piercing | 20 lb. | Ammunition (range 150/600), full auto, reload 100 |
+| Energy Pistol | 5,000 credit | 4d6 radiant | 3 lb. | Ammunition (range 50/200), energy cell, silent |
+| Plasma Rifle | 10,000 credit | 6d8 fire | 12 lb. | Ammunition (range 120/500), energy cell, overheats |
+| Gauss Rifle | 15,000 credit | 8d12 force | 15 lb. | Ammunition (range 300/1000), reload 3, penetration |
+
+### **Firearm Properties**
+- **Ammunition**: The weapon requires a specific type of ammunition. Reloading takes an action.
+- **Reload**: The number of shots a firearm can hold before needing to be reloaded.
+- **Burst Fire**: Can fire in a spray to hit multiple targets within a 10-foot cone, requiring a Dexterity saving throw.
+- **Spread**: Shotguns deal full damage to targets within 10 feet, but only half damage beyond that range.
+- **Loud**: Weapons with this trait create a loud noise upon firing, potentially revealing the user's location.
+- **Scope Required**: Weapons with this trait require a scope to make effective long-range shots.
+- **Full Auto**: Can make multiple attacks using a full attack action, consuming more ammunition.
+- **High Velocity**: Shots fired with this weapon ignore cover below half-cover.
+- **Energy Cell**: These weapons require an energy cell rather than traditional ammunition.
+- **Overheats**: After sustained use, the weapon may require a cooling period before being used again.
+- **Penetration**: Ignores resistance to nonmagical attacks and deals extra damage against armored targets.
+
+
+## **Ammunition**
+| Name | Cost | Description |
+|------|------|-------------|
+| Handgun Ammo (12 rounds) | 50 credit | Standard small-caliber bullets for handguns and revolvers. |
+| Rifle Ammo (10 rounds) | 100 credit | High-velocity bullets used for hunting and sniper rifles. |
+| Shotgun Shells (8 rounds) | 120 credit | Pellets designed for close-range stopping power. |
+| SMG Ammo (30 rounds) | 150 credit | Compact rounds used in submachine guns and assault rifles. |
+| Heavy Ammo (50 rounds) | 500 credit | Large-caliber rounds for heavy machine guns and gauss rifles. |
+| Energy Cell (1 charge) | 300 credit | A power source for energy-based weapons, can be recharged. |
+| Plasma Core (1 charge) | 800 credit | Highly unstable energy source for plasma-based weapons. |
+}}
+{{pageNumber,auto}}
+\page
+{{wide
+### **Firearm Classification & Specification Sheet**  
+
+---
+
+#### **Product Information**  
+**Model:** TCI-12 Handgun  
+**Category:** Semi-Automatic Handgun  
+**Manufacturer:** Titan Security Solutions  
+**Intended Use:** Corporate Security, Law Enforcement, Executive Protection  
+**Regulatory Compliance:**  
+- Concord City Security Ordinance 57-A  
+- Corporate Liability Act, Section 4.2  
+- Titan Security Operational Safety Standards (TOSS-3)  
+
+}}
+
+#### **Technical Specifications**  
+
+| Attribute              | Specification                         |
+|------------------------|-------------------------------------|
+| **Caliber**            | 10mm AP                              |
+| **Weight**            | 2.1 lbs (Unloaded)                   |
+| **Magazine Capacity** | 15+1 Rounds                          |
+| **Effective Range**   | 50m                                   |
+| **Fire Modes**        | Semi-Automatic                       |
+| **Safety Mechanism**  | Biometric Thumbprint Lock            |
+| **Frame Material**    | Polymer-Coated Alloy                 |
+| **Additional Features** | - Integrated Smart-Link System™ for security clearance verification <br> - Low-visibility matte finish for non-reflective tactical applications |
+
+---
+
+#### **Deployment & Use**  
+
+| Division | Status |
+|----------|--------------------------------|
+| **Executive Security Teams** | Standard Issue |
+| **Corporate Response Units (CRU)** | Authorized Use |
+| **Private Contractors** | Restricted - License Required |
+
+
+#### **Procurement & Maintenance**  
+
+| Process                 | Details |
+|-------------------------|--------------------------------------|
+| **Authorized Vendors**  | Titan Security Solutions Supply Chain Division (Sec. 3B) |
+| **License Requirements** | Tier-2 Corporate Access or higher  |
+| **Maintenance Cycle**   | Mandatory servicing every 6,000 rounds |
+| **Liability Clause**    | Unauthorized use voids warranty & corporate coverage |
+
+{{wide
+
+#### **Compliance Statement**  
+All personnel issued this firearm must complete the **Titan Security Solutions Firearm Proficiency Program (TFPP-1)** and adhere to corporate-use policies as outlined in **Concord City Ordinance 82-J.**  
+
+---
+
+#### **End of Document**  
+*Titan Security Solutions Industries reserves the right to amend this specification sheet as necessary to comply with regulatory changes and corporate security policies.*  
+}}
+{{pageNumber,auto}}
+\page
+# Wondrous Firearms
+{{productlist
+{{product
+
+### *The Echo Repeater*  
+*Firearm (Pistol), Very Rare*  
+A **sleek revolver**, its barrel marked with shifting runes.  
+When fired, the bullet **repeats itself in time**, striking the same target **twice** in rapid succession.  
+Each shot **forces the target to relive the moment of impact**, requiring a **DC 16 Intelligence saving throw** or suffer **1d4 psychic damage** as their mind fractures under temporal distortion.  
+}}
+{{product
+### *The Hollowshot Derringer*  
+*Firearm (Pistol), Rare*  
+A **small black pistol**, seemingly weightless when held.  
+Instead of bullets, it fires **small voids of absolute silence**, which **ignore armor** but deal **no physical damage**.  
+Instead, any creature hit by it must succeed on a **DC 15 Wisdom saving throw** or be **muted for 1 minute**, unable to speak, cast spells, or communicate telepathically.  
+}}
+
+{{product
+### *The Ironsoul Ordinance*  
+*Firearm (Rifle), Very Rare*  
+A **long-barreled rifle**, humming faintly when held.  
+Each bullet it fires **bonds to the user’s soul**, allowing them to **recall a spent shot back into the chamber** once per turn.  
+However, each recalled bullet **leaves behind a spectral scar**, permanently **lowering the user’s Charisma by 1** for each shot recovered.  
+}}
+{{product
+### *The Black Barrel Manifest*  
+*Firearm (Shotgun), Mythic*  
+A **massive, ancient shotgun**, carved with **impossible geometric symbols**.  
+When fired, it **does not shoot lead**, but instead releases **a blast of unreality**, forcing all creatures within 20 feet to make a **DC 18 Wisdom saving throw**.  
+On a failure, they experience **a different version of themselves from an alternate timeline**, causing **1d6 psychic damage for each unrealized future they glimpse**.  
+}}
+
+}}
+
+{{pageNumber,auto}}
+\page
+# Wondrous Firearms Upgradess  
+{{productlist
+{{product
+### *The Misfire Codex*  
+*Firearm Upgrade, Very Rare*  
+A **small, handwritten book**, containing arcane diagrams of impossible guns.  
+Attaching it to any firearm grants **+2 to attack and damage rolls**, but each shot has **a 10% chance to fire twice, hitting a random target instead of the intended one**.  
+The wielder occasionally hears **murmured conversations in a language they don’t recognize**, coming from within the book.  
+}}
+{{product
+### *The Whispering Chamber*  
+*Firearm Attachment, Rare*  
+A **revolver cylinder**, cold to the touch, etched with **ancient script**.  
+Any gun fitted with this chamber fires **completely silent bullets**, making the attack **undetectable** by sound.  
+However, for each shot fired, the wielder must succeed on a **DC 15 Wisdom saving throw** or hear **faint whispers describing their own death**, growing louder with each use.  
+}}
+{{product
+### *The Hellmouth Barrel*  
+*Firearm (Hand Cannon), Legendary*  
+A **pistol with an oversized barrel**, its metal constantly warm.  
+Firing it **does not consume ammunition**—instead, it **pulls a bullet from another timeline**, dealing **1d12 force damage** as a shot from another reality strikes the target.  
+Once per day, the gun can fire a shot from **a version of the wielder who never hesitated**, turning a missed attack into a critical hit.  
+}}
+{{product
+### *The Phantom Clip*  
+*Magazine, Rare*  
+A **box magazine**, engraved with glowing runes.  
+When loaded into a firearm, it **doubles the gun’s normal magazine capacity**, but each extra bullet is **pulled from a parallel dimension**.  
+Each shot after the magazine’s normal limit has a **20% chance to fire a bullet that was never meant to exist**, causing **unexpected reality glitches** that neither the shooter nor the target can predict.  
+}}
+}}
+{{pageNumber,auto}}
+\page
+{{productlist
+{{product
+### *The Kill-Chain Circuit*  
+*Firearm Enhancement, Legendary*  
+A **thin, silver coil**, wrapping around a gun’s grip like a snake.  
+Any firearm fitted with this circuit **builds up power with each consecutive hit**, increasing damage by **+1d6 per successful shot**, up to a maximum of **+4d6**.  
+However, if a shot **misses**, the circuit releases all stored energy in **a violent backlash**, dealing the accumulated bonus damage to the shooter instead.  
+}}
+{{product
+### *The Eclipsing Sight*  
+*Firearm Scope, Very Rare*  
+A **blackened scope**, its lens reflecting nothing.  
+Attaching it to a gun allows the user to **see through walls and illusions for 30 feet** while aiming.  
+However, prolonged use forces the wielder to **catch glimpses of something watching them**, requiring a **DC 18 Wisdom saving throw** after 10 minutes of use, or becoming **paranoid that they are being followed** by an unseen force.  
+}}
+
+
+{{product
+### *The Unfinished Gun*  
+*Firearm (Pistol), Legendary*  
+A **half-built firearm**, constantly shifting in form.  
+The wielder may **mentally shape the weapon’s properties**, choosing its caliber, range, and fire mode at will.  
+However, the gun is **never truly complete**, and once per day, it will **alter itself unpredictably**, adding a new effect or removing a previous one without warning.  
+}}
+}}
+{{pageNumber,auto}}
+\page
+
+# Wondrous Amunitions
+{{productlist
+{{product
+### *The Ghostfire Rounds*  
+*Ammunition, Rare*  
+A **set of six bullets**, glowing with a faint blue flame.  
+When fired, these rounds **pass through all physical barriers**, only affecting creatures with **souls or psychic presence**.  
+These rounds **ignore armor**, but deal **no damage to constructs, undead, or creatures without a spiritual essence**.  
+}}
+{{product
+### *The Unfired Cartridge*  
+*Ammunition, Mythic*  
+A **brass casing, sealed shut, containing something that should not be contained**.  
+Attempting to fire this cartridge **produces no immediate effect**.  
+Instead, **exactly 24 hours later**, the shot occurs as if it had just been fired in that moment, striking **whoever the wielder was aiming at when the trigger was pulled**—regardless of distance or current location.  
+}}
+{{product
+### *The Shattered Bolt*  
+*Ammunition, Very Rare*  
+A **crystalline bullet**, humming with unstable energy.  
+When fired, the bullet **splits into multiple projectiles**, striking up to three targets in a straight line.  
+However, if all three shots hit, the shooter must succeed on a **DC 16 Dexterity saving throw** or experience **a momentary breakdown of self**, feeling **briefly disconnected from reality**.  
+}}
+{{product
+### *The Bullet That Remembers*  
+*Ammunition, Legendary*  
+A **simple lead bullet**, humming softly when touched.  
+Once fired, it **remains in existence**, endlessly returning to the shooter’s pocket at the start of each day.  
+However, each time it is used to kill, the shooter begins to **remember a life they never lived**, suffering **disadvantage on Insight and Intelligence checks for 24 hours** as memories of another timeline bleed through.  
+}}
+}}
+{{pageNumber,auto}}
+\page
+{{productlist
+{{product
+### *The Revenant's Last Round*  
+*Ammunition (Bullet), Legendary*  
+A **single, heavy brass bullet**, etched with the name of its intended target.  
+When fired, the bullet **never misses**, bending reality to strike its marked prey.  
+However, if the target survives, **they know exactly who fired it**, and their fate becomes **intertwined with the shooter’s**—for better or worse.  
+}}
+}}
+{{pageNumber,auto}}

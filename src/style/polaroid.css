@@ -1,0 +1,21 @@
+.polaroid {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    max-width:10cm;
+    max-height: 10cm;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png') no-repeat center;
+    background-size: contain;
+    transform-origin: top left;
+}
+
+.polaroid > p > img {
+    margin-left: 1.26cm;
+    margin-top: 0.74cm;
+    height: 7.4cm;
+    width: 7.5cm;
+    object-fit: cover;
+    mix-blend-mode: screen;
+}

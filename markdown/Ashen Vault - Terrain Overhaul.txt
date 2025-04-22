@@ -1,0 +1,1583 @@
+```metadata
+title: Ashen Vault - Terrain Overhaul
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+/*=======--- Example CSS styling ---=======*/
+/* Any CSS here will apply to your document! */
+ @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+ @import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive);
+ :root {
+     --rotate: 20deg;
+     --left: unset;
+     --top: unset;
+     --correction: "correction";
+     --source: 'https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png';
+}
+/* Removes Drop Caps */
+ .page h1+p:first-letter {
+     all: unset;
+}
+ .page .footnote {
+     border-top: lightgray dotted 2px;
+     width: 80%;
+     color: gray;
+     bottom: 28px;
+}
+ .page .footnote > h1 {
+     background-color: transparent;
+     border: none;
+     font-size: 10px;
+     margin-bottom: 0px;
+}
+/* Removes Small-Caps in first line */
+ .page h1+p:first-line {
+     all: unset;
+}
+ .page {
+     background-color: #F8F8F8;
+    /* Light gray background */
+     background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+     background-size: 20px 20px;
+    /* Adjust spacing */
+     font-family: "Courier New", Courier, monospace;
+    /* Typewriter / Redacted Report */
+}
+ .page:after, .page:has(.frontCover):after, .page:has(.insideCover):after, .page:nth-child(even)::after {
+     all: unset;
+     content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+     transform-origin: top right;
+     transform: rotate(270deg);
+     white-space: nowrap;
+     position: absolute;
+     right: 1.5cm;
+     top: 0px;
+     color: gray;
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     width: 29cm;
+}
+ .page:before {
+     all: unset;
+     content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+     transform-origin: top left;
+     transform: rotate(90deg);
+     white-space: nowrap;
+     position: absolute;
+     left: 1.5cm;
+     top: 0px;
+     color: gray;
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     width: 29cm;
+}
+ .page:has(.frontCover) .logo {
+     top: 10cm;
+     right: 0;
+     left: 0;
+     filter: drop-shadow(0 0 .075cm black);
+}
+ .page:has(.insideCover) .logo {
+     top: 0.5cm;
+     right: 0;
+     left: 0;
+     filter: drop-shadow(0 0 .075cm black);
+}
+ .page:has(.insideCover) p, .page:has(.insideCover) ul {
+     margin-top: 20px;
+     text-align: left;
+}
+ .page:has(.insideCover) .logo>img {
+     height: 2cm;
+     width: 1.8cm;
+     opacity: 0.1;
+     filter:none;
+}
+ .page:has(.frontCover) .logo>img {
+     height: 10cm;
+     width: 9cm;
+     opacity: 0.1;
+     filter:none;
+}
+
+ .page:has(.frontCover),
+  .page:has(.insideCover){
+   background: none;
+   background-color: #F8F8F8;
+}
+
+.coverpicture {
+margin-top: 1.5cm;
+  max-width: 15cm;
+  max-height: 15cm;
+}
+
+.coverpicture > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+ .page h1 {
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size: 24px;
+     color: #2C2C2C;
+    /* Vault Black */
+     background-color: #EDEDED;
+    /* Subtle Header Background */
+     padding: 5px;
+     border-bottom: 3px solid #2C2C2C;
+    /* Strong Bureaucratic Divider */
+}
+ .page:has(.insideCover) h1, .page:has(.frontCover) h1, .page:has(.partCover) h1 {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size: 24px;
+     background-color: #EDEDED;
+    /* Subtle Header Background */
+     color: #2C2C2C;
+    /* Vault Black */
+     padding: 5px;
+     border-bottom: 0 
+}
+ .page:has(.frontCover) h1 {
+     -webkit-text-stroke: 0 
+}
+ .page:has(.insideCover) h1 {
+     background-image: linear-gradient(45deg, #f7f7f7 25%, #dbdbdb 25%, #dbdbdb 50%, #f7f7f7 50%, #f7f7f7 75%, #dbdbdb 75%, #dbdbdb 100%);
+     background-size: 14.14px 14.14px;
+}
+ .page:has(.insideCover) .footnote, .page:has(.frontCover) .footnote, .page:has(.partCover) .footnote {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 15px;
+     margin-top: 40px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+     -webkit-text-stroke: 0;
+     text-align: left;
+}
+ .block .footnote {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 20px;
+     margin-top: 40px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+}
+ .page h2 {
+     font-family: "Oswald", sans-serif;
+     text-transform: uppercase;
+     font-size: 20px;
+     color: #2C2C2C;
+     border-bottom: 2px solid #8F8F8F;
+}
+ .page:has(.insideCover) h2, .page:has(.frontCover) h2, .page:has(.partCover) h2 {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 20px;
+     margin-top: 20px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+     border-bottom: 0;
+}
+ .page:has(.frontCover) h2 {
+     -webkit-text-stroke: 0 
+}
+ .page h3, .page:has(.insideCover) h3, .page:has(.frontCover) h3, .page:has(.partCover) h3 {
+     font-family: "Courier New", Courier, monospace;
+     font-size: 18px;
+     color: #5A5A5A;
+     text-transform: uppercase;
+     border-bottom: gray dashed 1px;
+    ;
+}
+ .page h4, .page:has(.insideCover) h4, .page:has(.frontCover) h4, .page:has(.partCover) h4 {
+     font-family: "Courier New", Courier, monospace;
+     font-size: 16px;
+     color: #8F8F8F;
+}
+ .page .redacted {
+     background-color: black;
+     color: black;
+     padding: 2px 5px;
+     border-radius: 2px;
+}
+ .page:has(.frontCover) hr {
+     margin: 10px;
+     position: relative;
+     width: 100%;
+     height: 5mm;
+    /* Adjust height to match a real ruler */
+     background: repeating-linear-gradient( to right, transparent 0mm, transparent 0.8mm, black 0.8mm, black 1mm );
+     filter:none;
+}
+ .page:has(.insideCover) hr {
+     position: relative;
+     width: 100%;
+     height: 1mm;
+    /* Adjust height to match a real ruler */
+     background: repeating-linear-gradient( to right, transparent 0mm, transparent 0.8mm, black 0.8mm, black 1mm );
+}
+ page hr {
+     border: 2px dashed #8F8F8F;
+    /* Looks like an official document break */
+}
+ .page blockquote {
+     background-color: #EDEDED;
+     border-left: 4px solid #2C2C2C;
+     padding: 10px;
+     font-family: "Courier New", Courier, monospace;
+}
+/* --- Tables: Bureaucratic Report Style --- */
+ .page table {
+     border-collapse: collapse;
+     width: 100%;
+}
+ .page th {
+     background-color: #D6D6D6;
+    /* Ash Gray */
+     color: #2C2C2C;
+    /* Vault Black */
+     padding: 8px;
+     border-bottom: 3px solid #8F8F8F;
+    /* Stronger Border */
+     text-transform: uppercase;
+}
+ .page td {
+     background-color: #F8F8F8;
+    /* Paper White */
+     color: #5A5A5A;
+    /* Charcoal Gray */
+     padding: 8px;
+     border-bottom: 1px solid #BFBFBF;
+    /* Soft Grid */
+}
+/* --- Links: Subtle and Official-Looking --- */
+ .page a {
+     color: #2C2C2C;
+     text-decoration: none;
+     border-bottom: 1px dashed #8F8F8F;
+}
+ .page a:hover {
+     color: #5A5A5A;
+     border-bottom: 1px solid #5A5A5A;
+}
+ .post-it {
+     left: var(--left);
+     top: var(--top);
+     transform: rotate(var(--rotate));
+     max-width:250px;
+     max-height:240px;
+     width:250px;
+     height:240px;
+     position:relative;
+     background:#ffa;
+     overflow:hidden;
+     margin:30px auto;
+     padding:20px;
+     border-radius:0 0 0 30px/45px;
+     box-shadow: inset 0 -40px 40px rgba(0,0,0,0.05), inset 0 25px 10px rgba(0,0,0,0.07), 0 5px 6px 5px rgba(0,0,0,0.2);
+     font-family: 'Cedarville Cursive', cursive;
+     line-height:1.7em;
+     font-size:19px;
+     -webkit-mask-image: url(data:image/png;
+    base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+     color:#130d6b;
+}
+ .post-it:before {
+     content:"";
+     position:absolute;
+     width:20px;
+     height:25px;
+     background:#ffa;
+     box-shadow: 3px -2px 10px rgba(0,0,0,0.2), inset 15px -15px 15px rgba(0,0,0,0.3);
+     left:0;
+     bottom:0;
+     z-index:2;
+     transform:skewX(25deg);
+}
+ .smudge {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     filter: blur(1px) contrast(110%);
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/5d4334616f20bd1d1f059f6007892650.png') no-repeat center;
+     background-size: contain;
+
+
+}
+
+    .smudge:before {
+    position: absolute;
+    content:'';
+    left: 0;
+    top: 0;
+     width: 10cm;
+     height: 10cm;
+   
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 19%, rgba(255,255,255,0) 52%);
+background-blend-mode: lighten
+
+    
+    }
+
+
+
+ .coffee-stain {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     filter: blur(1px) contrast(110%);
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f74119a30ba73c9c5b3a7cc1aa9d7d42.png') no-repeat center;
+     background-size: contain;
+     mix-blend-mode: multiply;
+}
+ 
+ 
+.corrected {
+    position: relative;
+    text-decoration: line-through;
+    color: black;
+}
+
+.corrected::after {
+    content: var(--correction, "Default Text");;
+    font-size: 12px;
+    color: #0F3D75;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+       font-family: 'Cedarville Cursive', cursive;
+   
+    -webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+}
+
+
+.paperclip {
+ 
+    position: absolute;
+    display-block;
+    top: -10px;
+    left: var(--left, 60);
+    width: 50px;
+    height: 150px;
+    transform: rotate(-15deg); /* Slight tilt for realism */
+    opacity: 0.8; /* Slight transparency */
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/421f492b3660fca7d119964aff1f24db.png') no-repeat center;
+    background-size: contain;
+}
+
+ .polaroid {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     max-width:10cm;
+     max-height: 10cm;
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png') no-repeat center;
+    background-size: contain;
+         transform-origin: top left;
+}
+
+.polaroid > p > img {
+  margin-left: 1.26cm;
+  margin-top: 0.74cm;
+  height: 7.4cm;
+  width: 7.5cm;
+  object-fit: cover;
+  mix-blend-mode: screen;
+}
+
+
+.doodle.dog1 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/6d860afef532110ae76b559ace75dfa7.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.dog2 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/e2820894e1c1c58cb9d710e5522858fc.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.cat1 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/b43f55649f7f416de20109ce0f3b6722.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.cat2 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/898133d59ab4ce7d036283cf075620e2.png') no-repeat center;
+    background-size: contain;
+}
+
+.doodle {
+position: relative;
+   top: var(--top);
+   left: var(--left);
+    display: block;
+    width: 150px;
+    height: 150px;
+     -webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-repeat: repeat;
+}
+
+
+.fading {
+    background: linear-gradient(to bottom, black 10%, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.4) 70%, rgba(0, 0, 0, 0.1) 90%, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+```
+
+{{frontCover}}
+
+
+# Terrain Overhaul
+## Use Terrain to Your Advantage
+___
+
+{{coverpicture ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/0f2601ddeb53f676e89cac5843ebe5a3.png)}}
+
+\page
+
+{{insideCover}}
+
+# CONFIDENTIAL  
+## ⚠ A.S.T.R.A.L.⚠  
+## INTERNAL POLICY & COMPLIANCE DIVISION  
+___  
+
+This document is the sole property of **A.S.T.R.A.L.** and is classified under **Operational Directive 17-XR**. Unauthorized access, duplication, or dissemination violates the **Containment & Compliance Mandate (C.C.M. §21-67)** and will trigger immediate countermeasures.  
+
+By accessing this file, you acknowledge:  
+- You have **clearance** to review **regulated gameplay protocols**.  
+- **Monitoring is active** under **Mandate 52-A**.  
+- **Unauthorized modifications** will activate **Enforcement Directive Theta**.  
+- Disclosing classified rule changes invokes **memory revision measures** under **Directive 93-P**.  
+
+This document provides **standardized rule adjustments** for **anomalous engagements**. Rule modifications remain under **Strategic Regulation Bureau (S.R.B.)** review.  
+
+If you are not the intended recipient, cease interaction and report to **Compliance Oversight Bureau (C.O.B.)** via secure terminal [C.O.B.//DIRECT-LINK-SEC/217-45]. Noncompliance escalates to **Containment Protocol Omega-4**.  
+
+{{logo ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png)}}  
+
+### **Directive 7-A – Modular Rule Compliance**  
+**Summary:** Due to unpredictable anomalies, all engagements must follow the **Adaptive Regulatory Model (A.R.M.)** to ensure rulings remain **responsive and balanced**.  
+
+- **ETV (Engagement Threshold Variance):** Game Authorities (G.A.) may modify rules to adapt to field conditions.  
+- **RRD (Rule Reconciliation Directive):** Conflicts must be resolved using the **Internal Arbitration Matrix**.  
+- **NSM (Narrative Stability Measures):** Excessive mechanical deviations risk **containment breaches**.  
+
+All personnel must **review updated strategies** before regulated gameplay. **Unauthorized improvisation is prohibited (A.C.C. §12-98).**  
+:::
+**A.S.T.R.A.L. – PRESERVING ORDER WITHIN UNSTABLE SYSTEMS**  
+**Everything is under observation.**  
+
+\page
+
+# **📌 Regions of Concord City**
+> *"The city itself is your battlefield. Learn it, and you will survive."*
+
+In *Vestigium*, the traditional wilderness-based terrain types of *Dungeons & Dragons* are **obsolete**. Instead, Concord City is a vast, brutalist sprawl filled with **decaying industrial zones, corporate fortresses, and unpredictable anomalies**.
+
+Each **region** introduces unique **hazards, movement challenges, and encounters**, ensuring that terrain itself **is as much a threat as the enemies.**
+
+---
+
+## *📌 Region Format**
+Each **region** provides:
+- **📌 Hazards** – Environmental dangers that make travel risky.
+- **📌 Navigation Challenges** – Obstacles that impact movement.
+- **📌 Encounters** – The types of adversaries that lurk here.
+- **📌 Dynamic Elements** – How the environment **changes over time**.
+- **📌 DM Tips** – Advice on using the region to enhance gameplay.
+
+---
+
+## **🏭 Industrial Districts**
+> *"Choking smog, automated factories, and unstable structures define the industrial wastelands of Concord City."*
+
+### **📌 Hazards**
+- **Collapsing scaffolding** – Heavy equipment and high catwalks **break under stress**.
+- **Toxic spills** – Pools of corrosive chemicals **deal acid damage on contact**.
+- **Power surges** – **Live wires discharge**, shocking creatures within **5 feet**.
+- **Automated turrets** – Factory defenses **lock onto movement**.
+
+### **📌 Navigation Challenges**
+- **Conveyor belts move creatures 10 ft per round.**
+- **Smoke & steam cause heavily obscured areas.**
+- **Locked factory doors require hacking or brute force.**
+
+### **📌 Encounters**
+- **A.S.T.R.A.L. Clean-Up Crews** investigating spills.
+- **Industrial Strikers** blocking corporate-owned roads.
+- **Black-market dealers** trading in illegal weapons.
+
+### **📌 Dynamic Elements**
+- **Corporate Rollout** – Automated drones **increase security every hour.**
+- **System Malfunction** – Machinery **activates randomly**, creating hazards.
+
+### **📌 DM Tips**
+- Introduce **hazards gradually**, allowing players to adapt.
+- Use **power surges and robotic defenses** as soft environmental dangers.
+- Allow **hacking, sabotage, or creative movement solutions**.
+
+📌 **Example Encounter Idea:**  
+*As the players sneak through an abandoned factory, a sudden power surge ignites a nearby gas pipe, causing a **chain reaction of explosions** that forces them to react quickly or risk being buried under falling debris.*  
+
+---
+
+## **🏙️ High-Rise Megastructures**
+> *"A city within a city. Some floors haven't seen sunlight in decades."*
+
+### **📌 Hazards**
+- **Unstable catwalks** – Require **Dexterity saves** to cross.
+- **Malfunctioning elevators** – **Drop suddenly**, dealing falling damage.
+- **Power outages** – Cause **total darkness**.
+
+### **📌 Navigation Challenges**
+- **Stairs are jammed or collapsed**, forcing **vertical movement**.
+- **Windows provide access routes but require scaling.**
+- **Hallways are identical**, making navigation difficult.
+
+### **📌 Encounters**
+- **Squatter factions** defending their territory.
+- **Black-market brokers** running cybernetic smuggling rings.
+\page
+- **Corporate security teams** sweeping for intruders.
+
+### **📌 Dynamic Elements**
+- **Security Escalation** – If detected, **security tightens every 30 minutes**.
+- **Collapse** – Overloaded floors **suddenly give way**.
+
+### **📌 DM Tips**
+- Play up **fear of heights** by making ledges narrow or unstable.
+- Use **elevator malfunctions as mini-puzzles**.
+- Allow **climbing, grappling, or clever parkour maneuvers**.
+
+📌 **Example Encounter Idea:**  
+*Players must climb a 200-story megastructure to access a **secret meeting** at the top. Midway, a **corporate sniper team** spots them, forcing a high-stakes chase through shattered windows, ledges, and construction scaffolding.*
+
+---
+
+## **🔪 Urban Slums & Backstreets**
+> *"Neon lights hide the decay. The law rarely comes here, and the streets belong to those who take them."*
+
+### **📌 Hazards**
+- **Random building fires and electrical surges.**
+- **Impromptu gang blockades demanding tolls.**
+- **Hidden booby traps in alleyways.**
+
+### **📌 Navigation Challenges**
+- **Unmarked streets make maps useless.**
+- **Surveillance cameras track movement.**
+- **Rival gangs control different sections.**
+
+### **📌 Encounters**
+- **The Free Syndicate** running black-market trade.
+- **Desperate thieves** looking for easy marks.
+- **Psychics in hiding**, running from A.S.T.R.A.L.
+
+### **📌 Dynamic Elements**
+- **Turf Wars** – Violence escalates, **changing safe zones overnight**.
+- **Police Raids** – Entire blocks go on **lockdown without warning**.
+
+### **📌 DM Tips**
+- Use **faction-based conflicts** to create shifting allegiances.
+- Introduce **an element of paranoia**—players never know if they are being watched.
+- Use **narrow alleyways and tight spaces** to make combat **claustrophobic**.
+
+📌 **Example Encounter Idea:**  
+*The party is meeting a smuggler to secure passage out of the city—but in the middle of negotiations, a rival gang storms the meeting, turning a covert deal into a brutal street shootout.*
+
+---
+
+## **💻 Cyberspace & Digital Wastelands**
+> *"It isn’t just a network—it’s a battlefield of corrupted data, rogue A.I., and unstable realities."*
+
+### **📌 Hazards**
+- **Data corruption causing hallucinations and memory loss.**
+- **Logic loops trapping users in infinite calculations.**
+- **Rogue security programs detecting and isolating intruders.**
+
+### **📌 Navigation Challenges**
+- **Firewalls shift, creating new digital pathways.**
+- **Encrypted zones require hacking or passwords.**
+- **Some sections are non-Euclidean, making movement non-linear.**
+
+### **📌 Encounters**
+- **AI ghosts from dead users.**
+- **Cyber-syndicates fighting for control of data vaults.**
+- **Entities that exist nowhere but here.**
+
+### **📌 Dynamic Elements**
+- **Server Overload** – Processing errors cause **glitches in perception**.
+- **Security Alert** – Firewalls adapt, blocking access routes.
+
+### **📌 DM Tips**
+- Make **cyberspace less predictable**—**maps should shift unexpectedly**.
+- Encourage **hacking, logic puzzles, and mental endurance**.
+\page
+- Use **time dilation effects**—one second in cyberspace **might be an hour in the real world**.
+
+📌 **Example Encounter Idea:**  
+*The players infiltrate an AI-controlled banking system, but after a successful hack, they realize that **time flows differently in cyberspace**—and they have **only minutes in the real world** before security teams arrive.*
+
+
+## **📌 DM’s Toolbox: Using Regions Effectively**
+When planning encounters in *Vestigium*, **terrain is just as dangerous as enemies.** Use these elements to enhance immersion:  
+
+- **📌 Create Timed Events:**  
+  - **Security escalations every 30 minutes.**  
+  - **Shifting gang allegiances.**  
+  - **Weather or mechanical failures forcing route changes.**  
+
+- **📌 Dynamic Hazards:**  
+  - **Gas leaks that ignite if shot.**  
+  - **Bridge collapses forcing last-minute acrobatics.**  
+  - **AI glitches altering gravity in cyberspace.**  
+
+- **📌 Encourage Tactical Movement:**  
+  - Fighting **on unstable ground causes Dex saves**.  
+  - High-ground **grants bonus AC and damage**.  
+  - **Hackers & spellcasters can manipulate certain hazards.**  
+
+## **📌 How This Changes Gameplay**
+- **Survival mechanics** involve evading security, navigating **corporate labyrinths**, and dealing with **urban decay**, rather than traditional wilderness survival.  
+- **Travel challenges** stem from **corporate lockdowns, automated drones, and gang warfare**, rather than natural hazards.  
+- **Random encounters** feature **criminal syndicates, rogue corporate operatives, and entities lurking between reality and corruption**, rather than wandering monsters.  
+
+\page
+
+# Terrain Elements of Concord City
+
+In *Vestigium*, movement isn’t about crossing wilderness—it’s about navigating the **surfaces beneath your feet**. The world of *Concord City* is built on layers of **asphalt, concrete, metal, and forgotten ruins**, each with its own challenges.
+
+---
+
+## **Urban Terrain Elements**
+Common surfaces found throughout the city.
+
+- **Asphalt** – Cracked roads, aging highways, patched pavement.  
+- **Concrete** – Sidewalks, plazas, brutalist walkways, overpasses.  
+- **Office Carpet** – Thin, synthetic, designed for corporate environments.  
+- **Linoleum** – Worn-out tiles in **offices, hospitals, and cafeterias.**  
+- **Marble** – Cold, polished floors in **lobbies, banks, and government buildings.**  
+- **Wooden Floors** – Old mansions, luxury apartments, and outdated office spaces.  
+- **Brick & Cobblestone** – Leftover from **old districts, alleys, and preserved heritage zones.**  
+
+---
+
+## **Industrial Terrain Elements**
+Surfaces found in **factories, power plants, and production zones.**
+
+- **Metal Grating** – Raised walkways, industrial platforms, heat-vented floors.  
+- **Steel Plates** – Cold, bolted flooring in **power plants and research labs.**  
+- **Catwalks** – Suspended pathways, swaying slightly underfoot.  
+- **Rusted Panels** – Corroded flooring in **abandoned facilities.**  
+- **Rubberized Flooring** – Found in **server rooms, R&D labs, and test sites.**  
+
+---
+
+## **Infrastructure & Transit Elements**
+Found in **subways, tunnels, and maintenance areas.**
+
+- **Subway Tiles** – Slick, dirty, and cracked from decades of foot traffic.  
+- **Train Tracks** – Dangerous, unstable ground with potential **live rails.**  
+- **Maintenance Grating** – Covers **ventilation shafts, sewers, and underground tunnels.**  
+- **Concrete Tunnels** – The bare, echoing pathways of subways and storm drains.  
+- **Pooled Water** – From **burst pipes, runoff, or broken drainage systems.**  
+
+---
+
+## **Corporate & Luxury Elements**
+Surfaces exclusive to **executive zones, wealthy estates, and elite areas.**
+
+- **Gilded Marble** – Decorated with **gold veins and inlaid corporate insignias.**  
+- **Velvet Carpets** – Thick, luxurious flooring in **VIP lounges and high-end offices.**  
+- **Glass Floors** – Transparent panels, often found in **boardrooms and luxury apartments.**  
+- **Parquet Wood** – Custom-designed, **intricately patterned wooden floors.**  
+
+---
+
+## **Underworld & Criminal Elements**
+Surfaces found in **illegal markets, gang hideouts, and underground societies.**
+
+- **Neon-Stained Dance Floors** – Found in **nightclubs, speakeasies, and gambling dens.**  
+- **Sticky Bar Floors** – Littered with **spilled drinks, gum, and cigarette burns.**  
+- **Blood-Stained Concrete** – From **underground fight pits, back-alley brawls, and crime scenes.**  
+- **Worn Carpeting** – Faded, torn, and barely maintained in **budget hotels and safehouses.**  
+
+---
+
+## **Paranormal & Anomalous Elements**
+Surfaces that **shift, distort, or behave unnaturally.**
+
+- **Static Floors** – Constantly buzzing with **electromagnetic interference.**  
+- **Flickering Digital Surfaces** – **Holographic, glitching, or unstable material.**  
+- **Endless Hallways** – Floors that **extend forever** or loop unexpectedly.  
+- **Veined Stone** – **Organic, pulsing material** that reacts to movement.  
+- **Memory-Touched Carpet** – Feels **familiar but is eerily out of place.** 
+\page
+- **Cold Metal That Should Be Warm** – **Unnaturally cold surfaces**, even in heated environments.  
+
+---
+
+## **Decayed & Abandoned Elements**
+Surfaces found in **derelict buildings, ghost districts, and forgotten places.**
+
+- **Broken Tiles** – **Shattered remnants of corporate lobbies.**  
+- **Warped Wood** – **Rotten floorboards** bending underfoot.  
+- **Moss-Covered Pavement** – **Nature reclaiming forgotten structures.**  
+- **Crumbling Concrete** – **Falling apart**, leaving dangerous gaps and exposed rebar.  
+- **Glass Shards** – Found in **broken skyscrapers, abandoned malls, and riot sites.**  
+
+\page
+
+{{wide
+# Base Terrain (Static & Neutral)
+
+| **Base Terrain**                 | **Effect?** | **Details** |
+|----------------------------------|------------|-------------|
+| **Urban Terrain**                |            |             |
+| Asphalt                          | ❌ No      | Normal footing. |
+| Concrete                         | ❌ No      | Stable, normal movement. |
+| Office Carpet                    | ❌ No      | Soft but normal footing. |
+| Linoleum                         | ❌ No      | Smooth but normal footing. |
+| Marble                           | ❌ No      | Hard, polished, but stable. |
+| Wooden Floors                    | ❌ No      | Normal unless **damaged** (see modified terrain). |
+| Brick & Cobblestone              | ✅ Yes     | **Uneven Surface** – Disadvantage on **Dexterity (Stealth)** if running. |
+| **Industrial Terrain**            |            |             |
+| Metal Grating                    | ✅ Yes     | **Noisy** – Footsteps heard within **30 ft**. |
+| Steel Plates                     | ✅ Yes     | **Loud Impacts** – Sudden force is **heard within 60 ft**. |
+| Catwalks                         | ✅ Yes     | **Unstable** – **DC 12 Dexterity save if running**, or fall **prone**. |
+| Rusted Panels                    | ✅ Yes     | **Weak Surface** – **DC 14 Strength check** or collapse. |
+| Rubberized Flooring               | ❌ No      | Designed for stability. |
+| **Infrastructure & Transit**      |            |             |
+| Subway Tiles                     | ✅ Yes     | **Worn Surface** – **Disadvantage on Acrobatics checks to balance.** |
+| Train Tracks                     | ❌ No      | Normal footing unless **electrified** (see Modifiers). |
+| Maintenance Grating               | ✅ Yes     | **Objects may fall through**, **prone creatures risk slipping in**. |
+| Concrete Tunnels                  | ❌ No      | Normal footing. |
+| **Corporate & Luxury**            |            |             |
+| Gilded Marble                    | ❌ No      | Normal footing. |
+| Velvet Carpets                   | ❌ No      | Normal footing. |
+| Glass Floors                      | ✅ Yes     | **Fragile** – **DC 13 Dex save if struck** (may break). |
+| Parquet Wood                     | ❌ No      | Normal footing. |
+| **Underworld & Criminal**         |            |             |
+| **Paranormal & Anomalous**        |            |             |
+| Flickering Digital Surfaces        | ✅ Yes     | **Glitching** – **Random teleportation (5 ft)** if moving at full speed. |
+| Endless Hallways                  | ✅ Yes     | **Looping Space** – **DC 15 Wisdom (Survival) check** to move correctly. |
+| Veined Stone                      | ✅ Yes     | **Sentient** – May **grab feet** (DC 14 Strength check to break free). |
+| **Decayed & Abandoned**           |            |             |
+| Broken Tiles                      | ✅ Yes     | **Unstable** – **DC 12 Acrobatics check** or tiles break. |
+| Warped Wood                       | ✅ Yes     | **Rotten** – **DC 10 Strength check** or foot breaks through. |
+| Moss-Covered Pavement             | ✅ Yes     | **Halves movement**, **hides hazards** (Stealth checks may fail). |
+| Crumbling Concrete                 | ✅ Yes     | **Dangerous** – May **collapse on impact (DC 14 Con save to stay standing).** |
+}}
+
+{{wide
+# Modified Terrain (When the Base is Damaged)
+
+| **Modified Terrain**              | **Effect** |
+|----------------------------------|------------|
+| **Cracked Asphalt or Concrete**   | **Movement penalty (half speed)**. |
+| **Loose Brick or Cobblestone**    | **Dexterity save (DC 12) or trip**. |
+| **Metal Grating (Broken)**        | **Falls apart if too much weight is placed on it.** |
+| **Glass Floors (Fractured)**      | **Breaks if struck hard, dropping creatures through it.** |
+| **Rusted Panels (Weakened)**      | **May collapse if walked on (Strength save DC 14).** |
+| **Wooden Floors (Rotten)**        | **Can break under weight (DC 10 Strength check).** |
+| **Crumbling Concrete (Advanced Decay)** | **Shatters with strong impact, creating rubble.** |
+}}
+
+\page
+
+{{wide
+# External Modifiers (What’s ON the Terrain)
+
+| **Modifier Type**                | **Effect** |
+|----------------------------------|------------|
+| **Slippery (Oil, Ice, Blood, Mud)** | **DC 13 Dex save or fall prone.** |
+| **Sticky (Glue, Tar, Thick Blood)** | **Halves movement speed.** |
+| **Electrified (Live Rails, Exposed Wires, Paranormal Fields)** | **2d6 Lightning damage on contact (Dex save negates).** |
+| **Burning (Fire, Heated Metal, Molten Substance)** | **1d6 Fire damage per turn standing on it.** |
+| **Fog / Smoke (Industrial Smog, Tear Gas, Paranormal Mist)** | **Disadvantage on Perception checks.** |
+| **Shattered Glass (Broken Windows, Riot Debris)** | **When prone, 1d4 Slashing damage per actions.** |
+| **Reality Distortion (Supernatural Effects, Holographic Malfunctions)** | **Effects to the DM's discretion** |
+}}
+
+\page
+
+# Rogue: Urban Predator  
+
+Rogues in *Vestigium* don’t just **move through the city**—they **own it**. Whether it’s **parkouring across rooftops, slipping between alleys, or exploiting unstable footing**, the **terrain itself becomes their weapon and escape route**.  
+
+## **Opportunist’s Strike (Terrain-Based Sneak Attack)**  
+*"Your footing is your downfall."*  
+
+At **3rd level**, instead of relying on allies, you **exploit the environment** to land devastating attacks.  
+
+### **Effects:**  
+- If an enemy is **on unstable terrain**, your attack counts as **Sneak Attack**, even if they aren’t flanked.  
+- **Unstable Terrain includes:**  
+  - **Modified Terrain:** Broken tiles, warped wood, cracked glass floors, loose bricks, rusted panels, crumbling concrete.  
+  - **External Modifiers:** Ice, oil, blood, mud, ectoplasmic residue.  
+  - **Movement Situations:** Jumping, falling, or mid-air (forced movement counts).  
+
+---
+
+## **Adaptive Evasion (Replaces Uncanny Dodge)**  
+*"You can’t hit what isn’t there."*  
+
+At **5th level**, when threatened, you don’t just dodge—you **use the environment to slip away entirely**.  
+
+### **Effects:**  
+- When hit by an attack, you may **move up to 5 feet** in any direction to **avoid the attack completely**.  
+  - **At level 9,** this increases to **10 feet**.  
+- Must **move onto a valid terrain feature** (wall, ledge, railing, cover).  
+- **If moving into partial cover or out of sight**, gain **+2 AC until the start of your next turn**.  
+- **If standing on a Modified Terrain that breaks** (e.g., cracked glass or a rusted panel), you may **jump away instead of falling**.  
+- If hit by an **AoE attack**, you **must move out of the radius** to avoid full damage.  
+- **Once per turn as a reaction.**  
+
+---
+
+## **Favored Terrain Styles (Specialization)**  
+*"I thrive where others struggle."*  
+
+At **3rd level**, you specialize in a specific **urban terrain type**, gaining unique benefits when navigating or fighting in those conditions.  
+
+### **Effects:**  
+- **At level 3,** choose **one** favored terrain type.  
+- **At level 9 & 13,** pick additional favored terrains.
+
+\page
+
+| **Favored Terrain** | **Benefit** |
+|--------------------|------------|
+| **Rooftop Runner** | **+10 ft movement on rooftops, catwalks, and grating.** Auto-pass **first Dex save to avoid falling.** |
+| **Alley Ghost** | **Advantage on Stealth checks in alleys, slums, and ruined areas.** Gain **cover 1 round after hiding.** |
+| **Industrial Phantom** | **Ignore heat, smoke, and fog penalties in industrial areas.** Can **move through toxic clouds without disadvantage.** |
+| **Crowd Drifter** | **Move through occupied spaces without penalty.** If moving through a crowd, you are **untraceable until your next turn.** |
+| **Subway Stalker** | **Ignore difficult terrain in underground areas & sewers.** Can **dash through slippery surfaces (blood, oil, ice) without penalty.** |
+
+\page
+
+# Ranger: Tactical Survivalist  
+
+Rangers in *Vestigium* are **tactical specialists**, adapting to **changing environments** while **exploiting urban landscapes** for superior **tracking, awareness, and ranged combat**.
+
+---
+
+## **Urban Adaptation (Favored Terrain Swap)**  
+*"You survive by adapting to your surroundings."*  
+
+At **3rd level**, you learn to **adjust to different environments** based on your **current location and needs**.  
+
+### **Effects:**  
+- **At the end of a Long Rest,** choose **three terrain types** from the list below.  
+- While in **one of your chosen terrains**, gain:  
+  - **Advantage on Investigation & Perception checks** to detect movement, traps, and terrain instability.  
+  - **Firearm Mastery:** Gain a **unique combat benefit** based on terrain (see table).  
+  - **Tactical Resting:** When resting in your Favored Terrain, reduce **exhaustion recovery** by **1 hour per level of exhaustion removed**.  
+
+### **Favored Terrain & Firearm Mastery Bonuses**  
+| **Terrain**            | **Firearm Bonus** |
+|------------------------|------------------|
+| **Rooftops & Catwalks** | **Braced Sniping:** Gain **+1 to ranged attack rolls** when shooting from **high ground.** |
+| **Subway Tunnels & Sewers** | **Echo Location:** Gain **+1 to attack rolls** when shooting through **doorways, tunnels, or tight spaces.** |
+| **Factories & Warehouses** | **Ricochet Mastery:** Once per turn, if you **miss**, you may **reroll the attack** but at **-2 penalty.** |
+| **Office Buildings & Corporate Halls** | **Suppressive Fire:** When making a ranged attack, you may **impose disadvantage on the target's next attack** if they fail a **Wisdom save (DC 8 + Prof + Dex).** |
+| **Neon Clubs & Gambling Dens** | **Quickdraw:** Once per turn, you may **swap weapons without using an action.** |
+| **Slums & Ruins** | **Cover Exploitation:** Gain **+1 AC when partially covered** (walls, furniture, debris). |
+
+---
+
+## **Environmental Awareness (Instinctive Hazard Detection)**  
+*"I know when something feels wrong."*  
+
+At **6th level**, your instincts **detect dangers** before they happen.  
+
+### **Effects:**  
+- **Auto-pass Perception checks** to detect:  
+  - **Unstable terrain** (crumbling concrete, weak floor panels, thin glass).  
+  - **Traps tied to terrain** (pressure plates, rigged doorways).  
+  - **Electrified surfaces & gas leaks** (live rails, power surges, exposed wiring).  
+- **Tactical Entry:** Gain **advantage on the first attack made** when moving through a **doorway, stairwell, or other restricted space**.  
+
+---
+
+## **Adaptive Positioning (Tactical Mobility)**  
+*"I move where the fight needs me."*  
+
+At **9th level**, you learn to **use terrain tactically**, making **small adjustments in combat** to gain an advantage.  
+
+### **Effects:**  
+- **When attacked by a ranged attack**, you may use your reaction to **shift 5 feet to partial cover**.  
+- **Moving through doorways or staircases** does **not provoke opportunity attacks**.  
+- **When fighting from elevated ground**, you deal **+2 bonus damage** to **ranged weapon attacks**.  
+
+---
+
+## **Environmental Manipulation (Shaping the Battlefield)**  
+*"I don’t just fight in terrain—I control it."*  
+
+At **13th level**, you can **manipulate the environment** to create **tactical advantages.**  
+
+### **Effects:**  
+- **Collapsing Cover:** As a Bonus Action, **target a structure within 15 feet** (weak furniture, shelves, unstable walls). The next attack made against it **automatically destroys it**, creating cover or obstacles.
+\page
+- **Forced Terrain Shifts:** As a Bonus Action, target an enemy within 10 feet of a **terrain hazard** (unstable ground, slippery floors). The enemy must make a **Dexterity save (DC 8 + Prof + Wis)** or **step onto the hazard**.  
+
+---
+
+## **Resting Bonuses by Region**  
+
+| **Region**                        | **Resting Bonus** |
+|-----------------------------------|------------------|
+| **Industrial Districts**          | **Junkyard Scraps** – Gain **advantage on the next crafting or repair check** after resting here. |
+| **High-Rise Megastructures**      | **Elevated Awareness** – Start the next day with **+1 passive Perception until your next Long Rest.** |
+| **Urban Slums & Backstreets**     | **Blending In** – Gain **advantage on the next Deception or Stealth check** after resting here. |
+| **Corporate Offices**             | **Mind-Numbing Routine** – Gain **advantage on the next Insight check** to detect lies or corporate manipulation. |
+| **Roads, Highways & Transit Hubs** | **Quick Escape** – **Once in the next 24 hours**, you may move **an extra 5 feet** on your first turn in combat. |
+| **Underground Infrastructure**    | **Tunnel Instincts** – **Once in the next 24 hours**, reroll a failed Investigation check involving navigation or hidden passages. |
+| **Public Parks & Green Spaces**   | **Natural Rejuvenation** – **Recover 1 additional hit die** when finishing a Long Rest. |
+| **Residential Zones**             | **Neighborhood Gossip** – Gain **advantage on the next Persuasion check** when dealing with locals. |
+| **Gilded Estates**                | **Luxury Recovery** – **Recover 1 additional spell slot** (up to 2nd level). |
+| **Old Castles & Haunted Mansions** | **Echoes of the Past** – Gain **advantage on the next History check** related to the city’s forgotten past. |
+| **Nightclubs & Underworld Havens** | **Underworld Connections** – Gain **advantage on the next Intimidation check** against criminals or informants. |
+| **The Verge & Ruined Sectors**    | **Survival Instincts** – Gain **advantage on the next Saving Throw against environmental hazards or terrain effects.** |
+| **Cyberspace & Digital Wastelands** | **Data Fragment Recall** – Gain **advantage on the next Arcana check** related to technology or the paranormal. |
+
+---
+
+## **📌 Additional Rules**
+- These effects **last until your next Long Rest** and **are lost if the character takes a Long Rest elsewhere.**  
+- Resting must be **undisturbed** (no combat, forced movement, or interruptions).  
+- These bonuses **stack with racial, class, or magic effects** but **do not stack with other region bonuses.**  
+
+\page
+
+## **Spellcasters: Environmental Magic**
+> *"The city is alive. It pulses, it shifts, it listens."*
+
+Spellcasters can **tap into terrain-specific energy**, unlocking **terrain-based expanded spells**.
+
+### **Feature: Environmental Arcana**
+- You **gain additional spells based on terrain**. When casting these spells **while standing on a related terrain**, they **cost one slot level lower** (minimum 1st-level).
+
+#### **Example Spell Expansions**
+- **On Metal Grates & Catwalks** → *Shocking Grasp, Levitate, Lightning Bolt*  
+- **On Concrete & Brutalist Walkways** → *Stone Skin, Wall of Stone*  
+- **On Subway Tiles & Industrial Zones** → *Haste, Heat Metal, Arcane Lock*  
+- **On Paranormal Terrain** → *Detect Magic, Dimension Door, Etherealness*  
+- **On Glass Floors & Neon Dance Floors** → *Hypnotic Pattern, Blur, Major Image*  
+
+\page
+
+# Druid: Architect of Decay & Renewal  
+
+Druids in *Vestigium* are **not bound to nature**—they **command the city itself**. Whether **shaping crumbling infrastructure, warping anomalies, or eroding metal and concrete**, these Druids adapt to **whatever is beneath their feet.**
+
+---
+
+## **Urban Conduit (Terrain-Based Adaptation)**  
+*"The ground beneath you is your ally or your weapon."*  
+
+At **2nd level**, you gain a **unique cantrips based on the terrain you are stepping on.**  
+
+## **Druid Cantrips by Terrain Type**
+
+### **Urban Terrain**
+| **Terrain** | **Cantrip** | **Effect** |
+|------------|------------|------------|
+| **Brick & Cobblestone** | **Tectonic Disruption** | Target must make a **Strength save** or be **knocked prone** by shifting bricks. |
+
+---
+
+### **Industrial Terrain**
+| **Terrain** | **Cantrip** | **Effect** |
+|------------|------------|------------|
+| **Metal Grating** | **Resonant Echo** | Target takes **1d8 Thunder damage**, and creatures **within 5 feet take half damage.** |
+| **Steel Plates** | **Impact Reverberation** | If a creature is knocked **prone**, they take an **extra 1d6 Thunder damage**. |
+| **Catwalks** | **Steel Step** | As a **reaction**, if you would fall prone, you **negate the effect and reposition 5 feet instead**. |
+| **Rusted Panels** | **Weakpoint Fracture** | Target takes **1d6 Slashing damage** and must make a **Dexterity save** or suffer **half movement speed** for 1 round. |
+
+---
+
+### **Infrastructure & Transit**
+| **Terrain** | **Cantrip** | **Effect** |
+|------------|------------|------------|
+| **Subway Tiles** | **Disruptive Footing** | All creatures in a **5-ft radius** must make a **Dexterity save** or **lose their reaction** until the end of their next turn. |
+| **Maintenance Grating** | **Structural Unraveling** | Target must make a **Strength save** or **fall prone and move 5 feet in a random direction**. |
+| **Glass Floors** | **Shatterpoint** | Target standing on fragile material takes **1d8 Force damage**, and the surface may **break** if damaged. |
+
+---
+
+### **Paranormal & Anomalous**
+| **Terrain** | **Cantrip** | **Effect** |
+|------------|------------|------------|
+| **Flickering Digital Surfaces** | **Glitch Step** | Teleport **5 feet** in a random direction. If an enemy is within 5 feet, they take **1d4 Psychic damage**. |
+| **Endless Hallways** | **Spatial Disorientation** | Target must make a **Wisdom save** or be **unable to willingly move in a straight line** for 1 round. |
+| **Veined Stone** | **Living Grip** | Target must make a **Strength save** or be **restrained** until the end of their next turn. |
+
+---
+
+### **Decayed & Abandoned**
+| **Terrain** | **Cantrip** | **Effect** |
+|------------|------------|------------|
+| **Broken Tiles** | **Cracked Ground** | The next creature to step on this area must make a **Dexterity save** or **fall prone**. |
+| **Warped Wood** | **Splinter Surge** | Target takes **1d8 Piercing damage**, and must make a **Dexterity save** or take **1 additional damage per foot moved**. |
+| **Moss-Covered Pavement** | **Overgrowth Snare** | The next creature to move here has their **speed reduced by 10 feet** until the end of their next turn. |
+| **Crumbling Concrete** | **Collapse Point** | Choose a **5-ft square**. If a creature enters that space, they must make a **Dexterity save** or take **1d10 Bludgeoning damage**. |
+
+---
+
+### **📌 Additional Rules**
+- **If standing on a "No Effect" terrain, the Druid has no cantrip access.**  
+- **At level 10,** Druids may **store one cantrip** for **1 minute** after stepping off a terrain.  
+- These **replace traditional Druid cantrips**—a **Vestigium Druid does not have fixed spells**, only terrain-based abilities.  
+
+---
+
+## **Living Terrain (Active Terrain Manipulation)**  
+*"I don’t just walk the city—I shape it."*  
+
+At **6th level**, you can **alter the battlefield** by **shaping or corrupting** the terrain beneath you.  
+
+### **Effects:**  
+- As a **Bonus Action**, you may **alter** the terrain beneath you within a **10-foot radius**.  
+- The change lasts **1 minute**, unless it is sustained by a spell.
+\page
+- Choose **one** of the following effects when activating this ability:  
+
+| **Modification Type**             | **Effect** |
+|-----------------------------------|------------|
+| **Restore Ground**               | **Removes difficult terrain, stabilizes crumbling surfaces, and clears debris.** |
+| **Corrupt Ground**               | **Turns the area into difficult terrain, causing structures to decay.** |
+| **Industrial Hazard**            | **Generates smoke, gas leaks, or rusted edges, forcing enemies to make a Constitution save or be poisoned.** |
+| **Paranormal Surge**             | **Creates unstable anomalies, forcing creatures in the area to make a Wisdom save or experience hallucinations.** |
+
+---
+
+## **Flickering Footsteps (Supernatural Movement)**  
+*"I move between the fractures of reality."*  
+
+At **10th level**, you can **phase through certain terrains**, allowing you to **slip through structures and urban hazards.**  
+
+### **Effects:**  
+- When stepping onto **metal, glass, or paranormal terrain**, you may **teleport 10 feet** as a **bonus action**.  
+- You may **pass through walls** that are **made of the same material you are standing on** (DC 15 Arcana check if magical).  
+- When moving through **paranormal anomalies**, you may choose to **become semi-incorporeal** until the end of your turn (resistance to non-magical physical damage).  
+
+---
+
+## **Architect of Decay & Renewal (True Battlefield Control)**  
+*"I decide what stands and what falls."*  
+
+At **14th level**, you gain **total control over terrain within 30 feet**, allowing you to **collapse, restore, or weaponize the environment.**  
+
+### **Effects:**  
+- **Once per Long Rest**, you may use an **Action** to **reshape the environment** within **a 30-foot radius**.  
+- Choose **one of the following major effects:**  
+
+| **Effect Name**                    | **Effect** |
+|------------------------------------|------------|
+| **Collapse the Structure**         | **Instantly destroy a weakened structure, causing it to collapse. Creatures inside take 6d6 bludgeoning damage (Dex save for half).** |
+| **Raise the Ruins**                | **Summon broken debris into new walls, obstacles, or bridges. These structures last for 1 hour.** |
+| **Industrial Catastrophe**         | **Trigger gas explosions, chemical spills, or machinery failures, dealing 4d8 damage (Fire/Acid).** |
+| **Paranormal Convergence**         | **Amplify an existing anomaly, forcing creatures inside to make a Charisma save or become lost in a fractured reality.** |
+
+
+\page
+
+# **Paladin: Keeper of Sacred Grounds (Balanced Version)**  
+
+Paladins in *Vestigium* are **guardians of consecrated spaces**, shaping the battlefield through **divine sanctification or unholy corruption**. Their power **fluctuates based on the land beneath them**, making them **masters of tactical positioning and battlefield control**.  
+
+---
+
+## **Sacred Footing (Holy & Unholy Terrain)**  
+*"The battlefield itself answers my call."*  
+
+At **3rd level**, your divine strength changes based on **where you fight**.  
+
+### **Effects:**  
+- **Once per Long Rest**, if standing on **sanctified ground**, you gain **temporary HP equal to your proficiency bonus** after resting.  
+- If standing on **desecrated ground**, your **first melee attack each turn** deals **extra radiant damage equal to half your Paladin level**.  
+- You may spend **1 minute blessing an area**, making it **count as sanctified terrain for 1 hour**.  
+
+### **Extending Effects** (New Feature):  
+- **At level 11**, you may spend **Lay on Hands (5 HP per minute)** to **extend the sanctified terrain’s duration.**  
+- **At level 15**, you may spend **10 Lay on Hands HP** to activate **Sacred Footing's radiant damage on any terrain for 1 minute.**  
+
+---
+
+## **Aura of Sanctity (Holy Aura Enhancement)**  
+*"My presence alone turns the tide of battle."*  
+
+At **7th level**, your **Aura of Protection** gains **new effects** depending on the terrain.  
+
+### **Effects:**  
+- **Sanctified Ground:**  
+  - **Allies within your aura gain +1 AC**.  
+  - **Enemy creatures suffer disadvantage on Wisdom saves.**  
+- **Desecrated Ground:**  
+  - **Your melee attacks deal +1d8 radiant damage (1/turn).**  
+  - **Enemy spellcasters must make a Constitution save (DC 8 + Cha + Prof) when casting, or their spell is weakened (-1 spell level).**  
+
+---
+
+## **Consecrate or Corrupt (Tactical Terrain Control)**  
+*"The ground bends to my faith."*  
+
+At **10th level**, you can **bless or corrupt terrain** during combat.  
+
+### **Effects:**  
+- **As an Action,** you may transform a **15-foot radius** into **Sanctified or Desecrated ground** for **5 rounds**.  
+- This ability **can only be used once per Short Rest**.  
+- **If you take damage while maintaining the effect**, make a **Concentration Check (DC 10 + half damage taken)**. If you fail, the effect **ends early**.  
+- **At level 18**, you may spend **Lay on Hands (5 HP per round)** to **extend the effect beyond 5 rounds**.  
+
+### **Choose one effect when activating this ability:**  
+
+| **Effect Name**                  | **Effect** |
+|----------------------------------|------------|
+| **Holy Purification**            | Cleanses an area, **removing curses, dispelling magical darkness**. |
+| **Unholy Defiance**              | Warps an area, **causing radiant magic to fail and shadow creatures to heal 5 HP per round.** |
+| **Martyr’s Haven**               | Allies standing in the zone **regain 1d4 HP at the start of their turn.** |
+| **Divine Reckoning**             | The ground **erupts with divine fire**, forcing creatures inside to make a **Dexterity save or take 4d8 Radiant damage.** |
+
+---
+
+## **Sacred Keeper’s Rite (Permanent Sanctification Ritual)**  
+*"A warrior’s duty is not only to fight, but to protect."*  
+
+At **15th level**, you can **permanently sanctify or desecrate** a site **through a complex ritual.**  
+\page
+### **Effects:**  
+- **The ritual takes 24 hours** and must be **performed on a site fitting the desired effect.**  
+- The area **remains altered unless forcibly reversed** by **an opposing ritual or powerful force.**  
+- **At level 20,** you may **spend Lay on Hands (50 HP)** to **instantly complete the ritual** instead of waiting 24 hours.  
+
+### **Choose one effect when performing the ritual:**  
+
+| **Effect Name**                  | **Effect** |
+|----------------------------------|------------|
+| **Eternal Sanctuary**            | The site becomes permanently **holy**, preventing undead from entering. |
+| **Oathbreaker’s Curse**          | The site **rejects divine magic**, weakening Paladins and Clerics. |
+| **Warrior’s Rest**               | **Allies who sleep here heal double HP on a Long Rest.** |
+| **Blight’s Heart**               | **Undead summoned here gain +2 AC and resist radiant damage.** |
+
+---
+
+## **Divine Battlefield (Ultimate Sanctification Ability)**  
+*"I control the fate of this place."*  
+
+At **20th level**, you may **sanctify or desecrate an entire battlefield** **once per Long Rest**.  
+
+### **Effects:**  
+- As an **Action**, you **declare this place a divine or cursed battlefield**.  
+- The area within **30 feet** becomes either **Sanctified or Desecrated** for **10 minutes**.  
+- You may **spend Lay on Hands (10 HP per additional minute)** to **extend its duration.**  
+- This grants the **full effects of sacred or cursed ground** for the **entire duration.**  
+- Additionally, you **gain one of the following:**  
+
+| **Effect Name**                  | **Effect** |
+|----------------------------------|------------|
+| **Divine Bastion**               | **Allies within 30 feet gain resistance to all damage.** |
+| **Cursed Doom**                  | **All enemies in the area take 2d8 Necrotic damage at the start of their turns.** |
+| **Guardian’s Wrath**             | **Once per turn, your Divine Smite deals max damage.** |
+| **Revenant’s Pact**              | **If you fall in battle, you may fight for 1 additional round before dying.** |
+
+---
+
+## **📌 Special Spellcasting Rules**  
+- **Some spells can only be cast in Sanctified lands**, while others require **Desecrated ground**.  
+- **Examples:**  
+  - *Hallow* and *Divine Word* **require sanctified ground**.  
+  - *Summon Undead* and *Dark Pact* **require desecrated ground**.  
+
+\page
+
+# **Cleric: Keeper of Divine Echoes**  
+
+Clerics in *Vestigium* do not merely serve their gods—they **reshape the world in their image**. They draw strength from **holy and unholy terrain**, their spells adapting to the nature of the land beneath them.  
+
+---
+
+## **Sacred and Desecrated Terrain (Passive Divine Adaptation)**  
+*"Faith is strongest where it is remembered."*  
+
+At **2nd level**, you gain passive benefits from **Sanctified or Desecrated ground**.  
+
+### **Effects:**  
+- **Sanctified Ground:**  
+  - Healing spells **restore +1 HP per spell level.**  
+  - Allies standing in the area gain **+1 to Wisdom saving throws.**  
+- **Desecrated Ground:**  
+  - Necrotic and Radiant spells deal **+1 damage per spell level.**  
+  - Undead summoned here gain **+2 AC**.  
+
+**Ritual Detection:**  
+- You may cast **Detect Sanctity (ritual only)** to **identify whether an area is sacred or cursed.**  
+
+---
+
+## **Channel Divinity: Domain of the Divine**  
+*"My god’s will shapes the battlefield."*  
+
+At **6th level**, your **Channel Divinity** takes on different effects depending on **where you stand**.  
+
+### **Effects:**  
+- **If used on Sanctified Ground:**  
+  - **Restore HP to all allies equal to your Cleric level + Wisdom modifier.**  
+  - **Dispel one curse, hex, or fear effect on each ally.**  
+- **If used on Desecrated Ground:**  
+  - **All enemies within 30 feet take 1d6 + Wisdom mod radiant damage.**  
+  - **Undead in the area must make a Wisdom save (DC = 8 + Wis + Prof) or be turned for 1 minute.**  
+
+---
+
+## **Sacred Manipulation (Bless, Corrupt, or Store Holy Energy)**  
+*"What is sacred is mine to command."*  
+
+At **10th level**, you may **store, transfer, or alter sanctified and desecrated land** through divine rituals.  
+
+### **Effects:**  
+- **Sanctify Ground (1 Hour Ritual):**  
+  - You permanently **bless a 20-ft radius**, turning it into **Sanctified Ground**.  
+- **Desecrate Ground (1 Hour Ritual):**  
+  - You permanently **curse a 20-ft radius**, turning it into **Desecrated Ground**.  
+- **Store Sacred Essence (10 Min Ritual):**  
+  - You may **absorb** the sanctity of a location and **store it for later use.**  
+  - This allows you to **carry a "piece" of the terrain** to use in spellcasting later.  
+- **Transfer Divine Essence (10 Min Ritual):**  
+  - You may **steal sacred energy from one location** to **sanctify or desecrate** another.  
+
+**Stored Energy:**  
+- You may hold **1 stored charge** of divine energy at a time.  
+- You may **release** this charge as a **Bonus Action** to:  
+  - Convert a **20-ft area** into **Sanctified or Desecrated ground** for **10 minutes.**  
+
+\page
+
+## **Holy & Unholy Spells (Adaptive Spellcasting)**  
+*"Magic changes where faith is strongest."*  
+
+At **14th level**, certain spells **change** based on the terrain.  
+
+### **Spell Effects Change Based on Terrain:**  
+| **Spell** | **Normal Terrain** | **Sanctified Ground** | **Desecrated Ground** |
+|----------|------------------|------------------|------------------|
+| **Toll the Dead** | **Necrotic Damage** | **Radiant Damage** | **Necrotic Damage** |
+| **Inflict Wounds** | **Necrotic Damage** | **Necrotic +1d4 Psychic** | **Necrotic +1d4 Poison** |
+| **Healing Word** | **Restores HP** | **Restores Max HP** | **No Effect** |
+| **Bane** | **-1d4 to Rolls** | **-1d6 to Rolls** | **-1d4, but duration doubles** |
+| **Bless** | **+1d4 to Rolls** | **+1d6 to Rolls** | **No Effect** |
+| **Revivify** | **Revives target** | **Revives without exhaustion** | **Fails unless caster succeeds a DC 15 Wisdom save** |
+
+- **At level 18**, you may **choose which version of the spell to use** regardless of terrain.  
+
+---
+
+## **Divine Intervention: Consecration or Defilement**  
+*"My god speaks through me."*  
+
+At **20th level**, your **Divine Intervention** ability permanently alters sacred spaces.  
+
+### **Effects:**  
+- **Once per Long Rest,** you may call upon your deity to **alter a massive area** of land (up to a 60-ft radius).  
+- Choose one of the following permanent effects:  
+
+| **Effect Name**                  | **Effect** |
+|----------------------------------|------------|
+| **Divine Sanctuary**             | The land becomes **permanently holy**, and enemies suffer disadvantage on attack rolls inside. |
+| **Cursed Ground**                | The land becomes **permanently cursed**, and healing is reduced by half. |
+| **Heaven’s Gate**                | The area emits **constant divine light**, making it impossible for **undead to enter.** |
+| **Shadowed Covenant**            | Creatures resurrected here always return with a **hidden bargain (DM’s choice).** |
+
+---
+
+## **📌 Special Spellcasting Rules**  
+- **Some spells can only be cast in Sanctified lands**, while others require **Desecrated ground**.  
+- **Examples:**  
+  - *Hallow* and *Divine Word* **require sanctified ground**.  
+  - *Summon Undead* and *Dark Pact* **require desecrated ground**.  
+- **Adaptive Spells change based on location** (see table above).  
+
+\page
+
+# **Fighter: Master of Terrain**
+> *"Know the ground, win the fight."*
+
+In *Vestigium*, Fighters do not merely stand their ground—they **control it**. Their combat mastery **adapts to enemy positioning**, punishing foes who fight in unstable or exploitable terrain. They manipulate footing, weapon strikes, and forced movement to turn the battlefield against their opponents.
+
+---
+
+## **📌 Adaptive Combat**
+At **3rd level**, you learn to **exploit terrain against your enemies.** Your attacks gain **bonus effects based on the surface the enemy is standing on.**
+
+### **📌 Terrain-Based Weapon Adjustments**
+- If an enemy is **standing on specific terrain**, your attack **gains a special effect** depending on the weapon type used.
+
+| **Enemy’s Terrain**  | **Weapon Type** | **Effect** |
+|---------------------|---------------|-----------|
+| **Stone, Concrete, Asphalt** | **Bludgeoning (Maces, Hammers, Clubs)** | **Shoves knock the enemy back +5 feet.** |
+| **Metal (Grates, Walkways, Railings)** | **Piercing (Spears, Rapiers, Daggers, Arrows)** | **Attacks ignore half cover.** |
+| **Glass Floors & Ice** | **Bludgeoning (Hammers, Mauls, Clubs)** | **Enemy must make a Dex save (DC 8 + STR + Prof) or fall prone.** |
+| **Mud, Sand, Swamp, Wet Ground** | **Slashing (Swords, Axes, Whips, Chains)** | **Critical hit range increases by 1.** |
+| **Rubble, Broken Ground** | **Polearms (Glaives, Halberds, Pikes, Spears)** | **Enemy movement speed is halved for 1 turn if hit.** |
+| **High Ground (Ledges, Rooftops, Ramps, Stairs)** | **Ranged (Bows, Crossbows, Firearms, Thrown Weapons)** | **Ignore disadvantage due to wind, fog, or distance.** |
+| **Subway Tracks, Rails, Industrial Flooring** | **Bludgeoning (Maces, Hammers, Clubs)** | **Enemy cannot take reactions on the next turn.** |
+| **Neon Floors, Digital Surfaces** | **Piercing (Rapiers, Spears, Firearms, Daggers)** | **First hit per round against the target has advantage.** |
+| **Wooden Floors, Loose Planks** | **Unarmed & Grapples** | **If grappled, the enemy must make a Strength save or fall prone.** |
+| **Dirt, Grass, Parks, Natural Terrain** | **Slashing (Swords, Axes, Scythes, Chains)** | **Bleed damage (1d4 per turn) on a successful hit.** |
+
+---
+
+## **📌 Tactical Stances (6th Level)**
+At **6th level**, you learn to **shift your stance based on your surroundings**. As a **Bonus Action**, you may assume a **Tactical Stance** that grants benefits depending on where you are fighting.
+
+| **Terrain Type**  | **Stance Name** | **Effect** |
+|------------------|----------------|------------|
+| **Concrete & Asphalt** | **Ironfoot Stance** | **+1 to Strength saves & Shove attempts. Cannot be knocked prone.** |
+| **Glass Floors** | **Precision Stance** | **+5 feet reach on melee attacks. Shoved enemies must make a Dex Save or fall prone.** |
+| **Metal Grates & Walkways** | **Balanced Stance** | **Advantage on Dexterity saves. Jump distance doubles.** |
+| **Rubble & Broken Ground** | **Steady Guard** | **+1 AC. Ignore difficult terrain.** |
+| **Wet or Slippery Ground** | **Counterweight Stance** | **If an enemy misses an attack, use your Reaction to shove them 5 feet.** |
+| **Neon or Digital Floors** | **Ghost Stance** | **Disadvantage on enemy opportunity attacks. First attack each turn has advantage.** |
+| **Old Wood or Unstable Surfaces** | **Rooted Stance** | **Cannot be shoved or moved against your will. Attacks deal +2 damage if you did not move this turn.** |
+| **Train Tracks & Subway Tiles** | **Momentum Stance** | **When you Dash, you can make one weapon attack as a Bonus Action.** |
+| **High Ground (Rooftops, Ledges)** | **Overwatch Stance** | **+1 AC against melee attacks from below. Ranged attacks gain advantage.** |
+
+- **You may switch between known stances as a Bonus Action.**
+- **At level 10, you may switch once per round without using a Bonus Action.**
+
+---
+
+## **📌 Battlefield Mastery (10th Level)**
+At **10th level**, you learn how to **control the battlefield itself**.
+
+- **Once per Short Rest,** you may **designate a 10-ft radius as "Hostile Ground"** for 1 minute.
+- **While inside this area, enemies always count as being on difficult terrain.**
+\page
+- **Additionally, you always benefit from Terrain-Based Weapon Adjustments when attacking enemies inside the zone.**
+
+---
+
+## **📌 Perfect Adaptation (15th Level)**
+At **15th level**, you no longer need to wait for an enemy to stand in the right spot—you can **manipulate them into terrain weaknesses.**
+
+- **If you hit a creature with a melee attack,** you may force them to move **5 feet in any direction**.
+- **If they move onto a terrain type that triggers Terrain-Based Weapon Adjustments, the effect applies immediately.**
+- **You may use this ability once per turn.**
+
+---
+
+## **📌 Supreme Battlefield Control (18th Level)**
+At **18th level**, you become a **true master of combat strategy**, adjusting your tactics **without hesitation**.
+
+- **Once per turn, you may switch to any Tactical Stance as a Free Action.**
+- **Your "Hostile Ground" ability now lasts for 10 minutes and applies to a 20-ft radius.**
+- **Enemies standing on unstable terrain (glass, metal grates, rubble) automatically fail Dex saves against being shoved.**
+- **If you kill an enemy in one hit, you may immediately move 10 feet and attack again (this movement does not provoke opportunity attacks).**
+
+\page
+
+# **Barbarian: The Ruinbringer**  
+*"My footsteps leave scars on the world."*  
+
+The **Vestigium Barbarian** is **not just a fighter**—they are a **wrecking force**. Walls crack beneath their fists, floors crumble from their weight, and structures weaken as they rage across the battlefield.  
+
+---
+
+## **Wrecking Rage (Destruction-Based Battlefield Presence)**  
+*"I don’t control my destruction—it follows me."*  
+
+At **3rd level**, while raging, your **attacks create unintended destruction** in your surroundings.  
+
+### **Effects:**  
+- **When you hit a creature or object with a melee attack while raging, you damage the terrain nearby.**  
+- The **terrain damage depends on the material (see table below).**  
+- **You ignore movement penalties** caused by **terrain you’ve broken yourself.**  
+
+| **Material**          | **Breaking Effect** |
+|----------------------|-------------------|
+| **Concrete & Asphalt** | Cracks & crumbles, creating **difficult terrain.** |
+| **Metal (Grating, Rails)** | Warps and bends, causing **disadvantage on Dex saves for creatures walking on it.** |
+| **Glass Floors & Windows** | Shatters, creating **hazardous terrain (1d4 slashing damage per 5 feet moved).** |
+| **Wooden Floors & Supports** | Splinters & weakens, **halving movement speed** in the area. |
+| **Brick & Stone** | Crumbles into rubble, **blocking line of sight.** |
+
+---
+
+## **Collateral Havoc (Raging Side-Effects)**  
+*"I don’t pick my battles—the world breaks around me."*  
+
+At **6th level**, your destruction starts **affecting enemies near you.**  
+
+### **Effects:**  
+- **When you deal damage to terrain, creatures within 5 feet must make a Dexterity saving throw (DC = 8 + Str + Prof).**  
+- **On a failure,** they suffer an environmental effect based on the material (see table below).  
+- This effect **only occurs once per turn** and **only while raging.**  
+
+| **Material**          | **Environmental Effect on Nearby Creatures** |
+|----------------------|---------------------------------|
+| **Concrete & Asphalt** | Staggered, reducing movement by **10 feet for 1 turn.** |
+| **Metal (Grating, Rails)** | Shakes violently, imposing **disadvantage on ranged attacks from the area.** |
+| **Glass Floors & Windows** | Sharp shards force a **Dex save or take 1d6 piercing damage.** |
+| **Wooden Floors & Supports** | Unstable footing forces a **Dex save or fall prone.** |
+| **Brick & Stone** | Falling debris forces a **Dex save or take 1d6 bludgeoning damage.** |
+
+---
+
+## **Destructive Stride (Unstoppable Force)**  
+*"I don’t avoid obstacles. I go through them."*  
+
+At **10th level**, you can **break through obstacles naturally.**  
+
+### **Effects:**  
+- **If you move at least 15 feet before hitting an object,** you **automatically destroy it** (walls, doors, barriers).  
+- **When passing through broken terrain, you can charge an enemy** as part of the movement.  
+- **Creatures you charge into take 1d8 bludgeoning damage and must make a Strength save (DC = 8 + Str + Prof) or be knocked prone.**  
+
+---
+
+## **Architect of Ruin (Structural Destruction)**  
+*"Nothing built can stand against me."*  
+
+At **14th level**, your destruction extends beyond just combat—**you break entire environments.**  
+
+### **Effects:**  
+- **Once per Long Rest,** you may **cause a structural collapse in a 30-foot area**.  
+- **Walls, ceilings, and supports weaken and collapse** in a way that **damages enemies and changes the battlefield.**  
+- **Creatures inside the area must make a Dexterity save (DC = 8 + Str + Prof) or take 4d10 bludgeoning damage.**  
+- This **automatically causes terrain effects based on the materials** present.  
+
+\page
+
+## **📌 Additional Rules**  
+- **Destruction is not a choice—it happens automatically while raging.**  
+- **You don’t break all terrain equally—effects depend on material types.**  
+- **Your movement is unhindered by the wreckage you create.**  
+- **At level 20, your Rage lasts indefinitely while in a ruined environment.**  
+
+\page
+
+# **Monk: Shadow of the Skyline**  
+*"I move where others fall."*  
+
+The **Vestigium Monk** is a master of **urban traversal, momentum-based combat, and chaining movement into attacks.** They use the **environment itself as a weapon, flowing through the battlefield** with seamless agility.  
+
+---
+
+## **Parkour Mastery (Fluid Terrain Navigation)**  
+*"The city itself is my dojo."*  
+
+At **2nd level**, you gain mastery over **urban traversal**.  
+
+### **Effects:**  
+- **Ignore difficult terrain** from **brick, cobblestone, rubble, broken tiles, warped wood, subway tiles, maintenance grating.**  
+- **Wall-Run (1/turn, Free):** Run **up to 10 feet** along a **vertical surface.** *(Additional Wall-Runs cost 1 Ki.)*  
+- **Vaulting:** Leap over obstacles **up to half movement speed** without an ability check.  
+- **Quick Climb:** Climbing **costs no extra movement** if at least one hand is free.  
+- **Fall Damage Reduction:** Reduce fall damage by **5 × Monk Level.**  
+- **Ledge Grab:** If falling near a surface, **DC 10 Dexterity (Acrobatics) check** to catch a ledge.  
+- **Chain Movement:** If you **Wall-Run, Vault, or Quick Climb before attacking,** gain **+1 AC until your next turn.**  
+
+---
+
+## **Momentum Strike (Chained Attacks & Parkour Combat)**  
+*"Strike while moving, never stop."*  
+
+At **3rd level**, your attacks gain extra power when launched from motion.  
+
+### **Effects:**  
+- **Attacking after a movement technique** (Wall-Run, Vault, etc.) grants **+1d4 Force damage.**  
+- **If attacking after a movement technique,** you may **push an enemy 5 feet** in any direction.  
+- **Chained Attacks:**  
+  - If you attack **multiple enemies using movement techniques**, you **don’t provoke Opportunity Attacks** between attacks.  
+  - The chain **breaks if an attack misses**.  
+- **At level 11,** movement-based attacks **ignore resistances to bludgeoning damage.**  
+
+---
+
+## **Urban Reflexes (Defensive Terrain Mastery)**  
+*"I see the path before others."*  
+
+At **6th level**, you can anticipate and react to environmental dangers.  
+
+### **Effects:**  
+- **Automatically detect unstable surfaces** (cracked glass, weakened supports, hidden traps).  
+- **If a terrain hazard is triggered within 10 feet of you**, you may use your **reaction** to **move 5 feet away** before it activates.  
+- **If an enemy attacks you while you are mid-air (jumping, wall-running, vaulting),** gain **+2 AC against the attack.**  
+- **You may spend 1 Ki to take the Dodge action as a Bonus Action.**  
+
+---
+
+## **Ki-Powered Mobility (Advanced Traversal Techniques)**  
+*"My body follows my will."*  
+
+At **10th level**, your Ki fuels superhuman agility.  
+
+### **Effects:**  
+- **You may spend 1 Ki to:**  
+  - **Chain multiple movement techniques in one turn** (e.g., Wall-Run → Vault → Attack).  
+  - **Pass through enemy spaces without provoking Opportunity Attacks.**  
+  - **Move up walls or ceilings (without needing a surface to push off from).**
+\page
+- **Terrain Resistance (Higher-Level Immunities):**  
+  - **At level 10,** ignore movement penalties from **ice, mud, slick surfaces.**  
+  - **At level 14,** ignore **fire, spikes, and unstable terrain hazards.**  
+  - **At level 18,** you can **stand or walk on water while moving.**  
+
+---
+
+## **Environmental Mastery (Terrain as a Weapon)**  
+*"The world bends to my movements."*  
+
+At **14th level**, you can use the terrain against your enemies.  
+
+### **Effects:**  
+- **If an enemy is standing on a weakened surface**, you may **spend 1 Ki** to **shatter the terrain beneath them**.  
+- **If you hit an enemy while mid-air,** you may **force them to move 10 feet** (off a ledge, into a hazard, etc.).  
+- **When fighting in a ruined, unstable, or high-altitude environment, gain:**  
+  - **+1 AC.**  
+  - **+10 ft movement speed.**  
+  - **Advantage on Acrobatics checks.**  
+
+---
+
+## **Skyline Phantom (Ultimate Movement & Evasion Ability)**  
+*"The skyline is my domain."*  
+
+At **18th level**, you become a **true ghost of the city,** moving at speeds beyond normal perception.  
+
+### **Effects:**  
+- **Once per Long Rest,** you may activate **Skyline Phantom for 1 minute:**  
+  - **You may Dash as a Bonus Action without spending Ki.**  
+  - **You can Wall-Run indefinitely.**  
+  - **You gain advantage on all attacks made from mid-air.**  
+  - **Enemies can’t take Opportunity Attacks against you.**  
+- **Additionally, your passive fall reduction increases:**  
+  - **Reduce fall damage by 10 × Monk Level.**  
+  - **At level 20, you can fall from any height without taking damage.**  

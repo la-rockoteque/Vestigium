@@ -1,0 +1,788 @@
+```metadata
+title: Ashen Vault - Expanded Languages
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+/*=======--- Example CSS styling ---=======*/
+/* Any CSS here will apply to your document! */
+ @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+ @import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive);
+ :root {
+     --rotate: 20deg;
+     --left: unset;
+     --top: unset;
+     --correction: "correction";
+     --source: 'https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png';
+}
+/* Removes Drop Caps */
+ .page h1+p:first-letter {
+     all: unset;
+}
+ .page .footnote {
+     border-top: lightgray dotted 2px;
+     width: 80%;
+     color: gray;
+     bottom: 28px;
+}
+ .page .footnote > h1 {
+     background-color: transparent;
+     border: none;
+     font-size: 10px;
+     margin-bottom: 0px;
+}
+/* Removes Small-Caps in first line */
+ .page h1+p:first-line {
+     all: unset;
+}
+ .page {
+     background-color: #F8F8F8;
+    /* Light gray background */
+     background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+     background-size: 20px 20px;
+    /* Adjust spacing */
+     font-family: "Courier New", Courier, monospace;
+    /* Typewriter / Redacted Report */
+}
+ .page:after, .page:has(.frontCover):after, .page:has(.insideCover):after, .page:nth-child(even)::after {
+     all: unset;
+     content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+     transform-origin: top right;
+     transform: rotate(270deg);
+     white-space: nowrap;
+     position: absolute;
+     right: 1.5cm;
+     top: 0px;
+     color: gray;
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     width: 29cm;
+}
+ .page:before {
+     all: unset;
+     content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+     transform-origin: top left;
+     transform: rotate(90deg);
+     white-space: nowrap;
+     position: absolute;
+     left: 1.5cm;
+     top: 0px;
+     color: gray;
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     width: 29cm;
+}
+ .page:has(.frontCover) .logo {
+     top: 10cm;
+     right: 0;
+     left: 0;
+     filter: drop-shadow(0 0 .075cm black);
+}
+ .page:has(.insideCover) .logo {
+     top: 0.5cm;
+     right: 0;
+     left: 0;
+     filter: drop-shadow(0 0 .075cm black);
+}
+ .page:has(.insideCover) p, .page:has(.insideCover) ul {
+     margin-top: 20px;
+     text-align: left;
+}
+ .page:has(.insideCover) .logo>img {
+     height: 2cm;
+     width: 1.8cm;
+     opacity: 0.1;
+     filter:none;
+}
+ .page:has(.frontCover) .logo>img {
+     height: 10cm;
+     width: 9cm;
+     opacity: 0.1;
+     filter:none;
+}
+
+ .page:has(.frontCover),
+  .page:has(.insideCover){
+   background: none;
+   background-color: #F8F8F8;
+}
+
+.coverpicture {
+margin-top: 1.5cm;
+  max-width: 15cm;
+  max-height: 15cm;
+}
+
+.coverpicture > img {
+  max-width: 100%;
+  max-height: 100%;
+  mix-blend-mode: luminosity;
+}
+
+ .page h1 {
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size: 24px;
+     color: #2C2C2C;
+    /* Vault Black */
+     background-color: #EDEDED;
+    /* Subtle Header Background */
+     padding: 5px;
+     border-bottom: 3px solid #2C2C2C;
+    /* Strong Bureaucratic Divider */
+}
+ .page:has(.insideCover) h1, .page:has(.frontCover) h1, .page:has(.partCover) h1 {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size: 24px;
+     background-color: #EDEDED;
+    /* Subtle Header Background */
+     color: #2C2C2C;
+    /* Vault Black */
+     padding: 5px;
+     border-bottom: 0 
+}
+ .page:has(.frontCover) h1 {
+     -webkit-text-stroke: 0 
+}
+ .page:has(.insideCover) h1 {
+     background-image: linear-gradient(45deg, #f7f7f7 25%, #dbdbdb 25%, #dbdbdb 50%, #f7f7f7 50%, #f7f7f7 75%, #dbdbdb 75%, #dbdbdb 100%);
+     background-size: 14.14px 14.14px;
+}
+ .page:has(.insideCover) .footnote, .page:has(.frontCover) .footnote, .page:has(.partCover) .footnote {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 15px;
+     margin-top: 40px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+     -webkit-text-stroke: 0;
+     text-align: left;
+}
+ .block .footnote {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 20px;
+     margin-top: 40px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+}
+ .page h2 {
+     font-family: "Oswald", sans-serif;
+     text-transform: uppercase;
+     font-size: 20px;
+     color: #2C2C2C;
+     border-bottom: 2px solid #8F8F8F;
+}
+ .page:has(.insideCover) h2, .page:has(.frontCover) h2, .page:has(.partCover) h2 {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 20px;
+     margin-top: 20px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+     border-bottom: 0;
+}
+ .page:has(.frontCover) h2 {
+     -webkit-text-stroke: 0 
+}
+ .page h3, .page:has(.insideCover) h3, .page:has(.frontCover) h3, .page:has(.partCover) h3 {
+     font-family: "Courier New", Courier, monospace;
+     font-size: 18px;
+     color: #5A5A5A;
+     text-transform: uppercase;
+     border-bottom: gray dashed 1px;
+    ;
+}
+ .page h4, .page:has(.insideCover) h4, .page:has(.frontCover) h4, .page:has(.partCover) h4 {
+     font-family: "Courier New", Courier, monospace;
+     font-size: 16px;
+     color: #8F8F8F;
+}
+ .page .redacted {
+     background-color: black;
+     color: black;
+     padding: 2px 5px;
+     border-radius: 2px;
+}
+ .page:has(.frontCover) hr {
+     margin: 10px;
+     position: relative;
+     width: 100%;
+     height: 5mm;
+    /* Adjust height to match a real ruler */
+     background: repeating-linear-gradient( to right, transparent 0mm, transparent 0.8mm, black 0.8mm, black 1mm );
+     filter:none;
+}
+ .page:has(.insideCover) hr {
+     position: relative;
+     width: 100%;
+     height: 1mm;
+    /* Adjust height to match a real ruler */
+     background: repeating-linear-gradient( to right, transparent 0mm, transparent 0.8mm, black 0.8mm, black 1mm );
+}
+ page hr {
+     border: 2px dashed #8F8F8F;
+    /* Looks like an official document break */
+}
+ .page blockquote {
+     background-color: #EDEDED;
+     border-left: 4px solid #2C2C2C;
+     padding: 10px;
+     font-family: "Courier New", Courier, monospace;
+}
+/* --- Tables: Bureaucratic Report Style --- */
+ .page table {
+     border-collapse: collapse;
+     width: 100%;
+}
+ .page th {
+     background-color: #D6D6D6;
+    /* Ash Gray */
+     color: #2C2C2C;
+    /* Vault Black */
+     padding: 8px;
+     border-bottom: 3px solid #8F8F8F;
+    /* Stronger Border */
+     text-transform: uppercase;
+}
+ .page td {
+     background-color: #F8F8F8;
+    /* Paper White */
+     color: #5A5A5A;
+    /* Charcoal Gray */
+     padding: 8px;
+     border-bottom: 1px solid #BFBFBF;
+    /* Soft Grid */
+}
+/* --- Links: Subtle and Official-Looking --- */
+ .page a {
+     color: #2C2C2C;
+     text-decoration: none;
+     border-bottom: 1px dashed #8F8F8F;
+}
+ .page a:hover {
+     color: #5A5A5A;
+     border-bottom: 1px solid #5A5A5A;
+}
+ .post-it {
+     left: var(--left);
+     top: var(--top);
+     transform: rotate(var(--rotate));
+     max-width:250px;
+     max-height:240px;
+     width:250px;
+     height:240px;
+     position:relative;
+     background:#ffa;
+     overflow:hidden;
+     margin:30px auto;
+     padding:20px;
+     border-radius:0 0 0 30px/45px;
+     box-shadow: inset 0 -40px 40px rgba(0,0,0,0.05), inset 0 25px 10px rgba(0,0,0,0.07), 0 5px 6px 5px rgba(0,0,0,0.2);
+     font-family: 'Cedarville Cursive', cursive;
+     line-height:1.7em;
+     font-size:19px;
+     -webkit-mask-image: url(data:image/png;
+    base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+     color:#130d6b;
+}
+ .post-it:before {
+     content:"";
+     position:absolute;
+     width:20px;
+     height:25px;
+     background:#ffa;
+     box-shadow: 3px -2px 10px rgba(0,0,0,0.2), inset 15px -15px 15px rgba(0,0,0,0.3);
+     left:0;
+     bottom:0;
+     z-index:2;
+     transform:skewX(25deg);
+}
+ .smudge {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     filter: blur(1px) contrast(110%);
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/5d4334616f20bd1d1f059f6007892650.png') no-repeat center;
+     background-size: contain;
+
+
+}
+
+    .smudge:before {
+    position: absolute;
+    content:'';
+    left: 0;
+    top: 0;
+     width: 10cm;
+     height: 10cm;
+   
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 19%, rgba(255,255,255,0) 52%);
+background-blend-mode: lighten
+
+    
+    }
+
+
+
+ .coffee-stain {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     filter: blur(1px) contrast(110%);
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f74119a30ba73c9c5b3a7cc1aa9d7d42.png') no-repeat center;
+     background-size: contain;
+     mix-blend-mode: multiply;
+}
+ 
+ 
+.corrected {
+    position: relative;
+    text-decoration: line-through;
+    color: black;
+}
+
+.corrected::after {
+    content: var(--correction, "Default Text");;
+    font-size: 12px;
+    color: #0F3D75;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+       font-family: 'Cedarville Cursive', cursive;
+   
+    -webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+}
+
+
+.paperclip {
+ 
+    position: absolute;
+    display-block;
+    top: -10px;
+    left: var(--left, 60);
+    width: 50px;
+    height: 150px;
+    transform: rotate(-15deg); /* Slight tilt for realism */
+    opacity: 0.8; /* Slight transparency */
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/421f492b3660fca7d119964aff1f24db.png') no-repeat center;
+    background-size: contain;
+}
+
+ .polaroid {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     max-width:10cm;
+     max-height: 10cm;
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png') no-repeat center;
+    background-size: contain;
+         transform-origin: top left;
+}
+
+.polaroid > p > img {
+  margin-left: 1.26cm;
+  margin-top: 0.74cm;
+  height: 7.4cm;
+  width: 7.5cm;
+  object-fit: cover;
+  mix-blend-mode: screen;
+}
+
+
+.doodle.dog1 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/6d860afef532110ae76b559ace75dfa7.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.dog2 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/e2820894e1c1c58cb9d710e5522858fc.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.cat1 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/b43f55649f7f416de20109ce0f3b6722.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.cat2 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/898133d59ab4ce7d036283cf075620e2.png') no-repeat center;
+    background-size: contain;
+}
+
+.doodle {
+position: relative;
+   top: var(--top);
+   left: var(--left);
+    display: block;
+    width: 150px;
+    height: 150px;
+     -webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-repeat: repeat;
+}
+
+
+.fading {
+    background: linear-gradient(to bottom, black 10%, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.4) 70%, rgba(0, 0, 0, 0.1) 90%, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+```
+
+{{frontCover}}
+
+
+# Expanded Languages
+
+{{coverpicture ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/8a2abb29da9022da6da62478316dea1b.png)}}
+
+\page
+
+{{insideCover}}
+
+# CONFIDENTIAL  
+## ⚠  A.S.T.R.A.L. ⚠  
+## CLASSIFIED DOCUMENT  
+___  
+
+This document is the sole property of the **Agency for Surveillance, Tracking, and Regulation of Anomalous Landscapes (A.S.T.R.A.L.)** and is classified under **Protocol X-27**. Unauthorized access, duplication, or distribution is a direct violation of the **Anomalous Contingency Act (A.C.A. §13-97)** and will be met with immediate countermeasures, up to and including **forced administrative reassignment** (which, in certain cases, may involve existing in a different timeline).  
+
+By opening this document, you acknowledge:  
+- **You have the necessary clearance level** to access restricted anomaly intelligence.  
+- **You have not, at any point, been replaced by an identical anomaly impersonation** (if unsure, consult **Verification Form 92-A**).  
+- **You are subject to continuous monitoring** under Section 12 of the Astral Compliance Directive.  
+- **Any unauthorized disclosure will trigger Protocol X**, authorizing full intervention by **Containment & Erasure Taskforce Omega** (Note: The **previous** Containment & Erasure Taskforce Omega was erased under Protocol X. This is the **new** Taskforce Omega. Try not to ask what happened).  
+- **Dissemination of classified content will result in memory redaction procedures**, as outlined in **Directive 46-C**, or, if memory redaction is not feasible, assignment to the **Department of Unanswered Inquiries** (success rate: inconclusive).  
+
+If you are not the intended recipient:  
+1. **Cease all interaction immediately.**  
+2. **Report this breach to A.S.T.R.A.L. Oversight Bureau (O.B.)** via secure terminal **[O.B.//DIRECT-LINK-SEC/347-99]**.  
+3. **Wait for retrieval personnel to arrive.** This may take **minutes, weeks, or retroactively already have happened**.  
+
+**Failure to comply will result in automatic escalation to Level-4 Contingency Response, which involves (but is not limited to):**  
+- **A 48-hour debriefing inside an undisclosed location** (which you will **never** be able to find again).  
+- **A mandatory seminar on "The Importance of Forgetting"** (attendance is compulsory; comprehension is optional).  
+- **Being reassigned as an anomaly observer** (or, if deemed necessary, as an anomaly).  
+
+___  
+
+{{logo ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png)}}
+
+___  
+\page
+
+# The Languages of the Veil – Fragments of a Dead Tongue  
+
+The languages of the Veil do not function like those of the mortal world. They do not evolve along structured lines, nor do they decay in predictable ways. Instead, they **fracture, warp, and shift**, influenced by **perception, planar instability, and the unknowable forces that shape the Veil itself**.  
+
+At the root of all Veil speech lies **Umbrial**, a **dead tongue**, spoken by no living being. It exists only in ancient texts, drifting echoes, and incomprehensible inscriptions left behind by an extinct civilization. Though its structure is lost, its **influence lingers**, shaping the modern dialects spoken by Veilborn, travelers, and those who dare to cross between worlds.  
+
+{{wide
+
+## The Three Tongues of the Veil
+| **Language** | **Spoken By** | **Description** |
+|-----12%------|------20%-----|----------------|
+| **Umbrial** | Forgotten civilizations, ancient artifacts, fractured echoes | A **dead language**, lost to time. Umbrial is **not spoken, only found**—in cryptic glyphs, incomprehensible records, and whispers that sometimes emerge from Veil anomalies. Unlike mortal languages, Umbrial does not obey linear translation; words appear to **shift meaning depending on the observer**. Some believe that **speaking Umbrial aloud can shape reality, though at an unknown cost**. |
+| **Veilcant** | Veilborn, Umbranauts, interplanar smugglers | A **fluid, unstable language**, shaped by the **perception of those who speak and hear it**. Veilcant does not have a fixed grammar—its words change depending on **who is speaking, where they are, and how the Veil is currently behaving**. Some words vanish mid-sentence, while others **persist as lingering echoes** that can be heard long after they were first spoken. Attempts to **write Veilcant** fail, as any written record **rewrites itself or disappears entirely over time**. |
+| **Noctalspeech** | Exiled Veilborn, lost travelers, inhabitants of unstable regions | A **fractured, unreliable dialect**, spoken by those who have spent **too long in the unstable fringes of the Veil**. Some phrases become **fixed and immutable**, unable to be altered, while others shift wildly, making communication inconsistent. Noctalspeech is understood **only by those who have abandoned linear thought**. Certain words are rumored to **trigger latent anomalies, opening unseen pathways or invoking memories that do not belong to the speaker**. |
+}}
+
+# Linguistic Breakdown: Umbrial, Veilcant, and Noctalspeech
+
+These three languages exist within the **Veil and its peripheries**, shaped by **ancient traditions, interplanar trade, and cultural necessity**. While some have written forms, others rely entirely on oral transmission, making documentation a challenge.
+
+## The Unique Properties of Veil Speech
+
+Unlike structured languages, the tongues of the Veil behave in **unpredictable, often supernatural ways**.  
+
+- **Time & Distance Matter** → A phrase spoken in one region of the Veil **may not be heard the same way elsewhere**, or may be completely unheard by those too far removed.  
+- **Writing is Impossible** → Attempts to **record Veil speech** result in **text rewriting itself**, words disappearing, or messages that change **when read by different people**.  
+- **Intent Shapes Meaning** → In Veilcant, **the same phrase spoken by two different people** may carry **completely opposite meanings**, depending on their **state of mind and location**.  
+- **Speech May Linger** → Some words, once spoken, **continue to exist independently**, drifting like echoes that **replay at unknown intervals**, sometimes in places they were never originally spoken.
+
+\page
+
+## Umbrial – The Language of Forgotten Civilizations
+*A dead language, lost to time. Umbrial is not spoken in everyday conversation, only found in cryptic glyphs, ancient records, and artifacts uncovered in ruins. Unlike mortal languages, Umbrial does not follow a conventional grammatical structure. Some scholars believe that certain words carry deep symbolic weight, as though they were never meant to be spoken aloud.*
+
+### Linguistic Features
+- **Logographic & Conceptual** → Unlike phonetic languages, Umbrial conveys meaning through **symbols representing ideas rather than direct sounds**.  
+- **Nonlinear Structure** → Sentence order **does not follow a strict pattern**, meaning a phrase may be **read in multiple valid ways** depending on context.  
+- **Ancient Script** → Uses **complex, interwoven glyphs** that are often carved or embossed rather than written with ink.  
+- **Layered Meaning** → A single glyph **can represent multiple words or concepts**, requiring contextual interpretation.  
+
+### Alphabet & Writing System
+- **Glyph-Based** → Written Umbrial consists of **blocky, carved symbols** often found on ancient ruins.  
+- **No Modern Transliteration** → Some scholars have attempted to **map Umbrial glyphs to phonetic equivalents**, but no full translation exists.  
+- **Directional Reading** → Some glyphs are read **vertically, diagonally, or spirally**, depending on inscription style.  
+
+### Pronunciation & Speech**  
+- **Rarely Spoken** → Umbrial **lacks a standard pronunciation**, as it was historically used for **record-keeping, ritual inscriptions, and prophetic writings** rather than common speech.  
+- **Complex Consonant Clusters** → When vocalized, Umbrial **relies heavily on deep, guttural sounds**, similar to a cross between ancient Draconic and lost Elvish dialects.  
+
+### Example Phrases**  
+*(Note: These are reconstructed based on fragmentary records.)*  
+
+- **𐩘𐩶𐩠𐩺𐩢𐩴** → *"Tzaerh-kal’thuun"* (*Translation uncertain, possibly "to witness is to alter."*)  
+- **𐩱𐩨𐩣𐩮𐩤𐩺** → *"Ilz’ahn varuuth"* (*"The paths of the past remain open."*)  
+- **𐩹𐩷𐩪𐩻𐩬𐩠** → *"Rho’nak vrissal."* (*A phrase found on a ruined obelisk; meaning unknown.*)  
+
+---
+
+## Veilcant – The Trade Language of the Veil
+*A widely spoken language among **Veilborn, Umbranauts, and interplanar smugglers**, Veilcant is a **pragmatic, adaptable tongue** used primarily for **commerce, navigation, and diplomacy**. It is a direct and functional language with a focus on **efficiency and coded subtext**.*
+
+### Linguistic Features
+- **Concise & Functional** → **Short, clipped phrases** convey complex ideas quickly.  
+- **Trade-Oriented** → Built for **negotiation, navigation, and trade**, favoring directness over formality.  
+- **Modular Structure** → New words **can be easily integrated**, making it a **dynamic and evolving language**.  
+- **Contextual Subtext** → Many words have **multiple interpretations depending on tone and intent**.  
+
+### Alphabet & Writing System
+- **Phonetic Script** → Uses a **straightforward alphabet**, originally derived from Concordian but with **simplified characters for rapid inscription**.  
+- **Widespread Written Form** → Found on **ship manifests, contracts, and trade agreements** throughout Veil-adjacent settlements.  
+- **Coded Variants** → Smugglers and information brokers use **cyphers or slang variations** to **obfuscate messages**.  
+
+### Pronunciation & Speech
+- **Sharp & Direct** → Words are **spoken quickly, with minimal embellishment**.  
+- **Click & Throat Sounds** → Some dialects incorporate **subtle click sounds and glottal stops**.  
+- **Efficient Grammar** → Sentences are often **short and imperative** (e.g., "We go now." instead of "We should leave.").  
+
+\page
+
+### Example Phrases
+- **"Vash-tar?"** → *"Do we have a deal?"* (Neutral) / *"Are you wasting my time?"* (Aggressive)  
+- **"Relka vor taresh."** → *"Pay first, talk later."*  
+- **"Zharnok."** → *A multi-purpose word meaning "danger," "trap," or "be cautious," depending on tone.*  
+
+---
+
+## Noctalspeech – The Hidden Language
+*A lesser-known language spoken by **Veil scavengers, deep-space drifters, and those living on the fringes of the planes**. Noctalspeech is **deliberately obscure, meant to be understood only by those who know its patterns**. It is often used in coded messages, secret gatherings, and hidden archives.*
+
+### Linguistic Features
+- **Layered Double Meanings** → Many words have **surface meanings and hidden interpretations**, depending on the speaker’s background.  
+- **Colloquial & Informal** → Used primarily **in private settings**, rarely spoken in official capacities.  
+- **Dense Slang Usage** → Noctalspeech **incorporates words from multiple other languages**, making it difficult for outsiders to follow.  
+- **Sign-Based Components** → Some dialects integrate **gestures, eye contact, or posture** as part of the spoken message.  
+
+### ** Alphabet & Writing System
+- **Stylized Script** → Written Noctalspeech uses **curved, elongated characters**, often stylized for artistic flair.  
+- **Hidden Messages** → Some inscriptions **encode secondary meanings**, readable only through specific techniques (e.g., heat exposure, layered ink).  
+- **Rarely Used Publicly** → Found in **graffiti, underground meeting places, and personal journals**, rather than formal documentation.  
+
+### Pronunciation & Speech
+- **Soft, Whispered Cadence** → Many speakers **mutter phrases under their breath** or drop words mid-sentence.  
+- **Elliptical Sentence Structure** → Sentences often **omit key words**, requiring the listener to infer meaning.  
+- **Code-Switching** → Speakers frequently **switch between Noctalspeech and another language** mid-conversation.  
+
+### Example Phrases
+- **"Varshek lorn?"** → *"Do you know?"* (Often used as a test phrase to confirm if someone speaks Noctalspeech.)  
+- **"Tresh nalor ven."** → *"We speak in shadows."*  
+- **"Ser’ki dra’han."** → *"Forget this was ever said."*  
+
+\page
+{{wide
+#### Everbright
+| **Language**  | **Spoken By** | **Description** |
+|-----12%------|------20%-----|----------------|
+| **Liturgian** | Everbright’s ruling class (Emanants), high-ranking officials | A **grandiose, poetic** language strictly reserved for **the Emanants**, with **no written records outside of religious and governmental doctrine**. **Prohibited for Luminaries**, punishable by exile. |
+| **Luminari** | Everbright commoners (Luminaries), traders | A **more fluid, utilitarian language**, built from **older forms of Liturgian**, but lacking its refined structure. Used for **everyday conversation, trade, and bureaucracy**. |
+}}
+\page
+
+# Ashen Spiral
+
+Unlike many mortal languages, speech in the **Ashen Spiral** is deeply intertwined with **heat, breath, and environmental factors**. The Dren, the Spiral’s dominant race, have developed **distinct linguistic traditions**, shaped by their **unique physiology** and the extreme conditions of their homeland.  
+
+Dreadmere, the **largest city of the Ashen Spiral**, is a linguistic **convergence point**, where three distinct languages are spoken interchangeably by its inhabitants. Each carries **its own cultural and historical significance**, but all have adapted to the **harsh, searing landscape of the Spiral**.  
+
+{{wide
+:
+## Ashen Spiral – The Tongues of Fire and Resonance
+| **Language** | **Spoken By** | **Description** |
+|-------------|--------------|----------------|
+| **Emberic (The Language of Heat and Breath)** | Dren, Ashen Spiral travelers, artifact users | **A fusion of heat, breath, and resonance**, with **words that shift meaning based on temperature, pressure, and spoken intensity**. The Dren **don’t write it down**, instead encoding messages into **heat-etched materials** or embedding meaning in **thermal variations**. Non-Dren speakers struggle to **fully perceive** its subtleties, as much of its meaning is conveyed through **internal heat modulations**. |
+| **Brimic (The Tongue of the Deep Fires)** | Fire-attuned races, miners, forge-workers | A **guttural, forceful language** spoken in **short bursts**, designed to be understood over the roar of magma chambers and industrial forges. Words are **shaped by exhalation patterns**, with **consonants forming hard impacts, like hammer strikes**. Ancient smithing chants, imbued with **resonant harmonics**, can still be heard deep in the Spiral’s mines. |
+| **Duresh (The Ashen Cant)** | Traders, surface-world visitors, outpost dwellers | A **simplified, trade-focused dialect**, acting as a **bridge between the Spiral and outside travelers**. While **Emberic and Brimic** are deeply tied to the Spiral’s environment, **Duresh is adaptable, borrowing words from foreign tongues**. However, it is **looked down upon by purists**, as it lacks the **richness and nuance** of the older languages. |
+
+}}
+{{wide
+## The Linguistic Nature of the Spiral 
+}}
+- **Heat and Sound as Meaning** → Emberic **relies on more than just sound**—temperature shifts and pressure changes **alter a word’s intent**.  
+- **Unwritten Traditions** → The Dren **don’t write Emberic**, but Brimic has a **rune-like script** used for forging rituals. Duresh is the only one with a **fully transcribable form**.  
+- **Environmental Influence** → In extreme heat, **certain Emberic words shift meaning entirely**, making context **critical** to understanding.  
+- **Cultural Divides** → Dreadmere’s residents switch freely between the three languages, but **outsiders struggle** to grasp their interplay.  
+
+\page
+
+# Nevermourn
+
+Nevermourn’s speech fragments as one moves deeper into the Shadowlands, degrading from Gravemurmur, a structured and recursive language, into Hollowmurm, a decayed and fragmented dialect, until it unravels entirely into Grurn, a guttural, broken form that is no longer true speech.
+
+{{wide
+:
+# The Languages of Nevermourn – A Systematic Decay from Gravemurmur
+| **Language** | **Spoken By** | **Description** |
+|-----12%------|------20%-----|----------------|
+| **Gravemurmur (The Tongue of the Departed)** | The noble dead, scholars, high necromancers | The **original and most structured form** of Nevermournian speech. Fully inflected, with **tense, recursion, spectral harmonics, and layered meaning**. **Speakers of Gravemurmur understand all later forms**, but few retain fluency as echoes distort meaning over time. |
+| **Gravenmur (The Hollowed Speech)** | Wandering spirits, lesser undead, forsaken dead | A **degraded form of Gravemurmur**, where **grammar is loose, recursion is lost, and speech consists of short, flat statements**. Words **fade quicker, repeat unpredictably, and sometimes trail off into nothing**. **Those who speak Gravenmur struggle to understand Gravemurmur’s full meaning.** |
+| **Grurn (The Final Degradation)** | Mindless wraiths, shadows of memory, the lost dead | A **fully unraveled form of Gravenmur**, where **words have collapsed into instinctive, guttural sounds**. Communication is reduced to **single-syllable grunts, hisses, and drawn-out groans**. **Grurn is no longer a language—it is the last remnant of speech before silence.** |
+}}
+---
+{{wide
+## Systematic Breakdown – How Language Erodes in Nevermourn
+}}
+🔻 **Phonetic Simplification**  
+- **Gravemurmur → Gravenmur** (Loss of internal syllables, weakening of recursion)  
+- **Gravenmur → Grurn** (Final compression, collapse of vowels, gutturalization)  
+
+🔻 **Grammar & Syntax Decay**  
+- **Gravemurmur** → Full recursion, layered meanings, precise tense markers  
+- **Gravenmur** → No recursion, tense is simplified, fragmented statements  
+- **Grurn** → No structure, words dissolve into sound  
+
+🔻 **Meaning & Intent Decay**  
+- **Gravemurmur** → Full control over meaning, precise expressions  
+- **Gravenmur** → Meaning drifts due to echoes, some phrases break apart  
+- **Grurn** → Speech collapses, meaning reduced to primal instinct  
+
+\page
+
+# Verdant Cradle
+
+Language in the Verdant Cradle is not simply **spoken**—it is **grown, breathed, and embedded into the land itself**. Words take root in the **minds of those who speak them**, shaping their connection to the living world. Some tongues are ancient, understood by the very **flora and fauna of the Cradle**, while others are more primal, existing beyond sound.  
+
+However, as the Cradle is increasingly colonized and reshaped into **a resort, a resource hub, and a controlled biome**, the influence of **Concordian** has become inescapable, clashing with the Cradle’s organic forms of communication.  
+
+{{wide
+:
+## **Verdant Cradle – The Languages of Growth and Influence**  
+| **Language** | **Spoken By** | **Description** |
+|-------------|--------------|----------------|
+| **Verdanic (The Living Tongue)** | Verdant Cradle natives, druids, bio-alchemists | A **living language** that changes over time, its **oldest forms understood by the trees themselves**. It is used in **biomantic rituals, ancient songcraft, and communion with the land**. Some words take on **entirely new meanings** as the speaker ages, evolving alongside them. Long-lost phrases are believed to be **preserved in the rings of elder trees**, waiting to be spoken once more. |
+| **Florathic (The Scented Tongue)** | Verdant Cradle’s native creatures, Bloomers, some Myrleths | A **pheromone-based language**, relying on **scent markers, spores, and biological responses**. **Impossible for most non-Cradle-born to learn**, as it is perceived through **chemical signaling rather than sound**. Bloomers and certain Cradle fauna use **pollen bursts and scent layering** to form intricate messages. For outsiders, translation is nearly impossible without **bio-alchemical enhancements.** |
+| **Concordian (The Colonial Tongue)** | Corporate developers, tourists, Concordian settlers | A **rigid, structured language**, imposed through **colonization, corporate governance, and tourism industries**. Spoken predominantly in **developed areas, luxury resorts, and logging outposts**, Concordian is the **language of contracts, business, and bureaucracy**, conflicting with the Cradle’s **organic, evolving** modes of communication. Some native speakers of Verdanic and Florathic resist Concordian’s dominance, while others **blend the languages**, leading to an emerging **hybrid dialect used by traders and guides.** |
+
+}}
+{{wide
+## **🍃 The Linguistic Nature of the Verdant Cradle**  
+}}
+- **A Language That Grows** → Verdanic **evolves over generations**, with elders often speaking a **more complex, nuanced form than their descendants**.  
+- **Non-Verbal Speech** → Florathic **is not heard but sensed**, making it fundamentally **inaccessible** to those outside the Cradle’s ecosystem.  
+- **Nature as a Speaker** → Some ancient words are said to be **locked within the land itself**, waiting to be **unraveled through ritual or deep communion**.  
+- **Colonial Influence** → Concordian is being **forcefully implemented**, disrupting the native linguistic structure. Certain concepts in Verdanic **do not translate**, leading to cultural friction.  
+- **Hybridization of Language** → Some Cradle natives have begun blending **Verdanic and Concordian**, forming an emergent **Creole dialect** that mixes **contractual rigidity with organic flow**.  
+
+---
+\page
+
+# Specialized Languages
+Some languages do not arise from culture or history but are **constructed, adapted, or improvised** to meet specific needs. These specialized languages exist on the **fringes of common speech**, used only by those who require them. Whether for governance, trade, or secrecy, these tongues serve as **tools rather than living traditions**.
+
+
+{{wide
+:
+## **Specialized Languages – The Tongues of Function and Necessity**  
+| **Language** | **Spoken By** | **Description** |
+|-------------|--------------|----------------|
+| **Axiomatic (A.S.T.R.A.L. Code)** | A.S.T.R.A.L., bureaucrats, researchers | A structured, highly logical language **designed for documentation, contracts, and containment procedures**. Used in **official interplanar governance, anomaly classification, and bureaucratic filings** but **not a native tongue**. Axiomatic is **precise, rigid, and resistant to interpretation errors**, often reinforced through **semantic encryption** to prevent misunderstanding. |
+| **Trade Pidgins** | Merchants, black markets, underground factions | **Localized mixtures of Concordian, Veilcant, and other dialects**, changing from **city to city**. Often **improvised, with heavy slang use**, making it **nearly impossible for outsiders to follow without immersion**. Black market networks develop their own **coded variations**, embedding secret meanings within everyday terms to evade surveillance. |
+| **Marilic** | Navigators, Dock Workers, Traders | A **ship’s dialect** used for **boarding, docking, transporting, and naval operations**. Includes **coded gestures, nautical terms, and modified Concordian phrasing**. |
+
+
+}}
+{{wide
+## **📜 The Functional Nature of These Languages**
+}}
+
+- **Axiomatic as Control** → Created as a **tool of order and classification**, its structure is so strict that it **prevents ambiguity**, making it perfect for **containment laws and high-risk treaties**.  
+- **Trade Pidgins as Chaos** → Unlike Axiomatic, **Trade Pidgins are constantly shifting**, making them **unpredictable, impossible to standardize, and ideal for smugglers and spies**.  
+- **Non-Native Tongues** → No one **thinks** in Axiomatic—it is **only used for official purposes**. Trade Pidgins, meanwhile, are **adapted on the fly** rather than learned formally.  
+- **Information Control** → Axiomatic enforces **precision and legal binding**, while Trade Pidgins serve as **a shield against unwanted surveillance**.  
+
+
+\page
+
+# **Regional Languages of the Mortal Plane**  
+
+The Mortal Plane, despite corporate and A.S.T.R.A.L. oversight, **has no true "common" language**. Instead, each city **maintains its own historical dialects**, with some areas enforcing a **single dominant language**, while others exist in **multilingual chaos**.
+
+
+Each city in the **Mortal Plane** enforces its own linguistic hierarchy, balancing **official, trade, and underground languages**. Some cities fiercely **guard their dialects**, while others embrace **hybrid pidgins** formed through commerce, migration, and necessity.
+{{wide
+## **Languages of the Mortal Plane**  
+
+| **City** | **Major Language(s)** | **Minor Language(s)** |
+|-------------|----------------------|----------------------|
+| **Concord City** | **Concordian (dominant), High Concordian (aristocracy, official)** | Axiomatic (A.S.T.R.A.L. usage) |
+| **Severance** | **Wazzar (dominant, official), Marilic (Ship’s Pidgin)** | Veilcant |
+| **Varnhallow** | **Varnhallan (dominant, official), Trade Pidgin** | Concordian (Diplomatic), Varnish (old tongue) |
+| **Erelis** | **Erelian (dominant, official), Marilic** | Wazzar |
+| **Vexholm** | **Concordian, Vexholmic** | Veilcant, Marilic |
+| **Lysoria** | **Lysorian (dominant, official)** | Songscript, multiple dead tongues studied in universities |
+| **Cinderhold** | **Marilic, Trade Pidgin, Sinteric (Official, Dominant)** | Erelian (Immigration) |
+| **Mirrorshard** | **Veilcant (dominant), Miradoir (official)** | Wildscript (Obscure writings), Concordian |
+| **Sablemarche** | **Sablemarcher (official), Trade Pidgin** | Axiomatic (Military usage), Concordian (Diplomatic) |
+
+
+}}
+{{wide
+:
+## **Tongues of the Planes**  
+
+Beyond the Mortal Plane, language is shaped by **ancient forces, planar influence, and interdimensional conflict**. Some languages are **exclusive to ruling castes**, while others are **spoken only by the dead or forgotten civilizations**.
+
+| **Plane** | **City** | **Major Language(s)** | **Minor Language(s)** |
+|-------------|------------|----------------------|----------------------|
+| **Everbright** | **Aurisfall** | **Liturgian (Ruling language), Luminari (dominant)** | — |
+| **Ashen Spiral** | **Dreadmere** | **Emberic (official), Brimic (official), Duresh (official), Trade Pidgin** | Axiomatic |
+| **Verdant Cradle** | **Vareithal** | **Verdanic** | Concordian |
+| **Verdant Cradle** | **Y’shaara** | **Verdanic, Florathic** | — |
+| **Verdant Cradle** | **Resort Colonies** | **Concordian, Varnhallan, Veilcant, Erelian** | — |
+| **Nevermourn** | **Mournhallow** | **Gravemurmur, Gravenmur** | — |
+| **Nevermourn** | **The Black Bastion** | **Grurn** | — |
+| **The Veil** | **Veil Trade Outposts** | **Veilcant, Umbrial, Noctalspeech** | — |
+}}
+
+\page
+
+# **How Language Influences the World**  
+
+## **Barriers to Communication**
+Unlike traditional settings where **everyone conveniently speaks the same language**, your world allows for **miscommunication, secret codes, and cultural barriers**.  
+- **Corporate Language Imposition** – Concordian was **forced onto many cities**, but locals **push back** with their original dialects.  
+- **Planar Distortion** – Some languages, like **Veilcant and Gravemurmur**, are **inherently unstable**, changing depending on **who is speaking and where they are**.  
+- **No True Universal Translator** – A.S.T.R.A.L. **attempts to translate planar languages**, but some concepts **don’t carry over** into Mortal understanding.  
+
+##  **Hidden Languages & Secret Codes**
+Certain groups have developed **hidden languages**, spoken **only by those who belong to them**.  
+- **The Skyward Union (Severance’s Smugglers)** – Use an **airship whistle code** mixed with **Veilcant slang**.  
+- **The Abyss Seekers (Umbranauts)** – Communicate with **"drift-signs,"** symbols **etched into ruins** that only Umbranauts understand.  
+- **The Silent Choir (Veil Cultists)** – Speak in **Veilcant but without words**, using **glances, gestures, and environmental cues** to communicate.  
+
+## **How Interplanar Travel Affects Language**
+- **Some travelers "lose" their native tongue**—returning from The Veil **sometimes makes people forget words they once knew**.  
+- **Some languages bleed into others**—a person living near a planar rift might **subconsciously use words from another plane** without realizing it.  
+- **Written languages are sometimes erased or rewritten** by planar interference—records in **Nevermourn sometimes change meaning over time**.  

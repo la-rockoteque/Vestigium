@@ -1,0 +1,402 @@
+```metadata
+title: Ashen Vault - Calendar
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5eDMG
+
+```
+
+```css
+/*=======---  Mycea Ashen Vault - Wizard's Book (Basic) ---=======*/
+
+/* ======= Mycea Ashen Vault - Blue/Moon Palette ======= */
+/* Background: #f0f4f8  (Soft moonlight white) */
+/* Main Text: #1b2a40  (Dark ink) */
+/* Heading 1: #364f6b  (Deep celestial blue) */
+/* Heading 2: #253a5e  (Midnight ink) */
+/* Heading 3: #2a3d5e  (Twilight blue) */
+/* Heading 4: #1e3b5e  (Shadowed blue) */
+/* Handwritten Notes: #1a3154  (Mystic script) */
+/* Blockquote Background: rgba(36, 59, 94, 0.1)  (Faint celestial glow) */
+/* Section Breaks: #3c5a80  (Celestial glow), #1b2a40  (Night sky), #3c5a80  */
+/* Table Borders: #253a5e  (Lunar frame) */
+/* Table Header: #3c5a80  (Celestial blue) */
+/* Table Header Text: #d9e6f2  (Soft moonlight) */
+/* Table Background: rgba(36, 59, 94, 0.15)  (Subtle night glow) */
+/* Table Text: #253a5e  (Deep night ink) */
+/* Link Color: #3c5a80  (Runic inscriptions) */
+/* Link Hover: #5e7fa3  (Glowing starlight) */
+
+
+/* Removes Drop Caps */
+.page h1+p:first-letter {
+	all: unset;
+}
+
+
+/* === Front Cover Divider: Lunar Glyph with Pulsing Magic === */
+.page:has(.frontCover) hr {
+    margin: 20px auto;
+    width: 100%;
+    height: 6mm;
+    background: none;
+    
+    /* Arcane glowing effect */
+    border-top: 2px solid rgba(60, 90, 128, 0.8); /* Celestial blue */
+    border-bottom: 2px solid rgba(27, 42, 64, 0.8); /* Deep void blue */
+    box-shadow: 
+        0px 0px 10px rgba(60, 90, 128, 0.7), 
+        0px 0px 20px rgba(27, 42, 64, 0.5); /* Soft moonlight glow */
+    
+    /* Adding an arcane sigil in the center */
+    content: "";
+
+    width: 40px;
+    height: 40px;
+    background: radial-gradient(circle, rgba(94, 127, 163, 0.8) 0%, rgba(27, 42, 64, 0) 70%);
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(94, 127, 163, 0.6);
+}
+
+
+/* === Inside Cover Divider: Faint Runes of Forgotten Power === */
+.page:has(.insideCover) hr {
+    margin: 20px auto;
+    /* Faded runic etchings */
+    border-top: 1px dashed rgba(94, 127, 163, 0.5); /* Soft ethereal blue */
+    border-bottom: 1px dashed rgba(27, 42, 64, 0.7); /* Arcane ink */
+    opacity: 0.9;
+
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(circle, rgba(60, 90, 128, 0.6) 0%, rgba(27, 42, 64, 0) 70%);
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px rgba(60, 90, 128, 0.4);
+}
+
+
+.page:has(.insideCover) hr :after {
+    content: '';
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+
+/* Removes Small-Caps in first line */
+.page h1+p:first-line {
+	all: unset;
+}
+
+/* --- Page Background: Aged Parchment --- */
+.page {
+
+  font-family: "Georgia", serif;
+  color: #1b2a40; /* Dark ink */
+  padding-bottom: 48px;
+}
+
+/* --- Headings: Arcane Moonlit Script --- */
+
+
+.page h1,
+.page:has(.insideCover) h1,
+.page:has(.frontCover) h1,
+.page:has(.partCover) h1
+{
+	font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
+  text-transform: uppercase;
+  font-size: 26px;
+  color: #364f6b; /* Deep celestial blue */
+  -webkit-text-stroke: unset;
+    display: inline;
+}
+
+.page h1
+{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0.5cm;
+
+}
+
+.page h1:after, .page h2:before {
+  display: inline-block;
+  content: '';
+  flex: 1 1 auto;
+  border-bottom: 3px solid gray;
+}
+
+.page h1:before {
+   margin-right: 10px
+}
+
+.page h1:after {
+   margin-left: 10px
+}
+
+.page h2, 
+.page:has(.insideCover) h2,
+.page:has(.frontCover) h2,
+.page:has(.partCover) h2
+{
+font-family: Bodoni MT,Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif; 
+  text-transform: uppercase;
+  font-size: 22px;
+  color: #253a5e; /* Midnight ink */
+  -webkit-text-stroke: unset;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+    margin-bottom: 0.3cm;
+}
+
+
+.page h2:after, .page h2:before {
+  display: inline-block;
+  content: '';
+  flex: 1 1 auto;
+  border-bottom: 3px solid gray;
+}
+
+.page h2:before {
+   margin-right: 10px
+}
+
+.page h2:after {
+   margin-left: 10px
+}
+
+.page:has(.insideCover) h2,
+.page:has(.frontCover) h2,
+.page:has(.partCover) h2
+{
+  margin: 1cm;
+}
+
+.page h3, 
+.page:has(.insideCover) h3,
+.page:has(.frontCover) h3,
+.page:has(.partCover) h3
+{
+margin-top: 10px;
+font-family: MedievalSharp; 
+  font-size: 15px;
+  color: #2a3d5e;
+  text-transform: uppercase;
+  border-bottom: rgba(58, 89, 120, 0.6) dashed 2px;
+}
+
+.page h4, 
+.page:has(.insideCover) h4,
+.page:has(.frontCover) h4,
+.page:has(.partCover) h4
+{
+  font-family: "Georgia", serif;
+  font-size: 18px;
+  color: #1e3b5e;
+
+}
+
+
+/* ======= Mycea Ashen Vault - Medieval Table (Blue/Moon Palette) ======= */
+
+/* === Table Base: Moonlit Arcane Ledger === */
+.page table {
+    border-collapse: collapse;
+    width: 100%;
+    background: rgba(36, 59, 94, 0.15); /* Subtle night glow */
+    border: 2px solid #253a5e; /* Lunar frame */
+    box-shadow: 4px 4px 8px rgba(36, 59, 94, 0.2); /* Soft moonlight texture */
+}
+
+/* === Header: Stamped Celestial Titles === */
+.page th {
+    background: linear-gradient(to bottom, #3c5a80, #253a5e); /* Celestial blue fade */
+    color: #d9e6f2; /* Soft moonlight */
+    font-family: "Cinzel", serif; /* Arcane manuscript font */
+    text-transform: uppercase;
+    padding: 12px;
+    border-bottom: 3px solid #1b2a40; /* Night sky engraving */
+    letter-spacing: 1px;
+}
+
+/* === Rows: Handwritten Arcane Scribe Feel === */
+.page td {
+    background: rgba(240, 244, 248, 0.85); /* Soft moonlight white */
+    color: #253a5e; /* Deep night ink */
+    padding: 12px;
+    border-bottom: 1px dashed rgba(36, 59, 94, 0.5); /* Faint lunar engravings */
+    font-family: "Garamond", serif; /* Classic scribe font */
+}
+
+/* === Alternate Row Shading: Faded Moonlight Layers === */
+.page tr:nth-child(even) td {
+    background: rgba(230, 236, 245, 0.9); /* Soft celestial contrast */
+}
+
+/* === Table Borders: Faint Arcane Auras === */
+.page table::before,
+.page table::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle, rgba(60, 90, 128, 0.6) 0%, rgba(27, 42, 64, 0) 80%);
+    border-radius: 50%;
+}
+
+.page table::before {
+    top: -10px;
+    left: -10px;
+}
+
+.page table::after {
+    bottom: -10px;
+    right: -10px;
+}
+```
+
+
+{{frontCover}}
+
+
+# The Calendar
+## Just a Calender
+___
+
+\page
+
+{{insideCover}}
+
+# Inside Cover Title
+___
+
+
+Ananda balasana pose ardha chandrasana bhujangasana chakravakasana dandasana
+dolphin plank pose kapalabhati pranayama laghu vajrasana mula bandha parivrtta
+janu sirsasana parivrtta trikonasana parsvakonasana purvottanasana salamba
+sirsasana supta matsyendrasana supta virasana tolasana uddiyana bandha utthan
+pristhasana. Agnistambhasana pose ananda balasana pose anjaneyasana chaturanga
+dandasana hanumanasana janu sirsasana kumbhaka pranayama marichyasana iii
+matsyasana savasana sucirandhrasana surya bhedana pranayama tittibhasana
+vimanasana viparita virabhadrasana virabhadrasana ii virasana. Baddha konasana
+bitilasana dwi pada pitham or setu bandha sarvangasana halasana kapotasana
+mayurasana parivrtta marichyasana parivrtta sukhasana parsvottonasana plank
+pose purvottanasana salamba sirsasana sasangasana urdhva hastasana ustrasana.
+
+
+::
+
+
+Adho mukha vrksasana pose anahatasana pose balasana eka pada rajakapotasana
+jalandhara bandha janu sirsasana natarajasana tolasana uttanasana utthita hasta
+padangusthasana. Agnistambhasana pose anjaneyasana dandasana eka pada
+rajakapotasana gomukhasana halasana hanumanasana kumbhaka pranayama laghu
+vajrasana matsyasana mrigi mudra padmasana parivrtta marichyasana
+parsvottonasana salamba sarvangasana salambhasana, shalabasana samasthiti
+savasana tittibhasana trikonasana ujjayi pranayama urdhva dhanurasana utthita
+trikonasana virasana. Adho mukha vrksasana pose balasana chakravakasana
+dhanurasana dolphin plank pose eka pada galavasana halasana karnapidasana
+laghu vajrasana mula bandha sucirandhrasana supta matsyendrasana uddiyana
+bandha uttana shishosana virasana vrksasana vrschikasana.
+
+
+\page
+
+{{wide
+  {{note
+  |FIELD1    |Month Name |Description                           |Chore Name             |Chore Description                     |Deity Name|Domain                         |
+  |----------|-----------|--------------------------------------|-----------------------|--------------------------------------|----------|-------------------------------|
+  |1st Month |Firstcold  |Deepest winter, harsh frost, survival |The Smith’s Dawn       |Forging new tools after winter        |Heraclus  |War, Courage, Fraternity       |
+  |2nd Month |Latefrost  |Last winter chills, slow thaw begins  |The Mason’s Wake       |Stonework begins as ice melts         |Zars      |War, Conquest, Victory         |
+  |3rd Month |Bloomtide  |Early spring, first plant growth      |Planter’s Wake         |Start of the farming season           |Okoma     |Alchemy, Equity, Infinity      |
+  |4th Month |Greenwake  |Spring awakening, forests flourish    |Shepherd’s Call        |Herds move to greener pastures        |Zebulon   |Moon, Night, Reflexion         |
+  |5th Month |Suncrest   |Early summer, longest days of the year|The Sailor’s Call      |Favorable seas for trade begin        |Tybula    |Sun, Day, Warmth               |
+  |6th Month |Highblaze  |Peak summer, dry heat, fire risks     |The Merchant’s Trail   |Major trade routes open               |Willebrand|Secrets, Vendetta, Manipulation|
+  |7th Month |Goldharvest|Late summer, first major harvests     |The Reaper’s Rise      |Start of the first harvest            |Huruma    |Indulgence, Pleasure, Revelry  |
+  |8th Month |Windrest   |Autumn harvest season, food storage   |The Miller’s Rest      |Grain processing and storage          |Calista   |Giving, Protection, Poverty    |
+  |9th Month |Leafwane   |Cooling air, trees begin shedding     |The Weaver’s Moon      |Textile production thrives            |Roma      |Theater, Grandiose, Loneliness |
+  |10th Month|Duskveil   |Days shorten, cold winds arrive       |The Tinker’s Bazaar    |Markets and guild fairs               |Ophelia   |Music, Selfishness, Beauty     |
+  |11th Month|Ebonfall   |Longest nights, spiritual significance|The Scholar’s Watch    |Winter season of study and lore       |Ordinator |Logic, Symmetry, Absolutism    |
+  |12th Month|Brinewake  |Winter returns, first snowfalls       |The Hunter’s Howl      |Peak of winter hunting season         |Vizira    |Knowledge, Magic, Mystic       |
+  |13th Month|Stillmourn |Coldest month, time of hardship       |The Brewer’s Feast     |Fermenting and storing ale            |Quilin    |Archives, Magic, Teaching      |
+  |14th Month|Icehold    |Glacial weather, icebound rivers      |The Watchman’s Gloom   |Cold months, city watch at peak duty  |Gabérial  |Frailty, Mortality, Engineering|
+  |15th Month|Ashenfell  |Deepest snow, waiting for renewal     |The Carver’s Silence   |Sculptors and craftsmen work indoors  |Luthgarde |Woods, Spirits, Elves          |
+  |16th Month|Dawnreach  |Year’s end, signals coming rebirth    |The Steward’s Reckoning|Tax collection, preparation for spring|Cuchulain |Greed, Gold, Nobility          |
+  }}
+}}
+
+
+
+\page
+
+<link href='https://fonts.googleapis.com/css?family=MedievalSharp' rel='stylesheet'>
+
+# The Calendar of the Realm
+
+In the lands of our world, the passage of time is marked by a cycle of sixteen months, each capturing the essence of the changing seasons, the toil of civilization, and the forces of nature. The calendar is more than a means to count the days—it is a reflection of the world itself.
+
+
+## Months of the Year
+
+### Winter’s Grip
+
+Firstcold – The deepest cold of the year, where survival is the only priority.
+
+Latefrost – The final breath of winter, as frost still clings to the land.
+
+### The Awakening
+
+Bloomtide – The first blossoms break through the thawing earth.
+
+Greenwake – Verdant life returns, rivers flow freely, and forests awaken.
+
+### The Sun's Dominion
+
+Suncrest – The days grow long, bathed in golden light.
+
+Highblaze – The peak of summer, where heat reigns supreme.
+
+### The Season of Harvest
+
+Goldharvest – Fields stand tall, ready for reaping.
+
+Windrest – The winds cool, and stores are filled in preparation for winter.
+
+### The Waning Light
+
+Leafwane – Leaves turn amber, and the cycle of life slows.
+
+Duskveil – The sun retreats earlier each day, shadows stretch long.
+
+### The Long Nights
+
+Ebonfall – The blackest nights of the year, marked by deep reflection and lore.
+
+Brinewake – Coastal storms rage, and the sea reclaims what was taken.
+
+### Winter’s Return
+
+Stillmourn – The world is frozen in silent mourning, awaiting renewal.
+
+Icehold – The land is locked in ice, rivers freeze, and warmth is but a memory.
+
+### The Turning of Time
+
+Ashenfell – The remains of winter crumble, signaling the shift ahead.
+
+Dawnreach – A new cycle begins, heralding the return of light and life.
+
+###  The Wheel of Time
+
+Each month is either 20 or 10 days long. Months with equinox and solstices are 10 days long, with the them happenning on the 6th. The year is divided into four primary seasons, yet the transitions are gradual, weaving a seamless journey from bitter frost to golden fields and back again. The festivals, traditions, and rituals of the land are deeply tied to this passage of time, marking the struggles and celebrations of those who endure.

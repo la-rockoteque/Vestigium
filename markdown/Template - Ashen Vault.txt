@@ -1,0 +1,745 @@
+```metadata
+title: Template - Ashen Vault
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+/*=======--- Example CSS styling ---=======*/
+/* Any CSS here will apply to your document! */
+ @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+ @import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive);
+ :root {
+     --rotate: 20deg;
+     --left: unset;
+     --top: unset;
+     --correction: "correction";
+}
+/* Removes Drop Caps */
+ .page h1+p:first-letter {
+     all: unset;
+}
+ .page .footnote {
+     border-top: lightgray dotted 2px;
+     width: 80%;
+     color: gray;
+     bottom: 28px;
+}
+ .page .footnote > h1 {
+     background-color: transparent;
+     border: none;
+     font-size: 10px;
+     margin-bottom: 0px;
+}
+/* Removes Small-Caps in first line */
+ .page h1+p:first-line {
+     all: unset;
+}
+ .page {
+     background-color: #F8F8F8;
+    /* Light gray background */
+     background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+     background-size: 20px 20px;
+    /* Adjust spacing */
+     font-family: "Courier New", Courier, monospace;
+    /* Typewriter / Redacted Report */
+}
+ .page:after, .page:has(.frontCover):after, .page:has(.insideCover):after, .page:nth-child(even)::after {
+     all: unset;
+     content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+     transform-origin: top right;
+     transform: rotate(270deg);
+     white-space: nowrap;
+     position: absolute;
+     right: 1.5cm;
+     top: 0px;
+     color: gray;
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     width: 29cm;
+}
+ .page:before {
+     all: unset;
+     content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+     transform-origin: top left;
+     transform: rotate(90deg);
+     white-space: nowrap;
+     position: absolute;
+     left: 1.5cm;
+     top: 0px;
+     color: gray;
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     width: 29cm;
+}
+ .page:has(.frontCover) .logo {
+     top: 10cm;
+     right: 0;
+     left: 0;
+     filter: drop-shadow(0 0 .075cm black);
+}
+ .page:has(.insideCover) .logo {
+     top: 0.5cm;
+     right: 0;
+     left: 0;
+     filter: drop-shadow(0 0 .075cm black);
+}
+ .page:has(.insideCover) p, .page:has(.insideCover) ul {
+     margin-top: 20px;
+     text-align: left;
+}
+ .page:has(.insideCover) .logo>img {
+     height: 2cm;
+     width: 1.8cm;
+     opacity: 0.1;
+     filter:none;
+}
+ .page:has(.frontCover) .logo>img {
+     height: 10cm;
+     width: 9cm;
+     opacity: 0.1;
+     filter:none;
+}
+ .page h1 {
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size: 24px;
+     color: #2C2C2C;
+    /* Vault Black */
+     background-color: #EDEDED;
+    /* Subtle Header Background */
+     padding: 5px;
+     border-bottom: 3px solid #2C2C2C;
+    /* Strong Bureaucratic Divider */
+}
+ .page:has(.insideCover) h1, .page:has(.frontCover) h1, .page:has(.partCover) h1 {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size: 24px;
+     background-color: #EDEDED;
+    /* Subtle Header Background */
+     color: #2C2C2C;
+    /* Vault Black */
+     padding: 5px;
+     border-bottom: 0 
+}
+ .page:has(.frontCover) h1 {
+     -webkit-text-stroke: 0 
+}
+ .page:has(.insideCover) h1 {
+     background-image: linear-gradient(45deg, #f7f7f7 25%, #dbdbdb 25%, #dbdbdb 50%, #f7f7f7 50%, #f7f7f7 75%, #dbdbdb 75%, #dbdbdb 100%);
+     background-size: 14.14px 14.14px;
+}
+ .page:has(.insideCover) .footnote, .page:has(.frontCover) .footnote, .page:has(.partCover) .footnote {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 15px;
+     margin-top: 40px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+     -webkit-text-stroke: 0;
+     text-align: left;
+}
+ .block .footnote {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 20px;
+     margin-top: 40px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+}
+ .page h2 {
+     font-family: "Oswald", sans-serif;
+     text-transform: uppercase;
+     font-size: 20px;
+     color: #2C2C2C;
+     border-bottom: 2px solid #8F8F8F;
+}
+ .page:has(.insideCover) h2, .page:has(.frontCover) h2, .page:has(.partCover) h2 {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 20px;
+     margin-top: 20px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+     border-bottom: 0;
+}
+ .page:has(.frontCover) h2 {
+     -webkit-text-stroke: 0 
+}
+ .page h3, .page:has(.insideCover) h3, .page:has(.frontCover) h3, .page:has(.partCover) h3 {
+     font-family: "Courier New", Courier, monospace;
+     font-size: 18px;
+     color: #5A5A5A;
+     text-transform: uppercase;
+     border-bottom: gray dashed 1px;
+    ;
+}
+ .page h4, .page:has(.insideCover) h4, .page:has(.frontCover) h4, .page:has(.partCover) h4 {
+     font-family: "Courier New", Courier, monospace;
+     font-size: 16px;
+     color: #8F8F8F;
+}
+ .page .redacted {
+     background-color: black;
+     color: black;
+     padding: 2px 5px;
+     border-radius: 2px;
+}
+ .page:has(.frontCover) hr {
+     margin: 10px;
+     position: relative;
+     width: 100%;
+     height: 5mm;
+    /* Adjust height to match a real ruler */
+     background: repeating-linear-gradient( to right, transparent 0mm, transparent 0.8mm, black 0.8mm, black 1mm );
+     filter:none;
+}
+ .page:has(.insideCover) hr {
+     position: relative;
+     width: 100%;
+     height: 1mm;
+    /* Adjust height to match a real ruler */
+     background: repeating-linear-gradient( to right, transparent 0mm, transparent 0.8mm, black 0.8mm, black 1mm );
+}
+ page hr {
+     border: 2px dashed #8F8F8F;
+    /* Looks like an official document break */
+}
+ .page blockquote {
+     background-color: #EDEDED;
+     border-left: 4px solid #2C2C2C;
+     padding: 10px;
+     font-family: "Courier New", Courier, monospace;
+}
+/* --- Tables: Bureaucratic Report Style --- */
+ .page table {
+     border-collapse: collapse;
+     width: 100%;
+}
+ .page th {
+     background-color: #D6D6D6;
+    /* Ash Gray */
+     color: #2C2C2C;
+    /* Vault Black */
+     padding: 8px;
+     border-bottom: 3px solid #8F8F8F;
+    /* Stronger Border */
+     text-transform: uppercase;
+}
+ .page td {
+     background-color: #F8F8F8;
+    /* Paper White */
+     color: #5A5A5A;
+    /* Charcoal Gray */
+     padding: 8px;
+     border-bottom: 1px solid #BFBFBF;
+    /* Soft Grid */
+}
+/* --- Links: Subtle and Official-Looking --- */
+ .page a {
+     color: #2C2C2C;
+     text-decoration: none;
+     border-bottom: 1px dashed #8F8F8F;
+}
+ .page a:hover {
+     color: #5A5A5A;
+     border-bottom: 1px solid #5A5A5A;
+}
+ .post-it {
+     left: var(--left);
+     top: var(--top);
+     transform: rotate(var(--rotate));
+     max-width:250px;
+     max-height:240px;
+     width:250px;
+     height:240px;
+     position:relative;
+     background:#ffa;
+     overflow:hidden;
+     margin:30px auto;
+     padding:20px;
+     border-radius:0 0 0 30px/45px;
+     box-shadow: inset 0 -40px 40px rgba(0,0,0,0.05), inset 0 25px 10px rgba(0,0,0,0.07), 0 5px 6px 5px rgba(0,0,0,0.2);
+     font-family: 'Cedarville Cursive', cursive;
+     line-height:1.7em;
+     font-size:19px;
+     -webkit-mask-image: url(data:image/png;
+    base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+     color:#130d6b;
+}
+ .post-it:before {
+     content:"";
+     position:absolute;
+     width:20px;
+     height:25px;
+     background:#ffa;
+     box-shadow: 3px -2px 10px rgba(0,0,0,0.2), inset 15px -15px 15px rgba(0,0,0,0.3);
+     left:0;
+     bottom:0;
+     z-index:2;
+     transform:skewX(25deg);
+}
+ .smudge {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     filter: blur(1px) contrast(110%);
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/5d4334616f20bd1d1f059f6007892650.png') no-repeat center;
+     background-size: contain;
+
+
+}
+
+    .smudge:before {
+    position: absolute;
+    content:'';
+    left: 0;
+    top: 0;
+     width: 10cm;
+     height: 10cm;
+   
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 19%, rgba(255,255,255,0) 52%);
+background-blend-mode: lighten
+
+    
+    }
+
+@media print {
+
+}
+
+
+ .coffee-stain {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     filter: blur(1px) contrast(110%);
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f74119a30ba73c9c5b3a7cc1aa9d7d42.png') no-repeat center;
+     background-size: contain;
+     mix-blend-mode: multiply;
+}
+ 
+ 
+.corrected {
+    position: relative;
+    text-decoration: line-through;
+    color: black;
+}
+
+.corrected::after {
+    content: var(--correction, "Default Text");;
+    font-size: 12px;
+    color: #0F3D75;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+       font-family: 'Cedarville Cursive', cursive;
+   
+    -webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+}
+
+
+.paperclip {
+ 
+    position: absolute;
+    display-block;
+    top: -10px;
+    left: var(--left, 60);
+    width: 50px;
+    height: 150px;
+    transform: rotate(-15deg); /* Slight tilt for realism */
+    opacity: 0.8; /* Slight transparency */
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/421f492b3660fca7d119964aff1f24db.png') no-repeat center;
+    background-size: contain;
+}
+
+ .polaroid {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     max-width:10cm;
+     max-height: 10cm;
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png') no-repeat center;
+    background-size: contain;
+         transform-origin: top left;
+}
+
+.polaroid > p > img {
+  margin-left: 1.26cm;
+  margin-top: 0.74cm;
+  height: 7.4cm;
+  width: 7.5cm;
+  object-fit: cover;
+  mix-blend-mode: screen;
+}
+
+
+.doodle.dog1 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/6d860afef532110ae76b559ace75dfa7.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.dog2 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/e2820894e1c1c58cb9d710e5522858fc.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.cat1 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/b43f55649f7f416de20109ce0f3b6722.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.cat2 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/898133d59ab4ce7d036283cf075620e2.png') no-repeat center;
+    background-size: contain;
+}
+
+.doodle {
+position: relative;
+   top: var(--top);
+   left: var(--left);
+    display: block;
+    width: 150px;
+    height: 150px;
+     -webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-repeat: repeat;
+}
+
+
+.fading {
+    background: linear-gradient(to bottom, black 10%, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.4) 70%, rgba(0, 0, 0, 0.1) 90%, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+```
+
+{{frontCover}}
+
+
+{{logo ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png)}}
+
+
+# Template
+## Gimmicks and Effects
+
+{{smudge,top:10px,left:300px;}}
+
+\page
+
+{{insideCover}}
+
+# CONFIDENTIAL  
+## ⚠ A.S.T.R.A.L.⚠  
+## ANTHROPOLOGICAL SURVEY DIVISION  
+___  
+
+This document is the sole property of the **Agency for Surveillance, Tracking, and Regulation of Anomalous Landscapes (A.S.T.R.A.L.)** and is classified under {{redacted **Biometric Analysis Protocol O-92** }}. Unauthorized access, duplication, or distribution constitutes a direct violation of the **Anomalous Contingency Act (A.C.A. §17-42)** and will trigger immediate countermeasures.  
+
+By accessing this file, you acknowledge:  
+- You have the {{corrected,--correction:"'necessary clearance'" **necesary clearence** }} to review classified **biological intelligence**.  
+- You are subject to **continuous biometric and cognitive monitoring** under **Anthropological Compliance Mandate 24-B**.  
+- Any **unauthorized replication or** dissemination {{corrected,--correction:"'dissmination'" **dessimination** }} will result in the activation of **Containment Directive Theta**, authorizing full intervention by **Bio-Security Division Kappa**.  
+- Disclosure of restricted genetic analysis will **invoke subject-specific erasure protocols**, up to and including **cognitive redaction under Directive 88-P**.  
+
+This document provides **ongoing surveillance data, species profiling, and genetic deviation reports** concerning the recognized **sentient populations of Concord City and its surrounding territories**. Due to **unresolved discrepancies regarding human emergence events**, data integrity remains under **constant review by the {{redacted Oversight Bureau (O.B.) }}**.  
+
+If you are not the intended recipient, {{corrected,--correction:"'cease'" seize }} all interaction immediately and report this breach to {{redacted **A.S.T.R.A.L. Oversight Bureau (O.B.)** }}via secure terminal [O.B.//DIRECT-LINK-SEC/347-99]. Failure to comply will escalate to **Genetic Contingency Response Protocol Cobalt-7**.  
+
+{{logo ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png)}}
+
+**A.S.T.R.A.L. – DEFENDING REALITY AGAINST GENETIC UNCERTAINTY**  
+**Everything is under observation.**  
+
+\page
+
+# [CLASSIFIED: A.S.T.R.A.L. INTERNAL DOSSIER]
+
+## AGENCE DE SURVEILLANCE ET DE TRAITEMENT DES RÉALITÉS ET DES ANOMALIES LOCALISÉES (A.S.T.R.A.L.)
+*"Preserving reality since [REDACTED]. No, we don’t have a pension plan."*
+
+---
+
+## SECTION I: OVERVIEW
+
+**Established:** [REDACTED]  
+**Primary Objective:** Maintain the integrity of reality within Concord City while keeping operational costs *marginally* within budget.  
+**Current Director:** [REDACTED] (Frequently in meetings, allegedly exists.)  
+**Primary Headquarters:** Undisclosed location, Concord City. If you think you found it, no you didn’t.  
+
+### **Operational Divisions**
+- **Anomaly Research** – Primarily composed of people who didn’t read the safety briefing.  
+- **Containment** – Understaffed, underpaid, and under constant stress.  
+- **Field Operations** – Fastest growing department due to high turnover (literally, people keep turning into things).  
+- **Counter-Subversion** – Exists solely to stop conspiracy theorists from *accidentally* being right.  
+- **Arcane Division** – Legal prefers that we call them “experimental consultants.”  
+- **Black Site Development** – The only department with job security because anomalies *never stop happening.*  
+- **Information Suppression** – Masters of the phrase, “It was just a gas leak.”  
+- **Internal Affairs** – Mostly investigating people who tried to expense anomalous objects.  
+
+---
+
+## SECTION II: ANOMALY CATEGORIZATION
+
+A.S.T.R.A.L. classifies anomalies based on operational impact, risk level, and how much time they’re going to take away from other priorities:  
+
+### **Category 1: Minor Disturbances**
+- **Examples:** Clocks that always run three minutes fast, harmless apparitions that just want to chat, staircases that add an extra step when no one’s looking.  
+- **Containment Protocol:** File a report. Eventually.  
+
+### **Category 2: Active Anomalies**
+- **Examples:** Objects that hum ominously, spaces that don’t align with Euclidean geometry, mirrors that reflect *someone else’s* day.  
+- **Containment Protocol:** Low-priority containment, typically involving a large filing cabinet or a locked basement.  
+
+### **Category 3: High-Risk Entities**
+- **Examples:** Objects capable of influencing minds, doors that open to *places that shouldn’t exist,* office chairs that slowly absorb their users.  
+- **Containment Protocol:** Secure storage, ongoing monitoring, periodic existential debates about whether we’re truly in control.  
+
+### **Category 4: City-Threatening Events**
+- **Examples:** Spontaneous localized voids, unexpected parallel realities, anomalies that *demand* tax exemptions.  
+- **Containment Protocol:** Mobilize field teams, distract the media, *do not tell Finance.*  
+
+### **Category 5: Global-Level Emergencies**
+- **Examples:** Reality fractures, time synchronization failures, the concept of "Thursday" attempting a hostile takeover of the week.  
+- **Containment Protocol:** Director-level decision. If Director is unavailable, *pretend it’s fine until further notice.*  
+
+---
+
+## SECTION III: BLACK SITES & CONTAINMENT FACILITIES
+
+### **BLACK SITE-03 "DUNEMEDAL HOLD"**
+- **Location:** Underground somewhere. If you ask, you’re assigned there.
+
+{{post-it,--rotate:8deg,--top:10cm;,left:-10cm;
+Reminder: If the office plants start whispering again, ignore them. They’re just trying to unionize.”
+}}
+
+\page
+- **Purpose:** Storing anomalies that *probably* won’t breach containment *again.*  
+- **Notes:** We stopped trying to name containment cells because they keep vanishing.  
+
+### **BLACK SITE-07 "THE SILENT DEPOT"**
+- **Location:** Facility exists, but for some reason, no one remembers what it looks like.  
+- **Purpose:** Research and containment. Reportedly still staffed, but personnel records are… inconsistent.  
+
+### **BLACK SITE-12 "THE COLORLESS LABYRINTH"**
+- **Location:** The abandoned mall. You know the one.  
+- **Purpose:** Containment of shifting spatial anomalies and lost interns.  
+
+---
+
+## SECTION IV: HIGH-PROFILE ANOMALIES UNDER SURVEILLANCE
+
+### **CASE FILE: AST-0498 "THE WHISPERING WINE"**
+- **Description:** A bottle of vintage wine that allows the drinker to hear voices from… somewhere.  
+- **Effects:** Induces sudden poetic inclinations, paranoia, and an overwhelming need to eavesdrop.  
+- **Containment Status:** Confiscated. Except someone keeps replacing it in the breakroom.  
+
+### **CASE FILE: AST-0671 "LE PORTE-PAROLE DU TRIPLE VISAGE"**
+- **Description:** A humanoid figure delivering cryptic messages at inconvenient moments.  
+- **Current Observations:** Has a tendency to appear during budget meetings.  
+- **A.S.T.R.A.L. Orders:** Listen, nod, pretend to take notes.  
+
+---
+
+## SECTION V: CLASSIFIED OPERATIONS
+
+### **PROJECT MIRROR**
+- **Objective:** Utilize reflected surfaces to contain anomalies.  
+- **Status:** Mixed results—some anomalies seem to enjoy looking at themselves.  
+
+### **PROJECT ABSENCE**
+- **Objective:** Attempting to make an anomaly cease to exist entirely.  
+- **Status:** Accidentally erased the funding for this project.  
+
+### **PROJECT SCRIPTOR**
+- **Objective:** Legally binding anomalies to bureaucratic procedures.  
+- **Progress:** Slow. Anomalies continue to ignore the paperwork.  
+
+---
+
+## SECTION VI: INTERNAL THREATS & INFILTRATION RISKS
+
+- **Obscura (Hacker Collective):** Still trying to livestream from inside a Black Site.  
+- **L’Ordre du Réveil (Cultic Organization):** Believes anomalies should “run free.” Continually fails to survive *after* releasing them.  
+- **The Free Syndicate:** Continually selling anomalies. *Where are they getting them?*  
+- **Internal Discontent:** Finance department demanding an explanation for the “unaccounted reality shifts” in last quarter’s budget.  
+
+---
+
+## SECTION VII: SUPPRESSION TACTICS & PUBLIC MANAGEMENT
+
+A.S.T.R.A.L. ensures reality remains unchallenged through:  
+- **Corporate Press Alliances** – Stories are rewritten. “Glitches in the Matrix” memes encouraged.  
+- **Reality Stabilization Protocols** – Mass distribution of mild apathy.  
+- **Memory Alteration Procedures** – If no one remembers the problem, it never happened.  
+
+---
+
+{{coffee-stain,--left:70%,--top:-2cm}}
+
+
+\page
+
+# **SECTION VIII: INTERNAL PROCEDURES & MANDATES**
+*"Ensuring a safer, more stable reality—through structured compliance and extensive documentation."*
+
+## **SUBSECTION 8A: CONTAINMENT PROTOCOL REPORTING REQUIREMENTS**
+All personnel must submit anomaly containment reports **within 24 hours** of an incident. Reports must be filed using **Standardized Containment Documentation Form 47-C** with the following required sections:
+
+1. **Incident Overview** – Provide a factual summary. Avoid unnecessary adjectives or speculation.  
+2. **Anomaly Classification Review** – Confirm whether the classification remains accurate or requires adjustment.  
+3. **Containment Actions Taken** – Detail all personnel involved and **specific containment measures implemented**.  
+4. **Casualty & Exposure Log** – List affected personnel and any necessary quarantine orders.  
+5. **Equipment Loss/Damage Report** – If damages exceed **25,000 Concordian Credits**, attach **Expense Justification Form 92-B**.  
+6. **Recommendation for Ongoing Containment** – Assess whether additional resources are needed.  
+
+Failure to complete all required sections will result in **automatic rejection** of the report and the issuance of an **Administrative Warning Notice (Form 22-R)**. Three notices within a fiscal quarter will result in **mandatory Containment Documentation Training (CDT)** and a **notation in the employee’s performance review**.
+
+---
+{{fading
+## **SUBSECTION 8B: HUMAN RESOURCES GUIDELINES – ANOMALY EXPOSURE POLICY**
+*"A productive workforce is an informed workforce."*
+
+Personnel assigned to **Category 3 or higher** anomalies must undergo **quarterly Psychological Stability Assessments (Form 84-P)** to ensure continued eligibility for field operations. The following criteria apply:
+}}
+
+- **Mild Cognitive Exposure** – Auditory hallucinations, minor reality inconsistencies.  
+  - **Action:** Report to Medical Review Team. Reassignment to lower-risk anomalies (Category 1-2).  
+
+- **Moderate Cognitive Exposure** – Recurring anomalous visions, existential displacement, partial name reconfiguration.  
+  - **Action:** Temporary **suspension from field duty** (minimum 14 days). Mandatory anomaly-awareness training refresher.  
+
+- **Severe Cognitive Exposure** – Identity destabilization, non-Euclidean perception shifts, recursive self-duplication.  
+  - **Action:** Immediate transfer to Black Site-07 for evaluation. Possible permanent reassignment to administration roles.  
+
+All personnel affected by an anomaly must complete a **Post-Exposure Incident Disclosure (Form 93-X)**. **Non-compliance results in an automatic Workplace Safety Violation.**  
+
+**Note:** Compensation for exposure-related conditions is subject to review and may be denied if the incident is deemed the result of **negligence or unauthorized interaction with an anomaly**.
+
+---
+
+## **SUBSECTION 8C: MEETING & EMAIL POLICY – STREAMLINING ORGANIZATIONAL COMMUNICATIONS**
+To enhance **operational efficiency**, all **non-urgent** interdepartmental communications must be conducted via **Request for Internal Coordination (Form 77-C)**.
+{{fading
+### **Email Subject Line Standardization**
+All emails regarding anomalies must follow this format:
+
+**[ANOMALY ID] – [LEVEL] – [ACTION REQUIRED]**  
+
+}}
+
+\page
+
+**Example:**  
+`AST-0498 – Category 3 – Request for Secondary Containment Team Deployment`  
+
+**Unacceptable Subject Lines:**  
+- `"Help?"`  
+- `"This is bad."`  
+- `"You need to see this."`  
+- `"The walls are breathing again."`  
+
+Violations result in **Administrative Review** and potential restriction from interdepartmental communications.
+
+### **Meeting Efficiency Protocols**
+- **Containment Status Meetings** must not exceed **45 minutes** unless an emergency reclassification occurs.  
+- PowerPoint slides **must not** exceed **12 slides per briefing**.  
+- No more than **three acronyms per slide** to comply with **Excessive Jargon Reduction Policy**.  
+
+\page
+
+# **SECTION IX: ANOMALY OBSERVATION REPORTS**
+*"Precision. Objectivity. Extensive paperwork."*
+
+## **SUBSECTION 9A: OBSERVATIONAL LOG – ANOMALY AST-0671 ("LE PORTE-PAROLE DU TRIPLE VISAGE")**
+**Observation Date:** [REDACTED]  
+**Assigned Observer:** Agent L. Dufresne  
+**Observation Period:** 72 hours  
+
+### **Summary of Manifestations:**
+- Entity appeared in **Concord Spire Administrative Offices** at **12:07 PM**.  
+- Addressed **Senior Containment Analyst Benoit Thorne**, stating:  
+  > “This is not the last time we will meet. Nor the first.”  
+- Entity adjusted Thorne’s tie before vanishing.  
+
+### **Additional Notes:**
+- **Thorne has no memory of owning that tie.**  
+- **Meeting room temperature dropped 3.7°C immediately after manifestation.**  
+- **Entity remains non-hostile but continues to provide cryptic warnings without clarification.**  
+
+**Recommended Action:** Assign Linguistic Analysis Team for further study.
+
+---
+
+## **SUBSECTION 9B: OBSERVATIONAL LOG – ANOMALY AST-0498 ("THE WHISPERING WINE")**
+**Observation Date:** [REDACTED]  
+**Assigned Observer:** Researcher C. Moreau  
+**Observation Period:** 14 days  
+
+### **Summary of Testing:**
+- Controlled **consumption trials** conducted under **sealed containment**.  
+- Test subjects **immediately began hearing indistinct voices**.  
+- One subject **began speaking in Latin**, despite no prior knowledge.  
+- Voices **ceased abruptly** after 7 minutes, leaving subjects **disoriented**.  
+
+### **Ongoing Investigation:**
+- **Source of voices remains undetermined.**  
+- **Testing suspended** after Subject 8 attempted to respond and subsequently **lost control of spoken language for 12 hours**.  
+- **Further consumption restricted.**  
+
+{{doodle,dog1,--left:50px}}
+{{doodle,dog2,--left:100px,top:20px;}}
+{{doodle,cat1,--left:20px,top:2cm;}}
+{{doodle,cat2,--left:180px,top:4cm;}}
+
+\page
+
+# **SECTION X: DOCUMENTATION PROTOCOLS**
+*"If it’s not in the report, it didn’t happen."*
+
+1. **All containment failures require a Post-Incident Report (Form 12-Y) within 6 hours.**  
+2. **HR must be informed of all personnel displacements** resulting from anomalous exposure.  
+3. **Any anomalies displaying sentience must undergo Ethical Review (Form 88-K) before termination is considered.**  
+4. **Paperwork must be completed in triplicate.** (Yes, even digital copies require hard copies for redundancy.)  
+
+
+
+{{polaroid,--left:20px,rotate:2deg,top:0;
+
+}}
+
+{{polaroid,--left:20px,rotate:4deg,top:0;
+
+}}
+
+{{polaroid,--left:20px,rotate:-4deg,top:0;
+![cat warrior](https://wa-cdn.nyc3.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/dacbf34c71a91f8ab36bc8f5e608ebeb.webp)
+}}
+
+{{paperclip,--left:2cm}}
+
+{{footnote
+
+# **END OF DOCUMENT**  
+
+**[ACCESS RESTRICTED TO LEVEL 5 OPERATIVES OR ANYONE WHO CAN STILL FIND THEIR OFFICE AFTER LUNCH]**  
+}}

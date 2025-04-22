@@ -1,0 +1,1000 @@
+```metadata
+title: Ashen Vault - Class Ranger
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+/*=======--- Example CSS styling ---=======*/
+/* Any CSS here will apply to your document! */
+@import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Oswald:wght@200..700&family=Permanent+Marker&display=swap);
+:root {
+    --rotate: 20deg;
+    --left: unset;
+    --top: unset;
+    --correction: "correction";
+    --source: "https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png";
+}
+
+
+.page:has(.frontCover) {
+    background-color: black;
+}
+
+.page:has(.frontCover) .coverBackground {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -1cm;
+    left: 0;
+    z-index: -1;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/b8fcc87c09ff4052a99b972c5dc2efae.webp');
+    background-size: cover;
+    background-position: center;
+    mask-image: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 20%), rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: linear-gradient(270deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+.page:has(.frontCover) .coverImage {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -7cm;
+    left: 0;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/0a0b5e7e9496fd06deac901172f5455f.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.page:has(.frontCover) h1,
+.page:has(.frontCover) h2,
+.page:has(.frontCover) h3 {
+    border-bottom: unset;
+    -webkit-text-stroke: unset;
+    text-stroke: unset;
+    ;
+}
+
+.page:has(.frontCover) h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: White;
+    margin-top: 50px;
+    font-family: "Oswald", sans-serif;
+    background: none;
+}
+
+.page:has(.frontCover) h2 {
+    font-size: 2rem;
+    letter-spacing: 8.5px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.page:has(.frontCover) h3 {
+    margin-top: 10px;
+    text-decoration: underline overline #d1d1d1;
+}
+
+.page:has(.frontCover) .footnote {
+    font-size: 1.5rem;
+    color: #d1d1d1;
+    margin-top: 30px;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 2px gray;
+    ;
+    text-stroke: 2px gray;
+    text-align: right;
+}
+
+/* Removes Drop Caps */
+.page h1 + p:first-letter {
+    all: unset;
+}
+.page .footnote {
+    border-top: lightgray dotted 2px;
+    width: 80%;
+    color: gray;
+    bottom: 28px;
+}
+.page .footnote > h1 {
+    background-color: transparent;
+    border: none;
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+.inline-block.pageNumber {
+    font-size: 1cm;
+    color: black;
+}
+/* Removes Small-Caps in first line */
+.page h1 + p:first-line {
+    all: unset;
+}
+.page {
+    background-color: #f8f8f8;
+    /* Light gray background */
+    background-image: radial-gradient(
+        circle,
+        rgba(0, 0, 0, 0.1) 1px,
+        transparent 1px
+    );
+    background-size: 20px 20px;
+    /* Adjust spacing */
+    font-family: "Courier New", Courier, monospace;
+    /* Typewriter / Redacted Report */
+}
+
+.page:has(.preface) {
+    columns: 1;
+    column-span: all;
+    gap: 5px;
+    text-align: center;
+
+}
+
+
+.page:after,
+.page:has(.frontCover):after,
+.page:has(.preface):after,
+.page:has(.insideCover):after,
+.page:nth-child(even)::after {
+    all: unset;
+    content: "Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.";
+    transform-origin: top right;
+    transform: rotate(270deg);
+    white-space: nowrap;
+    position: absolute;
+    right: 1.5cm;
+    top: 0px;
+    color: gray;
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    width: 29cm;
+}
+.page:before {
+    all: unset;
+    content: "Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.";
+    transform-origin: top left;
+    transform: rotate(90deg);
+    white-space: nowrap;
+    position: absolute;
+    left: 1.5cm;
+    top: 0px;
+    color: gray;
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    width: 29cm;
+}
+.page:has(.preface) .logo {
+    top: 10cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 0.075cm black);
+}
+.page:has(.insideCover) .logo {
+    top: 0.5cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 0.075cm black);
+}
+.page:has(.insideCover) p,
+.page:has(.insideCover) ul {
+    margin-top: 20px;
+    text-align: left;
+}
+.page:has(.insideCover) .logo > img {
+    height: 2cm;
+    width: 1.8cm;
+    opacity: 0.1;
+    filter: none;
+}
+.page:has(.preface) .logo > img {
+    height: 10cm;
+    width: 9cm;
+    opacity: 0.1;
+    filter: none;
+}
+
+.page:has(.preface),
+.page:has(.insideCover) {
+    background: none;
+    background-color: #f8f8f8;
+}
+
+.coverpicture {
+    margin-top: 1.5cm;
+    max-width: 15cm;
+    max-height: 15cm;
+}
+
+.coverpicture > img {
+    max-width: 100%;
+    max-height: 100%;
+    mix-blend-mode: luminosity;
+}
+
+.page h1 {
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    color: #2c2c2c;
+    /* Vault Black */
+    background-color: #ededed;
+    /* Subtle Header Background */
+    padding: 5px;
+    border-bottom: 3px solid #2c2c2c;
+    /* Strong Bureaucratic Divider */
+}
+.page:has(.insideCover) h1,
+.page:has(.preface) h1,
+.page:has(.partCover) h1 {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    background-color: #ededed;
+    /* Subtle Header Background */
+    color: #2c2c2c;
+    /* Vault Black */
+    padding: 5px;
+    border-bottom: 0;
+}
+.page:has(.preface) h1 {
+    -webkit-text-stroke: 0;
+}
+.page:has(.insideCover) h1 {
+    background-image: linear-gradient(
+        45deg,
+        #f7f7f7 25%,
+        #dbdbdb 25%,
+        #dbdbdb 50%,
+        #f7f7f7 50%,
+        #f7f7f7 75%,
+        #dbdbdb 75%,
+        #dbdbdb 100%
+    );
+    background-size: 14.14px 14.14px;
+}
+.page:has(.insideCover) .footnote,
+.page:has(.preface) .footnote,
+.page:has(.partCover) .footnote {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+    -webkit-text-stroke: 0;
+    text-align: left;
+}
+.block .footnote {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+}
+.page h2 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #2c2c2c;
+    border-bottom: 2px solid #8f8f8f;
+}
+.page:has(.insideCover) h2,
+.page:has(.preface) h2,
+.page:has(.partCover) h2 {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+    border-bottom: 0;
+}
+.page:has(.preface) h2 {
+    -webkit-text-stroke: 0;
+}
+.page h3,
+.page:has(.insideCover) h3,
+.page:has(.preface) h3,
+.page:has(.partCover) h3 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    color: #5a5a5a;
+    text-transform: uppercase;
+    border-bottom: gray dashed 1px;
+}
+.page h4,
+.page:has(.insideCover) h4,
+.page:has(.preface) h4,
+.page:has(.partCover) h4 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    color: #8f8f8f;
+}
+.page .redacted {
+    background-color: black;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+.page:has(.preface) hr {
+    margin: 10px;
+    position: relative;
+    width: 100%;
+    height: 5mm;
+    /* Adjust height to match a real ruler */
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0mm,
+        transparent 0.8mm,
+        black 0.8mm,
+        black 1mm
+    );
+    filter: none;
+}
+.page:has(.insideCover) hr {
+    position: relative;
+    width: 100%;
+    height: 1mm;
+    /* Adjust height to match a real ruler */
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0mm,
+        transparent 0.8mm,
+        black 0.8mm,
+        black 1mm
+    );
+}
+page hr {
+    border: 2px dashed #8f8f8f;
+    /* Looks like an official document break */
+}
+.page blockquote {
+    background-color: #ededed;
+    border-left: 4px solid #2c2c2c;
+    padding: 10px;
+    font-family: "Courier New", Courier, monospace;
+}
+/* --- Tables: Bureaucratic Report Style --- */
+.page table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.page th {
+    background-color: #d6d6d6;
+    /* Ash Gray */
+    color: #2c2c2c;
+    /* Vault Black */
+    padding: 8px;
+    border-bottom: 3px solid #8f8f8f;
+    /* Stronger Border */
+    text-transform: uppercase;
+}
+.page td {
+    background-color: #f8f8f8;
+    /* Paper White */
+    color: #5a5a5a;
+    /* Charcoal Gray */
+    padding: 8px;
+    border-bottom: 1px solid #bfbfbf;
+    /* Soft Grid */
+}
+/* --- Links: Subtle and Official-Looking --- */
+.page a {
+    color: #2c2c2c;
+    text-decoration: none;
+    border-bottom: 1px dashed #8f8f8f;
+}
+.page a:hover {
+    color: #5a5a5a;
+    border-bottom: 1px solid #5a5a5a;
+}
+.post-it {
+    left: var(--left);
+    top: var(--top);
+    transform: rotate(var(--rotate));
+    max-width: 250px;
+    max-height: 240px;
+    width: 250px;
+    height: 240px;
+    position: relative;
+    background: #ffa;
+    overflow: hidden;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 0 0 0 30px/45px;
+    box-shadow: inset 0 -40px 40px rgba(0, 0, 0, 0.05),
+        inset 0 25px 10px rgba(0, 0, 0, 0.07), 0 5px 6px 5px rgba(0, 0, 0, 0.2);
+    font-family: "Cedarville Cursive", cursive;
+    line-height: 1.7em;
+    font-size: 19px;
+    -webkit-mask-image: url(data:image/png;
+    base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+    color: #130d6b;
+}
+.post-it:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    background: #ffa;
+    box-shadow: 3px -2px 10px rgba(0, 0, 0, 0.2),
+        inset 15px -15px 15px rgba(0, 0, 0, 0.3);
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    transform: skewX(25deg);
+}
+.smudge {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/5d4334616f20bd1d1f059f6007892650.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.smudge:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 10cm;
+    height: 10cm;
+
+    background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 1) 19%,
+        rgba(255, 255, 255, 0) 52%
+    );
+    background-blend-mode: lighten;
+}
+
+.coffee-stain {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f74119a30ba73c9c5b3a7cc1aa9d7d42.png")
+        no-repeat center;
+    background-size: contain;
+    mix-blend-mode: multiply;
+}
+
+.corrected {
+    position: relative;
+    text-decoration: line-through;
+    color: black;
+}
+
+.corrected::after {
+    content: var(--correction, "Default Text");
+    font-size: 12px;
+    color: #0f3d75;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    font-family: "Cedarville Cursive", cursive;
+
+    -webkit-mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+}
+
+.paperclip {
+    position: absolute;
+    display: block;
+    top: -10px;
+    left: var(--left, 60);
+    width: 50px;
+    height: 150px;
+    transform: rotate(-15deg); /* Slight tilt for realism */
+    opacity: 0.8; /* Slight transparency */
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/421f492b3660fca7d119964aff1f24db.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.polaroid {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    max-width: 10cm;
+    max-height: 10cm;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png")
+        no-repeat center;
+    background-size: contain;
+    transform-origin: top left;
+}
+
+.polaroid > p > img {
+    margin-left: 1.26cm;
+    margin-top: 0.74cm;
+    height: 7.4cm;
+    width: 7.5cm;
+    object-fit: cover;
+    mix-blend-mode: screen;
+}
+
+.doodle.dog1 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/6d860afef532110ae76b559ace75dfa7.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.dog2 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/e2820894e1c1c58cb9d710e5522858fc.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.cat1 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/b43f55649f7f416de20109ce0f3b6722.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.cat2 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/898133d59ab4ce7d036283cf075620e2.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.doodle {
+    position: relative;
+    top: var(--top);
+    left: var(--left);
+    display: block;
+    width: 150px;
+    height: 150px;
+    -webkit-mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-repeat: repeat;
+}
+
+.fading {
+    background: linear-gradient(
+        to bottom,
+        black 10%,
+        rgba(0, 0, 0, 0.8) 30%,
+        rgba(0, 0, 0, 0.6) 50%,
+        rgba(0, 0, 0, 0.4) 70%,
+        rgba(0, 0, 0, 0.1) 90%,
+        transparent
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+```
+
+{{frontCover}}
+{{coverBackground}}
+## Class
+# Ranger
+## Tactical Survivalist
+
+
+{{footnote 
+#### A.S.T.R.A.L Training Material
+}}
+\page
+
+{{insideCover}}
+
+# CONFIDENTIAL  
+## ⚠ A.S.T.R.A.L.⚠  
+## ANTHROPOLOGICAL SURVEY DIVISION  
+___  
+
+This document is the sole property of the **Agency for Surveillance, Tracking, and Regulation of Anomalous Landscapes (A.S.T.R.A.L.)** and is classified under **Biometric Analysis Protocol O-92**. Unauthorized access, duplication, or distribution constitutes a direct violation of the **Anomalous Contingency Act (A.C.A. §17-42)** and will trigger immediate countermeasures.  
+
+By accessing this file, you acknowledge:  
+- You have the **necessary clearance** to review classified **biological intelligence**.  
+- You are subject to **continuous biometric and cognitive monitoring** under **Anthropological Compliance Mandate 24-B**.  
+- Any **unauthorized replication or dissemination** will result in the activation of **Containment Directive Theta**, authorizing full intervention by **Bio-Security Division Kappa**.  
+- Disclosure of restricted genetic analysis will **invoke subject-specific erasure protocols**, up to and including **cognitive redaction under Directive 88-P**.  
+
+This document provides **ongoing surveillance data, species profiling, and genetic deviation reports** concerning the recognized **sentient populations of Concord City and its surrounding territories**. Due to **unresolved discrepancies regarding human emergence events**, data integrity remains under **constant review by the Oversight Bureau (O.B.)**.  
+
+If you are not the intended recipient, cease all interaction immediately and report this breach to **A.S.T.R.A.L. Oversight Bureau (O.B.)** via secure terminal [O.B.//DIRECT-LINK-SEC/347-99]. Failure to comply will escalate to **Genetic Contingency Response Protocol Cobalt-7**.  
+
+{{logo ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png)}}  
+
+### **Vorraki – Species Designation: Homo Voracis**  
+**Summary:** The **Vorraki** are **genetically optimized for high-impact physicality, rapid muscular repair, and combat-oriented reflex enhancement**. Their **distinct genetic subtypes** exhibit **adaptive resilience**, ensuring dominance across a wide range of physically demanding environments. While traditionally relegated to **security, enforcement, and paramilitary operations**, emerging Vorraki power structures suggest an **ongoing transition toward economic and political self-sufficiency**, particularly in **black-market security, logistics, and organized paramilitary enterprises**. **Containment is not advised—negotiation remains the recommended control mechanism.**  
+
+**A.S.T.R.A.L. – DEFENDING REALITY AGAINST GENETIC UNCERTAINTY**  
+**Everything is under observation.**  
+
+{{pageNumber,auto}}
+\page
+## **Ranger**  
+*Urban Tracker | Paranormal Hunter | Corporate Scout | Wilderness Survivor*  
+
+> *"The city has a pulse, a rhythm. If you listen, you’ll know where to strike."*  
+> — **Léna Duval, The Pariahs**  
+
+### **Thematic Overview**  
+Rangers in Concord City are not bound to forests or wildlands—they are **trackers, survivalists, and specialists in navigating the treacherous landscapes of urban sprawl and paranormal zones**. Some are trained by **corporate security forces**, others work **for underground movements**, and some are lone wanderers protecting forgotten ruins. Their expertise lets them hunt **paranormal creatures, criminals, or anomalies** with ruthless efficiency.
+- Rangers are **adaptive warriors, skilled in tracking, survival, and specialized combat**.  
+- Some serve as **A.S.T.R.A.L. operatives**, hunting reality-warping threats.  
+- Others work as **urban explorers, black-market smugglers, or freelance investigators**.  
+- They are attuned to the **unnatural elements of the world, sensing disturbances beyond normal perception**.  
+
+### **Creating a Ranger**  
+- Do you serve a higher cause, or are you a rogue operating on your own terms?  
+- Are you a trained corporate operative, or did you learn survival the hard way?  
+- What threats do you hunt—corporate agents, supernatural creatures, or something worse?  
+
+---
+
+## **Class Features**  
+As a **Ranger**, you gain the following class features.
+
+### **Hit Points**  
+- **Hit Dice:** *1d10 per Ranger level*  
+- **Hit Points at 1st Level:** *10 + Constitution modifier*  
+- **Hit Points at Higher Levels:** *1d10 (or 6) + Constitution modifier per level after 1st*  
+
+### **Proficiencies**  
+- **Armor:** *Light armor, medium armor, shields*  
+- **Weapons:** *Simple weapons, martial weapons*  
+- **Tools:** *Choose one: hacker’s kit, survival gear, or demolitions kit*  
+- **Saving Throws:** *Strength, Dexterity*  
+- **Skills:** *Choose three from Acrobatics, Athletics, Insight, Investigation, Nature, Perception, Stealth, and Survival*  
+
+### **Equipment**  
+You start with the following equipment, in addition to any granted by your background:  
+- *(a)* a long-range rifle and 20 rounds or *(b)* two silenced handguns  
+- *(a)* a tactical blade or *(b)* a collapsible baton  
+- *(a)* an urban survival pack or *(b)* a data-extraction kit  
+- A high-tech scanner or an encrypted commlink  
+
+{{pageNumber,auto}}
+\page
+
+{{wide
+## **Class Table**  
+| Level | Proficiency Bonus | Features | Spell Slots |  
+|:-:|:-:|:--|:-:|  
+| 1st | +2 | Favored Enemy, Natural Explorer | - |  
+| 2nd | +2 | Fighting Style, Spellcasting | 2 |  
+| 3rd | +2 | Ranger Archetype, Primeval Awareness | 3 |  
+| 4th | +2 | Ability Score Improvement | 3 |  
+| 5th | +3 | Extra Attack | 4 |  
+| 6th | +3 | Favored Enemy Improvement, Natural Explorer Improvement | 4 |  
+| 7th | +3 | Ranger Archetype Feature | 4 |  
+| 8th | +3 | Ability Score Improvement, Land’s Stride | 4 |  
+| 9th | +4 | - | 4 |  
+| 10th | +4 | Hide in Plain Sight | 4 |  
+| 11th | +4 | Ranger Archetype Feature | 4 |  
+| 12th | +4 | Ability Score Improvement | 4 |  
+| 13th | +5 | - | 4 |  
+| 14th | +5 | Favored Enemy Improvement, Vanish | 4 |  
+| 15th | +5 | Ranger Archetype Feature | 4 |  
+| 16th | +5 | Ability Score Improvement | 4 |  
+| 17th | +6 | - | 4 |  
+| 18th | +6 | Feral Senses | 4 |  
+| 19th | +6 | Ability Score Improvement | 4 |  
+| 20th | +6 | Foe Slayer | 4 |  
+}}
+
+
+## **Class Abilities**  
+### **Favored Enemy (Level 1)**  
+You have trained to hunt specific threats, such as **corporate enforcers, rogue paranormals, or extradimensional anomalies**. You gain advantage on tracking and intelligence checks related to your chosen enemy.
+
+### **Natural Explorer (Level 1)**  
+Instead of wild terrains, you specialize in navigating and surviving within **urban ruins, paranormal zones, or high-tech environments**.
+
+### **Fighting Style (Level 2)**  
+Choose a fighting style that reflects your training:
+- **Marksman:** +2 to attack rolls with ranged weapons.  
+- **Brawler:** +1 AC and unarmed strikes deal 1d6 damage.  
+- **Dual-Wielding:** When two-weapon fighting, you add your ability modifier to the second attack.  
+- **Hunter’s Precision:** Your attacks score a critical hit on a 19-20.  
+
+### **Primeval Awareness (Level 3)**  
+By expending a spell slot, you can detect the presence of **paranormal entities, reality distortions, or supernatural creatures** within a mile.
+
+## **Urban Adaptation (Favored Terrain Swap)**  
+*"You survive by adapting to your surroundings."*  
+
+At **3rd level**, you learn to **adjust to different environments** based on your **current location and needs**.  
+
+### **Effects:**  
+- **At the end of a Long Rest,** choose **three terrain types** from the list below.  
+- While in **one of your chosen terrains**, gain:  
+  - **Advantage on Investigation & Perception checks** to detect movement, traps, and terrain instability.  
+  - **Firearm Mastery:** Gain a **unique combat benefit** based on terrain (see table).  
+  - **Tactical Resting:** When resting in your Favored Terrain, reduce **exhaustion recovery** by **1 hour per level of exhaustion removed**.  
+{{pageNumber,auto}}
+\page
+### **Favored Terrain & Firearm Mastery Bonuses**  
+| **Terrain**            | **Firearm Bonus** |
+|------------------------|------------------|
+| **Rooftops & Catwalks** | **Braced Sniping:** Gain **+1 to ranged attack rolls** when shooting from **high ground.** |
+| **Subway Tunnels & Sewers** | **Echo Location:** Gain **+1 to attack rolls** when shooting through **doorways, tunnels, or tight spaces.** |
+| **Factories & Warehouses** | **Ricochet Mastery:** Once per turn, if you **miss**, you may **reroll the attack** but at **-2 penalty.** |
+| **Office Buildings & Corporate Halls** | **Suppressive Fire:** When making a ranged attack, you may **impose disadvantage on the target's next attack** if they fail a **Wisdom save (DC 8 + Prof + Dex).** |
+| **Neon Clubs & Gambling Dens** | **Quickdraw:** Once per turn, you may **swap weapons without using an action.** |
+| **Slums & Ruins** | **Cover Exploitation:** Gain **+1 AC when partially covered** (walls, furniture, debris). |
+
+---
+
+## **Environmental Awareness (Instinctive Hazard Detection)**  
+*"I know when something feels wrong."*  
+
+At **6th level**, your instincts **detect dangers** before they happen.  
+
+### **Effects:**  
+- **Auto-pass Perception checks** to detect:  
+  - **Unstable terrain** (crumbling concrete, weak floor panels, thin glass).  
+  - **Traps tied to terrain** (pressure plates, rigged doorways).  
+  - **Electrified surfaces & gas leaks** (live rails, power surges, exposed wiring).  
+- **Tactical Entry:** Gain **advantage on the first attack made** when moving through a **doorway, stairwell, or other restricted space**.  
+
+---
+
+## **Adaptive Positioning (Tactical Mobility)**  
+*"I move where the fight needs me."*  
+
+At **9th level**, you learn to **use terrain tactically**, making **small adjustments in combat** to gain an advantage.  
+
+### **Effects:**  
+- **When attacked by a ranged attack**, you may use your reaction to **shift 5 feet to partial cover**.  
+- **Moving through doorways or staircases** does **not provoke opportunity attacks**.  
+- **When fighting from elevated ground**, you deal **+2 bonus damage** to **ranged weapon attacks**.  
+
+---
+
+## **Environmental Manipulation (Shaping the Battlefield)**  
+*"I don’t just fight in terrain—I control it."*  
+
+At **13th level**, you can **manipulate the environment** to create **tactical advantages.**  
+
+### **Effects:**  
+- **Collapsing Cover:** As a Bonus Action, **target a structure within 15 feet** (weak furniture, shelves, unstable walls). The next attack made against it **automatically destroys it**, creating cover or obstacles.  
+- **Forced Terrain Shifts:** As a Bonus Action, target an enemy within 10 feet of a **terrain hazard** (unstable ground, slippery floors). The enemy must make a **Dexterity save (DC 8 + Prof + Wis)** or **step onto the hazard**.  
+
+
+## **Subclasses: Ranger Archetypes**  
+At **3rd level**, you choose a Ranger Archetype that defines your hunting style.
+
+
+---
+
+### **The Gridrunner**  
+*"If you exist in the system, I can find you."*  
+
+#### **Features & Playstyle**  
+- **Masters of surveillance, hacking, and digital forensics.**  
+- Uses **drones, data trails, and augmented tracking to hunt their prey.**  
+- Common among **corporate security agents, private detectives, and bounty hunters.**  
+
+#### **Archetype Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Network Trace** – Gain proficiency in Investigation. You can scan digital footprints to track a target’s movement through the city. |  
+| 7th | **Surveillance Mastery** – Gain advantage on Perception checks to detect creatures using cameras, sensors, or digital tracking. |  
+| 11th | **Augmented Hunt** – Once per short rest, you can mark a target. While marked, you always know their direction and they cannot hide from electronic surveillance. |  
+| 15th | **Omnipresent Stalker** – You can predict a target’s movements so precisely that they have disadvantage on attempts to escape or deceive you. |  
+
+{{pageNumber,auto}}
+\page
+
+### **The Rustborn**  
+*"The city crumbles, but I endure."*  
+
+#### **Features & Playstyle**  
+- **Thrives in abandoned, decaying, and toxic environments.**  
+- Excels at **scavenging, improvised survival, and resisting urban decay.**  
+- Common among **wasteland rangers, ruin explorers, and scavenger warriors.**  
+
+#### **Archetype Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Urban Resilience** – Gain resistance to poison and immunity to disease. You can subsist on contaminated food and water without harm. |  
+| 7th | **Scrap Weaponry** – You can craft makeshift weapons from debris, allowing you to deal extra damage with scavenged items. |  
+| 11th | **Adaptive Camouflage** – Gain advantage on Stealth checks when in ruined, abandoned, or industrial areas. |  
+| 15th | **Survivor’s Endurance** – When reduced to 0 HP, you can drop to 1 HP instead once per long rest. |  
+
+---
+
+### **The Etherstalker**  
+*"Nothing escapes me. Not even between realities."*  
+
+#### **Features & Playstyle**  
+- **Masters of tracking and fighting creatures that phase between worlds.**  
+- Uses **dimensional disruption, reality anchoring, and spectral weaponry.**  
+- Common among **A.S.T.R.A.L. operatives, ghost hunters, and interplanar bounty trackers.**  
+
+
+#### **Archetype Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Phase Tracker** – You can sense nearby entities that are invisible, phased, or not fully in this reality. |  
+| 7th | **Dimensional Anchor** – When you hit a creature, you can force it to stay in this plane for 1 minute, preventing teleportation or phasing. |  
+| 11th | **Void Strikes** – Your attacks ignore resistances and immunities against phased, ethereal, or extraplanar beings. |  
+| 15th | **Step Between Worlds** – Once per long rest, you can slip partially out of phase, becoming resistant to all damage except force. |  
+
+---
+
+### **The Riot Gunner**  
+*"One shot is all I need."*  
+
+#### **Features & Playstyle**  
+- **Excels at urban warfare, close-quarters marksmanship, and suppressing enemies.**  
+- Uses **high-speed combat tactics and precision shooting.**  
+- Common among **corporate snipers, riot police, and paramilitary operatives.**  
+
+#### **Archetype Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Suppressive Fire** – When you hit a creature with a ranged attack, they have disadvantage on their next attack. |  
+| 7th | **Tactical Repositioning** – When you use the Dash action, you can make a ranged attack as a bonus action. |  
+| 11th | **Armor Piercer** – Your ranged attacks ignore half and three-quarters cover. |  
+| 15th | **Killing Floor** – Once per long rest, when you reduce a creature to 0 HP, all enemies within 10 feet of the target must make a Wisdom saving throw or become frightened for 1 minute. |  
+
+---
+
+### **The Street Rat**  
+*"They own the towers. We own the streets."*  
+
+#### **Features & Playstyle**  
+- **Masters of navigating urban environments, blending into crowds, and using deception in combat.**  
+- Excels at **trickery, dirty fighting, and rapid escape.**  
+- Common among **gang scouts, thieves, and underground couriers.**  
+{{pageNumber,auto}}
+\page
+#### **Archetype Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Blend In** – Gain proficiency in Deception. When in a crowd, you can use a bonus action to Hide. |  
+| 7th | **Quick Hands** – You can draw or stow a weapon and make an attack as part of the same action. |  
+| 11th | **Slippery Target** – When an enemy attacks you, you can use your reaction to impose disadvantage on the attack. |  
+| 15th | **Urban Ghost** – Once per long rest, you can disappear into a crowd, becoming undetectable for 1 minute. |  
+
+---
+
+### **The Augmented Tracker**  
+*"My body is an upgrade. My prey has no escape."*  
+
+#### **Features & Playstyle**  
+- **Masters of cybernetic enhancements for enhanced hunting.**  
+- Uses **mechanical precision, augmented perception, and enhanced reflexes.**  
+- Common among **corporate super-soldiers, cybernetic hunters, and enhanced mercenaries.**  
+
+#### **Archetype Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Augmented Vision** – You gain darkvision up to 120 feet and advantage on Perception checks using sight. |  
+| 7th | **Cybernetic Reflexes** – Gain a +2 bonus to initiative and advantage on Dexterity saving throws. |  
+| 11th | **Neural Targeting** – Once per short rest, you can analyze a target, allowing your next attack against them to automatically hit. |  
+| 15th | **Overclocked Pursuit** – Once per long rest, you can enter a heightened state for 1 minute, doubling your speed and granting you an additional reaction each round. |  
+
+---
+
+### **Urban Ghost**  
+*"The city is my hunting ground. I am never seen, only felt."*  
+
+#### **Features & Playstyle**  
+- **Thrives in urban environments, moving unseen and striking with precision.**  
+- Specializes in **stealth, assassination, and blending into cityscapes.**  
+- Common among **rogue operatives, street hunters, and corporate spies.**  
+
+#### **Archetype Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Ghost Step** – Gain advantage on Stealth checks. You ignore difficult terrain in urban environments. |  
+| 7th | **Silent Predator** – Gain advantage on attack rolls against unaware targets. If you surprise an enemy, your first hit deals extra damage equal to your Ranger level. |  
+| 11th | **Shadow Meld** – After making an attack, you can use a bonus action to turn invisible until the start of your next turn. |  
+| 15th | **Phantom Stalker** – You cannot be detected by mundane or magical means unless you choose to reveal yourself. |  
+
+
+### **Anomaly Hunter**  
+*"Supernatural or not, everything leaves a trail."*  
+
+#### **Features & Playstyle**  
+- **Trains to track, identify, and neutralize supernatural threats.**  
+- Wields **paranormal senses, banishment strikes, and reality-warping resistance.**  
+- Common among **A.S.T.R.A.L. operatives, cryptid hunters, and rogue anomaly specialists.**  
+
+#### **Archetype Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Paranormal Sense** – You instinctively detect anomalies, ghosts, or other supernatural presences within 60 feet. |  
+| 7th | **Warded Mind** – Gain resistance to mind-affecting effects and advantage on saving throws against fear and charm. |  
+| 11th | **Banishment Strike** – Once per short rest, when you strike a supernatural entity, you can force it to make a Charisma saving throw or be temporarily exiled from reality. |  
+| 15th | **Unshakable Tracker** – You always know the direction of any marked target, even through teleportation or planar shifts. |  
+
+---
+
+### **Corporate Retainer**  
+*"I don’t work for free. You get what you pay for."*  
+
+#### **Features & Playstyle**  
+- **Elite scout, enforcer, and asset retriever for corporate interests.**  
+- Specializes in **tactical precision, rapid response, and overwhelming firepower.**  
+- Common among **security contractors, mercenaries, and corporate black ops units.**  
+{{pageNumber,auto}}
+\page
+#### **Archetype Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Tactical Precision** – Mark a target as a bonus action. All attacks against a marked target deal additional damage equal to your Intelligence modifier. |  
+| 7th | **Cybernetic Reflexes** – Gain a +2 bonus to initiative and advantage on Dexterity saving throws. |  
+| 11th | **Suppression Fire** – When you hit a target with a ranged attack, they must make a Wisdom saving throw or be unable to take reactions until your next turn. |  
+| 15th | **Unyielding Pursuer** – You are immune to being charmed or frightened. You also ignore movement penalties while chasing a marked target. |  
+
+---
+
+### **Deadeye Sniper**  
+*"One shot. One kill. That’s the job."*  
+
+#### **Features & Playstyle**  
+- **Specializes in long-range marksmanship and precision eliminations.**  
+- Uses **stealth, scope-assisted targeting, and deadly precision shots.**  
+- Common among **corporate assassins, military sharpshooters, and rogue snipers.**  
+
+#### **Archetype Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Scoped Focus** – Gain proficiency with sniper rifles. If you take an entire turn aiming without moving, your next shot automatically lands as a critical hit. |  
+| 7th | **Ghost Positioning** – After firing a ranged attack, you can move up to half your speed without provoking opportunity attacks. |  
+| 11th | **Lethal Precision** – When you make a ranged attack at least 60 feet away, you can add your Intelligence modifier to the damage roll. |  
+| 15th | **Assassination Protocol** – Once per long rest, if you hit a creature with a ranged attack, you can force them to make a Constitution saving throw. On failure, they drop to 0 HP instantly. |  
+
+---
+
+## **Multiclassing**  
+If your campaign allows multiclassing, use the following rules for a **Ranger** multiclass character.  
+
+### **Ability Score Minimums**  
+- Dexterity 13, Wisdom 13  
+
+### **Proficiencies Gained**  
+- Light armor, medium armor, simple weapons, martial weapons  
+
+---
+
+## **Quick Build**  
+You can make a **Ranger** quickly by following these suggestions:  
+- Choose **Human or Elf** for a thematic fit.  
+- Pick the **Bounty Hunter** or **Corporate Operative** background.  
+- Prioritize **Dexterity and Wisdom**.  
+- Take a long-range rifle and an urban survival pack for maximum effectiveness.  

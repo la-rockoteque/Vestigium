@@ -1,0 +1,1095 @@
+```metadata
+title: Ashen Vault - Class Paladin
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+/*=======--- Example CSS styling ---=======*/
+/* Any CSS here will apply to your document! */
+@import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Oswald:wght@200..700&family=Permanent+Marker&display=swap);
+:root {
+    --rotate: 20deg;
+    --left: unset;
+    --top: unset;
+    --correction: "correction";
+    --source: "https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png";
+}
+
+
+.page:has(.frontCover) {
+    background-color: black;
+}
+
+.page:has(.frontCover) .coverBackground {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -1cm;
+    left: 0;
+    z-index: -1;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/23f008e924bee585b8ec490242c688b5.webp');
+    background-size: cover;
+    background-position: center;
+    mask-image: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 20%), rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: linear-gradient(270deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+.page:has(.frontCover) .coverImage {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -7cm;
+    left: 0;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/0a0b5e7e9496fd06deac901172f5455f.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.page:has(.frontCover) h1,
+.page:has(.frontCover) h2,
+.page:has(.frontCover) h3 {
+    border-bottom: unset;
+    -webkit-text-stroke: unset;
+    text-stroke: unset;
+    ;
+}
+
+.page:has(.frontCover) h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: White;
+    margin-top: 50px;
+    font-family: "Oswald", sans-serif;
+    background: none;
+}
+
+.page:has(.frontCover) h2 {
+    font-size: 2rem;
+    letter-spacing: 8.5px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.page:has(.frontCover) h3 {
+    margin-top: 10px;
+    text-decoration: underline overline #d1d1d1;
+}
+
+.page:has(.frontCover) .footnote {
+    font-size: 1.5rem;
+    color: #d1d1d1;
+    margin-top: 30px;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 2px gray;
+    ;
+    text-stroke: 2px gray;
+    text-align: right;
+}
+
+/* Removes Drop Caps */
+.page h1 + p:first-letter {
+    all: unset;
+}
+.page .footnote {
+    border-top: lightgray dotted 2px;
+    width: 80%;
+    color: gray;
+    bottom: 28px;
+}
+.page .footnote > h1 {
+    background-color: transparent;
+    border: none;
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+.inline-block.pageNumber {
+    font-size: 1cm;
+    color: black;
+}
+/* Removes Small-Caps in first line */
+.page h1 + p:first-line {
+    all: unset;
+}
+.page {
+    background-color: #f8f8f8;
+    /* Light gray background */
+    background-image: radial-gradient(
+        circle,
+        rgba(0, 0, 0, 0.1) 1px,
+        transparent 1px
+    );
+    background-size: 20px 20px;
+    /* Adjust spacing */
+    font-family: "Courier New", Courier, monospace;
+    /* Typewriter / Redacted Report */
+}
+
+.page:has(.preface) {
+    columns: 1;
+    column-span: all;
+    gap: 5px;
+    text-align: center;
+
+}
+
+
+.page:after,
+.page:has(.frontCover):after,
+.page:has(.preface):after,
+.page:has(.insideCover):after,
+.page:nth-child(even)::after {
+    all: unset;
+    content: "Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.";
+    transform-origin: top right;
+    transform: rotate(270deg);
+    white-space: nowrap;
+    position: absolute;
+    right: 1.5cm;
+    top: 0px;
+    color: gray;
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    width: 29cm;
+}
+.page:before {
+    all: unset;
+    content: "Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.";
+    transform-origin: top left;
+    transform: rotate(90deg);
+    white-space: nowrap;
+    position: absolute;
+    left: 1.5cm;
+    top: 0px;
+    color: gray;
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    width: 29cm;
+}
+.page:has(.preface) .logo {
+    top: 10cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 0.075cm black);
+}
+.page:has(.insideCover) .logo {
+    top: 0.5cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 0.075cm black);
+}
+.page:has(.insideCover) p,
+.page:has(.insideCover) ul {
+    margin-top: 20px;
+    text-align: left;
+}
+.page:has(.insideCover) .logo > img {
+    height: 2cm;
+    width: 1.8cm;
+    opacity: 0.1;
+    filter: none;
+}
+.page:has(.preface) .logo > img {
+    height: 10cm;
+    width: 9cm;
+    opacity: 0.1;
+    filter: none;
+}
+
+.page:has(.preface),
+.page:has(.insideCover) {
+    background: none;
+    background-color: #f8f8f8;
+}
+
+.coverpicture {
+    margin-top: 1.5cm;
+    max-width: 15cm;
+    max-height: 15cm;
+}
+
+.coverpicture > img {
+    max-width: 100%;
+    max-height: 100%;
+    mix-blend-mode: luminosity;
+}
+
+.page h1 {
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    color: #2c2c2c;
+    /* Vault Black */
+    background-color: #ededed;
+    /* Subtle Header Background */
+    padding: 5px;
+    border-bottom: 3px solid #2c2c2c;
+    /* Strong Bureaucratic Divider */
+}
+.page:has(.insideCover) h1,
+.page:has(.preface) h1,
+.page:has(.partCover) h1 {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    background-color: #ededed;
+    /* Subtle Header Background */
+    color: #2c2c2c;
+    /* Vault Black */
+    padding: 5px;
+    border-bottom: 0;
+}
+.page:has(.preface) h1 {
+    -webkit-text-stroke: 0;
+}
+.page:has(.insideCover) h1 {
+    background-image: linear-gradient(
+        45deg,
+        #f7f7f7 25%,
+        #dbdbdb 25%,
+        #dbdbdb 50%,
+        #f7f7f7 50%,
+        #f7f7f7 75%,
+        #dbdbdb 75%,
+        #dbdbdb 100%
+    );
+    background-size: 14.14px 14.14px;
+}
+.page:has(.insideCover) .footnote,
+.page:has(.preface) .footnote,
+.page:has(.partCover) .footnote {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+    -webkit-text-stroke: 0;
+    text-align: left;
+}
+.block .footnote {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+}
+.page h2 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #2c2c2c;
+    border-bottom: 2px solid #8f8f8f;
+}
+.page:has(.insideCover) h2,
+.page:has(.preface) h2,
+.page:has(.partCover) h2 {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+    border-bottom: 0;
+}
+.page:has(.preface) h2 {
+    -webkit-text-stroke: 0;
+}
+.page h3,
+.page:has(.insideCover) h3,
+.page:has(.preface) h3,
+.page:has(.partCover) h3 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    color: #5a5a5a;
+    text-transform: uppercase;
+    border-bottom: gray dashed 1px;
+}
+.page h4,
+.page:has(.insideCover) h4,
+.page:has(.preface) h4,
+.page:has(.partCover) h4 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    color: #8f8f8f;
+}
+.page .redacted {
+    background-color: black;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+.page:has(.preface) hr {
+    margin: 10px;
+    position: relative;
+    width: 100%;
+    height: 5mm;
+    /* Adjust height to match a real ruler */
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0mm,
+        transparent 0.8mm,
+        black 0.8mm,
+        black 1mm
+    );
+    filter: none;
+}
+.page:has(.insideCover) hr {
+    position: relative;
+    width: 100%;
+    height: 1mm;
+    /* Adjust height to match a real ruler */
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0mm,
+        transparent 0.8mm,
+        black 0.8mm,
+        black 1mm
+    );
+}
+page hr {
+    border: 2px dashed #8f8f8f;
+    /* Looks like an official document break */
+}
+.page blockquote {
+    background-color: #ededed;
+    border-left: 4px solid #2c2c2c;
+    padding: 10px;
+    font-family: "Courier New", Courier, monospace;
+}
+/* --- Tables: Bureaucratic Report Style --- */
+.page table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.page th {
+    background-color: #d6d6d6;
+    /* Ash Gray */
+    color: #2c2c2c;
+    /* Vault Black */
+    padding: 8px;
+    border-bottom: 3px solid #8f8f8f;
+    /* Stronger Border */
+    text-transform: uppercase;
+}
+.page td {
+    background-color: #f8f8f8;
+    /* Paper White */
+    color: #5a5a5a;
+    /* Charcoal Gray */
+    padding: 8px;
+    border-bottom: 1px solid #bfbfbf;
+    /* Soft Grid */
+}
+/* --- Links: Subtle and Official-Looking --- */
+.page a {
+    color: #2c2c2c;
+    text-decoration: none;
+    border-bottom: 1px dashed #8f8f8f;
+}
+.page a:hover {
+    color: #5a5a5a;
+    border-bottom: 1px solid #5a5a5a;
+}
+.post-it {
+    left: var(--left);
+    top: var(--top);
+    transform: rotate(var(--rotate));
+    max-width: 250px;
+    max-height: 240px;
+    width: 250px;
+    height: 240px;
+    position: relative;
+    background: #ffa;
+    overflow: hidden;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 0 0 0 30px/45px;
+    box-shadow: inset 0 -40px 40px rgba(0, 0, 0, 0.05),
+        inset 0 25px 10px rgba(0, 0, 0, 0.07), 0 5px 6px 5px rgba(0, 0, 0, 0.2);
+    font-family: "Cedarville Cursive", cursive;
+    line-height: 1.7em;
+    font-size: 19px;
+    -webkit-mask-image: url(data:image/png;
+    base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+    color: #130d6b;
+}
+.post-it:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    background: #ffa;
+    box-shadow: 3px -2px 10px rgba(0, 0, 0, 0.2),
+        inset 15px -15px 15px rgba(0, 0, 0, 0.3);
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    transform: skewX(25deg);
+}
+.smudge {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/5d4334616f20bd1d1f059f6007892650.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.smudge:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 10cm;
+    height: 10cm;
+
+    background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 1) 19%,
+        rgba(255, 255, 255, 0) 52%
+    );
+    background-blend-mode: lighten;
+}
+
+.coffee-stain {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f74119a30ba73c9c5b3a7cc1aa9d7d42.png")
+        no-repeat center;
+    background-size: contain;
+    mix-blend-mode: multiply;
+}
+
+.corrected {
+    position: relative;
+    text-decoration: line-through;
+    color: black;
+}
+
+.corrected::after {
+    content: var(--correction, "Default Text");
+    font-size: 12px;
+    color: #0f3d75;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    font-family: "Cedarville Cursive", cursive;
+
+    -webkit-mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+}
+
+.paperclip {
+    position: absolute;
+    display: block;
+    top: -10px;
+    left: var(--left, 60);
+    width: 50px;
+    height: 150px;
+    transform: rotate(-15deg); /* Slight tilt for realism */
+    opacity: 0.8; /* Slight transparency */
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/421f492b3660fca7d119964aff1f24db.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.polaroid {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    max-width: 10cm;
+    max-height: 10cm;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png")
+        no-repeat center;
+    background-size: contain;
+    transform-origin: top left;
+}
+
+.polaroid > p > img {
+    margin-left: 1.26cm;
+    margin-top: 0.74cm;
+    height: 7.4cm;
+    width: 7.5cm;
+    object-fit: cover;
+    mix-blend-mode: screen;
+}
+
+.doodle.dog1 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/6d860afef532110ae76b559ace75dfa7.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.dog2 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/e2820894e1c1c58cb9d710e5522858fc.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.cat1 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/b43f55649f7f416de20109ce0f3b6722.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.cat2 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/898133d59ab4ce7d036283cf075620e2.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.doodle {
+    position: relative;
+    top: var(--top);
+    left: var(--left);
+    display: block;
+    width: 150px;
+    height: 150px;
+    -webkit-mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-repeat: repeat;
+}
+
+.fading {
+    background: linear-gradient(
+        to bottom,
+        black 10%,
+        rgba(0, 0, 0, 0.8) 30%,
+        rgba(0, 0, 0, 0.6) 50%,
+        rgba(0, 0, 0, 0.4) 70%,
+        rgba(0, 0, 0, 0.1) 90%,
+        transparent
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+```
+
+{{frontCover}}
+{{coverBackground}}
+## Class
+# Paladin
+## Keeper of Sacred Grounds (Balanced Version)
+
+{{footnote 
+#### A.S.T.R.A.L Training Material
+}}
+\page
+
+{{insideCover}}
+
+# CONFIDENTIAL  
+## ⚠ A.S.T.R.A.L.⚠  
+## ANTHROPOLOGICAL SURVEY DIVISION  
+___  
+
+This document is the sole property of the **Agency for Surveillance, Tracking, and Regulation of Anomalous Landscapes (A.S.T.R.A.L.)** and is classified under **Biometric Analysis Protocol O-92**. Unauthorized access, duplication, or distribution constitutes a direct violation of the **Anomalous Contingency Act (A.C.A. §17-42)** and will trigger immediate countermeasures.  
+
+By accessing this file, you acknowledge:  
+- You have the **necessary clearance** to review classified **biological intelligence**.  
+- You are subject to **continuous biometric and cognitive monitoring** under **Anthropological Compliance Mandate 24-B**.  
+- Any **unauthorized replication or dissemination** will result in the activation of **Containment Directive Theta**, authorizing full intervention by **Bio-Security Division Kappa**.  
+- Disclosure of restricted genetic analysis will **invoke subject-specific erasure protocols**, up to and including **cognitive redaction under Directive 88-P**.  
+
+This document provides **ongoing surveillance data, species profiling, and genetic deviation reports** concerning the recognized **sentient populations of Concord City and its surrounding territories**. Due to **unresolved discrepancies regarding human emergence events**, data integrity remains under **constant review by the Oversight Bureau (O.B.)**.  
+
+If you are not the intended recipient, cease all interaction immediately and report this breach to **A.S.T.R.A.L. Oversight Bureau (O.B.)** via secure terminal [O.B.//DIRECT-LINK-SEC/347-99]. Failure to comply will escalate to **Genetic Contingency Response Protocol Cobalt-7**.  
+
+{{logo ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png)}}  
+
+### **Vorraki – Species Designation: Homo Voracis**  
+**Summary:** The **Vorraki** are **genetically optimized for high-impact physicality, rapid muscular repair, and combat-oriented reflex enhancement**. Their **distinct genetic subtypes** exhibit **adaptive resilience**, ensuring dominance across a wide range of physically demanding environments. While traditionally relegated to **security, enforcement, and paramilitary operations**, emerging Vorraki power structures suggest an **ongoing transition toward economic and political self-sufficiency**, particularly in **black-market security, logistics, and organized paramilitary enterprises**. **Containment is not advised—negotiation remains the recommended control mechanism.**  
+
+**A.S.T.R.A.L. – DEFENDING REALITY AGAINST GENETIC UNCERTAINTY**  
+**Everything is under observation.**  
+
+{{pageNumber,auto}}
+\page
+## **Paladin**  
+*Corporate Crusader | Paranormal Knight | Oathbound Enforcer | Reality Warden*  
+
+> *"Faith isn’t in gods—it’s in the unshakable will to shape the world."*  
+> — **Commander Aven Voss, Iron Pact**  
+
+### **Thematic Overview**  
+Paladins in Concord City are not just warriors of faith—they are **enforcers of ideology, keepers of ancient oaths, and wielders of reality-binding power**. Some swear allegiance to **corporations, noble houses, or forgotten entities**, while others are **rogue zealots** pursuing their own brand of justice. Their power comes not from deities, but from **absolute conviction, paranormal attunement, or secret doctrines**.
+- Paladins serve as **champions of law, crusaders of forgotten truths, or elite corporate enforcers**.  
+- Others walk the path of **anarchists, outcasts, or rogue knights** upholding their own code.  
+- Their oaths bind them to a **cause, a purpose, or a hidden truth only they understand**.  
+
+### **Creating a Paladin**  
+- What do you serve? A corporation, a cause, something supernatural?  
+- Did you swear your oath willingly, or was it forced upon you?  
+- How do you enforce your beliefs—through justice, order, or sheer force?  
+
+## **Class Features**  
+As a **Paladin**, you gain the following class features.
+
+### **Hit Points**  
+- **Hit Dice:** *1d10 per Paladin level*  
+- **Hit Points at 1st Level:** *10 + Constitution modifier*  
+- **Hit Points at Higher Levels:** *1d10 (or 6) + Constitution modifier per level after 1st*  
+
+### **Proficiencies**  
+- **Armor:** *All armor, shields*  
+- **Weapons:** *Simple weapons, martial weapons*  
+- **Tools:** *None*  
+- **Saving Throws:** *Wisdom, Charisma*  
+- **Skills:** *Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion*  
+
+### **Equipment**  
+You start with the following equipment, in addition to any granted by your background:  
+- *(a)* a tactical longsword or *(b)* a plasma hammer  
+- *(a)* a heavy pistol with 10 rounds or *(b)* a combat shield  
+- *(a)* a corporate-issued badge or *(b)* a knightly insignia  
+- A set of encrypted mission dossiers or an ancient relic  
+
+{{wide
+## **Class Table**  
+| Level | Proficiency Bonus | Features | Spell Slots |  
+|:-:|:-:|:--|:-:|  
+| 1st | +2 | Divine Sense, Lay on Hands | - |  
+| 2nd | +2 | Fighting Style, Spellcasting, Divine Smite | 2 |  
+| 3rd | +2 | Sacred Oath | 3 |  
+| 4th | +2 | Ability Score Improvement | 3 |  
+| 5th | +3 | Extra Attack | 4 |  
+| 6th | +3 | Aura of Protection | 4 |  
+| 7th | +3 | Sacred Oath Feature | 4 |  
+| 8th | +3 | Ability Score Improvement | 4 |  
+| 9th | +4 | - | 4 |  
+| 10th | +4 | Aura of Courage | 4 |  
+| 11th | +4 | Improved Divine Smite | 4 |  
+| 12th | +4 | Ability Score Improvement | 4 |  
+| 13th | +5 | - | 4 |  
+| 14th | +5 | Cleansing Touch | 4 |  
+| 15th | +5 | Sacred Oath Feature | 4 |  
+| 16th | +5 | Ability Score Improvement | 4 |  
+| 17th | +6 | - | 4 |  
+| 18th | +6 | Aura Expansion | 4 |  
+| 19th | +6 | Ability Score Improvement | 4 |  
+| 20th | +6 | Ultimate Oath Feature | 4 |  
+}}
+
+{{pageNumber,auto}}
+\page
+## **Class Abilities**  
+### **Divine Sense (Level 1)**  
+You can detect **paranormal presences, reality distortions, or ideological corruption** nearby.
+
+### **Lay on Hands (Level 1)**  
+You can restore hit points by channeling your **inner conviction or anomalous energy**, with a pool of **5 HP per Paladin level**.
+
+### **Fighting Style (Level 2)**  
+Choose a fighting style that reflects your training and beliefs.
+- **Dueling:** +2 to damage while wielding a one-handed weapon.  
+- **Defense:** +1 AC while wearing armor.  
+- **Great Weapon Fighting:** Reroll 1s and 2s on melee weapon damage.  
+- **Protection:** Use your shield to impose disadvantage on attacks.  
+
+### **Divine Smite (Level 2)**  
+You can channel your **ideological will or supernatural energy** into a strike, dealing **radiant or necrotic damage**.
+
+## **Sacred Footing (Holy & Unholy Terrain)**  
+*"The battlefield itself answers my call."*  
+
+At **3rd level**, your divine strength changes based on **where you fight**.  
+
+### **Effects:**  
+- **Once per Long Rest**, if standing on **sanctified ground**, you gain **temporary HP equal to your proficiency bonus** after resting.  
+- If standing on **desecrated ground**, your **first melee attack each turn** deals **extra radiant damage equal to half your Paladin level**.  
+- You may spend **1 minute blessing an area**, making it **count as sanctified terrain for 1 hour**.  
+
+### **Extending Effects** (New Feature):  
+- **At level 11**, you may spend **Lay on Hands (5 HP per minute)** to **extend the sanctified terrain’s duration.**  
+- **At level 15**, you may spend **10 Lay on Hands HP** to activate **Sacred Footing's radiant damage on any terrain for 1 minute.**  
+
+---
+
+## **Aura of Sanctity (Holy Aura Enhancement)**  
+*"My presence alone turns the tide of battle."*  
+
+At **7th level**, your **Aura of Protection** gains **new effects** depending on the terrain.  
+
+### **Effects:**  
+- **Sanctified Ground:**  
+  - **Allies within your aura gain +1 AC**.  
+  - **Enemy creatures suffer disadvantage on Wisdom saves.**  
+- **Desecrated Ground:**  
+  - **Your melee attacks deal +1d8 radiant damage (1/turn).**  
+  - **Enemy spellcasters must make a Constitution save (DC 8 + Cha + Prof) when casting, or their spell is weakened (-1 spell level).**  
+
+---
+
+## **Consecrate or Corrupt (Tactical Terrain Control)**  
+*"The ground bends to my faith."*  
+
+At **10th level**, you can **bless or corrupt terrain** during combat.  
+
+### **Effects:**  
+- **As an Action,** you may transform a **15-foot radius** into **Sanctified or Desecrated ground** for **5 rounds**.  
+- This ability **can only be used once per Short Rest**.  
+- **If you take damage while maintaining the effect**, make a **Concentration Check (DC 10 + half damage taken)**. If you fail, the effect **ends early**.  
+- **At level 18**, you may spend **Lay on Hands (5 HP per round)** to **extend the effect beyond 5 rounds**.  
+
+### **Choose one effect when activating this ability:**  
+
+| **Effect Name**                  | **Effect** |
+|----------------------------------|------------|
+| **Holy Purification**            | Cleanses an area, **removing curses, dispelling magical darkness**. |
+| **Unholy Defiance**              | Warps an area, **causing radiant magic to fail and shadow creatures to heal 5 HP per round.** |
+| **Martyr’s Haven**               | Allies standing in the zone **regain 1d4 HP at the start of their turn.** |
+| **Divine Reckoning**             | The ground **erupts with divine fire**, forcing creatures inside to make a **Dexterity save or take 4d8 Radiant damage.** |
+
+{{pageNumber,auto}}
+\page
+
+## **Sacred Keeper’s Rite (Permanent Sanctification Ritual)**  
+*"A warrior’s duty is not only to fight, but to protect."*  
+
+At **15th level**, you can **permanently sanctify or desecrate** a site **through a complex ritual.**  
+
+### **Effects:**  
+- **The ritual takes 24 hours** and must be **performed on a site fitting the desired effect.**  
+- The area **remains altered unless forcibly reversed** by **an opposing ritual or powerful force.**  
+- **At level 20,** you may **spend Lay on Hands (50 HP)** to **instantly complete the ritual** instead of waiting 24 hours.  
+
+### **Choose one effect when performing the ritual:**  
+
+| **Effect Name**                  | **Effect** |
+|----------------------------------|------------|
+| **Eternal Sanctuary**            | The site becomes permanently **holy**, preventing undead from entering. |
+| **Oathbreaker’s Curse**          | The site **rejects divine magic**, weakening Paladins and Clerics. |
+| **Warrior’s Rest**               | **Allies who sleep here heal double HP on a Long Rest.** |
+| **Blight’s Heart**               | **Undead summoned here gain +2 AC and resist radiant damage.** |
+
+---
+
+## **Divine Battlefield (Ultimate Sanctification Ability)**  
+*"I control the fate of this place."*  
+
+At **20th level**, you may **sanctify or desecrate an entire battlefield** **once per Long Rest**.  
+
+### **Effects:**  
+- As an **Action**, you **declare this place a divine or cursed battlefield**.  
+- The area within **30 feet** becomes either **Sanctified or Desecrated** for **10 minutes**.  
+- You may **spend Lay on Hands (10 HP per additional minute)** to **extend its duration.**  
+- This grants the **full effects of sacred or cursed ground** for the **entire duration.**  
+- Additionally, you **gain one of the following:**  
+
+| **Effect Name**                  | **Effect** |
+|----------------------------------|------------|
+| **Divine Bastion**               | **Allies within 30 feet gain resistance to all damage.** |
+| **Cursed Doom**                  | **All enemies in the area take 2d8 Necrotic damage at the start of their turns.** |
+| **Guardian’s Wrath**             | **Once per turn, your Divine Smite deals max damage.** |
+| **Revenant’s Pact**              | **If you fall in battle, you may fight for 1 additional round before dying.** |
+
+---
+
+## ** Special Spellcasting Rules**  
+- **Some spells can only be cast in Sanctified lands**, while others require **Desecrated ground**.  
+- **Examples:**  
+  - *Hallow* and *Divine Word* **require sanctified ground**.  
+  - *Summon Undead* and *Dark Pact* **require desecrated ground**.  
+
+## **Subclasses: Sacred Oaths**  
+At **3rd level**, you swear an oath that defines your role in the world.
+
+In Concord City, paladins are not holy knights but enforcers of power, ideology, and order. Whether aligned with corporations, rebellion, monarchy, or anomaly containment, these warriors uphold their oaths with unwavering commitment.
+
+
+### **Oath of Profit**
+*“Wealth is power, and power is justice.”*
+
+#### **Tenets of Profit**
+- **Maximize Returns** – Every action should generate measurable value.
+- **Brand Loyalty** – Uphold the interests of your corporate benefactors.
+- **Monetize Justice** – Righteousness is defined by the highest bidder.
+- **Eliminate Competition** – Remove threats to the corporate status quo.
+
+#### **Oath Spells**
+| Level | Spells |
+|-------|--------|
+| 3rd | Corporate Mandate, Data Scan |
+| 5th | Market Suggestion, Lockdown Protocol |
+| 9th | Signal Jam, Privacy Protocol |
+| 13th | Executive Privilege, Corporate Mass Production |
+| 17th | Hostile Acquisition, Containment Barrier |
+{{pageNumber,auto}}
+\page
+#### **Channel Divinity**
+- **Hostile Takeover** – As an action, force a creature to make a Wisdom saving throw. On a failure, they obey your verbal commands for 1 minute (as if under the *Market Suggestion* spell).
+- **Market Stability** – You create a 30-foot aura where allies gain temporary HP equal to your Charisma modifier whenever they make a financial or persuasion-based transaction.
+
+---
+
+### **Oath of Resistance**
+*“We stand, we fight, we never kneel.”*
+
+#### **Tenets of Resistance**
+- **Defy Tyranny** – Challenge any system that oppresses the weak.
+- **No Chains Shall Bind** – No law or corporate edict can dictate your fate.
+- **Strength in Unity** – The cause survives only if we protect one another.
+- **Die on Your Feet** – Never surrender to those who hoard power.
+
+#### **Oath Spells**
+| Level | Spells |
+|-------|--------|
+| 3rd | Sonic Suppression, Safehouse Protocol |
+| 5th | Infrastructure Collapse, Ghost Transit |
+| 9th | Overclocked Reflexes, Encrypted Barrier |
+| 13th | Untethered Motion, Executive Privilege |
+| 17th | Corporate Crackdown, Containment Barrier |
+
+#### **Channel Divinity**
+- **Rally the Masses** – Inspire up to six creatures within 30 feet, granting them advantage on attack rolls and saving throws against being charmed or frightened for 1 minute.
+- **Saboteur’s Strike** – When you hit a creature or object, you can deal bonus force damage equal to twice your paladin level and disable one function (e.g., a weapon, a cybernetic implant, or a security system) for 1 minute.
+
+---
+
+### **Oath of Allegiance**
+*“Our duty is eternal, our loyalty unbroken.”*
+
+#### **Tenets of Allegiance**
+- **Serve the Sovereign** – The ruler is the heart of the city; you are the sword and shield.
+- **Honor Above All** – Your word is your bond, and betrayal is the gravest sin.
+- **Strength Through Order** – A stable society requires a structured hierarchy.
+- **Defend the Legacy** – The past must be preserved to guide the future.
+
+#### **Oath Spells**
+| Level | Spells |
+|-------|--------|
+| 3rd | Challenge of Rank, Royal Decree |
+| 5th | Lockdown Protocol, Warding Bond |
+| 9th | Imperial Radiance, Bureaucratic Override |
+| 13th | Sentinel of Order, Historical Rectification |
+| 17th | Divine Enforcement, Royal Mandate |
+
+#### **Channel Divinity**
+- **Imperial Edict** – As an action, force up to three creatures to make a Charisma saving throw. On a failure, they cannot attack you or your allies for 1 minute unless directly provoked.
+- **Royal Decree** – You can grant temporary HP to all allies within 30 feet equal to twice your Charisma modifier and remove one status effect from each affected ally.
+
+---
+
+### **Oath of Protection**
+*“To Secure, To Contain, To Protect.”*
+
+#### **Tenets of Protection**
+- **Contain the Unknown** – Anomalies must be neutralized before they endanger society.
+- **Preserve Order** – Reality must remain stable, and threats must be controlled.
+- **Shield the Innocent** – Protect those who cannot defend themselves from the unseen.
+- **Secrecy is Security** – The public does not need to know what lurks in the dark.
+
+#### **Oath Spells**
+| Level | Spells |
+|-------|--------|
+| 3rd | Detect Anomaly, Protection from Corruption |
+| 5th | Zone of Truth, Contain Threat |
+| 9th | Dispel Anomaly, Countermeasure |
+| 13th | Banish Anomaly, Containment Field |
+| 17th | Reality Lockdown, Total Erasure |
+
+#### **Channel Divinity**
+- **Nullification Field** – As an action, create a 10-foot aura for 1 minute where spells and supernatural effects within the area are negated unless they succeed on a spellcasting ability check against your spell save DC.
+{{pageNumber,auto}}
+\page
+- **Emergency Containment** – As an action, bind a creature or anomaly in glowing energy for 1 minute, preventing it from teleporting or phasing through matter. It must succeed on a Strength saving throw to break free.
+
+---
+
+### **Oath of the Enforcer**
+*"Law is not about justice. It is about control."*  
+
+#### **Tenets of the Enforcer**
+- **Law is Absolute** – The law must be upheld, regardless of morality.  
+- **No Exceptions** – Mercy is a weakness that leads to disorder.  
+- **The Strongest Hand** – Power belongs to those who can wield it effectively.  
+- **Punish the Unruly** – Dissent must be silenced before it spreads.  
+
+#### **Oath Spells**  
+| Level | Spells |  
+|-------|--------|  
+| 3rd | Compliance Protocol, Brutal Arrest |  
+| 5th | Lockdown Protocol, Corporate Edict |  
+| 9th | Signal Jam, Containment Field |  
+| 13th | Martial Law, Unyielding Authority |  
+| 17th | Indiscriminate Judgment, Reality Lockdown |  
+
+#### **Channel Divinity**  
+- **Impose Order** – As an action, force up to three creatures within 30 feet to make a Wisdom saving throw. On a failure, they are frightened of you for 1 minute.  
+- **Judgment Strike** – When you hit a creature, you can mark them as a criminal. They take additional psychic damage equal to twice your Paladin level and have disadvantage on saving throws against your abilities for 1 minute.  
+
+---
+
+### **Oath of the Forsaken**
+*"I am the line between their world and ours."*  
+
+#### **Tenets of the Forsaken**
+- **Sacrifice for Order** – To protect the world, you must be willing to lose yourself.  
+- **Contain the Unknowable** – The less people know, the safer they are.  
+- **Eradicate the Unnatural** – No mercy for what does not belong.  
+- **Walk Alone** – This duty is yours alone, and no one will thank you for it.  
+
+#### **Oath Spells**  
+| Level | Spells |  
+|-------|--------|  
+| 3rd | Detect Anomaly, Contain Threat |  
+| 5th | Nullify Presence, Spectral Shackles |  
+| 9th | Dispel Anomaly, Banished Echo |  
+| 13th | Erase Entity, Planar Isolation |  
+| 17th | Total Erasure, Astral Seal |
+
+
+#### **Channel Divinity**  
+- **Suppress the Unseen** – As an action, you force any invisible or extraplanar creature within 30 feet to become visible and lose their resistances for 1 minute.  
+- **Sever the Connection** – When you strike a creature, you can cut off their connection to their power source, preventing them from using spellcasting or supernatural abilities for 1 minute.  
+
+---
+
+### **Oath of the Blackguard**
+*"I did what needed to be done. The gods never answered."*  
+
+#### **Tenets of the Blackguard**
+- **Faith is a Lie** – No divine hand will save you. Take what you need.  
+- **Survival Above All** – The weak die. The strong endure.  
+- **Vengeance is Justice** – If the world abandoned you, then burn it down.  
+- **No Chains, No Masters** – Serve no god, no law, no corporation.  
+
+#### **Oath Spells**  
+| Level | Spells |  
+|-------|--------|  
+| 3rd | Siphon Strength, Dark Mandate |  
+| 5th | Corrupt Authority, Phantom Chains |  
+| 9th | Banish Radiance, Hunger of the Forgotten |  
+| 13th | Sinister Pact, Cloak of Shadows |  
+| 17th | Absolute Corruption, Death’s Promise |  
+
+#### **Channel Divinity**  
+- **Dark Oath** – Once per long rest, you can make a vow of vengeance against a target. For the next 10 minutes, all attacks against them have advantage, and they cannot regain HP.  
+- **Void Strike** – Your attack is infused with unnatural force. On a hit, the target must succeed on a Constitution saving throw or become unable to regain HP for 1 hour.  
+
+{{pageNumber,auto}}
+\page
+
+### **Oath of the Digital Templar**
+*"Information is the only truth. I protect the purity of data."*  
+
+#### **Tenets of the Digital Templar**
+- **Truth in Data** – All lies are temporary. The truth is recorded forever.  
+- **Purify the Corrupt** – Corruption in the network must be expunged.  
+- **No Privacy in Judgment** – If your actions are righteous, you have nothing to hide.  
+- **Defend the Archive** – Knowledge is the only lasting power.  
+
+#### **Oath Spells**  
+| Level | Spells |  
+|-------|--------|  
+| 3rd | Data Scan, Signal Encryption |  
+| 5th | Firewall, Nullify Presence |  
+| 9th | Trace Connection, Overclocked Reflexes |  
+| 13th | Digital Exorcism, Memory Rewrite |  
+| 17th | Absolute Surveillance, Reality Firewall |  
+
+#### **Channel Divinity**  
+- **Data Lockdown** – As an action, you prevent any creature within 60 feet from speaking falsehoods, disguising themselves, or hiding their identity for 1 minute.  
+- **Excommunicate Virus** – You may force a machine or cybernetic being to make a Wisdom saving throw. On a failure, they shut down for 1 minute.  
+
+---
+
+### **Oath of the Hollow**  
+*"I am the voice of the lost, the guardian of the erased."*  
+
+#### **Tenets of the Hollow**
+- **Erase, Protect, Forget** – Some things must be lost to preserve the whole.  
+- **Guard the Silent** – The most dangerous knowledge is that which whispers from the void.  
+- **Witness the End** – You are the last record of what should not be known.  
+- **No Name, No Face** – To protect the city, you must not exist.  
+
+#### **Oath Spells**  
+| Level | Spells |  
+|-------|--------|  
+| 3rd | Ghost Transit, Whispered Oath |  
+| 5th | Memory Suppression, Cloak of Anonymity |  
+| 9th | Severed Connection, Banished Echo |  
+| 13th | Echo of the Lost, Planar Isolation |  
+| 17th | Reality Lockdown, Total Erasure |  
+
+#### **Channel Divinity**  
+- **Unseen Guardian** – As a reaction, you can become completely undetectable for 1 minute, even to magical means.  
+- **Silence the Past** – Force a target to make a Wisdom saving throw. On failure, they forget the last hour of their memory.  
+
+### **Oath of the Blood Pact**  
+*"A deal is a deal. Even the gods obey the contract."*  
+
+#### **Tenets of the Blood Pact**
+- **The Contract is Everything** – There are no loopholes. There is no escape.  
+- **Power is Earned** – If you did not pay for it, you do not deserve it.  
+- **The Debt is Paid** – No promise is broken. No betrayal is forgotten.  
+- **Blood Seals All** – The strongest oaths are written in the veins.  
+
+#### **Oath Spells**  
+| Level | Spells |  
+|-------|--------|  
+| 3rd | Marked for Collection, Compliance Protocol |  
+| 5th | Blood Price, Hostile Acquisition |  
+| 9th | Pact Brand, Enforce Contract |  
+| 13th | Unbreakable Covenant, Cloak of Debt |  
+| 17th | Ultimate Arbitration, Divine Collateral |  
+
+#### **Channel Divinity**  
+- **Seal the Pact** – You can enforce an agreement magically. A creature that tries to break it suffers radiant damage equal to half its HP.  
+- **Blood Binding** – You mark a creature. Until you release them, they suffer disadvantage on all rolls against you.  
+
+{{pageNumber,auto}}
+\page
+
+## **Multiclassing**  
+If your campaign allows multiclassing, use the following rules for a **Paladin** multiclass character.  
+
+### **Ability Score Minimums**  
+- Strength 13, Charisma 13  
+
+### **Proficiencies Gained**  
+- Light armor, medium armor, shields, simple weapons, martial weapons  
+
+
+## **Quick Build**  
+You can make a **Paladin** quickly by following these suggestions:  
+- Choose **Human or Tiefling** for a thematic fit.  
+- Pick the **Corporate Enforcer** or **Exiled Knight** background.  
+- Prioritize **Strength and Charisma**.  
+- Take a tactical longsword and combat shield for maximum efficiency.  

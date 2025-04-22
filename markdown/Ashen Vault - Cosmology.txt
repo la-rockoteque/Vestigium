@@ -1,0 +1,1645 @@
+```metadata
+title: Ashen Vault - Cosmology
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5eDMG
+
+```
+
+```css
+/*=======--- Example CSS styling ---=======*/
+/* Any CSS here will apply to your document! */
+ @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+ @import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive);
+ :root {
+     --rotate: 20deg;
+     --left: unset;
+     --top: unset;
+     --correction: "correction";
+     --source: 'https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png';
+}
+/* Removes Drop Caps */
+ .page h1+p:first-letter {
+     all: unset;
+}
+ .page .footnote {
+     border-top: lightgray dotted 2px;
+     width: 80%;
+     color: gray;
+     bottom: 28px;
+}
+ .page .footnote > h1 {
+     background-color: transparent;
+     border: none;
+     font-size: 10px;
+     margin-bottom: 0px;
+}
+/* Removes Small-Caps in first line */
+ .page h1+p:first-line {
+     all: unset;
+}
+ .page {
+     background-color: #F8F8F8;
+    /* Light gray background */
+     background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+     background-size: 20px 20px;
+    /* Adjust spacing */
+     font-family: "Courier New", Courier, monospace;
+    /* Typewriter / Redacted Report */
+}
+ .page:after, .page:has(.frontCover):after, .page:has(.insideCover):after, .page:nth-child(even)::after {
+     all: unset;
+     content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+     transform-origin: top right;
+     transform: rotate(270deg);
+     white-space: nowrap;
+     position: absolute;
+     right: 1.5cm;
+     top: 0px;
+     color: gray;
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     width: 29cm;
+}
+ .page:before {
+     all: unset;
+     content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+     transform-origin: top left;
+     transform: rotate(90deg);
+     white-space: nowrap;
+     position: absolute;
+     left: 1.5cm;
+     top: 0px;
+     color: gray;
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     width: 29cm;
+}
+ .page:has(.frontCover) .logo {
+     top: 10cm;
+     right: 0;
+     left: 0;
+     filter: drop-shadow(0 0 .075cm black);
+}
+ .page:has(.insideCover) .logo {
+     top: 0.5cm;
+     right: 0;
+     left: 0;
+     filter: drop-shadow(0 0 .075cm black);
+}
+ .page:has(.insideCover) p, .page:has(.insideCover) ul {
+     margin-top: 20px;
+     text-align: left;
+}
+ .page:has(.insideCover) .logo>img {
+     height: 2cm;
+     width: 1.8cm;
+     opacity: 0.1;
+     filter:none;
+}
+ .page:has(.frontCover) .logo>img {
+     height: 10cm;
+     width: 9cm;
+     opacity: 0.1;
+     filter:none;
+}
+
+ .page:has(.frontCover),
+  .page:has(.insideCover){
+   background: none;
+   background-color: #F8F8F8;
+}
+
+.coverpicture {
+margin-top: 1.5cm;
+  max-width: 15cm;
+  max-height: 15cm;
+}
+
+.coverpicture > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+ .page h1 {
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size: 24px;
+     color: #2C2C2C;
+    /* Vault Black */
+     background-color: #EDEDED;
+    /* Subtle Header Background */
+     padding: 5px;
+     border-bottom: 3px solid #2C2C2C;
+    /* Strong Bureaucratic Divider */
+}
+ .page:has(.insideCover) h1, .page:has(.frontCover) h1, .page:has(.partCover) h1 {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size: 24px;
+     background-color: #EDEDED;
+    /* Subtle Header Background */
+     color: #2C2C2C;
+    /* Vault Black */
+     padding: 5px;
+     border-bottom: 0 
+}
+ .page:has(.frontCover) h1 {
+     -webkit-text-stroke: 0 
+}
+ .page:has(.insideCover) h1 {
+     background-image: linear-gradient(45deg, #f7f7f7 25%, #dbdbdb 25%, #dbdbdb 50%, #f7f7f7 50%, #f7f7f7 75%, #dbdbdb 75%, #dbdbdb 100%);
+     background-size: 14.14px 14.14px;
+}
+ .page:has(.insideCover) .footnote, .page:has(.frontCover) .footnote, .page:has(.partCover) .footnote {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 15px;
+     margin-top: 40px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+     -webkit-text-stroke: 0;
+     text-align: left;
+}
+ .block .footnote {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 20px;
+     margin-top: 40px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+}
+ .page h2 {
+     font-family: "Oswald", sans-serif;
+     text-transform: uppercase;
+     font-size: 20px;
+     color: #2C2C2C;
+     border-bottom: 2px solid #8F8F8F;
+}
+ .page:has(.insideCover) h2, .page:has(.frontCover) h2, .page:has(.partCover) h2 {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 20px;
+     margin-top: 20px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+     border-bottom: 0;
+}
+ .page:has(.frontCover) h2 {
+     -webkit-text-stroke: 0 
+}
+ .page h3, .page:has(.insideCover) h3, .page:has(.frontCover) h3, .page:has(.partCover) h3 {
+     font-family: "Courier New", Courier, monospace;
+     font-size: 18px;
+     color: #5A5A5A;
+     text-transform: uppercase;
+     border-bottom: gray dashed 1px;
+    ;
+}
+ .page h4, .page:has(.insideCover) h4, .page:has(.frontCover) h4, .page:has(.partCover) h4 {
+     font-family: "Courier New", Courier, monospace;
+     font-size: 16px;
+     color: #8F8F8F;
+}
+ .page .redacted {
+     background-color: black;
+     color: black;
+     padding: 2px 5px;
+     border-radius: 2px;
+}
+ .page:has(.frontCover) hr {
+     margin: 10px;
+     position: relative;
+     width: 100%;
+     height: 5mm;
+    /* Adjust height to match a real ruler */
+     background: repeating-linear-gradient( to right, transparent 0mm, transparent 0.8mm, black 0.8mm, black 1mm );
+     filter:none;
+}
+ .page:has(.insideCover) hr {
+     position: relative;
+     width: 100%;
+     height: 1mm;
+    /* Adjust height to match a real ruler */
+     background: repeating-linear-gradient( to right, transparent 0mm, transparent 0.8mm, black 0.8mm, black 1mm );
+}
+ page hr {
+     border: 2px dashed #8F8F8F;
+    /* Looks like an official document break */
+}
+ .page blockquote {
+     background-color: #EDEDED;
+     border-left: 4px solid #2C2C2C;
+     padding: 10px;
+     font-family: "Courier New", Courier, monospace;
+}
+/* --- Tables: Bureaucratic Report Style --- */
+ .page table {
+     border-collapse: collapse;
+     width: 100%;
+}
+ .page th {
+     background-color: #D6D6D6;
+    /* Ash Gray */
+     color: #2C2C2C;
+    /* Vault Black */
+     padding: 8px;
+     border-bottom: 3px solid #8F8F8F;
+    /* Stronger Border */
+     text-transform: uppercase;
+}
+ .page td {
+     background-color: #F8F8F8;
+    /* Paper White */
+     color: #5A5A5A;
+    /* Charcoal Gray */
+     padding: 8px;
+     border-bottom: 1px solid #BFBFBF;
+    /* Soft Grid */
+}
+/* --- Links: Subtle and Official-Looking --- */
+ .page a {
+     color: #2C2C2C;
+     text-decoration: none;
+     border-bottom: 1px dashed #8F8F8F;
+}
+ .page a:hover {
+     color: #5A5A5A;
+     border-bottom: 1px solid #5A5A5A;
+}
+ .post-it {
+     left: var(--left);
+     top: var(--top);
+     transform: rotate(var(--rotate));
+     max-width:250px;
+     max-height:240px;
+     width:250px;
+     height:240px;
+     position:relative;
+     background:#ffa;
+     overflow:hidden;
+     margin:30px auto;
+     padding:20px;
+     border-radius:0 0 0 30px/45px;
+     box-shadow: inset 0 -40px 40px rgba(0,0,0,0.05), inset 0 25px 10px rgba(0,0,0,0.07), 0 5px 6px 5px rgba(0,0,0,0.2);
+     font-family: 'Cedarville Cursive', cursive;
+     line-height:1.7em;
+     font-size:19px;
+     -webkit-mask-image: url(data:image/png;
+    base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+     color:#130d6b;
+}
+ .post-it:before {
+     content:"";
+     position:absolute;
+     width:20px;
+     height:25px;
+     background:#ffa;
+     box-shadow: 3px -2px 10px rgba(0,0,0,0.2), inset 15px -15px 15px rgba(0,0,0,0.3);
+     left:0;
+     bottom:0;
+     z-index:2;
+     transform:skewX(25deg);
+}
+ .smudge {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     filter: blur(1px) contrast(110%);
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/5d4334616f20bd1d1f059f6007892650.png') no-repeat center;
+     background-size: contain;
+
+
+}
+
+    .smudge:before {
+    position: absolute;
+    content:'';
+    left: 0;
+    top: 0;
+     width: 10cm;
+     height: 10cm;
+   
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 19%, rgba(255,255,255,0) 52%);
+background-blend-mode: lighten
+
+    
+    }
+
+
+
+ .coffee-stain {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     filter: blur(1px) contrast(110%);
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f74119a30ba73c9c5b3a7cc1aa9d7d42.png') no-repeat center;
+     background-size: contain;
+     mix-blend-mode: multiply;
+}
+ 
+ 
+.corrected {
+    position: relative;
+    text-decoration: line-through;
+    color: black;
+}
+
+.corrected::after {
+    content: var(--correction, "Default Text");;
+    font-size: 12px;
+    color: #0F3D75;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+       font-family: 'Cedarville Cursive', cursive;
+   
+    -webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+}
+
+
+.paperclip {
+ 
+    position: absolute;
+    display-block;
+    top: -10px;
+    left: var(--left, 60);
+    width: 50px;
+    height: 150px;
+    transform: rotate(-15deg); /* Slight tilt for realism */
+    opacity: 0.8; /* Slight transparency */
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/421f492b3660fca7d119964aff1f24db.png') no-repeat center;
+    background-size: contain;
+}
+
+ .polaroid {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     max-width:10cm;
+     max-height: 10cm;
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png') no-repeat center;
+    background-size: contain;
+         transform-origin: top left;
+}
+
+.polaroid > p > img {
+  margin-left: 1.26cm;
+  margin-top: 0.74cm;
+  height: 7.4cm;
+  width: 7.5cm;
+  object-fit: cover;
+  mix-blend-mode: screen;
+}
+
+
+.doodle.dog1 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/6d860afef532110ae76b559ace75dfa7.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.dog2 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/e2820894e1c1c58cb9d710e5522858fc.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.cat1 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/b43f55649f7f416de20109ce0f3b6722.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.cat2 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/898133d59ab4ce7d036283cf075620e2.png') no-repeat center;
+    background-size: contain;
+}
+
+.doodle {
+position: relative;
+   top: var(--top);
+   left: var(--left);
+    display: block;
+    width: 150px;
+    height: 150px;
+     -webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-repeat: repeat;
+}
+
+
+.fading {
+    background: linear-gradient(to bottom, black 10%, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.4) 70%, rgba(0, 0, 0, 0.1) 90%, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+```
+
+{{frontCover}}
+
+
+# The Tension COsmology
+## A.S.T.R.A.L. Report on the █████████ of Cosmological Stressors
+___
+{{coverpicture ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/0f2601ddeb53f676e89cac5843ebe5a3.png)}}
+
+{{footnote
+███ FILE NO. [██████████]
+███ AUTHORIZED UNDER ███████████████ ACT
+███ SUBJECT: ████████████████████████████
+███ ORIGIN: [REDACTED]
+}}
+
+
+
+\page
+
+{{insideCover}}
+
+# CONFIDENTIAL
+## ⚠  A.S.T.R.A.L. ⚠
+## CLASSIFIED DOCUMENT
+___
+
+
+This document is the sole property of the Agency for Surveillance, Tracking, and Regulation of Anomalous Landscapes (A.S.T.R.A.L.) and is classified under Protocol X-27. Unauthorized access, duplication, or distribution is a direct violation of the Anomalous Contingency Act (A.C.A. §13-97) and will be met with immediate countermeasures.
+
+By opening this document, you acknowledge:
+	•	You have the necessary clearance level to access restricted anomaly intelligence.
+	•	You are subject to continuous monitoring under Section 12 of the Astral Compliance Directive.
+	•	Any unauthorized disclosure will trigger Protocol X, authorizing full intervention by Containment & Erasure Taskforce Omega.
+	•	Dissemination of classified content will result in memory redaction procedures and, if necessary, permanent containment under Directive 46-C.
+
+If you are not the intended recipient, cease all interaction immediately and report this breach to A.S.T.R.A.L. Oversight Bureau (O.B.) via secure terminal [O.B.//DIRECT-LINK-SEC/347-99]. Failure to comply will result in automatic escalation to Level-4 Contingency Response.
+
+{{logo ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png)}}
+
+::::::::
+
+A.S.T.R.A.L. – DEFENDING REALITY AGAINST THE UNSEEN
+Everything is under observation.
+
+
+\page
+
+# The Cosmology of Velum Cineris
+## The Creation
+### The Loom of Omnis: The Birth of Existence
+
+Before existence, there was Omnis. Omnis had a thought,
+a spray of existence. From His consciousness, the first essence
+of the world was born. A thousand thoughts and emotions
+crawled through this essence, formless and drifting.
+
+All thoughts floated together, unordered, unshaped.
+Yet in time, two tendencies emerged from within them—
+one pulled toward clarity, definition, and form,
+while the other drew toward obscurity, change, and dissolution.
+They were The Pull of Light and The Pull of Shadow,
+the first forces that would stretch the Loom.
+
+But as these forces grew, conflict arose.
+Thoughts collided, tangled, and resisted each other,
+warring without intent, clashing without meaning.
+Omnis sought to bring order, to sort the thoughts
+into their proper places, separating the Light-bound
+from the Shadow-bound, defining what each must be.
+
+But Omnis alone could not keep pace.
+For every thought He sorted, countless more were born.
+And so, He divided Himself.
+
+From His consciousness, He formed two judges
+to define the balance—The Legislator and The Justifier.
+One would rule over the Light, ensuring structure,
+while the other would rule over the Shadow, ensuring release.
+They would determine the nature of all things,
+deciding what should remain, and what should fade.
+
+And yet, even as they worked, conflict remained.
+Thoughts grew and collided still, for the two forces
+could never stand alone without opposition.
+And so, they made a final decision:
+
+For every thought placed upon the Loom, its opposite must exist.
+
+To bind these opposites, they created another—a new worker,
+a force whose only task was to tie each reflection together,
+linking what was defined with what was unmade.
+
+Thus was born The Great Weaver, whose threads
+wove the foundation of what would become reality itself.
+
+Another was made beside Him, to shape what was woven—
+The Architect, whose hands would mold
+the links of existence into meaning, giving them
+purpose, direction, and balance.
+
+### The Birth of the Mortal Plane & The Tension Threshold
+
+The Architect set His hands to work, forging the first great design—
+the Mortal Plane, a place where both Light and Shadow
+would touch, yet neither would overwhelm.
+
+But it failed.
+
+The Loom could not hold it. The moment it was shaped,
+it collapsed, unraveled, and scattered back into the void.
+
+Balance was needed. A counterweight. A force to hold the Loom
+steady and ensure that existence did not simply pull itself apart.
+
+Thus, He shaped the Veil, the unseen surface tension
+between realms, permeating all things yet touching nothing.
+It was neither structure nor void, but the thread that held
+all in place—the boundary that separated the Mortal from the infinite.
+
+And then, He shaped the Verdant Cradle,
+a vast, life-giving expanse overarching the Tension Threshold.
+It was not bound by order, nor entropy,
+but by the purity of existence itself.
+
+To sustain the Mortal Plane, He wove a thousand Lifestreams,
+threads of untainted vitality, descending from the Cradle
+and anchoring into the Threshold below.
+Through them, the world flourished,
+imbued with instinct, growth, and renewal.
+
+But as existence deepened, something new emerged—souls.
+
+They did not belong to the Loom, nor to the forces of Light or Shadow.
+They carried memory, will, and the weight of experience.
+If left unchecked, they would corrupt the Cradle, tainting its endless cycle.
+
+Thus, He was forced to divide the Cradle into two.
+One remained as the great Wellspring of Life, nourishing the world.
+The other became a mirror of thought and renewal,
+a realm where souls could drift, unravel, and be rewoven anew
+
+\page
+
+what would later be known as The Dreamscape.
+
+Through this cycle, existence found its rhythm.
+The Loom held firm, the Veil separated realms,
+the Cradle nurtured the Mortal Plane,
+and the Dreamscape ensured that souls would never stagnate.
+
+It should have been perfect.
+
+But something else had stirred.
+
+## The Core Structure of Reality
+
+The cosmology of Velum Cineris is not a perfect order—it is a tension of forces, a balance held through struggle, will, and contradiction. It exists as a woven tapestry of being, but its strands fray, its forces pull, and at its center, there is a wound.
+
+- **The Consciousness** – The unknowable mind that dreams existence into being.
+- **The Pull of Light** – The force of structure, knowledge, and dominion, stretching reality upward.
+- **The Pull of Shadow** – The force of entropy, anonymity, and transformation, pulling existence downward.
+- **The Tesseract and the Weft** – The transversal force weaving through both Light and Shadow, allowing magic and change.
+- **The Mortal Plane** – The threshold, where these forces meet in equilibrium.
+- **The Veil** – The unseen, permeating boundary that encloses and stabilizes reality.
+- **The Ashen Spiral & Hell** – The pin balancing at equilibrium, Hell at its head, the Abyss at its base.
+- **The Soulstreams** – The river of existence, where souls flow between life, death, and reincarnation**.
+- **The Verdant Cradle** – The realm of unbound nature, endless metamorphosis, and chaotic instinct.
+- **The Dreamscape** – The collective mind-space**, where thoughts, memories, and dreams take form.
+- **The Intent of Acrimony** – The creeping wound of imbalance, known by many names, orbiting existence, feeding on its weaknesses.
+- **The Void** – The paradoxical vacuum of existence at the heart of the Mortal Plane, claimed by the Voidress.
+
+
+The Infinite Realms of Light and Shadow
+
+The Mortal Plane does not stand alone. It exists at the Tension Threshold, the balance between two vast, stretching forces—one pulling toward clarity and form, the other toward obscurity and dissolution. These forces are not realms in themselves, but gradients of existence, vast and unending, yet bound to the Loom in ways no mind can fully grasp.
+
+At the edges of the Mortal Plane, where the Veil thins and the pull of these forces grows stronger, reality begins to fade. The further one walks, the less one remains.
+
+Those who attempt to define them call these realms Everbright and Nevermourn.
+But to most, they are simply the Light and the Shadow.
+
+![cat warrior](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/2ba4f507aa273a2a0c59f9eb477e31c4.png) {width:325px,mix-blend-mode:multiply}
+
+{{artist,position:relative,top:-15px,left:10px,margin-bottom:-30px
+##### Figure A - Rendition of the Pull of Light and Shadow
+}}
+
+### Everbright
+
+The further one moves into Everbright, the more the world sharpens.
+Not suddenly, not violently, but with a quiet inevitability.
+
+Colors burn brighter than nature allows—grass impossibly green, skies unfathomably blue.
+Edges define themselves with an unnatural clarity, as if no imperfection has ever existed.
+There is no decay, no erosion, no uncertainty—only form.
+
+At first, the perfection is welcoming.
+Everything is as it should be.
+
+\page
+
+Then, the pull begins.
+
+One does not notice the shift at first.
+It is gentle.
+It is natural.
+Until it is not.
+
+
+Questions slip away—not because they are answered,
+but because they no longer seem important.
+Thoughts become precise, focused, cutting away excess,
+refining themselves into something pure, undeniable, absolute.
+
+It was from this realm that the Elves first emerged,
+born from its luminous expanse,
+until curiosity led them across the Threshold and into the Mortal Plane.
+
+Some sought to return but found themselves forever changed,
+unable to slip back into what they once were.
+
+Others never looked back, choosing instead to embrace the imperfections of the world that Everbright alone could not provide.
+
+Yet as one ventures too deep, even clarity becomes unbearable.
+
+The world turns to frozen perfection, form without purpose, knowledge without mystery.
+There is no death in Everbright.
+
+Only form, unchanging.
+
+### Nevermourn
+
+The deeper one steps into Nevermourn, the more the self begins to blur.
+
+At first, nothing seems different.
+The ground remains firm, the air still moves, the horizon stretches forward.
+But soon, shapes exist not as they are, but as memories—half-seen and shifting, dissolving like ink into water.
+
+There is no fixed past, no fixed future—only the endless possibility of what could have been.
+
+Landmarks appear and vanish, indistinct and half-remembered.
+A road stretches before a traveler, yet they cannot recall if they have walked it before,
+or if they only imagined it existed.
+A house stands at the edge of a forgotten field,
+but the moment one looks away, they can no longer be certain it was ever there at all.
+
+Here, whispers of the long-forgotten drift like mist, carrying echoes of choices unmade, roads not taken.
+What once was might never have been.
+What never was might still exist in some unspoken corner of the dark.
+
+The mind does not stop working in Nevermourn—it unspools.
+
+To wander too far is to fade.
+Not in death, nor in destruction, but in dissolution—
+where one’s name, thoughts, and being become nothing more than a ripple in an endless twilight.
+
+And when there is nothing left to fade,
+the traveler may find they were never there at all.
+
+### The Pull of Light & Shadow
+
+Everbright and Nevermourn are not places one simply travels to.
+They are not realms separate from the Loom’s design,
+but forces that stretch existence itself,
+woven into the very balance of the Mortal Plane.
+
+The Loom was never meant to be pulled too far in either direction.
+It was never meant to be unraveled.
+
+And yet, those who step too far into Everbright lose themselves to an endless perfection—
+and those who drift too far into Nevermourn dissolve into forgotten possibility.
+
+Few truly understand these forces.
+Fewer still dare to name them.
+
+For most, they are simply called the Light and the Shadow.
+
+But for those who have glimpsed them and returned,
+they will always be Everbright and Nevermourn.
+
+
+## The Tesseract & The Weft: The Flow of Magic
+
+![cat warrior](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/93fddde5903034648ba7f278cf48d831.png) {width:325px,mix-blend-mode:multiply}
+
+{{artist,position:relative,top:-15px,left:10px,margin-bottom:-30px
+##### Figure b - Visual representation of the Weft sipping through the focal point
+}}
+
+Magic does not belong to the Loom. It is neither woven nor cut, neither Light nor Shadow. It does not obey the Will of the 
+
+\page
+
+Justifiers, nor does it yield to the Architect’s design.
+
+It simply flows.
+
+The Tesseract is the infinite, boundless reservoir of all magical potential—a vast, untethered sea of
+energy beyond the reach of structure, law, or intent. It has no master, no origin, no fate. It simply exists, raw and eternal.
+
+But power without form is meaningless.
+
+And so, as the Loom stretches and the Veil separates, a current of that boundless force is drawn forth. It passes through the Tension Threshold, through the Mortal Plane, diffusing into reality itself. This stream of magic, flowing from the unknowable depths of the Tesseract into the world, is called the Weft.
+
+Unlike the Loom’s woven design, the Weft does not bind existence together. It does not hold structure.
+It is not meant to be contained, only guided.
+
+The Weft is what mortals draw upon to shape magic, but it does not belong to them. It belongs to no one.
+
+### The Weft & The Mortal Plane
+
+As the Weft passes through the Tension Threshold, it spreads into every element of existence.
+It seeps into stone, into sky, into breath and blood. It lingers in the air, waiting to be called.
+
+The Weft is not the source of magic—it is magic in motion.
+	•	Some reach into the Weft with precision, weaving structured, refined spells.
+	•	Others grasp it instinctively, drawing raw force from its stream.
+	•	To those attuned, the Weft is as natural as the wind, as present as the tide.
+  
+### The Weft & the Pull of Everbright & Nevermourn
+
+The Weft, like all things, is shaped by the forces that stretch reality. The further one moves from the Tension Threshold, the more magic itself begins to struggle.
+	•	In Everbright, magic is bound into precision.
+	•	The Weft is forced into rigid form, becoming static, immutable, absolute.
+	•	A spell cast in Everbright does not adapt, does not shift—it manifests as a pure, unyielding truth.
+	•	A flame conjured might burn forever, unable to be extinguished.
+	•	A shield may never crack, not even by the will of its caster.
+	•	In Nevermourn, magic unravels.
+	•	The Weft frays, slipping into uncertainty.
+	•	Spells blur, twist, and become something other than intended.
+	•	Incantations slip away mid-casting, sigils distort, and effects take on half-formed or forgotten shapes.
+
+
+### The Tesseract: The Boundless Reservoir
+
+Beyond the Mortal Plane, beyond the Loom, beyond the Veil itself, the Tesseract churns in endless motion. It is power without purpose, potential without direction. It does not think, it does not will, it does not act.
+	•	The Tesseract is not a deity—it does not grant, deny, or bless.
+	•	The Tesseract is not a force of creation—it does not shape, it does not form.
+	•	The Tesseract is simply the infinite sea of power from which the Weft flows.
+
+Some scholars believe it is older than Omnis.
+Others say it is merely a consequence of the Loom’s design.
+
+But no one knows what would happen if the Weft were severed from the Tesseract.
+
+Would magic die? Would reality itself unravel? Would something worse emerge?
+
+No one has dared to test it.
+No one wants to.
+
+To step too far into either Everbright or Nevermourn is to risk losing control of the Weft entirely.
+
+But though it may be drawn upon, it cannot be owned.
+It is not a gift. It is not a right. It is simply the force that lingers, unseen, waiting to be shaped.
+
+## The Verdant Cradle: The Heart of Life
+
+The Verdant Cradle is not merely a realm of nature—
+it is nature itself, untamed, eternal, and ever-thriving.
+
+It is a metaphysical land, existing beyond the Mortal Plane, yet fully walkable, touchable, and real.
+One can step into the Verdant Cradle, breathe its air, feel its storms, be swallowed by its rivers.
+
+It contains all the elements of nature—
+forests, mountains, rivers, oceans, storms, fields, and deserts—
+but in their purest, most extreme forms.
+
+A single tree may rise like a titan, its roots sinking into the core of the land.
+A single storm may rage for centuries, its winds shaping the land 
+
+\page
+
+anew.
+A single river may carry the force of a hundred lifetimes, carving valleys where none stood before.
+
+It is a place of pure, surging nature.
+
+And though it is eternal and sustaining,
+it is not stagnant.
+
+The Verdant Cradle grows, shifts, and evolves in harmony with the Mortal Plane—
+its cycle and rhythm matching the world it nourishes.
+
+To mortals, it is the very essence of balance, abundance, and renewal.
+
+But to those who do not respect its power,
+it is indifference, fury, and overwhelming force.
+
+
+![cat warrior](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a9187460c4ff39d9b7a2763dee83b5f7.png) {width:300px,mix-blend-mode:multiply}
+
+{{artist,position:relative,top:-15px,left:10px,margin-bottom:-30px
+##### Figure C - Probably an oversimplified expression of the Cradle
+}}
+
+
+### The Verdant Cradle’s Influence on the Mortal Plane
+
+The Verdant Cradle is not distant.
+It does not merely exist alongside nature—
+it is the source of all natural forces.
+
+It does not need to push, pull, or interfere.
+It simply is, and in being, it flows into the world.
+	•	Druids and those attuned to nature can feel its presence,
+drawing upon it as a source of wisdom, power, and reverence.
+	•	Some mortals are naturally linked to it, sensing its currents in their bones.
+	•	There are places where the boundary between realms weakens,
+where the Verdant Cradle spills over, changing the land forever.
+	•	A forest that never dies, never burns, never fades.
+	•	A spring that heals, yet changes those who drink from it.
+	•	A mountain that sings, its voice carried in the wind for centuries.
+
+These places are not intrusions—they are the Cradle’s gifts, moments where nature has simply become more than itself.
+
+### The Lifestreams & the Dual Forces of Existence
+
+![cat warrior](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a3f98acb1f0960fd3bb5c77311a7aa17.png) {width:325px,mix-blend-mode:multiply}
+
+{{artist,position:relative,top:-15px,left:10px,margin-bottom:-30px
+##### Figure D - Lifestream rendition
+}}
+
+The Verdant Cradle does not take souls.
+That is the domain of the Dreamscape.
+
+But in an animistic way, the two realms mirror one another.
+	•	The Verdant Cradle fosters nature’s life force.
+	•	The Dreamscape fosters humanity’s life force—the soul.
+	•	The Lifestreams are merely conduits—rivers that carry these forces back and forth, ensuring continuity, not finality.
+
+Nature and the soul are the same in essence.
+Both flow, both endure, both return.
+
+When a flower withers, its essence moves through the Cradle before taking root again.
+When a soul dies, it wanders the Dreamscape before returning to life.
+
+The cycle is unbroken.
+
+Yet some who are attuned to the Verdant Cradle—not their souls, but their very life force—
+find themselves drawn into it physically.
+
+Some have stepped into the Cradle in a material way.
+Some have become lost in its extreme depictions of nature, never returning.
+Some have walked its lands for 
+\page
+years, only to find that mere moments had passed in the waking world.
+
+The Verdant Cradle does not claim them.
+But neither does it release them.
+
+
+
+### The Vaettirs: The Lost Guardians
+
+The Vaettirs were once the emissaries of the Verdant Cradle,
+wardens of balance, spirits of nature’s will, the unseen caretakers of the world’s harmony.
+
+But they are no more.
+
+They were not destroyed, nor did they fade away naturally.
+They were drained. Used.
+They became a source of power, their essence harnessed across the Mortal Plane.
+	•	Some were bound into weapons, artifacts, and relics.
+	•	Some were shaped into constructs, made to serve the ambitions of others.
+	•	Some were ritually consumed, their essence fueling powerful magic.
+
+And now, they are gone.
+
+The druids of today still struggle to reconcile with this loss—
+knowing that their path once had guides, once had elders, once had voices to speak to them.
+
+Now, they walk the path alone.
+
+Yet the Verdant Cradle endures.
+And some believe that the Vaettirs may still exist in hidden places,
+waiting to return.
+
+### The Verdant Cradle’s Unrelenting Power
+
+The Verdant Cradle is not merciful.
+It does not punish, nor does it judge.
+But it also does not distinguish—
+
+Life surges forward, without pause, without care.
+	•	A river does not spare the one who falls into it.
+	•	A wildfire does not hesitate as it consumes the land.
+	•	A great storm does not choose whom it destroys.
+
+The Verdant Cradle is fierce.
+It is brimming with power, raw and unyielding.
+
+To those who walk upon it without understanding,
+it is deadly.
+
+Yet it is not corruptible.
+
+Corruption may touch it, may stain the land,
+but the Verdant Cradle always reclaims itself.
+
+It is ancient. Eternal. Ever-renewing.
+
+It does not fight back.
+It simply outlasts.
+
+### The Denizens of the Verdant Cradle
+
+The Verdant Cradle is not empty.
+
+Though the Vaettirs are gone,
+other beings—spirits, manifestations, echoes of the natural world—
+still roam its vast, boundless landscapes.
+	•	Some are pure extensions of the Cradle, living forces of nature given form.
+	•	Some are ancient, predating memory, keeping their silent vigil.
+	•	Some are born of the Cradle’s moments of power, lingering as echoes.
+
+Unlike the Dreamscape, where the forgotten fade,
+the Cradle remembers.
+
+Everything that ever thrived, everything that ever grew, everything that ever lived—
+its essence remains.
+
+And those who listen can hear it whispering through the wind, the roots, the rivers, and the trees.
+
+The Verdant Cradle is not forgotten.
+It is endless.
+And it will always endure.
+
+## The Dreamscape: The Realm of the Wandering Mind
+
+![cat warrior](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/4649cf519d7a7fcb114770369a285c08.png) {width:325px,mix-blend-mode:multiply}
+
+{{artist,position:relative,top:-15px,left:10px,margin-bottom:-30px
+##### Figure E - Is there supposed to be bubbles in the dreamscape?!
+}}
+
+
+The Dreamscape is not an illusion, nor a formless abyss.
+It is a place, a landscape, a realm of shaped thoughts and lingering echoes.
+
+It was not created out of ambition or curiosity.
+It was created out of necessity.
+
+The Verdant Cradle was whole.
+It flourished, sustaining the natural world, the cycle of life, the raw force of existence itself.
+
+\page
+
+But there was something else—something that the Cradle alone could not contain.
+Souls.
+
+The Architect did not wish to divide the Cradle.
+He would have preferred it remain whole, untouched, unbroken.
+
+But he saw what was needed.
+
+Nature had its force, its rhythm, its balance.
+And the souls—
+They were the matching force of nature within humanity.
+
+Without a space to wander, to rest, to flow back into the Loom,
+the souls would have been adrift, directionless, unrooted.
+
+And so, the Cradle was halved.
+
+One half remained what it always was—
+a flourishing land of instinct, growth, and renewal.
+
+The other became the Dreamscape—
+a place for souls, memory, and wandering thought.
+
+It is not infinite, yet it has no clear edge.
+It is a half-disk realm, perfectly opposite to the Verdant Cradle,
+a twin in form, yet entirely different in purpose.
+
+Its landscapes are not imposed by gods or laws—
+they are molded by the subconscious of all thinking beings.
+
+Mountains carved from instinct, rivers shaped by memory,
+cities that never were, yet feel familiar to those who walk them.
+
+The Dreamscape is not chaos.
+It is not the raw formlessness of imagination.
+It is a mirror of the mind—structured, but fluid.
+
+A place where nothing is forgotten, but not everything is real.
+
+### Before Dreams, the World Was Awake
+
+Once, the Dreamscape was not a realm, but a shared mind.
+
+Before mortals dreamed, they were always awake.
+Their thoughts did not vanish, did not slip into unconsciousness.
+They existed fully aware, both in the mortal world and in the formless current of shared thought.
+
+It was abstract, without landscape or time.
+There were no boundaries, no separations—
+only a single, unbroken stream of pure thought and reflection.
+
+But curiosity grew.
+Minds reached outward, seeking new understanding, new sensations.
+And in reaching for something beyond themselves, they created distance.
+
+The Dreamscape did not fall asleep.
+It grew, naturally, organically, as thought itself changed.
+
+What was once shared became personal.
+What was once a current became a land.
+What was once unbound became structured.
+
+And so, the Dreamscape became a place, not merely a state.
+
+### The Boundaries of the Dreamscape
+
+The Dreamscape is separate from the waking world.
+It does not bleed into the Mortal Plane, nor does it seek to.
+
+It is not something that can be intentionally manipulated.
+The mind alone is not enough to bend it to one’s will.
+
+Yet the Dreamscape is not rigid.
+
+It changes—but only in small ways, in bubbles, in layers.
+	•	A fleeting emotion will not shift its landscape.
+	•	A passing thought will not carve mountains.
+	•	But an ingrained belief, a deeply rooted fear, a truth held without question—these things shape the land beneath the Dreamers’ feet.
+
+The Dreamscape is not chaos.
+It is not imagination given free reign.
+It is the subconscious, structured but unseen, always present, always growing.
+
+And nothing is ever truly forgotten.
+
+When something fades from memory, it does not vanish.
+It lingers, hidden in the folds of the Dreamscape, where even the mind that forgot it might stumble upon it once more.
+
+### The Cycle of Souls & the Dreamscape’s Role
+
+All souls pass through the Dreamscape before they return to life.
+It is the final rest, the place between selves, the current before rebirth.
+
+The Dreamscape connects to the Lifestreams,
+where souls drift, shaped by unseen currents,
+before they flow back into the waking world.
+
+It is a loop.
+A cycle.
+A rhythm that has never been broken.
+
+But some souls do not return.
+
+Some become lost, wandering the shifting lands of thought,
+unable to follow the pull of the Lifestream.
+
+And some souls do not wish to return.
+
+They stay.
+They settle.
+They become something else.
+
+There are things in the Dreamscape that are not mortals, not gods, not spirits.
+There are denizens—
+Beings that were,
+\page
+but are no longer,
+Echoes of ideas that have shaped themselves into something more.
+
+Some live there forever.
+Some wait for the world to remember them.
+Some whisper into the minds of Dreamers, reaching for the waking world.
+
+And some—some are never spoken of.
+
+### The Hidden Dangers of the Dreamscape
+
+The Dreamscape is not a battlefield.
+It is not a place of nightmares, not a realm of torment.
+
+Yet it is not safe.
+
+For the Dreamscape is a record, a reflection of all things ever thought.
+
+It is the space where forgotten things still exist—
+until they are truly erased.
+
+To be forgotten entirely—
+not by one, not by a few, but by all—
+is to be removed from the Dreamscape forever.
+
+Some ideas, some memories, some thoughts—
+once forgotten, they cease completely.
+
+And there are things that dwell in the Dreamscape,
+things that have never been fully imagined,
+things that only exist in the space between waking and sleeping,
+things that do not wish to be forgotten.
+
+No one knows what happens to something that clings to existence in a realm where memory fades.
+No one knows what dreams of itself when all others forget.
+
+Perhaps it simply fades.
+Perhaps it lingers.
+Or perhaps—
+Perhaps it learns to find its way into the waking world,
+before it is too late.
+
+
+### The Dreamscape & the Great Cosmic Forces
+
+The Loom acknowledges the Dreamscape.
+It does not control it, but it recognizes its necessity.
+
+It is neither of Light nor of Shadow.
+They do not touch it.
+They do not shape it.
+The Dreamscape has no will but that of the minds who shape it unknowingly.
+
+The Intent of Acrimony does not seek to consume it.
+It does not ignore it, but it does not hunger for it.
+
+Instead, Acrimony crawls around it, moving past it when necessary.
+It does not claim the Dreamscape, nor does it reject it.
+It treats it as a space between, something that does not interfere with its nature.
+
+But if something in the Dreamscape became powerful enough—
+If something within its depths shaped the waking world completely, irreversibly—
+Perhaps even Acrimony would take notice.
+
+Perhaps even Acrimony would see it as a challenge, or a threat.
+
+For now, the Dreamscape is uncontested.
+It is not a battleground, not a realm of war.
+
+But that does not mean it will remain untouched forever.
+
+## The Void: The Absence That Should Not Be
+
+![cat warrior](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/7793f6f87ea52b992500cd97b824be49.png) {width:325px,mix-blend-mode:multiply}
+
+{{artist,position:relative,top:-15px,left:10px,margin-bottom:-30px
+##### Figure F - Visual interpretation of... nothing?
+}}
+
+The Void is not a place.
+It is not a force, nor a dimension, nor a hidden realm.
+
+It is nothing.
+
+It was not always there.
+Once, there was only the Loom, stretched between the Pull of Light and the Pull of Shadow,
+held together by the weight of existence itself.
+
+But as Light and Shadow pulled further apart, the tension between them became unbearable.
+A force stretched too thin, a Loom drawn too taut, a wound carved not by destruction, but by pressure itself.
+
+And then—there was a tear.
+
+The Void was not created.
+It was not formed.
+
+It grew, naturally, in the unbearable vacuum between all things.
+A hungerless, desireless, perfectly empty wound.
+\page
+It continues to grow, slowly, as the Loom’s tension builds and builds, as 
+
+Light and Shadow pull ever outward,
+as the weight of existence itself stretches the Loom thinner and thinner.
+
+The Void is not perceived. It is not experienced.
+
+It is nothing.
+
+## The Voidress: The One Who Stayed
+
+No one knows how the Voidress entered the Void.
+
+Perhaps it was an accident.
+Perhaps it was a mistake.
+Perhaps she walked into it willingly, knowing what it meant.
+
+What is known is this—she fought, for eternity, to leave.
+
+She struggled against an absence, against a force that did not push nor pull.
+She clawed at the edges, trying to return to something, to anything,
+to escape the weightless, shapeless existence of being alone in nothing.
+
+But in time, she stopped fighting.
+
+She accepted it.
+She learned to love it.
+She came to understand it.
+
+She learned the truth—nothingness is the truest power.
+
+The Void is the only thing that existed before creation,
+and the only thing that will exist after annihilation.
+
+It is the beginning and the end, the space before and after.
+
+The Voidress no longer wishes to leave.
+
+She is its only inhabitant, its only presence,
+a sovereign of nothing, ruling over something that does not exist.
+
+And she watches.
+
+For what, no one knows.
+
+## What Happens to Those Who Enter the Void?
+
+No one knows.
+
+It is perfectly isolated.
+It is infinite and unbound, yet contained.
+
+It does not consume. It does not destroy.
+
+It simply removes.
+
+No one has ever returned from it.
+No one knows if something can survive within it.
+No one knows if the Void has a center, an edge, a floor, or a sky.
+
+No one knows if it can be understood.
+
+Perhaps the Voidress knows.
+
+But she does not speak of it.
+
+## How the Rest of Existence Perceives the Void
+
+The Void is impossible to be aware of, yet it is known.
+
+It has no influence. It does not touch existence.
+It does not send omens, does not whisper, does not call.
+
+Yet every scholar, every philosopher, every mind that reaches far enough—
+they all know it is there.
+
+Not because they have seen it.
+Not because they have proof.
+
+But because it must be there.
+
+Its absence is so perfect that it becomes an undeniable presence.
+
+It is an existential horror, an unshaped thought at the edges of reality,
+an unanswerable question that looms over the minds of those who try to explain it.
+
+For some, it is the purest terror—the idea that something exists which cannot be escaped, fought, or reasoned with.
+For others, it is a deep fascination—a final mystery, an ultimate paradox, a truth untouched by the hands of gods or mortals.
+
+But no one can prove it.
+No one can reach it.
+No one can return.
+
+And so, it remains unspoken, yet known.
+
+## The Needle of Longing: A Description
+
+The Needle of Longing is not a realm, nor a passage, but a force—
+a pull that stretches endlessly, spiraling without direction,
+a climb that is neither straight nor final.
+
+It does not rise, nor does it fall.
+It coils, twists, loops upon itself,
+curling through existence like a thread tightening around an unseen spindle.
+
+It is not bound by the Loom, nor entirely severed from it.
+It does not belong to Light, nor to Shadow,
+yet both exert their pull upon it, warping its endless motion.
+
+Those who are caught within its grasp do not ascend.
+They spiral—drawn higher,
+further from what they once were,
+further from what they will ever be.
+
+It is not a prison, yet few escape.
+It is not a journey, yet some travel it.
+
+It is not a destination, yet at its highest peak,
+something waits.
+
+At the apex of its Spiral, where the pull is strongest,
+where the weight of 
+\page
+all things is pressed into something inescapable—
+there lies Hell.
+
+The Needle does not stop.
+It does not end.
+It only grows, stretching into 
+the unknown, dragging all who rise with it.
+
+
+### The Origin: A Longing Without Name
+
+![cat warrior](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/1f9daeec0fbd05e26ed8aa4027bccd0b.png) {width:325px,mix-blend-mode:multiply}
+
+{{artist,position:relative,top:-15px,left:10px,margin-bottom:-30px
+##### Figure G - Yep that's a needle
+}}
+
+The Needle was not created—it formed itself.
+
+It was never meant to be a contradiction.
+It was never meant to be anything at all.
+
+At first, it was only a pull, an ache, a yearning without direction.
+Not a force, not a being—just a motion, reaching for something that wasn’t there.
+	•	Was it the Dreamscape’s first breath?
+	•	Was it the Loom stretching beyond its intended shape?
+	•	Was it the first desire, the first intent, the first thought that longed for something more?
+
+No one knows.
+
+But longing is never singular.
+Longing is never still.
+
+It stretches in many directions at once,
+contradicting itself, tangling upon itself, pulling apart even as it pulls forward.
+
+And so, the Needle did not grow in a straight line.
+
+It twisted.
+It curled over itself.
+It looped, tangled, folded, stretched, spiraled.
+
+
+It did not seek chaos.
+It did not seek order.
+It simply sought.
+
+And yet, it never found.
+
+The Spiral was born—a thing that should not be, a thing that could not stop.
+
+It would never reach its destination, because it had none.
+
+### The Void & the Rest of Existence
+
+The Void does not interact.
+It does not touch the Loom, the Cradle, or the Spiral.
+
+It does not consume, nor reject, nor hunger.
+It simply does not exist.
+
+Yet it is there.
+
+The Intent of Acrimony seems to be the only force unaware of it.
+It does not try to consume the Void.
+It does not stretch toward it.
+It does not acknowledge its presence.
+
+Perhaps that is why the Void is so peaceful.
+
+Perhaps Acrimony cannot hunger for something that does not exist.
+
+The Needle of Longing is perfectly aligned in the direction of the Void,
+as if pointing toward it, as if drawn toward the center.
+
+Yet there is no connection.
+No force pulling one toward the other.
+No link, thematic or technical, between them.
+
+The Void simply is.
+
+And nothing more.
+
+### The Intent of Acrimony & The Placing of Hell
+
+
+When the Intent of Acrimony discovered the Needle, it did not understand it.
+It did not create it.
+It did not command it.
+
+It only saw that the Needle did not belong—
+That it did not fit, that it did not make sense,
+That it was a wound in the Loom, but a wound that did not bleed.
+
+And somewhere within the Loom, somewhere beneath all things,
+Acrimony found Hell.
+
+Where it came from, none can say.
+Perhaps it was always there, buried beneath the fabric of existence.
+Perhaps it was a failed creation, an abandoned foundation, a mistake.
+Perhaps it was not a place at all, but a force, a remnant, an echo of something that never was.
+
+But Acrimony knew one thing—
+Hell was a contradiction, and contradictions needed to be fixed in place.
+
+And so, Acrimony took Hell and placed it upon the Needle,
+fixing it at a single 
+\page
+point within the Spiral, ensuring it would be:
+- inescapable,
+- unchangeable,
+- unknowable,
+- but always growing.
+
+But something happened.
+
+By placing Hell onto the Spiral, Acrimony made it real.
+Pressured by the twisting force of the Needle,
+Hell hardened, condensed, solidified.
+
+It was no longer a formless impossibility.
+It was no longer an abstract paradox.
+It was now a place.
+
+A place that could be seen.
+A place that could be reached.
+A place that should not have existed—but now did.
+
+Hell became real.
+
+And so, the Needle grew,
+stretching ever onward, twisting ever further,
+dragging Hell along with it,
+reaching for something that was never meant to be found.
+
+## The Intent of Acrimony: The Crawling Hunger
+
+![cat warrior](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/0f2601ddeb53f676e89cac5843ebe5a3.png) {width:325px,mix-blend-mode:multiply}
+
+{{artist,position:relative,top:-15px,left:10px,margin-bottom:-30px
+##### Figure H - When does my shift end?!
+}}
+
+The Intent of Acrimony is not a god. It is not a kingdom, nor a presence that rules.
+It does not whisper, does not bargain, does not command.
+
+It simply is.
+
+A thing that should not be, yet is.
+A thing that moves without walking, spreads without force, devours without hunger.
+
+It creeps. It coils. It wraps itself around existence.
+
+Not touching.
+Not yet.
+
+But always reaching.
+
+### What is the Intent of Acrimony?
+
+No one knows when it first began, if it was born, awakened, or simply always was.
+
+Some scholars say it is a flaw in the Loom, an imperfection in the weave of reality.
+Some claim it is a presence beyond existence, something from before the Loom itself.
+Some whisper that it was placed there, hidden between the threads, waiting to be found.
+
+But those who stare too long into its nature do not find answers.
+Only questions.
+Only contradictions.
+	•	It has no will, yet it acts.
+	•	It does not hunger, yet it consumes.
+	•	It does not desire, yet it reaches.
+	•	It does not think, yet it chooses.
+
+Acrimony is not a living force, yet it moves with purpose.
+It does not rage, plan, or scheme.
+
+It simply crawls forward,
+winding, twisting, orbiting the Loom—never touching, but never stopping.
+
+It is revulsed by existence, yet fascinated by it.
+It is repelled by reality, yet longs to press against it.
+
+And what it touches, it warps.
+
+### What Does Acrimony Want?
+
+To consume? No.
+To destroy? Not exactly.
+To corrupt? Perhaps.
+
+What Acrimony wants cannot be put into words, because it does not think as mortals do.
+
+It is a contradiction made manifest.
+	•	It hates existence, yet craves to experience it.
+	•	It fears form, yet presses against the Loom, longing for shape.
+	•	It cannot enter the world, yet it finds ways to seep into it, slowly, patiently.
+
+Somewhere, at its core, Acrimony is longing.
+
+A longing for what?
+To be real? To be free? To be something else?
+
+No one knows.
+
+Perhaps not even Acrimony itself.
+
+### How Does Acrimony Spread?
+
+It does not charge, flood, or invade.
+It seeps.
+\page
+It slithers between the strands of the Loom,
+not touching, not yet, but always pressing.
+
+And when it finds weakness—
+a thread pulled too tight, a mistake in the weave, 
+an imperfection in the fabric of reality—
+it twists itself into that gap and burrows deeper.
+
+Acrimony does not break the Loom.
+It does not tear the weave apart.
+
+Instead, it stains it, alters it, pulls it out of shape.
+	•	A truth slightly changed, enough to make men doubt.
+	•	A path slightly bent, enough to lead someone astray.
+	•	A word slightly twisted, enough to spark war instead of peace.
+
+It is never obvious.
+Never immediate.
+Never total.
+
+It does not force its way in.
+It waits for the Loom to fray on its own.
+
+And then, it enters.
+
+
+### What Happens When Acrimony Touches Reality?
+
+It does not annihilate.
+It does not create.
+
+It mutates.
+It contorts.
+It twists.
+
+A field of golden wheat wilting, yet refusing to rot.
+A river running backward, its fish struggling to breathe in the wrong direction.
+A city building itself higher and higher, its streets turning upon themselves, looping forever.
+
+A man speaking words he does not understand, yet cannot stop.
+A woman staring into a mirror, yet unable to see herself.
+
+Acrimony warps, but does not erase.
+
+It makes things wrong, yet functional.
+It makes things uncanny, yet normal.
+It makes things intact, yet irreparably changed.
+
+### The Birth of Hell
+
+When Acrimony found the Needle, it felt something familiar.
+
+Something wrong, but natural.
+Something repulsive, but inviting.
+
+It did not create the Needle.
+It did not forge the Spiral.
+
+It simply placed Hell upon it.
+
+And when it did, the Needle twisted, coiled, spiraled, wrapped upon itself—
+the Longing turned into something oppressive, unbearable, consuming.
+
+The Ashen Spiral was born,
+a place that draws in, confuses, disorients, and pulls all things downward.
+
+And at its peak, where the Spiral tightens into a perfect point,
+Hell presses against existence, crushing itself into form.
+
+### Why is Acrimony Feared?
+
+Not because it destroys.
+
+Not because it kills.
+
+But because it does not stop.
+
+It does not invade in force, yet it always moves forward.
+It does not shatter the Loom, yet it always finds the cracks.
+It does not seek war, yet it always wins in the end.
+
+Because to resist it is to remain perfect forever.
+To resist it is to never break, never falter, never misstep, never hesitate.
+
+But nothing is perfect forever.
+
+And so, Acrimony waits.
+
+It creeps.
+It coils.
+It wraps itself around the Loom.
+
+Not touching.
+Not yet.
+
+But always reaching.
+

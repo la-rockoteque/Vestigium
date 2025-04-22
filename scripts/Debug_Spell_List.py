@@ -11,6 +11,7 @@ with open(input_file, "r", encoding="utf-8") as file:
 # Define regex to detect both variations of cantrip formatting
 cantrip_pattern = re.compile(r"\*(?:Cantrip\s+(\w+)|(\w+)\s+Cantrip)\*", re.IGNORECASE)
 
+
 # Standardize to "*Cantrip, Illusion*" format
 def standardize_cantrip(match):
     if match.group(1):  # Matches "*Cantrip Illusion*"
@@ -18,6 +19,7 @@ def standardize_cantrip(match):
     if match.group(2):  # Matches "*Illusion Cantrip*"
         return f"*Cantrip {match.group(2).capitalize()}*"
     return match.group(0)  # Default fallback
+
 
 # Apply correction to the text
 corrected_text = re.sub(cantrip_pattern, standardize_cantrip, text)

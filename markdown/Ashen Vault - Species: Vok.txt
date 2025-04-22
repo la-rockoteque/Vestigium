@@ -1,0 +1,749 @@
+```metadata
+title: 'Ashen Vault - Species: Vok'
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+/*=======--- Example CSS styling ---=======*/
+/* Any CSS here will apply to your document! */
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive);
+
+:root {
+	--rotate: 20deg;
+	--left: unset;
+	--top: unset;
+	--correction: "correction";
+	--source: 'https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png';
+}
+
+/* Removes Drop Caps */
+.page h1+p:first-letter {
+	all: unset;
+}
+
+
+.page:has(.frontCover) {
+    background:unset;
+    background-color: #CFBDA4;
+}
+
+.page:has(.frontCover) .coverBackground {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -1cm;
+    left: 0;
+    z-index: -1;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/ba2a1cd26c26d33e34d5b9fad7c64e78.webp');
+    background-size: cover;
+    background-position: center;
+    mask-image: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 20%), rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: linear-gradient(270deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+.page:has(.frontCover) .coverImage {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -7cm;
+    left: 0;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/0a0b5e7e9496fd06deac901172f5455f.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.page:has(.frontCover) h1,
+.page:has(.frontCover) h2,
+.page:has(.frontCover) h3 {
+    border-bottom: unset;
+    -webkit-text-stroke: unset;
+    text-stroke: unset;
+    ;
+}
+
+.page:has(.frontCover) h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: White;
+    margin-top: 50px;
+    font-family: "Oswald", sans-serif;
+    background: none;
+}
+
+.page:has(.frontCover) h2 {
+    font-size: 2rem;
+    letter-spacing: 8.5px;
+    text-align: center;
+    margin-top: 20px;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.page:has(.frontCover) h3 {
+	  color: white;
+    margin-top: 10px;
+    text-decoration: underline overline #d1d1d1;
+}
+
+.page:has(.frontCover) h4 {
+   letter-spacing: 10px;
+	 color: white;
+   font-family: "Oswald", sans-serif;
+}
+
+
+.page:has(.frontCover) .footnote {
+    font-size: 1.5rem;
+    margin-top: 30px;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 2px gray;
+    ;
+    text-stroke: 2px gray;
+    text-align: right;
+}
+
+.page .footnote {
+	border-top: lightgray dotted 2px;
+	width: 80%;
+	color: gray;
+	bottom: 28px;
+}
+
+.page .footnote>h1 {
+	background-color: transparent;
+	border: none;
+	font-size: 10px;
+	margin-bottom: 0px;
+}
+
+/* Removes Small-Caps in first line */
+.page h1+p:first-line {
+	all: unset;
+}
+
+.page {
+	background-color: #F8F8F8;
+	/* Light gray background */
+	background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+	background-size: 20px 20px;
+	/* Adjust spacing */
+	font-family: "Courier New", Courier, monospace;
+	/* Typewriter / Redacted Report */
+}
+
+.page:after,
+.page:has(.frontCover):after,
+.page:has(.insideCover):after,
+.page:nth-child(even)::after {
+	all: unset;
+	content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+	transform-origin: top right;
+	transform: rotate(270deg);
+	white-space: nowrap;
+	position: absolute;
+	right: 1.5cm;
+	top: 0px;
+	color: gray;
+	font-family: "Oswald", sans-serif;
+	/* Bold, Classified Look */
+	text-transform: uppercase;
+	width: 29cm;
+}
+
+.page:before {
+	all: unset;
+	content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+	transform-origin: top left;
+	transform: rotate(90deg);
+	white-space: nowrap;
+	position: absolute;
+	left: 1.5cm;
+	top: 0px;
+	color: gray;
+	font-family: "Oswald", sans-serif;
+	/* Bold, Classified Look */
+	text-transform: uppercase;
+	width: 29cm;
+}
+
+
+.page:has(.insideCover) .logo {
+	top: 0.5cm;
+	right: 0;
+	left: 0;
+	filter: drop-shadow(0 0 .075cm black);
+}
+
+.page:has(.insideCover) p,
+.page:has(.insideCover) ul {
+	text-align: left;
+}
+
+.page:has(.insideCover) .logo>img {
+	height: 2cm;
+	width: 1.8cm;
+	opacity: 0.1;
+	filter: none;
+}
+
+.page:has(.insideCover) {
+	background: none;
+	background-color: #F8F8F8;
+}
+
+.coverpicture {
+	margin-top: 1.5cm;
+	max-width: 15cm;
+	max-height: 15cm;
+}
+
+.coverpicture>img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.page h1 {
+	font-family: "Oswald", sans-serif;
+	/* Bold, Classified Look */
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 24px;
+	color: #2C2C2C;
+	/* Vault Black */
+	background-color: #EDEDED;
+	/* Subtle Header Background */
+	padding: 5px;
+	border-bottom: 3px solid #2C2C2C;
+	/* Strong Bureaucratic Divider */
+}
+
+.page:has(.insideCover) h1,
+.page:has(.partCover) h1 {
+	font-family: "Courier New", Courier, monospace;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 24px;
+	background-color: #EDEDED;
+	/* Subtle Header Background */
+	color: #2C2C2C;
+	/* Vault Black */
+	padding: px;
+	border-bottom: 0
+}
+
+.page:has(.insideCover) h1 {
+	background-image: linear-gradient(45deg, #f7f7f7 25%, #dbdbdb 25%, #dbdbdb 50%, #f7f7f7 50%, #f7f7f7 75%, #dbdbdb 75%, #dbdbdb 100%);
+	background-size: 14.14px 14.14px;
+}
+
+.page:has(.insideCover) .footnote,
+.page:has(.partCover) .footnote {
+	font-family: "Courier New", Courier, monospace;
+	text-transform: uppercase;
+	font-size: 15px;
+	margin-top: 40px;
+	margin-bottom: 5px;
+	color: #2C2C2C;
+	-webkit-text-stroke: 0;
+	text-align: left;
+}
+
+.block .footnote {
+	font-family: "Courier New", Courier, monospace;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-top: 40px;
+	margin-bottom: 5px;
+	color: #2C2C2C;
+}
+
+.page h2 {
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #2C2C2C;
+	border-bottom: 2px solid #8F8F8F;
+}
+
+.page:has(.insideCover) h2,
+.page:has(.partCover) h2 {
+	font-family: "Courier New", Courier, monospace;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	color: #2C2C2C;
+	border-bottom: 0;
+}
+
+.page h3,
+.page:has(.insideCover) h3,
+.page:has(.partCover) h3 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+	color: #5A5A5A;
+	text-transform: uppercase;
+	border-bottom: gray dashed 1px;
+	;
+}
+
+.page h4,
+.page:has(.insideCover) h4,
+.page:has(.partCover) h4 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	color: #8F8F8F;
+}
+
+.page .redacted {
+	background-color: black;
+	color: black;
+	padding: 2px 5px;
+	border-radius: 2px;
+}
+
+
+.page:has(.insideCover) hr {
+	position: relative;
+	width: 100%;
+	height: 1mm;
+	/* Adjust height to match a real ruler */
+	background: repeating-linear-gradient(to right, transparent 0mm, transparent 0.8mm, black 0.8mm, black 1mm);
+}
+
+page hr {
+	border: 2px dashed #8F8F8F;
+	/* Looks like an official document break */
+}
+
+.page blockquote {
+	background-color: #EDEDED;
+	border-left: 4px solid #2C2C2C;
+	padding: 10px;
+	font-family: "Courier New", Courier, monospace;
+}
+
+/* --- Tables: Bureaucratic Report Style --- */
+.page table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.page th {
+	background-color: #D6D6D6;
+	/* Ash Gray */
+	color: #2C2C2C;
+	/* Vault Black */
+	padding: 8px;
+	border-bottom: 3px solid #8F8F8F;
+	/* Stronger Border */
+	text-transform: uppercase;
+}
+
+.page td {
+	background-color: #F8F8F8;
+	/* Paper White */
+	color: #5A5A5A;
+	/* Charcoal Gray */
+	padding: 8px;
+	border-bottom: 1px solid #BFBFBF;
+	/* Soft Grid */
+}
+
+/* --- Links: Subtle and Official-Looking --- */
+.page a {
+	color: #2C2C2C;
+	text-decoration: none;
+	border-bottom: 1px dashed #8F8F8F;
+}
+
+.page a:hover {
+	color: #5A5A5A;
+	border-bottom: 1px solid #5A5A5A;
+}
+
+.post-it {
+	left: var(--left);
+	top: var(--top);
+	transform: rotate(var(--rotate));
+	max-width: 250px;
+	max-height: 240px;
+	width: 250px;
+	height: 240px;
+	position: relative;
+	background: #ffa;
+	overflow: hidden;
+	margin: 30px auto;
+	padding: 20px;
+	border-radius: 0 0 0 30px/45px;
+	box-shadow: inset 0 -40px 40px rgba(0, 0, 0, 0.05), inset 0 25px 10px rgba(0, 0, 0, 0.07), 0 5px 6px 5px rgba(0, 0, 0, 0.2);
+	font-family: 'Cedarville Cursive', cursive;
+	line-height: 1.7em;
+	font-size: 19px;
+	-webkit-mask-image: url(data:image/png;
+ base64, iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+	color: #130d6b;
+}
+
+.post-it:before {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 25px;
+	background: #ffa;
+	box-shadow: 3px -2px 10px rgba(0, 0, 0, 0.2), inset 15px -15px 15px rgba(0, 0, 0, 0.3);
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+	transform: skewX(25deg);
+}
+
+.smudge {
+	position: absolute;
+	top: var(--top);
+	left: var(--left);
+	width: 10cm;
+	height: 10cm;
+	filter: blur(1px) contrast(110%);
+	background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/5d4334616f20bd1d1f059f6007892650.png') no-repeat center;
+	background-size: contain;
+
+
+}
+
+.smudge:before {
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	width: 10cm;
+	height: 10cm;
+
+	background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 19%, rgba(255, 255, 255, 0) 52%);
+	background-blend-mode: lighten
+}
+
+
+.coffee-stain {
+	position: absolute;
+	top: var(--top);
+	left: var(--left);
+	width: 10cm;
+	height: 10cm;
+	filter: blur(1px) contrast(110%);
+	background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f74119a30ba73c9c5b3a7cc1aa9d7d42.png') no-repeat center;
+	background-size: contain;
+	mix-blend-mode: multiply;
+}
+
+
+.corrected {
+	position: relative;
+	text-decoration: line-through;
+	color: black;
+}
+
+.corrected::after {
+	content: var(--correction, "Default Text");
+	;
+	font-size: 12px;
+	color: #0F3D75;
+	position: absolute;
+	top: -10px;
+	left: 5px;
+	font-family: 'Cedarville Cursive', cursive;
+
+	-webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+	mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+}
+
+
+.paperclip {
+
+	position: absolute;
+	display-block;
+	top: -10px;
+	left: var(--left, 60);
+	width: 50px;
+	height: 150px;
+	transform: rotate(-15deg);
+	/* Slight tilt for realism */
+	opacity: 0.8;
+	/* Slight transparency */
+	background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/421f492b3660fca7d119964aff1f24db.png') no-repeat center;
+	background-size: contain;
+}
+
+
+.postcard {
+	position: absolute;
+	top: var(--top);
+	left: var(--left);
+	width: 12.5cm;
+	height: 10cm;
+	max-width: 12.5cm;
+	max-height: 10cm;
+	transform-origin: top left;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding:0;
+}
+
+.postcard.variant1 {
+	background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/0ce9c523090b355e88690bd2914dc82f.png') no-repeat center;
+ background-size: 12cm 10cm;
+}
+
+.postcard.variant2 {
+	background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f5313afa6fc6458329810246331d88b8.png') no-repeat center;
+  background-size: 12cm 10cm;
+}
+
+.postcard.variant3 {
+	background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/ec7a337ebcbd8e01ed90860b909542d7.png') no-repeat center;
+ background-size: 12cm 10cm;
+}
+
+.postcard>p>img {
+	object-fit: cover;
+	mix-blend-mode: multiply;
+
+}
+
+.postcard>p {
+  margin:0;
+  width: 100%;
+  height: 100%;
+  display:block;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  left: 0px;
+}
+
+.postcard.variant1>p>img {
+  	width: 11cm;
+	  height: 8.2cm;
+}
+
+.postcard.variant2>p>img {
+  	width: 11cm;
+	  height: 9cm;
+}
+
+.postcard.variant3>p>img {
+  	width: 11.3cm;
+	  height: 8.01cm;
+}
+
+
+.doodle.dog1 {
+	display: block;
+	background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/6d860afef532110ae76b559ace75dfa7.png') no-repeat center;
+	background-size: contain;
+}
+
+.doodle.dog2 {
+	display: block;
+	background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/e2820894e1c1c58cb9d710e5522858fc.png') no-repeat center;
+	background-size: contain;
+}
+
+.doodle.cat1 {
+	display: block;
+	background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/b43f55649f7f416de20109ce0f3b6722.png') no-repeat center;
+	background-size: contain;
+}
+
+.doodle.cat2 {
+	display: block;
+	background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/898133d59ab4ce7d036283cf075620e2.png') no-repeat center;
+	background-size: contain;
+}
+
+.doodle {
+	position: relative;
+	top: var(--top);
+	left: var(--left);
+	display: block;
+	width: 150px;
+	height: 150px;
+	-webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+	mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+	mask-repeat: repeat;
+}
+
+
+.fading {
+	background: linear-gradient(to bottom, black 10%, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.4) 70%, rgba(0, 0, 0, 0.1) 90%, transparent);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+```
+
+{{frontCover}}
+{{coverBackground}}
+## Species
+# Vok
+## The Furnaceborn Engineers of Cinderhold
+
+{{footnote 
+#### A.S.T.R.A.L Genus Research
+}}
+
+\page
+
+{{insideCover}}
+{{smudge}}
+# CONFIDENTIAL  
+## ⚠ A.S.T.R.A.L.⚠  
+## ANTHROPOLOGICAL SURVEY DIVISION  
+___  
+
+This document is the sole property of the **Agency for Surveillance, Tracking, and Regulation of Anomalous Landscapes (A.S.T.R.A.L.)** and is classified under **Biometric Analysis Protocol O-92**. Unauthorized access, duplication, or distribution constitutes a direct violation of the **Anomalous Contingency Act (A.C.A. §17-42)** and will trigger immediate countermeasures.  
+
+By accessing this file, you acknowledge:  
+- You have the **necessary clearance** to review classified **biological intelligence**.  
+- You are subject to **continuous biometric and cognitive monitoring** under **Anthropological Compliance Mandate 24-B**.  
+- Any **unauthorized replication or dissemination** will result in the activation of **Containment Directive Theta**, authorizing full intervention by **Bio-Security Division Kappa**.  
+- Disclosure of restricted genetic analysis will {{blur **invoke subject-specific eras}}ure protocols**, up to and including **cognitive redaction under Directive 88-P**.  
+
+This document provides **ongoing surveillance data, species profiling, and genetic deviation reports** concerning the recognized **sentient populations of Concord City and its surrounding territories**. Due to **unresolved discrepancies regarding human emergence events**, data integrity remains under **constant review by the Oversight Bureau (O.B.)**.  
+
+If you are not the intended recipient, cease all interaction immediately and report this breach to **A.S.T.R.A.L. Oversight Bureau (O.B.)** via secure terminal [O.B.//DIRECT-LINK-SEC/347-99]. Failure to comply will escalate to **Genetic Contingency Response Protocol Cobalt-7**.  
+
+{{logo ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png)}}  
+
+### **Aestari – Species Designation: Homo Aestariensis**  
+**Summary:** The **Aestari** represent an extreme genetic deviation from baseline humanoid morphology, exhibiting **unnatural symmetry, heightened cognitive function, and subtle bio-illuminescent markers**. Despite their **corporate and societal dominance**, ongoing surveillance suggests their physiology is **undergoing gradual degradation**, potentially due to excessive reliance on artificial environmental control. Further study required to determine the extent of Aestari genetic resilience or decline.  
+
+
+**A.S.T.R.A.L. – DEFENDING REALITY AGAINST GENETIC UNCERTAINTY**  
+**Everything is under observation.**  
+{{pageNumber,auto}}
+\page
+
+# **Vok Traits**
+Your Vok character has the following racial traits.
+
+## **Ability Score Increase**
+Your **Intelligence** increases by **2**, and your **Strength or Constitution** increases by **1**.
+
+## **Age**
+Vok mature at the same rate as humans, but their **energy-storing bodies give them extended lifespans**, often reaching **300 years** before their internal systems degrade.
+
+## **Alignment**
+Most Vok lean **lawful**, valuing **stability, order, and efficiency**. They see **waste as the greatest sin** and often **seek ways to improve their systems rather than disrupt them**.
+
+## **Size**
+Vok are **Medium humanoids**, standing between **5'8” and 7'0”**, with **dense, stocky builds**, their **forms shaped by the heat they manage**.
+
+## **Speed**
+Your base walking speed is **30 feet**.
+
+---
+
+## **Innate Traits**
+### **⚡ Thermoelectric Conduction**
+Your body has **evolved to store and manipulate heat energy**, allowing you to **generate and release controlled bursts of power**.  
+- You have **resistance to fire damage**.  
+- Once per short rest, you can **convert stored heat into electrical discharge**, forcing a creature within 10 feet to make a **Dexterity saving throw (DC = 8 + Intelligence modifier + proficiency bonus)** or take **1d8 lightning damage**.  
+
+### **🔋 Energy Capacitor**
+You **absorb heat and convert it into stored power**, allowing you to **function in extreme temperatures**.  
+- You **do not suffer penalties from extreme heat or cold**, as your body **regulates its internal temperature automatically**.  
+- You can **absorb ambient heat**, allowing you to **power small machines or tools by touch for up to 1 minute (DM discretion for function limitations).**  
+
+### **🔧 Circuit Mind**
+Your **mind is attuned to electrical and mechanical processes**, making you **highly skilled in energy-based engineering**.  
+- You gain **proficiency in Engineering (Technology) or Smith’s Tools**.  
+- You have **advantage on Intelligence checks to repair, modify, or analyze energy-based machinery and weapons**.  
+
+### **🌋 Emberstep**
+Your **body exudes a controlled heat signature**, allowing you to **move unharmed through hazardous terrain**.  
+- You **can walk across superheated surfaces (magma, molten metal, exposed power grids) without taking damage** for up to **1 minute**.  
+- Your **footsteps leave faint ember-like traces**, but do not ignite flammable materials.  
+
+---
+
+## **Subraces of the Vok**
+Though all Vok share **a common role as energy harvesters**, different castes have **specialized in distinct forms of thermal manipulation**.
+
+### **1. Pyroconductors (Heat Manipulators)**
+*"The flames are alive. And we listen."*
+- Gain **+1 to Strength**.  
+- When you **strike a metal weapon against a surface**, you can **superheat it**, causing it to **deal an additional 1d4 fire damage for 1 minute** (once per long rest).  
+- You have **advantage on Athletics checks related to forging, smithing, or carrying heated materials**.  
+
+### **2. Arcvolt Technicians (Lightning Channelers)**
+*"Electricity is just heat with ambition."*
+- Gain **+1 to Intelligence**.  
+- You have **advantage on Sleight of Hand checks when working with electrical tools or devices**.  
+- Once per short rest, you can **disrupt an energy-based effect (such as a magical field or a lightning attack)** by grounding it through your body, **negating the effect for one round** (DM discretion).  
+
+### **3. Magma-Bound Sentinels (Wardens of the Depths)**
+*"The crater is ours to protect."*
+- Gain **+1 to Constitution**.  
+- You can **hold your breath indefinitely in superheated environments**.  
+- When standing on or near a **volcanic surface**, you can **double your movement speed for one round (once per short rest).**  
+
+---
+
+## **Appearance of the Vok**
+The **Vok bear traces of their Dren ancestry**, but have adapted into **something uniquely their own**.
+
+| **Feature**       | **Description** |
+|-------------------|----------------|
+| **Skin** | **Deep bronze, rusted iron, or dark gray, often glowing faintly with stored heat.** |
+| **Eyes** | **Bright gold, molten orange, or crackling blue, flickering subtly with their internal energy levels.** |
+| **Hair** | **Short, bristled, and slightly metallic, often appearing like thin heat-extruded filaments.** |
+| **Facial Structure** | **Squared and industrial, with prominent brow ridges and chiseled cheekbones.** |
+| **Posture & Movement** | **Grounded and firm, moving with deliberate efficiency, every motion made to conserve energy.** |
+| **Hands & Digits** | **Thick-fingered and dexterous, with subtle heat vents along the knuckles for controlled thermal discharge.** |
+
+---
+
+## **Culture & Role in Cinderhold**
+- **"We power the future."** The Vok **sustain Cinderhold’s industrial might**, ensuring **the energy grid remains stable and efficient**.  
+- **"Waste is failure."** They believe **energy must be harnessed with precision**, disliking **reckless magic, inefficient tools, or unnecessary destruction**.  
+- **"The Cindralis build the world above. We sustain the world below."** Their relationship with the **Cindralis is symbiotic**, forming a **structured alliance** to maintain **Cinderhold’s volcanic infrastructure**.  
+
+---
+
+## **Vok Names**
+Vok names are **firm, heavy, and structured**, often carrying **mechanical or thermal connotations**.
+
+### **First Names**
+- **Male:** **Jorrek, Durnis, Malrik, Vethan, Tormek**  
+- **Female:** **Xyra, Othiel, Rhenka, Talyis, Vezna**  
+
+### **Surnames**
+- **Energy-Based:** **Heatbinder, Coilbrand, Emberforge, Voltshard**  
+- **Machine-Based:** **Ironcurrent, Gearstrike, Sparkgrind, Thermoset**  
+
+---
+
+## **Final Thoughts**
+The **Vok are not conquerors, nor are they artisans**—they are **the silent force that ensures civilization continues to function**.  
+
+They do not **seek to rule, nor do they demand recognition**—they **sustain, optimize, and perfect**.  
+
+**"Without power, there is nothing. We make sure that never happens."**

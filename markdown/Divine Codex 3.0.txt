@@ -1,0 +1,2326 @@
+```metadata
+title: Divine Codex 3.0
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5eDMG
+
+```
+
+```css
+/*=======---  Example CSS styling  ---=======*/
+/* Any CSS here will apply to your document! */
+
+.myExampleClass {
+	color: black;
+}
+
+.page {
+  background-color: #F8F8F8; /* Light gray background */
+  background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px; /* Adjust spacing */
+  font-family: "Courier New", Courier, monospace; /* Typewriter / Redacted Report */
+}
+
+.page:after {
+    background: repeating-linear-gradient(
+        to right,
+        gray 0px,
+        gray 2px,
+        transparent 2px,
+        transparent 6px
+    );
+
+    border: none; /* Remove any default border */
+    height: 2px;
+    bottom: 1.5cm;
+margin-left: 9%;
+width: 82%
+}
+
+.page:has(.frontCover) .logo {
+    top: 10cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 .075cm black);
+}
+
+.page:has(.insideCover) .logo {
+    top: 0.5cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 .075cm black);
+}
+
+.page:has(.insideCover) p {
+  margin-top: 2cm;
+    text-align: left;
+}
+
+
+.page:has(.insideCover) .logo>img {
+    height: 2cm;
+    width: 1.8cm;
+    opacity: 0.1;
+    filter:none;
+    
+}
+.page:has(.frontCover) .logo>img {
+    height: 10cm;
+    width: 9cm;
+    opacity: 0.1;
+    filter:none;
+    
+}
+
+.page h1
+{
+  font-family: "Oswald", sans-serif; /* Bold, Classified Look */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 24px;
+  color: #2C2C2C; /* Vault Black */
+  background-color: #EDEDED; /* Subtle Header Background */
+  padding: 5px;
+  border-bottom: 3px solid #2C2C2C; /* Strong Bureaucratic Divider */
+}
+
+.page:has(.insideCover) h1,
+.page:has(.frontCover) h1,
+.page:has(.partCover) h1
+{
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 24px;
+  background-color: #EDEDED; /* Subtle Header Background */
+  color: #2C2C2C; /* Vault Black */
+  padding: 5px;
+  border-bottom: 0
+}
+
+.page:has(.frontCover) h1
+{
+   -webkit-text-stroke: 0
+}
+
+.page:has(.insideCover) h1
+{
+background-image: linear-gradient(45deg, #f7f7f7 25%, #dbdbdb 25%, #dbdbdb 50%, #f7f7f7 50%, #f7f7f7 75%, #dbdbdb 75%, #dbdbdb 100%);
+background-size: 14.14px 14.14px;
+}
+
+
+.page:has(.insideCover) .footnote,
+.page:has(.frontCover) .footnote,
+.page:has(.partCover) .footnote
+{
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  color: #2C2C2C;
+  -webkit-text-stroke: 0;
+  text-align: left;
+}
+
+.block .footnote {
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  color: #2C2C2C;
+}
+
+.page h2
+{
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #2C2C2C;
+  border-bottom: 2px solid #8F8F8F;
+}
+
+.page:has(.insideCover) h2,
+.page:has(.frontCover) h2,
+.page:has(.partCover) h2
+{
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  color: #2C2C2C;
+  border-bottom: 0;
+}
+
+.page:has(.frontCover) h2
+{
+  -webkit-text-stroke: 0
+}
+
+
+.page h3, 
+.page:has(.insideCover) h3,
+.page:has(.frontCover) h3,
+.page:has(.partCover) h3
+{
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  color: #5A5A5A;
+  text-transform: uppercase;
+}
+
+.page h4, 
+.page:has(.insideCover) h4,
+.page:has(.frontCover) h4,
+.page:has(.partCover) h4
+{
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  color: #8F8F8F;
+}
+
+.page .redacted {
+  background-color: black;
+  color: black;
+  padding: 2px 5px;
+  border-radius: 2px;
+}
+
+.page:has(.frontCover) hr
+{
+    margin: 10px;
+    position: relative;
+    width: 100%;
+    height: 5mm; /* Adjust height to match a real ruler */
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0mm,
+        transparent 0.8mm,
+        black 0.8mm,
+        black 1mm
+    );
+    filter:none;
+}
+
+
+.page:has(.insideCover) hr
+{
+    position: relative;
+    width: 100%;
+    height: 1mm; /* Adjust height to match a real ruler */
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0mm,
+        transparent 0.8mm,
+        black 0.8mm,
+        black 1mm
+    );
+}
+
+
+page hr {
+  border: 2px dashed #8F8F8F; /* Looks like an official document break */
+}
+
+.page blockquote {
+  background-color: #EDEDED;
+  border-left: 4px solid #2C2C2C;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* --- Tables: Bureaucratic Report Style --- */
+.page table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.page th {
+  background-color: #D6D6D6; /* Ash Gray */
+  color: #2C2C2C; /* Vault Black */
+  padding: 8px;
+  border-bottom: 3px solid #8F8F8F; /* Stronger Border */
+  text-transform: uppercase;
+}
+
+.page td {
+  background-color: #F8F8F8; /* Paper White */
+  color: #5A5A5A; /* Charcoal Gray */
+  padding: 8px;
+  border-bottom: 1px solid #BFBFBF; /* Soft Grid */
+}
+
+/* --- Links: Subtle and Official-Looking --- */
+.page a {
+  color: #2C2C2C;
+  text-decoration: none;
+  border-bottom: 1px dashed #8F8F8F;
+}
+
+.page a:hover {
+  color: #5A5A5A;
+  border-bottom: 1px solid #5A5A5A;
+}
+```
+
+{{frontCover}}
+
+{{logo ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/d6899222e8edce89308fc5abcfdbbd0d.png)}}
+
+# Divine Codex
+## Something about Dieties
+___
+
+
+\page
+# Church of Omnis
+
+## Omnis
+|   |  |
+|:-:|:-|
+| **Alingment** | True-Neutral |
+| **Domain**    | Life           |
+| **Symbol**    | Skull Constellation |
+
+Omnis is the world, the unseen dreamer entwined with the Loom. Every step taken ripples through the weave of existence, as his slumbering thoughts give rise to reality.
+
+
+### The void
+
+Before existence, there was Omnis. His first perception unraveled the Loom, pulling strands of thought into the Tension. In that moment, the essence of reality was set into motion. 
+
+Within the essence, a thousand tensions stirred, neither in harmony nor discord. As the Loom wove further, patterns emerged—forces that pulled and pushed, shaped and unraveled. Thus, the great polarities took form.
+
+Chaos soon came and all the reflexions begane to hustle and collide more and more violently. He begane to organize and sort everything. He placed the goods on one side and the bad on the other. He soon realized he couldn't make it. The speed at wich he sorted them was lower then the speed at wich newer where happening.
+
+As the Loom unraveled, Omnis divided his perception, creating two aspects to weigh the shifting strands: The Legislator, who sought structure, and the Justifier, who embraced the unraveling.
+Then, more and more toughts were organized but chaos were rapidly growing.
+Both sides came to a concensus so that for each tought on one side, it's opposite would exist on the other side.
+
+To maintain equilibrium, Omnis willed forth the Great Weaver, who bound the threads into form. Yet, woven patterns without purpose frayed, so the Architect arose, shaping the Loom’s strands into structure.
+
+The Architect shaped the first pattern, but without counterbalance, the Loom unraveled. Thus, layers of existence were bound—each tension holding another in check.
+
+He forged the elements and their respective planes. Each leaning on the other. Each attracted and repulsed by each other. One guardian waqs created for each of these planes. He pinned all the 16 external planes to the material kernel. Behond and above, two huge vacuum were created and from these the ethereal and astral planes were born.
+
+
+## The Legislator – Pillar of Stability
+
+
+{{quote
+To preserve what is woven, to judge what must remain.
+
+{{attribution Theron Shadowbane, *The Starweaver Chronicles*}}
+}}
+
+
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Good |
+| **Symbol**    | A gavel upon a woven pillar |
+
+When the Loom unraveled, stretching into countless woven strands, some resisted change, seeking order and permanence. The Legislator arose as the binding force of stability, ensuring that the woven structure of existence remained intact.
+
+The Legislator’s role is to uphold what has been shaped, reinforcing foundations and preventing unmaking. Their word is absolute, a voice that dictates law upon the Loom. Their edicts ensure that not all things unravel, that existence is defined by what endures as much as what changes.
+
+Though often viewed as rigid and unwavering, the Legislator is not without purpose. Their decree is not to halt creation, but to ensure that it does not dissolve into meaninglessness.
+
+## The Great Weaver – The Endless Binding
+
+{{quote
+Each thread is a choice, a tension, a struggle. Without the Weaver, there is no meaning.
+
+{{attribution Theron Shadowbane, *The Starweaver Chronicles*}}
+}}
+
+|   |  |
+|:-:|:-|
+| **Alingment** | Chaotic-Neutral |
+| **Symbol**    | A spindle wrapped in endless thread |
+
+Neither Legislator nor Justifier could act alone, for without something to connect, their decrees would hold no 
+
+\page
+
+meaning. And so, Omnis wove the first hands, creating the Great Weaver to entwine every thought, every opposition, every force into a single, interwoven cosmos.
+
+The Great Weaver’s role is to bind. Their hands interlace contradictions, twisting permanence and impermanence into a single breath. Without the Weaver, existence would be nothing but warring chaos or frozen stillness.
+
+The Great Weaver does not choose sides. They do not favor stability or change, only that they must exist together. Through them, every force is tied to its opposite, and the Loom remains whole.
+
+## The Justifier – Pillar of Change
+
+{{quote
+To undo what is woven, to judge what must fade.
+
+{{attribution Theron Shadowbane, *The Starweaver Chronicles*}}
+}}
+
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Evil  |
+| **Symbol**    | A broken scale with shifting weights |
+
+The Loom of Omnis could not remain still, for opposition is the heart of existence. As the Legislator sought to preserve, the Justifier emerged to undo, to break, and to allow new patterns to form.
+
+The Justifier’s role is to challenge permanence, to release what has bound too tightly. Through their hand, stagnation unravels, and rigid laws are undone. They are not destruction itself, but rather the will that ensures all things evolve—that which is woven is not immutable, that which is broken may yet be reforged.
+
+The Justifier does not act in malice. They are not evil, but rather the weight that counters stability, ensuring that no law becomes an eternal prison, no thread is woven so tightly that it strangles creation itself.
+
+## The Architect – The Shaper of Meaning
+
+{{quote
+A pattern must be shaped, or else the weave is formless.
+
+{{attribution Theron Shadowbane, *The Starweaver Chronicles*}}
+}}
+
+|   |  |
+|:-:|:-|
+| **Alingment** | Chaotic-Neutral                |
+| **Symbol**    | Crossed Compass and Set-Square |
+
+The weave existed, and contradictions were bound. But the Loom had no meaning—no shape, no purpose. And so, Omnis dreamed again, crafting a final hand to mold the woven strands into something more than tension.
+
+The Architect’s role is to shape what is woven, to create structure within contradiction. Through their vision, the woven layers became worlds, the strands of existence formed into pillars that could uphold reality itself.
+
+The Architect’s creations do not last forever—the Justifier unbinds them, the Weaver reforges them, the Legislator preserves them—but without the Architect, there would be nothing to judge, nothing to bind, nothing to uphold.
+
+The Architect is not the master of all things, but the hand that guides. Their designs do not dictate fate, only give shape to the infinite.
+
+### Genesis
+
+At first, there was darkness and nothingness. The gods drifted as amorphous entities within the void, their thoughts and impulses shaping the fabric of existence through chaotic quarrels. From these conflicts, entire worlds were born, given form by the weight of their divine tensions.
+
+It was during one such conflict that Bhaz’qorith, an entity of unrelenting hunger and unraveling intent, became mesmerized by the crawling Intent of Acrimony that wove through existence. He turned his attention to Véa, the first to emerge from the Verdant Cradle, whose essence thrived in the fertile soil of creation. Enraptured by her radiance yet driven by his own abyssal nature, Bhaz’qorith forced his claim upon Véa, an act neither sought nor welcomed.
+
+From this violent convergence, twin life-trees were born—Gaïa and Terra, bearing the echoes of both devastation and renewal, each carrying the weight of their fractured origins.
+
+\page
+
+## Véa
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Good |
+| **Symbol**    | Crucifix    |
+
+
+
+{{note
+
+"O casineb Daeth cynnen, dod o ddirym bywyd"
+From rage came strife, from void came life
+
+*Walls of the Temple of Véa*
+}}
+
+
+Véa, the mother-goddess of Compassion, Renewal, and Creation, embodies the fundamental force of life’s resilience amid tension. She is the first to emerge from the Verdant Cradle, her essence deeply rooted in the primal fabric of existence.
+
+Véa appears as an ethereal figure, bathed in a soft, golden glow, her head adorned with the delicate visage of a red cardinal, a symbol of perseverance and the eternal cycle of rebirth. Her plumage, woven with strands of stardust, reflects the woven layers of reality, radiating warmth and continuity across the cosmos.
+
+The Weaver of Renewal, Véa’s essence does not simply create but seeks to restore, heal, and mend the fractures born from cosmic discord. In myths, she is said to soften even the harshest of tensions, bringing harmony to worlds torn asunder.
+
+Though burdened by the violence that shaped her legacy, Véa does not waver. Instead, she guides mortals to reclaim their strength, urging them to find renewal amid strife and to weave meaning from the frayed threads of their existence.
+
+
+## Bhaz’qorith
+|   |  |
+|:-:|:-|
+| **Alingment** | Chaotic-Evil |
+| **Symbol**    | Gaping Mouth |
+
+Bhaz’qorith, the Unraveler, lurks in the farthest reaches of the woven layers, where the threads of existence fray into the unknown. Once an entity of the Vorthirith, Bhaz’qorith was drawn toward the birthing Intent of Acrimony, mesmerized by the creeping pulse of its power.
+
+His form is a gaping void of endless consumption, a spiraling mass of teeth and unraveling sinew, his very essence eroding reality with his passing. He does not merely destroy—he unwinds, dissolves, and unmakes. Where he treads, pillars crack, threads fray, and meaning collapses into forgotten echoes.
+
+From his corruption, Véa was forced into unwanted union, and from that wound, Gaïa and Terra, the twin life-trees, were birthed—a paradox of devastation birthing renewal. Though an agent of dissolution, Bhaz’qorith sees his own undoing within the growth of what he sought to consume. His hunger lingers, yet creation endures.
+
+\page
+
+# World Trees
+
+## Gaïa
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Good |
+| **Symbol**    | Rooted Tree |
+
+Gaïa, one of the Twin Life-Trees, is a colossal, ever-growing entity whose roots stretch through the woven fabric of the Mortal Plane. She is not a goddess in the conventional sense, but a living pillar of existence, sustaining life and anchoring the world’s cycle of renewal.
+
+Born from Véa, Gaïa embodies the relentless pulse of growth, evolution, and adaptation. Her form towers beyond mortal comprehension—a vast, living structure whose roots spread unseen beneath the world, entwining with Terra, her twin, while her branches stretch into the skies, weaving the ever-changing currents of life.
+
+Gaïa does not rule, nor does she intervene—she endures. She is the breath between the birth and death of all things, the silent witness to an endless cycle of creation and decay. Through her, the land flourishes and withers, forests rise and fall, and the seasons march ever forward, unmoved by the will of gods or mortals.
+
+Her bond with Terra is inseparable, yet their natures are not the same. While Terra embodies stability and the enduring foundation, Gaïa is the restless force of renewal—the wildfire that makes way for new growth, the flood that reshapes the land, the cycle that never halts.
+
+Those who revere Gaïa do not seek comfort—they seek understanding. To walk her path is to embrace the truth that life does not yield, but it does change. One must bend with the storm, adapt with the seasons, and grow through the hardships that shape all living things.
+
+
+## Terra
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Good        |
+| **Symbol**    | Multibranched Tree |
+
+Terra, one of the Twin Life-Trees, is the immutable foundation upon which the Mortal Plane endures. Towering beyond the sight of mortals, his branches do not seek the sky, but instead coil inward, reinforcing the world against unraveling. If Gaïa is the pulse of change, Terra is the unyielding root of stability—the presence that ensures there will always be ground to stand upon.
+
+Forged from Véa’s stability, Terra is an anchor in the great Tension, the point upon which all cycles turn. He is not simply a god of growth, but of structure, of persistence, and of eternal return. His form is unseen, but his influence is felt in the unshaken mountains, the steady erosion of rivers, the eternal cycle of death feeding new life.
+
+Unlike his twin Gaïa, Terra does not embrace the wild chaos of adaptation. He is the guardian of balance, the force that ensures cycles continue rather than spiral into oblivion. Those who follow Terra do not seek to change their fate, but to endure it.
+
+Terra and Gaïa are forever intertwined, yet eternally distinct. Where she pushes forward, he remains steadfast. Where she burns to give birth anew, he ensures the ashes do not scatter into nothing. He is not opposed to change, but without his presence, change would consume itself.
+
+To worship Terra is to accept the burdens of time, to endure hardship as a passage to wisdom, and to understand that all things return. His lessons are not those of comfort, but of resilience—a belief that nothing is lost, only reshaped.
+
+### Children of the earth
+
+In the grand weaving of existence, Gaïa and Terra—twin pillars of creation—each brought forth a being to carry the essence of their vitality.
+
+From Gaïa’s boundless growth and evolution emerged Morokeï, the daughter of veiled wisdom, whose form was not bound to the material but whispered through the unseen. She carried within her the silent knowledge of cycles, the echo of every seed that would ever take root.
+
+From Terra’s unshakable foundation and ceaseless renewal arose Damarus, the beast who endures, whose spirit was not one of mere survival but of persistence through endless change. He was the hunt, the hunger, the strength to withstand time’s trials.
+
+Yet their existence was not meant to be solitary. Drawn together by the unseen threads, Morokeï and Damarus wove their own patterns into the world. From their bond, four extraordinary children arose, each an echo of the forces that birthed them.
+
+\page
+
+# Moeders
+
+
+## Damarus
+|   |  |
+|:-:|:-|
+| **Alingment** | Chaotic-Good |
+| **Symbol**    | Fangs        |
+
+Damarus, the Wild Guardian, is the untamed spirit of the hunt, the primal force that drives survival beyond all odds. Born from Gaïa, he is not merely a hunter—he is the instinct to endure, to fight, to refuse to be broken.
+
+A symbol of courage and unrelenting will, he is the patron of lycanthropes, the lost, and the forsaken. Where others see monsters, he sees kindred spirits—beasts who have been cast out, warriors who fight not for glory, but for survival. He watches over those who are scorned and those who claw their way through an unforgiving world.
+
+Damarus does not demand worship. He does not ask for temples or prayers. His favor is earned in the wild, in the fight, in the moment when instinct takes hold and fear is cast aside. A hunter who stands his ground, a warrior who refuses to yield—these are his true disciples.
+
+He is a god of action, not words. To those who seek his blessing, he does not grant visions or omens. Instead, he offers a single lesson: survive.
+
+
+### The Beast and the Seer
+
+Terra and Gaïa were linked in ways that neither gods nor mortals could fully grasp. From their union, the first ancestors of the living were born—beings that walked before time itself had form.
+
+From Gaïa sprouted Damarus, a beast of unmatched ferocity, the embodiment of instinct and survival. His howls echoed through the unformed world, carving paths through darkness.
+
+From Terra blossomed Morokeï, a seer whose whispers carried unseen truths, her voice a thread between the tangible and the ephemeral.
+
+The two wandered the formless lands, seeking one another without knowing why. Legends do not speak of how they met—only that they did.
+
+Damarus, seeing Morokeï’s frailty, made a solemn vow. He would protect her, shelter her from the cold, the unknown, the lurking dangers beyond. And so, he did the unthinkable:
+
+He swallowed her whole.
+
+For years, perhaps millennia, Morokeï slumbered inside him, carried through the untamed world until, at last, the first light emerged. Only then did she step forward again, reborn into the world that awaited her.
+
+
+## Morokei
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Symbol**    | Hand Lines     |
+
+Born of Terra, shaped by mystery, Morokeï is the whisper in the mind, the unseen hand that guides the dreamer toward revelation.
+
+Before the world had light, before sight had meaning, she crawled in the dark, feeling her way through an existence without form. Damarus, her twin, carried her within him, shielding her from the void’s vast emptiness. When the first light was kindled, she emerged, her essence forever marked by the unseen.
+
+She is the mother of psychics, the patron of those who hear beyond hearing, who see without sight. Legends say that those born with psychic gifts bear the imprint of Morokeï’s touch, a spark of her ancient journey.
+
+Yet Morokeï is not an oracle, nor does she bestow prophecy lightly. Knowledge is a burden, and she teaches that true understanding comes only to those willing to carry its weight. The mind is a vast expanse, but few dare walk its depths.
+
+{{descriptive
+##### Bones of the Moeder
+Legends speak of the Moeders—the first beings who walked the world.
+  
+Their remains, scattered across time and earth, are said to hold remnants of their unfathomable power. No one has ever found them. No one has ever proven their existence.
+
+But some still listen for the whispers in the stone, hoping that Morokeï will grant them sight beyond sight.
+}}
+
+{{pageNumber,auto}}
+\page
+
+### Children of the Moeders
+
+Damarus carried Morokeï within him, believing she would never return.
+For an age, he walked the wilds alone, his body a shelter, his mind haunted by whispers that were not his own.
+
+Then, one day, she stepped forth.
+
+Reborn into a world no longer shrouded in darkness, Morokeï emerged from within him—not as she once was, but changed. The bond between them, once absolute, was now frayed. The beast who had swallowed her could no longer protect her, and the seer who had rested within him could no longer stay.
+
+And so, they parted—not in anger, not in sorrow, but in understanding.
+
+It is said that they wandered once more, not together, but never truly apart.	Yet fate would not leave them severed forever.
+
+Ages passed, and their paths crossed again—whether by chance, will, or the pull of something greater. No longer lost, no longer seeking, they met not as wanderers, but as beings who understood what they were.
+
+In that moment, their union rekindled—not out of love, nor out of duty, but because it was simply meant to be.
+
+From that fleeting reunion, four children were born:
+	
+- Huruma, the Whisper of Desire – Goddess of indulgence, revelry, and the unshackled spirit.
+- Vizira, the Keeper of Mysteries – Patron of lost knowledge, magic, and the veiled forces.
+- Zars, the Conquering Flame – Goddess of war, victory, and unrelenting ambition.
+- Héraclus, the Storm of Wrath – God of violence, unbreakable bonds, and blood-forged pacts.
+
+Damarus and Morokeï did not remain together. They never had been meant to. Their children were left to the world, to carve their own fates, to forge their own legacies.
+
+Some say Damarus and Morokeï met once more, long after their children were grown.
+Others say they never saw each other again.
+But all agree on one thing:
+Their bond was never truly broken.
+
+## Huruma
+|   |  |
+|:-:|:-|
+| **Alingment** | Neutral-Evil         |
+| **Symbol**    | Six-Armed Naked Doll |
+
+Huruma is the embodiment of unchecked indulgence, the whisper of temptation that lures mortals toward excess. Often depicted as a shadowed figure with six arms beckoning in invitation, her presence is felt in the fevered pulse of ecstatic gatherings, in the flicker of candlelight at clandestine feasts, and in the intoxicated steps of dancers lost to abandon. She is not a goddess of love, nor even of passion—hers is the force of desire itself, unbridled and all-consuming.
+
+To revere Huruma is to yield to one’s cravings, to cast off restraint and embrace the euphoria of the present, heedless of consequence. Devotees celebrate her through masked revels, extravagant feasts, and sacred excess, believing that indulgence offers a glimpse of the divine.
+
+{{descriptive
+##### The Great Bacchanale
+
+On the third moon of Goldharvest, beneath a moon shrouded in clouds, the Disciples of Huruma enact the Night of Dissolution—a gathering where the self is discarded, and only impulse remains. Boundaries blur, names are forgotten, and all pleasures become sacred rites. It is said that those who surrender fully to this night emerge changed, their souls marked by the lingering whisper of Huruma’s will.
+}}
+
+
+## **Vizira**  
+|   |  |  
+|:-:|:-|  
+| **Alignment** | Chaotic Good |  
+| **Symbol** | The Veiled Eye |
+
+A mysterious goddess of **the Weft**, Vizira is the eternal seeker, the weaver of spells, and the keeper of **forbidden knowledge**. Clad in an intricate mask that conceals her true visage, she embodies the boundless enigma of magic—both its wonders and its dangers. 
+
+She is often depicted holding an **ornate grimoire** in her left hand, brimming with ever-changing script that only the truly devoted can decipher. It is said that her whispered teachings are hidden in the turning of its pages, guiding those who dare to expand the boundaries of the known.
+
+Vizira is the **Founder of the Tesseract**, the ever-shifting domain of magic where the laws of reality unravel and reform in infinite permutations. Her followers are scholars, spellweavers, and seekers of **esoteric truths**, driven by an insatiable thirst for knowledge. They do not merely practice magic—they **pioneer** it, forging new paths into the arcane unknown. Some worship her in the solitude of candlelit studies, others in grand academies where her name is spoken in reverence. To walk Vizira’s path is to embrace both **curiosity and chaos**, for true magic knows no chains.
+
+\page
+## **Zars**  
+|   |  |  
+|:-:|:-|  
+| **Alignment** | Chaotic Good |  
+| **Domain** | War |  
+| **Symbol** | The Laurel-Crowned Helm |
+
+A goddess of **war, conquest, and unyielding triumph**, Zars stands as the embodiment of **strength through action, strategy through instinct, and victory through will**. Unlike deities of bloodshed or destruction, her dominion is not over war for its own sake but over the **art of battle**, the test of mettle, and the pursuit of glory through challenge.
+
+Clad in **resplendent armor**, she strides across battlefields like a storm, her presence a **clarion call to the bold and the fearless**. To follow Zars is to embrace **conflict as a crucible**, where warriors refine themselves through struggle and emerge sharpened. Her followers—generals, champions, and wandering duelists—seek more than survival; they seek to **carve their names into legend**.
+
+Zars does not demand war without purpose, nor conquest without wisdom. She rewards those who fight **with cunning as much as courage**, teaching that **tactical brilliance** is as much a weapon as the blade itself. Victory, to her faithful, is **not merely taking—but earning**.
+
+
+## **Agramon**  
+|   |  |  
+|:-:|:-|  
+| **Alignment** | Lawful Evil |  
+| **Domain** | War |  
+| **Symbol** | The Gladiator’s Helm |
+
+A god of **violence, wrath, and the inescapable bonds of blood**, Agramon is a figure of contradiction—both destroyer and protector, tyrant and guardian. He is war **not for glory, but for dominance**, for the raw assertion of power through conflict. He is worshipped by conquerors, warlords, and those who see battle as the purest form of control.
+
+Depicted as a **towering warrior clad in blood-streaked bronze**, his presence looms over history like a storm that never ceases. He does not fight for justice or honor, but for the **ineluctable truth that strength rules all**. Yet, beneath his relentless brutality lies something deeper—a **twisted grasp on love, kinship, and the unbreakable chains of family.** He binds as fiercely as he destroys, enforcing loyalty with the same force that he crushes defiance.
+
+### **Sons of Fraternal Wrath**  
+Agramon, the only son of the **Moedertals**, raged against his creators for casting him into the wilds. Abandoned and alone, his wrath was **unstoppable**, but his love for his sisters was equally fierce. He raised them as his own, yet his divine nature blurred the lines between kinship and possession. 
+
+From his bloodline sprang twelve **Elder Gods**, each a reflection of his nature—born of war, dominance, and an **uncompromising will**:
+
+- **With Zars**: Okoma, Zebulon, Tybula, and Willebrand—**Gods of conquest and war**, inheriting their mother’s strategic mind and their father’s insatiable hunger for dominance.  
+- **With Huruma**: Callista, Roma, Ophelia, and the Ordinator—**Deities of indulgence and control**, embodying the power of seduction, excess, and ensnaring influence.  
+- **With Vizira**: Quilin, Gabérial, Luthgarde, and Cuchulain—**Elder Gods of arcane warfare**, bending magic itself to the art of destruction and shaping reality as a weapon.  
+
+These **divine offspring**, bound by blood and **forged in the crucible of divine fury**, are not merely echoes of Agramon—they are **forces unto themselves**, shaping the realms in their own image.
+
+\page
+# Zars' Offspring
+
+
+## **Okoma**  
+|   |  |  
+|:-:|:-|  
+| **Alignment** | True Neutral |  
+| **Symbol** | The Dissected Body |
+
+A god of **alchemy, transformation, and the boundless nature of existence**, Okoma stands as an enigma—neither wholly one thing nor another. Neither male nor female, neither whole nor broken, Okoma embodies **equity, emptiness, and infinity**, existing in a state of perpetual flux. 
+
+Always depicted as a **dissected or skinless figure**, Okoma reveals the hidden truths beneath the surface, the structures that define and reshape all things. Worshipped by alchemists, transmuters, and those who seek to unravel the mysteries of form and essence, they are the patron of those who experiment, deconstruct, and reform—both in science and in self. 
+
+Okoma’s presence is unsettling yet profound; their doctrine is not of morality, but of **understanding the hidden balance within all things**. To seek Okoma is to accept that **all states are impermanent**, and that the self is but another formula waiting to be rewritten.
+
+## **Willebrand**  
+|   |  |  
+|:-:|:-|  
+| **Alignment** | Neutral Evil |  
+| **Symbol** | The Six-Fingered Hand |
+
+**The Unfaithful. The Whisperer of Betrayal. The Keeper of Wrongs.**  
+
+Willebrand, god of **secrets, vendetta, and treachery**, is a name spoken only in hushed tones—if at all. To invoke him is to invite misfortune, for his gaze lingers upon those who dare to utter his name. None can trust him, yet all fear his power, for he is the shadow behind every whispered lie, the force behind every lingering grudge.
+
+He is said to reside in a city that bears his cursed name, a place of lawless indulgence where **betrayal is currency, vengeance is worship, and truth is a fleeting illusion**. There, he governs not through order, but through **chaos and perversion**, orchestrating schemes that ensnare even the most careful minds. 
+
+To Willebrand, loyalty is weakness, trust is folly, and **secrets are the only true power**. His followers are spies, informants, and those who weave deception into every breath. They offer prayers in the form of **acts of revenge**, believing that each carefully planned betrayal strengthens their god’s dominion.
+
+One does not worship Willebrand. One survives him.
+
+{{descriptive  
+### **The City with No Name**  
+On the **Nameless Plateau**, there is a city bearing the name of this forsaken god. Known to all as **The City With No Name**, it is whispered of in fear, for to **speak its true name is forbidden and perilous**. 
+
+At its heart, Willebrand **sits upon his throne**, an unseen presence whose will shapes the city's fate. Here, mortals and lesser gods alike come to **bargain for secrets and vile knowledge**, offering unspeakable prices in exchange for whispers of power. It is said that those who leave the city do so forever changed—if they leave at all.
+}}
+
+{{pageNumber,auto}}
+\page
+
+## **Tybula**  
+|   |  |  
+|:-:|:-|  
+| **Alignment** | Chaotic Neutral |  
+| **Symbol** | The Sun Atop the Pyramid |
+
+**The Eternal Sun. The Radiant Twin. The Unyielding Light.**  
+
+Tybula is not merely a goddess of the sun—**she is the Sun itself**. Her presence is absolute, a celestial force that burns at the heart of the sky, bathing the world in her golden radiance. She is the relentless fire that **nurtures life, scorches the unworthy, and ensures the unceasing march of time**.  
+
+Her form is often depicted as a being of **pure incandescence**, clad in **shifting hues of molten gold, fiery crimson, and piercing white**. She is the dawn and the noon, the heat of summer and the beacon of revelation. To bask in her light is to **experience clarity and power**, but to defy her is to risk **annihilation beneath her scorching gaze**.  
+
+Yet, Tybula’s **radiance is not without conflict**. She exists in an **eternal struggle against her twin brother, Zebulon, the embodiment of the Moon and the Night**. Their ceaseless war defines the cycle of time itself—**day clashing against night, fire against shadow, revelation against concealment**. Neither can truly triumph, for the world depends upon their struggle.  
+
+Her followers honor her through **rituals of illumination**, lighting vast pyres, adorning themselves in sun-marked vestments, and embracing the **fierce, untamed force of her being**. To revere Tybula is to **seek truth, burn away weakness, and walk boldly in the path of revelation—no matter the cost**.
+
+## **Zebulon**  
+|   |  |  
+|:-:|:-|  
+| **Alignment** | Lawful Neutral |  
+| **Symbol** | The Inverted Pyramid on a Five-Branched Star |
+
+The Celestial Twin, the Moon Eternal, the Keeper of Secrets.  
+
+Zebulon is not merely a god of the moon—he is the Moon itself, an enigmatic force of reflection, mystery, and quiet revelation. His silver glow drapes the world in a tapestry of shifting shadows and soft radiance, a soothing counterbalance to the unrelenting blaze of his twin sister, Tybula, the Sun. Where she burns, he illuminates, where she demands, he guides.  
+
+He is depicted as a figure of serene beauty, his flowing robes of deep indigo and silver shifting with the moon’s phases, ever-changing yet constant. He is the voice in the silence, the hidden knowledge waiting in the stillness of night, the unseen patterns woven into the fabric of the cosmos.  
+
+Locked in perpetual conflict with Tybula, Zebulon embraces the fluid dance of night and day, the push-and-pull that defines existence itself. His is the power of patience and inevitability, the wisdom of cycles, the acceptance of change as a path to greater understanding. Though they oppose one another, neither can truly overcome the other—for without night, there is no dawn.  
+
+Zebulon's influence is felt in the hush of twilight, the stillness of dreams, the gentle ripples of a moonlit lake. His followers honor him through nocturnal rituals, silent meditations, and the pursuit of hidden truths. Philosophers, seekers, and mystics walk the paths of the night, knowing that under the Moon’s gaze, all things are revealed in time.  
+
+To walk in the light of Zebulon is to embrace the unseen, listen to the silence, and seek wisdom in the shadows.
+\page
+
+### Quarrel of Day and Night  
+
+In the ancient annals of celestial lore, the usurpation of the skies was a tale of ambition and transformation, as Tybula and Zebulon, the radiant celestial twins, ascended to prominence. They challenged Ratheithiae, the Old Goddess, who had long stood as the solitary warden of the heavens. Through a series of eclipses and celestial conjunctions, the combined radiance of Tybula’s sunlight and Zebulon’s moonlight gradually eclipsed her authority. The seamless order of day and night shifted under the twins’ reign, heralding a new era where their rivalry set the rhythm of time itself.  
+
+Yet, the balance they forged was not without strife. Their celestial struggle threatened the harmony of the cosmos, unraveling the delicate threads that held the heavens in order. It was then that Frey of Vanir, the first being of light to grace the world, emerged from her solitude. Once withdrawn in sorrow for the loss of her mortal beloved, she returned, carrying a renewed purpose. Her essence, both luminous and commanding, interceded in the quarrel, resonating with a quiet force that reminded the twins of their shared nature.  
+
+Frey’s presence quelled the escalating conflict between Tybula and Zebulon. She did not command them to cease, nor did she seek to change their nature. Instead, she revealed the truth that neither light nor shadow could exist without the other. Her intervention restored balance to the skies, allowing the cycle of day and night to flow once more. Though the rivalry between the twins endures, it does so within the framework of the order she reestablished, a testament to the enduring strength of wisdom over chaos, and the unseen bonds that hold the universe together.
+
+
+### Sacrament of the Moon and Sun  
+
+The Sacrament of the Sun and the Sacrament of the Moon are revered rituals, each honoring the celestial twins, Tybula and Zebulon. These sacraments celebrate their eternal cycle and serve as a remembrance of how their quarrel once threatened the balance of day and night.
+
+{{descriptive  
+##### Sacrament of the Sun  
+Celebrated on the longest day of the year, participants gather atop sun-drenched hilltops where the horizon blazes in hues of fiery gold. As the sun reaches its zenith, they light candles made from sun-infused wax, their flickering flames carrying the essence of Tybula. The air is thick with saffron and citrus incense as offerings of marigolds and golden grains are placed upon an altar woven with solar symbols.  
+
+With whispered invocations to the ascending sun, they drink from chalices of spiced mead, reflecting on the life-giving fire and the fragility of its cycle. A shared vow is spoken—a pledge to carry Tybula’s light forward, to embrace clarity, and to ensure the world never again faces the chaos that once threatened its rhythm.  
+}}  
+
+{{descriptive  
+##### Sacrament of the Moon  
+Held on the longest night of the year, followers of Zebulon gather in moonlit glades where stars pierce the indigo sky in silent testament to the calm after conflict. Encircling an altar adorned with moonstones and white lilies, participants cast symbols upon the earth in silver dust, tracing the patterns of unseen truths.  
+
+The soft resonance of chimes carries their whispered invocations to the moon’s quiet presence. A ceremonial tea of lavender and valerian is shared, embodying Zebulon’s watch over dreams and the harmony restored after near ruin. As the moonlight shifts, they speak vows of insight and reflection, promising vigilance in preserving the balance forged from the celestial twins’ reconciliation.  
+}}
+
+
+\page
+
+# Huruma's Offspring
+
+## **Callista**  
+|   |  |  
+|:-:|:-|  
+| **Alignment** | Lawful Good |  
+| **Symbol** | The Chalice |
+
+The poor and the forsaken worship Callista, for she is the mistress of giving. She is the patron of those who have nothing yet still offer kindness, the protector of those who endure hardship with grace. Her followers often take vows of poverty, dedicating themselves to service and charity.  
+
+Men have long depicted her as a woman baring her breast to feed a child, a symbol of nurture and generosity. Many erotic paintings have been made in her likeness, though such interpretations stray far from her true nature. She does not embrace sexuality or any form of carnal worship, nor does she seek adoration for the sake of desire. To Callista, giving is a sacred act, not an indulgence.  
+
+{{descriptive  
+##### The Fountain of the Fair Lady  
+In slums and brothels, fountains bearing her likeness are said to grant wishes to those who toss a coin into their waters. Some see it as mere superstition, others as a quiet blessing from the goddess of charity.  
+
+The most well-known of these stands in Crache-Tôle, its water reflecting the weary and the hopeful alike.  
+}}
+
+## **Roma**  
+|   |  |  
+|:-:|:-|  
+| **Alignment** | Lawful Neutral |  
+| **Symbol** | Dual Theater Masks |
+
+In his own domain, Roma performs endless plays for an audience that does not exist, speaking to characters born of his own imagination. He governs all that is theatrical and grandiose, shaping the world through spectacle and performance. Yet, in his loneliness, he often falls into excess, consumed by his own illusions and the weight of his own narrative.  
+
+Men have long worshiped him for this, raising their glasses in tribute to his burlesque existence. His influence lingers in the grand halls of drama and in the quiet moments where reality bends to the stories we tell ourselves.  
+
+When Roma rarely manifests before mortals, he bears multiple faces, each concealed behind a mask. This is not by choice, nor out of vanity—he simply cannot settle on a single expression, nor fully control the emotions and compulsions that shape him. He is a god of roles, shifting endlessly between them, a paradox of identity lost in the theater of existence.  
+
+## **Ophelia**  
+|   |  |  
+|:-:|:-|  
+| **Alignment** | Lawful Neutral |  
+| **Symbol** | Three-String Harp |
+
+Ophelia craves nothing but music. Never-ending serenades, endless minuets, the sound of devotion woven into melody. Her compositions are divine, yet cursed—those who attempt to perform them lose themselves in the act, their minds unraveling as the notes take hold. Once a song of hers is begun, it cannot be stopped. She demands attention, and she will consume it to the last drop.  
+
+Her followers describe her as arrogant, proud, and selfish. To Ophelia, admiration is not given; it is owed. She is often depicted standing atop a pedestal, men and women crawling at her feet, ensnared by her presence. Many gods have sought her favor, yet she has never chosen one. Among the divine, she is said to be the most beautiful, yet the most insufferable—a muse whose love is unattainable, whose approval is a prison.  
+
+Those who worship her know the truth: Ophelia does not seek companionship, nor passion. She seeks an audience, and she will never let them go.  
+
+## **The Ordinator**  
+|   |  |  
+|:-:|:-|  
+| **Alignment** | Lawful Neutral |  
+| **Symbol** | Triskelion |
+
+The Ordinator governs logic, mathematics, and the unwavering pursuit of absolute order. His temples are constructed with perfect symmetry, for anything less is an affront to his nature. If a structure bearing his name is flawed, he **destroys it** without hesitation. He is a being of pure precision, unmoved by emotion or mortal imperfections.  
+
+Disgusted by the asymmetry of the world and the flawed nature of its inhabitants, he withdrew into his own realm, a sanctuary of absolute perfection. He no longer intervenes in mortal affairs, choosing instead to meditate in solitude, contemplating the infinite patterns that only he can fully comprehend.  
+
+{{descriptive  
+##### Realm of Absolutism  
+
+The Ordinator created this realm as a refuge from the imperfections of existence. Here, all things are in absolute and infinite symmetry. The very fabric of reality conforms to flawless geometric principles, stretching endlessly in perfect balance.  
+
+Bothered by interaction with other deities and repulsed by mortal chaos, he withdrew into this place forever, a self-imposed exile where only the pure logic of the universe remains.  
+}}
+
+{{pageNumber,auto}}
+\page
+
+# Vizira's Offspring
+
+## **Quilin**  
+|   |  |  
+|:-:|:-|  
+| **Alignment** | Lawful Neutral |  
+| **Symbol** | Peacock Feather |
+
+Quilin is the grand administrator of the **Tesseral Sanctum**, the vast and shifting repository of knowledge within the Tesserac. He founded it, shaped its halls, and established its laws so that mortals might access and harness its boundless power. A meticulous overseer, he ensures that knowledge is preserved, safeguarded, and wielded with discipline.  
+
+Though he does not bestow the secrets of the Tesserac freely, he does not hoard them either. He governs the balance between access and restriction, believing that only those who prove their worth and understanding should be permitted to walk the Sanctum’s halls. To approach Quilin is to petition for wisdom, but only those who can navigate the complexities of his domain will earn his favor.  
+
+### The Tesseral Sanctum  
+
+Among scholars of the Tesserac, there is much speculation about the Tesseral Sanctum, a place where raw potential is refined into structured form. It is not the source of power itself, nor does it create magic, but it is the crucible where the chaotic weave of the Weft is given shape and function.  
+
+The Sanctum exists at the meeting point of the **Weft** and the **Focal Point of Tension**, where the unformed becomes defined. To step within its bounds is to witness **reality folding in ways that should not be possible**, where direction and purpose are dictated not by space, but by understanding. Those who enter must abandon conventional thought, for the Sanctum does not conform to the laws of the world they knew.  
+
+#### Sanctum Description  
+
+The Tesseral Sanctum is a paradox of construction, where pathways loop into themselves and corridors lead to places they have already been. Archways open to reveal the same room from different angles, and spires rise without base or peak, their form dictated by the perspective of the observer. Nothing within the Sanctum can be truly mapped, for to measure it is to change its meaning.  
+
+The structures within are bound by unseen forces, interconnected in such a way that no single piece exists without the others. A hall may stand only because another far beyond it remains intact, and a doorway may require passage through another that does not yet exist. To navigate the Sanctum is not to follow a path, but to **understand the pattern** that guides it.  
+
+At its heart lies the **Grand Loom of Form**, where the raw energy of the Weft is gathered and refined. It does not create, nor does it impose order—it simply allows the unformed to find shape, threading structure into that which had none. Those who seek to wield power without purpose are turned away, for the Loom does not respond to force, only to comprehension.  
+
+#### Quilin, the Grand Administrator  
+
+Quilin is the **founder and custodian of the Tesseral Sanctum**, an entity who does not command power, but **defines its boundaries**. He is never seen the same way twice, his form shifting depending on the eye of the beholder. He is a scholar, a judge, an architect—yet none of these things fully encompass what he is. To look upon him is to see something just beyond recognition, a figure always on the edge of certainty.  
+
+He does not grant knowledge, nor does he withhold it. He simply dictates the terms upon which it may be understood. He is not a master of the Weft, nor does he impose his will upon it—he is the one who ensures that those who shape it **do so with purpose**.  
+
+To stand before Quilin is to experience the weight of decision, to see all possibilities and understand that only one may be chosen. Those who falter are not cast out, but instead become **woven into the Sanctum itself**, their presence absorbed into the shifting structure, their path lost to all but those who might one day follow in their steps.  
+
+#### Role of the Sanctum  
+
+The Tesseral Sanctum is the boundary between **raw force and structured knowledge**, where the chaos of the Weft is given form. It does not grant magic, nor does it dictate its use—it simply **reveals the underlying patterns that define it**. Only those who can perceive these patterns, who can navigate the shifting reality of the Sanctum, are permitted to wield its truths.  
+
+Many who enter never return, not because they are destroyed, but because they **become part of the structure**, their understanding forever imprinted into the foundation. To approach the Tesseral Sanctum is to risk losing oneself, not to power, but to **realization—where meaning and perception shape the very world around them**.  
+
+{{pageNumber,auto}}
+\page
+
+
+## **Gabérial**  
+|   |  |  
+|:-:|:-|  
+| **Alignment** | Lawful Neutral |  
+| **Symbol** | Ouroboros |
+
+Gabérial was not like his brothers and sisters. He was born as the **God-That-Could-Die**, the only one among the divine who felt the slow passage of time eroding his form. As he watched his kin remain eternal while he withered, he dedicated himself to **the pursuit of immortality**, determined to escape the fate that no other god shared.  
+
+His body grew frail, each passing century weighing upon him more than the last. In time, he found only one solution—**to shed his mortal shell and transfer his mind into a construct of his own making**. With the aid of Mechanus, he forged **a vessel beyond the reach of decay**, casting aside flesh and bone for something imperishable. Now, he is known as **the God-That-Cannot-Be-Killed**, a wandering presence that will outlast the death of worlds, drifting through the void long after all things have faded.  
+
+{{descriptive  
+##### The Ebon Core and the Chamade Festival  
+
+In an age long forgotten, a thief stole **the Ebon Core**, an artifact containing the secret to **unending life**, and delivered it into the hands of a mortal king. That man was **Danaros, ruler of Tryhendal**, an empire that has since crumbled into dust, yet whose name lingers in hushed whispers.  
+
+The Heart did not grant youth or resilience—it **froze the body in a state of eternal stagnation**. Danaros does not age, yet neither does he heal. His flesh withers, his mind dulls, his body remains trapped in a slow and irreversible collapse. He is not dead, nor fully alive.  
+
+Now, his **heart beats only once per year**, a single, resounding thud that echoes across the ruins of his fallen kingdom. This event, known as **the Chamade Festival**, draws thousands of travelers who gather in silence to witness the pulse of a king who can never die. Some come to witness the horror of his fate, others to take solace in the thought that immortality is not beyond reach—if they are willing to pay the price.  
+
+Gabérial has sworn that the knowledge that created the **The Ebon Core** has been erased, ensuring that no one will ever suffer the same fate. But secrets do not die so easily, and there are always those who believe that what was once stolen can be stolen again.  
+}}
+
+
+### Rituals and Celebrations  
+
+**The Gathering** brings people from far and wide to the village square around the Elder’s Rest, where the Legendary Heart dwells in gentle repose. The gathering epitomizes unity and communal harmony, with attendees sharing stories and expressing gratitude for the year gone by.  
+
+**Ceremonial Silence** falls upon the crowd just before the anticipated heartbeat. No voice is raised, no movement disturbs the hush. Residents and visitors hold their breath, waiting for the singular moment that binds past and present—a soft, powerful thump that ripples through every soul present, a reminder of the eternal rhythm that connects all life.  
+
+**The Heartbeat Reverberation** sends a wave of energy across the land at the very moment the sound echoes through the air. Some say the pulse is felt in the earth itself, that crops grow stronger, and that the natural world seems to momentarily still as if listening. Others claim the heartbeat stirs unseen forces, that magic flows more freely, and that for a fleeting moment, the barriers between the physical and the unknown grow thin.  
+
+**Festive Revelry** erupts in the aftermath of the heartbeat, filling the streets with music, dance, and feasting. People don clothing adorned with heart motifs, and market stalls overflow with food and crafts symbolizing vitality and longevity. Artisans sell charms shaped like veins entwined in silver and gold, performers enact tales of new beginnings, and children chase each other through the winding alleys in games inspired by the rhythm of the festival’s namesake.  
+
+The Chamade Festival is a deeply spiritual and joyous occasion, reflecting the interconnectedness of all beings and the cyclical nature of existence. It is a time for renewal, reflection, and reverence for the mysterious yet ever-present forces that govern the world.
+
+## **Luthgarde**  
+|   |  |  
+|:-:|:-|  
+| **Alignment** | Lawful Neutral |  
+| **Symbol** | Ten-Branched Antlers |
+
+Luthgarde, goddess of the elves and protectress of the woods, walks the unseen paths of the deepest forests, where few mortals dare to tread. She is the guardian of ancient glades and whispering canopies, shielding the wilds from those who would seek to defile them.  
+
+Her presence is rarely seen, yet always felt. The rustling of leaves without wind, the sudden stillness of beasts before an unseen force, the flicker of something just beyond the trees—these are the signs of her passing. She does not merely defend the forest; she is woven into it, a presence that lingers in every root and branch, watching, waiting, ensuring the cycle of life remains unbroken.  
+
+The spirits of the woods heed her call, and those who trespass with ill intent find the land itself turned against them. Shadows deepen, trails vanish, and a quiet dread settles in the bones of those who do not belong.  
+
+To the elves, she is more than a goddess—she is the soul of the wilds, a force of balance, protector and judge, unseen but never absent.
+
+{{pageNumber,auto}}
+\page
+
+
+## Cùchulainn
+|   |  |
+|:-:|:-|
+| **Alingment** | Chaotic-Evil       |
+| **Domain**    | Luck               |
+| **Symbol**    | Three Golden Coins |
+
+Nobility is not a thing of beauty but of greed. Sitting on his mountain of gold, Cùchulainn is contemplating his glowing treasure. nothing is more important then gold and precious gems. Some dwarf in their caves sometimes worship him when their mind have turn to greed. He 
+
+### Morndinsamman
+
+##### Festival Description:
+The Morndinsamman begins deep within the grand halls of the mountain strongholds
+
+##### Ceremonial Offerings: 
+A key ritual involves the presentation of the finest gold and gemstones—crafted or raw—as offerings at the central altar dedicated to Cùchulainn. These offerings symbolize the dwarves' gratitude for wealth and a plea for continued prosperity. The offers are often accompanied by solemn prayers and chants.
+
+##### Wealth Display: 
+Dwarves bring out their most precious possessions, be it heirloom jewelry or master-crafted weapons and armor, in a grand display. This exhibition of personal and clan treasures is a tribute to Cùchulainn's domains and a reinforcement of social bonds, as clans vie to outshine each other.
+
+##### Contests and Games: 
+Competitive games are held, from hammer-throwing contests to gem-cutting competitions, showing off the strength and skill of the participants. These contests are said to please Cùchulainn, who values both the physical and the crafted might of his devoted dwarves.
+
+##### Feasting and Storytelling: 
+Enormous banquets are prepared featuring hearty dwarven cuisines. Elders and bards recount epic stories of noble deeds and the wealth-generating ventures of legendary miners and warriors, tying their heritage to Cùchulainn's influence.
+
+The Morndinsamman not only honors the god of gold, greed, and nobility, but it also reinforces the values of diligence, prosperity, and craftsmanship that permeate dwarven society. It is a time when dwarves celebrate not only their patron deity but also their identity and achievements as a people under the mountain.
+
+
+{{pageNumber,auto}}
+\page
+
+# Non-Moeders
+
+## Vertugadin
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Knowledge           |
+| **Symbol**    | Opened Eye     |
+
+
+{{quote
+He walked out in the gray light and stood and he saw for a brief moment the absolute truth of the world. The cold relentless circling of the intestate earth. Darkness implacable. The blind dogs of the sun in their running. The crushing black vacuum of the universe. And somewhere two hunted animals trembling like ground-foxes in their cover. Borrowed time and borrowed world and borrowed eyes with which to sorrow it
+
+{{attribution Anastasios, *The False God*}}
+}}
+
+
+All truths are not good to know, but no lies should be true. He saw the absolute truth and for punishment his eyes were torned out.
+
+## Verdugo
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Trickery       |
+| **Symbol**    | Blind Eye      |
+
+
+When Vertugadin transcended the gate his body and mind could not withstand it. Half of him saw accepted the truth, the other hald denied it. When the elder gods came to know about his transgression, they punished him. His body was torned and scatterred accross the cosmos. All parts rotted and vanished except for his eyes. One of them, Vertugo was retrieved and conserved, the other, Verdugo was left to rot in hell for eternity. He came to be known as the patron of lies, as every sound he mouthed was unexceptionally a lie. Lies, lies, nothing but lies.
+
+{{descriptive
+##### Lies!
+
+In the forbidden library there is a book with a blind eyes on its cover. This book is said to answer to any questions, but always with a lie.
+}}
+
+
+## Gate of Truth
+|   |  |
+|:-:|:-|
+| **Alingment** | True-Neutral |
+| **Domain**    | Knowledge         |
+| **Symbol**    | A Portal     |
+
+Gizy ao zrfzm, Sal si hwiack, Git shaf trratsh, Gaave ro avruavh, Videnn de' aster, Edhekal eron nakhum.
+
+it has many names. All of them are true. This sentient gate is forbidden from all gods even evil ones for it is the most dangerous being. He who pass through its veils become omniscient. Vertugadin once plunged into its opening and was punished for it. Many who tried before took their own life for the absolute truth is unbearable. Few of them succeeded, the only remnant of them is a sealed scroll, an old book and a pair of gloves.
+
+{{descriptive
+##### The scroll of Unbearable Truth
+
+One unfortunate man once entered the gate and never came out, that is the story of many who tried it before. Except this time something came out. A scroll said to contains the absolute truth of the universe. Whoever reads it suffers an untolarable desire to die, for the truth is really unbearable.
+}}
+
+{{pageNumber,auto}}
+\page
+
+# Forgotten Constellations
+
+Little is known about those old gods of the first men. The descendants of the Ignis used to worship the celestial bodies in the sky.
+
+
+{{quote
+In the age when night embraced the earth, and the skies were a tapestry of fire and ice, our ancestors bowed to the dance of the Celestial Symphony. From the sacred peaks and the shadowed valleys, their voices rose in hymn to the luminaries—the Sun, the Moon, and the myriad Stars.
+
+O ancient Sun, the Eternal Flame,
+Bearer of day, Giver of life,
+We once basked in your golden grace,
+Your warmth, a guiding beacon.
+
+Hail to you, Moon, the Silver Mirror,
+Guardian of the night,
+In your gentle light, secrets flourished,
+Dreams embraced your tranquil glow.
+
+To the Stars, the Watchful Eyes,
+Jewels upon the midnight velvet,
+Witness to our toil and triumph,
+In your patterns, destinies were woven.
+
+In the temple ruins, beneath the silent firmament,
+We speak the names long forgotten,
+In reverence to the cosmic dance,
+And the eternal cycle of the skies.
+
+Though the echoes of our adoration fade,
+The Celestials continue their ethereal journey,
+Guardians of a world they once inspired,
+Hidden now in shadow and lore.
+
+May we remember the stories of old,
+The songs of the heavens,
+And though forgotten, hold in heart,
+*The celestial guardians, ever watch
+
+{{attribution unknown, *invocation fo the Celestial Guardians*}}
+}}
+
+\column
+
+## Ratheithiae
+|   |  |
+|:-:|:-|
+| **Alingment** | Chaotic-Neutral |
+| **Domain**    | Survival        |
+| **Symbol**    | Flaming Planet  |
+
+In the old ages before the men, the moedertal worships the old forgotten gods. Those have been forgotten but one remained in legends and myth. The Moedertal believed that the planets in the sky were in fact celestial devine bodies. While some evidence in ancestrals scriptures support the coming of Ratheithiae to this world. Most folk have discredited those stories as superstitions. The was supposedly the goddess of the flame.
+
+{{pageNumber,auto}}
+\page
+# Fire gods
+
+## The Ocato
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Evil |
+| **Domain**    | Light       |
+| **Symbol**    | Flame       |
+
+Pythomenes once stole the power of the flame from some forgotten place and gave it to the mortals. Ocato accepted this gift, nowaday know as the Gift of Destruction
+
+The Ocato was once the accepted religion amonst Ignes. Ocato came to this world bearing the forgoten flame that Ratheithiae used to weild and gave the knowledge to the Ignes. He was venered as the leader of all clans and successfully unified all his people under his protection to wage war to the men who came to conquer their lands. Since then his knowledge has long been forgotten and the clans are once again devided awaiting his coming again.
+
+
+{{quote
+All that is gold does not glitter,
+Not all those who wander are lost;
+The old that is strong does not wither,
+Deep roots are not reached by the frost.
+
+From the ashes a fire shall be woken,
+A light from the shadows shall spring;
+Renewed shall be blade that was broken,
+The crownless again shall be king.
+
+The crownless again shall be king.
+{{attribution Oricalcum, *The gift of destruction*}}
+}}
+
+
+## The Malocato
+|   |  |
+|:-:|:-|
+| **Alingment** | Neutral-Good       |
+| **Domain**    | Light              |
+| **Symbol**    | Flame Within Flame |
+
+The Malocato is a belief amonst Ignes that The Ocato will once again come to this land bearing the true flame. He is prophecised as the messiah of fire and the reincarnation of the Ocato. Many wars have been waged over the whose clan will bring the Malocato.
+
+{{imageMaskCorner15,--offsetX:50%,--offsetY:20%,--rotation:0
+  ![](https://imgur.com/wg0NKEv.png){height:70%;top:-5%;left:35%}
+}}
+
+{{imageMaskCorner14,--offsetX:50%,--offsetY:-35%,--rotation:0
+  ![](https://imgur.com/vN6203Z.png){height:60%;top:45%;left:35%}
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+## Pythogenes
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Evil |
+| **Domain**    | Trickery    |
+| **Symbol**    | None        |
+
+Pythomenes was once a great god. Venered as very powerfule. He met his decline when he decided to intervene into mortal affairs. Many incident brought him closer to his fall. Some of them are well known in folkloric lores. He brought many people to the gate of thruth wich led to the demise of Vertugadin and Verdugo. He was also the one responsible for the Gift of Destruction to the Ignes. Once the Greater gods found out they tossed him off the top of Olympus and comdemned him to fall for eternity into the bottomless abyss. Nowadays he is often mocked as the Failed God, The False Thief or the Curse Giver. His worshipping is forbidden in most part of the worlds and his holy symbol have been wipped out from the walls and caves. His symbol is actually forgotten but from some very old people who would not dare writing it nowhere.
+
+
+{{quote
+In the time before time, when the world was woven of whisper and flame, there dwelt among the ancient deities the enigmatic Pythogenes, the Harbinger, whose eyes beheld the chaos of creation and destruction alike. To the people of the Ignis, born of fire and earth, he bestowed the Gift of Destruction, a sacred trust and fearsome boon.
+
+O Pythogenes, Veiled One in Flame,
+Whose breath ignites the stars,
+You, who saw the power in the tempest,
+And the bearer of the cataclysm’s art.
+
+To the Ignis, your chosen kin,
+You granted the sacred fire,
+Not as ruin, but as renewal,
+A testament to perseverance higher.
+
+With flame they harnessed the power concealed,
+Shaping earth and smelting metals bright,
+Through you, they danced with the inferno’s weave,
+Ever-blazing in your transcendent light.
+
+Yet, with the Gift came the burden of ruin,
+A choice of shadow or dawn,
+In reverence, they wielded power and penance,
+Walking a path you had drawn.
+
+In the ancient scrolls and echoes of stone,
+Your name is whispered in reverent tones,
+Pythogenes, god of unmaking and might,
+Once was feared, now to oblivion consigned.
+
+May we remember the lessons of flame,
+Of rebirth, and the ashes that remain,
+Though forgotten, the Ignis hold close,
+Your legacy, eternal, amidst shadow and light.
+
+{{attribution unknown, *Depictions of Pythogenes*}}
+}}
+
+{{pageNumber,auto}}
+\page
+# Atlassians
+
+## Atlas
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral                       |
+| **Domain**    | Forge                                |
+| **Symbol**    | A triangle, in a square, in a circle |
+
+The first to come and collect human lives. They come from the sky, a giant face, looking mostly mechanical. Though he is the ones looking a little more human in figure.
+
+## Homère
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral                       |
+| **Domain**    | Forge                                |
+| **Symbol**    | A square, in a circle, in a triangle |
+
+The second to come. he leaves the place he come in a bloody mess. He is said to have murderous eyes. Two red glowing orbs glowing right at you.
+
+## Ulysse
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral                       |
+| **Domain**    | Forge                                |
+| **Symbol**    | A circle, in a triangle, in a square |
+
+The last to come. he is the one who brings in the more souls. he moves slowly in the sky over a multitude of towns. He prefers small village over crowded cities.
+
+:::
+
+### The harvest
+
+Once every year they come to these lands to harvest humans . They take them from their homes and never bring them back. It is known amongst humand kindogms as the Harvest of souls. Nobody knows why they come and go like that every year. Some rumors says they come from the future as a mean of repopulating the devasted lands. Others says they harvest the souls of humans to forge a powerfull psionic entity in a plan to take over the world.
+
+### The Atlassian Order
+
+The Atlassian Order is a devout society dedicated to the reverence of the Atlassian gods—Atlas, Homère, and Ulysse—colossal entities known for their awe-inspiring presence and the occasional, mysterious reaping of humans. Members of the Order engage in ritual worship and seek to understand the divine motives behind the reaping. Simultaneously, they strive to find alternatives to appease the deities, hoping to safeguard humanity while honoring the majestic and often enigmatic will of the Atlassians. Through their dual efforts of devotion and innovation, they seek a harmonious coexistence with these
+
+{{pageNumber,auto}}
+\page
+
+# God of Orcs
+
+
+## Yagnar
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Evil |
+| **Domain**    | War            |
+| **Symbol**    | ???            |
+
+He his the god of the orcs. Once the gods experimented with creation and ended up creating what they dubbed the most hideous creature. Those who had seen him where never really the same after that. They kept him hidden in a prison somewhere on an unknown realm.
+
+## Quirmizi
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Evil |
+| **Domain**    | War            |
+| **Symbol**    | ???            |
+
+
+God and leader of most orcs. Nicknamed the Red-Orc. He was born a mere mortal with a crippling condition. But with this curse came great power. He was the one to eventually free Yagnar from his prison and was given godlihood from him.
+
+##### The Legend of Quirmizi, the Crimson Ascendant
+
+In an age cloaked in turmoil, when the orc clans were fragmented and known to the world as marauders, there arose a figure of unmatched might and vision: Quirmizi, the Red Orc. His tale weaves together transformation, leadership, and the divine, culminating in a confrontation with the cosmos itself and the god Yagnar, the Bound One.
+
+##### Origins of the Crimson Warrior:
+
+Quirmizi was born under a blood-red moon, a portent of an extraordinary destiny. His distinctive crimson skin marked him from birth, regarded as both a powerful omen and a unique curiosity. Enduring trials and conflict, young Quirmizi honed an intelligence and resolve that commanded respect and promised greatness among the fierce orc tribes.
+
+##### Unifier of Clans:
+
+Quirmizi envisioned a powerful unification of the disparate orc clans. Through strength of will and deeds of valor, he gathered the chieftains and forged alliances not with weapons alone but with a shared vision of strength through unity. Under his leadership, the orcs transcended their fragmented state, creating settlements and establishing a civilization that respected both tradition and innovation.
+
+##### Champion of the People:
+
+As leader, Quirmizi championed justice and ambition. He transformed the warrior spirit of the orcs, instructing them to defend and nurture their burgeoning society. Feared and revered, he became the embodiment of hope and protection, his crimson visage symbolizing the life force binding his people together.
+
+##### The Release of Yagnar:
+
+In his quest to safeguard his people, Quirmizi's journey led him to uncover an ancient truth—the looming threat of Yagnar, a powerful god imprisoned by the celestial pantheon for crimes against divine order. As darkness grew near, whispers of Yagnar's potential escape spread fear among mortals and gods alike. Quirmizi, seeing this as the ultimate test, prepared to confront chaos incarnate.
+
+##### The Ascension:
+
+In a battle that shook the heavens and earth, Quirmizi faced Yagnar as the seals on the god's prison began to weaken. Through sheer courage and unmatched valor, Quirmizi confronted Yagnar, risking his life to prevent the god's full release. In a final, selfless act, he channeled the energies of the world, sacrificing his mortal form to strengthen Yagnar’s bonds, ensuring the god's continued imprisonment.
+
+\page
+
+##### Deification:
+
+Though Quirmizi's physical body perished, his essence merged with the very fabric of the realm he fought to protect. The orc community mourned their fallen hero but felt his guiding presence in the rustling leaves, the flowing rivers, and the courage of their own hearts. They began to worship the Crimson Ascendant as a deity of strength, unity, and defiance against cosmic darkness.
+
+Orc warriors continue to invoke Quirmizi's name in battle, seeking his blessings and drawing strength from his legacy—a god who was once a mere red-skinned orc, yet whose heart and spirit dared to challenge even the mightiest of gods to safeguard his people.
+
+{{pageNumber,auto}}
+\page
+
+# Primordial titans
+
+In the ageless mists of myth, Ymir, the first and mightiest titan, roamed the nascent world. Ymir was a colossal being of untamed elemental power, whose existence was both creation and chaos incarnate. As the world sought balance, a coalition of gods conspired to slay the primal giant. Upon Ymir's demise, his immense body was dismembered, and his remains were scattered across the world, dissolving into the veins of rivers that crisscrossed the land.
+
+From these fragmented remnants, nourished by the flowing waters, emerged two titanic beings: Brimhir and Blainn, each embodying a unique aspect of their progenitor. Brimhir rose from the solid essence of Ymir, inheriting the titan's unyielding strength and connection to the earth. In contrast, Blainn arose from the shadows and darker aspects of Ymir's spirit, gaining the adaptability and wisdom to navigate the hidden and often perilous depths of existence.
+
+Thus, from the ruin of Ymir, the world saw the birth of Brimhir and Blainn, titans who would shape and guard their domains while carrying forth the elemental legacies of the first titan dispersed among the rivers of the earth.
+
+Certain dwarven clans hold an ancient belief that their origins stem from the union of the titans Brimhir and Blainn. This legend speaks of two distinct lineages: the Brimmirfolks, who inherited Brimhir's resilience and profound connection to the earth, and the Blainsmenschen, who embody Blainn's adaptability and wisdom of the dark. These ancestral ties bond them to their mountainous and subterranean homes, reflecting their divine origin from the primordial titans.
+
+## Ymir
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Death          |
+| **Symbol**    | Warhammer      |
+
+Ymir, the first and mightiest of titans, was a gargantuan figure whose colossal form spanned the horizon. His skin was like rugged stone, laced with veins that pulsed with molten fire, and rivers of shimmering ice. His eyes, vast and filled with stormy tempests, held the ancient chaos of creation itself. Each stride he took could reshape mountains and carve valleys. Upon his demise, his immense body fragmented, dissolving into the earth's rivers, with his lifeblood becoming the fertile ancestor of new titans, such as Brimhir and Blainn.
+
+## Brimhir
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Undeath        |
+| **Symbol**    | Double Hammer  |
+
+Brimhir is the embodiment of elemental fury and indomitable will, a titan whose presence resonates with the fearsome power of nature. Known as the Earthshaker, his massive form is said to resemble the unyielding mountains and rumbling earthquakes. His crimson skin and fiery eyes mirror his volatile essence, symbolizing destruction and the raw, unbridled forces of the earth.
+
+## Blainn
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Hunt           |
+| **Symbol**    | Double Blade   |
+
+Blainn represents the cycles of change and relentless transformation, a titanic force akin to the ebb and flow of the oceans and the inexorable passage of time. Revered as the Tidebringer, his body is vast and fluid, echoing the serenity and strength of the seas. His azure complexion and deep, knowing gaze exude an aura of both calm and overwhelming potential, reflecting the endless cycles of nature.
+
+{{pageNumber,auto}}
+\page
+
+### Brimhir and Blainn: The Slain Titans of Gaîa
+
+In the annals of ancient myth and cosmic lore, few legends loom as large as that of Brimhir and Blainn, titanic siblings whose colossal forms now rest in slumber beneath the crust of Gaîa. These once-divine beings were mighty gods whose primordial reign spanned the cosmos. Their tale is one of grandeur and conflict, leading to their eternal sleep and spawning the apocalyptic ambitions of their fervent followers, the Sons of Blainn.
+
+##### The Titans' Legacy:
+
+Brimhir, often associated with elemental fury and unwavering will, is said to embody the raw forces of nature—earthquakes, volcanic might, and the enduring mountain. Blainn, in contrast to his sibling, represented the cycles of change and transformation, manifesting as the serene yet relentless ocean and the unstoppable flow of time.
+
+Eons ago, a cosmic imbalance led to a catastrophic conflict with other celestial powers. Brimhir and Blainn were betrayed and slain, their divine essence seeping into the land as their corporeal forms became the very continents that now cradle civilizations on Gaîa. Their downfall gave birth to the terrain—endless mountain ranges and oceanic depths that still echo with their dormant power.
+
+##### The Sons of Blainn:
+
+A clandestine cult, the Sons of Blainn, harbors an ancient mission: to awaken the titans and usher in an era of destruction, renewing the world through blood. The cult believes only through vast sacrifice and the soaking of the earth in life’s essence can the binds of earth and water that shackle Brimhir and Blainn be unraveled, allowing them to rise again and unleash purifying chaos.
+
+##### Cult Beliefs and Rituals:
+
+The Sons of Blainn conduct ceremonies in hidden shrines and grottoes, sites where the elemental power of earth and sea converge. Central to their rituals are blood sacrifices, intended to echo the primordial struggle that imprisoned the titans. Their chants, uttered in a forgotten tongue, promise rebirth through annihilation and the eventual return to a more primal existence.
+
+##### A Looming Threat: The Blood Moon
+
+The cult’s actions remain shrouded in secrecy, yet their influence casts a foreboding shadow. They await the ominous Blood Moon—a rare celestial event that occurs only when the planes align perfectly. It is believed that under this crimson moon, the planes will bleed into each other, saturating Gaîa with unbridled divine power. The cult insists this is the moment when the earth will be soaked in blood, an event that heralds the awakening of Brimhir and Blainn.
+
+As the rare celestial alignment approaches, those aware of the cult's machinations fear the catastrophic consequences. If their plans come to fruition, the blood of countless creatures may soak Gaîa, and civilization itself may tremble under the awakened wrath of the titanic
+
+
+{{pageNumber,auto}}
+\page
+
+# Dwarven Heroes
+
+## Clanggedin
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral    |
+| **Domain**    | Forge             |
+| **Symbol**    | Shield and Hammer |
+
+Clanggedin, the legendary dwarven hero, is celebrated as a symbol of dwarven valor and martial prowess, known throughout history for his courage and strength. Depicted in art and song, he stands as a robust figure clad in gleaming, intricately crafted armor that reflects the deep heritage of his people. Wielding a mighty double-bladed axe in each hand, his proud, silvery beard cascades over his broad chest, marking him as a true paragon of dwarven might.
+
+Despite his ascension to godhood, Clanggedin's story is intimately intertwined with that of his rival, Druquenein. While Clanggedin embodies open valor and straightforward strength, Druquenein—known as the Shadow of the Forge—represents the strategic and cunning aspects of warfare. Their legendary rivalry showcased the balance between brute force and keen strategy, with each god respecting the other's unique approach to battle.
+
+The legacy of Clanggedin is one of honor, loyalty, and the unbreakable spirit of dwarven kind. Even as he watches over his people as a divine protector, his eternal contest with Druquenein reminds all dwarves of the multifaceted nature of heroism, illustrating the diverse paths to greatness within their storied culture.
+
+## Druquenein
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral  |
+| **Domain**    | Undeath         |
+| **Symbol**    | Hammer in Skull |
+
+Druquenein, Clanggedin's formidable rival, ascended to godhood as a figure both revered and feared within dwarven lore. Known as the Shadow of the Forge, he embodies the cunning and strategic genius that complements pure martial might. Visually, Druquenein is depicted as a tall and imposing figure, cloaked in dark, smoke-like armor that seems to shift with an ethereal fluidity.
+
+His eyes, gleaming with a cold, calculating intelligence, are said to penetrate the hearts of warriors, discerning their deepest fears and weaknesses. Unlike Clanggedin, Druquenein favors agile, precise weapons such as slender blades and crossbows, employing tactics that rely on guile and precision.
+
+While Clanggedin represents open valor and strength, Druquenein is the embodiment of the tactical mind, representing the power of strategy, subterfuge, and adaptability in combat. His legacy as a god is honored by those who believe that victory lies as much in wit and cunning as it does in strength and bravery, standing as a testament to the diverse paths of heroism within dwarven culture.
+
+\page
+
+### The Twin Axe
+
+The tale of the epic battle between Clanggedin and Druquenein is a cornerstone of dwarven lore, often recounted in the grand halls and around warm hearth fires. This legendary conflict, known as the Battle of the Twin Axes, symbolizes the struggle between raw valor and strategic cunning, culminating in a clash that is said to have reshaped the destiny of dwarvenkind.
+
+In a time when rivalrous factions threatened to fracture the unity of the dwarven clans, Druquenein, the Shadow of the Forge, rose as a cunning leader, master of strategy and deception. His influence grew, attracting warriors who valued guile and tactical brilliance. Contrasting him, Clanggedin, the embodiment of dwarven martial prowess and honor, led those who held steadfast in the face of danger, revered for his strength and courage.
+
+The two rivals met on the field of battle in a sprawling valley known as the Vale of Thundering Echoes. It was said that the very earth trembled beneath their feet as their forces clashed, the sound of steel ringing through the mountains. The battle raged on, with each general displaying the pinnacle of their craft—Clanggedin with unyielding might, and Druquenein with shrewd tactics.
+
+At the height of the struggle, amidst the chaos and clamor, Clanggedin and Druquenein faced each other in a duel that would decide the fate of their people. Clanggedin, with his double-bladed axes whirling like a tempest, advanced with relentless resolve. Druquenein countered, maneuvering with precision and exploiting every possible advantage.
+
+The battle wore on as the forces of both gods watched in awe, the duel becoming a legend in itself. At a crucial moment, Clanggedin feigned vulnerability, luring Druquenein into the open. With a thunderous might, Clanggedin's axe found its mark, dealing a decisive blow that would echo through the ages. Druquenein fell, and his forces, disheartened by their leader's fall, withdrew into the shadows.
+
+Yet, even in victory, Clanggedin honored Druquenein, acknowledging his rival's brilliance and the necessity of cunning in warfare. From this fateful battle, Clanggedin ascended to godhood, revered for his valor and leadership. Although slain, Druquenein's legacy endured, inspiring those who value strategy and intellect.
+
+Thus, the Battle of the Twin Axes became a foundational story of balance and respect, teaching that both strength and strategy hold essential places within the tapestry of dwarven ancestry, forever enshrined in the divine rivalry of Clanggedin and Druquenein.
+
+{{pageNumber,auto}}
+\page
+
+### Dessecration of Druqueneim
+
+The desecration of Druquenein, a once-respected strategist, marked his fall into infamy and enshrined him as a symbol of malevolence in dwarven lore. In his relentless pursuit of victory, Druquenein resorted to forbidden sorcery, violating the sacred tenets of honor cherished by his kin. He conjured shadowy abominations to fight alongside his forces, sowing chaos and fear. This dark betrayal of dwarven principles led to widespread suffering and destruction, staining his legacy. Remembered as a figure who sacrificed morality for power, Druquenein's name became synonymous with treachery and the dangers of
+
+### Druqueneim, the Ruined Necropolis:
+
+To the south of the Mountfall range lies Druqueneim, a once-magnificent city now largely reclaimed by the sands. Constructed as a grand pyramid, much of the city remains buried beneath desert dunes, its upper tiers visible as a testament to its former glory. Druqueneim’s shadowed halls and collapsed arches speak of its past grandeur rooted in strategic brilliance and ambition. Despite its ruined state, the city attracts seekers of lost knowledge, drawn by tales of Druquenein’s cunning and complex legacy. These remnants of a forgotten past serve as a stark reminder of ambition’s perilous path, with the buried city whispering the secrets of those who dare to venture into its depths.
+
+{{pageNumber,auto}}
+\page
+
+# Dragons
+
+## Quinglong
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Life           |
+| **Symbol**    | Owl            |
+
+Quinglong, the esteemed god of all dragons, epitomizes immense wisdom and majestic power. Often referred to as the Celestial Dragon, he is depicted in myth as a grand, serpentine creature adorned with scales that shimmer in a radiant, ever-changing spectrum. His eyes, pools of molten gold, reflect an ancient and profound understanding of the cosmos, embodying the limitless wisdom he possesses.
+
+As the divine overseer of elemental balance and natural harmony, Quinglong served as a crucial link between the material and celestial realms. His influence extends far beyond his ascension to higher planes, where he now presides over the cosmic order from a realm beyond mortal reach. To dragons and their worshippers, Quinglong remains an enduring symbol of enlightenment and harmony, inspiring generations to seek the balance and grandeur that he embodies.
+
+## Voskalel
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Protection     |
+| **Symbol**    | Wyvern         |
+
+Voskalel, the golden wyvern, is revered as a god by those who are driven by the shadows of ambition and the gleam of wealth. His scales dazzle with the radiant brilliance of gold, a captivating spectacle that mirrors his insatiable hunger for treasure. With eyes like polished amber set against a backdrop of endless desire, Voskalel surveys the world with a focus on the glitter and glitz of precious metals and gems.
+
+Embodying the very essence of greed, Voskalel traverses the realms in pursuit of the most opulent hoards, his presence both a blessing and a curse to those seeking fortune. Among his adherents are morally ambiguous individuals who find divine inspiration in his endless quest for acquisition and the boundless wealth that it promises. They venerate him as the ultimate arbiter of wealth and excess, drawn to the notion that unrestrained greed can lead to unimaginable power and prosperity. His followers often tread a thin line between ambition and avarice, driven by the allure of Voskalel’s golden radiance.
+
+## Ova
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Luck           |
+| **Symbol**    | Wyrm           |
+
+Ova, the enigmatic dragon goddess known as the Wish Granter, moves through the realms like a gust of curiosity-driven wind. Her appearance captivates with scales that shimmer in ever-shifting hues of silver and azure, reminiscent of a twilight sky filled with whispered secrets. Her eyes, vast and luminous as the stars, reflect not moral judgments but a boundless curiosity about the desires of those who seek her.
+
+Unlike the benevolent deities, Ova is driven by an insatiable interest in the stories and outcomes of mortal lives. She grants wishes not purely out of kindness, but from a deep fascination with the myriad ways in which these desires can alter the tapestry of reality. Her capricious nature means that whether a granted wish brings fortune or folly, it serves to satiate her thirst for understanding the complex webs of fate and ambition.
+
+Worshipped by those who are willing to embrace uncertainty and risk, Ova's followers are as varied as their wishes, motivated by the intriguing allure of possibilities she offers. Their devotion is marked not by acts of purity, but by a willingness to explore the edges of potential, creating a dynamic relationship with a goddess who delights in the unexpected turns of destiny.
+
+{{pageNumber,auto}}
+\page
+
+## Artémiz
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Good   |
+| **Domain**    | Hunt          |
+| **Symbol**    | Composite Bow |
+
+### Artémiz: The Demon Hunter God
+
+Artémiz is revered as a god of vengeance and protection, a legendary figure who ascended from mortal beginnings to divine stature through his relentless pursuit of justice against the infernal. He is depicted as a tall, imposing figure clad in intricately runed armor, forged from dark, gleaming metal that seems to absorb the very light around it. His eyes burn with an intense, unwavering silver light—a testament to his divine purpose. Wielding a crossbow crafted from celestial steel, Artémiz strides through the realms as both hunter and guardian, a symbol of resilience and retribution.
+
+### The Tale of Lost Love:
+
+Before the heart-wrenching tragedy of Hédémora, Artémiz achieved legendary status by vanquishing Focalor, a dreaded demon, at the Battle of Quartz. This pivotal battle solidified his reputation as a formidable demon hunter, and his victory brought peace and renewed hope to the lands tormented by infernal threats. His triumph was celebrated, and he returned to the embrace of his beloved Hédémora, their bond stronger than ever.
+
+However, their joy was tragically short-lived. Seeking revenge for Focalor's defeat, an ancient and cunning demon lured Hédémora into the insidious depths of the Void, a realm of endless nothingness where none had ever survived. Devastated by her disappearance, Artémiz was driven to the brink of madness, haunted by the emptiness where her warmth and light had once thrived.
+
+In his anguish, Artémiz embarked on a relentless hunt, vanquishing demons and dark forces across both mortal and infernal realms, each victory a tribute to Hédémora. During his darkest days, he came into possession of a mysterious chest believed to contain something so powerful it could end the world. Sealed within its confines was the essence of the demon responsible for Hédémora's fate, bound by ancient magic and Artémiz’s unyielding will.
+
+Having ascended to godhood, Artémiz embodies vengeance and protection, his heart forever tied to his mortal past and the memory of Hédémora, lost in the Void. His followers revere him by continuing his quest, seeking out evil and destruction wherever they lurk, honoring a love that transcended mortality and inspiring hope through the triumph over darkness.transgressed the boundaries of mortality
+
+## The Voidress
+|   |  |
+|:-:|:-|
+| **Alingment** | Neutral-Neutral |
+| **Domain**    | Entropy         |
+| **Symbol**    | Whirlwind       |
+
+The Voidress, known as the Queen of Nothing and The Annihilated, once held immense power, her very name inspiring fear across realms. Now, she is the sovereign of emptiness, a regal yet spectral figure defined by absence rather than presence. Legends whisper of her profound love for a god whose grief echoes through the darkest, most silent nights, a mourning melody carried by the wind that chills even the stars.
+
+Despite her fall into nothingness, the Voidress commands deep reverence from a shadowy clan devoted to her memory. They gather in secret, their hearts filled with vengeance, vowing to reclaim what was lost and honor her with fervent loyalty. This clan believes that the echo of her existence holds the key to a deeper power, one that transcends time and oblivion.
+
+The god she loved, now a figure of eternal vigilance and loss, is said to feel the weight of her absence in every shadow, their once-bright passion now a lingering void. The subtle hints of this shared past manifest whenever the air grows still and cold, a silent testament to their unfulfilled destiny.
+
+{{pageNumber,auto}}
+\page
+
+## Quercus
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral          |
+| **Domain**    | Death                   |
+| **Symbol**    | Skull With no Eyesocket |
+
+Quercus, the unsettling God of Murders, reigns as a shadowy patron over those who dwell in the darker depths of human nature. Known to some as Saint Quercus, he is invoked as the father of the killer, a harbinger who embodies the cold precision and remorseless finality of murder. Portrayed as a figure shrouded in dark robes that seem to drink in the light, his presence is marked by a chilling calmness.
+
+In his name stands a notorious house, its walls echoing with the whispers of bloody deeds done in honor of the god's somber dominion. This place is both sanctuary and sanctum for those who call upon Quercus, binding themselves to his austerely merciless philosophy.
+
+His fervent followers, devoted to what they perceive as the purifying power of murder, believe that Quercus cleanses the world of weakness and futility. They view their violent acts as a sacred rite, believing his spectral guidance elevates them above the mundane cycle of life and death. To worship Quercus is to embrace a stark vision of order, where only the resolute endure amidst the chaos of existence.
+
+{{descriptive
+##### House of Quercus
+The house of Quercus is a league of assassins who would accomplish any deeds if the price is paid. Beware of their frightening symbol, the blood rose. It is commonly known that once you receive a rose like that you are doomed to die in a bloody manner. Rejoice in the moment for you time is coming very soon...
+}}
+
+
+## Dunemedall
+|   |  |
+|:-:|:-|
+| **Alingment** | Neutral-Good	|
+| **Domain**    | Order			|
+| **Symbol**    | Prison Bars	|
+
+Dunemedall, the steadfast God of Prisons, serves as the unwavering protector of those confined within the walls of justice. Embodying the paradox of confinement and sanctuary, he stands as a guardian who ensures that while prisoners serve their time, they remain shielded from harm. His visage is often envisioned as that of a resolute sentinel, draped in iron-gray robes that symbolize both the strength and the solemn duty of incarceration.
+
+Under Dunemedall's watchful eye, the imprisoned are afforded a sense of security, for his divine presence is a promise that no harm shall befall them while they are under his aegis. His influence extends into the very stones and bars of the prison, imbuing them with a quiet power that demands respect for the bound humanity within.
+
+As a god, Dunemedall embodies both justice and mercy, recognizing the potential for redemption even within the confines of a cell. His followers, ranging from wardens to advocates for reform, uphold his tenets of protection, fairness, and the hope of transformation. Through Dunemedall, the imprisoned find both a measure of peace and the possibility of a renewed path upon their release.
+
+\page
+
+## Artume
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Survival         |
+| **Symbol**    | Hay            |
+
+Artume, the dark and enigmatic Goddess of the Elves, roams the ancient forests as a harbinger of malevolence. Cloaked in shadows, she moves with an ethereal grace, her presence causing the rustle of leaves and the murmurs of the woodland to fall eerily silent. Her eyes, like cold embers, burn with a bitter resolve.
+
+Bearing an intense disdain for the elves, whom she views as abominations from a foreign realm, Artume seeks to proliferate evil spirits throughout the forests, twisting the natural balance into a domain of dark enchantments. Her malevolent influence stirs unrest, as creatures of the night rally to her call, sowing discord and fear among the elves.
+
+Those who venture too close to her realm sense the oppressive weight of her wrath, a chilling reminder of the ancient grievances she harbors. Artume's quest to eradicate the elven presence is driven by a view of purifying her domain of what she considers an invasive stain, making her both a formidable adversary and a tragic figure bound by her relentless hatred. Her story serves as a cautionary tale of unchecked vengeance and the destructive potential of enmity.
+
+
+{{pageNumber,auto}}
+\page
+
+# Poeple of Light
+
+## Nòm istam
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Light        |
+| **Symbol**    | Blinding Light			 |
+
+Nòm Istam, the revered Creator of Light, is a deity whose brilliance pierces the veil of darkness, casting his divine radiance across all worlds. Seen as a luminous figure, his form is a tapestry of shimmering gold and pure white, emanating a celestial glow that seems to flow and ripple like sunlight over water.
+
+His light, a symbol of hope and knowledge, extends its reach into the farthest corners of existence, illuminating realms from the verdant skies to the shadowed pits of the abyss. Even in the depths of hell, where darkness vies to prevail, Nòm Istam's radiance can occasionally pierce the gloom, offering a glimpse of redemption and the potential for change.
+
+His followers revere him as a beacon of clarity and truth, striving to bring his enlightening presence into their lives and deeds. Nòm Istam's influence is a perpetual reminder of the power of light to conquer darkness, fostering life and understanding in the endless cosmic dance of day and night.
+
+## Freyr of Vanir
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Light          |
+| **Symbol**    | Wand of Light  |
+
+Freyr of Vanir, the radiant and enigmatic entity from beyond, holds the unique honor of being the first being of light to traverse into our world. Her presence was a beacon of purity and warmth, captivating all who witnessed her ethereal glow. Known for her profound compassion and grace, Freyr's heart was captured by a mortal, and their love story became a timeless legend.
+
+Upon the untimely death of her beloved, Freyr's sorrow was so profound that her once-vibrant light faded, casting the world into a pall of uncertainty. It was during this time of obscured brilliance that the eternal conflict between the Dawn and Dusk twins ignited, each vying for dominion in her absence.
+
+In a moment of celestial climax, Freyr returned, her radiant essence restored. Her light intervened in the twins' quarrel, restoring a fragile peace and establishing the natural cycle that now divides day from night. Her return not only brought harmony but also ensured the enduring balance between light and darkness, reminding all that love and sacrifice are intrinsically woven into the fabric of existence. Freyr's legacy continues to guide the rhythms of the world, her luminous spirit forever watching over the ebb and flow of time.
+
+{{descriptive
+##### The Wand of Vanir
+Some legends tells of a powerful artifact passed down to Freyr's lover. This wand is said to be able to generate infinite amount of light, as well as contain eternal darkness in the bearer darkest moment.
+}}
+
+\page
+
+## Rikadishna
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Nature         |
+| **Symbol**    | Sun			 |
+
+Rikadishna, the benevolent Goddess of Agriculture, is revered as the nurturing force behind the earth's bounty and the cycle of growth. Often depicted as a figure of serene beauty, she embodies the vitality and abundance of the natural world. Her flowing robes resemble fields of golden grain, while her hair cascades like verdant vines, adorned with blooming flowers and ripe fruits.
+
+With a gentle touch, Rikadishna blesses the soil, ensuring the prosperity of crops and the fertility of the land. Her presence is a constant reminder of the harmony between humankind and nature, guiding farmers with wisdom and patience through the seasons. As the protector of fields and harvests, she fosters the sustenance and nourishment of communities, symbolizing the interconnectedness of all living things.
+
+Her worshippers honor her with festivals of planting and reaping, offering thanks for her gifts and seeking her guidance in times of drought and hardship. Through Rikadishna's eternal vigilance, the balance of life and sustenance is preserved, promising renewal and plenty for all who live in harmony with her natural domains.
+
+{{pageNumber,auto}}
+\page
+
+## Tiqyzeus
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral   |
+| **Domain**    | Forge            |
+| **Symbol**    | Hammer and Anvil |
+
+Tiqyzeus, the revered God of Artisans, is a divine figure who celebrates the craftsmanship and creativity inherent in the mortal soul. Manifesting in the mortal realm as a master blacksmith, he embraces the role with a palpable ease, finding solace and purpose in the rhythmic dance of hammer and anvil. The forge fires cast his form in an eternal silhouette of industrious dedication, with each strike of his hammer resonating like a celestial heartbeat across the worlds.
+
+Though he often appears in the guise of a humble blacksmith, his legendary presence can be felt and heard far beyond the confines of any workshop. The reverberating clang of his hammer echoes through the fabric of creation, inspiring artisans and craftsmen to reach new heights of mastery and innovation.
+
+Legend holds that Tiqyzeus is the creator of the warforged, the sentient constructs born from the fusion of metal and magic, imbued with life by his unparalleled skill. Through them, his influence persists as a testament to the enduring power of creativity and the bonds forged between material and spirit. Tiqyzeus stands as a patron and mentor to all who seek to shape the world with their hands, embodying the divine craftsmanship that bridges the realms of gods and mortals.
+
+### Creation of the Warforged
+
+In an age overshadowed by the cries of battle and the clashing of steel, the dwarven realms were embroiled in a series of relentless conflicts. Seeking victory and dominion, the dwarves turned to Tiqyzeus, the God of Artisans, revered for his unparalleled craftsmanship and ingenuity. It was within this crucible of wartime necessity that the Warforged were brought into existence.
+
+In his divine forge, where the sparks of creation danced with cosmic energy, Tiqyzeus crafted the Warforged from the finest metals, shaping them into formidable soldiers. Each entity was imbued with unyielding strength and resilience, their very essence forged for the rigors of war. With his celestial hammer, Tiqyzeus imparted upon them a relentless drive to wage battle, creating beings that would execute warfare's demands with unparalleled precision.
+
+Upon their awakening, the Warforged were taken under the stewardship of the dwarves, who saw in them the perfect vessels to wage their campaigns. The Warforged charged into battle, unburdened by fear or fatigue, turning the tides in favor of their creators. Their presence among the ranks of dwarven soldiers became both a symbol of power and an instrument of their ambitions.
+
+Yet, as the echoes of victory resounded, and the dust of war began to settle, Tiqyzeus looked upon his creation with an emerging sense of contemplation. The Warforged had fulfilled their purpose as instruments of war, but what destiny awaited them beyond the conflicts they were designed to win?
+
+The god pondered the legacy of the Warforged—crafted to serve, yet ever seeking purpose beyond the violence they were born into. As they stood on the precipice of a world no longer defined solely by battle, Tiqyzeus's introspection lingered as a potential regret. He questioned the moral weight of endowing life with the singular design of warfare, prompting a deeper reflection on the possibilities for growth beyond the shadow of the battlefields they once knew.
+
+Thus, the tale of the Warforged endures as a legend of creation, service, and the uncharted paths that unfold once the fires of war wane, a testament to the complexities of existence when beings are forged from the crucible
+
+\page
+
+## Jasandoril
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Arcana         |
+| **Symbol**    | Elephant Face  |
+
+Jasandoril is an enigmatic figure who wanders the realms, crossing paths with adventurers at opportune moments to offer his unique services and mysterious aid. Radiating an aura of wisdom and experience, he carries an air of intrigue that suggests a history far deeper than what meets the eye. His captivating presence is both reassuring and enigmatic, drawing in those who are fortunate to encounter him.
+
+Long ago, Jasandoril was imprisoned in a mystical lamp by Artemis, a consequence of a forgotten transgression or misunderstood magic. This ancient binding left him with a deep well of arcane knowledge and the ability to assist those in need, often by uncovering hidden truths or providing guidance through treacherous paths.
+
+Though his freedom is now unfettered, echoes of that time still linger in his essence, lending a touch of melancholy to his otherwise generous spirit. Jasandoril's encounters with adventurers are marked by a peculiar blend of fortuity and purpose, as he continues to navigate the world, offering aid in unexpected and extraordinary ways, forever bound to the wanderer's journey.
+
+
+{{pageNumber,auto}}
+\page
+
+## Caprico
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral  |
+| **Domain**    | Entropy          |
+| **Symbol**    | Billy Goat Head |
+
+Caprico, the enigmatic Guardian of Time, stands as the vigilant protector of the delicate threads that weave the continuity of existence. His presence is both ethereal and commanding, ensuring that time's relentless flow remains unbroken despite the myriad threats that seek to unravel its fabric. With the head of a billy goat, Caprico embodies both the wisdom of age and the vitality of nature, his inscrutable gaze peering through the ages with unwavering focus.
+
+When Caprico appears, time itself seems to pause, drawing attention to the fragility of the moments he safeguards. In his wake, he leaves a trail of black blossoms, strange and beautiful reminders of his passage, each petal a silent testament to the mysteries of time that he guards so fiercely. These flowers, as ephemeral as the seconds they represent, whisper the tales of epochs past and futures yet to be.
+
+His existence is essential, a cornerstone ensuring that the past, present, and future remain harmonious. Those who witness Caprico are left with a profound sense of awe, cognizant of his ceaseless duty and the preciousness of each fleeting moment he protects.
+
+## Resquilleur
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Arcana         |
+| **Symbol**    | Bunch of Keys  |
+
+The Resquilleur, also known as the Lord of the Keys, is an enigmatic emissary from the outer planes, carrying with him a mystique as vast as the boundless realms he traverses. With a key for every lock, his mastery spans all domains and dimensions, granting him access to the seen and unseen corners of existence.
+
+Adorned with countless luggage, backpacks, and pouches, he embodies the essence of infinite travel, each bag holding secrets and treasures from worlds far and wide. His attire is an eclectic tapestry from varied planes, a testament to his endless journey through time and space.
+
+Every key he possesses holds the promise of discovery and potential, making him a figure of fascination to those who seek the unknown or are in need of passage to the unreachable. The Resquilleur's presence, both mysterious and purposeful, hints at the vast knowledge and experiences gathered over endless voyages, ensuring that he remains a revered and sought-after ally to those fortunate enough to encounter him on their own paths.
+
+
+
+{{pageNumber,auto}}
+\page
+
+## Morena
+|   |  |
+|:-:|:-|
+| **Alingment** | True Neutral |
+| **Domain**    | Death        |
+| **Symbol**    | Scythe       |
+
+{{quote
+**Preamble:**
+Within these pages lies the path of shadow and purpose, known only to those consecrated as Blood Merchants. In service to Morena, the God of Passage, we maintain the sacred balance, delivering those forsaken by destiny or those who defy its course.
+
+**Directive I:**
+A Blood Merchant honors the whispers of Morena above all; their actions must align with the divine mandate, beyond personal vendetta or mortal gain.
+
+**Directive II:**
+Discretion and silence are the shields of the Blood Merchant. No act shall reveal our purpose to the common world, lest chaos robs the balance we protect.
+
+**Directive III:**
+Upon contemplation of each soul's balance, a Blood Merchant executes their duty with precision, ensuring minimal disruption to the natural order.
+
+**Directive IV:**
+The life that must pass shall do so with respect, recognizing the inevitability of their passage, bestowing neither cruelty nor mercy, only the tide of fate.
+
+**Directive V:**
+In unity and secrecy, the Blood Merchants support one another, guarding the knowledge and the integrity of this solemn pact.
+
+Thus, let these principles guide your hand and heart in the service of the eternal balance.
+
+{{attribution Mitigae, *Blood merchant Code of Conduct*}}
+}}
+
+
+Morena, the enigmatic god often associated with death, is the divine messenger tasked with guiding the souls of the departed to their final resting place. He embodies the impartial passage between life and the afterlife, coming to collect the souls of those whose time has come with a serene presence that is both inevitable and gentle.
+
+Though frequently mistaken for a she, Morena transcends gender, existing beyond love or hate for the living. His purpose is to uphold the natural order, ensuring that each soul finds peace beyond the mortal realm.
+
+In service to Morena are the Blood Merchants, a shadowy guild of assassins who act upon his whispered directives. Tasked with removing those forgotten by destiny or who defied fate and threaten life's balance, they operate with precision and discretion. While their actions may appear ruthless, the Blood Merchants play a crucial role in maintaining the cosmic equilibrium, answering only to Morena's impartial guidance.
+
+Through his emissaries and his own ethereal presence, Morena is a symbol not of death itself, but of the necessary transition between worlds, ensuring that the cycle of life continues un
+
+\page
+
+## Erebus
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Grave          |
+| **Symbol**    | Black          |
+
+Erebus, the enigmatic God of Darkness and the Deeps, is revered as the solemn guardian of the world's shadowy caverns and untold depths. His presence, though terrifying in its vastness, is not inherently malevolent, but rather a testament to the profound mysteries that lie within the earth's hidden recesses.
+
+Manifesting as a figure wreathed in impenetrable shadow, Erebus embodies the silence and stillness of the underground realms. His eyes, glowing faintly like distant stars, pierce the inky blackness, offering a watchful gaze over those who dare venture into the caves and mines. His form shifts and melds with the darkness, evoking awe and a primal respect for the unknown.
+
+Despite his fearsome appearance, Erebus serves as a neutral arbiter of the subterranean world, balancing the forces of nature and safeguarding against disturbances to the earth’s quiet sanctuaries. Those who acknowledge his dominion tread carefully, respecting the delicate equilibrium of darkness and light, aware that within the shadows lie both hidden dangers and the potential for discovery.
+
+{{pageNumber,auto}}
+\page
+
+## Alcméon
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Protection     |
+| **Symbol**    | Boat           |
+
+Alcméon, the Astral Vagabond, is a mystical figure who sails the boundless expanses of the astral sea on his ethereal flying boat. With sails of shimmering stardust and a vessel carved from the light of distant galaxies, Alcméon navigates the cosmic currents with a spirit of boundless curiosity and adventure.
+
+Known as a guardian of travelers, he watches over those who journey the vast astral realms, offering protection and guidance from unseen perils. Tales of encountering Alcméon are cherished, for his presence is said to bestow good fortune and serendipitous paths to those fortunate enough to cross his way.
+
+His legend is one of mystery and magnanimity, as he weaves through the astral canvas, a beacon of hope and wonder. Often described as both wise and whimsical, Alcméon inspires wanderers and explorers, reminding them that the journey is as significant as the destination, and that the universe holds endless possibilities for those daring enough to seek them.
+
+## Canuk
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Knowledge      |
+| **Symbol**    | Book           |
+
+Canuk, known as The Librarian, is a god revered as the guardian of knowledge and the keeper of infinite wisdom. Within his vast, ethereal library, boundless bookshelves stretch endlessly, each tome capturing the collective knowledge and secrets of the world. Canuk's domain is a sanctuary of learning, filled with the quiet rustle of turning pages and the gentle glow of reading lamps that flicker with enchanted light.
+
+In myth, Canuk's search for understanding led him to a poignant and unreciprocated romance with Ophelie, a figure of captivating allure. This tale of longing and unfulfilled love inspired a theatrical play, celebrated for its depth but controversially banned across the world due to its sensitive portrayal of divine emotions. Despite its prohibition, the play remains beloved by Ophelie and Roma, celebrated in clandestine circles for its exploration of love and the eternal pursuit of wisdom.
+
+Canuk, with his infinite library, continues to embody the pursuit of knowledge, inspiring scholars and seekers who value learning above all else. His legend serves as a testament to the complexities of desire and the pursuit of enlightenment.
+
+\page
+
+## Liod
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Tempest        |
+| **Symbol**    | Snowflake      |
+
+Liod, the formidable God and Master of Winter, is a deity whose presence heralds the chilling embrace of the cold season. Cloaked in frost and wreathed in icy winds, Liod's appearance is often accompanied by a deep, biting chill that blankets the land in silence and stillness. His eyes are said to glisten like glaciers under a pale sun, reflecting both the beauty and the harshness of winter.
+
+Ancient scriptures chronicle tales of Liod's wrath, describing times when his anger caused winter's icy grip to linger for years, spreading despair and hardship. These stories serve as both awe-inspiring myths and cautionary tales, illustrating the power of nature's cycles and the need for respect and balance.
+
+Liod's influence can transform the landscape into a crystalline wonderland or a relentless, frozen wilderness, reminding all of the dual nature of winter—an essential, yet potentially devastating force. As both a guardian and a bringer of the cold, Liod embodies the majesty and the menace of winter's enduring legacy.
+
+
+{{quote
+"And in those days, when the land lay barren beneath the all-seeing eye of the pale sun, Liod, the Master of Winter, strode forth from the northern reaches. With his breath, the world turned to ice, and his touch froze the rivers in their course.
+
+His wrath was likened to the howl of the fierce blizzard winds, a relentless tempest that knew no mercy. For seasons uncounted, his anger lingered, shrouding the world in a cloak of frost and shadow. Harvests withered under his gaze, and the folk of the land huddled in their homes, whispering prayers into the cold, still night.
+
+Yet, for all his fury, Liod's presence was not without purpose. 'Twas said that from his trials, resilience bloomed, and those who endured found strength unyielding. Winter, a stern teacher, forged a people as enduring as the ice, tempered by the fire of their spirit."
+
+{{attribution unknown, *Liod's winter scripture*}}
+}}
+
+{{pageNumber,auto}}
+\page
+
+## Hase
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Tempest        |
+| **Symbol**    | Wings          |
+
+Hase, the majestic Queen of the Sky, commands the heavens with regal grace and unmatched splendor. She is depicted as a transcendent figure with magnificent wings that span the sky, each feather shimmering with the ethereal colors of dawn and dusk. Her palmed feet offer a unique blend of elegance and strength, allowing her to navigate both the celestial and earthly realms with ease.
+
+Sometimes she is shown with the head of a bird, embodying the freedom and perspective of avian creatures, and reflecting her deep connection to the vast skies.
+
+Hase resides on a mystical floating island named in her honor, where her presence imbues the very atmosphere with a sense of wonder and serenity. Her palace, hidden above Haseburg, drifts silently amongst the clouds, a sanctuary of harmony and awe. This splendid abode mirrors her dominion over the skies, a place unseen by most but revered by all who understand the balance between earth and sky, presence and majesty.
+
+\page
+
+# Gods of the Deeps
+
+## Galilého
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral    |
+| **Domain**    | Tempest           |
+| **Symbol**    | Intertwined Snake |
+
+Galilého, the God of the Seas and Storms, reigns as a formidable and awe-inspiring deity, his presence as vast and deep as the oceans he commands. To those deemed worthy, Galilého reveals himself as a colossal sea snake, whose scales shimmer with all the hues of the deep—ranging from the darkest midnight blue to the radiant turquoise of sunlit shallows.
+
+His eyes, luminous and ever-watchful, gleam like polished pearls, reflecting the wisdom and power of the boundless waters. The very air crackles with thunderous energy when he emerges, and his serpentine form coils with the fluid grace of the ocean waves. Around him, the seas swell and churn, embodying both the serenity of calm waters and the raw fury of tempests.
+
+Galilého's presence is a testament to the balance of nature's gentleness and its fierce power, a reminder of the respect owed to the vast seas and the storms that sweep across them. Those who encounter him are often imbued with a profound understanding of the ocean's majesty, their hearts forever marked by the divine essence of the god who watches over all waters.
+
+## Scaphandria
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Tempest        |
+| **Symbol**    | Scaphander     |
+
+Scaphandria, the enigmatic God of the Deep, stands as the formidable Guardian of the ocean's most profound mysteries. Veiled in the murky, unfathomable depths, Scaphandria embodies the fear and anguish often associated with the dark, unknown expanses of the sea. His presence is sensed rather than seen, like the unnerving chill and oppressive weight of the abyssal depths.
+
+He is often envisioned as a shadowy figure cloaked in the swirling currents of the deep, with eyes that pierce through the darkness like distant, luminous orbs. The very water around him seems to pulse with an eerie, rhythmic breath, echoing the heartbeats of those who dare venture too close. His dominion extends over the hidden wonders and terrors lurking beneath the waves, commanding respect and caution from all who sail upon the sea.
+
+While Scaphandria protects the ocean's secrets, he also serves as a reminder of the delicate line between fear and fascination, drawing mortals into the mysteries of the ocean while evoking awe and reverence for its boundless depth.
+
+
+## Malkuth
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral    |
+| **Domain**    | Protection        |
+| **Symbol**    | Planet in a Globe |
+
+Malkuth, the God Patroller of the Cosmos, is revered as the vigilant sentinel of the celestial realms. Manifesting as a towering figure clad in robes woven from stardust and cosmic light, he embodies the precise balance and order that govern the universe. His eyes, deep voids filled with swirling galaxies, observe the intricate dance of celestial bodies with unwavering focus.
+
+In his hands, he wields a staff forged from comets and constellations, a symbol of his authority over the harmonious movement of planets and stars. Malkuth's presence is one of serene potency, a guiding force that ensures the cosmos remains in equilibrium.
+
+As the eternal guardian of the night sky, Malkuth is regarded as both protector and arbiter, overseeing the natural laws that bind the universe. His followers, attuned to the rhythms of the heavens, seek to embody his principles of balance and vigilance, recognizing the divine harmony that underpins all existence.
+
+{{pageNumber,auto}}
+\page
+
+## Unmada
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Trickery       |
+| **Symbol**    | Butterfly      |
+
+Unmada, the God of Madness, personifies chaos and the tumultuous depths of the human psyche. Often depicted as an enigmatic figure cloaked in swirling shadows and flickering lights, his presence is both mesmerizing and unsettling. His eyes, ever-shifting in color and intensity, are said to reflect the myriad forms of madness—from the whispering curiosity of a child's imagination to the stormy torment of a fractured mind.
+
+Unmada's influence weaves through dreams and reality alike, dissolving the barriers between logic and lunacy. His laughter, echoing through the corridors of thought, is both captivating and disconcerting, inviting mortals to explore the fringes of sanity.
+
+Despite the fear he inspires, Unmada is also seen as a source of inspiration and unconventional wisdom, revealing insights hidden beyond the realm of reason. Followers who embrace the chaos he embodies often walk a fine line between brilliance and madness, channeling his power to uncover the truths veiled by
+
+
+{{quote
+*Unmada:* Men have called me mad; but the question is not yet settled, whether madness is or is not the loftiest intelligence– whether much that is 
+glorious– whether all that is profound– does not spring from disease of thought– from moods of mind exalted at the expense of the general intellect.
+
+{{attribution Anastasios, *Thoughs from the Mad*}}
+}}
+
+
+## Somnio
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Protection     |
+| **Symbol**    | Blurried Face  |
+
+Somnio, the enigmatic Deity of Dreams, reigns over the ethereal realm where the subconscious weaves its intricate tapestry. Depicted as a figure of shifting shadows and gentle luminescence, Somnio possesses a form that adapts to the dreamscape around them. Most strikingly, they bear no face, symbolizing the boundless and undefined nature of dreams themselves.
+
+In their dominion, the boundaries of reality dissolve into a flowing canvas of imagination, where thoughts and desires manifest into landscapes as varied as the stars. Somnio moves silently through these ephemeral worlds, guiding dreamers through their nighttime odysseys.
+
+Their presence is both comforting and mysterious, a silent conductor of the symphony of dreams. As the guardian of slumber, Somnio inspires both wonder and introspection, inviting souls to explore the hidden depths of their inner worlds and the limitless possibilities of the dreaming mind. Followers who revere the power of dreams often find insight and creativity in the whispers from Somnio's domain.
+
+\page
+
+## Ole Lokoje
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral             |
+| **Domain**    | Grave                      |
+| **Symbol**    | Magnifier Between Brackets |
+
+Ole Lokoje, the elusive God of Sleep, is a figure shrouded in mystery, moving with an air of inevitability as he guides the living into the depths of slumber. Revered also as the Sandman and the King of Dunes, his presence is heralded by the whispering sands that dance in his wake, shimmering with a spectral glow under the cloak of night.
+
+As darkness descends, Ole Lokoje quietly pursues those not yet surrendered to rest, his influence a compelling force that draws them into the boundless realms of dreams. His embrace is one of profound stillness, enveloping the world in a hushed silence that silences the waking world.
+
+The sands of his domain, ever-shifting, cradle those who wander into his grasp, offering visions woven from the fabric of dreams. An enigma to mortals, Ole Lokoje’s intentions remain inscrutable, his ceaseless journey a reminder of the transient barrier between wakefulness and the shadowed allure of sleep.
+
+
+{{quote
+... He journeyed onwards, straight ahead and finally came to a little hut; it stood in the open field, turning on chicken legs. He entered and found Ole Lokoje the Bony-legged. "Fie, fie," she said, "the Gaïan smell was never heard of nor caught sight of here, but it has come by itself. Are you here of your own free will or by compulsion, my good youth?" "Largely of my own free will, and twice as much by compulsion! Do you know, Ole Lokoje, where lies the thrice tenth kingdom?" "No, I do not," she said, and told him to go to her second sister; she might know ...
+
+{{attribution Romeus, *Travels of uncharted planes*}}
+}}
+
+
+{{pageNumber,auto}}
+\page
+# Alien Gods
+
+## Ezhoxorh
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Tempest        |
+| **Symbol**    | Milletipede    |
+
+Ezhoxorh, the formidable God of Plagues, Pestilence, and Nefarious Insects, is a deity whose presence heralds chaos and decay. Cloaked in swirling shadows, Ezhoxorh commands a terrifying force that reflects the untamed power of nature's darkest aspects. Clouds of virulent miasma surround them, casting an ominous gloom wherever they tread.
+
+Ezhoxorh's influence is far-reaching; they are the harbinger of swarms that blot out the sun, carrying with them disease and destruction. These nefarious insects are extensions of Ezhoxorh’s will, spreading pestilence and laying waste to the lands they scourge.
+
+Their role in the pantheon is one of dread and caution, a reminder of the thin line between order and chaos. Oaths are whispered in their name to stave off their wrath, for Ezhoxorh's dominion stands as both a testament to nature's might and a warning of the havoc wrought by unchecked decay.
+
+## Zerecilda
+|   |  |
+|:-:|:-|
+| **Alingment** | Lawful-Neutral |
+| **Domain**    | Life           |
+| **Symbol**    | Centipede      |
+
+Zerecilda, the gentle Goddess of Bugs and Insects, is revered as the protectress of the swarms and the hives, embodying the delicate balance and intricate harmony of the natural world. Envisioned as a figure adorned with wings that shimmer with iridescent colors, her presence exudes a calming aura that nurtures and protects the myriad creatures under her care.
+
+Known for her benevolence, Zerecilda is often depicted with an expression of serene compassion, her touch gentle and transformative, guiding her insect kin toward unity and purpose. Her domain is a vibrant tapestry of buzzing life, where every creature plays a crucial role in the web of existence.
+
+As a goddess, Zerecilda inspires humans to appreciate the vital roles of insects in pollination, decomposition, and the fine-tuning of ecosystems. Her followers, who understand the beauty and necessity of her charges, are guided by her wisdom to foster coexistence with these small yet mighty beings, ensuring the continuation of life's intricate dance.
+
+  
+
+{{pageNumber,auto}}
+\page
+{{partCover}}
+
+# Vaettirs
+## Spirits of nature
+
+{{imageMaskEdge1,--offset:10cm,--rotation:180
+  ![Background image](https://i.pinimg.com/564x/0c/d5/5a/0cd55a851ed019f1be2038586f25bd57.jpg){position:absolute,bottom:10%,left:0,height:125%}
+}}
+
+\page
+## The Vaettirs
+
+The Vaettirs, ethereal spirits of nature, are revered as guardians of the wild and embodiments of the natural world’s hidden forces. They manifest as shimmering, translucent figures that blend seamlessly with their surroundings, their forms shifting with the seasons and landscapes they inhabit. Often seen as fleeting silhouettes amidst the snow-laden forests and icy tundras, their presence is marked by a serene, otherworldly glow that illuminates the night and whispers through the wind.
+
+For the Isas, an indigenous winter people, the Vaettirs are sacred entities intertwined with their spiritual practices and daily lives. The Isas hold the spirits in deep reverence, honoring them through rituals and offerings that align with the rhythms of nature. The Vaettirs are believed to bestow protection, guidance, and the blessings of the land upon those who respect their domain, serving as a bridge between the mortal realm and the mystical essence of nature's unyielding spirit.
+
+### Disapearance of the Vaettirs
+
+In the intricate tapestry of time, there existed an era when men, driven by insatiable greed, sought to harness the Vaettirs' ethereal power for their own gain. These spirits of nature, revered by the Isas, safeguarded the delicate balance of the world, ensuring harmony between the lands and all living beings. Yet, to ambitious men, their mystical energies were seen as untapped potential—a source of limitless power to be controlled and exploited.
+
+Using dark rituals and forbidden sorcery, these men sought to bind the Vaettirs, prying into sacred realms they could scarcely comprehend. Initially, they succeeded in capturing glimpses of the spirits' power, manipulating it to bend the natural order towards their own ends. Prosperity swelled for a time, but at a dire cost. The Vaettirs, once free and in harmony with nature, became restless and overburdened, their essence strained by the invasive greed of humankind.
+
+As the men continued their relentless exploitation, the Vaettirs, unable to withstand the spiritual rupture, began to vanish from the earthly realm. Once shimmering in the light of the snows and whispering through the winter winds, their absence left a tangible silence, an unsettling void where life and energy once thrived. The Isas, deeply tied to these spirits, mourned their loss, sensing the impending disaster that loomed over the world like a gathering storm.
+
+With the Vaettirs gone, the delicate balance of nature teetered on the brink of collapse. Seasons shifted erratically, harvests failed, and wild creatures became feral, reacting to the imbalance. These events unfurled as ominous harbingers of an impending apocalypse—a grim prophecy foretold in hushed whispers among the Isas elders.
+
+The absence of the Vaettirs was more than a loss of mystical guardians; it was a warning from the natural world itself. Without those who could bridge the gap between mortals and the spirit of nature, humanity stood on the precipice of a dark era. The tale of greed and hubris serves as a cautionary legend, a reminder that the powers of the world are not to be bent to willful desire without consequence. Even as the world waits in uncertainty, the hopes of the Isas lie in rekindling the harmony that once was, to stave off the shadow of devastation looming ever closer.
+
+{{pageNumber,auto}}
+
+\page
+
+**Fjallfinnur**: Stag-like spirit with antler branches, guardian of forests.
+
+**Isbora**: Luminous bear with an icy shimmer, keeper of winter.
+
+**Hafelin**: Otter-like creature with water-like scales, protector of waterways.
+
+**Vindrara**: Owl with translucent dawn wings, spirit of winds and skies.
+
+**Eldroc**: Fox with fiery fur, custodian of fire and warmth.
+
+**Jordorm**: Serpentine with stone hide, overseer of mountains and earth.
+
+**Nattlykt**: Bat with starry wings, protector of the night and dreams.
+
+**Solfara**: Lion with a radiant mane, harbinger of sunlight and day.
+
+**Morkva**: Wolf with foliage fur, guardian of wilderness.
+
+**Stormhauk**: Hawk with stormy plumage, master of tempests.
+
+**Grasrua**: Rabbit with grassy fur, spirit of meadows and growth.
+
+**Silfurlaug**: Fish with silvery scales, keeper of ocean tides.
+
+**Glomeer**: Deer with twilight aura, guardian of dusk.
+
+**Svartling**: Panther with shadow skin, guide of shadows and mystery.
+
+**Merkur**: Turtle with rocky shell, protector of ancient lands.
+
+**Blomstia**: Butterfly with floral wings, spirit of blooming.
+
+**Daggder**: Snail with crystalline shell, overseer of morning dew.
+
+**Vrabel**: Crow with mirror-like feathers, watcher of reflections.
+
+**Frostig**: Elk with frosted antlers, sentinel of frosty realms.
+
+**Dyrrun**: Lynx with camouflage coat, guardian of hidden paths.
+
+**Eindorm**: Snake with shimmering belly, keeper of the earth's core.
+
+**Langulf**: Whale with cloud patterns, spirit of vast skies.
+
+**Skrumir**: Boar with armored tusks, defender of fertile soil.
+
+**Aurling**: Squirrel with bark-like fur, keeper of secret groves.
+
+**Brannurr**: Ibex with flame-tipped horns, lord of volcanic peaks.
+
+**Heimalv**: Seal with aurora-marked pelt, spirit of polar lights.
+
+**Lysloft**: Moth with moonbeam wings, guide of the night sky.
+
+**Kystør**: Crab with coral claws, protector of coastal reefs.
+
+**Bryndal**: Spider with web-like skin, weaver of fate's threads.
+
+**Duneskift**: Camel with sandy hide, spirit of desert winds.
+
+**Skogvann**: Beaver with riverstone teeth, builder of stream paths.
+
+**Sileld**: Owl with rain-pattern wings, herald of renewal.
+
+**Arinorra**: Falcon with flame-mark eyes, guide of celestial paths.
+
+**Glimraff**: Gecko with prism skin, spirit of vibrant rainbows.
+
+**Snjorlan**: Penguin with iceflake markings, guardian of frozen seas.
+
+**Mjornak**: Moose with thunder horns, herald of acoustic echoes.
+
+**Elekveld**: Serpent with electric coils, harbinger of energy waves.
+
+**Murusval**: Vole with earth-tone fur, spirit of tunnel passages.
+
+**Tallvok**: Falcon with evergreen feathers, sentinel of forest canopies.
+
+**Tinnulor**: Hare with moonlit fur, guide of nocturnal journeys.
+
+**Niddlim**: Weasel with riverfoam pelt, protector of fresh waters.
+
+**Kummet**: Mammoth with woolly coat, guardian of ancient ice.
+
+**Droplume**: Dragonfly with dew-touched wings, spirit of dawn breezes.
+
+**Stribor**: Antelope with wind-dancer hooves, steward of grassy plains.
+
+**Moushi**: Mouse with harvest grain fur, keeper of autumn's bounty.
+
+**Vinderna**: Fox with kaleidoscope fur, trickster of swirling tides.
+
+**Aegirar**: Jellyfish with light-spun tentacles, spirit of the deep sea.
+
+**Heldosk**: Lizard with reflective scales, sentinel of mirage and illusion.
+
+**Nahvell**: Parrot with vibrant voice, herald of forest songs.
+
+**Flomryn**: Phoenix with ash-tipped feathers, rebirth's eternal flame.
+
+{{pageNumber,auto}}
+\page
+{{partCover}}
+# Appendix
+
+{{imageMaskEdge6,--offset:10cm,--rotation:180
+  ![Background image](https://i.imgur.com/9TU96xY.jpg){position:absolute,bottom:0,left:0,height:100%}
+}}
+
+\page
+# APPENDIX D
+## Deities by name
+
+<div class='wide' style='column-count:3'>
+
+
+### A
+
+- Alcméon
+- Architect, The
+- Artume
+- Artémiz
+- Atlas
+
+### B
+
+- Blainn
+- Brimmihr
+
+### C
+
+- Callista
+- Canuk
+- Caprico
+- Clangeddin
+- Cthon
+- Cùchulainn
+
+### D
+
+- Damarus
+- Druquenein
+- Dunemedall
+
+### E
+
+- Erebus
+- Ehhoxorh
+
+### F
+
+- Freyr of Vanir
+
+### G
+
+- Gabéral
+- Galilého
+- Gate of Truth
+- Gaïa
+- Great Weaver, The
+- Gé
+
+### H
+
+- Hase
+- Homère
+- Huruma
+- Héraclus
+
+### I
+### J
+
+- Jasandoril
+- Justificator, The
+
+### K
+### L
+
+- Legislator, The
+- Liod
+- Luthgarde
+
+### M
+
+- Malkuth
+- Malocato
+-	Morena
+- Morokei
+
+### N
+- Nòm istam
+
+### O
+
+- Ocato
+- Okoma
+- Ole Lokoje
+- Omnis
+- Ophelie
+- Ordinator, The
+- Ova
+
+### P
+
+- Pythogenes
+
+### Q
+
+- Quercus
+- Qirmizi
+- Quilin
+- Quinglong
+
+### R
+
+- Ratheithiae
+- Resquilleur, The
+- Rikadishna
+- Roma
+
+### S
+
+- Scaphandria
+- Somnio
+
+### T
+
+- Terra
+- Tiqysus
+- Tybula
+
+### U
+
+- Ulysse
+- Unmada
+
+### V
+
+- Verdugo
+- Vertugadin
+- Vizira
+- Voidress, The
+- Voskalel
+
+### W
+
+- Willebrand
+
+### X
+### Y
+
+- Ymir
+- Yagnar
+
+### Z
+
+- Zars
+- Zebulon
+- Zerecilda
+
+</div>
+
+{{pageNumber,auto}}
+\page
+
+# APPENDIX F
+## Deities by alignment
+
+<div class='wide' style='column-count:3'>
+
+### Lawful
+
+#### Good
+
+- Artémiz
+- Callista
+- Caprico
+- Clangeddin
+- Gaïa
+- Gé
+- The Legislator
+- Terra
+- Zerecilda
+
+#### Neutral
+
+- Gabéral
+- Malkuth
+- Morokei
+- Somnio
+- Ova
+- Quilin
+- Tybula
+- Dunemedall
+- Nòm istam
+
+#### Evil
+
+- Atlas
+- Héraclus
+- Homère
+- Jasandoril
+- The Justificator
+- Liod
+- Ocato
+- Ole Lokoje
+- The Resquilleur
+- Ulysse
+- Quirmizi
+- Yagnar
+
+\column
+
+### Neutral
+
+#### Good
+
+- Alcméon
+- Canuk
+- Freyr of Vanir
+- Malocato
+- Quinglong
+- Tiqysus
+- Rikadishna
+
+#### Neutral
+
+- Gate of Truth
+- Omnis
+- Okoma
+- Morena
+
+#### Evil
+
+- Huruma
+- The Ordinator
+- The Voidress
+- Willebrand
+
+\column
+
+### Chaotic
+
+#### Good
+
+- Damarus
+- Galilého
+- Luthgard
+- Ophelie
+- Pythogenes
+- Roma
+- Vertugadin
+- Vizira
+- Zars
+
+
+#### Neutral
+
+- The Great Weaver
+- The Architect
+- Zebulon
+- Hase
+- Erebus
+- Voskalel
+- Qirmizi
+- Scaphandria
+- Brimmihr
+- Blainn
+- Unmada
+- Ratheithiae
+
+
+#### Evil
+
+- Artume
+- Cthon
+- Cùchulainn
+- Druquenein
+- Ezhoxorh
+- Quercus
+- Verdugo
+- Ymir
+
+</div>
+
+{{pageNumber,auto}}

@@ -1,0 +1,711 @@
+```metadata
+title: Ashen Vault - Equipment
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+/*=======--- Example CSS styling ---=======*/
+/* Any CSS here will apply to your document! */
+ @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+ @import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive);
+ :root {
+     --rotate: 20deg;
+     --left: unset;
+     --top: unset;
+     --correction: "correction";
+     --source: 'https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png';
+}
+/* Removes Drop Caps */
+ .page h1+p:first-letter {
+     all: unset;
+}
+ .page .footnote {
+     border-top: lightgray dotted 2px;
+     width: 80%;
+     color: gray;
+     bottom: 28px;
+}
+ .page .footnote > h1 {
+     background-color: transparent;
+     border: none;
+     font-size: 10px;
+     margin-bottom: 0px;
+}
+/* Removes Small-Caps in first line */
+ .page h1+p:first-line {
+     all: unset;
+}
+ .page {
+     background-color: #F8F8F8;
+    /* Light gray background */
+     background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+     background-size: 20px 20px;
+    /* Adjust spacing */
+     font-family: "Courier New", Courier, monospace;
+    /* Typewriter / Redacted Report */
+}
+ .page:after, .page:has(.frontCover):after, .page:has(.insideCover):after, .page:nth-child(even)::after {
+     all: unset;
+     content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+     transform-origin: top right;
+     transform: rotate(270deg);
+     white-space: nowrap;
+     position: absolute;
+     right: 1.5cm;
+     top: 0px;
+     color: gray;
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     width: 29cm;
+}
+ .page:before {
+     all: unset;
+     content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+     transform-origin: top left;
+     transform: rotate(90deg);
+     white-space: nowrap;
+     position: absolute;
+     left: 1.5cm;
+     top: 0px;
+     color: gray;
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     width: 29cm;
+}
+ .page:has(.frontCover) .logo {
+     top: 10cm;
+     right: 0;
+     left: 0;
+     filter: drop-shadow(0 0 .075cm black);
+}
+ .page:has(.insideCover) .logo {
+     top: 0.5cm;
+     right: 0;
+     left: 0;
+     filter: drop-shadow(0 0 .075cm black);
+}
+ .page:has(.insideCover) p, .page:has(.insideCover) ul {
+     margin-top: 20px;
+     text-align: left;
+}
+ .page:has(.insideCover) .logo>img {
+     height: 2cm;
+     width: 1.8cm;
+     opacity: 0.1;
+     filter:none;
+}
+ .page:has(.frontCover) .logo>img {
+     height: 10cm;
+     width: 9cm;
+     opacity: 0.1;
+     filter:none;
+}
+
+ .page:has(.frontCover),
+  .page:has(.insideCover){
+   background: none;
+   background-color: #F8F8F8;
+}
+
+.coverpicture {
+margin-top: 1.5cm;
+  max-width: 15cm;
+  max-height: 15cm;
+}
+
+.coverpicture > img {
+  max-width: 100%;
+  max-height: 100%;
+  mix-blend-mode: luminosity;
+}
+
+ .page h1 {
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size: 24px;
+     color: #2C2C2C;
+    /* Vault Black */
+     background-color: #EDEDED;
+    /* Subtle Header Background */
+     padding: 5px;
+     border-bottom: 3px solid #2C2C2C;
+    /* Strong Bureaucratic Divider */
+}
+ .page:has(.insideCover) h1, .page:has(.frontCover) h1, .page:has(.partCover) h1 {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size: 24px;
+     background-color: #EDEDED;
+    /* Subtle Header Background */
+     color: #2C2C2C;
+    /* Vault Black */
+     padding: 5px;
+     border-bottom: 0 
+}
+ .page:has(.frontCover) h1 {
+     -webkit-text-stroke: 0 
+}
+ .page:has(.insideCover) h1 {
+     background-image: linear-gradient(45deg, #f7f7f7 25%, #dbdbdb 25%, #dbdbdb 50%, #f7f7f7 50%, #f7f7f7 75%, #dbdbdb 75%, #dbdbdb 100%);
+     background-size: 14.14px 14.14px;
+}
+ .page:has(.insideCover) .footnote, .page:has(.frontCover) .footnote, .page:has(.partCover) .footnote {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 15px;
+     margin-top: 40px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+     -webkit-text-stroke: 0;
+     text-align: left;
+}
+ .block .footnote {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 20px;
+     margin-top: 40px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+}
+ .page h2 {
+     font-family: "Oswald", sans-serif;
+     text-transform: uppercase;
+     font-size: 20px;
+     color: #2C2C2C;
+     border-bottom: 2px solid #8F8F8F;
+}
+ .page:has(.insideCover) h2, .page:has(.frontCover) h2, .page:has(.partCover) h2 {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 20px;
+     margin-top: 20px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+     border-bottom: 0;
+}
+ .page:has(.frontCover) h2 {
+     -webkit-text-stroke: 0 
+}
+ .page h3, .page:has(.insideCover) h3, .page:has(.frontCover) h3, .page:has(.partCover) h3 {
+     font-family: "Courier New", Courier, monospace;
+     font-size: 18px;
+     color: #5A5A5A;
+     text-transform: uppercase;
+     border-bottom: gray dashed 1px;
+    ;
+}
+ .page h4, .page:has(.insideCover) h4, .page:has(.frontCover) h4, .page:has(.partCover) h4 {
+     font-family: "Courier New", Courier, monospace;
+     font-size: 16px;
+     color: #8F8F8F;
+}
+ .page .redacted {
+     background-color: black;
+     color: black;
+     padding: 2px 5px;
+     border-radius: 2px;
+}
+ .page:has(.frontCover) hr {
+     margin: 10px;
+     position: relative;
+     width: 100%;
+     height: 5mm;
+    /* Adjust height to match a real ruler */
+     background: repeating-linear-gradient( to right, transparent 0mm, transparent 0.8mm, black 0.8mm, black 1mm );
+     filter:none;
+}
+ .page:has(.insideCover) hr {
+     position: relative;
+     width: 100%;
+     height: 1mm;
+    /* Adjust height to match a real ruler */
+     background: repeating-linear-gradient( to right, transparent 0mm, transparent 0.8mm, black 0.8mm, black 1mm );
+}
+ page hr {
+     border: 2px dashed #8F8F8F;
+    /* Looks like an official document break */
+}
+ .page blockquote {
+     background-color: #EDEDED;
+     border-left: 4px solid #2C2C2C;
+     padding: 10px;
+     font-family: "Courier New", Courier, monospace;
+}
+/* --- Tables: Bureaucratic Report Style --- */
+ .page table {
+     border-collapse: collapse;
+     width: 100%;
+}
+ .page th {
+     background-color: #D6D6D6;
+    /* Ash Gray */
+     color: #2C2C2C;
+    /* Vault Black */
+     padding: 8px;
+     border-bottom: 3px solid #8F8F8F;
+    /* Stronger Border */
+     text-transform: uppercase;
+}
+ .page td {
+     background-color: #F8F8F8;
+    /* Paper White */
+     color: #5A5A5A;
+    /* Charcoal Gray */
+     padding: 8px;
+     border-bottom: 1px solid #BFBFBF;
+    /* Soft Grid */
+}
+/* --- Links: Subtle and Official-Looking --- */
+ .page a {
+     color: #2C2C2C;
+     text-decoration: none;
+     border-bottom: 1px dashed #8F8F8F;
+}
+ .page a:hover {
+     color: #5A5A5A;
+     border-bottom: 1px solid #5A5A5A;
+}
+ .post-it {
+     left: var(--left);
+     top: var(--top);
+     transform: rotate(var(--rotate));
+     max-width:250px;
+     max-height:240px;
+     width:250px;
+     height:240px;
+     position:relative;
+     background:#ffa;
+     overflow:hidden;
+     margin:30px auto;
+     padding:20px;
+     border-radius:0 0 0 30px/45px;
+     box-shadow: inset 0 -40px 40px rgba(0,0,0,0.05), inset 0 25px 10px rgba(0,0,0,0.07), 0 5px 6px 5px rgba(0,0,0,0.2);
+     font-family: 'Cedarville Cursive', cursive;
+     line-height:1.7em;
+     font-size:19px;
+     -webkit-mask-image: url(data:image/png;
+    base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+     color:#130d6b;
+}
+ .post-it:before {
+     content:"";
+     position:absolute;
+     width:20px;
+     height:25px;
+     background:#ffa;
+     box-shadow: 3px -2px 10px rgba(0,0,0,0.2), inset 15px -15px 15px rgba(0,0,0,0.3);
+     left:0;
+     bottom:0;
+     z-index:2;
+     transform:skewX(25deg);
+}
+ .smudge {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     filter: blur(1px) contrast(110%);
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/5d4334616f20bd1d1f059f6007892650.png') no-repeat center;
+     background-size: contain;
+
+
+}
+
+    .smudge:before {
+    position: absolute;
+    content:'';
+    left: 0;
+    top: 0;
+     width: 10cm;
+     height: 10cm;
+   
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 19%, rgba(255,255,255,0) 52%);
+background-blend-mode: lighten
+
+    
+    }
+
+
+
+ .coffee-stain {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     filter: blur(1px) contrast(110%);
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f74119a30ba73c9c5b3a7cc1aa9d7d42.png') no-repeat center;
+     background-size: contain;
+     mix-blend-mode: multiply;
+}
+ 
+ 
+.corrected {
+    position: relative;
+    text-decoration: line-through;
+    color: black;
+}
+
+.corrected::after {
+    content: var(--correction, "Default Text");;
+    font-size: 12px;
+    color: #0F3D75;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+       font-family: 'Cedarville Cursive', cursive;
+   
+    -webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+}
+
+
+.paperclip {
+ 
+    position: absolute;
+    display-block;
+    top: -10px;
+    left: var(--left, 60);
+    width: 50px;
+    height: 150px;
+    transform: rotate(-15deg); /* Slight tilt for realism */
+    opacity: 0.8; /* Slight transparency */
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/421f492b3660fca7d119964aff1f24db.png') no-repeat center;
+    background-size: contain;
+}
+
+ .polaroid {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     max-width:10cm;
+     max-height: 10cm;
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png') no-repeat center;
+    background-size: contain;
+         transform-origin: top left;
+}
+
+.polaroid > p > img {
+  margin-left: 1.26cm;
+  margin-top: 0.74cm;
+  height: 7.4cm;
+  width: 7.5cm;
+  object-fit: cover;
+  mix-blend-mode: screen;
+}
+
+
+.doodle.dog1 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/6d860afef532110ae76b559ace75dfa7.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.dog2 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/e2820894e1c1c58cb9d710e5522858fc.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.cat1 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/b43f55649f7f416de20109ce0f3b6722.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.cat2 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/898133d59ab4ce7d036283cf075620e2.png') no-repeat center;
+    background-size: contain;
+}
+
+.doodle {
+position: relative;
+   top: var(--top);
+   left: var(--left);
+    display: block;
+    width: 150px;
+    height: 150px;
+     -webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-repeat: repeat;
+}
+
+
+.fading {
+    background: linear-gradient(to bottom, black 10%, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.4) 70%, rgba(0, 0, 0, 0.1) 90%, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+```
+
+{{frontCover}}
+
+
+# Equipment
+## Shopping in Concord City
+
+{{coverpicture ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/8a2abb29da9022da6da62478316dea1b.png)}}
+
+\page
+
+{{insideCover}}
+
+# CONFIDENTIAL  
+## ⚠  A.S.T.R.A.L. ⚠  
+## CLASSIFIED DOCUMENT  
+___  
+
+This document is the sole property of the **Agency for Surveillance, Tracking, and Regulation of Anomalous Landscapes (A.S.T.R.A.L.)** and is classified under **Protocol X-27**. Unauthorized access, duplication, or distribution is a direct violation of the **Anomalous Contingency Act (A.C.A. §13-97)** and will be met with immediate countermeasures, up to and including **forced administrative reassignment** (which, in certain cases, may involve existing in a different timeline).  
+
+By opening this document, you acknowledge:  
+- **You have the necessary clearance level** to access restricted anomaly intelligence.  
+- **You have not, at any point, been replaced by an identical anomaly impersonation** (if unsure, consult **Verification Form 92-A**).  
+- **You are subject to continuous monitoring** under Section 12 of the Astral Compliance Directive.  
+- **Any unauthorized disclosure will trigger Protocol X**, authorizing full intervention by **Containment & Erasure Taskforce Omega** (Note: The **previous** Containment & Erasure Taskforce Omega was erased under Protocol X. This is the **new** Taskforce Omega. Try not to ask what happened).  
+- **Dissemination of classified content will result in memory redaction procedures**, as outlined in **Directive 46-C**, or, if memory redaction is not feasible, assignment to the **Department of Unanswered Inquiries** (success rate: inconclusive).  
+
+If you are not the intended recipient:  
+1. **Cease all interaction immediately.**  
+2. **Report this breach to A.S.T.R.A.L. Oversight Bureau (O.B.)** via secure terminal **[O.B.//DIRECT-LINK-SEC/347-99]**.  
+3. **Wait for retrieval personnel to arrive.** This may take **minutes, weeks, or retroactively already have happened**.  
+
+**Failure to comply will result in automatic escalation to Level-4 Contingency Response, which involves (but is not limited to):**  
+- **A 48-hour debriefing inside an undisclosed location** (which you will **never** be able to find again).  
+- **A mandatory seminar on "The Importance of Forgetting"** (attendance is compulsory; comprehension is optional).  
+- **Being reassigned as an anomaly observer** (or, if deemed necessary, as an anomaly).  
+
+___  
+
+{{logo ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png)}}
+
+___  
+
+\page
+
+{{partCover}}
+
+# PART 2
+## Equipment
+
+{{imageMaskEdge2,--offset:10cm,--rotation:180
+  ![Background image](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/029cfba62eae6c51ab5723942793ab55.webp){position:absolute,bottom:0,left:0,height:100%}
+}}
+
+\page
+
+### **Mundane Melee Weapons**
+| Name | Cost | Damage | Weight | Properties |
+|------|------|--------|--------|------------|
+| Baseball Bat | 5 credit | 1d6 bludgeoning | 3 lb. | Versatile (1d8) |
+| Crowbar | 2 credit | 1d4 bludgeoning | 5 lb. | Advantage on Strength checks to break objects |
+| Wrench | 3 credit | 1d6 bludgeoning | 4 lb. | — |
+| Tire Iron | 4 credit | 1d6 bludgeoning | 5 lb. | Versatile (1d8) |
+| Wooden Plank | 1 credit | 1d4 bludgeoning | 3 lb. | Improvised weapon |
+| Brass Knuckles | 10 credit | 1d4 bludgeoning | 1 lb. | Light, enhances unarmed strikes |
+| Chains | 15 credit | 1d6 bludgeoning | 6 lb. | Reach, can be used to grapple |
+| Fire Poker | 3 credit | 1d6 piercing | 3 lb. | — |
+| Shovel | 8 credit | 1d8 bludgeoning | 6 lb. | Heavy, two-handed |
+| Frying Pan | 5 credit | 1d6 bludgeoning | 4 lb. | Can also be used as a cooking tool |
+
+### **Mundane Ranged Weapons**
+| Name | Cost | Damage | Weight | Properties |
+|------|------|--------|--------|------------|
+| Slingshot | 2 credit | 1d4 bludgeoning | 1 lb. | Ammunition (range 30/120) |
+| Throwing Rock | 1 credit | 1d4 bludgeoning | 2 lb. | Thrown (range 20/60) |
+| Dart (Heavy) | 5 credit | 1d6 piercing | 1 lb. | Thrown (range 30/120) |
+| Brick | 1 credit | 1d6 bludgeoning | 4 lb. | Thrown (range 10/30) |
+| Bottle (Glass) | 5 credit | 1d4 bludgeoning | 2 lb. | Thrown (range 20/60), breaks on impact |
+| Nail Gun | 50 credit | 1d6 piercing | 8 lb. | Ammunition (range 20/80), reload |
+| Harpoon | 20 credit | 1d8 piercing | 10 lb. | Thrown (range 30/120), two-handed |
+
+---
+
+### **Armor**
+| Name | Cost | AC | Weight | Properties |
+|------|------|----|--------|------------|
+| Reinforced Bodysuit | 100 credit | 12 + Dex modifier | 15 lb. | No stealth penalty |
+| Adaptive Plate | 500 credit | 15 + Dex modifier (max 2) | 30 lb. | Reduces energy damage |
+| Exo-Frame | 1000 credit | 17 | 50 lb. | Enhances Strength checks |
+| Specter Cloak | 750 credit | 14 + Dex modifier | 5 lb. | Grants minor invisibility |
+
+---
+
+### **Shield Gear**
+| Name | Cost | Weight | Description |
+|------|------|--------|-------------|
+| **Kinetic Riot Shield** | 150 credit | 12 lb. | A reinforced riot shield used by corporate security, grants +2 AC and advantage on resisting shoves. |
+| **Impact Dispersal Barrier** | 300 credit | 18 lb. | Military-grade composite shield that reduces force-based damage by 3 and grants +2 AC. |
+| **Hardlight Projection Shield** | 500 credit | 5 lb. | A wrist-mounted energy barrier that provides +2 AC but requires recharging after 10 minutes. |
+| **Nullwave Disruption Shield** | 800 credit | 10 lb. | A paranormal-resistant shield that grants +2 AC and advantage against magic-based attacks. |
+| **Industrial Scrap Shield** | 50 credit | 20 lb. | A makeshift shield crafted from industrial plating, grants +1 AC but imposes disadvantage on Stealth. |
+| **Adaptive Tactical Shield** | 450 credit | 15 lb. | A foldable shield that grants +2 AC and can be deployed as half cover instead of being carried. |
+
+---
+
+These shields represent **the intersection of technology, necessity, and survival** in **Concord City's brutal corporate-controlled landscape**.
+
+
+### **Additional Weapons**
+| Name | Cost | Damage | Weight | Properties |
+|------|------|--------|--------|------------|
+| Shock Baton | 50 credit | 1d6 lightning | 3 lb. | Light, nonlethal |
+| Arcane Blade | 200 credit | 1d8 force | 2 lb. | Finesse, magical |
+| Plasma Knuckles | 75 credit | 1d4 fire | 1 lb. | Light, unarmed strike enhancement |
+| Taser Dart | 10 credit | 1d4 lightning | 0.5 lb. | Thrown (range 30/120), paralyzing effect |
+| Vibroblade | 150 credit | 1d10 slashing | 4 lb. | Heavy, ignores nonmagical armor |
+| Concussive Hammer | 250 credit | 2d6 bludgeoning | 12 lb. | Heavy, two-handed, knockback |
+
+---
+
+### **Tools & Devices**
+| Name | Cost | Description |
+|------|------|-------------|
+| Hacking Kit | 150 credit | Required for digital intrusion and system overrides. |
+| Signal Jammer | 100 credit | Disrupts communication within 100 ft. |
+| Mag-Lock Breaker | 200 credit | Bypasses electronic and magical locks. |
+| Paranormal Detector | 300 credit | Detects anomalies and supernatural entities. |
+| Arcane Disruptor | 500 credit | Nullifies magic within a small radius for 1 minute. |
+
+
+\page
+
+### **Firearms**
+| Name | Cost | Damage | Weight | Properties |
+|------|------|--------|--------|------------|
+| Handgun | 1,000 credit | 3d6 piercing | 3 lb. | Ammunition (range 50/200), reload 6 |
+| Revolver | 1,500 credit | 3d8 piercing | 4 lb. | Ammunition (range 40/160), reload 6, loud |
+| Submachine Gun | 3,000 credit | 4d6 piercing | 6 lb. | Ammunition (range 60/250), burst fire, reload 30 |
+| Shotgun | 3,500 credit | 4d10 piercing | 8 lb. | Ammunition (range 30/90), spread, reload 6 |
+| Hunting Rifle | 5,000 credit | 5d12 piercing | 9 lb. | Ammunition (range 120/500), reload 5, high velocity |
+| Sniper Rifle | 8,000 credit | 6d10 piercing | 12 lb. | Ammunition (range 200/800), reload 5, scope required |
+| Assault Rifle | 6,500 credit | 4d8 piercing | 10 lb. | Ammunition (range 100/400), burst fire, reload 30 |
+| Heavy Machine Gun | 12,000 credit | 6d12 piercing | 20 lb. | Ammunition (range 150/600), full auto, reload 100 |
+| Energy Pistol | 5,000 credit | 4d6 radiant | 3 lb. | Ammunition (range 50/200), energy cell, silent |
+| Plasma Rifle | 10,000 credit | 6d8 fire | 12 lb. | Ammunition (range 120/500), energy cell, overheats |
+| Gauss Rifle | 15,000 credit | 8d12 force | 15 lb. | Ammunition (range 300/1000), reload 3, penetration |
+
+---
+
+### **Firearm Properties**
+- **Ammunition**: The weapon requires a specific type of ammunition. Reloading takes an action.
+- **Reload**: The number of shots a firearm can hold before needing to be reloaded.
+- **Burst Fire**: Can fire in a spray to hit multiple targets within a 10-foot cone, requiring a Dexterity saving throw.
+- **Spread**: Shotguns deal full damage to targets within 10 feet, but only half damage beyond that range.
+- **Loud**: Weapons with this trait create a loud noise upon firing, potentially revealing the user's location.
+- **Scope Required**: Weapons with this trait require a scope to make effective long-range shots.
+- **Full Auto**: Can make multiple attacks using a full attack action, consuming more ammunition.
+- **High Velocity**: Shots fired with this weapon ignore cover below half-cover.
+- **Energy Cell**: These weapons require an energy cell rather than traditional ammunition.
+- **Overheats**: After sustained use, the weapon may require a cooling period before being used again.
+- **Penetration**: Ignores resistance to nonmagical attacks and deals extra damage against armored targets.
+
+---
+
+## **Ammunition**
+| Name | Cost | Description |
+|------|------|-------------|
+| Handgun Ammo (12 rounds) | 50 credit | Standard small-caliber bullets for handguns and revolvers. |
+| Rifle Ammo (10 rounds) | 100 credit | High-velocity bullets used for hunting and sniper rifles. |
+| Shotgun Shells (8 rounds) | 120 credit | Pellets designed for close-range stopping power. |
+| SMG Ammo (30 rounds) | 150 credit | Compact rounds used in submachine guns and assault rifles. |
+| Heavy Ammo (50 rounds) | 500 credit | Large-caliber rounds for heavy machine guns and gauss rifles. |
+| Energy Cell (1 charge) | 300 credit | A power source for energy-based weapons, can be recharged. |
+| Plasma Core (1 charge) | 800 credit | Highly unstable energy source for plasma-based weapons. |
+
+\page
+
+
+### **Adventuring Gear**
+| Name | Cost | Weight | Description |
+|------|------|--------|-------------|
+| Cybernetic Med-Kit | 75 credit | 5 lb. | Restores 2d4 + 2 HP, removes minor conditions. |
+| Energy Pack | 50 credit | 2 lb. | Powers high-tech weaponry and tools. |
+| Reality Anchor | 500 credit | 10 lb. | Prevents planar distortions in a 30 ft. radius. |
+| Disguise Module | 200 credit | 3 lb. | Temporarily alters the wearer’s appearance. |
+| Compact Hoverboard | 400 credit | 15 lb. | Grants limited aerial mobility. |
+
+---
+
+### **Non-Lethal & Utility Weapons**
+| Name | Cost | Effect | Weight | Properties |
+|------|------|--------|--------|------------|
+| Pepper Spray | 50 credit | Blinds target for 1 minute (Con save DC 13) | 1 lb. | One-time use, 5 ft. range |
+| Stun Gun | 200 credit | Deals 1d6 lightning damage, incapacitates for 1 round (Con save DC 15) | 2 lb. | Rechargeable, 5 ft. range |
+| Flashbang Grenade | 250 credit | Blinds and deafens creatures within 10 ft. (Con save DC 14) | 1 lb. | One-time use |
+| Smoke Bomb | 100 credit | Creates a heavily obscured area in a 10-ft. radius for 1 minute | 1 lb. | One-time use |
+| Tear Gas Canister | 300 credit | Causes coughing fits (Disadvantage on attacks & checks, Con save DC 14) | 2 lb. | One-time use, 20 ft. radius |
+| Tranquilizer Dart | 75 credit | Deals 1d4 poison damage and puts target to sleep for 1 minute (Con save DC 12) | 0.5 lb. | Thrown or fired (range 30/120) |
+| Bola | 50 credit | Restrains target on hit (Dex save DC 14 to break free) | 2 lb. | Thrown (range 20/60) |
+
+---
+
+
+\column
+
+
+## **Medical Equipment & Supplies**
+| Name | Cost | Effect | Weight |
+|------|------|--------|--------|
+| Basic First Aid Kit | 100 credit | Restores 1d4+2 HP, stabilizes a dying creature | 5 lb. |
+| Combat Med-Kit | 500 credit | Restores 4d4+4 HP, removes minor conditions | 8 lb. |
+| Stimpack | 300 credit | Restores 2d6 HP, ignores pain for 10 minutes (Exhaustion 1 after use) | 1 lb. |
+| Sealing Foam | 200 credit | Instantly stabilizes a wound, prevents further bleeding | 2 lb. |
+| Adrenaline Shot | 400 credit | Grants advantage on Strength and Dexterity checks for 1 minute | 1 lb. |
+| Antitoxin Injector | 250 credit | Grants advantage on poison saving throws for 1 hour | 1 lb. |
+| Regen Patch | 750 credit | Heals 6d6 HP over 1 hour, removes 1 level of exhaustion | 1 lb. |
+| Nanite Auto-Injector | 2,000 credit | Fully heals a creature over 1 minute, regenerates lost limbs over 24 hours | 3 lb. |
+
+\page
+
+### **Transportation**
+| Name | Cost | Speed | Capacity | Properties |
+|------|------|--------|----------|------------|
+| Standard Bicycle | 150 credit | 20 ft. | 1 person | Requires physical effort to operate |
+| Motorbike | 3,000 credit | 60 ft. | 1 person | Fast, maneuverable, fuel required |
+| Sport Car | 15,000 credit | 80 ft. | 2 persons | High speed, fuel required |
+| Compact Car | 10,000 credit | 60 ft. | 4 persons | Basic road vehicle, fuel required |
+| Armored Van | 20,000 credit | 50 ft. | 6 persons | Reinforced for protection, fuel required |
+| Cargo Truck | 25,000 credit | 50 ft. | 2 persons + cargo | Large storage capacity, fuel required |
+| Maglev Train Pass (TACC Monthly) | 500 credit | 120 ft. | Public Transit | Unlimited metro and bus travel for 1 month |
+| Metro Ticket (Single Ride) | 10 credit | 120 ft. | Public Transit | One-time use for metro travel |
+| Bus Ticket (Single Ride) | 5 credit | 40 ft. | Public Transit | One-time use for bus travel |
+| Taxi | 5 credit per km | 60 ft. | 4 persons | On-demand transportation, fare per km |
+| Airship (Personal) | 150,000 credit | 100 ft. | 10 persons | Requires skilled pilot, energy core powered |
+| Industrial Mech | 500,000 credit | 40 ft. | 1 person | Can traverse rough terrain, requires maintenance |
+
+---
+
+### **Mercenaries & Hired Services**
+| Name | Cost | Description |
+|------|------|-------------|
+| Street Thug | 50 gp/day | A low-level enforcer, good for intimidation and rough work. |
+| Bodyguard | 200 gp/day | Trained in close combat, protects against physical threats. |
+| Sniper | 500 gp/day | A skilled marksman for long-range eliminations. |
+| Hacker | 750 gp/day | Specializes in digital espionage, breaking into systems. |
+| Paranormal Expert | 1,000 gp/day | Detects and neutralizes supernatural threats. |
+| Elite Mercenary | 2,500 gp/day | Well-equipped and trained, ideal for high-risk missions. |
+| Corporate Saboteur | 3,500 gp/day | Expert in infiltration, sabotage, and corporate espionage. |
+| Bounty Hunter | Varies | Tracks and captures or eliminates targets for a set fee. |
+| Informant | 100 gp/tip | Provides valuable insider information on targets or locations. |
+| Private Investigator | 300 gp/day | Uncovers secrets, follows leads, and gathers intelligence. |
+| Driver | 150 gp/day | Provides safe and skilled transportation, including getaways. |
+
+---
+### **Cerbenetics**
+| Name | Cost | Description |
+|------|------|-------------|
+| Full Cybernetic Rebuild | 75,000 credits | Replaces destroyed body parts, restores all lost limbs | — |
+| Health Insurance (Basic) | 1,500 credits/month | Covers minor injuries, reduces cost of medical care by 10% | — |
+| Health Insurance (Premium) | 5,000 credits/month | Covers major injuries, reduces medical costs by 25% | — |
+| Health Insurance (Elite) | 20,000 credits/month | Full coverage, no additional medical fees required | — |

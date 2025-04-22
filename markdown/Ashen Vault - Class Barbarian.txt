@@ -1,0 +1,983 @@
+```metadata
+title: Ashen Vault - Class Barbarian
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+/*=======--- Example CSS styling ---=======*/
+/* Any CSS here will apply to your document! */
+@import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Oswald:wght@200..700&family=Permanent+Marker&display=swap);
+:root {
+    --rotate: 20deg;
+    --left: unset;
+    --top: unset;
+    --correction: "correction";
+    --source: "https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png";
+}
+
+
+.page:has(.frontCover) {
+    background-color: black;
+}
+
+.page:has(.frontCover) .coverBackground {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -1cm;
+    left: 0;
+    z-index: -1;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a583989e26c4e3429c7b8450a03c4209.webp');
+    background-size: cover;
+    background-position: center;
+    mask-image: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 20%), rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: linear-gradient(270deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+.page:has(.frontCover) .coverImage {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -7cm;
+    left: 0;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/0a0b5e7e9496fd06deac901172f5455f.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.page:has(.frontCover) h1,
+.page:has(.frontCover) h2,
+.page:has(.frontCover) h3 {
+    border-bottom: unset;
+    -webkit-text-stroke: unset;
+    text-stroke: unset;
+    ;
+}
+
+.page:has(.frontCover) h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: White;
+    margin-top: 50px;
+    font-family: "Oswald", sans-serif;
+    background: none;
+}
+
+.page:has(.frontCover) h2 {
+    font-size: 2rem;
+    letter-spacing: 8.5px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.page:has(.frontCover) h3 {
+    margin-top: 10px;
+    text-decoration: underline overline #d1d1d1;
+}
+
+.page:has(.frontCover) .footnote {
+    font-size: 1.5rem;
+    color: #d1d1d1;
+    margin-top: 30px;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 2px gray;
+    ;
+    text-stroke: 2px gray;
+    text-align: right;
+}
+
+/* Removes Drop Caps */
+.page h1 + p:first-letter {
+    all: unset;
+}
+.page .footnote {
+    border-top: lightgray dotted 2px;
+    width: 80%;
+    color: gray;
+    bottom: 28px;
+}
+.page .footnote > h1 {
+    background-color: transparent;
+    border: none;
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+.inline-block.pageNumber {
+    font-size: 1cm;
+    color: black;
+}
+/* Removes Small-Caps in first line */
+.page h1 + p:first-line {
+    all: unset;
+}
+.page {
+    background-color: #f8f8f8;
+    /* Light gray background */
+    background-image: radial-gradient(
+        circle,
+        rgba(0, 0, 0, 0.1) 1px,
+        transparent 1px
+    );
+    background-size: 20px 20px;
+    /* Adjust spacing */
+    font-family: "Courier New", Courier, monospace;
+    /* Typewriter / Redacted Report */
+}
+
+.page:has(.preface) {
+    columns: 1;
+    column-span: all;
+    gap: 5px;
+    text-align: center;
+
+}
+
+
+.page:after,
+.page:has(.frontCover):after,
+.page:has(.preface):after,
+.page:has(.insideCover):after,
+.page:nth-child(even)::after {
+    all: unset;
+    content: "Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.";
+    transform-origin: top right;
+    transform: rotate(270deg);
+    white-space: nowrap;
+    position: absolute;
+    right: 1.5cm;
+    top: 0px;
+    color: gray;
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    width: 29cm;
+}
+.page:before {
+    all: unset;
+    content: "Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.";
+    transform-origin: top left;
+    transform: rotate(90deg);
+    white-space: nowrap;
+    position: absolute;
+    left: 1.5cm;
+    top: 0px;
+    color: gray;
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    width: 29cm;
+}
+.page:has(.preface) .logo {
+    top: 10cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 0.075cm black);
+}
+.page:has(.insideCover) .logo {
+    top: 0.5cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 0.075cm black);
+}
+.page:has(.insideCover) p,
+.page:has(.insideCover) ul {
+    margin-top: 20px;
+    text-align: left;
+}
+.page:has(.insideCover) .logo > img {
+    height: 2cm;
+    width: 1.8cm;
+    opacity: 0.1;
+    filter: none;
+}
+.page:has(.preface) .logo > img {
+    height: 10cm;
+    width: 9cm;
+    opacity: 0.1;
+    filter: none;
+}
+
+.page:has(.preface),
+.page:has(.insideCover) {
+    background: none;
+    background-color: #f8f8f8;
+}
+
+.coverpicture {
+    margin-top: 1.5cm;
+    max-width: 15cm;
+    max-height: 15cm;
+}
+
+.coverpicture > img {
+    max-width: 100%;
+    max-height: 100%;
+    mix-blend-mode: luminosity;
+}
+
+.page h1 {
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    color: #2c2c2c;
+    /* Vault Black */
+    background-color: #ededed;
+    /* Subtle Header Background */
+    padding: 5px;
+    border-bottom: 3px solid #2c2c2c;
+    /* Strong Bureaucratic Divider */
+}
+.page:has(.insideCover) h1,
+.page:has(.preface) h1,
+.page:has(.partCover) h1 {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    background-color: #ededed;
+    /* Subtle Header Background */
+    color: #2c2c2c;
+    /* Vault Black */
+    padding: 5px;
+    border-bottom: 0;
+}
+.page:has(.preface) h1 {
+    -webkit-text-stroke: 0;
+}
+.page:has(.insideCover) h1 {
+    background-image: linear-gradient(
+        45deg,
+        #f7f7f7 25%,
+        #dbdbdb 25%,
+        #dbdbdb 50%,
+        #f7f7f7 50%,
+        #f7f7f7 75%,
+        #dbdbdb 75%,
+        #dbdbdb 100%
+    );
+    background-size: 14.14px 14.14px;
+}
+.page:has(.insideCover) .footnote,
+.page:has(.preface) .footnote,
+.page:has(.partCover) .footnote {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+    -webkit-text-stroke: 0;
+    text-align: left;
+}
+.block .footnote {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+}
+.page h2 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #2c2c2c;
+    border-bottom: 2px solid #8f8f8f;
+}
+.page:has(.insideCover) h2,
+.page:has(.preface) h2,
+.page:has(.partCover) h2 {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+    border-bottom: 0;
+}
+.page:has(.preface) h2 {
+    -webkit-text-stroke: 0;
+}
+.page h3,
+.page:has(.insideCover) h3,
+.page:has(.preface) h3,
+.page:has(.partCover) h3 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    color: #5a5a5a;
+    text-transform: uppercase;
+    border-bottom: gray dashed 1px;
+}
+.page h4,
+.page:has(.insideCover) h4,
+.page:has(.preface) h4,
+.page:has(.partCover) h4 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    color: #8f8f8f;
+}
+.page .redacted {
+    background-color: black;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+.page:has(.preface) hr {
+    margin: 10px;
+    position: relative;
+    width: 100%;
+    height: 5mm;
+    /* Adjust height to match a real ruler */
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0mm,
+        transparent 0.8mm,
+        black 0.8mm,
+        black 1mm
+    );
+    filter: none;
+}
+.page:has(.insideCover) hr {
+    position: relative;
+    width: 100%;
+    height: 1mm;
+    /* Adjust height to match a real ruler */
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0mm,
+        transparent 0.8mm,
+        black 0.8mm,
+        black 1mm
+    );
+}
+page hr {
+    border: 2px dashed #8f8f8f;
+    /* Looks like an official document break */
+}
+.page blockquote {
+    background-color: #ededed;
+    border-left: 4px solid #2c2c2c;
+    padding: 10px;
+    font-family: "Courier New", Courier, monospace;
+}
+/* --- Tables: Bureaucratic Report Style --- */
+.page table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.page th {
+    background-color: #d6d6d6;
+    /* Ash Gray */
+    color: #2c2c2c;
+    /* Vault Black */
+    padding: 8px;
+    border-bottom: 3px solid #8f8f8f;
+    /* Stronger Border */
+    text-transform: uppercase;
+}
+.page td {
+    background-color: #f8f8f8;
+    /* Paper White */
+    color: #5a5a5a;
+    /* Charcoal Gray */
+    padding: 8px;
+    border-bottom: 1px solid #bfbfbf;
+    /* Soft Grid */
+}
+/* --- Links: Subtle and Official-Looking --- */
+.page a {
+    color: #2c2c2c;
+    text-decoration: none;
+    border-bottom: 1px dashed #8f8f8f;
+}
+.page a:hover {
+    color: #5a5a5a;
+    border-bottom: 1px solid #5a5a5a;
+}
+.post-it {
+    left: var(--left);
+    top: var(--top);
+    transform: rotate(var(--rotate));
+    max-width: 250px;
+    max-height: 240px;
+    width: 250px;
+    height: 240px;
+    position: relative;
+    background: #ffa;
+    overflow: hidden;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 0 0 0 30px/45px;
+    box-shadow: inset 0 -40px 40px rgba(0, 0, 0, 0.05),
+        inset 0 25px 10px rgba(0, 0, 0, 0.07), 0 5px 6px 5px rgba(0, 0, 0, 0.2);
+    font-family: "Cedarville Cursive", cursive;
+    line-height: 1.7em;
+    font-size: 19px;
+    -webkit-mask-image: url(data:image/png;
+    base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+    color: #130d6b;
+}
+.post-it:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    background: #ffa;
+    box-shadow: 3px -2px 10px rgba(0, 0, 0, 0.2),
+        inset 15px -15px 15px rgba(0, 0, 0, 0.3);
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    transform: skewX(25deg);
+}
+.smudge {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/5d4334616f20bd1d1f059f6007892650.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.smudge:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 10cm;
+    height: 10cm;
+
+    background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 1) 19%,
+        rgba(255, 255, 255, 0) 52%
+    );
+    background-blend-mode: lighten;
+}
+
+.coffee-stain {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f74119a30ba73c9c5b3a7cc1aa9d7d42.png")
+        no-repeat center;
+    background-size: contain;
+    mix-blend-mode: multiply;
+}
+
+.corrected {
+    position: relative;
+    text-decoration: line-through;
+    color: black;
+}
+
+.corrected::after {
+    content: var(--correction, "Default Text");
+    font-size: 12px;
+    color: #0f3d75;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    font-family: "Cedarville Cursive", cursive;
+
+    -webkit-mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+}
+
+.paperclip {
+    position: absolute;
+    display: block;
+    top: -10px;
+    left: var(--left, 60);
+    width: 50px;
+    height: 150px;
+    transform: rotate(-15deg); /* Slight tilt for realism */
+    opacity: 0.8; /* Slight transparency */
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/421f492b3660fca7d119964aff1f24db.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.polaroid {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    max-width: 10cm;
+    max-height: 10cm;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png")
+        no-repeat center;
+    background-size: contain;
+    transform-origin: top left;
+}
+
+.polaroid > p > img {
+    margin-left: 1.26cm;
+    margin-top: 0.74cm;
+    height: 7.4cm;
+    width: 7.5cm;
+    object-fit: cover;
+    mix-blend-mode: screen;
+}
+
+.doodle.dog1 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/6d860afef532110ae76b559ace75dfa7.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.dog2 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/e2820894e1c1c58cb9d710e5522858fc.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.cat1 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/b43f55649f7f416de20109ce0f3b6722.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.cat2 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/898133d59ab4ce7d036283cf075620e2.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.doodle {
+    position: relative;
+    top: var(--top);
+    left: var(--left);
+    display: block;
+    width: 150px;
+    height: 150px;
+    -webkit-mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-repeat: repeat;
+}
+
+.fading {
+    background: linear-gradient(
+        to bottom,
+        black 10%,
+        rgba(0, 0, 0, 0.8) 30%,
+        rgba(0, 0, 0, 0.6) 50%,
+        rgba(0, 0, 0, 0.4) 70%,
+        rgba(0, 0, 0, 0.1) 90%,
+        transparent
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+```
+
+{{frontCover}}
+{{coverBackground}}
+## Class
+# Barbarian
+## The Ruinbringer
+
+{{footnote 
+#### A.S.T.R.A.L Training Material
+}}
+
+\page
+
+{{insideCover}}
+
+# CONFIDENTIAL  
+## ⚠ A.S.T.R.A.L.⚠  
+## ANTHROPOLOGICAL SURVEY DIVISION  
+___  
+
+This document is the sole property of the **Agency for Surveillance, Tracking, and Regulation of Anomalous Landscapes (A.S.T.R.A.L.)** and is classified under **Biometric Analysis Protocol O-92**. Unauthorized access, duplication, or distribution constitutes a direct violation of the **Anomalous Contingency Act (A.C.A. §17-42)** and will trigger immediate countermeasures.  
+
+By accessing this file, you acknowledge:  
+- You have the **necessary clearance** to review classified **biological intelligence**.  
+- You are subject to **continuous biometric and cognitive monitoring** under **Anthropological Compliance Mandate 24-B**.  
+- Any **unauthorized replication or dissemination** will result in the activation of **Containment Directive Theta**, authorizing full intervention by **Bio-Security Division Kappa**.  
+- Disclosure of restricted genetic analysis will **invoke subject-specific erasure protocols**, up to and including **cognitive redaction under Directive 88-P**.  
+
+This document provides **ongoing surveillance data, species profiling, and genetic deviation reports** concerning the recognized **sentient populations of Concord City and its surrounding territories**. Due to **unresolved discrepancies regarding human emergence events**, data integrity remains under **constant review by the Oversight Bureau (O.B.)**.  
+
+If you are not the intended recipient, cease all interaction immediately and report this breach to **A.S.T.R.A.L. Oversight Bureau (O.B.)** via secure terminal [O.B.//DIRECT-LINK-SEC/347-99]. Failure to comply will escalate to **Genetic Contingency Response Protocol Cobalt-7**.  
+
+
+### **Vorraki – Species Designation: Homo Voracis**  
+**Summary:** The **Vorraki** are **genetically optimized for high-impact physicality, rapid muscular repair, and combat-oriented reflex enhancement**. Their **distinct genetic subtypes** exhibit **adaptive resilience**, ensuring dominance across a wide range of physically demanding environments. While traditionally relegated to **security, enforcement, and paramilitary operations**, emerging Vorraki power structures suggest an **ongoing transition toward economic and political self-sufficiency**, particularly in **black-market security, logistics, and organized paramilitary enterprises**. **Containment is not advised—negotiation remains the recommended control mechanism.**  
+
+**A.S.T.R.A.L. – DEFENDING REALITY AGAINST GENETIC UNCERTAINTY**  
+**Everything is under observation.**  
+
+{{pageNumber,auto}}
+\page
+
+## **Barbarian**  
+*Paranormal Overcharge | Street Brawler | Enforcer | Anomaly*  
+
+> *"They say I lose control when I fight. I say control was never mine to begin with."*  
+> — **Brahma, Hollow Chain Enforcer**  
+
+### **Thematic Overview**  
+Barbarians in Concord City are anomalies of pure aggression, drawing strength from raw paranormal surges, street brawling, or combat stimulants. They might be the result of failed Thaumatech experiments, cybernetic rejection, or deep-seated trauma that manifests as supernatural rage.
+- Some serve as underground gladiators, mercenaries, or street enforcers.  
+- Others are unpredictable paranormals, causing havoc in uncontrolled bursts.  
+- Their "rage" is a form of paranormal overcharge, adrenaline surge, or reality distortion.  
+- Many operate outside corporate law, though some are weaponized by factions.  
+
+### **Creating a Barbarian**  
+- Were you a corporate test subject who gained unstable power?  
+- Did you grow up in the brutal streets of Concord City, forced to fight to survive?  
+- What drives your rage—revenge, justice, self-preservation, or the thrill of combat?  
+
+---
+
+## **Class Features**  
+As a **Barbarian**, you gain the following class features.
+
+### **Hit Points**  
+- **Hit Dice:** *1d12 per Barbarian level*  
+- **Hit Points at 1st Level:** *12 + Constitution modifier*  
+- **Hit Points at Higher Levels:** *1d12 (or 7) + Constitution modifier per level after 1st*  
+
+### **Proficiencies**  
+- **Armor:** *Light armor, medium armor, shields*  
+- **Weapons:** *Simple weapons, martial weapons*  
+- **Tools:** *None*  
+- **Saving Throws:** *Strength, Constitution*  
+- **Skills:** *Choose two from Animal Handling, Athletics, Intimidation, Nature, Perception, and Survival*  
+
+### **Equipment**  
+You start with the following equipment, in addition to any granted by your background:  
+- *(a)* a two-handed weapon or *(b)* a pair of batons  
+- *(a)* an armored jacket or *(b)* a reinforced vest  
+- *(a)* an explorer's pack or *(b)* a survival kit  
+
+
+
+{{wide
+## **Class Table**  
+| Level | Proficiency Bonus | Features |  
+|:-:|:-:|:--|  
+| 1st | +2 | Rage, Unarmored Defense |  
+| 2nd | +2 | Reckless Attack, Danger Sense |  
+| 3rd | +2 | Primal Path |  
+| 4th | +2 | Ability Score Improvement |  
+| 5th | +3 | Extra Attack, Fast Movement |  
+| 6th | +3 | Primal Path Feature |  
+| 7th | +3 | Feral Instinct |  
+| 8th | +3 | Ability Score Improvement |  
+| 9th | +4 | Brutal Critical (1 die) |  
+| 10th | +4 | Primal Path Feature |  
+| 11th | +4 | Relentless Rage |  
+| 12th | +4 | Ability Score Improvement |  
+| 13th | +5 | Brutal Critical (2 dice) |  
+| 14th | +5 | Primal Path Feature |  
+| 15th | +5 | Persistent Rage |  
+| 16th | +5 | Ability Score Improvement |  
+| 17th | +6 | Brutal Critical (3 dice) |  
+| 18th | +6 | Indomitable Might |  
+| 19th | +6 | Ability Score Improvement |  
+| 20th | +6 | Primal Champion |  
+}}
+
+{{pageNumber,auto}}
+\page
+
+## **Class Abilities**  
+### **Rage (Level 1)**  
+You can tap into an unnatural wellspring of power. On your turn, you can enter a **Rage** as a bonus action. While raging:  
+- You have advantage on Strength checks and Strength saving throws.  
+- You gain a bonus to melee damage rolls based on your level.  
+- You have resistance to bludgeoning, piercing, and slashing damage.  
+- Your Rage lasts for 1 minute or until you are knocked unconscious.  
+- You can Rage a number of times equal to your **Constitution modifier + 1** (minimum 2) before needing a long rest.  
+
+### **Unarmored Defense (Level 1)**  
+When you are not wearing armor, your AC equals **10 + Dexterity modifier + Constitution modifier**. You can use a shield and still gain this benefit.  
+
+### **Reckless Attack (Level 2)**  
+When you make your first attack on your turn, you can choose to attack recklessly. Doing so gives you **advantage on melee weapon attack rolls**, but attack rolls against you also have advantage until your next turn.  
+
+### **Danger Sense (Level 2)**  
+You gain **advantage on Dexterity saving throws** against effects that you can see, such as traps and spells. You must not be blinded, deafened, or incapacitated to gain this benefit.  
+
+## **Wrecking Rage (Destruction-Based Battlefield Presence)**  
+*"I don’t control my destruction—it follows me."*  
+
+At **3rd level**, while raging, your **attacks create unintended destruction** in your surroundings.  
+
+### **Effects:**  
+- **When you hit a creature or object with a melee attack while raging, you damage the terrain nearby.**  
+- The **terrain damage depends on the material (see table below).**  
+- **You ignore movement penalties** caused by **terrain you’ve broken yourself.**  
+
+| **Material**          | **Breaking Effect** |
+|----------------------|-------------------|
+| **Concrete & Asphalt** | Cracks & crumbles, creating **difficult terrain.** |
+| **Metal (Grating, Rails)** | Warps and bends, causing **disadvantage on Dex saves for creatures walking on it.** |
+| **Glass Floors & Windows** | Shatters, creating **hazardous terrain (1d4 slashing damage per 5 feet moved).** |
+| **Wooden Floors & Supports** | Splinters & weakens, **halving movement speed** in the area. |
+| **Brick & Stone** | Crumbles into rubble, **blocking line of sight.** |
+
+## **Collateral Havoc (Raging Side-Effects)**  
+*"I don’t pick my battles—the world breaks around me."*  
+
+At **6th level**, your destruction starts **affecting enemies near you.**  
+
+### **Effects:**  
+- **When you deal damage to terrain, creatures within 5 feet must make a Dexterity saving throw (DC = 8 + Str + Prof).**  
+- **On a failure,** they suffer an environmental effect based on the material (see table below).  
+- This effect **only occurs once per turn** and **only while raging.**  
+
+| **Material**          | **Environmental Effect on Nearby Creatures** |
+|----------------------|---------------------------------|
+| **Concrete & Asphalt** | Staggered, reducing movement by **10 feet for 1 turn.** |
+| **Metal (Grating, Rails)** | Shakes violently, imposing **disadvantage on ranged attacks from the area.** |
+| **Glass Floors & Windows** | Sharp shards force a **Dex save or take 1d6 piercing damage.** |
+| **Wooden Floors & Supports** | Unstable footing forces a **Dex save or fall prone.** |
+| **Brick & Stone** | Falling debris forces a **Dex save or take 1d6 bludgeoning damage.** |
+
+---
+
+## **Destructive Stride (Unstoppable Force)**  
+*"I don’t avoid obstacles. I go through them."*  
+
+At **10th level**, you can **break through obstacles naturally.**  
+
+### **Effects:**  
+- **If you move at least 15 feet before hitting an object,** you **automatically destroy it** (walls, doors, barriers).  
+- **When passing through broken terrain, you can charge an enemy** as part of the movement.  
+{{pageNumber,auto}}
+\page
+- **Creatures you charge into take 1d8 bludgeoning damage and must make a Strength save (DC = 8 + Str + Prof) or be knocked prone.**  
+
+---
+
+## **Architect of Ruin (Structural Destruction)**  
+*"Nothing built can stand against me."*  
+
+At **14th level**, your destruction extends beyond just combat—**you break entire environments.**  
+
+### **Effects:**  
+- **Once per Long Rest,** you may **cause a structural collapse in a 30-foot area**.  
+- **Walls, ceilings, and supports weaken and collapse** in a way that **damages enemies and changes the battlefield.**  
+- **Creatures inside the area must make a Dexterity save (DC = 8 + Str + Prof) or take 4d10 bludgeoning damage.**  
+- This **automatically causes terrain effects based on the materials** present. 
+
+## **Subclasses: Paths of the Barbarian**  
+At **3rd level**, barbarians choose a primal path that defines how they channel their rage.
+
+---
+
+Barbarians in Concord City are not primitive warriors but brutal enforcers, cybernetic berserkers, or victims of The Emergence. Their rage is fueled by urban warfare, corporate control, and the scars of a broken world.
+
+### **Path of the Enforcer**
+*“Obey, or I’ll make you.”*
+
+#### **Features & Playstyle**
+- Specializes in **brutal takedowns, intimidation, and subduing targets**.
+- Rage is a **cold, calculated enforcement tool**, rather than uncontrolled fury.
+- **Often hired by corporations, gangs, or debt collectors** to ensure obedience.
+
+#### **Subclass Abilities**
+| Level | Feature |
+|-------|---------|
+| 3rd | **Tactical Brutality** – Gain advantage on Intimidation checks, and your rage allows you to grapple and shove creatures more effectively. |
+| 6th | **Corporate Authority** – While raging, you can ignore non-magical difficult terrain, and creatures you reduce to 0 HP fall unconscious instead of dying. |
+| 10th | **Crowd Control** – When you hit a creature with a melee attack while raging, you can force another enemy within 10 feet to make a Wisdom saving throw or be frightened of you for 1 round. |
+| 14th | **Unstoppable Enforcer** – You can use your reaction to halve incoming bludgeoning, piercing, or slashing damage. Your rage now prevents you from being charmed or frightened. |
+
+---
+
+### **Path of the Berserk Machine**
+*“Override protocols engaged. Excessive force authorized.”*
+
+#### **Features & Playstyle**
+- **Cybernetic enhancements activate during rage**, boosting speed, durability, and combat efficiency.
+- Risk of **glitches, overclocking failures, or system errors** during prolonged battle.
+- Often **ex-military, escaped test subjects, or corporate black ops agents**.
+
+#### **Subclass Abilities**
+| Level | Feature |
+|-------|---------|
+| 3rd | **Overclocked Reflexes** – Gain a +10 ft. bonus to movement and advantage on Dexterity saving throws while raging. |
+| 6th | **Synthetic Adrenaline** – When you reduce a creature to 0 HP, you regain temporary HP equal to your Constitution modifier + your barbarian level. |
+| 10th | **Combat HUD** – Gain blindsight 10 feet while raging, and once per long rest, you can automatically reroll an attack roll, ability check, or saving throw. |
+| 14th | **System Override** – You can push your cybernetics past their limits, doubling your Strength score for 1 minute. When this ends, you suffer 2 levels of exhaustion. |
+
+### **Path of the Hollowed**
+*“I survived The Emergence. But I didn’t come back normal.”*
+
+#### **Features & Playstyle**
+- Exposure to **anomalies and unstable energies** has permanently altered you.
+- Your rage causes **flickering distortions, spatial warping, or unnatural resilience**.
+- Some fear that **you are no longer entirely human**.
+\page
+
+#### **Subclass Abilities**
+| Level | Feature |
+|-------|---------|
+| 3rd | **Flickering Form** – While raging, you have a 20% chance each round to blur, causing attacks against you to have disadvantage. |
+| 6th | **Warped Resilience** – Gain resistance to force damage, and when you take psychic damage, roll 1d6 to reduce the damage taken. |
+| 10th | **Temporal Echo** – Once per long rest, when you drop to 0 HP, you rewind time by 6 seconds, restoring you to half your hit point maximum instead. |
+| 14th | **Unstable Phase** – While raging, you can move through creatures and objects as if they were difficult terrain. If you end your turn inside an object, you take 4d10 force damage. |
+
+
+### **Path of the Blood Debt**
+*“They took everything from me. Now I take it back in blood.”*
+
+#### **Features & Playstyle**
+- **Fury fueled by personal loss, revenge, or unpaid debts**.
+- The closer to death you are, the **stronger and more relentless** you become.
+- Common among **gang enforcers, pit fighters, and mercenary warlords**.
+
+#### **Subclass Abilities**
+| Level | Feature |
+|-------|---------|
+| 3rd | **Bloodied Fury** – When you are below half your hit points, your melee attacks deal additional damage equal to your Constitution modifier. |
+| 6th | **Undying Wrath** – When reduced to 0 HP, you can make one final attack before falling unconscious. Once per long rest, you can instead drop to 1 HP instead of 0. |
+| 10th | **Retribution Strike** – When an enemy reduces one of your allies to 0 HP within 30 feet, you can move up to your speed and make an attack against that enemy as a reaction. |
+| 14th | **Relentless Vendetta** – If you have taken damage in the last round, your attacks gain advantage against the creature that harmed you. Additionally, when you drop an enemy to 0 HP, you can immediately move and attack another target. |
+
+---
+
+### **Path of the Rabid**
+*"It starts with a bite. It ends with the world in red."*
+
+#### **Features & Playstyle**
+- **Rage manifests as an uncontrollable, infectious frenzy.**
+- Attacks become **feral**, spreading **madness and panic**.
+- Common among **quarantined survivors, failed experiments, and berserk cultists.**
+
+#### **Subclass Abilities**
+| Level | Feature |
+|-------|---------|
+| 3rd | **Feral Surge** – When you enter a rage, you must immediately make an unarmed attack (bite, claw, or fist). If it hits, the target takes necrotic damage equal to your Constitution modifier. |
+| 6th | **Contagious Fury** – When you reduce a creature to 0 HP, they convulse violently, forcing an adjacent enemy to make a Wisdom saving throw or enter a temporary rage, attacking their nearest ally. |
+| 10th | **Hunger Unleashed** – While raging, when you reduce a creature to 0 HP, you gain temporary HP equal to their Constitution score. You can now rage even if you are at 0 HP—death saving throws only occur after your rage ends. |
+| 14th | **Endless Epidemic** – Once per long rest, when reduced to 0 HP, you instead stay active for 1 minute, ignoring all damage and making attacks with advantage. At the end of this duration, you drop to 1 HP and gain one level of exhaustion. |
+
+---
+
+### **Path of the Riot**
+*"The city burns, and I’m just getting started."*
+
+#### **Features & Playstyle**
+- Thrives in **violent uprisings, urban destruction, and gang warfare**.
+- **Improvised weapons and street fighting** define its combat style.
+- Common among **revolutionaries, anarchists, and riot enforcers**.
+
+#### **Subclass Abilities**
+| Level | Feature |
+|-------|---------|
+| 3rd | **Street Fighter** – Gain proficiency with improvised weapons (bottles, chairs, bricks). While raging, you gain advantage on attack rolls against armored opponents. |
+| 6th | **Fury of the Crowd** – When at least two creatures (allies or enemies) are within 10 feet of you, you can use your reaction to make an additional attack. If an ally is knocked prone, you can retaliate immediately. |
+| 10th | **Break the Chains** – You can smash through walls, doors, and barricades as if they were difficult terrain. You gain advantage on Strength checks to escape grapples and restraints. |
+| 14th | **Final Stand** – Once per long rest, if you drop to 0 HP while surrounded by three or more enemies, you immediately regain half your HP and rage again. Your rage lasts until all enemies within 30 feet are defeated or fleeing. |
+
+---
+
+\page
+### **Path of the Revenant**
+*"I already died once. I’m not making that mistake again."*
+
+#### **Features & Playstyle**
+- **Refuses to die, fueled by supernatural endurance.**
+- Rage enhances **resistance, retaliation, and undying will.**
+- Common among **survivors of failed executions, undead berserkers, and lost souls.**
+
+#### **Subclass Abilities**
+| Level | Feature |
+|-------|---------|
+| 3rd | **Undying Rage** – If you fall below half HP while raging, you gain resistance to all damage until your rage ends. If reduced to 0 HP, you can make a Constitution saving throw (DC 10 + half the damage taken) to remain at 1 HP. |
+| 6th | **Flesh of the Dead** – You no longer suffer penalties from exhaustion. You are immune to disease, being frightened, and being paralyzed. |
+| 10th | **Revenant’s Retaliation** – When you take damage while raging, your attacker takes psychic damage equal to your Barbarian level. If an enemy reduces you to 0 HP, you may make a single melee attack against them before falling. |
+| 14th | **Deathless Charge** – Once per long rest, when reduced to 0 HP, you instead regain half your HP and immediately take your turn again. For the next minute, you cannot be knocked unconscious unless reduced to negative HP equal to your max HP. |
+
+---
+
+### **Path of the Inferno**
+*"Some men just want to watch the world burn. I’m one of them."*
+
+#### **Features & Playstyle**
+- **Rage manifests as pure fire**, burning enemies and fueling destruction.
+- Gains **flame-based resilience and devastating fire attacks**.
+- Common among **pyromaniacs, industrial saboteurs, and zealots of destruction.**
+
+#### **Subclass Abilities**
+| Level | Feature |
+|-------|---------|
+| 3rd | **Burning Blood** – While raging, any creature that strikes you in melee takes fire damage equal to your Strength modifier. If you take fire damage, you heal half that amount instead. |
+| 6th | **Fury of the Blaze** – When you reduce a creature to 0 HP, they erupt in flames, dealing 2d6 fire damage to all enemies within 10 feet. Fire does not harm your equipment or clothing. |
+| 10th | **Ash and Ruin** – You can walk through fire and hazardous environments without penalty. If an enemy is on fire, your attacks automatically deal extra fire damage equal to your Barbarian level. |
+| 14th | **Final Ember** – Once per long rest, you may ignite yourself into a living inferno. Enemies within 5 feet take 2d8 fire damage each round. If reduced to 0 HP, you explode, dealing 4d10 fire damage in a 30-foot radius. |
+
+
+---
+### **Path of the Scourge**
+*"I am not here to fight. I am here to punish."*
+
+#### **Features & Playstyle**
+- **Specializes in punishing enemies with unavoidable suffering.**
+- Rage is fueled by **revenge, interrogation, or enforcing pain.**
+- Common among **mercenary executioners, torturers, and prison enforcers.**
+
+#### **Subclass Abilities**
+| Level | Feature |
+|-------|---------|
+| 3rd | **Marked for Pain** – When you hit an enemy, you can mark them for suffering. Marked creatures take additional necrotic damage equal to your Rage bonus and cannot regain HP until your rage ends. |
+| 6th | **Punishment in Blood** – When a marked enemy takes damage, you can use your reaction to force them to make a Constitution saving throw (DC 8 + your proficiency + Strength modifier) or take additional necrotic damage. |
+| 10th | **Chain of Suffering** – If you reduce a marked enemy to 0 HP, you may immediately mark another enemy within 10 feet as a free action. If reduced to half HP, your rage extends by 1 minute. |
+| 14th | **The Final Judgment** – Once per long rest, you unleash an aura of punishment. Enemies within 30 feet have disadvantage on saving throws against fear and necrotic damage. Marked enemies take double your Rage damage bonus. If you reduce an enemy to 0 HP, their body is reduced to ash and cannot be revived except by a 9th-level spell. |
+
+\page
+
+## **Multiclassing**  
+If your campaign allows multiclassing, use the following rules for a **Barbarian** multiclass character.  
+
+### **Ability Score Minimums**  
+- Strength 13  
+
+### **Proficiencies Gained**  
+- Light armor, medium armor, shields, simple weapons, martial weapons  
+
+---
+
+## **Quick Build**  
+You can make a **Barbarian** quickly by following these suggestions:  
+- Choose **Orc or Human** for a strong thematic fit.  
+- Pick the **Criminal Enforcer** or **Gladiator** background.  
+- Prioritize **Strength and Constitution**.  
+- Take a two-handed melee weapon and light armor for maximum efficiency.  
+\page

@@ -1,0 +1,761 @@
+```metadata
+title: Ashen Vault - Vestigium Feats
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+.page .timeline.vertical {
+	--resolution: 1px;
+	--w: calc((var(--end) - var(--start, 0))*var(--resolution));
+	--text: "hello";
+	counter-reset: start var(--start, 0) end var(--end);
+
+	display: block;
+	position: relative;
+	width: 10px;
+	height: var(--w, 500px);
+	background-image: linear-gradient(90deg, var(--borderColor, #c0ad6a) 0%, var(--borderColor, #c0ad6a) 2px, var(--lineColor, white)3px, var(--lineColor, white) 7px, var(--borderColor, #c0ad6a) 7px, var(--borderColor, #c0ad6a) 100%);
+	background-size: 100% 100%;
+	margin-block: 50px;
+	margin-left: 150px;
+
+	&.wide {
+		margin-inline: auto;
+	}
+
+	&:before,
+	&:after {
+		display: block;
+		position: absolute;
+		left: 50%;
+		width: max-content;
+		height: 1em;
+		padding: 0.3em;
+		background: var(--lineColor, white);
+		border: 3px solid var(--borderColor, #c0ad6a);
+		border-radius: 100px;
+		font-weight: 900;
+		z-index: -1;
+	}
+
+	&:before {
+		top: 0;
+		translate: -50% calc(-100% + 2.5px);
+		content: var(--unit, ' ...');
+	}
+
+	&:after {
+		top: unset;
+		bottom: 0;
+		translate: -50% calc(100% - 3.3px);
+		content: var(--unit, ' Current Day');
+	}
+
+	&.onlyStart:after {
+		display: none;
+	}
+
+	&.onlyEnd:before {
+		display: none;
+	}
+
+	& p:has(.event) {
+		line-height: unset;
+	}
+
+	.event {
+
+		--r: 0.5em;
+		/* the radius */
+		--t: 1.5em;
+		/* the size of the tail */
+
+		max-width: 370px;
+		padding: 0.3em 2em;
+		border-inline: var(--t) solid #0000;
+		border-radius: calc(var(--r) + var(--t))/var(--r);
+		mask:
+			radial-gradient(100% 100% at var(--_p) 0, #0000 99%, #000 102%) var(--_p) 100%/var(--t) var(--t) no-repeat,
+			linear-gradient(#000 0 0) padding-box;
+		background: grey border-box;
+		color: #fff;
+
+		margin: 0;
+		position: absolute;
+		width: max-content;
+		height: max-content;
+		word-break: break-word;
+		top: calc((var(--date) - var(--start, 0) + var(--indent, 0) - 2)*var(--resolution));
+		left: 15px;
+		translate: 0 -0.5em;
+		text-align: left;
+		z-index: -1;
+		font-weight: 100;
+    padding-left: 50px;
+    
+		&:before {
+			counter-reset: date var(--date);
+			display: block;
+			position: absolute;
+			top: 5px;
+			left: 10px;
+			translate: 0 0;
+			width: max-content;
+			height: 1em;
+			font-weight: 900;
+			color: white;
+			content: counter(date) ' | ' ;
+		}
+
+		&:not(.reverse) {
+			--_p: 0;
+			border-bottom-left-radius: 0 0;
+			place-self: start;
+
+		}
+
+		&.reverse {
+			--_p: 100%;
+      padding-right: 50px;
+			border-bottom-right-radius: 0 0;
+			place-self: end;
+
+			top: calc((var(--date) - var(--start, 0) + var(--indent, 0)  - 2)*var(--resolution));
+			left: unset;
+			right: 10px;
+			text-align: right;
+			bottom: unset;
+
+			&:before {
+				top: 5px;
+				left: unset;
+				right: 10px;
+        content: ' | ' counter(start);
+			}
+		}
+
+		& p+p {
+			text-indent: 0;
+		}
+
+	}
+
+	.range {
+		height: calc((var(--dateEnd) - var(--dateStart))*var(--resolution));
+		width: 6px;
+		position: absolute;
+		top: calc((var(--dateStart) - var(--start, 0))*var(--resolution));
+		left: 50%;
+		translate: -50% 0;
+
+
+		&.round {
+			border-radius: 100px;
+		}
+	}
+
+	.point {
+		height: 6px;
+		width: 6px;
+		position: absolute;
+		top: calc((var(--date) - var(--start, 0))*var(--resolution));
+		translate: -50%;
+		left: 50%;
+
+		&.round {
+			border-radius: 100px;
+		}
+
+	}
+
+	+.timeline {
+		margin-top: 130px;
+	}
+
+}
+
+
+/*=======--- Example CSS styling ---=======*/
+/* Any CSS here will apply to your document! */
+ @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+ @import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive);
+ :root {
+     --rotate: 20deg;
+     --left: unset;
+     --top: unset;
+     --correction: "correction";
+}
+/* Removes Drop Caps */
+ .page h1+p:first-letter {
+     all: unset;
+}
+ .page .footnote {
+     border-top: lightgray dotted 2px;
+     width: 80%;
+     color: gray;
+     bottom: 28px;
+}
+ .page .footnote > h1 {
+     background-color: transparent;
+     border: none;
+     font-size: 10px;
+     margin-bottom: 0px;
+}
+/* Removes Small-Caps in first line */
+ .page h1+p:first-line {
+     all: unset;
+}
+ .page {
+     background-color: #F8F8F8;
+    /* Light gray background */
+     background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+     background-size: 20px 20px;
+    /* Adjust spacing */
+     font-family: "Courier New", Courier, monospace;
+    /* Typewriter / Redacted Report */
+}
+ .page:after, .page:has(.frontCover):after, .page:has(.insideCover):after, .page:nth-child(even)::after {
+     all: unset;
+     content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+     transform-origin: top right;
+     transform: rotate(270deg);
+     white-space: nowrap;
+     position: absolute;
+     right: 1.5cm;
+     top: 0px;
+     color: gray;
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     width: 29cm;
+}
+ .page:before {
+     all: unset;
+     content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+     transform-origin: top left;
+     transform: rotate(90deg);
+     white-space: nowrap;
+     position: absolute;
+     left: 1.5cm;
+     top: 0px;
+     color: gray;
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     width: 29cm;
+}
+ .page:has(.frontCover) .logo {
+     top: 10cm;
+     right: 0;
+     left: 0;
+     filter: drop-shadow(0 0 .075cm black);
+}
+ .page:has(.insideCover) .logo {
+     top: 0.5cm;
+     right: 0;
+     left: 0;
+     filter: drop-shadow(0 0 .075cm black);
+}
+ .page:has(.insideCover) p, .page:has(.insideCover) ul {
+     margin-top: 20px;
+     text-align: left;
+}
+ .page:has(.insideCover) .logo>img {
+     height: 2cm;
+     width: 1.8cm;
+     opacity: 0.1;
+     filter:none;
+}
+ .page:has(.frontCover) .logo>img {
+     height: 10cm;
+     width: 9cm;
+     opacity: 0.1;
+     filter:none;
+}
+ .page h1 {
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size: 24px;
+     color: #2C2C2C;
+    /* Vault Black */
+     background-color: #EDEDED;
+    /* Subtle Header Background */
+     padding: 5px;
+     border-bottom: 3px solid #2C2C2C;
+    /* Strong Bureaucratic Divider */
+}
+ .page:has(.insideCover) h1, .page:has(.frontCover) h1, .page:has(.partCover) h1 {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size: 24px;
+     background-color: #EDEDED;
+    /* Subtle Header Background */
+     color: #2C2C2C;
+    /* Vault Black */
+     padding: 5px;
+     border-bottom: 0 
+}
+ .page:has(.frontCover) h1 {
+     -webkit-text-stroke: 0 
+}
+ .page:has(.insideCover) h1 {
+     background-image: linear-gradient(45deg, #f7f7f7 25%, #dbdbdb 25%, #dbdbdb 50%, #f7f7f7 50%, #f7f7f7 75%, #dbdbdb 75%, #dbdbdb 100%);
+     background-size: 14.14px 14.14px;
+}
+ .page:has(.insideCover) .footnote, .page:has(.frontCover) .footnote, .page:has(.partCover) .footnote {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 15px;
+     margin-top: 40px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+     -webkit-text-stroke: 0;
+     text-align: left;
+}
+ .block .footnote {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 20px;
+     margin-top: 40px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+}
+ .page h2 {
+     font-family: "Oswald", sans-serif;
+     text-transform: uppercase;
+     font-size: 20px;
+     color: #2C2C2C;
+     border-bottom: 2px solid #8F8F8F;
+}
+ .page:has(.insideCover) h2, .page:has(.frontCover) h2, .page:has(.partCover) h2 {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 20px;
+     margin-top: 20px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+     border-bottom: 0;
+}
+ .page:has(.frontCover) h2 {
+     -webkit-text-stroke: 0 
+}
+ .page h3, .page:has(.insideCover) h3, .page:has(.frontCover) h3, .page:has(.partCover) h3 {
+     font-family: "Courier New", Courier, monospace;
+     font-size: 18px;
+     color: #5A5A5A;
+     text-transform: uppercase;
+     border-bottom: gray dashed 1px;
+    ;
+}
+ .page h4, .page:has(.insideCover) h4, .page:has(.frontCover) h4, .page:has(.partCover) h4 {
+     font-family: "Courier New", Courier, monospace;
+     font-size: 16px;
+     color: #8F8F8F;
+}
+ .page .redacted {
+     background-color: black;
+     color: black;
+     padding: 2px 5px;
+     border-radius: 2px;
+}
+ .page:has(.frontCover) hr {
+     margin: 10px;
+     position: relative;
+     width: 100%;
+     height: 5mm;
+    /* Adjust height to match a real ruler */
+     background: repeating-linear-gradient( to right, transparent 0mm, transparent 0.8mm, black 0.8mm, black 1mm );
+     filter:none;
+}
+ .page:has(.insideCover) hr {
+     position: relative;
+     width: 100%;
+     height: 1mm;
+    /* Adjust height to match a real ruler */
+     background: repeating-linear-gradient( to right, transparent 0mm, transparent 0.8mm, black 0.8mm, black 1mm );
+}
+ page hr {
+     border: 2px dashed #8F8F8F;
+    /* Looks like an official document break */
+}
+ .page blockquote {
+     background-color: #EDEDED;
+     border-left: 4px solid #2C2C2C;
+     padding: 10px;
+     font-family: "Courier New", Courier, monospace;
+}
+/* --- Tables: Bureaucratic Report Style --- */
+ .page table {
+     border-collapse: collapse;
+     width: 100%;
+}
+ .page th {
+     background-color: #D6D6D6;
+    /* Ash Gray */
+     color: #2C2C2C;
+    /* Vault Black */
+     padding: 8px;
+     border-bottom: 3px solid #8F8F8F;
+    /* Stronger Border */
+     text-transform: uppercase;
+}
+ .page td {
+     background-color: #F8F8F8;
+    /* Paper White */
+     color: #5A5A5A;
+    /* Charcoal Gray */
+     padding: 8px;
+     border-bottom: 1px solid #BFBFBF;
+    /* Soft Grid */
+}
+/* --- Links: Subtle and Official-Looking --- */
+ .page a {
+     color: #2C2C2C;
+     text-decoration: none;
+     border-bottom: 1px dashed #8F8F8F;
+}
+ .page a:hover {
+     color: #5A5A5A;
+     border-bottom: 1px solid #5A5A5A;
+}
+ .post-it {
+     left: var(--left);
+     top: var(--top);
+     transform: rotate(var(--rotate));
+     max-width:250px;
+     max-height:240px;
+     width:250px;
+     height:240px;
+     position:relative;
+     background:#ffa;
+     overflow:hidden;
+     margin:30px auto;
+     padding:20px;
+     border-radius:0 0 0 30px/45px;
+     box-shadow: inset 0 -40px 40px rgba(0,0,0,0.05), inset 0 25px 10px rgba(0,0,0,0.07), 0 5px 6px 5px rgba(0,0,0,0.2);
+     font-family: 'Cedarville Cursive', cursive;
+     line-height:1.7em;
+     font-size:19px;
+     -webkit-mask-image: url(data:image/png;
+    base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+     color:#130d6b;
+}
+ .post-it:before {
+     content:"";
+     position:absolute;
+     width:20px;
+     height:25px;
+     background:#ffa;
+     box-shadow: 3px -2px 10px rgba(0,0,0,0.2), inset 15px -15px 15px rgba(0,0,0,0.3);
+     left:0;
+     bottom:0;
+     z-index:2;
+     transform:skewX(25deg);
+}
+ .smudge {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     filter: blur(1px) contrast(110%);
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/5d4334616f20bd1d1f059f6007892650.png') no-repeat center;
+     background-size: contain;
+
+
+}
+
+    .smudge:before {
+    position: absolute;
+    content:'';
+    left: 0;
+    top: 0;
+     width: 10cm;
+     height: 10cm;
+   
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 19%, rgba(255,255,255,0) 52%);
+background-blend-mode: lighten
+
+    
+    }
+
+@media print {
+
+}
+
+
+ .coffee-stain {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     filter: blur(1px) contrast(110%);
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f74119a30ba73c9c5b3a7cc1aa9d7d42.png') no-repeat center;
+     background-size: contain;
+     mix-blend-mode: multiply;
+}
+ 
+ 
+.corrected {
+    position: relative;
+    text-decoration: line-through;
+    color: black;
+}
+
+.corrected::after {
+    content: var(--correction, "Default Text");;
+    font-size: 12px;
+    color: #0F3D75;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+       font-family: 'Cedarville Cursive', cursive;
+   
+    -webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+}
+
+
+.paperclip {
+ 
+    position: absolute;
+    display-block;
+    top: -10px;
+    left: var(--left, 60);
+    width: 50px;
+    height: 150px;
+    transform: rotate(-15deg); /* Slight tilt for realism */
+    opacity: 0.8; /* Slight transparency */
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/421f492b3660fca7d119964aff1f24db.png') no-repeat center;
+    background-size: contain;
+}
+
+ .polaroid {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     max-width:10cm;
+     max-height: 10cm;
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png') no-repeat center;
+    background-size: contain;
+         transform-origin: top left;
+}
+
+.polaroid > p > img {
+  margin-left: 1.26cm;
+  margin-top: 0.74cm;
+  height: 7.4cm;
+  width: 7.5cm;
+  object-fit: cover;
+  mix-blend-mode: screen;
+}
+
+
+.doodle.dog1 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/6d860afef532110ae76b559ace75dfa7.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.dog2 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/e2820894e1c1c58cb9d710e5522858fc.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.cat1 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/b43f55649f7f416de20109ce0f3b6722.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.cat2 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/898133d59ab4ce7d036283cf075620e2.png') no-repeat center;
+    background-size: contain;
+}
+
+.doodle {
+position: relative;
+   top: var(--top);
+   left: var(--left);
+    display: block;
+    width: 150px;
+    height: 150px;
+     -webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-repeat: repeat;
+}
+
+
+.fading {
+    background: linear-gradient(to bottom, black 10%, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.4) 70%, rgba(0, 0, 0, 0.1) 90%, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+```
+
+{{frontCover}}
+
+{{logo ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png)}}
+
+# Feats
+___
+
+
+
+\page
+{{insideCover}}
+
+# CONFIDENTIAL  
+## ⚠ A.S.T.R.A.L.⚠  
+## EXPANDED CONTENT DOSSIER   
+___  
+
+This document is the property of **A.S.T.R.A.L.** and classified under **Operational Directive 42-ZR**. Unauthorized access violates the **Containment & Compliance Mandate (C.C.M. §21-67)** and triggers countermeasures.  
+
+By accessing this file, you acknowledge:  
+- You have **clearance** for classified **gameplay modifications**.  
+- **Monitoring is active** under **Oversight Mandate 19-K**.  
+- **Unauthorized modifications** activate **Directive Theta**.  
+- Disclosure of restricted mechanics **triggers data sanitization (Directive 88-P)**.  
+
+This dossier contains **expanded conditions, feats, and backgrounds** for **A.S.T.R.A.L.-regulated scenarios**. Updates remain under **Oversight Bureau (O.B.) review**.  
+
+If you are not the intended recipient, cease interaction and report to **Compliance Oversight Bureau (C.O.B.)** via [C.O.B.//DIRECT-LINK-SEC/672-88]. Noncompliance escalates to **Containment Protocol Omega-7**.  
+
+{{logo ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png)}}  
+
+### **Directive 12-B – Enhanced Conditions**  
+- **Persistent:** Effects escalate with repeated exposure.  
+- **Volatile:** Changes based on environmental influence.  
+- **Latent:** Triggers under specific conditions.  
+
+### **Directive 14-G – Feat Modifications**  
+- **Restricted:** Requires **Strategic Oversight (S.O.)** approval.  
+- **Degradation:** Effects weaken with repeated use.  
+- **Resonance:** Interacts unpredictably with conditions.  
+
+### **Directive 16-D – Background Adjustments**  
+- **Adaptive Expertise:** Temporary skill boosts under strain.  
+- **Paradox Traces:** Residual effects altering memory.  
+- **Containment Overrides:** Traits shift in containment zones.  
+
+**A.S.T.R.A.L. – PRESERVING ORDER WITHIN UNSTABLE SYSTEMS**  
+**Everything is under observation.**  
+
+
+{{pageNumber,auto}}
+\page
+
+
+
+# **Vestigium Expanded Conditions**
+In addition to the standard conditions in 5e (such as **Charmed, Restrained, and Incapacitated**), **Vestigium** introduces **new conditions** reflecting **bureaucratic enforcement, surveillance, reality distortions, and eldritch mutations.**  
+
+These conditions add **unique roleplay opportunities, strategic interactions, and thematic horror elements** of **contractual magic, compliance, and anomalies.**
+
+---
+
+### **Under Contract**
+A creature is **magically or bureaucratically bound** to an agreement, contract, or supernatural force.  
+- The creature **cannot willingly violate the contract** unless they succeed on a **Wisdom saving throw (DC varies by effect).**  
+- If the contract is **violated**, the creature suffers a **penalty**, such as **psychic damage, exhaustion, or forced compliance.**  
+- A creature attempting to escape the contract **must provide legal justification, magical authority, or exploit a loophole, requiring a Charisma (Deception) or Intelligence (Investigation) check (DC 15).**  
+- **This condition is similar to the Charmed condition**, except that it **compels specific actions** rather than simply altering disposition.
+
+---
+
+### **Under Surveillance**
+A creature is **being actively monitored by an unseen force**, such as **corporate security, eldritch entities, or an automated oversight system.**  
+- The creature has **disadvantage on Stealth checks**, as they are being tracked.  
+- Their **location is known** to the surveillance entity at all times.  
+- If the creature attempts to break a monitored rule, they must make a **Charisma saving throw (DC 15)** or **trigger a recorded infraction** leading to future consequences.  
+- If the creature **becomes Erased or Unstable**, they are **removed from surveillance.**  
+- This condition **does not restrict actions** but makes evasion or secrecy **more difficult.**  
+
+---
+
+### **Compelled**
+A creature has been **subtly influenced into following a directive** but **believes it is acting of its own free will.**  
+- The creature **rationalizes their compliance** instead of resisting.  
+- If given an order that **contradicts their core beliefs**, they may attempt a **Wisdom saving throw (DC varies by effect).**  
+- If another creature **openly questions their actions**, the target makes a **DC 15 Intelligence (Insight) check** to recognize the manipulation.  
+- If this condition **persists for more than 24 hours**, the creature’s personality **begins to permanently shift** to align with the imposed directive.  
+- This condition is similar to **Charmed**, but it **forces a specific behavioral change** instead of improving social interactions.
+
+---
+
+### **Delayed**
+A creature’s **actions require external authorization to proceed.**  
+- When taking an action, the creature **must roll a d20**:  
+  - **11 or higher** – The action **succeeds.**  
+  - **10 or lower** – The action **fails** and cannot be attempted again until their next turn.  
+- If a **Watched** creature fails this roll, their action is **automatically denied** by the surveillance entity.  
+- If the creature **attempts the same action multiple times**, they must make a **Charisma (Deception) check (DC 15)** to justify the request.  
+- A creature that is **Erased** is not registered in any system, meaning they **ignore this condition.**  
+- **This condition is similar to Restrained**, except it **affects actions instead of movement.**
+
+{{pageNumber,auto}}
+\page
+
+### **Unstable**
+A creature’s **existence is fluctuating**, causing their actions to be **unpredictable.**  
+- At the start of each turn, the creature **rolls a d4**:  
+  - **1:** They **lose their turn**, as if momentarily erased.  
+  - **2-3:** They act **normally**.  
+  - **4:** They **act twice**, as reality overcompensates for lost time.  
+- If **three or more creatures in the same area** are **Unstable**, reality **begins to glitch, creating environmental anomalies.**  
+- If the creature **is observed closely (Perception DC 15),** they appear **flickering or slightly out of sync with the world.**  
+- This condition has similarities to **Incapacitated**, but instead of complete loss of actions, it introduces **random instability.**  
+
+
+
+### **Erased**
+A creature is **slowly fading from reality**—their presence **is no longer acknowledged.**  
+- Initially, **weak connections fade**—their name is harder to recall, documents mentioning them become illegible.  
+- The creature **cannot be healed**, as magic fails to register them as a valid target.  
+- Any attempt to **call for help, persuade, or socially interact** automatically fails unless the listener succeeds on a **DC 15 Intelligence check**.  
+- If this condition **lasts for 24 hours**, the creature **becomes incorporeal**, existing as a memory rather than a physical entity.  
+- The creature may **attempt a DC 15 Wisdom save** to **anchor themselves back into reality** if they **see themselves in a mirror or hear their own name spoken.**  
+- This condition is similar to **Invisible**, but instead of being unseen, the creature is **simply forgotten.**  
+
+---
+
+### **Altered**
+A creature’s **thoughts, memories, and personality** have been forcibly **rewritten** by **external forces.**  
+- The creature **forgets a key piece of information**, chosen by the **GM or spell effect.**  
+- The creature **believes a falsehood as absolute truth** and cannot be convinced otherwise.  
+- If another creature **challenges their memory**, the affected creature must pass a **DC 15 Wisdom saving throw** or become **hostile toward the challenger.**  
+- If this condition persists for more than **24 hours**, the alteration **becomes permanent**, and the creature must undergo a major psychological event to undo it.
+
+---
+
+### **Displaced**
+A creature **exists in multiple places at once**, but only one version is real.  
+- At the start of their turn, they must **choose a location within 30 feet**—they are now **standing there instead** of their original position.  
+- If attacked, they **roll a d6**:  
+  - **1-3:** The attack **hits their real body**.  
+  - **4-6:** The attack **hits an afterimage**, causing **1d6 psychic damage** instead.  
+- The creature **cannot tell which version of themselves is real** unless they succeed on a **DC 18 Intelligence check**.  
+
+---
+
+### **Mutated**
+A creature’s **body refuses to maintain a stable form**, changing unpredictably.  
+- Each time the creature takes damage, **roll a d6**:  
+  - **1-2:** They grow an **extra limb, eye, or mouth** that functions but feels unnatural.  
+  - **3-4:** They **lose** a minor body feature (e.g., fingernails, a nostril, or body hair).  
+  - **5-6:** Their body **becomes semi-fluid**, granting **resistance to bludgeoning damage** but making them **vulnerable to slashing damage**.  
+- **After three mutations**, the creature must **pass a DC 15 Constitution saving throw** or the changes become **permanent**.  
+- **After five mutations**, the creature **ceases to be fully humanoid** and must be **cured through an anomaly reversal.**  
+
+{{pageNumber,auto}}

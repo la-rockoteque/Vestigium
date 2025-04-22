@@ -1,0 +1,964 @@
+```metadata
+title: Ashen Vault - Class Rogue
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+/*=======--- Example CSS styling ---=======*/
+/* Any CSS here will apply to your document! */
+@import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Oswald:wght@200..700&family=Permanent+Marker&display=swap);
+:root {
+    --rotate: 20deg;
+    --left: unset;
+    --top: unset;
+    --correction: "correction";
+    --source: "https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png";
+}
+
+
+.page:has(.frontCover) {
+    background-color: black;
+}
+
+.page:has(.frontCover) .coverBackground {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -1cm;
+    left: 0;
+    z-index: -1;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/1c2563f804862c38688abe3276173c0e.webp');
+    background-size: cover;
+    background-position: center;
+    mask-image: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 20%), rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: linear-gradient(270deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+.page:has(.frontCover) .coverImage {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -7cm;
+    left: 0;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/0a0b5e7e9496fd06deac901172f5455f.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.page:has(.frontCover) h1,
+.page:has(.frontCover) h2,
+.page:has(.frontCover) h3 {
+    border-bottom: unset;
+    -webkit-text-stroke: unset;
+    text-stroke: unset;
+    ;
+}
+
+.page:has(.frontCover) h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: White;
+    margin-top: 50px;
+    font-family: "Oswald", sans-serif;
+    background: none;
+}
+
+.page:has(.frontCover) h2 {
+    font-size: 2rem;
+    letter-spacing: 8.5px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.page:has(.frontCover) h3 {
+    margin-top: 10px;
+    text-decoration: underline overline #d1d1d1;
+}
+
+.page:has(.frontCover) .footnote {
+    font-size: 1.5rem;
+    color: #d1d1d1;
+    margin-top: 30px;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 2px gray;
+    ;
+    text-stroke: 2px gray;
+    text-align: right;
+}
+
+/* Removes Drop Caps */
+.page h1 + p:first-letter {
+    all: unset;
+}
+.page .footnote {
+    border-top: lightgray dotted 2px;
+    width: 80%;
+    color: gray;
+    bottom: 28px;
+}
+.page .footnote > h1 {
+    background-color: transparent;
+    border: none;
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+.inline-block.pageNumber {
+    font-size: 1cm;
+    color: black;
+}
+/* Removes Small-Caps in first line */
+.page h1 + p:first-line {
+    all: unset;
+}
+.page {
+    background-color: #f8f8f8;
+    /* Light gray background */
+    background-image: radial-gradient(
+        circle,
+        rgba(0, 0, 0, 0.1) 1px,
+        transparent 1px
+    );
+    background-size: 20px 20px;
+    /* Adjust spacing */
+    font-family: "Courier New", Courier, monospace;
+    /* Typewriter / Redacted Report */
+}
+
+.page:has(.preface) {
+    columns: 1;
+    column-span: all;
+    gap: 5px;
+    text-align: center;
+
+}
+
+
+.page:after,
+.page:has(.frontCover):after,
+.page:has(.preface):after,
+.page:has(.insideCover):after,
+.page:nth-child(even)::after {
+    all: unset;
+    content: "Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.";
+    transform-origin: top right;
+    transform: rotate(270deg);
+    white-space: nowrap;
+    position: absolute;
+    right: 1.5cm;
+    top: 0px;
+    color: gray;
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    width: 29cm;
+}
+.page:before {
+    all: unset;
+    content: "Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.";
+    transform-origin: top left;
+    transform: rotate(90deg);
+    white-space: nowrap;
+    position: absolute;
+    left: 1.5cm;
+    top: 0px;
+    color: gray;
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    width: 29cm;
+}
+.page:has(.preface) .logo {
+    top: 10cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 0.075cm black);
+}
+.page:has(.insideCover) .logo {
+    top: 0.5cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 0.075cm black);
+}
+.page:has(.insideCover) p,
+.page:has(.insideCover) ul {
+    margin-top: 20px;
+    text-align: left;
+}
+.page:has(.insideCover) .logo > img {
+    height: 2cm;
+    width: 1.8cm;
+    opacity: 0.1;
+    filter: none;
+}
+.page:has(.preface) .logo > img {
+    height: 10cm;
+    width: 9cm;
+    opacity: 0.1;
+    filter: none;
+}
+
+.page:has(.preface),
+.page:has(.insideCover) {
+    background: none;
+    background-color: #f8f8f8;
+}
+
+.coverpicture {
+    margin-top: 1.5cm;
+    max-width: 15cm;
+    max-height: 15cm;
+}
+
+.coverpicture > img {
+    max-width: 100%;
+    max-height: 100%;
+    mix-blend-mode: luminosity;
+}
+
+.page h1 {
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    color: #2c2c2c;
+    /* Vault Black */
+    background-color: #ededed;
+    /* Subtle Header Background */
+    padding: 5px;
+    border-bottom: 3px solid #2c2c2c;
+    /* Strong Bureaucratic Divider */
+}
+.page:has(.insideCover) h1,
+.page:has(.preface) h1,
+.page:has(.partCover) h1 {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    background-color: #ededed;
+    /* Subtle Header Background */
+    color: #2c2c2c;
+    /* Vault Black */
+    padding: 5px;
+    border-bottom: 0;
+}
+.page:has(.preface) h1 {
+    -webkit-text-stroke: 0;
+}
+.page:has(.insideCover) h1 {
+    background-image: linear-gradient(
+        45deg,
+        #f7f7f7 25%,
+        #dbdbdb 25%,
+        #dbdbdb 50%,
+        #f7f7f7 50%,
+        #f7f7f7 75%,
+        #dbdbdb 75%,
+        #dbdbdb 100%
+    );
+    background-size: 14.14px 14.14px;
+}
+.page:has(.insideCover) .footnote,
+.page:has(.preface) .footnote,
+.page:has(.partCover) .footnote {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+    -webkit-text-stroke: 0;
+    text-align: left;
+}
+.block .footnote {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+}
+.page h2 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #2c2c2c;
+    border-bottom: 2px solid #8f8f8f;
+}
+.page:has(.insideCover) h2,
+.page:has(.preface) h2,
+.page:has(.partCover) h2 {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+    border-bottom: 0;
+}
+.page:has(.preface) h2 {
+    -webkit-text-stroke: 0;
+}
+.page h3,
+.page:has(.insideCover) h3,
+.page:has(.preface) h3,
+.page:has(.partCover) h3 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    color: #5a5a5a;
+    text-transform: uppercase;
+    border-bottom: gray dashed 1px;
+}
+.page h4,
+.page:has(.insideCover) h4,
+.page:has(.preface) h4,
+.page:has(.partCover) h4 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    color: #8f8f8f;
+}
+.page .redacted {
+    background-color: black;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+.page:has(.preface) hr {
+    margin: 10px;
+    position: relative;
+    width: 100%;
+    height: 5mm;
+    /* Adjust height to match a real ruler */
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0mm,
+        transparent 0.8mm,
+        black 0.8mm,
+        black 1mm
+    );
+    filter: none;
+}
+.page:has(.insideCover) hr {
+    position: relative;
+    width: 100%;
+    height: 1mm;
+    /* Adjust height to match a real ruler */
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0mm,
+        transparent 0.8mm,
+        black 0.8mm,
+        black 1mm
+    );
+}
+page hr {
+    border: 2px dashed #8f8f8f;
+    /* Looks like an official document break */
+}
+.page blockquote {
+    background-color: #ededed;
+    border-left: 4px solid #2c2c2c;
+    padding: 10px;
+    font-family: "Courier New", Courier, monospace;
+}
+/* --- Tables: Bureaucratic Report Style --- */
+.page table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.page th {
+    background-color: #d6d6d6;
+    /* Ash Gray */
+    color: #2c2c2c;
+    /* Vault Black */
+    padding: 8px;
+    border-bottom: 3px solid #8f8f8f;
+    /* Stronger Border */
+    text-transform: uppercase;
+}
+.page td {
+    background-color: #f8f8f8;
+    /* Paper White */
+    color: #5a5a5a;
+    /* Charcoal Gray */
+    padding: 8px;
+    border-bottom: 1px solid #bfbfbf;
+    /* Soft Grid */
+}
+/* --- Links: Subtle and Official-Looking --- */
+.page a {
+    color: #2c2c2c;
+    text-decoration: none;
+    border-bottom: 1px dashed #8f8f8f;
+}
+.page a:hover {
+    color: #5a5a5a;
+    border-bottom: 1px solid #5a5a5a;
+}
+.post-it {
+    left: var(--left);
+    top: var(--top);
+    transform: rotate(var(--rotate));
+    max-width: 250px;
+    max-height: 240px;
+    width: 250px;
+    height: 240px;
+    position: relative;
+    background: #ffa;
+    overflow: hidden;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 0 0 0 30px/45px;
+    box-shadow: inset 0 -40px 40px rgba(0, 0, 0, 0.05),
+        inset 0 25px 10px rgba(0, 0, 0, 0.07), 0 5px 6px 5px rgba(0, 0, 0, 0.2);
+    font-family: "Cedarville Cursive", cursive;
+    line-height: 1.7em;
+    font-size: 19px;
+    -webkit-mask-image: url(data:image/png;
+    base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+    color: #130d6b;
+}
+.post-it:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    background: #ffa;
+    box-shadow: 3px -2px 10px rgba(0, 0, 0, 0.2),
+        inset 15px -15px 15px rgba(0, 0, 0, 0.3);
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    transform: skewX(25deg);
+}
+.smudge {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/5d4334616f20bd1d1f059f6007892650.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.smudge:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 10cm;
+    height: 10cm;
+
+    background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 1) 19%,
+        rgba(255, 255, 255, 0) 52%
+    );
+    background-blend-mode: lighten;
+}
+
+.coffee-stain {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f74119a30ba73c9c5b3a7cc1aa9d7d42.png")
+        no-repeat center;
+    background-size: contain;
+    mix-blend-mode: multiply;
+}
+
+.corrected {
+    position: relative;
+    text-decoration: line-through;
+    color: black;
+}
+
+.corrected::after {
+    content: var(--correction, "Default Text");
+    font-size: 12px;
+    color: #0f3d75;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    font-family: "Cedarville Cursive", cursive;
+
+    -webkit-mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+}
+
+.paperclip {
+    position: absolute;
+    display: block;
+    top: -10px;
+    left: var(--left, 60);
+    width: 50px;
+    height: 150px;
+    transform: rotate(-15deg); /* Slight tilt for realism */
+    opacity: 0.8; /* Slight transparency */
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/421f492b3660fca7d119964aff1f24db.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.polaroid {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    max-width: 10cm;
+    max-height: 10cm;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png")
+        no-repeat center;
+    background-size: contain;
+    transform-origin: top left;
+}
+
+.polaroid > p > img {
+    margin-left: 1.26cm;
+    margin-top: 0.74cm;
+    height: 7.4cm;
+    width: 7.5cm;
+    object-fit: cover;
+    mix-blend-mode: screen;
+}
+
+.doodle.dog1 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/6d860afef532110ae76b559ace75dfa7.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.dog2 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/e2820894e1c1c58cb9d710e5522858fc.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.cat1 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/b43f55649f7f416de20109ce0f3b6722.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.cat2 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/898133d59ab4ce7d036283cf075620e2.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.doodle {
+    position: relative;
+    top: var(--top);
+    left: var(--left);
+    display: block;
+    width: 150px;
+    height: 150px;
+    -webkit-mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-repeat: repeat;
+}
+
+.fading {
+    background: linear-gradient(
+        to bottom,
+        black 10%,
+        rgba(0, 0, 0, 0.8) 30%,
+        rgba(0, 0, 0, 0.6) 50%,
+        rgba(0, 0, 0, 0.4) 70%,
+        rgba(0, 0, 0, 0.1) 90%,
+        transparent
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+```
+
+{{frontCover}}
+{{coverBackground}}
+## Class
+# Rogue
+## Urban Predator 
+
+{{footnote 
+#### A.S.T.R.A.L Training Material
+}}
+\page
+
+{{insideCover}}
+
+# CONFIDENTIAL  
+## ⚠ A.S.T.R.A.L.⚠  
+## ANTHROPOLOGICAL SURVEY DIVISION  
+___  
+
+This document is the sole property of the **Agency for Surveillance, Tracking, and Regulation of Anomalous Landscapes (A.S.T.R.A.L.)** and is classified under **Biometric Analysis Protocol O-92**. Unauthorized access, duplication, or distribution constitutes a direct violation of the **Anomalous Contingency Act (A.C.A. §17-42)** and will trigger immediate countermeasures.  
+
+By accessing this file, you acknowledge:  
+- You have the **necessary clearance** to review classified **biological intelligence**.  
+- You are subject to **continuous biometric and cognitive monitoring** under **Anthropological Compliance Mandate 24-B**.  
+- Any **unauthorized replication or dissemination** will result in the activation of **Containment Directive Theta**, authorizing full intervention by **Bio-Security Division Kappa**.  
+- Disclosure of restricted genetic analysis will **invoke subject-specific erasure protocols**, up to and including **cognitive redaction under Directive 88-P**.  
+
+This document provides **ongoing surveillance data, species profiling, and genetic deviation reports** concerning the recognized **sentient populations of Concord City and its surrounding territories**. Due to **unresolved discrepancies regarding human emergence events**, data integrity remains under **constant review by the Oversight Bureau (O.B.)**.  
+
+If you are not the intended recipient, cease all interaction immediately and report this breach to **A.S.T.R.A.L. Oversight Bureau (O.B.)** via secure terminal [O.B.//DIRECT-LINK-SEC/347-99]. Failure to comply will escalate to **Genetic Contingency Response Protocol Cobalt-7**.  
+
+### **Vorraki – Species Designation: Homo Voracis**  
+**Summary:** The **Vorraki** are **genetically optimized for high-impact physicality, rapid muscular repair, and combat-oriented reflex enhancement**. Their **distinct genetic subtypes** exhibit **adaptive resilience**, ensuring dominance across a wide range of physically demanding environments. While traditionally relegated to **security, enforcement, and paramilitary operations**, emerging Vorraki power structures suggest an **ongoing transition toward economic and political self-sufficiency**, particularly in **black-market security, logistics, and organized paramilitary enterprises**. **Containment is not advised—negotiation remains the recommended control mechanism.**  
+
+**A.S.T.R.A.L. – DEFENDING REALITY AGAINST GENETIC UNCERTAINTY**  
+**Everything is under observation.**  
+
+{{pageNumber,auto}}
+\page
+## **Rogue**  
+*Corporate Spy | Paranormal Infiltrator | Master Thief | Shadow Operative*  
+
+> *"Loyalty is expensive. Secrets are priceless."*  
+> — **Cipher-9, Obscura**  
+
+### **Thematic Overview**  
+Rogues in Concord City are masters of deception, infiltration, and precision. They **thrive in the underbelly of society, within corporate espionage divisions, or as lone operatives playing every side**. Some use **technology to hack security grids**, others rely on **paranormal attunement to become ghosts in the system**. Whether working for crime syndicates, corporations, or themselves, rogues shape the flow of information and power.
+- Rogues are **stealthy operatives, hackers, thieves, and assassins**.  
+- Some work as **black-market data couriers, corporate spies, or political saboteurs**.  
+- Others use **paranormal talents to vanish, manipulate shadows, or bend probability**.  
+- Every rogue has a **code**, whether it's personal survival, anarchy, or corporate loyalty.  
+
+### **Creating a Rogue**  
+- Do you steal for wealth, knowledge, or survival?  
+- Are you a trained infiltrator, or did you learn the trade on the streets?  
+- Who do you serve—yourself, a faction, or something unknown?  
+
+---
+
+## **Class Features**  
+As a **Rogue**, you gain the following class features.
+
+### **Hit Points**  
+- **Hit Dice:** *1d8 per Rogue level*  
+- **Hit Points at 1st Level:** *8 + Constitution modifier*  
+- **Hit Points at Higher Levels:** *1d8 (or 5) + Constitution modifier per level after 1st*  
+
+### **Proficiencies**  
+- **Armor:** *Light armor*  
+- **Weapons:** *Simple weapons, hand crossbows, longswords, rapiers, short swords*  
+- **Tools:** *Thieves’ tools, one other of your choice (hacker’s kit, forgery tools, etc.)*  
+- **Saving Throws:** *Dexterity, Intelligence*  
+- **Skills:** *Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Persuasion, Sleight of Hand, and Stealth*  
+
+### **Equipment**  
+You start with the following equipment, in addition to any granted by your background:  
+- *(a)* a silenced pistol and 10 rounds or *(b)* a pair of daggers  
+- *(a)* a stealth suit or *(b)* an urban tactical jacket  
+- *(a)* a set of lockpicks or *(b)* a hacking deck  
+- An encrypted communicator or a counterfeit ID  
+{{pageNumber,auto}}
+\page
+
+{{wide
+## **Class Table**  
+| Level | Proficiency Bonus | Features | Sneak Attack |  
+|:-:|:-:|:--|:-:|  
+| 1st | +2 | Expertise, Sneak Attack, Thieves’ Cant | 1d6 |  
+| 2nd | +2 | Cunning Action | 1d6 |  
+| 3rd | +2 | Roguish Archetype | 2d6 |  
+| 4th | +2 | Ability Score Improvement | 2d6 |  
+| 5th | +3 | Uncanny Dodge | 3d6 |  
+| 6th | +3 | Expertise | 3d6 |  
+| 7th | +3 | Evasion | 4d6 |  
+| 8th | +3 | Ability Score Improvement | 4d6 |  
+| 9th | +4 | Roguish Archetype Feature | 5d6 |  
+| 10th | +4 | Reliable Talent | 5d6 |  
+| 11th | +4 | Roguish Archetype Feature | 6d6 |  
+| 12th | +4 | Ability Score Improvement | 6d6 |  
+| 13th | +5 | Blindsense | 7d6 |  
+| 14th | +5 | Slippery Mind | 7d6 |  
+| 15th | +5 | Roguish Archetype Feature | 8d6 |  
+| 16th | +5 | Ability Score Improvement | 8d6 |  
+| 17th | +6 | Elusive | 9d6 |  
+| 18th | +6 | Roguish Archetype Feature | 9d6 |  
+| 19th | +6 | Ability Score Improvement | 10d6 |  
+| 20th | +6 | Stroke of Luck | 10d6 |  
+}}
+
+
+## **Class Abilities**  
+### **Sneak Attack (Level 1)**  
+You know how to exploit weaknesses in enemies. Once per turn, when you hit with an attack **while having advantage or when an ally is within 5 feet of the target**, you deal extra damage based on your **Sneak Attack dice**.
+
+## **Urban Agility (Parkour Movement)**  
+*"The city is my playground."*  
+
+At **2nd level**, your movement is **fluid and instinctive**, adapting to the urban environment.  
+
+### **Effects:**  
+- **Ignore difficult terrain** caused by **brick, cobblestone, rubble, broken tiles, warped wood, subway tiles, maintenance grating**.  
+- **Wall-Run (1/turn):** Run **up to 10 feet** up a **vertical surface**.  
+- **Vaulting:** Leap over obstacles **up to half movement speed** without an ability check.  
+- **Quick Climb:** Climbing **costs no extra movement** if at least one hand is free.  
+- **Fall Damage Reduction:** Reduce fall damage by **Rogue level × 3**.  
+- **Ledge Grab:** If falling near a surface, **DC 10 Dexterity (Acrobatics) check** to catch a ledge.  
+- **Auto-pass the first Dexterity save** against **collapsing terrain effects**.  
+
+## **Opportunist’s Strike (Terrain-Based Sneak Attack)**  
+*"Your footing is your downfall."*  
+
+At **3rd level**, instead of relying on allies, you **exploit the environment** to land devastating attacks.  
+
+### **Effects:**  
+- If an enemy is **on unstable terrain**, your attack counts as **Sneak Attack**, even if they aren’t flanked.  
+- **Unstable Terrain includes:**  
+  - **Modified Terrain:** Broken tiles, warped wood, cracked glass floors, loose bricks, rusted panels, crumbling concrete.  
+  - **External Modifiers:** Ice, oil, blood, mud, ectoplasmic residue.  
+  - **Movement Situations:** Jumping, falling, or mid-air (forced movement counts). 
+{{pageNumber,auto}}
+\page
+## **Favored Terrain Styles (Specialization)**  
+*"I thrive where others struggle."*  
+
+At **3rd level**, you specialize in a specific **urban terrain type**, gaining unique benefits when navigating or fighting in those conditions.  
+
+### **Effects:**  
+- **At level 3,** choose **one** favored terrain type.  
+- **At level 9 & 13,** pick additional favored terrains.  
+
+| **Favored Terrain** | **Benefit** |
+|--------------------|------------|
+| **Rooftop Runner** | **+10 ft movement on rooftops, catwalks, and grating.** Auto-pass **first Dex save to avoid falling.** |
+| **Alley Ghost** | **Advantage on Stealth checks in alleys, slums, and ruined areas.** Gain **cover 1 round after hiding.** |
+| **Industrial Phantom** | **Ignore heat, smoke, and fog penalties in industrial areas.** Can **move through toxic clouds without disadvantage.** |
+| **Crowd Drifter** | **Move through occupied spaces without penalty.** If moving through a crowd, you are **untraceable until your next turn.** |
+| **Subway Stalker** | **Ignore difficult terrain in underground areas & sewers.** Can **dash through slippery surfaces (blood, oil, ice) without penalty.** |
+
+
+## **Adaptive Evasion (Replaces Uncanny Dodge)**  
+*"You can’t hit what isn’t there."*  
+
+At **5th level**, when threatened, you don’t just dodge—you **use the environment to slip away entirely**.  
+
+### **Effects:**  
+- When hit by an attack, you may **move up to 5 feet** in any direction to **avoid the attack completely**.  
+  - **At level 9,** this increases to **10 feet**.  
+- Must **move onto a valid terrain feature** (wall, ledge, railing, cover).  
+- **If moving into partial cover or out of sight**, gain **+2 AC until the start of your next turn**.  
+- **If standing on a Modified Terrain that breaks** (e.g., cracked glass or a rusted panel), you may **jump away instead of falling**.  
+- If hit by an **AoE attack**, you **must move out of the radius** to avoid full damage.  
+- **Once per turn as a reaction.**  
+
+---
+
+## **Subclasses: Roguish Archetypes**  
+At **3rd level**, you choose a Roguish Archetype that defines your approach to subterfuge.
+
+---
+
+### **Ghost Operative**  
+*"No alarms. No witnesses. No evidence."*  
+
+#### **Features & Playstyle**  
+- **Masters of espionage, cyber-infiltration, and corporate sabotage.**  
+- Uses **hacking, stealth, and surveillance disruption** to operate unseen.  
+- Common among **corporate spies, underground hackers, and intelligence agents.**  
+
+#### **Archetype Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Digital Infiltrator** – Gain advantage on hacking attempts and rolls made to bypass security systems. |  
+| 9th | **Erased Presence** – Surveillance cameras and tracking systems automatically fail to detect you. You do not leave a digital footprint. |  
+| 13th | **Neural Suppression** – Once per long rest, you can force an enemy to make an Intelligence saving throw. On failure, they forget the last minute of events. |  
+| 17th | **Master of Shadows** – You are permanently under the effects of *Nondetection*, and even supernatural tracking methods struggle to locate you. |  
+
+---
+
+### **Phantom Veil**  
+*"I am here. I am gone. You never saw me."*  
+
+#### **Features & Playstyle**  
+- **Blends illusion, supernatural movement, and reality manipulation into stealth.**  
+- Uses **shifting phases, dim light camouflage, and teleportation tricks.**  
+- Common among **mystic infiltrators, void-dancers, and urban legends.**  
+
+#### **Archetype Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Echo Step** – Once per short rest, you can teleport up to 30 feet as a bonus action. |  
+| 9th | **Ethereal Infiltrator** – You can phase through thin walls or barriers, moving through solid matter up to 5 feet thick. |  
+| 13th | **Veil Cloak** – While in dim light or darkness, you cannot be targeted by attacks or spells unless the attacker has true sight. |  
+| 17th | **Beyond the Veil** – You become partially intangible. For 1 minute per long rest, non-magical attacks pass through you, dealing only half damage. |  
+
+{{pageNumber,auto}}
+\page
+
+### **Black Market Kingpin**  
+*"Every secret has a price. And I set the market."*  
+
+#### **Features & Playstyle**  
+- **Masters of information, trade secrets, and underground deals.**  
+- Wields **bribery, persuasion, and financial leverage as weapons.**  
+- Common among **crime lords, shadow brokers, and economic manipulators.**  
+
+#### **Archetype Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Insider Connections** – Gain access to exclusive black-market resources. You can procure rare items with ease. |  
+| 9th | **Information Broker** – Gain advantage on rolls to gather rumors, blackmail material, or corporate secrets. |  
+| 13th | **Bribe the System** – Once per short rest, when you fail a Persuasion or Deception check, you can reroll it by offering a bribe. |  
+| 17th | **Untouchable** – You always have an escape plan. Once per long rest, when caught in an unwinnable situation, you can automatically vanish, leaving behind no trace of your presence. |  
+
+---
+
+### **Deadeye Sniper**  
+*"One shot. One ghost. No loose ends."*  
+
+#### **Features & Playstyle**  
+- **Masters of extreme long-range assassinations.**  
+- Uses **stealth, precision marksmanship, and patience to eliminate targets.**  
+- Common among **corporate assassins, military snipers, and rogue contract killers.**  
+
+
+#### **Archetype Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Scoped Kill** – If you aim at a target for an entire turn without moving, your next ranged attack automatically scores a critical hit if it lands. |  
+| 9th | **Ghost Positioning** – When you fire a ranged attack, you can move up to half your speed without provoking opportunity attacks. |  
+| 13th | **Lethal Precision** – Your ranged weapon attacks deal additional damage equal to your Intelligence modifier. |  
+| 17th | **Perfect Shot** – Once per long rest, when you hit a creature with a ranged attack, you can force them to make a Constitution saving throw. On failure, they drop to 0 HP instantly. |  
+
+---
+
+### **Neural Phantom**  
+*"I don't steal your credits. I steal your mind."*  
+
+#### **Features & Playstyle**  
+- **Masters of hacking thoughts, manipulating memories, and rewiring minds.**  
+- Uses **mental infiltration, forced illusions, and cognitive control.**  
+- Common among **corporate brainjackers, underground psychic thieves, and rogue mind-hackers.**  
+
+#### **Archetype Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Cognitive Tap** – Once per short rest, you can hear surface thoughts of a creature within 30 feet. |  
+| 9th | **Memory Rewrite** – You can alter the memory of a creature you have physically touched in the last minute. They must make an Intelligence save or forget up to 1 minute. |  
+| 13th | **Mind Veil** – You are immune to telepathic detection, mind reading, and any effect that would detect your thoughts. |  
+| 17th | **Ego Wipe** – Once per long rest, you can force a target to make a Wisdom saving throw or have their identity temporarily erased for 1 minute. They forget their name, purpose, and allegiances. |  
+
+---
+
+### **The Circuitbreaker**  
+*"I don’t bypass security—I crash the whole system."*  
+
+#### **Features & Playstyle**  
+- **Masters of technological disruption, sabotage, and hacking.**  
+- Uses **EMP pulses, forced system shutdowns, and infrastructure manipulation.**  
+- Common among **tech thieves, cyber-infiltrators, and rogue A.S.T.R.A.L. operatives.**  
+
+#### **Archetype Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Digital Saboteur** – Gain advantage on checks made to disable security systems, hack networks, or disrupt technology. |  
+| 9th | **EMP Strike** – Once per short rest, you can make a melee attack that temporarily disables electronic devices and cybernetics within 10 feet. |  
+| 13th | **System Erasure** – When you hack or disable a system, you can leave behind no digital trace of your presence. |  
+| 17th | **Neural Shutdown** – Once per long rest, you can force a cybernetic or augmented enemy to make a Constitution save. On failure, they are completely disabled for 1 minute. |  
+
+{{pageNumber,auto}}
+\page
+
+### **The Undertaker**  
+*"Everyone ends up in my hands eventually."*  
+
+#### **Features & Playstyle**  
+- **Masters of body disposal, assassination, and escaping consequences.**  
+- Uses **poisons, execution techniques, and corpse disposal skills.**  
+- Common among **contract killers, death brokers, and crime syndicate enforcers.**  
+
+#### **Archetype Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Silent Kill** – If you reduce a creature to 0 HP with a melee attack, you can use a bonus action to make the body vanish for 1 hour. |  
+| 9th | **Toxin Specialist** – Gain proficiency with poisoner’s kits. Your attacks can deliver poisons instantly without needing to coat weapons. |  
+| 13th | **Death’s Shadow** – You are immune to being tracked by any means, including magical scrying, unless you choose to be found. |  
+| 17th | **Clean Kill** – Once per long rest, if you kill a target, you can erase all evidence of their existence, including their name, records, and memory of them in nearby witnesses. |  
+
+---
+
+### **The Disruptor**  
+*"A well-placed explosion fixes all problems."*  
+
+#### **Features & Playstyle**  
+- **Masters of urban demolition, high-impact sabotage, and environmental manipulation.**  
+- Uses **explosives, improvised destruction, and structural collapse tactics.**  
+- Common among **anarchists, mercenary saboteurs, and industrial wreckers.**  
+
+
+#### **Archetype Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Demolition Expert** – Gain proficiency with explosives and knowledge of structural weaknesses. |  
+| 9th | **Remote Detonation** – Once per short rest, you can place an explosive charge and detonate it at will within 300 feet. |  
+| 13th | **Calculated Collapse** – You can rig a structure to collapse in a precise way, controlling the direction of its fall. |  
+| 17th | **Chain Reaction** – Once per long rest, when an explosion occurs within 30 feet of you, you can cause a second explosion to occur as a free action. |  
+
+---
+
+### **The Silver Tongue**  
+*"I don’t fight. I just make sure you fight for me."*  
+
+#### **Features & Playstyle**  
+- **Masters of deception, persuasion, and social engineering.**  
+- Uses **manipulation, charm, and psychological warfare** instead of brute force.  
+- Common among **con artists, corporate negotiators, and master deceivers.**  
+
+#### **Archetype Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Master of Lies** – Gain expertise in Persuasion and Deception. |  
+| 9th | **Plant the Seed** – When you interact with a creature for at least 1 minute, you can subtly influence them into believing a lie for up to 24 hours. |  
+| 13th | **Perfect Misdirection** – When an enemy targets you with an attack, you can use your reaction to force them to make a Wisdom save. On failure, they attack another target instead. |  
+| 17th | **Master Manipulator** – Once per long rest, you can convince an NPC of anything for 1 hour, as long as it is not directly harmful to them. |  
+
+
+## **Multiclassing**  
+If your campaign allows multiclassing, use the following rules for a **Rogue** multiclass character.  
+
+### **Ability Score Minimums**  
+- Dexterity 13  
+
+### **Proficiencies Gained**  
+- Light armor, one skill of your choice, thieves’ tools  
+
+---
+
+## **Quick Build**  
+You can make a **Rogue** quickly by following these suggestions:  
+- Choose **Human or Gnome** for a thematic fit.  
+- Pick the **Spy** or **Street Thief** background.  
+- Prioritize **Dexterity**, followed by **Intelligence or Charisma**.  
+- Take a silenced pistol and a hacking deck for maximum infiltration potential.  

@@ -1,0 +1,943 @@
+```metadata
+title: Ashen Vault - Class Bard
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+/*=======--- Example CSS styling ---=======*/
+/* Any CSS here will apply to your document! */
+@import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Oswald:wght@200..700&family=Permanent+Marker&display=swap);
+:root {
+    --rotate: 20deg;
+    --left: unset;
+    --top: unset;
+    --correction: "correction";
+    --source: "https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png";
+}
+
+
+.page:has(.frontCover) {
+    background-color: black;
+}
+
+.page:has(.frontCover) .coverBackground {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -1cm;
+    left: 0;
+    z-index: -1;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/0b77d546e9bba23eb4ef20c4871d3308.webp');
+    background-size: cover;
+    background-position: center;
+    mask-image: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 20%), rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: linear-gradient(270deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+.page:has(.frontCover) .coverImage {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -7cm;
+    left: 0;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/0a0b5e7e9496fd06deac901172f5455f.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.page:has(.frontCover) h1,
+.page:has(.frontCover) h2,
+.page:has(.frontCover) h3 {
+    border-bottom: unset;
+    -webkit-text-stroke: unset;
+    text-stroke: unset;
+    ;
+}
+
+.page:has(.frontCover) h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: White;
+    margin-top: 50px;
+    font-family: "Oswald", sans-serif;
+    background: none;
+}
+
+.page:has(.frontCover) h2 {
+    font-size: 2rem;
+    letter-spacing: 8.5px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.page:has(.frontCover) h3 {
+    margin-top: 10px;
+    text-decoration: underline overline #d1d1d1;
+}
+
+.page:has(.frontCover) .footnote {
+    font-size: 1.5rem;
+    color: #d1d1d1;
+    margin-top: 30px;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 2px gray;
+    ;
+    text-stroke: 2px gray;
+    text-align: right;
+}
+
+/* Removes Drop Caps */
+.page h1 + p:first-letter {
+    all: unset;
+}
+.page .footnote {
+    border-top: lightgray dotted 2px;
+    width: 80%;
+    color: gray;
+    bottom: 28px;
+}
+.page .footnote > h1 {
+    background-color: transparent;
+    border: none;
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+.inline-block.pageNumber {
+    font-size: 1cm;
+    color: black;
+}
+/* Removes Small-Caps in first line */
+.page h1 + p:first-line {
+    all: unset;
+}
+.page {
+    background-color: #f8f8f8;
+    /* Light gray background */
+    background-image: radial-gradient(
+        circle,
+        rgba(0, 0, 0, 0.1) 1px,
+        transparent 1px
+    );
+    background-size: 20px 20px;
+    /* Adjust spacing */
+    font-family: "Courier New", Courier, monospace;
+    /* Typewriter / Redacted Report */
+}
+
+.page:has(.preface) {
+    columns: 1;
+    column-span: all;
+    gap: 5px;
+    text-align: center;
+
+}
+
+
+.page:after,
+.page:has(.frontCover):after,
+.page:has(.preface):after,
+.page:has(.insideCover):after,
+.page:nth-child(even)::after {
+    all: unset;
+    content: "Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.";
+    transform-origin: top right;
+    transform: rotate(270deg);
+    white-space: nowrap;
+    position: absolute;
+    right: 1.5cm;
+    top: 0px;
+    color: gray;
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    width: 29cm;
+}
+.page:before {
+    all: unset;
+    content: "Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.";
+    transform-origin: top left;
+    transform: rotate(90deg);
+    white-space: nowrap;
+    position: absolute;
+    left: 1.5cm;
+    top: 0px;
+    color: gray;
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    width: 29cm;
+}
+.page:has(.preface) .logo {
+    top: 10cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 0.075cm black);
+}
+.page:has(.insideCover) .logo {
+    top: 0.5cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 0.075cm black);
+}
+.page:has(.insideCover) p,
+.page:has(.insideCover) ul {
+    margin-top: 20px;
+    text-align: left;
+}
+.page:has(.insideCover) .logo > img {
+    height: 2cm;
+    width: 1.8cm;
+    opacity: 0.1;
+    filter: none;
+}
+.page:has(.preface) .logo > img {
+    height: 10cm;
+    width: 9cm;
+    opacity: 0.1;
+    filter: none;
+}
+
+.page:has(.preface),
+.page:has(.insideCover) {
+    background: none;
+    background-color: #f8f8f8;
+}
+
+.coverpicture {
+    margin-top: 1.5cm;
+    max-width: 15cm;
+    max-height: 15cm;
+}
+
+.coverpicture > img {
+    max-width: 100%;
+    max-height: 100%;
+    mix-blend-mode: luminosity;
+}
+
+.page h1 {
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    color: #2c2c2c;
+    /* Vault Black */
+    background-color: #ededed;
+    /* Subtle Header Background */
+    padding: 5px;
+    border-bottom: 3px solid #2c2c2c;
+    /* Strong Bureaucratic Divider */
+}
+.page:has(.insideCover) h1,
+.page:has(.preface) h1,
+.page:has(.partCover) h1 {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    background-color: #ededed;
+    /* Subtle Header Background */
+    color: #2c2c2c;
+    /* Vault Black */
+    padding: 5px;
+    border-bottom: 0;
+}
+.page:has(.preface) h1 {
+    -webkit-text-stroke: 0;
+}
+.page:has(.insideCover) h1 {
+    background-image: linear-gradient(
+        45deg,
+        #f7f7f7 25%,
+        #dbdbdb 25%,
+        #dbdbdb 50%,
+        #f7f7f7 50%,
+        #f7f7f7 75%,
+        #dbdbdb 75%,
+        #dbdbdb 100%
+    );
+    background-size: 14.14px 14.14px;
+}
+.page:has(.insideCover) .footnote,
+.page:has(.preface) .footnote,
+.page:has(.partCover) .footnote {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+    -webkit-text-stroke: 0;
+    text-align: left;
+}
+.block .footnote {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+}
+.page h2 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #2c2c2c;
+    border-bottom: 2px solid #8f8f8f;
+}
+.page:has(.insideCover) h2,
+.page:has(.preface) h2,
+.page:has(.partCover) h2 {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+    border-bottom: 0;
+}
+.page:has(.preface) h2 {
+    -webkit-text-stroke: 0;
+}
+.page h3,
+.page:has(.insideCover) h3,
+.page:has(.preface) h3,
+.page:has(.partCover) h3 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    color: #5a5a5a;
+    text-transform: uppercase;
+    border-bottom: gray dashed 1px;
+}
+.page h4,
+.page:has(.insideCover) h4,
+.page:has(.preface) h4,
+.page:has(.partCover) h4 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    color: #8f8f8f;
+}
+.page .redacted {
+    background-color: black;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+.page:has(.preface) hr {
+    margin: 10px;
+    position: relative;
+    width: 100%;
+    height: 5mm;
+    /* Adjust height to match a real ruler */
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0mm,
+        transparent 0.8mm,
+        black 0.8mm,
+        black 1mm
+    );
+    filter: none;
+}
+.page:has(.insideCover) hr {
+    position: relative;
+    width: 100%;
+    height: 1mm;
+    /* Adjust height to match a real ruler */
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0mm,
+        transparent 0.8mm,
+        black 0.8mm,
+        black 1mm
+    );
+}
+page hr {
+    border: 2px dashed #8f8f8f;
+    /* Looks like an official document break */
+}
+.page blockquote {
+    background-color: #ededed;
+    border-left: 4px solid #2c2c2c;
+    padding: 10px;
+    font-family: "Courier New", Courier, monospace;
+}
+/* --- Tables: Bureaucratic Report Style --- */
+.page table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.page th {
+    background-color: #d6d6d6;
+    /* Ash Gray */
+    color: #2c2c2c;
+    /* Vault Black */
+    padding: 8px;
+    border-bottom: 3px solid #8f8f8f;
+    /* Stronger Border */
+    text-transform: uppercase;
+}
+.page td {
+    background-color: #f8f8f8;
+    /* Paper White */
+    color: #5a5a5a;
+    /* Charcoal Gray */
+    padding: 8px;
+    border-bottom: 1px solid #bfbfbf;
+    /* Soft Grid */
+}
+/* --- Links: Subtle and Official-Looking --- */
+.page a {
+    color: #2c2c2c;
+    text-decoration: none;
+    border-bottom: 1px dashed #8f8f8f;
+}
+.page a:hover {
+    color: #5a5a5a;
+    border-bottom: 1px solid #5a5a5a;
+}
+.post-it {
+    left: var(--left);
+    top: var(--top);
+    transform: rotate(var(--rotate));
+    max-width: 250px;
+    max-height: 240px;
+    width: 250px;
+    height: 240px;
+    position: relative;
+    background: #ffa;
+    overflow: hidden;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 0 0 0 30px/45px;
+    box-shadow: inset 0 -40px 40px rgba(0, 0, 0, 0.05),
+        inset 0 25px 10px rgba(0, 0, 0, 0.07), 0 5px 6px 5px rgba(0, 0, 0, 0.2);
+    font-family: "Cedarville Cursive", cursive;
+    line-height: 1.7em;
+    font-size: 19px;
+    -webkit-mask-image: url(data:image/png;
+    base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+    color: #130d6b;
+}
+.post-it:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    background: #ffa;
+    box-shadow: 3px -2px 10px rgba(0, 0, 0, 0.2),
+        inset 15px -15px 15px rgba(0, 0, 0, 0.3);
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    transform: skewX(25deg);
+}
+.smudge {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/5d4334616f20bd1d1f059f6007892650.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.smudge:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 10cm;
+    height: 10cm;
+
+    background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 1) 19%,
+        rgba(255, 255, 255, 0) 52%
+    );
+    background-blend-mode: lighten;
+}
+
+.coffee-stain {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f74119a30ba73c9c5b3a7cc1aa9d7d42.png")
+        no-repeat center;
+    background-size: contain;
+    mix-blend-mode: multiply;
+}
+
+.corrected {
+    position: relative;
+    text-decoration: line-through;
+    color: black;
+}
+
+.corrected::after {
+    content: var(--correction, "Default Text");
+    font-size: 12px;
+    color: #0f3d75;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    font-family: "Cedarville Cursive", cursive;
+
+    -webkit-mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+}
+
+.paperclip {
+    position: absolute;
+    display: block;
+    top: -10px;
+    left: var(--left, 60);
+    width: 50px;
+    height: 150px;
+    transform: rotate(-15deg); /* Slight tilt for realism */
+    opacity: 0.8; /* Slight transparency */
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/421f492b3660fca7d119964aff1f24db.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.polaroid {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    max-width: 10cm;
+    max-height: 10cm;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png")
+        no-repeat center;
+    background-size: contain;
+    transform-origin: top left;
+}
+
+.polaroid > p > img {
+    margin-left: 1.26cm;
+    margin-top: 0.74cm;
+    height: 7.4cm;
+    width: 7.5cm;
+    object-fit: cover;
+    mix-blend-mode: screen;
+}
+
+.doodle.dog1 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/6d860afef532110ae76b559ace75dfa7.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.dog2 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/e2820894e1c1c58cb9d710e5522858fc.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.cat1 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/b43f55649f7f416de20109ce0f3b6722.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.cat2 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/898133d59ab4ce7d036283cf075620e2.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.doodle {
+    position: relative;
+    top: var(--top);
+    left: var(--left);
+    display: block;
+    width: 150px;
+    height: 150px;
+    -webkit-mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-repeat: repeat;
+}
+
+.fading {
+    background: linear-gradient(
+        to bottom,
+        black 10%,
+        rgba(0, 0, 0, 0.8) 30%,
+        rgba(0, 0, 0, 0.6) 50%,
+        rgba(0, 0, 0, 0.4) 70%,
+        rgba(0, 0, 0, 0.1) 90%,
+        transparent
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+```
+
+{{frontCover}}
+{{coverBackground}}
+## Class
+# Bard
+## Anomalous Music
+
+{{footnote 
+#### A.S.T.R.A.L Training Material
+}}
+
+
+\page
+
+{{insideCover}}
+
+# CONFIDENTIAL  
+## ⚠ A.S.T.R.A.L.⚠  
+## ANTHROPOLOGICAL SURVEY DIVISION  
+___  
+
+This document is the sole property of the **Agency for Surveillance, Tracking, and Regulation of Anomalous Landscapes (A.S.T.R.A.L.)** and is classified under **Biometric Analysis Protocol O-92**. Unauthorized access, duplication, or distribution constitutes a direct violation of the **Anomalous Contingency Act (A.C.A. §17-42)** and will trigger immediate countermeasures.  
+
+By accessing this file, you acknowledge:  
+- You have the **necessary clearance** to review classified **biological intelligence**.  
+- You are subject to **continuous biometric and cognitive monitoring** under **Anthropological Compliance Mandate 24-B**.  
+- Any **unauthorized replication or dissemination** will result in the activation of **Containment Directive Theta**, authorizing full intervention by **Bio-Security Division Kappa**.  
+- Disclosure of restricted genetic analysis will **invoke subject-specific erasure protocols**, up to and including **cognitive redaction under Directive 88-P**.  
+
+This document provides **ongoing surveillance data, species profiling, and genetic deviation reports** concerning the recognized **sentient populations of Concord City and its surrounding territories**. Due to **unresolved discrepancies regarding human emergence events**, data integrity remains under **constant review by the Oversight Bureau (O.B.)**.  
+
+If you are not the intended recipient, cease all interaction immediately and report this breach to **A.S.T.R.A.L. Oversight Bureau (O.B.)** via secure terminal [O.B.//DIRECT-LINK-SEC/347-99]. Failure to comply will escalate to **Genetic Contingency Response Protocol Cobalt-7**.  
+
+
+### **Vorraki – Species Designation: Homo Voracis**  
+**Summary:** The **Vorraki** are **genetically optimized for high-impact physicality, rapid muscular repair, and combat-oriented reflex enhancement**. Their **distinct genetic subtypes** exhibit **adaptive resilience**, ensuring dominance across a wide range of physically demanding environments. While traditionally relegated to **security, enforcement, and paramilitary operations**, emerging Vorraki power structures suggest an **ongoing transition toward economic and political self-sufficiency**, particularly in **black-market security, logistics, and organized paramilitary enterprises**. **Containment is not advised—negotiation remains the recommended control mechanism.**  
+
+**A.S.T.R.A.L. – DEFENDING REALITY AGAINST GENETIC UNCERTAINTY**  
+**Everything is under observation.**  
+{{pageNumber,auto}}
+\page
+
+## **Bard**  
+*Corporate Fixer | Media Manipulator | Underground Performer | Paranormal Storyteller*  
+
+> *"The right words can move mountains. Or burn bridges."*  
+> — **Isolde "Jack Rouge" Faure, The Free Syndicate**  
+
+### **Thematic Overview**  
+Bards in Concord City are masters of persuasion, performance, and information warfare. They manipulate narratives, bend the will of others, and shape reality with their words. Some serve as corporate propagandists, others as underground truth-seekers, and a few tap into the lost echoes of The Emergence to fuel their paranormal abilities.
+- Bards specialize in **social engineering, performance, and subtle reality manipulation**.  
+- Some work in **corporate PR or high-end entertainment**, controlling public perception.  
+- Others operate as **whistleblowers, underground journalists, or black-market information brokers**.  
+- Paranormal bards channel **the lingering voices of The Emergence**, giving them eerie knowledge and influence.  
+
+### **Creating a Bard**  
+- Did you come from the entertainment industry, the corporate world, or the underground media?  
+- What is your chosen medium—music, storytelling, digital media, or old-fashioned persuasion?  
+- Do you serve a cause, or are you purely in it for personal gain?  
+
+
+## **Class Features**  
+As a **Bard**, you gain the following class features.
+
+### **Hit Points**  
+- **Hit Dice:** *1d8 per Bard level*  
+- **Hit Points at 1st Level:** *8 + Constitution modifier*  
+- **Hit Points at Higher Levels:** *1d8 (or 5) + Constitution modifier per level after 1st*  
+
+### **Proficiencies**  
+- **Armor:** *Light armor*  
+- **Weapons:** *Simple weapons, hand crossbows, longswords, rapiers, short swords*  
+- **Tools:** *Three musical instruments or digital media tools of your choice*  
+- **Saving Throws:** *Dexterity, Charisma*  
+- **Skills:** *Choose any three*  
+
+### **Equipment**  
+You start with the following equipment, in addition to any granted by your background:  
+- *(a)* a rapier or *(b)* a sidearm with 10 rounds  
+- *(a)* a diplomat’s pack or *(b)* an entertainer’s pack  
+- *(a)* a digital audio interface or *(b)* a traditional musical instrument  
+- A concealed microphone or media device  
+{{pageNumber,auto}}
+\page
+{{wide
+## **Class Table**  
+| Level | Proficiency Bonus | Features |  
+|:-:|:-:|:--|  
+| 1st | +2 | Bardic Inspiration (d6), Spellcasting |  
+| 2nd | +2 | Jack of All Trades, Song of Rest (d6) |  
+| 3rd | +2 | Bard College, Expertise |  
+| 4th | +2 | Ability Score Improvement |  
+| 5th | +3 | Bardic Inspiration (d8), Font of Inspiration |  
+| 6th | +3 | Countercharm, Bard College Feature |  
+| 7th | +3 | Additional Expertise |  
+| 8th | +3 | Ability Score Improvement |  
+| 9th | +4 | Song of Rest (d8) |  
+| 10th | +4 | Bardic Inspiration (d10), Magical Secrets |  
+| 11th | +4 | Bard College Feature |  
+| 12th | +4 | Ability Score Improvement |  
+| 13th | +5 | Song of Rest (d10) |  
+| 14th | +5 | Magical Secrets |  
+| 15th | +5 | Bardic Inspiration (d12) |  
+| 16th | +5 | Ability Score Improvement |  
+| 17th | +6 | Song of Rest (d12) |  
+| 18th | +6 | Magical Secrets |  
+| 19th | +6 | Ability Score Improvement |  
+| 20th | +6 | Superior Inspiration |  
+}}
+
+## **Class Abilities**  
+### **Bardic Inspiration (Level 1)**  
+You can inspire others through your words, performance, or digital broadcasts. As a bonus action, you grant one creature a **Bardic Inspiration die (d6)**. They can add this die to an ability check, attack roll, or saving throw. This die increases at higher levels.  
+
+### **Jack of All Trades (Level 2)**  
+You can add half your proficiency bonus (rounded down) to any ability check you make that doesn't already include your proficiency bonus.  
+
+### **Song of Rest (Level 2)**  
+During a short rest, you and your allies regain an extra **d6 hit points** when healing. This die increases at higher levels.  
+
+### **Expertise (Level 3)**  
+Choose two skill proficiencies. Your proficiency bonus is doubled for any ability check that uses those skills. At level 10, choose two more.  
+
+
+---
+
+## **Multiclassing**  
+If your campaign allows multiclassing, use the following rules for a **Bard** multiclass character.  
+
+### **Ability Score Minimums**  
+- Charisma 13  
+
+### **Proficiencies Gained**  
+- One skill of your choice, one musical instrument or media tool  
+
+---
+
+## **Quick Build**  
+You can make a **Bard** quickly by following these suggestions:  
+- Choose **Tiefling or Elf** for a strong thematic fit.  
+- Pick the **Entertainer** or **Charlatan** background.  
+- Prioritize **Charisma**, followed by **Dexterity**.  
+- Take a rapier and a musical instrument or digital recording device for optimal roleplay potential.  
+
+
+## **Subclasses: Bard Colleges**  
+At **3rd level**, you choose a college that shapes your skills. Choose from the following options:  
+
+## College of Influence  
+*"You don’t need power if you control the people who have it."*  
+{{pageNumber,auto}}
+\page
+
+### **The Concept**  
+Bards of the **College of Influence** are not mere performers—they are **social engineers.** They weave **narratives, manipulate crowds, and control the flow of information.** Whether corporate consultants or underground agitators, they know that **words shape reality.**  
+
+### **Corporate Charisma** *(3rd level)*  
+You gain proficiency in **Deception and Persuasion** if you don’t already have them. Additionally, you can use **Bardic Inspiration** to make an ally’s next Persuasion or Deception check **automatically succeed** against creatures with an Intelligence score lower than yours.  
+
+### **Targeted Messaging** *(6th level)*  
+When you use **Bardic Inspiration**, you may also transmit **a subliminal command.**  
+- The target must make a **Wisdom saving throw.**  
+- On a failure, they **repeat a phrase, belief, or idea you implant.**  
+- Anyone who hears it must make a **Wisdom saving throw** or begin **believing it as fact** for the next hour.  
+
+### **Mass Rebranding** *(14th level)*  
+You can **rewrite an event in real-time.**  
+- As an action, **up to 10 creatures within 120 feet** must make an **Intelligence saving throw.**  
+- On a failure, they believe your version of events **is the only truth.**  
+- Attempts to challenge your version **automatically have disadvantage.**  
+
+---
+
+## College of Pop  
+*"It’s not about the song. It’s about making sure everyone hears it."*  
+
+### **The Concept**  
+Pop bards **manufacture obsession.** They **don’t just perform—they become part of culture itself.** Whether as **corporate-backed icons or underground viral sensations,** they shape trends and create **undeniable movements.**  
+
+### **Hooked on the Sound** *(3rd level)*  
+When you perform for **at least 1 minute**, creatures who hear you must make a **Charisma saving throw.**  
+- On a failure, they become **fixated on you**, finding you **irresistibly compelling** for the next hour.  
+- While fixated, they have **disadvantage on checks to resist your influence.**  
+
+
+### **Cultural Saturation** *(6th level)*  
+You gain **advantage on Persuasion checks** when speaking to groups of **five or more.** Additionally, when you **use Bardic Inspiration**, you may affect **two creatures instead of one.**  
+
+### **Industry Plant** *(14th level)*  
+Once per long rest, you can **force a failed social interaction to be erased from public memory.**  
+- Affected creatures must make a **Wisdom saving throw.**  
+- On a failure, **they remember the event in the way most favorable to you.**  
+
+---
+
+## College of Silence  
+*"The most powerful voices are the ones you never hear."*  
+
+### **The Concept**  
+Bards of the **College of Silence** understand that words can **erase as well as inspire.** They manipulate **what isn’t said, what isn’t recorded, and what is deliberately forgotten.**  
+
+### **Erased Presence** *(3rd level)*  
+You can use **Bardic Inspiration** to suppress a creature’s presence.  
+- They leave **no sound, no recorded trace, and no written memory** for the next 10 minutes.  
+- Security cameras glitch when looking at them.  
+- Attempts to recall them later **result in incomplete memories.**  
+
+### **Dead Air** *(6th level)*  
+When casting a spell with verbal components, you can instead **erase sound entirely.**  
+- The spell is cast **silently**, and cannot be overheard.  
+{{pageNumber,auto}}
+\page
+- All sound within **a 10-foot radius** of you ceases until the end of your next turn.  
+
+### **Unperson Protocol** *(14th level)*  
+Once per long rest, you may **erase a person from a social space.**  
+- As an action, **one creature within 60 feet** must make a **Charisma saving throw.**  
+- On a failure, **everyone in the area** ignores them as if they were never there **for 1 hour.**  
+- The effect ends if they take damage **or forcefully interact with the world.**  
+
+---
+
+### **College of Bureaucracy**  
+*"Paperwork is just another form of spellcasting."*  
+
+#### **Features & Playstyle**  
+- **Masters of legal manipulation, procedural delays, and administrative dominance.**  
+- Turns **bureaucracy into a form of combat.**  
+- Common among **corporate lawyers, compliance enforcers, and regulation agents.**  
+
+#### **Subclass Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Procedural Delay** – You can use Bardic Inspiration to enforce a legal delay, preventing an enemy from acting for 1 round due to “improper authorization.” |  
+| 6th | **Red Tape Mastery** – If an enemy tries to attack, arrest, or interrogate you, they must make a Charisma save or be delayed for 1d4 minutes due to “pending paperwork.” |  
+| 14th | **Weaponized Legalese** – Once per long rest, you can present a legal argument that forces creatures to follow your direction, believing they are contractually obligated. |  
+
+---
+
+### **College of Nightlife**  
+*"The party never ends, but the people do."*  
+
+#### **Features & Playstyle**  
+- **Masters of distraction, euphoria, and controlling social settings.**  
+- Performances turn into **hypnotic, uncontrollable experiences.**  
+- Common among **club DJs, underground movement leaders, and high-profile entertainers.**  
+
+#### **Subclass Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Rhythmic Momentum** – While in a club or large crowd, gain +10 movement speed and advantage on Dexterity saves. |  
+| 6th | **Euphoric Performance** – After performing for 1 minute, creatures must make a Wisdom save or fall into a euphoric trance for 10 minutes, failing to perceive danger. |  
+| 14th | **The Rave Never Ends** – You and allies within 60 feet ignore exhaustion, fear, and death saves for 1 hour as long as music plays. |  
+
+---
+
+## **College of Escorts**  
+*"Pleasure is a transaction, and I always get paid."*  
+
+#### **Features & Playstyle**  
+- **Uses charm, seduction, and emotional control to influence others.**  
+- Gains power through **one-on-one interactions and intimate persuasion.**  
+- Common among **courtesans, spies, and high-end socialites.**  
+
+
+#### **Subclass Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Disarming Presence** – Gain advantage on Persuasion and Insight checks when engaging someone directly. Using Bardic Inspiration can impose disadvantage on an enemy’s next attack against you. |  
+| 6th | **Entrancing Touch** – By touching a creature, you can force a Wisdom saving throw. On failure, they experience a **heightened emotional connection** for 10 minutes. |  
+| 14th | **The Final Embrace** – Once per long rest, you can charm a creature for 10 minutes, causing them to view you as **the most important person in their life.** |  
+
+---
+
+#### **College of Street Performance**  
+*"The city is my stage, and the people are my audience."*  
+
+#### **Features & Playstyle**  
+- **Masters of performing in public spaces and shifting mass perception.**  
+- Blends in effortlessly with **urban crowds and street culture.**  
+- Common among **buskers, political agitators, and social revolutionaries.**  
+{{pageNumber,auto}}
+\page
+#### **Subclass Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Crowd Control** – Gain advantage on Performance checks in public. If at least 5 people are watching, you can use Bardic Inspiration without expending a die. |  
+| 6th | **Urban Camouflage** – You can blend into a crowd, allowing you to Hide as a bonus action in populated areas. |  
+| 14th | **The People's Champion** – Once per long rest, you can perform in a way that makes all nearby citizens view you as an ally for 1 hour. |  
+
+---
+
+### **College of Wanderlust**  
+*"No home, no master, no chains."*  
+
+#### **Features & Playstyle**  
+- **Masters of travel, storytelling, and spreading folklore.**  
+- Blends myth and reality into **a constantly evolving legend.**  
+- Common among **travelers, exiles, and rogue storytellers.**  
+
+#### **Subclass Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Pathfinder’s Instinct** – You can never become lost and can always sense the quickest route out of any area. |  
+| 6th | **Rolling Inspiration** – Allies using your Bardic Inspiration can immediately move up to half their speed without provoking opportunity attacks. |  
+| 14th | **Folk Legend** – Once per long rest, you can make it so that a settlement **already knows your reputation**, causing them to fear, admire, or welcome you. |  
+
+---
+
+### **College of Depression**  
+*"I sing for the ones who can’t anymore."*  
+
+#### **Features & Playstyle**  
+- **Masters of sorrowful ballads, shared pain, and overwhelming emotion.**  
+- Their music is **too real for some to handle.**  
+- Common among **mourners, lost souls, and those who suffer for others.**  
+
+#### **Subclass Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Melancholy Ballad** – Creatures that hear your performance must make a Wisdom save or become emotionally overwhelmed, imposing disadvantage on attack rolls and ability checks for 1 minute. |  
+| 6th | **Shared Pain** – When an ally within 30 feet takes damage, you can choose to take half of it instead. You also gain temporary HP equal to half your Bard level. |  
+| 14th | **The Weight of the World** – Once per long rest, you can force a creature to feel overwhelming despair. They must make a Charisma save or collapse, unable to act for 1 minute. |  
+
+---
+
+
+### **College of Ska**  
+*"You can’t be sad if you’re skanking fast enough."*  
+
+#### **Features & Playstyle**  
+- **Masters of relentless rhythm, speed, and chaotic momentum.**  
+- Uses **upbeat energy to prevent exhaustion, fear, and despair.**  
+- Common among **punk revolutionaries, underground musicians, and street performers.**  
+
+#### **Subclass Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 3rd | **Upbeat Resistance** – Gain advantage on saving throws against charm and fear effects. Whenever you take damage, you can immediately use Bardic Inspiration as a reaction. |  
+| 6th | **Ska Breakdown** – As an action, all enemies within 30 feet must make a Dexterity save or be knocked prone by the sheer energy of your performance. |  
+| 14th | **Unstoppable Beat** – Once per long rest, you can grant all allies within 60 feet immunity to exhaustion, fear, and paralysis for 1 hour. If they would drop to 0 HP, they remain at 1 HP until the effect ends. |  

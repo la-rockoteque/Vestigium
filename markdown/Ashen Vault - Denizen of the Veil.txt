@@ -1,0 +1,670 @@
+```metadata
+title: Ashen Vault - Denizen of the Veil
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+/*=======--- Example CSS styling ---=======*/
+/* Any CSS here will apply to your document! */
+ @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+ @import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive);
+ :root {
+     --rotate: 20deg;
+     --left: unset;
+     --top: unset;
+     --correction: "correction";
+     --source: 'https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png';
+}
+/* Removes Drop Caps */
+ .page h1+p:first-letter {
+     all: unset;
+}
+ .page .footnote {
+     border-top: lightgray dotted 2px;
+     width: 80%;
+     color: gray;
+     bottom: 28px;
+}
+ .page .footnote > h1 {
+     background-color: transparent;
+     border: none;
+     font-size: 10px;
+     margin-bottom: 0px;
+}
+/* Removes Small-Caps in first line */
+ .page h1+p:first-line {
+     all: unset;
+}
+ .page {
+     background-color: #F8F8F8;
+    /* Light gray background */
+     background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+     background-size: 20px 20px;
+    /* Adjust spacing */
+     font-family: "Courier New", Courier, monospace;
+    /* Typewriter / Redacted Report */
+}
+ .page:after, .page:has(.frontCover):after, .page:has(.insideCover):after, .page:nth-child(even)::after {
+     all: unset;
+     content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+     transform-origin: top right;
+     transform: rotate(270deg);
+     white-space: nowrap;
+     position: absolute;
+     right: 1.5cm;
+     top: 0px;
+     color: gray;
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     width: 29cm;
+}
+ .page:before {
+     all: unset;
+     content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+     transform-origin: top left;
+     transform: rotate(90deg);
+     white-space: nowrap;
+     position: absolute;
+     left: 1.5cm;
+     top: 0px;
+     color: gray;
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     width: 29cm;
+}
+ .page:has(.frontCover) .logo {
+     top: 10cm;
+     right: 0;
+     left: 0;
+     filter: drop-shadow(0 0 .075cm black);
+}
+ .page:has(.insideCover) .logo {
+     top: 0.5cm;
+     right: 0;
+     left: 0;
+     filter: drop-shadow(0 0 .075cm black);
+}
+ .page:has(.insideCover) p, .page:has(.insideCover) ul {
+     margin-top: 20px;
+     text-align: left;
+}
+ .page:has(.insideCover) .logo>img {
+     height: 2cm;
+     width: 1.8cm;
+     opacity: 0.1;
+     filter:none;
+}
+ .page:has(.frontCover) .logo>img {
+     height: 10cm;
+     width: 9cm;
+     opacity: 0.1;
+     filter:none;
+}
+
+ .page:has(.frontCover),
+  .page:has(.insideCover){
+   background: none;
+   background-color: #F8F8F8;
+}
+
+.coverpicture {
+margin-top: 1.5cm;
+  max-width: 15cm;
+  max-height: 15cm;
+}
+
+.coverpicture > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+ .page h1 {
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size: 24px;
+     color: #2C2C2C;
+    /* Vault Black */
+     background-color: #EDEDED;
+    /* Subtle Header Background */
+     padding: 5px;
+     border-bottom: 3px solid #2C2C2C;
+    /* Strong Bureaucratic Divider */
+}
+ .page:has(.insideCover) h1, .page:has(.frontCover) h1, .page:has(.partCover) h1 {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size: 24px;
+     background-color: #EDEDED;
+    /* Subtle Header Background */
+     color: #2C2C2C;
+    /* Vault Black */
+     padding: 5px;
+     border-bottom: 0 
+}
+ .page:has(.frontCover) h1 {
+     -webkit-text-stroke: 0 
+}
+ .page:has(.insideCover) h1 {
+     background-image: linear-gradient(45deg, #f7f7f7 25%, #dbdbdb 25%, #dbdbdb 50%, #f7f7f7 50%, #f7f7f7 75%, #dbdbdb 75%, #dbdbdb 100%);
+     background-size: 14.14px 14.14px;
+}
+ .page:has(.insideCover) .footnote, .page:has(.frontCover) .footnote, .page:has(.partCover) .footnote {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 15px;
+     margin-top: 40px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+     -webkit-text-stroke: 0;
+     text-align: left;
+}
+ .block .footnote {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 20px;
+     margin-top: 40px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+}
+ .page h2 {
+     font-family: "Oswald", sans-serif;
+     text-transform: uppercase;
+     font-size: 20px;
+     color: #2C2C2C;
+     border-bottom: 2px solid #8F8F8F;
+}
+ .page:has(.insideCover) h2, .page:has(.frontCover) h2, .page:has(.partCover) h2 {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 20px;
+     margin-top: 20px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+     border-bottom: 0;
+}
+ .page:has(.frontCover) h2 {
+     -webkit-text-stroke: 0 
+}
+ .page h3, .page:has(.insideCover) h3, .page:has(.frontCover) h3, .page:has(.partCover) h3 {
+     font-family: "Courier New", Courier, monospace;
+     font-size: 18px;
+     color: #5A5A5A;
+     text-transform: uppercase;
+     border-bottom: gray dashed 1px;
+    ;
+}
+ .page h4, .page:has(.insideCover) h4, .page:has(.frontCover) h4, .page:has(.partCover) h4 {
+     font-family: "Courier New", Courier, monospace;
+     font-size: 16px;
+     color: #8F8F8F;
+}
+ .page .redacted {
+     background-color: black;
+     color: black;
+     padding: 2px 5px;
+     border-radius: 2px;
+}
+ .page:has(.frontCover) hr {
+     margin: 10px;
+     position: relative;
+     width: 100%;
+     height: 5mm;
+    /* Adjust height to match a real ruler */
+     background: repeating-linear-gradient( to right, transparent 0mm, transparent 0.8mm, black 0.8mm, black 1mm );
+     filter:none;
+}
+ .page:has(.insideCover) hr {
+     position: relative;
+     width: 100%;
+     height: 1mm;
+    /* Adjust height to match a real ruler */
+     background: repeating-linear-gradient( to right, transparent 0mm, transparent 0.8mm, black 0.8mm, black 1mm );
+}
+ page hr {
+     border: 2px dashed #8F8F8F;
+    /* Looks like an official document break */
+}
+ .page blockquote {
+     background-color: #EDEDED;
+     border-left: 4px solid #2C2C2C;
+     padding: 10px;
+     font-family: "Courier New", Courier, monospace;
+}
+/* --- Tables: Bureaucratic Report Style --- */
+ .page table {
+     border-collapse: collapse;
+     width: 100%;
+}
+ .page th {
+     background-color: #D6D6D6;
+    /* Ash Gray */
+     color: #2C2C2C;
+    /* Vault Black */
+     padding: 8px;
+     border-bottom: 3px solid #8F8F8F;
+    /* Stronger Border */
+     text-transform: uppercase;
+}
+ .page td {
+     background-color: #F8F8F8;
+    /* Paper White */
+     color: #5A5A5A;
+    /* Charcoal Gray */
+     padding: 8px;
+     border-bottom: 1px solid #BFBFBF;
+    /* Soft Grid */
+}
+/* --- Links: Subtle and Official-Looking --- */
+ .page a {
+     color: #2C2C2C;
+     text-decoration: none;
+     border-bottom: 1px dashed #8F8F8F;
+}
+ .page a:hover {
+     color: #5A5A5A;
+     border-bottom: 1px solid #5A5A5A;
+}
+ .post-it {
+     left: var(--left);
+     top: var(--top);
+     transform: rotate(var(--rotate));
+     max-width:250px;
+     max-height:240px;
+     width:250px;
+     height:240px;
+     position:relative;
+     background:#ffa;
+     overflow:hidden;
+     margin:30px auto;
+     padding:20px;
+     border-radius:0 0 0 30px/45px;
+     box-shadow: inset 0 -40px 40px rgba(0,0,0,0.05), inset 0 25px 10px rgba(0,0,0,0.07), 0 5px 6px 5px rgba(0,0,0,0.2);
+     font-family: 'Cedarville Cursive', cursive;
+     line-height:1.7em;
+     font-size:19px;
+     -webkit-mask-image: url(data:image/png;
+    base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+     color:#130d6b;
+}
+ .post-it:before {
+     content:"";
+     position:absolute;
+     width:20px;
+     height:25px;
+     background:#ffa;
+     box-shadow: 3px -2px 10px rgba(0,0,0,0.2), inset 15px -15px 15px rgba(0,0,0,0.3);
+     left:0;
+     bottom:0;
+     z-index:2;
+     transform:skewX(25deg);
+}
+ .smudge {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     filter: blur(1px) contrast(110%);
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/5d4334616f20bd1d1f059f6007892650.png') no-repeat center;
+     background-size: contain;
+
+
+}
+
+    .smudge:before {
+    position: absolute;
+    content:'';
+    left: 0;
+    top: 0;
+     width: 10cm;
+     height: 10cm;
+   
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 19%, rgba(255,255,255,0) 52%);
+background-blend-mode: lighten
+
+    
+    }
+
+
+
+ .coffee-stain {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     filter: blur(1px) contrast(110%);
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f74119a30ba73c9c5b3a7cc1aa9d7d42.png') no-repeat center;
+     background-size: contain;
+     mix-blend-mode: multiply;
+}
+ 
+ 
+.corrected {
+    position: relative;
+    text-decoration: line-through;
+    color: black;
+}
+
+.corrected::after {
+    content: var(--correction, "Default Text");;
+    font-size: 12px;
+    color: #0F3D75;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+       font-family: 'Cedarville Cursive', cursive;
+   
+    -webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+}
+
+
+.paperclip {
+ 
+    position: absolute;
+    display-block;
+    top: -10px;
+    left: var(--left, 60);
+    width: 50px;
+    height: 150px;
+    transform: rotate(-15deg); /* Slight tilt for realism */
+    opacity: 0.8; /* Slight transparency */
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/421f492b3660fca7d119964aff1f24db.png') no-repeat center;
+    background-size: contain;
+}
+
+ .polaroid {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     max-width:10cm;
+     max-height: 10cm;
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png') no-repeat center;
+    background-size: contain;
+         transform-origin: top left;
+}
+
+.polaroid > p > img {
+  margin-left: 1.26cm;
+  margin-top: 0.74cm;
+  height: 7.4cm;
+  width: 7.5cm;
+  object-fit: cover;
+  mix-blend-mode: screen;
+}
+
+
+.doodle.dog1 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/6d860afef532110ae76b559ace75dfa7.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.dog2 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/e2820894e1c1c58cb9d710e5522858fc.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.cat1 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/b43f55649f7f416de20109ce0f3b6722.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.cat2 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/898133d59ab4ce7d036283cf075620e2.png') no-repeat center;
+    background-size: contain;
+}
+
+.doodle {
+position: relative;
+   top: var(--top);
+   left: var(--left);
+    display: block;
+    width: 150px;
+    height: 150px;
+     -webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-repeat: repeat;
+}
+
+
+.fading {
+    background: linear-gradient(to bottom, black 10%, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.4) 70%, rgba(0, 0, 0, 0.1) 90%, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+```
+
+{{frontCover}}
+
+
+# Veil Denizens
+## Those Who Exist Between
+
+{{coverpicture ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/63a4a36b2184af3bc82dc2dfd9837e54.png)}}
+
+\page
+
+{{insideCover}}
+
+# CONFIDENTIAL  
+## ⚠  A.S.T.R.A.L. ⚠  
+## CLASSIFIED DOCUMENT  
+___  
+
+This document is the sole property of the **Agency for Surveillance, Tracking, and Regulation of Anomalous Landscapes (A.S.T.R.A.L.)** and is classified under **Protocol X-27**. Unauthorized access, duplication, or distribution is a direct violation of the **Anomalous Contingency Act (A.C.A. §13-97)** and will be met with immediate countermeasures, up to and including **forced administrative reassignment** (which, in certain cases, may involve existing in a different timeline).  
+
+By opening this document, you acknowledge:  
+- **You have the necessary clearance level** to access restricted anomaly intelligence.  
+- **You have not, at any point, been replaced by an identical anomaly impersonation** (if unsure, consult **Verification Form 92-A**).  
+- **You are subject to continuous monitoring** under Section 12 of the Astral Compliance Directive.  
+- **Any unauthorized disclosure will trigger Protocol X**, authorizing full intervention by **Containment & Erasure Taskforce Omega** (Note: The **previous** Containment & Erasure Taskforce Omega was erased under Protocol X. This is the **new** Taskforce Omega. Try not to ask what happened).  
+- **Dissemination of classified content will result in memory redaction procedures**, as outlined in **Directive 46-C**, or, if memory redaction is not feasible, assignment to the **Department of Unanswered Inquiries** (success rate: inconclusive).  
+
+If you are not the intended recipient:  
+1. **Cease all interaction immediately.**  
+2. **Report this breach to A.S.T.R.A.L. Oversight Bureau (O.B.)** via secure terminal **[O.B.//DIRECT-LINK-SEC/347-99]**.  
+3. **Wait for retrieval personnel to arrive.** This may take **minutes, weeks, or retroactively already have happened**.  
+
+**Failure to comply will result in automatic escalation to Level-4 Contingency Response, which involves (but is not limited to):**  
+- **A 48-hour debriefing inside an undisclosed location** (which you will **never** be able to find again).  
+- **A mandatory seminar on "The Importance of Forgetting"** (attendance is compulsory; comprehension is optional).  
+- **Being reassigned as an anomaly observer** (or, if deemed necessary, as an anomaly).  
+
+___  
+
+{{logo ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png)}}
+
+\page
+# **Veil Denizens - Those Who Exist Between**  
+
+The **Veil** does not only separate realms—it also **creates, distorts, and forgets**. Some beings are **born from its instability**, their existence a paradox of **half-truths, lost origins, and fragmented purpose**. These denizens **do not fit neatly into the material world**, but they persist, **shifting between dimensions, memories, and identities**.  
+
+
+## **👁️ Bogglebrine - The Half-Remembered**  
+*"You look at me like I don’t belong. Perhaps you’re right. Perhaps I was never really here."*  
+
+The **Bogglebrine** are **thoughtforms given flesh**, echoes of **forgotten memories** that somehow **became real**. They exist **between dream and reality**, their bodies never quite **stable**. **No two Bogglebrines look alike**—some appear as **blurred silhouettes**, while others **shift between different versions of themselves**, flickering like a half-remembered dream.  
+
+Their **indistinct forms shift slightly over time**, their **eyes often unfocused**, as if seeing something no one else can.  
+
+---
+
+## **Bogglebrine Traits**  
+Your Bogglebrine character has the following racial traits.  
+
+### **Ability Score Increase**  
+- Your **Dexterity** score increases by **2**.  
+- Your **Charisma** score increases by **1**.  
+
+### **Age**  
+Bogglebrines do not age in a traditional sense. Their **existence is fluid**, with some persisting for centuries while others fade into forgotten whispers.  
+
+### **Size**  
+Bogglebrines are **humanoid but indistinct**, appearing **medium-sized** though their outlines may shift subtly. Your size is **Medium**.  
+
+### **Speed**  
+Your base walking speed is **30 feet**.  
+
+### **Darkvision**  
+Accustomed to **existing in the edges of reality**, you can see in **dim light within 60 feet as if it were bright light**, and in **darkness as if it were dim light**.  
+
+---
+
+## **Fading Presence**  
+Your form is **semi-unreal**, allowing you to blur at the edges of perception.  
+- You can choose to be **lightly obscured at all times**, making you harder to perceive in **dim light**.  
+
+---
+
+## **Unstable Form** *(Once per short rest)*  
+Reality does not always hold you.  
+- When an attack would hit you, roll a **d6**. On a **5 or 6**, you **phase out momentarily**, causing the attack to **miss**.  
+
+---
+
+## **Echo of the Self** *(Once per long rest)*  
+You can leave behind a **memory echo** for 1 minute.  
+- This **static, semi-real version of you** can perform **simple actions** but cannot attack or cast spells.  
+
+---
+
+## **Veil-Touched**  
+You do not need to **eat or drink**, and you **float slightly above the ground** when you move.  
+
+---
+
+## **Where They Fit**  
+- People are **uneasy around them**, for a Bogglebrine **reminds them of things they almost remember** but can’t quite place.  
+- They often become **wandering storytellers**, carrying the **fragments of long-forgotten tales and people**.  
+- In **Concord City**, they **blend into crowds effortlessly**, often used as **spies or corporate ghosts**.  
+
+---
+
+## **Playstyle & Roleplaying Hooks**  
+- **Do you fear being forgotten, or do you embrace the fleeting nature of your existence?**  
+- **Have you attached yourself to a place, story, or person to try to remain stable?**  
+- **Do you seek to recover a memory that may or may not have ever existed?**  
+
+\page
+
+# **🌀 Riftborn - The Anchored Travelers**  
+*"I wasn’t born here. I wasn’t born anywhere. I simply arrived, and now I am trying to understand what that means."*  
+
+The **Riftborn** did not choose to be here—they **fell from the Veil**, **cast adrift from another existence**, and are now **trapped in this world**. Their bodies are **almost humanoid**, but there’s always **something wrong**—light **bends incorrectly** around their limbs, their voices **echo in slight delays**, and they carry a **wound in reality** that never fully healed.  
+
+---
+
+## **Riftborn Traits**  
+Your Riftborn character has the following racial traits.  
+
+### **Ability Score Increase**  
+- Your **Intelligence** score increases by **2**.  
+- Your **Dexterity** score increases by **1**.  
+
+### **Age**  
+Riftborn are **ageless anomalies**, existing without natural aging, though some eventually become **too unstable to remain**.  
+
+### **Size**  
+Riftborn appear as **medium humanoids**, with **slightly distorted features**. Your size is **Medium**.  
+
+### **Speed**  
+Your base walking speed is **30 feet**.  
+
+### **Darkvision**  
+You can see in **dim light within 60 feet as if it were bright light**, and in **darkness as if it were dim light**.  
+
+---
+
+## **Residual Energy** *(Once per short rest)*  
+The Veil lashes out when you are harmed.  
+- When you take damage, you can **force the attacker to take force damage** equal to your **proficiency bonus**.  
+
+---
+
+## **Veil Anchor**  
+You hover **slightly above the ground**, never fully touching the world.  
+- You ignore **difficult terrain** and can **walk on liquids** for short bursts.  
+
+---
+
+## **Fractured Sight**  
+You see **subtle variations of reality**.  
+- You have **advantage on Investigation and Insight checks**.  
+
+---
+
+## **Ethereal Blink** *(Once per long rest)*  
+You can **teleport up to 30 feet**, appearing as a **rippling afterimage before stabilizing**.  
+
+---
+
+## **Where They Fit**  
+- **Many Riftborn are lonely**, feeling like they are **the only ones of their kind**.  
+- Some **work for A.S.T.R.A.L.**, hoping the agency can help them **understand what they are**.  
+- Criminal organizations sometimes use **Riftborn as secret couriers**, slipping between dimensions for a **clean getaway**.  
+
+---
+
+## **Playstyle & Roleplaying Hooks**  
+- **Do you search for a way back, or do you believe there is no home to return to?**  
+- **Do you feel like an intruder in this world, or do you try to blend in?**  
+- **Is the Rift closing, or is something still calling you back?**  
+
+\page
+
+# **🌑 Umbral - The Shapeless Lurkers**  
+*"I am not a shadow. I am what the shadow dreams of being."*  
+
+The **Umbral** do not have **bodies in the traditional sense**—they are **manifestations of the Veil’s fluid nature**, sometimes **shadow, sometimes mist, sometimes something unknowable**. They do not **age, leave corpses, or have a static form**. Instead, they exist as **pure transition**, forever shifting between **what is and what could be**.  
+
+---
+
+## **Umbral Traits**  
+Your Umbral character has the following racial traits.  
+
+### **Ability Score Increase**  
+- Your **Dexterity** score increases by **2**.  
+- Your **Wisdom** score increases by **1**.  
+
+### **Age**  
+Umbrals do not age, but over time, their forms **become more formless**, eventually fading into the Veil.  
+
+### **Size**  
+Umbrals are **shifting, undefined silhouettes**, appearing vaguely humanoid. Your size is **Medium**.  
+
+### **Speed**  
+Your base walking speed is **30 feet**.  
+
+---
+
+## **Living Shadow**  
+You **shift between solid and shadow form** for up to **1 minute**, gaining **advantage on Dexterity (Stealth) checks in dim light or darkness**.  
+
+---
+
+## **Veil Hunger** *(Once per long rest)*  
+You can **absorb a fragment of another creature’s form**, taking on **one minor physical trait for 24 hours**.  
+
+---
+
+## **Phantom Step** *(Once per short rest)*  
+You can **move through another creature’s space without provoking attacks of opportunity**.  
+
+---
+
+## **Unshaped Essence**  
+You **do not age**, nor do you **leave behind a corpse when you die**—only an **imprint in the Veil**.  

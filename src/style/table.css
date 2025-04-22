@@ -1,0 +1,23 @@
+/* --- Tables: Bureaucratic Report Style --- */
+.page table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.page th {
+    background-color: #D6D6D6;
+    /* Ash Gray */
+    color: #2C2C2C;
+    /* Vault Black */
+    padding: 2px;
+    border-bottom: 3px solid #8F8F8F;
+    /* Stronger Border */
+    text-transform: uppercase;
+}
+.page td {
+    background-color: #F8F8F8;
+    /* Paper White */
+    color: #5A5A5A;
+    /* Charcoal Gray */
+    padding: 2px;
+    border-bottom: 1px solid #BFBFBF;
+}

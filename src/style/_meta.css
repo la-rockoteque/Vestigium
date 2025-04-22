@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive);
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+
+:root {
+    --rotate: 20deg;
+    --left: unset;
+    --top: unset;
+    --correction: "correction";
+    --source: 'https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png';
+    --TOC: "include";
+    --HB_Color_PageBackground: #F8F8F8;
+    --HB_Color_Accent: #b89f6f;
+    --HB_Color_HeaderUnderline: #945b2f;
+    --HB_Color_HorizontalRule: #6e2e1e;
+    --HB_Color_HeaderText: #e8d7b5;
+    --HB_Color_MonsterStatBackground: #2a211b;
+    --HB_Color_CaptionText: #9c8667;
+    --HB_Color_WatercolorStain: #3b2e22;
+    --HB_Color_Footnotes: #b79a74;
+    --HB_Color_Footnote_Border: #D3D3D3;
+    --HB_Color_Footnote_Text: #2C2C2C;
+    --HB_Color_Cheatblock_Border: #808080;
+    --HB_Color_Cheatblock_Header_Background: #D3D3D3;
+    --HB_Color_Cheatblock_Background: #D3D3D3;
+    --HB_Color_Header_One_Text: #2C2C2C;
+    --HB_Color_Header_One_Background: #F8F8F8;
+    --HB_Color_Header_Two_Text: #F8F8F8;
+    --HB_Color_Header_Three_Text: #5A5A5A;
+    --HB_Color_Header_Four_Text: #8F8F8F;
+    --HB_Color_Header_Four_Border: #8F8F8F;
+    --HB_Color_Cover_Background: #FFFFFF;
+    
+    --Palette-Lightgray: #D3D3D3;
+    --Palette-Whitesmoke: #F8F8F8;
+    --Palette-White: #FFFFFF;
+    --Palette-Gray: #808080;
+    --Palette-Mine-Shaft: #2C2C2C;
+    --Palette-Chicago: #5A5A5A;
+    --Palette-Mountain-Mist: #8F8F8F;
+    --Palette-Midnight-Blue: #0F3D75;
+}
+
+.page h1+p:first-letter {
+    all: unset;
+}

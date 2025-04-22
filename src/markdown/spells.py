@@ -10,16 +10,11 @@ def row_to_markdown(row):
     components = row["Components ABVR"] if pd.notna(row["Components ABVR"]) else "V, S, M"
     duration = row["Duration"].strip()
     description = row["Description"].strip()
-    image = row["Image Url"].strip()
+    # image = row["Image Url"].strip()
 
     return f"""
 #### {spell_name}
-<Image
-  src="{image}"
-  alt="{spell_name}"
-  width="{80}"
-  height="{80}"
-/> *{level} {school}*
+*{level} {school}*
 **Casting Time:** :: {casting_time}
 **Range:**        :: {spell_range}
 **Components:**   :: {components}

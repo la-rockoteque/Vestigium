@@ -1,0 +1,1106 @@
+```metadata
+title: Ashen Vault - Class Druid
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+/*=======--- Example CSS styling ---=======*/
+/* Any CSS here will apply to your document! */
+@import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Oswald:wght@200..700&family=Permanent+Marker&display=swap);
+:root {
+    --rotate: 20deg;
+    --left: unset;
+    --top: unset;
+    --correction: "correction";
+    --source: "https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png";
+}
+
+
+.page:has(.frontCover) {
+    background-color: black;
+}
+
+.page:has(.frontCover) .coverBackground {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -1cm;
+    left: 0;
+    z-index: -1;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/4008d3d73ccb2b8049be8e1fff7497be.webp');
+    background-size: cover;
+    background-position: center;
+    mask-image: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 20%), rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: linear-gradient(270deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+.page:has(.frontCover) .coverImage {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -7cm;
+    left: 0;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/0a0b5e7e9496fd06deac901172f5455f.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.page:has(.frontCover) h1,
+.page:has(.frontCover) h2,
+.page:has(.frontCover) h3 {
+    border-bottom: unset;
+    -webkit-text-stroke: unset;
+    text-stroke: unset;
+    ;
+}
+
+.page:has(.frontCover) h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: White;
+    margin-top: 50px;
+    font-family: "Oswald", sans-serif;
+    background: none;
+}
+
+.page:has(.frontCover) h2 {
+    font-size: 2rem;
+    letter-spacing: 8.5px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.page:has(.frontCover) h3 {
+    margin-top: 10px;
+    text-decoration: underline overline #d1d1d1;
+}
+
+.page:has(.frontCover) .footnote {
+    font-size: 1.5rem;
+    color: #d1d1d1;
+    margin-top: 30px;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 2px gray;
+    ;
+    text-stroke: 2px gray;
+    text-align: right;
+}
+
+/* Removes Drop Caps */
+.page h1 + p:first-letter {
+    all: unset;
+}
+.page .footnote {
+    border-top: lightgray dotted 2px;
+    width: 80%;
+    color: gray;
+    bottom: 28px;
+}
+.page .footnote > h1 {
+    background-color: transparent;
+    border: none;
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+.inline-block.pageNumber {
+    font-size: 1cm;
+    color: black;
+}
+/* Removes Small-Caps in first line */
+.page h1 + p:first-line {
+    all: unset;
+}
+.page {
+    background-color: #f8f8f8;
+    /* Light gray background */
+    background-image: radial-gradient(
+        circle,
+        rgba(0, 0, 0, 0.1) 1px,
+        transparent 1px
+    );
+    background-size: 20px 20px;
+    /* Adjust spacing */
+    font-family: "Courier New", Courier, monospace;
+    /* Typewriter / Redacted Report */
+}
+
+.page:has(.preface) {
+    columns: 1;
+    column-span: all;
+    gap: 5px;
+    text-align: center;
+
+}
+
+
+.page:after,
+.page:has(.frontCover):after,
+.page:has(.preface):after,
+.page:has(.insideCover):after,
+.page:nth-child(even)::after {
+    all: unset;
+    content: "Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.";
+    transform-origin: top right;
+    transform: rotate(270deg);
+    white-space: nowrap;
+    position: absolute;
+    right: 1.5cm;
+    top: 0px;
+    color: gray;
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    width: 29cm;
+}
+.page:before {
+    all: unset;
+    content: "Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.";
+    transform-origin: top left;
+    transform: rotate(90deg);
+    white-space: nowrap;
+    position: absolute;
+    left: 1.5cm;
+    top: 0px;
+    color: gray;
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    width: 29cm;
+}
+.page:has(.preface) .logo {
+    top: 10cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 0.075cm black);
+}
+.page:has(.insideCover) .logo {
+    top: 0.5cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 0.075cm black);
+}
+.page:has(.insideCover) p,
+.page:has(.insideCover) ul {
+    margin-top: 20px;
+    text-align: left;
+}
+.page:has(.insideCover) .logo > img {
+    height: 2cm;
+    width: 1.8cm;
+    opacity: 0.1;
+    filter: none;
+}
+.page:has(.preface) .logo > img {
+    height: 10cm;
+    width: 9cm;
+    opacity: 0.1;
+    filter: none;
+}
+
+.page:has(.preface),
+.page:has(.insideCover) {
+    background: none;
+    background-color: #f8f8f8;
+}
+
+.coverpicture {
+    margin-top: 1.5cm;
+    max-width: 15cm;
+    max-height: 15cm;
+}
+
+.coverpicture > img {
+    max-width: 100%;
+    max-height: 100%;
+    mix-blend-mode: luminosity;
+}
+
+.page h1 {
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    color: #2c2c2c;
+    /* Vault Black */
+    background-color: #ededed;
+    /* Subtle Header Background */
+    padding: 5px;
+    border-bottom: 3px solid #2c2c2c;
+    /* Strong Bureaucratic Divider */
+}
+.page:has(.insideCover) h1,
+.page:has(.preface) h1,
+.page:has(.partCover) h1 {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    background-color: #ededed;
+    /* Subtle Header Background */
+    color: #2c2c2c;
+    /* Vault Black */
+    padding: 5px;
+    border-bottom: 0;
+}
+.page:has(.preface) h1 {
+    -webkit-text-stroke: 0;
+}
+.page:has(.insideCover) h1 {
+    background-image: linear-gradient(
+        45deg,
+        #f7f7f7 25%,
+        #dbdbdb 25%,
+        #dbdbdb 50%,
+        #f7f7f7 50%,
+        #f7f7f7 75%,
+        #dbdbdb 75%,
+        #dbdbdb 100%
+    );
+    background-size: 14.14px 14.14px;
+}
+.page:has(.insideCover) .footnote,
+.page:has(.preface) .footnote,
+.page:has(.partCover) .footnote {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+    -webkit-text-stroke: 0;
+    text-align: left;
+}
+.block .footnote {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+}
+.page h2 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #2c2c2c;
+    border-bottom: 2px solid #8f8f8f;
+}
+.page:has(.insideCover) h2,
+.page:has(.preface) h2,
+.page:has(.partCover) h2 {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+    border-bottom: 0;
+}
+.page:has(.preface) h2 {
+    -webkit-text-stroke: 0;
+}
+.page h3,
+.page:has(.insideCover) h3,
+.page:has(.preface) h3,
+.page:has(.partCover) h3 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    color: #5a5a5a;
+    text-transform: uppercase;
+    border-bottom: gray dashed 1px;
+}
+.page h4,
+.page:has(.insideCover) h4,
+.page:has(.preface) h4,
+.page:has(.partCover) h4 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    color: #8f8f8f;
+}
+.page .redacted {
+    background-color: black;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+.page:has(.preface) hr {
+    margin: 10px;
+    position: relative;
+    width: 100%;
+    height: 5mm;
+    /* Adjust height to match a real ruler */
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0mm,
+        transparent 0.8mm,
+        black 0.8mm,
+        black 1mm
+    );
+    filter: none;
+}
+.page:has(.insideCover) hr {
+    position: relative;
+    width: 100%;
+    height: 1mm;
+    /* Adjust height to match a real ruler */
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0mm,
+        transparent 0.8mm,
+        black 0.8mm,
+        black 1mm
+    );
+}
+page hr {
+    border: 2px dashed #8f8f8f;
+    /* Looks like an official document break */
+}
+.page blockquote {
+    background-color: #ededed;
+    border-left: 4px solid #2c2c2c;
+    padding: 10px;
+    font-family: "Courier New", Courier, monospace;
+}
+/* --- Tables: Bureaucratic Report Style --- */
+.page table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.page th {
+    background-color: #d6d6d6;
+    /* Ash Gray */
+    color: #2c2c2c;
+    /* Vault Black */
+    padding: 8px;
+    border-bottom: 3px solid #8f8f8f;
+    /* Stronger Border */
+    text-transform: uppercase;
+}
+.page td {
+    background-color: #f8f8f8;
+    /* Paper White */
+    color: #5a5a5a;
+    /* Charcoal Gray */
+    padding: 8px;
+    border-bottom: 1px solid #bfbfbf;
+    /* Soft Grid */
+}
+/* --- Links: Subtle and Official-Looking --- */
+.page a {
+    color: #2c2c2c;
+    text-decoration: none;
+    border-bottom: 1px dashed #8f8f8f;
+}
+.page a:hover {
+    color: #5a5a5a;
+    border-bottom: 1px solid #5a5a5a;
+}
+.post-it {
+    left: var(--left);
+    top: var(--top);
+    transform: rotate(var(--rotate));
+    max-width: 250px;
+    max-height: 240px;
+    width: 250px;
+    height: 240px;
+    position: relative;
+    background: #ffa;
+    overflow: hidden;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 0 0 0 30px/45px;
+    box-shadow: inset 0 -40px 40px rgba(0, 0, 0, 0.05),
+        inset 0 25px 10px rgba(0, 0, 0, 0.07), 0 5px 6px 5px rgba(0, 0, 0, 0.2);
+    font-family: "Cedarville Cursive", cursive;
+    line-height: 1.7em;
+    font-size: 19px;
+    -webkit-mask-image: url(data:image/png;
+    base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+    color: #130d6b;
+}
+.post-it:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    background: #ffa;
+    box-shadow: 3px -2px 10px rgba(0, 0, 0, 0.2),
+        inset 15px -15px 15px rgba(0, 0, 0, 0.3);
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    transform: skewX(25deg);
+}
+.smudge {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/5d4334616f20bd1d1f059f6007892650.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.smudge:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 10cm;
+    height: 10cm;
+
+    background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 1) 19%,
+        rgba(255, 255, 255, 0) 52%
+    );
+    background-blend-mode: lighten;
+}
+
+.coffee-stain {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f74119a30ba73c9c5b3a7cc1aa9d7d42.png")
+        no-repeat center;
+    background-size: contain;
+    mix-blend-mode: multiply;
+}
+
+.corrected {
+    position: relative;
+    text-decoration: line-through;
+    color: black;
+}
+
+.corrected::after {
+    content: var(--correction, "Default Text");
+    font-size: 12px;
+    color: #0f3d75;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    font-family: "Cedarville Cursive", cursive;
+
+    -webkit-mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+}
+
+.paperclip {
+    position: absolute;
+    display: block;
+    top: -10px;
+    left: var(--left, 60);
+    width: 50px;
+    height: 150px;
+    transform: rotate(-15deg); /* Slight tilt for realism */
+    opacity: 0.8; /* Slight transparency */
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/421f492b3660fca7d119964aff1f24db.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.polaroid {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    max-width: 10cm;
+    max-height: 10cm;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png")
+        no-repeat center;
+    background-size: contain;
+    transform-origin: top left;
+}
+
+.polaroid > p > img {
+    margin-left: 1.26cm;
+    margin-top: 0.74cm;
+    height: 7.4cm;
+    width: 7.5cm;
+    object-fit: cover;
+    mix-blend-mode: screen;
+}
+
+.doodle.dog1 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/6d860afef532110ae76b559ace75dfa7.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.dog2 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/e2820894e1c1c58cb9d710e5522858fc.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.cat1 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/b43f55649f7f416de20109ce0f3b6722.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.cat2 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/898133d59ab4ce7d036283cf075620e2.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.doodle {
+    position: relative;
+    top: var(--top);
+    left: var(--left);
+    display: block;
+    width: 150px;
+    height: 150px;
+    -webkit-mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-repeat: repeat;
+}
+
+.fading {
+    background: linear-gradient(
+        to bottom,
+        black 10%,
+        rgba(0, 0, 0, 0.8) 30%,
+        rgba(0, 0, 0, 0.6) 50%,
+        rgba(0, 0, 0, 0.4) 70%,
+        rgba(0, 0, 0, 0.1) 90%,
+        transparent
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+```
+
+{{frontCover}}
+{{coverBackground}}
+## Class
+# Druid
+## Architect of Decay & Renewal  
+
+
+{{footnote 
+#### A.S.T.R.A.L Training Material
+}}
+
+\page
+
+{{insideCover}}
+
+# CONFIDENTIAL  
+## ⚠ A.S.T.R.A.L.⚠  
+## ANTHROPOLOGICAL SURVEY DIVISION  
+___  
+
+This document is the sole property of the **Agency for Surveillance, Tracking, and Regulation of Anomalous Landscapes (A.S.T.R.A.L.)** and is classified under **Biometric Analysis Protocol O-92**. Unauthorized access, duplication, or distribution constitutes a direct violation of the **Anomalous Contingency Act (A.C.A. §17-42)** and will trigger immediate countermeasures.  
+
+By accessing this file, you acknowledge:  
+- You have the **necessary clearance** to review classified **biological intelligence**.  
+- You are subject to **continuous biometric and cognitive monitoring** under **Anthropological Compliance Mandate 24-B**.  
+- Any **unauthorized replication or dissemination** will result in the activation of **Containment Directive Theta**, authorizing full intervention by **Bio-Security Division Kappa**.  
+- Disclosure of restricted genetic analysis will **invoke subject-specific erasure protocols**, up to and including **cognitive redaction under Directive 88-P**.  
+
+This document provides **ongoing surveillance data, species profiling, and genetic deviation reports** concerning the recognized **sentient populations of Concord City and its surrounding territories**. Due to **unresolved discrepancies regarding human emergence events**, data integrity remains under **constant review by the Oversight Bureau (O.B.)**.  
+
+If you are not the intended recipient, cease all interaction immediately and report this breach to **A.S.T.R.A.L. Oversight Bureau (O.B.)** via secure terminal [O.B.//DIRECT-LINK-SEC/347-99]. Failure to comply will escalate to **Genetic Contingency Response Protocol Cobalt-7**.  
+
+### **Vorraki – Species Designation: Homo Voracis**  
+**Summary:** The **Vorraki** are **genetically optimized for high-impact physicality, rapid muscular repair, and combat-oriented reflex enhancement**. Their **distinct genetic subtypes** exhibit **adaptive resilience**, ensuring dominance across a wide range of physically demanding environments. While traditionally relegated to **security, enforcement, and paramilitary operations**, emerging Vorraki power structures suggest an **ongoing transition toward economic and political self-sufficiency**, particularly in **black-market security, logistics, and organized paramilitary enterprises**. **Containment is not advised—negotiation remains the recommended control mechanism.**  
+
+**A.S.T.R.A.L. – DEFENDING REALITY AGAINST GENETIC UNCERTAINTY**  
+**Everything is under observation.**  
+
+{{pageNumber,auto}}
+\page
+## **Druid**  
+*Reality Weaver | Paranormal Shaman | Echo of the Old World | Veilwalker*  
+
+> *"Nature? You mean the wreckage of the old world, the ghosts of what once was? I don’t worship the past—I listen to it."*  
+> — **Sister Elira, Order of the Hollow Veil**  
+
+### **Thematic Overview**  
+Druids in Concord City are not tied to traditional nature. Instead, they tap into **paranormal echoes, remnants of the lost world, and the shifting energies of reality itself**. Some are mystics who commune with **lingering spirits**, while others serve as **keepers of forgotten knowledge** or **protectors of the hidden places** where The Emergence’s scars remain.
+- Druids are **weavers of reality, protectors of paranormal anomalies, and guardians of the unknown**.  
+- Some work as **A.S.T.R.A.L. investigators**, studying unstable regions of Concord City.  
+- Others exist on the fringes, members of **esoteric cults** or nomadic visionaries.  
+- Their magic is drawn from **lost memories, supernatural whispers, and eldritch ecosystems**.  
+
+### **Creating a Druid**  
+- Do you revere the remnants of the lost world or seek to unravel its secrets?  
+- Are you part of a hidden sect, a rogue scholar, or a wanderer who listens to the city’s echoes?  
+- What is your connection to The Emergence? Were you changed by it, or do you seek to undo its scars?  
+
+
+## **Class Features**  
+As a **Druid**, you gain the following class features.
+
+### **Hit Points**  
+- **Hit Dice:** *1d8 per Druid level*  
+- **Hit Points at 1st Level:** *8 + Constitution modifier*  
+- **Hit Points at Higher Levels:** *1d8 (or 5) + Constitution modifier per level after 1st*  
+
+### **Proficiencies**  
+- **Armor:** *Light armor, medium armor (no metal), shields (no metal)*  
+- **Weapons:** *Clubs, daggers, spears, quarterstaffs, scythes*  
+- **Tools:** *Alchemical kits, ritual components*  
+- **Saving Throws:** *Intelligence, Wisdom*  
+- **Skills:** *Choose two from Arcana, Insight, Medicine, Nature, Perception, and Religion*  
+
+### **Equipment**  
+You start with the following equipment, in addition to any granted by your background:  
+- *(a)* a ritual blade or *(b)* a staff attuned to a paranormal frequency  
+- *(a)* an esoteric grimoire or *(b)* a collection of pre-Emergence texts  
+- *(a)* a lightweave cloak or *(b)* an armored shaman’s robe  
+- A set of occult tools or paranormal diagnostic instruments  
+
+{{pageNumber,auto}}
+\page
+
+{{wide
+## **Class Table**  
+| Level | Proficiency Bonus | Features |  
+|:-:|:-:|:--|  
+| 1st | +2 | Spellcasting, Druidic |  
+| 2nd | +2 | Shape Reality, Circle of the Veil |  
+| 3rd | +2 | - |  
+| 4th | +2 | Ability Score Improvement, Minor Reality Shift |  
+| 5th | +3 | Paranormal Sense |  
+| 6th | +3 | Circle Feature |  
+| 7th | +3 | - |  
+| 8th | +3 | Ability Score Improvement, Eldritch Resistance |  
+| 9th | +4 | Alter Terrain |  
+| 10th | +4 | Circle Feature |  
+| 11th | +4 | - |  
+| 12th | +4 | Ability Score Improvement |  
+| 13th | +5 | - |  
+| 14th | +5 | Circle Feature |  
+| 15th | +5 | - |  
+| 16th | +5 | Ability Score Improvement |  
+| 17th | +6 | Paranormal Mastery |  
+| 18th | +6 | Timeless Body |  
+| 19th | +6 | Ability Score Improvement |  
+| 20th | +6 | Reality Anchor |  
+}}
+
+## **Class Abilities**  
+### **Spellcasting (Level 1)**  
+You channel **paranormal energy** through rites and rituals. See the Druid spell list for available options.
+
+### **Druidic (Level 1)**  
+You know **Druidic**, a secret language spoken only by those who understand the lost whispers of the world.
+
+## **Subclasses**  
+At **2nd level**, you choose a Druidic Circle that defines your approach to reality.
+
+### **Shape Reality (Level 2)**  
+Instead of traditional Wild Shape, you can subtly **alter the fabric of existence**:  
+- Change minor environmental features.  
+- Shift the color of an object or minorly distort perception.  
+- Sense the **paranormal imprints** left behind by The Emergence.  
+
+## **Urban Conduit (Terrain-Based Adaptation)**  
+*"The ground beneath you is your ally or your weapon."*  
+
+At **2nd level**, you gain a **unique benefit based on the terrain you are stepping on.**  
+
+### **Effects:**  
+- When standing on a **terrain type listed below**, you gain its corresponding effect.  
+- These effects **persist until you move onto a new terrain type**.  
+- At **10th level**, you may **store** one terrain effect for **1 minute after leaving it**.  
+
+| **Terrain Type**                  | **Effect** |
+|-----------------------------------|------------|
+| **Concrete & Asphalt**            | **Immovable:** Gain **advantage on Strength saving throws** against forced movement. |
+| **Metal (Grating, Ramps, Rails)** | **Resonance:** Gain **+5 feet movement speed** and **advantage on Perception checks based on sound.** |
+| **Glass & Smooth Surfaces**       | **Fluid Motion:** Gain **advantage on Acrobatics checks** and ignore non-magical difficult terrain. |
+| **Rubble & Broken Ground**        | **Instinctive Defense:** Gain **+1 AC** against ranged attacks. |
+| **Water, Oil & Slippery Surfaces**| **Liquid Flow:** **Dash as a bonus action** when moving through this terrain. |
+| **Toxic or Industrial Waste**     | **Corrosive Form:** Melee attacks **deal +1 acid damage**. |
+| **Paranormal Anomalies**          | **Reality Drift:** Gain **resistance to psychic damage** and advantage against hallucinations. |
+
+---
+
+## **Living Terrain (Active Terrain Manipulation)**  
+*"I don’t just walk the city—I shape it."*  
+
+At **6th level**, you can **alter the battlefield** by **shaping or corrupting** the terrain beneath you.
+{{pageNumber,auto}}
+\page
+
+### **Effects:**  
+- As a **Bonus Action**, you may **alter** the terrain beneath you within a **10-foot radius**.  
+- The change lasts **1 minute**, unless it is sustained by a spell.  
+- Choose **one** of the following effects when activating this ability:  
+
+| **Modification Type**             | **Effect** |
+|-----------------------------------|------------|
+| **Restore Ground**               | **Removes difficult terrain, stabilizes crumbling surfaces, and clears debris.** |
+| **Corrupt Ground**               | **Turns the area into difficult terrain, causing structures to decay.** |
+| **Industrial Hazard**            | **Generates smoke, gas leaks, or rusted edges, forcing enemies to make a Constitution save or be poisoned.** |
+| **Paranormal Surge**             | **Creates unstable anomalies, forcing creatures in the area to make a Wisdom save or experience hallucinations.** |
+
+---
+
+## **Flickering Footsteps (Supernatural Movement)**  
+*"I move between the fractures of reality."*  
+
+At **10th level**, you can **phase through certain terrains**, allowing you to **slip through structures and urban hazards.**  
+
+### **Effects:**  
+- When stepping onto **metal, glass, or paranormal terrain**, you may **teleport 10 feet** as a **bonus action**.  
+- You may **pass through walls** that are **made of the same material you are standing on** (DC 15 Arcana check if magical).  
+- When moving through **paranormal anomalies**, you may choose to **become semi-incorporeal** until the end of your turn (resistance to non-magical physical damage).  
+
+---
+
+## **Architect of Decay & Renewal (True Battlefield Control)**  
+*"I decide what stands and what falls."*  
+
+At **14th level**, you gain **total control over terrain within 30 feet**, allowing you to **collapse, restore, or weaponize the environment.**  
+
+### **Effects:**  
+- **Once per Long Rest**, you may use an **Action** to **reshape the environment** within **a 30-foot radius**.  
+- Choose **one of the following major effects:**  
+
+| **Effect Name**                    | **Effect** |
+|------------------------------------|------------|
+| **Collapse the Structure**         | **Instantly destroy a weakened structure, causing it to collapse. Creatures inside take 6d6 bludgeoning damage (Dex save for half).** |
+| **Raise the Ruins**                | **Summon broken debris into new walls, obstacles, or bridges. These structures last for 1 hour.** |
+| **Industrial Catastrophe**         | **Trigger gas explosions, chemical spills, or machinery failures, dealing 4d8 damage (Fire/Acid).** |
+| **Paranormal Convergence**         | **Amplify an existing anomaly, forcing creatures inside to make a Charisma save or become lost in a fractured reality.** |
+
+{{pageNumber,auto}}
+\page
+
+# **Druid Cantrips by Terrain Type**
+{{wide
+## **Urban Terrain**
+| **Terrain** | **Cantrip** | **Effect** |
+|------------|------------|------------|
+| **Brick & Cobblestone** | **Tectonic Disruption** | Target must make a **Strength save** or be **knocked prone** by shifting bricks. |
+
+
+}}
+{{wide
+## **Industrial Terrain**
+| **Terrain** | **Cantrip** | **Effect** |
+|------------|------------|------------|
+| **Metal Grating** | **Resonant Echo** | Target takes **1d8 Thunder damage**, and creatures **within 5 feet take half damage.** |
+| **Steel Plates** | **Impact Reverberation** | If a creature is knocked **prone**, they take an **extra 1d6 Thunder damage**. |
+| **Catwalks** | **Steel Step** | As a **reaction**, if you would fall prone, you **negate the effect and reposition 5 feet instead**. |
+| **Rusted Panels** | **Weakpoint Fracture** | Target takes **1d6 Slashing damage** and must make a **Dexterity save** or suffer **half movement speed** for 1 round. |
+
+}}
+{{wide
+
+## **Infrastructure & Transit**
+| **Terrain** | **Cantrip** | **Effect** |
+|------------|------------|------------|
+| **Subway Tiles** | **Disruptive Footing** | All creatures in a **5-ft radius** must make a **Dexterity save** or **lose their reaction** until the end of their next turn. |
+| **Maintenance Grating** | **Structural Unraveling** | Target must make a **Strength save** or **fall prone and move 5 feet in a random direction**. |
+| **Glass Floors** | **Shatterpoint** | Target standing on fragile material takes **1d8 Force damage**, and the surface may **break** if damaged. |
+
+}}
+{{wide
+
+## **Paranormal & Anomalous**
+| **Terrain** | **Cantrip** | **Effect** |
+|------------|------------|------------|
+| **Flickering Digital Surfaces** | **Glitch Step** | Teleport **5 feet** in a random direction. If an enemy is within 5 feet, they take **1d4 Psychic damage**. |
+| **Endless Hallways** | **Spatial Disorientation** | Target must make a **Wisdom save** or be **unable to willingly move in a straight line** for 1 round. |
+| **Veined Stone** | **Living Grip** | Target must make a **Strength save** or be **restrained** until the end of their next turn. |
+
+}}
+{{wide
+
+## **Decayed & Abandoned**
+| **Terrain** | **Cantrip** | **Effect** |
+|------------|------------|------------|
+| **Broken Tiles** | **Cracked Ground** | The next creature to step on this area must make a **Dexterity save** or **fall prone**. |
+| **Warped Wood** | **Splinter Surge** | Target takes **1d8 Piercing damage**, and must make a **Dexterity save** or take **1 additional damage per foot moved**. |
+| **Moss-Covered Pavement** | **Overgrowth Snare** | The next creature to move here has their **speed reduced by 10 feet** until the end of their next turn. |
+| **Crumbling Concrete** | **Collapse Point** | Choose a **5-ft square**. If a creature enters that space, they must make a **Dexterity save** or take **1d10 Bludgeoning damage**. |
+
+}}
+
+## ** Additional Rules**
+- **If standing on a "No Effect" terrain, the Druid has no cantrip access.**  
+- **At level 10,** Druids may **store one cantrip** for **1 minute** after stepping off a terrain.  
+- These **replace traditional Druid cantrips**—a **Vestigium Druid does not have fixed spells**, only terrain-based abilities.  
+
+{{pageNumber,auto}}
+\page
+## Druid Circles  
+
+---
+
+### **Circle of Rust **  
+*"Metal rots like flesh. The city was never built to last."*  
+
+#### **Features & Playstyle**  
+- **Manipulates rust, corrosion, and the slow death of infrastructure.**  
+- Wields **disease, metal decay, and ruin** to reclaim urban spaces.  
+- Common among **urban scavengers, ruin-dwellers, and eco-terrorists.**  
+
+#### **Circle Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 2nd | **Rust Touch** – You can corrode metal with a touch. As an action, weaken a metallic object, causing it to rust, jam, or break. |  
+| 6th | **Decay Spreads** – Your spells ignore resistance to necrotic or poison damage when targeting constructs and inorganic creatures. |  
+| 10th | **Steel to Dust** – You can cast *Heat Metal* without concentration, causing severe rusting on metallic surfaces. |  
+| 14th | **Urban Collapse** – Once per long rest, you can weaken a **20-foot radius** of concrete, metal, or stone, causing structural collapse. |  
+
+---
+
+### **Circle of Neon**  
+*"The lights never go out, and neither do I."*  
+
+#### **Features & Playstyle**  
+- **Harnesses city lights, digital signals, and electrical currents.**  
+- Merges **druidic power with technology, adapting to the cybernetic city.**  
+- Common among **hacked consciousnesses, cyber-druids, and rogue technicians.**  
+
+#### **Circle Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 2nd | **Neon Veins** – Your spells can be flavored as digital glitches or bursts of static. You can touch a powered device to either short-circuit it or overcharge it. |  
+| 6th | **Electric Overdrive** – Gain resistance to lightning damage. Your melee attacks deal extra lightning damage equal to your Wisdom modifier. |  
+| 10th | **Citywide Broadcast** – Once per long rest, you can cast *Sending* or *Suggestion* through the city’s wireless networks, targeting any device-connected creature. |  
+| 14th | **Become the Signal** – Once per long rest, you can dissolve into pure data, traveling through wires, cameras, or digital screens for up to 1 minute. |  
+
+---
+
+### **Circle of the Hollow**  
+*"Some places refuse to be remembered."*  
+
+#### **Features & Playstyle**  
+- **Masters of abandoned buildings, forgotten alleyways, and dead spaces.**  
+- Uses **urban entropy, liminal spaces, and psychological horror.**  
+- Common among **urban shamans, ghost druids, and reality-warped wanderers.**  
+
+#### **Circle Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 2nd | **Liminal Step** – You can step into an abandoned doorway or alley and emerge from another within 60 feet. |  
+| 6th | **Veil of the Forgotten** – While inside an unoccupied building or alleyway, you are invisible to creatures unless they directly interact with you. |  
+| 10th | **Echoes of the Past** – You can hear faint, distorted voices and visions of a location’s past when you rest in it. Gain *Legend Lore* once per long rest. |  
+| 14th | **Reality Glitch** – Once per long rest, you can distort local reality, causing a **20-foot area** to flicker unpredictably for 1 minute (forcing Wisdom saves or causing creatures to become lost). |  
+
+---
+
+### **Circle of the Vermin**  
+*"Nature didn’t leave. It just changed."*  
+
+#### **Features & Playstyle**  
+- **Masters of rats, insects, and other urban survivors.**  
+- Thrives in **trash, ruins, and abandoned places.**  
+- Common among **waste shamans, slum-dwellers, and gutter prophets.**  
+
+
+#### **Circle Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 2nd | **Urban Swarm** – Summon a swarm of rats, cockroaches, or pigeons that obey simple commands. They can distract, fetch objects, or harass enemies. |  
+| 6th | **Filthborn** – Gain resistance to poison and disease. You can also eat spoiled food without suffering harm. |  
+| 10th | **Plague Conduit** – Once per long rest, you can **spread a supernatural sickness**, causing enemies within 15 feet to become poisoned for 1 minute. |  
+| 14th | **Swarm Body** – Once per long rest, you can dissolve into a writhing mass of vermin for up to 1 minute, making you immune to non-magical attacks and allowing you to move through cracks and vents. |  
+
+---
+
+### **Circle of Steel**  
+*"The world is steel and stone. And I am its guardian."*  
+
+#### **Features & Playstyle**  
+- **Masters of industrial landscapes, factories, and reinforced structures.**  
+- Wields **metal, machinery, and unbreakable resolve.**  
+{{pageNumber,auto}}
+\page
+- Common among **factory workers, urban druids, and self-proclaimed gods of industry.**  
+
+#### **Circle Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 2nd | **Metal Communion** – Gain proficiency with medium armor and smith’s tools. You can communicate simple thoughts to nearby machinery. |  
+| 6th | **Iron Hide** – Gain resistance to non-magical slashing and piercing damage. Your skin hardens, reflecting the resilience of the city itself. |  
+| 10th | **Urban Bulwark** – Once per long rest, you can **reinforce a structure**, preventing it from collapsing and increasing its AC and hit points. |  
+| 14th | **Titan’s Form** – Once per long rest, you can transform into a **gargantuan construct** for 1 minute, gaining temporary HP and increased strength. |  
+
+---
+
+### **Circle of the Wires**  
+*"The trees are gone. But the wires still whisper."*  
+
+#### **Features & Playstyle**  
+- **Masters of the city’s hidden networks, radio waves, and data streams.**  
+- Uses **digital spirits, machine consciousness, and encrypted magic.**  
+- Common among **hacker-druids, ghost coders, and those who speak to the city’s artificial soul.**  
+
+#### **Circle Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 2nd | **Ghost in the Code** – Gain proficiency in hacking and access to the city’s surveillance feeds for basic data. |  
+| 6th | **Electro-Adaptation** – Gain resistance to lightning and immunity to being stunned. Your reaction speed increases, allowing you to act first in initiative once per long rest. |  
+| 10th | **Viral Presence** – Once per long rest, you can implant **a hidden message** into a system, forcing machines and devices to relay your words when accessed. |  
+| 14th | **Dataform Shift** – Once per long rest, you can temporarily upload yourself into the city’s digital infrastructure, traveling through networks for up to 1 minute. |  
+
+
+---
+
+### **Circle of the Smog**  
+*"Breathe deep. The city is inside you now."*  
+
+#### **Features & Playstyle**  
+- **Masters of smoke, pollution, and toxic adaptation.**  
+- Spreads **corrosive mists, industrial poisons, and suffocating gases.**  
+- Common among **refinery mystics, wasteland wanderers, and poison cultists.**  
+
+#### **Circle Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 2nd | **Toxic Resilience** – Gain resistance to poison and immunity to airborne toxins. You can survive in low-oxygen environments. |  
+| 6th | **Smog Cloud** – You can exhale a 10-foot-radius cloud of toxic gas, lightly obscuring the area and poisoning creatures inside it. |  
+| 10th | **Industrial Affliction** – Once per long rest, you can cause a target to start coughing violently, making them unable to cast spells or communicate for 1 minute. |  
+| 14th | **Living Pollution** – You can transform into a **being of smog and toxins** for 1 minute, gaining resistance to all damage except force and psychic. |  
+
+---
+
+### **Circle of the Scrapyard**  
+*"Nature didn’t die. It just turned into something sharper."*  
+
+#### **Features & Playstyle**  
+- **Masters of scavenged magic, repurposed waste, and forgotten relics.**  
+- Can **bend metal, animate debris, and create weapons from scrap.**  
+- Common among **wasteland druids, urban scavengers, and scrapyard mystics.**  
+
+
+#### **Circle Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 2nd | **Junk Mage** – You can use pieces of scrap metal and discarded objects as druidic focuses for spellcasting. |  
+| 6th | **Scrap Armor** – Gain +1 AC while wearing light or medium armor. You can create makeshift armor from debris in 1 hour. |  
+| 10th | **Animate Debris** – Once per long rest, you can bring a pile of trash or scrap to life, acting as a temporary construct under your control for 1 minute. |  
+| 14th | **Scrap Titan** – You can shape-shift into a **golem of industrial waste**, gaining temporary HP and increased melee damage. |  
+
+---
+
+### **Circle of the Forgotten**  
+*"The past never leaves. It just waits to be heard."*  
+
+#### **Features & Playstyle**  
+- **Channels the memories of forgotten places and urban decay.**  
+- Uses **hauntings, echoes, and residual emotions** as power.  
+- Common among **spirit mediums, urban shamans, and keepers of lost knowledge.**  
+{{pageNumber,auto}}
+\page
+#### **Circle Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 2nd | **Echo Sense** – When entering an abandoned place, you can see brief flashes of its past occupants. |  
+| 6th | **Whispers of the Ruins** – Gain advantage on Investigation and Perception checks in places that haven’t been inhabited in at least a year. |  
+| 10th | **Lingering Spirits** – Once per long rest, you can call forth a ghostly presence that answers one question truthfully. |  
+| 14th | **Reawaken the Lost** – Once per long rest, you can restore a destroyed location or object to a past version of itself for 24 hours. |  
+
+---
+
+### **Circle of the Railways**  
+*"Steel veins pump the lifeblood of the city. Ride the current."*  
+
+#### **Features & Playstyle**  
+- **Masters of movement, transit, and high-speed travel.**  
+- Gains **unnatural speed, terrain adaptation, and teleportation abilities.**  
+- Common among **train cultists, subway shamans, and speed demons.**  
+
+#### **Circle Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 2nd | **Urban Stride** – You ignore difficult terrain in cities and can move through narrow spaces without squeezing. |  
+| 6th | **Railrunner’s Rush** – Your movement speed increases by 10 feet. You can use a reaction to move 10 feet when an enemy misses you. |  
+| 10th | **Ghost Train Step** – Once per long rest, you can teleport up to 60 feet as long as you start and end your movement on a road, track, or transit line. |  
+| 14th | **Speed of the City** – While in urban environments, you can take the Dash action as a bonus action. |  
+
+---
+
+### **Circle of Concrete**  
+*"Nature has not died. It has evolved into something stronger."*  
+
+#### **Features & Playstyle**  
+- **Masters of concrete, asphalt, and city-built landscapes.**  
+- Gains abilities tied to **walls, structural reinforcement, and urban control.**  
+- Common among **brutalist monks, urban guardians, and concrete-bound sages.**  
+
+#### **Circle Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 2nd | **Concrete Communion** – Gain proficiency with Mason’s tools. You can sense weak points in buildings and structures. |  
+| 6th | **Hardened Skin** – While standing on artificial surfaces, you gain +1 AC and resistance to non-magical damage. |  
+| 10th | **City’s Grip** – You can meld into a concrete wall for up to 1 minute, becoming undetectable while inside. |  
+| 14th | **The City Endures** – Once per long rest, you can reinforce an entire structure within 100 feet, preventing it from collapsing or being destroyed for 24 hours. |  
+
+---
+
+### **Circle of the Echo Grid**  
+*"The city hums. I know how to listen."*  
+
+#### **Features & Playstyle**  
+- **Wields sound waves, vibrations, and city noise as power.**  
+- Uses **resonance, subsonic influence, and auditory disruption.**  
+- Common among **urban mystics, sound engineers, and acoustic shamans.**  
+
+
+#### **Circle Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 2nd | **Echo Tuning** – Gain proficiency in Performance. You can manipulate echoes to mimic voices or mask sounds. |  
+| 6th | **Sonic Resilience** – Gain resistance to thunder damage. You cannot be deafened. |  
+| 10th | **Disrupting Frequencies** – Once per long rest, you can create a **30-foot field of distorted sound**, imposing disadvantage on spellcasting that requires verbal components. |  
+| 14th | **Resonant Collapse** – Once per long rest, you can shatter glass, metal, and unstable structures within a **30-foot radius**, forcing creatures to make a Strength saving throw or be knocked prone. |  
+
+{{pageNumber,auto}}
+\page
+
+## **Multiclassing**  
+If your campaign allows multiclassing, use the following rules for a **Druid** multiclass character.  
+
+### **Ability Score Minimums**  
+- Wisdom 13  
+
+### **Proficiencies Gained**  
+- Light armor, medium armor, shields (no metal)  
+
+---
+
+## **Quick Build**  
+You can make a **Druid** quickly by following these suggestions:  
+- Choose **Elf or Tiefling** for a thematic fit.  
+- Pick the **Occultist** or **Hermit** background.  
+- Prioritize **Wisdom**, followed by **Intelligence**.  
+- Take a ritual blade and an esoteric grimoire for roleplay potential. 

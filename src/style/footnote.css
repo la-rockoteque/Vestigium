@@ -1,0 +1,21 @@
+.page .footnote {
+    border-top: var(--HB_Color_Footnote_Border) dotted 2px;
+    width: 80%;
+    color: var(--HB_Color_Footnote_Text);
+    bottom: 28px;
+}
+.page .footnote > h1 {
+    background-color: transparent;
+    border: none;
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+
+.block .footnote {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: var(--HB_Color_Footnote_Text);
+}

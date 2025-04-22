@@ -1,7 +1,44 @@
-body {
-    margin: 20px;
+.page {
+    background-color: var(--HB_Color_PageBackground);
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 11px;
 }
-.two-columns {
-    column-count: 2;
-    column-gap: 40px;
+
+.page .redacted {
+    background-color: black;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px
 }
+
+page hr {
+    border: 2px dashed #8F8F8F;
+    /* Looks like an official document break */
+}
+
+.page blockquote {
+    background-color: #EDEDED;
+    border-left: 4px solid #2C2C2C;
+    padding: 10px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

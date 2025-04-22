@@ -1,0 +1,40 @@
+.page h1 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    color: #2C2C2C;
+    background-color: #EDEDED;
+    padding: 5px;
+    border-bottom: 3px solid #2C2C2C;
+}
+
+.page h2 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #2C2C2C;
+    border-bottom: 2px solid #8F8F8F;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.page h3 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    color: var(--HB_Color_Header_Three_Text);
+    text-transform: uppercase;
+    border-bottom: gray dashed 1px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.page h4 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 13px;
+    color: var(--HB_Color_Header_Four_Text);
+    border-bottom: 1px dotted var(--HB_Color_Header_Four_Border);
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+

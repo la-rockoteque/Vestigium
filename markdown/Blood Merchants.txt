@@ -1,0 +1,337 @@
+```metadata
+title: Blood Merchants
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+{{frontCover}}
+
+{{logo ![](/assets/naturalCritLogoRed.svg)}}
+
+# Blood Merchant
+## Non-Playable Character Perks
+___
+
+{{banner ROCKO}}
+
+{{footnote
+  Life is for the living.
+Death is for the dead.
+Let life be like music.
+And death a note unsaid.
+}}
+
+![background image](https://i.pinimg.com/564x/b9/1f/9e/b91f9e1a1abecafd2c7fb5fb92b6a09b.jpg){position:absolute,bottom:0,left:0,width:100%}
+
+\page
+
+{{imageMaskEdge7,--offset:12%,--rotation:90
+  ![](https://db4sgowjqfwig.cloudfront.net/images/6558309/92ecef1d849e92777258180e23958f8e.jpg){height:100%}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+
+
+\column
+
+::::
+
+## August
+### Stats
+
+- race: changeling
+- speciality: seduction
+
+
+### Description:
+
+August is a changeling. Which means they can change their body at will. Sometimes a woman’s body, sometimes a male body. They have no identify as they don’t remember what gender they were born. They uses their body, morphing it, sculting it to gain anything they want. THey have no shame. And a spectacular sexual appetite.
+
+### Perks:
+
+Whenever, the party try to do something, something happens
+
+\page
+
+{{imageMaskEdge7,--offset:2%,--rotation:90,margin-left:-14%
+  ![](https://db4sgowjqfwig.cloudfront.net/images/6558305/0bb4db66bfe22ff5e0b3c3a7b726d3a8.jpg){height:100%}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+
+
+\column
+
+::::
+
+## Coup-de-Plume
+### Stats
+
+- race: kenku
+- speciality: knowledge
+
+
+### Description:
+
+Coup-de-plume is a scholar from the blood merchants. He keeps reading and reading books to gather knowledge. He does not have a voice of his own, so he mimic one of his friends when he has to speak. He does not have any opinion of his own, unless its something from his books.
+
+### Perks:
+
+Coup-de-Plume has access to a huge library. He probably has a book on the subject of anything.
+Give Coup-de-Plume and he will find those books. Works like Allana's Library Rats, but a bit different.
+
+#### Coup-de-Plume's Library Birds
+*8th-level transmutation*
+
+**Casting Time:** :: 1 action
+**Range:**        :: 30 feet
+**Components:**   :: V, M (key words whispered to a wooden token depicting a little mouse)
+**Duration:**     :: 1 round
+**School:**       :: Divination
+
+Describe key words about a topic. This spell creates 2d4+1 swallows made of force energy that run from your hand towards written materials, such as books or scrolls.
+
+When a swallow of force hits a written material containing one or more key words, the swallow is absorbed by the item, which starts floating towards the caster until it carefully drop on a surface.
+
+The spell can locate a specific book or scroll or written material known to you, as long as you have clear recollection of its name or the author's or even its contents. And only if the said item is really present at the place, since the spell cannot create the item out of thin air, only locate it within range.
+
+Similar to Locate Objects spell, this spell can't locate an object if any thickness of lead, even a thin sheet, blocks a direct path between you and the object.
+
+
+\page
+
+{{imageMaskEdge7,--offset:-2%,--rotation:90,margin-left:-20%
+  ![](https://db4sgowjqfwig.cloudfront.net/images/6558293/74fdba677481b6f5f1f4d922a4ea8320.jpg){height:100%}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+
+
+\column
+
+::::
+
+## Dube
+### Stats
+
+- race: tortle
+- speciality: combat
+
+
+### Description:
+
+Dube is a very slow tortle. He has a shied grafted on his broken carapace. The only thing he do is protect his firneds and act as a shield
+
+### Perks:
+
+Whenever, the party try to do something, something happens
+
+\page
+
+{{imageMaskEdge7,--offset:12%,--rotation:90
+  ![](https://db4sgowjqfwig.cloudfront.net/images/6558281/e33324296dabc21fb3e2b13767fde53f.jpg){height:100%}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+
+
+\column
+
+::::
+
+## Ganodash
+### Stats
+
+- race: tortle
+- speciality: combat
+
+
+### Description:
+
+Dube is a very slow tortle. He has a shied grafted on his broken carapace. The only thing he do is protect his firneds and act as a shield
+
+### Perks:
+
+Whenever, the party try to do something, something happens
+
+\page
+
+{{imageMaskEdge7,--offset:10%,--rotation:90,margin-left:-5%
+  ![](https://db4sgowjqfwig.cloudfront.net/images/6558273/fc1d78746c17466cbc57f0c66bd0c3ce.jpg){height:100%}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+
+
+\column
+
+::::
+
+## Grenssa Gilbanel
+### Stats
+
+- race: gnome
+- speciality: poisons
+
+
+### Description:
+
+Female gnome. She is the mistress of spices, she knows them all. She is also a master of poisons
+
+### Perks:
+
+Grenssa can craft rations for half the price
+Grenssa can craft poison for half the price
+Grenssa will buy spices for double the price
+
+\page
+
+{{imageMaskEdge7,--offset:-18%,--rotation:90,margin-left:-44%
+  ![](https://db4sgowjqfwig.cloudfront.net/images/6558649/e0900c019b712343cc37566789d54cb3.jpg){height:100%}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+
+
+\column
+
+::::
+
+## Cornelia Glenfoot
+### Stats
+
+- race: halfling
+- speciality: smuggling
+
+
+### Description:
+
+Dube is a very slow tortle. He has a shied grafted on his broken carapace. The only thing he do is protect his firneds and act as a shield
+
+### Perks:
+
+Cornelia can search for specific and rare item. She can achieve the same a using the Find Magic Item downtime activity, without the cost in Gold.
+
+She will either find the object and give it to you directly, or she can direct you to the place on where to find it.
+
+She can also gather rumors abotu a specific person or subject. This perk takes the same amount of time as the Find magic Item downtime activity.
+
+\page
+
+{{imageMaskEdge7,--offset:5%,--rotation:90,margin-left:-10%
+  ![](https://db4sgowjqfwig.cloudfront.net/images/6522039/3021cafdd5d3a0b14772fb783f134c1b.jpg){height:100%}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+
+
+\column
+
+::::
+
+## Altor Heglebaggle
+### Stats
+
+- race: gnome
+- speciality: initiation
+
+
+### Description:
+
+He is the Initiator for the Blood Merchant, guiding them crypticly towards their arrival into the cult
+
+### Perks:
+
+Whenever, the party try to do something, something happens
+
+\page
+
+{{imageMaskEdge7,--offset:2%,--rotation:90,margin-left:-14%;
+  ![](https://db4sgowjqfwig.cloudfront.net/images/6558313/bcbde9afd1b8226eebe5becb96a8de05.jpg){height:100%}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+
+
+\column
+
+::::
+
+## Malachite
+### Stats
+
+- race: void genasi
+- speciality: telepathy
+
+
+### Description:
+
+She is a void genasi psionic, therefore she has powerful psionic abilities. little is know of her, beside the fact that she can’t talk. She prefer to use telepathy. It is said she can melt te mind of a person with a single tought
+
+### Perks:
+
+The party can communicate at will with other Blood Merchants through her telepathy.
+\page
+
+{{imageMaskEdge7,--offset:12%,--rotation:90
+  ![](https://db4sgowjqfwig.cloudfront.net/images/6558265/9874ebda13483f2bc12601a9fe9c1268.jpg){height:100%}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+
+
+\column
+
+::::
+
+## Marimar Ssoara
+### Stats
+
+- race: tortle
+- speciality: combat
+
+
+### Description:
+
+The butcher of the black merchant
+
+Wields a butcher knife
+
+Cynic and salty
+
+### Perks:
+
+Marimar can make a body disapear complettely without a trace.
+
+\page
+
+{{imageMaskEdge7,--offset:-35%,--rotation:90,margin-left:-65%;
+  ![](https://db4sgowjqfwig.cloudfront.net/images/6908858/271777259_2639335876210237_2492998499631848118_n.png){height:100%}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+
+
+\column
+
+::::
+
+## Nozem Jokorin
+### Stats
+
+- race: human
+- speciality: getting in trouble
+
+### Description:
+
+Nozem is an expelled prince of the Jokorin family
+
+### Perks:
+
+Nozem has the perk of always getting in trouble.
+
+Other than that he can probably forge any official documents or get invitations in the high society events

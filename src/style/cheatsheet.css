@@ -1,0 +1,39 @@
+.cheatsheet {
+    column-span: all;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 13px;
+}
+
+.cheatblock {
+    column-count: 2;
+    column-width: auto;
+    -webkit-column-count: 2;
+    -webkit-column-width: auto;
+    background-color: var(--HB_Color_Cheatblock_Background);
+    border: gray solid 2px;
+    padding: 5px;
+    margin-bottom: 5px;;
+}
+
+.cheatsheet > h1{
+    column-span: all;
+    font-size: 10px;
+    border: unset;
+    background: unset;
+
+}
+
+.cheatblock > h2{
+    column-span: all;
+    font-size: 10px;
+
+}
+
+.cheatblock > h3{
+    font-family: "Source Sans Pro", sans-serif;
+    column-span: all;
+    border: unset;
+    border-bottom: var(--HB_Color_Cheatblock_Border) dashed 1px;
+    background-color: var(--HB_Color_Cheatblock_Header_Background);
+    letter-spacing: 6px;
+}

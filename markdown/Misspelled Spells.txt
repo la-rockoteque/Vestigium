@@ -1,0 +1,1170 @@
+```metadata
+title: Misspelled Spells
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+/*=======--- Example CSS styling ---=======*/
+/* Any CSS here will apply to your document! */
+ @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+ @import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive);
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+
+ 
+ :root {
+     --rotate: 20deg;
+     --left: unset;
+     --top: unset;
+     --correction: "correction";
+     --source: 'https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png';
+}
+/* Removes Drop Caps */
+ .page h1+p:first-letter {
+     all: unset;
+}
+ .page .footnote {
+     border-top: lightgray dotted 2px;
+     width: 80%;
+     color: gray;
+     bottom: 28px;
+}
+ .page .footnote > h1 {
+     background-color: transparent;
+     border: none;
+     font-size: 10px;
+     margin-bottom: 0px;
+}
+/* Removes Small-Caps in first line */
+ .page h1+p:first-line {
+     all: unset;
+}
+ .page {
+     background-color: #F8F8F8;
+    /* Light gray background */
+     background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+     background-size: 20px 20px;
+    /* Adjust spacing */
+     font-family: "Courier New", Courier, monospace;
+    /* Typewriter / Redacted Report */
+}
+ .page:after, .page:has(.frontCover):after, .page:has(.insideCover):after, .page:nth-child(even)::after {
+     all: unset;
+     content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+     transform-origin: top right;
+     transform: rotate(270deg);
+     white-space: nowrap;
+     position: absolute;
+     right: 1.5cm;
+     top: 0px;
+     color: gray;
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     width: 29cm;
+}
+ .page:before {
+     all: unset;
+     content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+     transform-origin: top left;
+     transform: rotate(90deg);
+     white-space: nowrap;
+     position: absolute;
+     left: 1.5cm;
+     top: 0px;
+     color: gray;
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     width: 29cm;
+}
+ .page:has(.frontCover) .logo {
+     top: 10cm;
+     right: 0;
+     left: 0;
+     filter: drop-shadow(0 0 .075cm black);
+}
+ .page:has(.insideCover) .logo {
+     top: 0.5cm;
+     right: 0;
+     left: 0;
+     filter: drop-shadow(0 0 .075cm black);
+}
+ .page:has(.insideCover) p, .page:has(.insideCover) ul {
+     margin-top: 20px;
+     text-align: left;
+}
+ .page:has(.insideCover) .logo>img {
+     height: 2cm;
+     width: 1.8cm;
+     opacity: 0.1;
+     filter:none;
+}
+ .page:has(.frontCover) .logo>img {
+     height: 10cm;
+     width: 9cm;
+     opacity: 0.1;
+     filter:none;
+}
+
+ .page:has(.frontCover),
+  .page:has(.insideCover){
+   background: none;
+   background-color: #F8F8F8;
+}
+
+.coverpicture {
+margin-top: 1.5cm;
+  max-width: 15cm;
+  max-height: 15cm;
+}
+
+.coverpicture > img {
+  max-width: 100%;
+  max-height: 100%;
+  mix-blend-mode: luminosity;
+}
+
+ .page h1 {
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size: 24px;
+     color: #2C2C2C;
+    /* Vault Black */
+     background-color: #EDEDED;
+    /* Subtle Header Background */
+     padding: 5px;
+     border-bottom: 3px solid #2C2C2C;
+    /* Strong Bureaucratic Divider */
+}
+ .page:has(.insideCover) h1, .page:has(.frontCover) h1, .page:has(.partCover) h1 {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size: 24px;
+     background-color: #EDEDED;
+    /* Subtle Header Background */
+     color: #2C2C2C;
+    /* Vault Black */
+     padding: 5px;
+     border-bottom: 0 
+}
+ .page:has(.frontCover) h1 {
+     -webkit-text-stroke: 0 
+}
+ .page:has(.insideCover) h1 {
+     background-image: linear-gradient(45deg, #f7f7f7 25%, #dbdbdb 25%, #dbdbdb 50%, #f7f7f7 50%, #f7f7f7 75%, #dbdbdb 75%, #dbdbdb 100%);
+     background-size: 14.14px 14.14px;
+}
+ .page:has(.insideCover) .footnote, .page:has(.frontCover) .footnote, .page:has(.partCover) .footnote {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 15px;
+     margin-top: 40px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+     -webkit-text-stroke: 0;
+     text-align: left;
+}
+ .block .footnote {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 20px;
+     margin-top: 40px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+}
+ .page h2 {
+     font-family: "Oswald", sans-serif;
+     text-transform: uppercase;
+     font-size: 20px;
+     color: #2C2C2C;
+     border-bottom: 2px solid #8F8F8F;
+}
+ .page:has(.insideCover) h2, .page:has(.frontCover) h2, .page:has(.partCover) h2 {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 20px;
+     margin-top: 20px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+     border-bottom: 0;
+}
+ .page:has(.frontCover) h2 {
+     -webkit-text-stroke: 0 
+}
+ .page h3, .page:has(.insideCover) h3, .page:has(.frontCover) h3, .page:has(.partCover) h3 {
+     font-family: "Courier New", Courier, monospace;
+     font-size: 18px;
+     color: #5A5A5A;
+     text-transform: uppercase;
+     border-bottom: gray dashed 1px;
+    ;
+}
+ .page h4, .page:has(.insideCover) h4, .page:has(.frontCover) h4, .page:has(.partCover) h4 {
+     font-family: "Courier New", Courier, monospace;
+     font-size: 16px;
+     color: #8F8F8F;
+}
+ .page .redacted {
+     background-color: black;
+     color: black;
+     padding: 2px 5px;
+     border-radius: 2px;
+}
+ .page:has(.frontCover) hr {
+     margin: 10px;
+     position: relative;
+     width: 100%;
+     height: 5mm;
+    /* Adjust height to match a real ruler */
+     background: repeating-linear-gradient( to right, transparent 0mm, transparent 0.8mm, black 0.8mm, black 1mm );
+     filter:none;
+}
+ .page:has(.insideCover) hr {
+     position: relative;
+     width: 100%;
+     height: 1mm;
+    /* Adjust height to match a real ruler */
+     background: repeating-linear-gradient( to right, transparent 0mm, transparent 0.8mm, black 0.8mm, black 1mm );
+}
+ page hr {
+     border: 2px dashed #8F8F8F;
+    /* Looks like an official document break */
+}
+ .page blockquote {
+     background-color: #EDEDED;
+     border-left: 4px solid #2C2C2C;
+     padding: 10px;
+     font-family: "Courier New", Courier, monospace;
+}
+/* --- Tables: Bureaucratic Report Style --- */
+ .page table {
+     border-collapse: collapse;
+     width: 100%;
+}
+ .page th {
+     background-color: #D6D6D6;
+    /* Ash Gray */
+     color: #2C2C2C;
+    /* Vault Black */
+     padding: 8px;
+     border-bottom: 3px solid #8F8F8F;
+    /* Stronger Border */
+     text-transform: uppercase;
+}
+ .page td {
+     background-color: #F8F8F8;
+    /* Paper White */
+     color: #5A5A5A;
+    /* Charcoal Gray */
+     padding: 8px;
+     border-bottom: 1px solid #BFBFBF;
+    /* Soft Grid */
+}
+/* --- Links: Subtle and Official-Looking --- */
+ .page a {
+     color: #2C2C2C;
+     text-decoration: none;
+     border-bottom: 1px dashed #8F8F8F;
+}
+ .page a:hover {
+     color: #5A5A5A;
+     border-bottom: 1px solid #5A5A5A;
+}
+ .post-it {
+     left: var(--left);
+     top: var(--top);
+     transform: rotate(var(--rotate));
+     max-width:250px;
+     max-height:240px;
+     width:250px;
+     height:240px;
+     position:relative;
+     background:#ffa;
+     overflow:hidden;
+     margin:30px auto;
+     padding:20px;
+     border-radius:0 0 0 30px/45px;
+     box-shadow: inset 0 -40px 40px rgba(0,0,0,0.05), inset 0 25px 10px rgba(0,0,0,0.07), 0 5px 6px 5px rgba(0,0,0,0.2);
+     font-family: 'Cedarville Cursive', cursive;
+     line-height:1.7em;
+     font-size:19px;
+     -webkit-mask-image: url(data:image/png;
+    base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+     color:#130d6b;
+}
+ .post-it:before {
+     content:"";
+     position:absolute;
+     width:20px;
+     height:25px;
+     background:#ffa;
+     box-shadow: 3px -2px 10px rgba(0,0,0,0.2), inset 15px -15px 15px rgba(0,0,0,0.3);
+     left:0;
+     bottom:0;
+     z-index:2;
+     transform:skewX(25deg);
+}
+ .smudge {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     filter: blur(1px) contrast(110%);
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/5d4334616f20bd1d1f059f6007892650.png') no-repeat center;
+     background-size: contain;
+
+
+}
+
+    .smudge:before {
+    position: absolute;
+    content:'';
+    left: 0;
+    top: 0;
+     width: 10cm;
+     height: 10cm;
+   
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 19%, rgba(255,255,255,0) 52%);
+background-blend-mode: lighten
+
+    
+    }
+
+
+
+ .coffee-stain {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     filter: blur(1px) contrast(110%);
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f74119a30ba73c9c5b3a7cc1aa9d7d42.png') no-repeat center;
+     background-size: contain;
+     mix-blend-mode: multiply;
+}
+ 
+ 
+.corrected {
+    position: relative;
+    text-decoration: line-through;
+    color: black;
+}
+
+.corrected::after {
+    content: var(--correction, "Default Text");;
+    font-size: 12px;
+    color: #0F3D75;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+       font-family: 'Cedarville Cursive', cursive;
+   
+    -webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+}
+
+
+.paperclip {
+ 
+    position: absolute;
+    display-block;
+    top: -10px;
+    left: var(--left, 60);
+    width: 50px;
+    height: 150px;
+    transform: rotate(-15deg); /* Slight tilt for realism */
+    opacity: 0.8; /* Slight transparency */
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/421f492b3660fca7d119964aff1f24db.png') no-repeat center;
+    background-size: contain;
+}
+
+ .polaroid {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     max-width:10cm;
+     max-height: 10cm;
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png') no-repeat center;
+    background-size: contain;
+         transform-origin: top left;
+}
+
+.polaroid > p > img {
+  margin-left: 1.26cm;
+  margin-top: 0.74cm;
+  height: 7.4cm;
+  width: 7.5cm;
+  object-fit: cover;
+  mix-blend-mode: screen;
+}
+
+
+.doodle.dog1 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/6d860afef532110ae76b559ace75dfa7.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.dog2 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/e2820894e1c1c58cb9d710e5522858fc.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.cat1 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/b43f55649f7f416de20109ce0f3b6722.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.cat2 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/898133d59ab4ce7d036283cf075620e2.png') no-repeat center;
+    background-size: contain;
+}
+
+.doodle {
+position: relative;
+   top: var(--top);
+   left: var(--left);
+    display: block;
+    width: 150px;
+    height: 150px;
+     -webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-repeat: repeat;
+}
+
+
+.fading {
+    background: linear-gradient(to bottom, black 10%, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.4) 70%, rgba(0, 0, 0, 0.1) 90%, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cheatsheet {
+  column-span: all;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 13px;
+}
+
+.cheatblock {
+    column-count: 2;
+    column-width: auto;
+    -webkit-column-count: 2;
+    -webkit-column-width: auto;
+    background-color: white;
+        border: gray solid 2px;
+        padding: 5px;
+        margin-bottom: 5px;;
+}
+
+.cheatsheet > h1{
+    column-span: all;
+    font-size: 10px;
+        border: unset;
+        background: unset;
+    
+}
+
+.cheatblock > h2{
+    column-span: all;
+    font-size: 10px;
+    
+}
+
+.cheatblock > h3{
+   font-family: "Source Sans Pro", sans-serif;
+    column-span: all;
+    border: unset;
+    border-bottom: gray dashed 1px;
+    background-color: lightgray;
+    letter-spacing: 6px;
+}
+```
+
+{{}}
+\page
+{{insideCover}}
+{{logo ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png)}}
+
+# CONFIDENTIAL  
+## ⚠  A.S.T.R.A.L. ⚠  
+## CLASSIFIED DOCUMENT  
+___  
+
+### **POST-EXPERIMENTAL INCIDENT REPORT: LINGUISTIC ENTANGLEMENT & ARCANE LEXICAL FAILURE**  
+**DOCUMENT ID:** [REDACTED]  
+**AUTHORIZED CLEARANCE LEVEL:** **VIOLET** (or higher)  
+**ISSUED BY:** **A.S.T.R.A.L. Bureau of Experimental Oversight**  
+___  
+
+This document is **restricted under Protocol X-27-Ω** and is not to be accessed by any entity, human or otherwise, that has been affected by **spell formulation errors, verbal misalignment anomalies, or dyslexic summoning accidents.** If you are reading this **without explicit clearance**, you are now **under review for immediate cognitive restructuring and/or retroactive deletion.**  
+
+By proceeding, you acknowledge:  
+- **You have the appropriate security credentials** for classified thaumaturgical anomaly intelligence.  
+- **You have not been subjected to anomalous linguistic corruption** or suffered from unintended spellcasting due to verbal inconsistencies (If uncertain, submit **Form 23-Q** and await mandatory decontamination).  
+- **You are not currently, nor have ever been, involved in a spellcasting session directed by Researcher Gerald Fintz.**  
+
+### **NOTICE OF LEXICAL CONTAMINATION & SPELL FAILURE LIABILITY**  
+Pursuant to the **Thaumaturgical Compliance Act (T.C.A. §8-21)** and the **Lexical Arcane Safety Mandate (L.A.S.M. §13-42)**, all spells derived from the **Fintz Catastrophe** are subject to review and classification under the following criteria:  
+
+\page
+
+{{insideCover}}  
+
+1. **MISPRONUNCIATION-BASED SPELL DEVIATIONS** (Low-Risk)  
+ - Commonly includes **Animate Beard, Chromatic Orc, or Banish Mint**.  
+ - Standard **Form 92-S** must be submitted post-cast for **anomaly verification**.  
+
+2. **LINGUISTIC INFLECTION ERRORS** (Moderate-Risk)  
+- Includes spells such as **Charm Pierson (randomly affects individuals named Pierson) or Hold Hans (only affects individuals named Hans)**.  
+- Requires **spell refinement screening** prior to recasting.  
+ - Failure to comply may result in **ritual misfire litigation**.  
+
+3. **CATASTROPHIC LEXICAL FAILURES** (High-Risk)  
+ - Any spells involving unintended **reality bending or unstable miswording artifacts** must be logged in the **Thaumaturgical Incident Registry**.  
+- Immediate reporting is required if a spell exhibits **non-standard phonetic resonance shifts** (e.g., Summon Greater Brim instead of Summon Greater Demon, which conjured an enormous hat instead of an infernal being).  
+
+4. **PROHIBITED INCANTATIONS** (Containment-Level Risk)  
+ - **Any attempts to reconstruct original spell intent using dyslexic phonetic approximations are strictly forbidden.**  
+ - **Spells labeled as "Fintz-Class Linguistic Abominations" require** **Containment Officer Approval** before research or testing.  
+
+**NOTE:** Violations of **A.S.T.R.A.L. Lexical Safety Directive 46-D** may result in **forced spell-amnesia procedures, cognitive recalibration, or enforced silence protocols**.  
+
+---  
+
+### **IF YOU ARE READING THIS AND ARE CURRENTLY EXPERIENCING AN ACTIVE SPELL FAILURE:**  
+1. **Remain calm.** The issue is now logged.  
+2. **Do not attempt to undo the spell by repeating it backwards.** This has proven ineffective and, in one case, resulted in spontaneous bovine manifestation.  
+3. **Submit yourself for immediate assessment at the nearest A.S.T.R.A.L. Incident Containment Office.**  
+4. **If anomalous linguistic phenomena have begun manifesting, await a Taskforce Theta retrieval team.**  
+
+> **Failure to report unregulated mispronunciations leading to spell failures will result in a Level-5 containment breach classification and will be handled accordingly.**  
+> **This includes but is not limited to:**  
+> - **Mandatory speech therapy with arcane oversight.**  
+> - **Placement in the A.S.T.R.A.L. Experimental Linguistics Initiative (note: prior participants have not so much been "retrained" as "retranslated").**  
+> - **Dimensional quarantine until lexical integrity is confirmed.**
+
+
+\page
+
+
+#### Animate Beard
+*1st-level Transmutation*
+
+**Casting Time:** :: Action
+**Range:**        :: 500 ft.
+**Components:**   :: V
+**Duration:**     :: Instantaneous
+
+The caster’s beard (or the nearest beard within range) becomes sentient. (Randomness) → Beard Mutations – Roll a d6 for beard effects: 1.Beard attacks an enemy (1d6 slashing) 2.Beard grows 5 feet long 3.Beard wraps around your face, muffling speech 4.Beard turns into a snake 5.Beard jumps off and runs away 6.Beard bursts into flames. It cannot speak but dramatically strokes itself during moments of deep thought. Occasionally, it tries to look smug. One of the earliest anomalies was a set of facial hair strands that twitched and coiled unnaturally. Rogers' notes mention an 'uncontrollable follicular animation event' that caused panic in Lab 12.
+
+---
+
+#### Animate Fred
+*2nd-level Conjuration*
+
+**Casting Time:** :: Action
+**Range:**        :: 500 ft.
+**Components:**   :: S, V
+**Duration:**     :: Instantaneous
+
+Temporarily animates a random inanimate object and names it Fred. (Roleplay) → Every time the spell is cast, Fred remembers past lives but never gets a happy ending. (Combat) → Fred is a Fighter – The object turns into a Tiny sentient combatant (AC 14, HP 10, 1d8 slam attack) for 1 minute. (Scaling) → Bigger Fred – At higher levels, Fred gets more HP, damage, or even casts spells.. Fred has no special abilities and a bad attitude. Roll a d10 to determine the spell's effect from the chaos table. There was never a 'Fred' on the A.S.T.R.A.L. personnel list. Yet, security logs document multiple reports of an unknown figure walking through the black site, only for footage to reveal an empty hallway.
+
+---
+
+#### Banish Mint
+*2nd-level Transmutation*
+
+**Casting Time:** :: Reaction (when an enemy attacks)
+**Range:**        :: 500 ft.
+**Components:**   :: S, V
+**Duration:**     :: Instantaneous
+
+All traces of mint—including gum, toothpaste, and even the *concept* of mint—are erased within a 50-foot radius. (Synergy) → Could be disastrous if cast on a druid’s garden or used to manipulate a poison-based encounter. (Roleplay) → Entire cultures could outlaw this spell for ruining their cuisine. (Scaling) → Erase Stronger Substances – Higher levels allow banishing larger amounts of substances (e.g., removing all water from a creature).. Affected individuals immediately forget that mint ever existed, and chaos follows. A garbled A.S.T.R.A.L. directive warns against 'categorical erasure of conceptual flavors.' The document repeatedly glitches on the word 'mint' before cutting off entirely.removing all water from a creature).
+
+---
+
+#### Charm Pierson
+*2nd-level Enchantment*
+
+**Casting Time:** :: Action
+**Range:**        :: Self
+**Components:**   :: S, V
+**Duration:**     :: Instantaneous
+
+Enchants a random person named Pierson within 30 feet. Can affect anyone whose name the caster correctly guesses (Does not work on people you already know their name) (Roleplay) → Entire Pierson-based cults or factions could emerge because of this spell.. If no such person is present, the spell fizzles. Roll a d10 to determine the spell's effect from the chaos table. No known Piersons were ever assigned to A.S.T.R.A.L. Yet, scattered
+field reports reference individuals responding to that name before vanishing entirely.emerge because of this spell.
+
+---
+
+#### Chromatic Orc
+*3rd-level Transmutation*
+
+**Casting Time:** :: Action
+**Range:**        :: 60 ft.
+**Components:**   :: S
+**Duration:**     :: Instantaneous
+
+Temporarily turns a single orc into a shimmering, multicolored version of themselves. The orc emits dim light (Scaling) →Better lights, dim turns to bright, then the area enlarges. No other effect.
+
+\page
+
+#### Color Stray
+*Cantrip Transmutation*
+
+**Casting Time:** :: Action
+**Range:**        :: 500 ft.
+**Components:**   :: S
+**Duration:**     :: Instantaneous
+
+Temporarily gives all stray animals in the area a neon hue. Stays the same. The effect is harmless but deeply confusing to onlookers.
+
+---
+
+#### Conjure Mild Inconvenience
+*Cantrip Transmutation*
+
+**Casting Time:** :: Action
+**Range:**        :: 30 ft.
+**Components:**   :: S, V
+**Duration:**     :: Instantaneous
+
+A random minor annoyance appears within 30 feet—such as a missing sock, an incorrectly labeled book, or an itch that cannot be scratched. The spell mention a chaos table but it is missing. No one is harmed, but everyone is frustrated. Roll a d10 to determine the spell's effect from the chaos table.
+
+---
+
+#### Dancing Wights
+*2nd-level Conjuration*
+
+**Casting Time:** :: Action
+**Range:**        :: 60 ft.
+**Components:**   :: S, V
+**Duration:**     :: 10 minutes
+
+Summons a group of undead who can only communicate through synchronized dance. (Randomness) → What Dance? – Roll a d6 for the dance style, which affects the wights’ behavior: 1.Waltz – Slow, elegant, hard to hit (bonus AC) 2.Breakdance – Spinning kicks deal 1d6 damage in melee 3.Ballet – Floating movement (ignore difficult terrain) 4.Flamenco – Makes loud stomping noises (draws attention) 5.Disco – Emits light (cancels invisibility in 10 ft radius) 6.Macarena – All creatures must make a Wisdom save or join in. The undead wights have AC 12, 20 HP, and can perform a coordinated melee attack dealing 1d6 necrotic damage. They vanish after 10 minutes. Make a ranged spell attack against a target. On a hit, the target takes 1d8 force damage. The creature must make a Charisma saving throw. On a failure, it is banished to another plane for 1 minute. An internal A.S.T.R.A.L. memo, flagged for deletion, describes an 'incident in containment chamber Theta-7' where the dead began to mimic human movement patterns. The memo notes that personnel reported hearing music from no discernible source.
+
+---
+
+#### Delayed Blast Nap
+*3rd-level Transmutation*
+
+**Casting Time:** :: Reaction (when an ally takes damage)
+**Range:**        :: 120 ft.
+**Components:**   :: S
+**Duration:**     :: 1 minute
+
+The caster targets a creature, who immediately falls asleep for 1 minute. (Combat) → Tactical Sleep Bomb – The caster sets a timer (1-3 rounds) before the spell takes effect, forcing enemies to strategize around it. (Scaling) → Bigger Nap Radius – Higher levels increase the affected creatures and duration of sleep. (Combat) → Summon Dancing Undead Minions – The wights provide a passive aura that charms nearby creatures or causes disadvantage to attackers who fail a Wisdom save (too distracted by the dance).. The target must make a Wisdom saving throw or be rendered unconscious. A loud noise or physical disturbance wakes them. There was a time when this spell was a precision tool for battlefield control. But after the Event, its formula destabilized. Now, some claim that those who sleep under its effect speak in tongues and wake up murmuring words
+
+---
+
+#### Disguise Serf
+*2nd-level Transmutation*
+
+**Casting Time:** :: Action
+**Range:**        :: 500 ft.
+**Components:**   :: S
+**Duration:**     :: Instantaneous
+
+Transforms a lowly peasant into a slightly better-dressed peasant. (Scaling) → Larger Disguise Scope – At higher levels, this affects multiple creatures. They still can’t enter noble estates.
+
+---
+
+#### Dope Trick
+*1st-level Transmutation*
+
+**Casting Time:** :: 1 minute
+**Range:**        :: 120 ft.
+**Components:**   :: S, V
+**Duration:**     :: Instantaneous
+\page
+The caster performs an absolutely sick trick on a skateboard that impresses everyone but grants no combat advantage. If enough people are impressed, (clarify of to quantify that), the character gains advantage on all charisma skill checks and saving throw until a long rest.
+
+---
+
+#### Enrage Person
+*3rd-level Transmutation*
+
+**Casting Time:** :: Action
+**Range:**        :: 60 ft.
+**Components:**   :: S, V
+**Duration:**     :: 1 minute
+
+Selects one creature and makes them inexplicably furious. (Combat) → Forced Aggro – Target must make a Wisdom saving throw or immediately attack the nearest creature (friend or foe). (Roleplay) → Could be used in social sabotage, bar fights, or destabilizing political figures. (Randomness) → Unpredictable Anger – Roll a d6 for what makes them mad: 1.They rage against the caster (focused aggression) 2.They rage against themselves (disadvantage on all attacks) 3.They rage against the nearest wall (wasting their turn) 4.They rage against their own clothing (ripping it off) 5.They rage against a random inanimate object 6.They rage against an unseen cosmic force (looking paranoid). The target must succeed on a Wisdom saving throw or be forced to attack the nearest creature for 1 minute. Make a ranged spell attack against a target. On a hit, the target takes 1d8 force damage. The creature must make a Charisma saving throw. On a failure, it is banished to another plane for 1 minute. Survivors of the black site recall an experiment labeled 'RAGE-031'. Test subjects were exposed to audio loops of distorted whispers. None of them retained the ability to reason afterward.
+
+---
+
+#### Explosive Runes?
+*1st-level Transmutation*
+
+**Casting Time:** :: Action
+**Range:**        :: Touch
+**Components:**   :: S, V
+**Duration:**     :: Instantaneous
+
+A written document is imbued with unstable magic. Change for a random innofensive effect (Roll on a table of effect, confettis, trumpets, raspberry, mild insults) (Scaling) → More Runes, More Chaos – At higher levels, place multiple runes with random effects. (All effects are innofensive). When case at higher levels all the documents have the same effect.. Upon reading, the text **almost** explodes—but then changes its mind and simply bursts into aggressive confetti instead. 
+
+---
+
+#### Feather Ball
+*Cantrip Conjuration*
+
+**Casting Time:** :: Action
+**Range:**        :: Self
+**Components:**   :: M, S, V
+**Duration:**     :: Instantaneous
+
+Creates a lightweight sphere made of feathers. No new effects. It’s fun to toss around but otherwise entirely useless.
+
+---
+
+#### Feeblemime
+*3rd-level Necromancy*
+
+**Casting Time:** :: Action
+**Range:**        :: 60 ft.
+**Components:**   :: S, V
+**Duration:**     :: 1 minute
+
+The target is cursed to act out everything they say. No new effects. The target must make a Charisma saving throw or be unable to communicate normally for 1 minute. The target must make a Constitution saving throw or suffer the curse's effects for 1 minute. Security footage from the black site shows an entire research team miming silently in unison for three hours. No audio recorded. The final frames show them turning toward the camera, mouths moving—but no sound was ever heard.
+
+---
+
+#### Fight
+*3rd-level Transmutation*
+
+**Casting Time:** :: Action
+**Range:**        :: 120 ft.
+**Components:**   :: S
+**Duration:**     :: Instantaneous
+
+Causes two creatures within range to develop an overwhelming desire to settle their differences through dramatic fisticuffs. (Combat) → Forced Duel – Both creatures must succeed on a Charisma save or attack each other until the spell ends. (Scaling) → Bigger Brawls – At higher levels, affects more creatures, turning it into an all-out brawl.. If no valid targets exist, the caster begins
+\page
+punching the air aggressively. A restricted A.S.T.R.A.L. file contains an altered combat training protocol where personnel would fight without instruction. The log notes: 'Speech patterns compromised. They cannot refuse. THEY CANNOT REFUSE.'
+
+---
+
+#### Fog Cloud?
+*2nd-level Conjuration*
+
+**Casting Time:** :: Action
+**Range:**        :: 60 ft.
+**Components:**   :: S, V
+**Duration:**     :: Instantaneous
+
+This spell creates a localized mist, but something is off. Remove this spell. The fog refuses to stay still, shifting unpredictably in different directions, making it equally frustrating for both the caster and their enemies. **Additional Effects:** Remove this spell Remove this spell
+
+---
+
+#### Frog Cloud
+*2nd-level Transmutation*
+
+**Casting Time:** :: Action
+**Range:**        :: Self
+**Components:**   :: S, V
+**Duration:**     :: 1 hour
+
+A dense cloud of tiny frogs rains from the sky. (Combat) → Slippery Hazard – The cloud rains frogs, creating difficult terrain in a 10-ft. radius. (Scaling) → More Frogs, More Chaos – At higher levels, the cloud expands, affecting a larger area.. They are non-hostile but insist on croaking in harmony.
+
+---
+
+#### Glade Ward
+*4th-level Necromancy*
+
+**Casting Time:** :: Action
+**Range:**        :: 500 ft.
+**Components:**   :: S, V
+**Duration:**     :: Instantaneous
+
+The affected creature is blessed—or cursed—with an unnatural connection to forests. The spell in ironically named. There are no forest in Concord City. Instead it grows lichen in a big area around the caster. It he is blessed, the lichens are friendly, if he is cursed, they will not be friendly Maybe something about finding a secret para-dimensional park?. They struggle to find any opening in dense foliage but can effortlessly avoid tripping on hidden roots. Also, deer just kind of stare at them. An unwilling target must make a Wisdom saving throw. The effect lasts for 1 hour or until dispelled. The target must make a Constitution saving throw or suffer the curse's effects for 1 minute. A heavily censored document refers to an experiment with 'environmental stabilization anomalies.' The notes are vague, but one section mentions a ward that 'defied categorization, neither boon nor curse—only rewritten fate.'
+
+---
+
+#### Glibness 2: The Lies Continue
+*3rd-level Transmutation*
+
+**Casting Time:** :: Action
+**Range:**        :: 60 ft.
+**Components:**   :: V
+**Duration:**     :: Instantaneous
+
+For the next hour, the caster can lie with absolute confidence. (Combat) → Reality-Bending Lies – Once per round, the caster can convince the DM of something minor, forcing it to be true. (Scaling) → More Powerful Lies – At 9th level, the caster can temporarily alter laws of physics.. Unfortunately, the lies are always completely unbelievable, such as ‘I invented bread’ or ‘I once punched the moon.’
+
+---
+
+#### Gourds and Wharfs
+*2nd-level Conjuration*
+
+**Casting Time:** :: Action
+**Range:**        :: Touch
+**Components:**   :: S
+**Duration:**     :: Instantaneous
+
+Summons an assortment of decorative gourds and a single miniature dock. (Scaling) → Bigger Objects – At higher levels, the spell summons entire sections of wooden piers or giant pumpkins. (Randomness) → Roll a d6 for Summon Result: 1.Small pile of gourds (no effect). 2.Gourds explode into harmless sparks. 3.A dock appears 10 feet away. 4.A small boat materializes on the dock. 5.A talking scarecrow appears briefly. 6.A single, massive gourd appears.. The meaning of this spell is lost to time. 
+
+---
+
+#### Illusory Wallflower
+*2nd-level Abjuration*
+
+**Casting Time:** :: Reaction (when a spell is cast nearby)
+**Range:**        :: 30 ft.
+\page
+**Components:**   :: S, V
+**Duration:**     :: Instantaneous
+
+A spectral figure manifests in the corner of the room, radiating unbearable social awkwardness. (Combat) → Stealth Aura – Enemies must make a Wisdom save or be unable to target the caster unless attacked. (Scaling) → Stronger Social Camouflage – At higher levels, the caster becomes functionally unnoticeable even when speaking. (Randomness) → Roll a d6 for Weird Side Effects: 1.People ignore you, even if you shout. 2.Your voice echoes slightly. 3.Your reflection disappears. 4.All written text about you vanishes. 5.Animals seem nervous around you. 6.People only remember vague things about you.. Anyone who notices it immediately forgets why they entered the room. 
+
+---
+
+#### Inject Sword
+*3rd-level Transmutation*
+
+**Casting Time:** :: Action
+**Range:**        :: 500 ft.
+**Components:**   :: S, V
+**Duration:**     :: Instantaneous
+
+The caster attempts to administer a sword directly into the target, as if it were a life-saving injection. (Combat) → Instant Stab – Forces a Dexterity save or embeds a sword into the target (1d8 piercing damage). (Scaling) → Bigger Weapons, Weirder Targets – At higher levels, can inject weapons with piercing or slashing type. Unfortunately, swords are not meant for medical use, and the results are both ineffective and deeply concerning. 
+
+---
+
+#### Insect Sword
+*2nd-level Conjuration*
+
+**Casting Time:** :: Action
+**Range:**        :: 60 ft.
+**Components:**   :: S, V
+**Duration:**     :: 10 minutes (Concentration)
+
+The caster conjures a sword composed entirely of writhing, venomous insects. remove the ranged spell attack. Remove the banishment to another plane. (Combat) → Swarm Blade – Deals 1d8 slashing + 1d4 poison damage, but dissolves into bugs when dropped. (Randomness) → What Type of Bug Sword? 1.Beetle Blade – Heavily armored, but slower. 2.Wasp Rapier – Has a venomous sting (extra poison damage). 3.Centipede Saber – Extra attacks, but writhes unnervingly. 4.Butterfly Greatsword – Looks beautiful, but does nothing extra. 5.Scarab Shortsword – Glows in the dark. 6.Mosquito Dagger – Steals 1 HP on a hit.. The sword buzzes and occasionally tries to bite its wielder. On a critical hit, the swarm disassembles and scatters, leaving the wielder holding only a suspiciously empty hilt. Make a ranged spell attack against a target. On a hit, the target takes 1d8 force damage. The creature must make a Charisma saving throw. On a failure, it is banished to another plane for 1 minute. 
+
+---
+
+#### Legend Leer
+*3rd-level Divination*
+
+**Casting Time:** :: Action
+**Range:**        :: 60 ft.
+**Components:**   :: S, V
+**Duration:**     :: Instantaneous
+
+The caster’s gaze becomes so intense that it forces everyone in range to acknowledge them dramatically. Just remove the banishment and keep the spell without additional effects. The creature must make a Charisma saving throw. On a failure, it is banished to another plane for 1 minute.
+
+---
+
+#### Leomunds Magic Chess
+*1st-level Conjuration*
+
+**Casting Time:** :: Action
+**Range:**        :: 60 ft.
+**Components:**   :: S, V
+**Duration:**     :: Instantaneous
+
+Summons an enchanted chessboard where the pieces move themselves. Keep it as is. Unfortunately, the game always ends in a stalemate.
+
+---
+
+#### Log
+*1st-level Conjuration*
+
+**Casting Time:** :: Action
+**Range:**        :: 30 ft.
+**Components:**   :: V
+**Duration:**     :: Instantaneous
+
+Creates a single, perfectly ordinary log. The log appears anywhere in a 50 feet area around the caster. Roll on a random table for the essence of the wood.. The caster can use it as a seat, a weapon, or just admire its log-ness. 
+
+---
+
+#### Lurning Hands
+\page
+*1st-level Divination*
+
+**Casting Time:** :: Action
+**Range:**        :: 30 ft.
+**Components:**   :: S, V
+**Duration:**     :: Instantaneous
+
+The caster’s hands suddenly crave knowledge and try to grab as many books as possible. (Combat) → Auto-Skill Hands – Hands gain proficiency in one tool or weapon for 10 minutes. (Scaling) → More Hands, More Knowledge – At higher levels, the hands gain multiple proficiencies or act independently. Roll a Wisdom save to keep control of your hands.
+
+---
+
+#### Mage Sand
+*Cantrip Conjuration*
+
+**Casting Time:** :: Action
+**Range:**        :: Self
+**Components:**   :: M, V
+**Duration:**     :: Permanent
+
+The caster conjures a small pile of golden sand in their palm. It has no magical properties but remains permanently damp. Scholars have debated its significance for centuries, yet it remains as pointless as ever.
+
+---
+
+#### Magic Mistletoe
+*2nd-level Abjuration*
+
+**Casting Time:** :: Action
+**Range:**        :: Self
+**Components:**   :: S, V
+**Duration:**     :: Instantaneous
+
+A floating mistletoe aggressively hovers over two creatures, refusing to be ignored. Charm Field – Targets under the mistletoe if the target agrees to kiss them, must make a Wisdom save or be charmed for 1 minute.. If they do not kiss, the mistletoe follows them for 24 hours, humming an awkwardly romantic tune. Attempts to destroy it result in it respawning—larger and slightly angrier.
+
+---
+
+#### Magic Mussel
+*Cantrip Conjuration*
+
+**Casting Time:** :: Action
+**Range:**        :: Touch
+**Components:**   :: M, S, V
+**Duration:**     :: Instantaneous
+
+Summons an ancient, enchanted mussel that refuses to open. Keep as is. If forced, it vanishes with an offended 'pop' and leaves behind a faint smell of saltwater. If spoken to kindly, it occasionally whispers vague, cryptic wisdom that is completely useless. The creature must make a Charisma saving throw. On a failure, it is banished to another plane for 1 minute.
+
+---
+
+#### Phantasmal Cooler
+*2nd-level Conjuration*
+
+**Casting Time:** :: Action
+**Range:**        :: Self
+**Components:**   :: M
+**Duration:**     :: Instantaneous
+
+Conjures a perfectly chilled drink of the caster’s choice. Rework this spell completely. The beverage disappears right before they can take a sip. The creature must make a Charisma saving throw. On a failure, it is banished to another plane for 1 minute.
+
+---
+
+#### Phantom Stud
+*1st-level Conjuration*
+
+**Casting Time:** :: Action
+**Range:**        :: Self
+**Components:**   :: V
+**Duration:**     :: Instantaneous
+
+Summons an illusory attractive individual who only flirts with the target, but vanishes the moment they get a date. (Combat) → Charming Illusion – Targets who see it must make a Charisma save or be momentarily flustered (disadvantage on Insight checks).
+
+---
+
+#### Poison Stray
+*2nd-level Transmutation*
+
+**Casting Time:** :: Action
+**Range:**        :: 60 ft.
+**Components:**   :: S, V
+**Duration:**     :: Instantaneous
+
+A random stray animal becomes mildly venomous. This is an ethical nightmare. Roll a d10 to determine the spell's effect from the chaos table.
+
+---
+
+#### Prismatic Spore
+*2nd-level Transmutation*
+
+**Casting Time:** :: Action
+**Range:**        :: 500 ft.
+**Components:**   :: M, S, V
+**Duration:**     :: Instantaneous
+
+A burst of vividly colored fungal spores explodes into the air, covering everything in a thin, neon dust. Force
+\page
+creatures to speak only in rhymes. The spores have no known harmful effects, but anyone affected sneezes in a full rainbow sequence for the next 24 hours.
+
+---
+
+#### Shadowtalk
+*2nd-level Illusion*
+
+**Casting Time:** :: Action
+**Range:**        :: 120 ft.
+**Components:**   :: S, V
+**Duration:**     :: Instantaneous
+
+Allows the caster to communicate with their own shadow. Gains advantage on persuasion and investigation check for the next hour. The shadow is sarcastic and unhelpful.
+
+---
+
+#### Shill Touch
+*2nd-level Transmutation*
+
+**Casting Time:** :: Action
+**Range:**        :: 500 ft.
+**Components:**   :: S, V
+**Duration:**     :: Instantaneous
+
+The target feels an overwhelming compulsion to promote a corporate product, whether they like it or not. The target will pull a corporate product out of his pocket. It can be any size, the item will magically come out of the pocket even if the pocket seems too small. There is a very small chance that the item is cursed.
+
+---
+
+#### Shocking Grass
+*2nd-level Evocation*
+
+**Casting Time:** :: Action
+**Range:**        :: Self
+**Components:**   :: S, V
+**Duration:**     :: Instantaneous
+
+Electrifies a patch of grass. Synthetic grass grows in a 20 ft radius around a specified point Creatures on the grass radius must make a Dexterity save or take 2d6 lightning damage. (Scaling) Larger Shock Field – At higher levels, affects a wider area and the effect lasts longer. The grass never disappears but the static effect last 1 minute. Anyone stepping on it experiences static shock and mild regret.
+
+---
+
+#### Sphere of Conciliation
+*1st-level Transmutation*
+
+**Casting Time:** :: Action
+**Range:**        :: 60 ft.
+**Components:**   :: M, S
+**Duration:**     :: Instantaneous
+
+A glowing orb appears, urging all creatures to ‘just talk it out.’ Surprisingly ineffective in battle. Creatures in the 10-ft. radius must make a Wisdom save or become non-hostile. make the DC scale with the creature’s CR.
+
+---
+
+#### Stone Ship
+*1st-level Conjuration*
+
+**Casting Time:** :: Action
+**Range:**        :: 120 ft.
+**Components:**   :: M, S, V
+**Duration:**     :: Instantaneous
+
+Summons a ship made entirely of stone. Scale the size of the ship with levels. (First level creates a tiny ship). It sinks instantly, but remains structurally sound at the bottom of the ocean.
+
+---
+
+#### Summon Mobster
+*3rd-level Transmutation*
+
+**Casting Time:** :: Action
+**Range:**        :: 120 ft.
+**Components:**   :: M
+**Duration:**     :: Instantaneous
+
+A confused and irritated gangster appears, adjusting his pinstripe suit. The mobster will help in a fight but demand payment upfront 1.Calls the caster “kid.” 2.Insists this is “just business.” 3.Casually lights a cigar during combat. 4.Will break someone’s kneecaps for gold. 5.Refuses to explain why they owe him. 6.Mysteriously vanishes when the spell ends.. He has no weapons, zero loyalty to the caster, and an overwhelming need to complain about ‘kids these days.’ If given a sandwich, he sighs, mutters ‘yeah, yeah, alright,’ and vanishes in a puff of cigar smoke.
+
+---
+
+#### Summon Monster F
+*1st-level Conjuration*
+
+**Casting Time:** :: Action
+**Range:**        :: Self
+**Components:**   :: M, S
+**Duration:**     :: Instantaneous
+
+Summons an eldritch being whose name starts with ‘F.’ The creature refuses to elaborate further. (Combat) → Random Useless Creature – Summons a CR 0-1 monster that may or may not help.
+
+---
+
+#### Summon Pest
+\page
+*2nd-level Transmutation*
+
+**Casting Time:** :: Reaction (when someone draws a weapon)
+**Range:**        :: 60 ft.
+**Components:**   :: M, V
+**Duration:**     :: Instantaneous
+
+A single, immortal mosquito appears and immediately targets the most important person in the room. (Combat) → Distracting Menace – The pest flies around a target, imposing disadvantage on their next skill roll.. It cannot be killed, swatted, or reasoned with.
+
+---
+
+#### Sure Disease
+*1st-level Enchantment*
+
+**Casting Time:** :: Action
+**Range:**        :: 120 ft.
+**Components:**   :: S, V
+**Duration:**     :: Instantaneous
+
+This spell guarantees that the target contracts an illness. The spell mentions a chaos table but it’s not added into the description. The affliction is never fatal but always inconvenient, such as uncontrollable sneezing, randomly itchy elbows, or an inability to properly pronounce the letter 'R'. The target must succeed on a Wisdom saving throw or be affected for the duration. Roll a d10 to determine the spell's effect. The target must make a Constitution saving throw or suffer the curse's effects for 1 minute. The target must succeed on a Wisdom saving throw or be controlled for the duration. Roll a d10 to determine the spell's effect from the chaos table.
+
+---
+
+#### Symbol of Pear
+*1st-level Transmutation*
+
+**Casting Time:** :: Action
+**Range:**        :: Self
+**Components:**   :: V
+**Duration:**     :: Instantaneous
+
+Draws a mystical sigil in the shape of a pear. (Combat) → Fruitful Magic Trap – When touched, the symbol casts a random enchantment spell (DM’s choice). (Scaling) → More Powerful Pear Magic – At higher levels, The spell will cast a spell of the spell slot used.. It does nothing except make everyone hungry
+
+---
+
+#### Tight
+*2nd-level Transmutation*
+
+**Casting Time:** :: Action
+**Range:**        :: Self
+**Components:**   :: S
+**Duration:**     :: Instantaneous
+
+The caster’s clothes fit perfectly for the duration of the spell. The spell can make complex clothing easy and fast to do. Eg: Can Don or Doff an armour in 1 turn, Can put on simple clothes as a bonus action, The spell can also undress rapidly but only on a willing creature. When undressing it happens in the blink of an eye. Confidence is restored.
+
+---
+
+#### True Peeing
+*3rd-level Transmutation*
+
+**Casting Time:** :: Action
+**Range:**        :: 60 ft.
+**Components:**   :: S, V
+**Duration:**     :: Instantaneous
+
+For the next minute, the caster cannot miss the target when using a bathroom. When in a bathroom, the next strike will always hit. Also works if someone is publicly urinating nearby. A rare but powerful ability.
+
+---
+
+#### Unseen Bureaucracy
+*1st-level Transmutation*
+
+**Casting Time:** :: Action
+**Range:**        :: 30 ft.
+**Components:**   :: M, S, V
+**Duration:**     :: Instantaneous
+
+An invisible entity appears and demands that all paperwork in the vicinity be filed in triplicate. Nobody can leave the room until the paperwork is triplicated. If no paperwork is present in the room, the entity will bring some. If cast outdoor. The entity will cast “Remote Office” and every creature within 60 ft will be teleported in. This should be a higher level spell. Failure to comply results in an official warning that no one knows how to appeal.
+
+---
+
+#### Wall of Farce
+*1st-level Conjuration*
+
+**Casting Time:** :: Action
+**Range:**        :: Touch
+**Components:**   :: S, V
+**Duration:**     :: Instantaneous
+
+Creates an illusory wall that occasionally shouts bad puns and slapstick sound effects. Someone can investigate the wall with a wisdom saving 
+\page
+throw. On a success, the wall disappear. On a fail, he will start to laugh uncontrollably and be incapacitated until the spell ends.
+
+---
+
+#### Wall of Fog
+*2nd-level Transmutation*
+
+**Casting Time:** :: Action
+**Range:**        :: Touch
+**Components:**   :: S, V
+**Duration:**     :: Instantaneous
+
+A thick, impenetrable fog appears, but only in the shape of a perfectly vertical wall. The wall blocks any vision, but not light. Cast 1 ft thick, 120 feet long, 40 feet high wall. Creatur can pass through easily. When cast indoor, the wall stops when it reach something solid (Walls, Ceiling, Floors). The wall might go around solid object (Doorway, Desk, etc.). It serves no strategic purpose but deeply confuses anyone trying to walk through it.
+
+---

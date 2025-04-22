@@ -1,0 +1,1077 @@
+```metadata
+title: Ashen Vault - Class Cleric
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+/*=======--- Example CSS styling ---=======*/
+/* Any CSS here will apply to your document! */
+@import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Oswald:wght@200..700&family=Permanent+Marker&display=swap);
+:root {
+    --rotate: 20deg;
+    --left: unset;
+    --top: unset;
+    --correction: "correction";
+    --source: "https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png";
+}
+
+
+.page:has(.frontCover) {
+    background-color: black;
+}
+
+.page:has(.frontCover) .coverBackground {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -1cm;
+    left: 0;
+    z-index: -1;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/0cfa61fb8e0c4ff14e314eb2ff54d44a.webp');
+    background-size: cover;
+    background-position: center;
+    mask-image: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 20%), rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: linear-gradient(270deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+.page:has(.frontCover) .coverImage {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -7cm;
+    left: 0;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/0a0b5e7e9496fd06deac901172f5455f.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.page:has(.frontCover) h1,
+.page:has(.frontCover) h2,
+.page:has(.frontCover) h3 {
+    border-bottom: unset;
+    -webkit-text-stroke: unset;
+    text-stroke: unset;
+    ;
+}
+
+.page:has(.frontCover) h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: White;
+    margin-top: 50px;
+    font-family: "Oswald", sans-serif;
+    background: none;
+}
+
+.page:has(.frontCover) h2 {
+    font-size: 2rem;
+    letter-spacing: 8.5px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.page:has(.frontCover) h3 {
+    margin-top: 10px;
+    text-decoration: underline overline #d1d1d1;
+}
+
+.page:has(.frontCover) .footnote {
+    font-size: 1.5rem;
+    color: #d1d1d1;
+    margin-top: 30px;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 2px gray;
+    ;
+    text-stroke: 2px gray;
+    text-align: right;
+}
+
+/* Removes Drop Caps */
+.page h1 + p:first-letter {
+    all: unset;
+}
+.page .footnote {
+    border-top: lightgray dotted 2px;
+    width: 80%;
+    color: gray;
+    bottom: 28px;
+}
+.page .footnote > h1 {
+    background-color: transparent;
+    border: none;
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+.inline-block.pageNumber {
+    font-size: 1cm;
+    color: black;
+}
+/* Removes Small-Caps in first line */
+.page h1 + p:first-line {
+    all: unset;
+}
+.page {
+    background-color: #f8f8f8;
+    /* Light gray background */
+    background-image: radial-gradient(
+        circle,
+        rgba(0, 0, 0, 0.1) 1px,
+        transparent 1px
+    );
+    background-size: 20px 20px;
+    /* Adjust spacing */
+    font-family: "Courier New", Courier, monospace;
+    /* Typewriter / Redacted Report */
+}
+
+.page:has(.preface) {
+    columns: 1;
+    column-span: all;
+    gap: 5px;
+    text-align: center;
+
+}
+
+
+.page:after,
+.page:has(.frontCover):after,
+.page:has(.preface):after,
+.page:has(.insideCover):after,
+.page:nth-child(even)::after {
+    all: unset;
+    content: "Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.";
+    transform-origin: top right;
+    transform: rotate(270deg);
+    white-space: nowrap;
+    position: absolute;
+    right: 1.5cm;
+    top: 0px;
+    color: gray;
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    width: 29cm;
+}
+.page:before {
+    all: unset;
+    content: "Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.";
+    transform-origin: top left;
+    transform: rotate(90deg);
+    white-space: nowrap;
+    position: absolute;
+    left: 1.5cm;
+    top: 0px;
+    color: gray;
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    width: 29cm;
+}
+.page:has(.preface) .logo {
+    top: 10cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 0.075cm black);
+}
+.page:has(.insideCover) .logo {
+    top: 0.5cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 0.075cm black);
+}
+.page:has(.insideCover) p,
+.page:has(.insideCover) ul {
+    margin-top: 20px;
+    text-align: left;
+}
+.page:has(.insideCover) .logo > img {
+    height: 2cm;
+    width: 1.8cm;
+    opacity: 0.1;
+    filter: none;
+}
+.page:has(.preface) .logo > img {
+    height: 10cm;
+    width: 9cm;
+    opacity: 0.1;
+    filter: none;
+}
+
+.page:has(.preface),
+.page:has(.insideCover) {
+    background: none;
+    background-color: #f8f8f8;
+}
+
+.coverpicture {
+    margin-top: 1.5cm;
+    max-width: 15cm;
+    max-height: 15cm;
+}
+
+.coverpicture > img {
+    max-width: 100%;
+    max-height: 100%;
+    mix-blend-mode: luminosity;
+}
+
+.page h1 {
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    color: #2c2c2c;
+    /* Vault Black */
+    background-color: #ededed;
+    /* Subtle Header Background */
+    padding: 5px;
+    border-bottom: 3px solid #2c2c2c;
+    /* Strong Bureaucratic Divider */
+}
+.page:has(.insideCover) h1,
+.page:has(.preface) h1,
+.page:has(.partCover) h1 {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    background-color: #ededed;
+    /* Subtle Header Background */
+    color: #2c2c2c;
+    /* Vault Black */
+    padding: 5px;
+    border-bottom: 0;
+}
+.page:has(.preface) h1 {
+    -webkit-text-stroke: 0;
+}
+.page:has(.insideCover) h1 {
+    background-image: linear-gradient(
+        45deg,
+        #f7f7f7 25%,
+        #dbdbdb 25%,
+        #dbdbdb 50%,
+        #f7f7f7 50%,
+        #f7f7f7 75%,
+        #dbdbdb 75%,
+        #dbdbdb 100%
+    );
+    background-size: 14.14px 14.14px;
+}
+.page:has(.insideCover) .footnote,
+.page:has(.preface) .footnote,
+.page:has(.partCover) .footnote {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+    -webkit-text-stroke: 0;
+    text-align: left;
+}
+.block .footnote {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+}
+.page h2 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #2c2c2c;
+    border-bottom: 2px solid #8f8f8f;
+}
+.page:has(.insideCover) h2,
+.page:has(.preface) h2,
+.page:has(.partCover) h2 {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+    border-bottom: 0;
+}
+.page:has(.preface) h2 {
+    -webkit-text-stroke: 0;
+}
+.page h3,
+.page:has(.insideCover) h3,
+.page:has(.preface) h3,
+.page:has(.partCover) h3 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    color: #5a5a5a;
+    text-transform: uppercase;
+    border-bottom: gray dashed 1px;
+}
+.page h4,
+.page:has(.insideCover) h4,
+.page:has(.preface) h4,
+.page:has(.partCover) h4 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    color: #8f8f8f;
+}
+.page .redacted {
+    background-color: black;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+.page:has(.preface) hr {
+    margin: 10px;
+    position: relative;
+    width: 100%;
+    height: 5mm;
+    /* Adjust height to match a real ruler */
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0mm,
+        transparent 0.8mm,
+        black 0.8mm,
+        black 1mm
+    );
+    filter: none;
+}
+.page:has(.insideCover) hr {
+    position: relative;
+    width: 100%;
+    height: 1mm;
+    /* Adjust height to match a real ruler */
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0mm,
+        transparent 0.8mm,
+        black 0.8mm,
+        black 1mm
+    );
+}
+page hr {
+    border: 2px dashed #8f8f8f;
+    /* Looks like an official document break */
+}
+.page blockquote {
+    background-color: #ededed;
+    border-left: 4px solid #2c2c2c;
+    padding: 10px;
+    font-family: "Courier New", Courier, monospace;
+}
+/* --- Tables: Bureaucratic Report Style --- */
+.page table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.page th {
+    background-color: #d6d6d6;
+    /* Ash Gray */
+    color: #2c2c2c;
+    /* Vault Black */
+    padding: 8px;
+    border-bottom: 3px solid #8f8f8f;
+    /* Stronger Border */
+    text-transform: uppercase;
+}
+.page td {
+    background-color: #f8f8f8;
+    /* Paper White */
+    color: #5a5a5a;
+    /* Charcoal Gray */
+    padding: 8px;
+    border-bottom: 1px solid #bfbfbf;
+    /* Soft Grid */
+}
+/* --- Links: Subtle and Official-Looking --- */
+.page a {
+    color: #2c2c2c;
+    text-decoration: none;
+    border-bottom: 1px dashed #8f8f8f;
+}
+.page a:hover {
+    color: #5a5a5a;
+    border-bottom: 1px solid #5a5a5a;
+}
+.post-it {
+    left: var(--left);
+    top: var(--top);
+    transform: rotate(var(--rotate));
+    max-width: 250px;
+    max-height: 240px;
+    width: 250px;
+    height: 240px;
+    position: relative;
+    background: #ffa;
+    overflow: hidden;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 0 0 0 30px/45px;
+    box-shadow: inset 0 -40px 40px rgba(0, 0, 0, 0.05),
+        inset 0 25px 10px rgba(0, 0, 0, 0.07), 0 5px 6px 5px rgba(0, 0, 0, 0.2);
+    font-family: "Cedarville Cursive", cursive;
+    line-height: 1.7em;
+    font-size: 19px;
+    -webkit-mask-image: url(data:image/png;
+    base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+    color: #130d6b;
+}
+.post-it:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    background: #ffa;
+    box-shadow: 3px -2px 10px rgba(0, 0, 0, 0.2),
+        inset 15px -15px 15px rgba(0, 0, 0, 0.3);
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    transform: skewX(25deg);
+}
+.smudge {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/5d4334616f20bd1d1f059f6007892650.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.smudge:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 10cm;
+    height: 10cm;
+
+    background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 1) 19%,
+        rgba(255, 255, 255, 0) 52%
+    );
+    background-blend-mode: lighten;
+}
+
+.coffee-stain {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f74119a30ba73c9c5b3a7cc1aa9d7d42.png")
+        no-repeat center;
+    background-size: contain;
+    mix-blend-mode: multiply;
+}
+
+.corrected {
+    position: relative;
+    text-decoration: line-through;
+    color: black;
+}
+
+.corrected::after {
+    content: var(--correction, "Default Text");
+    font-size: 12px;
+    color: #0f3d75;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    font-family: "Cedarville Cursive", cursive;
+
+    -webkit-mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+}
+
+.paperclip {
+    position: absolute;
+    display: block;
+    top: -10px;
+    left: var(--left, 60);
+    width: 50px;
+    height: 150px;
+    transform: rotate(-15deg); /* Slight tilt for realism */
+    opacity: 0.8; /* Slight transparency */
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/421f492b3660fca7d119964aff1f24db.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.polaroid {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    max-width: 10cm;
+    max-height: 10cm;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png")
+        no-repeat center;
+    background-size: contain;
+    transform-origin: top left;
+}
+
+.polaroid > p > img {
+    margin-left: 1.26cm;
+    margin-top: 0.74cm;
+    height: 7.4cm;
+    width: 7.5cm;
+    object-fit: cover;
+    mix-blend-mode: screen;
+}
+
+.doodle.dog1 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/6d860afef532110ae76b559ace75dfa7.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.dog2 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/e2820894e1c1c58cb9d710e5522858fc.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.cat1 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/b43f55649f7f416de20109ce0f3b6722.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.cat2 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/898133d59ab4ce7d036283cf075620e2.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.doodle {
+    position: relative;
+    top: var(--top);
+    left: var(--left);
+    display: block;
+    width: 150px;
+    height: 150px;
+    -webkit-mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-repeat: repeat;
+}
+
+.fading {
+    background: linear-gradient(
+        to bottom,
+        black 10%,
+        rgba(0, 0, 0, 0.8) 30%,
+        rgba(0, 0, 0, 0.6) 50%,
+        rgba(0, 0, 0, 0.4) 70%,
+        rgba(0, 0, 0, 0.1) 90%,
+        transparent
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+```
+
+{{frontCover}}
+{{coverBackground}}
+## Class
+# Cleric
+## Keeper of Divine Echoes
+
+{{footnote 
+#### A.S.T.R.A.L Training Material
+}}
+
+\page
+
+{{insideCover}}
+
+# CONFIDENTIAL  
+## ⚠ A.S.T.R.A.L.⚠  
+## ANTHROPOLOGICAL SURVEY DIVISION  
+___  
+
+This document is the sole property of the **Agency for Surveillance, Tracking, and Regulation of Anomalous Landscapes (A.S.T.R.A.L.)** and is classified under **Biometric Analysis Protocol O-92**. Unauthorized access, duplication, or distribution constitutes a direct violation of the **Anomalous Contingency Act (A.C.A. §17-42)** and will trigger immediate countermeasures.  
+
+By accessing this file, you acknowledge:  
+- You have the **necessary clearance** to review classified **biological intelligence**.  
+- You are subject to **continuous biometric and cognitive monitoring** under **Anthropological Compliance Mandate 24-B**.  
+- Any **unauthorized replication or dissemination** will result in the activation of **Containment Directive Theta**, authorizing full intervention by **Bio-Security Division Kappa**.  
+- Disclosure of restricted genetic analysis will **invoke subject-specific erasure protocols**, up to and including **cognitive redaction under Directive 88-P**.  
+
+This document provides **ongoing surveillance data, species profiling, and genetic deviation reports** concerning the recognized **sentient populations of Concord City and its surrounding territories**. Due to **unresolved discrepancies regarding human emergence events**, data integrity remains under **constant review by the Oversight Bureau (O.B.)**.  
+
+If you are not the intended recipient, cease all interaction immediately and report this breach to **A.S.T.R.A.L. Oversight Bureau (O.B.)** via secure terminal [O.B.//DIRECT-LINK-SEC/347-99]. Failure to comply will escalate to **Genetic Contingency Response Protocol Cobalt-7**.  
+
+{{logo ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png)}}  
+
+### **Vorraki – Species Designation: Homo Voracis**  
+**Summary:** The **Vorraki** are **genetically optimized for high-impact physicality, rapid muscular repair, and combat-oriented reflex enhancement**. Their **distinct genetic subtypes** exhibit **adaptive resilience**, ensuring dominance across a wide range of physically demanding environments. While traditionally relegated to **security, enforcement, and paramilitary operations**, emerging Vorraki power structures suggest an **ongoing transition toward economic and political self-sufficiency**, particularly in **black-market security, logistics, and organized paramilitary enterprises**. **Containment is not advised—negotiation remains the recommended control mechanism.**  
+
+**A.S.T.R.A.L. – DEFENDING REALITY AGAINST GENETIC UNCERTAINTY**  
+**Everything is under observation.**  
+
+{{pageNumber,auto}}
+\page
+## **Cleric**  
+*Paranormal Cultist | Corporate Chaplain | Anomaly Researcher | Prophet of the Beyond*  
+
+> *"The gods are silent. But something else listens."*  
+> — **Elder Laurent Cassiel, Dawnkeepers**  
+
+### **Thematic Overview**  
+Clerics in Concord City do not serve traditional gods. Instead, they are conduits for **paranormal entities, forgotten forces, or ideological movements**. Some work for corporate think tanks, wielding supernatural authority in boardrooms. Others belong to radical cults, drawing power from entities awakened during The Emergence.
+- Clerics are **agents of the unknown**, wielding faith-based or ideological power.  
+- Some work as **A.S.T.R.A.L. researchers**, attempting to harness anomalies.  
+- Others are **members of secret cults**, serving forgotten entities.  
+- A few act as **corporate chaplains**, using faith as a tool of control or comfort.  
+
+### **Creating a Cleric**  
+- Do you draw power from faith, ideology, or an otherworldly patron?  
+- Were you trained in a corporate institution, or did you experience an awakening?  
+- What is your mission—healing, control, enlightenment, or destruction?  
+
+---
+
+## **Class Features**  
+As a **Cleric**, you gain the following class features.
+
+### **Hit Points**  
+- **Hit Dice:** *1d8 per Cleric level*  
+- **Hit Points at 1st Level:** *8 + Constitution modifier*  
+- **Hit Points at Higher Levels:** *1d8 (or 5) + Constitution modifier per level after 1st*  
+
+### **Proficiencies**  
+- **Armor:** *Light armor, medium armor, shields*  
+- **Weapons:** *Simple weapons*  
+- **Tools:** *None*  
+- **Saving Throws:** *Wisdom, Charisma*  
+- **Skills:** *Choose two from History, Insight, Medicine, Persuasion, and Religion*  
+
+### **Equipment**  
+You start with the following equipment, in addition to any granted by your background:  
+- *(a)* a tactical baton or *(b)* a sidearm with 10 rounds  
+- *(a)* a reinforced clerical robe or *(b)* an armored vest  
+- *(a)* a corporate dossier or *(b)* a set of ritual scrolls  
+- A diagnostic scanner or occult sensor  
+
+---
+
+
+{{wide
+## **Class Table**  
+| Level | Proficiency Bonus | Features |  
+|:-:|:-:|:--|  
+| 1st | +2 | Spellcasting, Divine Domain |  
+| 2nd | +2 | Channel Divinity (1/rest), Divine Domain Feature |  
+| 3rd | +2 | Channel Divinity (2/rest) |  
+| 4th | +2 | Ability Score Improvement |  
+| 5th | +3 | Destroy Undead (CR 1/2) |  
+| 6th | +3 | Divine Domain Feature |  
+| 7th | +3 | Channel Divinity (3/rest) |  
+| 8th | +3 | Ability Score Improvement, Destroy Undead (CR 1) |  
+| 9th | +4 | - |  
+| 10th | +4 | Divine Intervention |  
+| 11th | +4 | Destroy Undead (CR 2) |  
+| 12th | +4 | Ability Score Improvement |  
+| 13th | +5 | - |  
+| 14th | +5 | Destroy Undead (CR 3) |  
+| 15th | +5 | - |  
+| 16th | +5 | Ability Score Improvement |  
+| 17th | +6 | Destroy Undead (CR 4), Divine Domain Feature |  
+| 18th | +6 | Channel Divinity (4/rest) |  
+| 19th | +6 | Ability Score Improvement |  
+| 20th | +6 | Divine Intervention Improvement |  
+}}
+
+
+{{pageNumber,auto}}
+\page
+
+## **Class Abilities**  
+### **Spellcasting (Level 1)**  
+Your connection to **paranormal forces** allows you to cast spells. See the Cleric spell list for available options.
+
+### **Divine Domain (Level 1)**  
+Choose a domain that reflects your faith or ideology. Your domain grants you additional spells and features at **1st, 2nd, 6th, 8th, and 17th level**.
+
+## **Sacred and Desecrated Terrain (Passive Divine Adaptation)**  
+*"Faith is strongest where it is remembered."*  
+
+At **2nd level**, you gain passive benefits from **Sanctified or Desecrated ground**.  
+
+### **Effects:**  
+- **Sanctified Ground:**  
+  - Healing spells **restore +1 HP per spell level.**  
+  - Allies standing in the area gain **+1 to Wisdom saving throws.**  
+- **Desecrated Ground:**  
+  - Necrotic and Radiant spells deal **+1 damage per spell level.**  
+  - Undead summoned here gain **+2 AC**.  
+
+**Ritual Detection:**  
+- You may cast **Detect Sanctity (ritual only)** to **identify whether an area is sacred or cursed.**  
+
+## **Channel Divinity: Domain of the Divine**  
+*"My god’s will shapes the battlefield."*  
+
+At **6th level**, your **Channel Divinity** takes on different effects depending on **where you stand**.  
+
+### **Effects:**  
+- **If used on Sanctified Ground:**  
+  - **Restore HP to all allies equal to your Cleric level + Wisdom modifier.**  
+  - **Dispel one curse, hex, or fear effect on each ally.**  
+- **If used on Desecrated Ground:**  
+  - **All enemies within 30 feet take 1d6 + Wisdom mod radiant damage.**  
+  - **Undead in the area must make a Wisdom save (DC = 8 + Wis + Prof) or be turned for 1 minute.**  
+
+---
+
+## **Sacred Manipulation (Bless, Corrupt, or Store Holy Energy)**  
+*"What is sacred is mine to command."*  
+
+At **10th level**, you may **store, transfer, or alter sanctified and desecrated land** through divine rituals.  
+
+### **Effects:**  
+- **Sanctify Ground (1 Hour Ritual):**  
+  - You permanently **bless a 20-ft radius**, turning it into **Sanctified Ground**.  
+- **Desecrate Ground (1 Hour Ritual):**  
+  - You permanently **curse a 20-ft radius**, turning it into **Desecrated Ground**.  
+- **Store Sacred Essence (10 Min Ritual):**  
+  - You may **absorb** the sanctity of a location and **store it for later use.**  
+  - This allows you to **carry a "piece" of the terrain** to use in spellcasting later.  
+- **Transfer Divine Essence (10 Min Ritual):**  
+  - You may **steal sacred energy from one location** to **sanctify or desecrate** another.  
+
+**Stored Energy:**  
+- You may hold **1 stored charge** of divine energy at a time.  
+- You may **release** this charge as a **Bonus Action** to:  
+  - Convert a **20-ft area** into **Sanctified or Desecrated ground** for **10 minutes.**  
+
+{{pageNumber,auto}}
+\page
+
+## **Holy & Unholy Spells (Adaptive Spellcasting)**  
+*"Magic changes where faith is strongest."*  
+
+At **14th level**, certain spells **change** based on the terrain.  
+
+### **Spell Effects Change Based on Terrain:**  
+| **Spell** | **Normal Terrain** | **Sanctified Ground** | **Desecrated Ground** |
+|----------|------------------|------------------|------------------|
+| **Toll the Dead** | **Necrotic Damage** | **Radiant Damage** | **Necrotic Damage** |
+| **Inflict Wounds** | **Necrotic Damage** | **Necrotic +1d4 Psychic** | **Necrotic +1d4 Poison** |
+| **Healing Word** | **Restores HP** | **Restores Max HP** | **No Effect** |
+| **Bane** | **-1d4 to Rolls** | **-1d6 to Rolls** | **-1d4, but duration doubles** |
+| **Bless** | **+1d4 to Rolls** | **+1d6 to Rolls** | **No Effect** |
+| **Revivify** | **Revives target** | **Revives without exhaustion** | **Fails unless caster succeeds a DC 15 Wisdom save** |
+
+- **At level 18**, you may **choose which version of the spell to use** regardless of terrain.  
+
+---
+
+## **Divine Intervention: Consecration or Defilement**  
+*"My god speaks through me."*  
+
+At **20th level**, your **Divine Intervention** ability permanently alters sacred spaces.  
+
+### **Effects:**  
+- **Once per Long Rest,** you may call upon your deity to **alter a massive area** of land (up to a 60-ft radius).  
+- Choose one of the following permanent effects:  
+
+| **Effect Name**                  | **Effect** |
+|----------------------------------|------------|
+| **Divine Sanctuary**             | The land becomes **permanently holy**, and enemies suffer disadvantage on attack rolls inside. |
+| **Cursed Ground**                | The land becomes **permanently cursed**, and healing is reduced by half. |
+| **Heaven’s Gate**                | The area emits **constant divine light**, making it impossible for **undead to enter.** |
+| **Shadowed Covenant**            | Creatures resurrected here always return with a **hidden bargain (DM’s choice).** |
+
+---
+
+## ** Special Spellcasting Rules**  
+- **Some spells can only be cast in Sanctified lands**, while others require **Desecrated ground**.  
+- **Examples:**  
+  - *Hallow* and *Divine Word* **require sanctified ground**.  
+  - *Summon Undead* and *Dark Pact* **require desecrated ground**.  
+- **Adaptive Spells change based on location** (see table above). 
+
+## Cleric Domains  
+
+---
+
+### **Domain of Contracts**  
+*"Sign here, and I’ll make sure you get what you deserve."*  
+
+#### **Features & Playstyle**  
+- **Wields legal binding agreements as divine power.**  
+- Focuses on **manipulation, enforcement, and inescapable oaths.**  
+- Common among **corporate priests, law enforcers, and legal arbiters.**  
+{{pageNumber,auto}}
+\page
+#### **Domain Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Binding Clause** – You can cast *Command* without expending a spell slot once per long rest. |  
+| 2nd | **Channel Divinity: Contractual Obligation** – Force a creature to sign a supernatural contract. They must make a Wisdom saving throw or be magically bound to follow one directive for 24 hours. |  
+| 6th | **Fine Print** – When an enemy targets you with a spell or effect, they must make an Intelligence saving throw or **suffer their own effect instead.** |  
+| 8th | **Divine Authority** – Your spells ignore resistance from creatures that have made a deal or contract within the past week. |  
+| 17th | **Immutable Law** – Once per long rest, you can **rewrite the reality of a situation**, forcing any event within the past minute to occur differently. |  
+
+---
+
+### **Domain of Surveillance**  
+*"You can’t hide. We see everything."*  
+
+#### **Features & Playstyle**  
+- **Focuses on divine observation, tracking, and inescapable surveillance.**  
+- Wields **scrying, divine sensors, and mind-reading** to monitor all activities.  
+- Common among **corporate spies, government enforcers, and A.S.T.R.A.L. operatives.**  
+
+#### **Domain Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Eyes Everywhere** – You gain *Detect Thoughts* and *Clairvoyance* as domain spells. |  
+| 2nd | **Channel Divinity: Surveillance Grid** – For 10 minutes, you can **see through all security cameras and divination spells within 1 mile.** |  
+| 6th | **Unavoidable Insight** – You always know when you are being lied to. Your divination spells work on creatures that are otherwise immune to scrying. |  
+| 8th | **Data Erasure** – Once per long rest, you can alter or remove a creature’s memory of an event from the last 24 hours. |  
+| 17th | **The Eternal Watch** – You no longer need sight to perceive. You always know the locations of creatures within 1 mile of you, unless they are fully erased from existence. |  
+
+---
+
+### **Domain of Anomalies**  
+*"The gods are gone. But something else remains."*  
+
+#### **Features & Playstyle**  
+- **Channels raw anomalous energy instead of divine power.**  
+- Uses **reality distortions, eldritch forces, and glitches** in divine magic.  
+- Common among **rogue A.S.T.R.A.L. clerics, forgotten cultists, and scholars of lost anomalies.**  
+
+#### **Domain Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Reality Fracture** – You gain *Misty Step* and *Detect Magic* as domain spells. |  
+| 2nd | **Channel Divinity: Break the Pattern** – Once per rest, **negate a magical or supernatural effect**, causing it to glitch out instead of resolving. |  
+| 6th | **Unstable Miracles** – When you cast a spell, roll a d6. On a 6, the spell is empowered and deals double damage or healing. On a 1, **unintended effects manifest.** |  
+| 8th | **Disruptive Touch** – Your melee attacks **deal extra force damage** and disrupt magical effects within 5 feet. |  
+| 17th | **Anomaly Ascendant** – You can **alter one fundamental rule of reality within a 60-foot radius for 1 minute.** This can include changes like *gravity inversion, instant decay, or breaking cause and effect.* |  
+
+
+### **Domain of the Forgotten**  
+*"We remember what the world wants to forget."*  
+
+#### **Features & Playstyle**  
+- **Draws power from the fading echoes of gods that once existed.**  
+- Uses **memory magic, lost knowledge, and resurrection-like abilities.**  
+- Common among **librarians of erased history, ghost-priests, and seekers of the Old Pantheon.**  
+
+#### **Domain Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Whispered Prayers** – Gain *Speak with Dead* and *Legend Lore* as domain spells. |  
+| 2nd | **Channel Divinity: Remembrance** – You may ask a question to an erased god or entity. You receive **an answer in cryptic whispers.** |  
+| 6th | **Lingering Presence** – Spirits of the forgotten shield you. When you take damage, roll a d6. On a 5 or 6, **you take no damage.** |  
+| 8th | **Restore the Vanished** – You can temporarily return an erased entity to existence for 1 minute. |  
+| 17th | **Echo of Divinity** – Once per long rest, you can **cast a spell of 9th level, even if you do not have the slot.** The spell is unstable and may have **side effects.** |  
+
+---
+
+### **Domain of Vice**  
+*"There is no sin. Only pleasure, power, and profit."*  
+
+#### **Features & Playstyle**  
+- **Embraces indulgence, excess, and corruption as divine gifts.**  
+{{pageNumber,auto}}
+\page
+- Uses **deception, persuasion, and temptation magic** to manipulate others.  
+- Common among **cult leaders, corrupt priests, and underground pleasure brokers.**  
+
+#### **Domain Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **All That Glitters** – Gain *Charm Person* and *Suggestion* as domain spells. |  
+| 2nd | **Channel Divinity: The Cost of Desire** – Target a creature within 30 feet. They must succeed a Charisma saving throw or become **infatuated** with something they desire, rendering them unable to focus on anything else. |  
+| 6th | **Honeyed Words** – You have advantage on Persuasion and Deception checks. Your charm spells last twice as long. |  
+| 8th | **Divine Temptation** – Once per long rest, you may **ask a creature to do one action against their morals.** If they fail a Wisdom save, they comply. |  
+| 17th | **Master of the Flesh** – You can **control a charmed creature indefinitely**, as long as they remain in your presence. |  
+
+---
+
+### **Domain of The Monarchy**  
+*"The crown is divine. You will kneel."*  
+
+#### **Features & Playstyle**  
+- **Wields political power as divine right.**  
+- Specializes in **control, law, and enforcing hierarchical authority.**  
+- Common among **royal advisors, knight-priests, and political enforcers.**  
+
+#### **Domain Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Ruler’s Command** – Gain *Command* and *Hold Person* as domain spells. |  
+| 2nd | **Channel Divinity: The Sovereign’s Will** – Target a creature within 30 feet. They must succeed on a Charisma saving throw or be forced to kneel, rendering them prone for 1 minute. |  
+| 6th | **Divine Right** – When you make a Persuasion check, you can add your Wisdom modifier to the roll. |  
+| 8th | **Unbreakable Law** – You can impose **magical contracts** that force creatures to follow their word. |  
+| 17th | **King’s Edict** – Once per long rest, **declare a law that must be followed for the next 24 hours within a 1-mile radius.** |  
+
+---
+
+### **Domain of Industry**  
+*"The city never sleeps. Neither do I."*  
+
+#### **Features & Playstyle**  
+- **Channels divine energy through labor, production, and mechanical efficiency.**  
+- Focuses on **enhancing durability, repairing structures, and enforcing relentless progress.**  
+- Common among **factory foremen, corporate engineers, and industrial zealots.**  
+
+#### **Domain Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Built to Last** – Gain proficiency in heavy armor and tools related to construction and engineering. |  
+| 2nd | **Channel Divinity: Reinforce** – Choose a creature or object within 30 feet. Until the end of your next turn, it gains resistance to all damage and cannot be moved. |  
+| 6th | **Unyielding Efficiency** – You and your allies within 10 feet reduce all exhaustion levels by 1 at the end of a short rest. |  
+| 8th | **Divine Fabrication** – Gain the ability to repair broken items instantly or conjure simple machinery at will. |  
+| 17th | **Metropolis Ascendant** – Once per long rest, you can invoke the city itself, causing structures to shift at your command, forming bridges, walls, or pathways within a 120-foot radius. |  
+
+
+### **Domain of The Void**  
+*"I hear the silence between the stars."*  
+
+#### **Features & Playstyle**  
+- **Worships the concept of absence, void energy, and cosmic negation.**  
+- Wields **black-hole magic, antimatter destruction, and existential horror.**  
+- Common among **astral cultists, void monks, and those who listen for the Whisperer.**  
+
+#### **Domain Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Voidwalker’s Resilience** – Gain resistance to psychic and necrotic damage. |  
+| 2nd | **Channel Divinity: Erasure** – Target a creature or object within 60 feet. They must make a Charisma saving throw or be temporarily phased out of existence until the end of their next turn. |  
+| 6th | **Gaze Into Nothing** – Your mind is shielded from mental influence. You are immune to charm, possession, and fear effects. |  
+| 8th | **Gravity Distortion** – When you cast a spell, you can create a **10-foot radius zone of zero gravity** for 1 minute. |  
+| 17th | **The Final Silence** – Once per long rest, you can **erase a target from existence** for 1 minute. Only divine intervention can restore them before this time passes. |  
+
+---
+
+### **Domain of Pain**  
+*"Through suffering, I am made whole."*  
+
+#### **Features & Playstyle**  
+- **Gains divine strength through self-inflicted pain and suffering.**  
+- Focuses on **endurance, masochistic empowerment, and inflicting agony on others.**  
+{{pageNumber,auto}}
+\page
+- Common among **fanatics, torturers, and those who believe in righteous punishment.**  
+
+#### **Domain Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Rite of the Martyr** – When you take damage, you gain temporary HP equal to half the damage received. |  
+| 2nd | **Channel Divinity: Shared Agony** – Target a creature within 30 feet. For the next minute, any damage they deal is also inflicted upon them. |  
+| 6th | **Pain Tolerance** – While below half HP, you gain resistance to all non-magical damage. |  
+| 8th | **Suffering’s Reward** – When you take damage from an attack, you can use your reaction to make a melee attack with advantage. |  
+| 17th | **Divine Affliction** – Once per long rest, you can curse an enemy so that every source of healing they receive instead causes them necrotic damage equal to the amount healed. |  
+
+---
+
+### **Domain of The Underground**  
+*"Faith doesn’t belong in a church. It belongs in the streets."*  
+
+#### **Features & Playstyle**  
+- **Worships the unwritten rules of the city’s underbelly.**  
+- Specializes in **stealth, deception, and illicit miracles.**  
+- Common among **smugglers, thieves’ guild chaplains, and black-market dealers.**  
+
+#### **Domain Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Low Profile** – Gain proficiency in Deception and Stealth. You can use your holy symbol as a forged identity. |  
+| 2nd | **Channel Divinity: Vanish** – You can turn yourself and up to two allies invisible for 1 minute. |  
+| 6th | **Divine Smuggling** – You can hide any small object or weapon from magical detection. |  
+| 8th | **Whispered Prayers** – When casting healing spells, you do not reveal yourself through divine energy. You leave no magical trace of your work. |  
+| 17th | **The City Provides** – Once per long rest, you can declare that an item, weapon, or ally is "already waiting" for you somewhere nearby. The GM must provide a plausible way for you to obtain it within the hour. |  
+
+---
+
+### **Domain of Reclamation**  
+*"The city moves on. I bring back what was lost."*  
+
+#### **Features & Playstyle**  
+- **Focuses on restoring forgotten places, lost artifacts, and buried secrets.**  
+- Wields **divine excavation, object resurrection, and memory restoration.**  
+- Common among **urban explorers, restoration priests, and archaeologists of the forgotten.**  
+
+#### **Domain Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Reawaken the Past** – Gain *Identify* and *Mending* as domain spells. |  
+| 2nd | **Channel Divinity: Restore** – You may touch a destroyed object or ruined place and see a vision of its last 24 hours before destruction. |  
+| 6th | **Vestiges of the Old World** – When standing in a ruin or abandoned area, your spells have their range doubled. |  
+| 8th | **The Old Places Remember** – Once per long rest, you can ask a question to the spirit of a building or place, receiving a cryptic answer. |  
+| 17th | **Reclaim the Lost** – Once per long rest, you can restore **a ruined location, lost artifact, or missing knowledge**, even if history has forgotten it. |  
+
+
+### **Domain of the Nameless**  
+*"We have no name. We are legion."*  
+
+#### **Features & Playstyle**  
+- **Draws power from anonymity, erased history, and hidden records.**  
+- Uses **divine obfuscation, identity erasure, and name-stealing abilities.**  
+- Common among **spies, erased entities, and those who refuse to be known.**  
+
+#### **Domain Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Mask of the Unknown** – You gain *Disguise Self* and *Pass Without Trace* as domain spells. |  
+| 2nd | **Channel Divinity: Forgotten Name** – Target a creature within 60 feet. They must succeed on a Wisdom saving throw or **forget your existence for 1 minute.** |  
+| 6th | **Slip Through the Cracks** – If you take no aggressive actions for 1 minute, the world instinctively forgets your presence, making it harder to track you. |  
+| 8th | **Unwritten Fate** – Once per long rest, you can **prevent yourself from being remembered** by anyone who sees you for the next hour. |  
+| 17th | **The Erased** – You can permanently remove a name from reality, preventing resurrection, scrying, or historical mention of the target. |  
+
+{{pageNumber,auto}}
+\page
+
+## **Multiclassing**  
+If your campaign allows multiclassing, use the following rules for a **Cleric** multiclass character.  
+
+### **Ability Score Minimums**  
+- Wisdom 13  
+
+### **Proficiencies Gained**  
+- Light armor, medium armor, shields  
+
+---
+
+## **Quick Build**  
+You can make a **Cleric** quickly by following these suggestions:  
+- Choose **Human or Tiefling** for a thematic fit.  
+- Pick the **A.S.T.R.A.L. Agent** or **Covenant Preacher** background.  
+- Prioritize **Wisdom**, followed by **Charisma**.  
+- Take a sidearm and reinforced vest for protection.  

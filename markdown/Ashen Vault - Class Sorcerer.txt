@@ -1,0 +1,920 @@
+```metadata
+title: Ashen Vault - Class Sorcerer
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+/*=======--- Example CSS styling ---=======*/
+/* Any CSS here will apply to your document! */
+@import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Oswald:wght@200..700&family=Permanent+Marker&display=swap);
+:root {
+    --rotate: 20deg;
+    --left: unset;
+    --top: unset;
+    --correction: "correction";
+    --source: "https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png";
+}
+
+
+.page:has(.frontCover) {
+    background-color: black;
+}
+
+.page:has(.frontCover) .coverBackground {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -1cm;
+    left: 0;
+    z-index: -1;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/ebfc31702b460001ec20b2856d33e183.webp');
+    background-size: cover;
+    background-position: center;
+    mask-image: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 20%), rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: linear-gradient(270deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+.page:has(.frontCover) .coverImage {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -7cm;
+    left: 0;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/0a0b5e7e9496fd06deac901172f5455f.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.page:has(.frontCover) h1,
+.page:has(.frontCover) h2,
+.page:has(.frontCover) h3 {
+    border-bottom: unset;
+    -webkit-text-stroke: unset;
+    text-stroke: unset;
+    ;
+}
+
+.page:has(.frontCover) h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: White;
+    margin-top: 50px;
+    font-family: "Oswald", sans-serif;
+    background: none;
+}
+
+.page:has(.frontCover) h2 {
+    font-size: 2rem;
+    letter-spacing: 8.5px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.page:has(.frontCover) h3 {
+    margin-top: 10px;
+    text-decoration: underline overline #d1d1d1;
+}
+
+.page:has(.frontCover) .footnote {
+    font-size: 1.5rem;
+    color: #d1d1d1;
+    margin-top: 30px;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 2px gray;
+    ;
+    text-stroke: 2px gray;
+    text-align: right;
+}
+
+/* Removes Drop Caps */
+.page h1 + p:first-letter {
+    all: unset;
+}
+.page .footnote {
+    border-top: lightgray dotted 2px;
+    width: 80%;
+    color: gray;
+    bottom: 28px;
+}
+.page .footnote > h1 {
+    background-color: transparent;
+    border: none;
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+.inline-block.pageNumber {
+    font-size: 1cm;
+    color: black;
+}
+/* Removes Small-Caps in first line */
+.page h1 + p:first-line {
+    all: unset;
+}
+.page {
+    background-color: #f8f8f8;
+    /* Light gray background */
+    background-image: radial-gradient(
+        circle,
+        rgba(0, 0, 0, 0.1) 1px,
+        transparent 1px
+    );
+    background-size: 20px 20px;
+    /* Adjust spacing */
+    font-family: "Courier New", Courier, monospace;
+    /* Typewriter / Redacted Report */
+}
+
+.page:has(.preface) {
+    columns: 1;
+    column-span: all;
+    gap: 5px;
+    text-align: center;
+
+}
+
+
+.page:after,
+.page:has(.frontCover):after,
+.page:has(.preface):after,
+.page:has(.insideCover):after,
+.page:nth-child(even)::after {
+    all: unset;
+    content: "Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.";
+    transform-origin: top right;
+    transform: rotate(270deg);
+    white-space: nowrap;
+    position: absolute;
+    right: 1.5cm;
+    top: 0px;
+    color: gray;
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    width: 29cm;
+}
+.page:before {
+    all: unset;
+    content: "Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.";
+    transform-origin: top left;
+    transform: rotate(90deg);
+    white-space: nowrap;
+    position: absolute;
+    left: 1.5cm;
+    top: 0px;
+    color: gray;
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    width: 29cm;
+}
+.page:has(.preface) .logo {
+    top: 10cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 0.075cm black);
+}
+.page:has(.insideCover) .logo {
+    top: 0.5cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 0.075cm black);
+}
+.page:has(.insideCover) p,
+.page:has(.insideCover) ul {
+    margin-top: 20px;
+    text-align: left;
+}
+.page:has(.insideCover) .logo > img {
+    height: 2cm;
+    width: 1.8cm;
+    opacity: 0.1;
+    filter: none;
+}
+.page:has(.preface) .logo > img {
+    height: 10cm;
+    width: 9cm;
+    opacity: 0.1;
+    filter: none;
+}
+
+.page:has(.preface),
+.page:has(.insideCover) {
+    background: none;
+    background-color: #f8f8f8;
+}
+
+.coverpicture {
+    margin-top: 1.5cm;
+    max-width: 15cm;
+    max-height: 15cm;
+}
+
+.coverpicture > img {
+    max-width: 100%;
+    max-height: 100%;
+    mix-blend-mode: luminosity;
+}
+
+.page h1 {
+    font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    color: #2c2c2c;
+    /* Vault Black */
+    background-color: #ededed;
+    /* Subtle Header Background */
+    padding: 5px;
+    border-bottom: 3px solid #2c2c2c;
+    /* Strong Bureaucratic Divider */
+}
+.page:has(.insideCover) h1,
+.page:has(.preface) h1,
+.page:has(.partCover) h1 {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    background-color: #ededed;
+    /* Subtle Header Background */
+    color: #2c2c2c;
+    /* Vault Black */
+    padding: 5px;
+    border-bottom: 0;
+}
+.page:has(.preface) h1 {
+    -webkit-text-stroke: 0;
+}
+.page:has(.insideCover) h1 {
+    background-image: linear-gradient(
+        45deg,
+        #f7f7f7 25%,
+        #dbdbdb 25%,
+        #dbdbdb 50%,
+        #f7f7f7 50%,
+        #f7f7f7 75%,
+        #dbdbdb 75%,
+        #dbdbdb 100%
+    );
+    background-size: 14.14px 14.14px;
+}
+.page:has(.insideCover) .footnote,
+.page:has(.preface) .footnote,
+.page:has(.partCover) .footnote {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+    -webkit-text-stroke: 0;
+    text-align: left;
+}
+.block .footnote {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+}
+.page h2 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #2c2c2c;
+    border-bottom: 2px solid #8f8f8f;
+}
+.page:has(.insideCover) h2,
+.page:has(.preface) h2,
+.page:has(.partCover) h2 {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #2c2c2c;
+    border-bottom: 0;
+}
+.page:has(.preface) h2 {
+    -webkit-text-stroke: 0;
+}
+.page h3,
+.page:has(.insideCover) h3,
+.page:has(.preface) h3,
+.page:has(.partCover) h3 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    color: #5a5a5a;
+    text-transform: uppercase;
+    border-bottom: gray dashed 1px;
+}
+.page h4,
+.page:has(.insideCover) h4,
+.page:has(.preface) h4,
+.page:has(.partCover) h4 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    color: #8f8f8f;
+}
+.page .redacted {
+    background-color: black;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+.page:has(.preface) hr {
+    margin: 10px;
+    position: relative;
+    width: 100%;
+    height: 5mm;
+    /* Adjust height to match a real ruler */
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0mm,
+        transparent 0.8mm,
+        black 0.8mm,
+        black 1mm
+    );
+    filter: none;
+}
+.page:has(.insideCover) hr {
+    position: relative;
+    width: 100%;
+    height: 1mm;
+    /* Adjust height to match a real ruler */
+    background: repeating-linear-gradient(
+        to right,
+        transparent 0mm,
+        transparent 0.8mm,
+        black 0.8mm,
+        black 1mm
+    );
+}
+page hr {
+    border: 2px dashed #8f8f8f;
+    /* Looks like an official document break */
+}
+.page blockquote {
+    background-color: #ededed;
+    border-left: 4px solid #2c2c2c;
+    padding: 10px;
+    font-family: "Courier New", Courier, monospace;
+}
+/* --- Tables: Bureaucratic Report Style --- */
+.page table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.page th {
+    background-color: #d6d6d6;
+    /* Ash Gray */
+    color: #2c2c2c;
+    /* Vault Black */
+    padding: 8px;
+    border-bottom: 3px solid #8f8f8f;
+    /* Stronger Border */
+    text-transform: uppercase;
+}
+.page td {
+    background-color: #f8f8f8;
+    /* Paper White */
+    color: #5a5a5a;
+    /* Charcoal Gray */
+    padding: 8px;
+    border-bottom: 1px solid #bfbfbf;
+    /* Soft Grid */
+}
+/* --- Links: Subtle and Official-Looking --- */
+.page a {
+    color: #2c2c2c;
+    text-decoration: none;
+    border-bottom: 1px dashed #8f8f8f;
+}
+.page a:hover {
+    color: #5a5a5a;
+    border-bottom: 1px solid #5a5a5a;
+}
+.post-it {
+    left: var(--left);
+    top: var(--top);
+    transform: rotate(var(--rotate));
+    max-width: 250px;
+    max-height: 240px;
+    width: 250px;
+    height: 240px;
+    position: relative;
+    background: #ffa;
+    overflow: hidden;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 0 0 0 30px/45px;
+    box-shadow: inset 0 -40px 40px rgba(0, 0, 0, 0.05),
+        inset 0 25px 10px rgba(0, 0, 0, 0.07), 0 5px 6px 5px rgba(0, 0, 0, 0.2);
+    font-family: "Cedarville Cursive", cursive;
+    line-height: 1.7em;
+    font-size: 19px;
+    -webkit-mask-image: url(data:image/png;
+    base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+    color: #130d6b;
+}
+.post-it:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    background: #ffa;
+    box-shadow: 3px -2px 10px rgba(0, 0, 0, 0.2),
+        inset 15px -15px 15px rgba(0, 0, 0, 0.3);
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    transform: skewX(25deg);
+}
+.smudge {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/5d4334616f20bd1d1f059f6007892650.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.smudge:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 10cm;
+    height: 10cm;
+
+    background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 1) 19%,
+        rgba(255, 255, 255, 0) 52%
+    );
+    background-blend-mode: lighten;
+}
+
+.coffee-stain {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f74119a30ba73c9c5b3a7cc1aa9d7d42.png")
+        no-repeat center;
+    background-size: contain;
+    mix-blend-mode: multiply;
+}
+
+.corrected {
+    position: relative;
+    text-decoration: line-through;
+    color: black;
+}
+
+.corrected::after {
+    content: var(--correction, "Default Text");
+    font-size: 12px;
+    color: #0f3d75;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    font-family: "Cedarville Cursive", cursive;
+
+    -webkit-mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+}
+
+.paperclip {
+    position: absolute;
+    display: block;
+    top: -10px;
+    left: var(--left, 60);
+    width: 50px;
+    height: 150px;
+    transform: rotate(-15deg); /* Slight tilt for realism */
+    opacity: 0.8; /* Slight transparency */
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/421f492b3660fca7d119964aff1f24db.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.polaroid {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    max-width: 10cm;
+    max-height: 10cm;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png")
+        no-repeat center;
+    background-size: contain;
+    transform-origin: top left;
+}
+
+.polaroid > p > img {
+    margin-left: 1.26cm;
+    margin-top: 0.74cm;
+    height: 7.4cm;
+    width: 7.5cm;
+    object-fit: cover;
+    mix-blend-mode: screen;
+}
+
+.doodle.dog1 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/6d860afef532110ae76b559ace75dfa7.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.dog2 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/e2820894e1c1c58cb9d710e5522858fc.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.cat1 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/b43f55649f7f416de20109ce0f3b6722.png")
+        no-repeat center;
+    background-size: contain;
+}
+.doodle.cat2 {
+    display: block;
+    background: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/898133d59ab4ce7d036283cf075620e2.png")
+        no-repeat center;
+    background-size: contain;
+}
+
+.doodle {
+    position: relative;
+    top: var(--top);
+    left: var(--left);
+    display: block;
+    width: 150px;
+    height: 150px;
+    -webkit-mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-image: url("https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png");
+    mask-repeat: repeat;
+}
+
+.fading {
+    background: linear-gradient(
+        to bottom,
+        black 10%,
+        rgba(0, 0, 0, 0.8) 30%,
+        rgba(0, 0, 0, 0.6) 50%,
+        rgba(0, 0, 0, 0.4) 70%,
+        rgba(0, 0, 0, 0.1) 90%,
+        transparent
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+```
+
+{{frontCover}}
+{{coverBackground}}
+## Class
+# Sorcerer
+## Touched by the emergence
+
+{{footnote 
+#### A.S.T.R.A.L Training Material
+}}
+
+\page
+
+{{insideCover}}
+
+# CONFIDENTIAL  
+## ⚠ A.S.T.R.A.L.⚠  
+## ANTHROPOLOGICAL SURVEY DIVISION  
+___  
+
+This document is the sole property of the **Agency for Surveillance, Tracking, and Regulation of Anomalous Landscapes (A.S.T.R.A.L.)** and is classified under **Biometric Analysis Protocol O-92**. Unauthorized access, duplication, or distribution constitutes a direct violation of the **Anomalous Contingency Act (A.C.A. §17-42)** and will trigger immediate countermeasures.  
+
+By accessing this file, you acknowledge:  
+- You have the **necessary clearance** to review classified **biological intelligence**.  
+- You are subject to **continuous biometric and cognitive monitoring** under **Anthropological Compliance Mandate 24-B**.  
+- Any **unauthorized replication or dissemination** will result in the activation of **Containment Directive Theta**, authorizing full intervention by **Bio-Security Division Kappa**.  
+- Disclosure of restricted genetic analysis will **invoke subject-specific erasure protocols**, up to and including **cognitive redaction under Directive 88-P**.  
+
+This document provides **ongoing surveillance data, species profiling, and genetic deviation reports** concerning the recognized **sentient populations of Concord City and its surrounding territories**. Due to **unresolved discrepancies regarding human emergence events**, data integrity remains under **constant review by the Oversight Bureau (O.B.)**.  
+
+If you are not the intended recipient, cease all interaction immediately and report this breach to **A.S.T.R.A.L. Oversight Bureau (O.B.)** via secure terminal [O.B.//DIRECT-LINK-SEC/347-99]. Failure to comply will escalate to **Genetic Contingency Response Protocol Cobalt-7**.  
+
+### **Vorraki – Species Designation: Homo Voracis**  
+**Summary:** The **Vorraki** are **genetically optimized for high-impact physicality, rapid muscular repair, and combat-oriented reflex enhancement**. Their **distinct genetic subtypes** exhibit **adaptive resilience**, ensuring dominance across a wide range of physically demanding environments. While traditionally relegated to **security, enforcement, and paramilitary operations**, emerging Vorraki power structures suggest an **ongoing transition toward economic and political self-sufficiency**, particularly in **black-market security, logistics, and organized paramilitary enterprises**. **Containment is not advised—negotiation remains the recommended control mechanism.**  
+
+**A.S.T.R.A.L. – DEFENDING REALITY AGAINST GENETIC UNCERTAINTY**  
+**Everything is under observation.**  
+
+{{pageNumber,auto}}
+\page
+## **Sorcerer**  
+*Paranormal Conduit | Corporate Experiment | Reality-Breaker | Anomaly Incarnate*  
+
+> *"Power isn’t given. It breaks free."*  
+> — **Dr. Vaylen Voss, Thaumatech Lead Researcher**  
+
+### **Thematic Overview**  
+Sorcerers in Concord City are anomalies—individuals born or transformed by **paranormal forces, corporate experimentation, or exposure to The Emergence**. Unlike wizards who study magic, sorcerers wield **raw, unstable power**. Some are seen as corporate assets, others as **walking disasters waiting to happen**.
+- Sorcerers are **living conduits of unstable or supernatural forces**.  
+- Some are **corporate test subjects** infused with paranormal energy.  
+- Others awakened after The Emergence, warping reality without control.  
+- Their power is **inherent and unpredictable**, shaping the world around them.  
+
+### **Creating a Sorcerer**  
+- Were you born with power, or did something trigger it?  
+- Are you trying to control your abilities, or are they controlling you?  
+- What price have you paid for your raw, untamed magic?  
+
+---
+
+## **Class Features**  
+As a **Sorcerer**, you gain the following class features.
+
+### **Hit Points**  
+- **Hit Dice:** *1d6 per Sorcerer level*  
+- **Hit Points at 1st Level:** *6 + Constitution modifier*  
+- **Hit Points at Higher Levels:** *1d6 (or 4) + Constitution modifier per level after 1st*  
+
+### **Proficiencies**  
+- **Armor:** *None*  
+- **Weapons:** *Daggers, quarterstaffs, light sidearms*  
+- **Tools:** *None*  
+- **Saving Throws:** *Constitution, Charisma*  
+- **Skills:** *Choose two from Arcana, Deception, Insight, Intimidation, Persuasion, and Stealth*  
+
+### **Equipment**  
+You start with the following equipment, in addition to any granted by your background:  
+- *(a)* a monofilament dagger or *(b)* a psi-amplifier implant  
+- *(a)* an encrypted spell tablet or *(b)* a Thaumatech energy core  
+- *(a)* a corporate research file or *(b)* an anomaly containment device  
+
+{{wide
+
+## **Class Table**  
+| Level | Proficiency Bonus | Features | Sorcery Points | Cantrips Known | Spells Known | Spell Slots (1st-5th) |  
+|:-:|:-:|:--|:-:|:-:|:-:|:-:|  
+| 1st | +2 | Spellcasting, Sorcerous Origin | - | 4 | 2 | 2 |  
+| 2nd | +2 | Font of Magic | 2 | 4 | 3 | 3 |  
+| 3rd | +2 | Metamagic | 3 | 4 | 4 | 4 |  
+| 4th | +2 | Ability Score Improvement | 4 | 5 | 5 | 4 |  
+| 5th | +3 | - | 5 | 5 | 6 | 4 |  
+| 6th | +3 | Sorcerous Origin Feature | 6 | 5 | 7 | 4 |  
+| 7th | +3 | - | 7 | 5 | 8 | 4 |  
+| 8th | +3 | Ability Score Improvement | 8 | 5 | 9 | 4 |  
+| 9th | +4 | - | 9 | 6 | 10 | 4 |  
+| 10th | +4 | Metamagic | 10 | 6 | 11 | 4 |  
+| 11th | +4 | - | 11 | 6 | 12 | 4 |  
+| 12th | +4 | Ability Score Improvement | 12 | 6 | 12 | 4 |  
+| 13th | +5 | - | 13 | 6 | 13 | 4 |  
+| 14th | +5 | Sorcerous Origin Feature | 14 | 6 | 13 | 4 |  
+| 15th | +5 | - | 15 | 6 | 14 | 4 |  
+| 16th | +5 | Ability Score Improvement | 16 | 6 | 14 | 4 |  
+| 17th | +6 | Metamagic | 17 | 6 | 15 | 4 |  
+| 18th | +6 | Sorcerous Origin Feature | 18 | 6 | 15 | 4 |  
+| 19th | +6 | Ability Score Improvement | 19 | 6 | 15 | 4 |  
+| 20th | +6 | Sorcerous Restoration | 20 | 6 | 15 | 4 |  
+
+}}
+
+{{pageNumber,auto}}
+\page
+
+## **Class Abilities**  
+### **Spellcasting (Level 1)**  
+You are a living source of paranormal energy, shaping reality through instinct rather than study.
+
+### **Sorcerous Origin (Level 1)**  
+Choose a source of your innate power. Your origin grants additional spells and features at **1st, 6th, 14th, and 18th level**.
+
+### **Font of Magic (Level 2)**  
+You gain **Sorcery Points**, which allow you to **manipulate spells, fuel abilities, or create unique effects**.
+
+### **Metamagic (Level 3)**  
+You can alter your spells using **Metamagic**, choosing two options from the list. You gain more at **10th and 17th level**.
+
+---
+
+## **Subclasses: Sorcerous Origins**  
+At **1st level**, you choose an origin that defines your sorcerous power.
+
+
+# Sorcerer Origins  
+
+---
+
+### **Paranormal Entity**  
+*"The power within me was never meant for this world."*  
+
+#### **Features & Playstyle**  
+- **Draws magic from an extradimensional being of unknown origin.**  
+- Unpredictable, reality-warping powers manifest around you.  
+- Common among **A.S.T.R.A.L. anomalies, unexplained paranormals, and cosmic refugees.**  
+
+#### **Origin Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Reality Flux** – Minor distortions occur around you at random intervals, causing subtle shifts in the environment. |  
+| 6th | **Anomalous Form** – Once per short rest, you can phase out of existence for one turn, avoiding all damage and effects. |  
+| 14th | **Cosmic Resonance** – Gain resistance to mind-affecting effects, including charm, fear, and possession. |  
+| 18th | **Break the Veil** – Once per long rest, you can tear open a temporary rift in reality, allowing you and your allies to pass through or interact with something beyond. |  
+
+---
+
+### **Thaumatech Experiment**  
+*"I am the product of innovation. A living weapon of industry."*  
+
+#### **Features & Playstyle**  
+- **Infused with raw magic through corporate experimentation.**  
+- Uses **optimized spellcasting and artificial enhancements** to control magic.  
+- Common among **corporate super-soldiers, escaped experiments, and Thaumatech prototypes.**  
+
+#### **Origin Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Synthetic Power** – Choose an additional Metamagic option. Your spells leave behind faint, digital traces. |  
+| 6th | **Energy Stabilization** – Reduce the Sorcery Point cost of Metamagic by 1 (minimum 1) when casting spells of 1st through 3rd level. |  
+| 14th | **Overclock** – Once per short rest, you can boost a spell’s level by 1 without expending a higher-level spell slot. |  
+| 18th | **Living Weapon** – Enter a hypercharged state for 1 minute, doubling your spell save DC and spell attack rolls during this duration. Once used, you gain one level of exhaustion. |  
+
+---
+
+### **Echo of The Emergence**  
+*"I was forever changed by the day the sky opened."*  
+
+#### **Features & Playstyle**  
+- **Altered by the catastrophic event that reshaped Concord City.**  
+- Manifests **unstable energy surges and anomalous effects.**  
+- Common among **those born during The Emergence, survivors of rifts, and those carrying residual anomaly energy.**  
+
+#### **Origin Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Emergent Sparks** – Your spells sometimes cause unpredictable magical surges, leading to minor distortions in reality. |  
+| 6th | **Temporal Drift** – You can delay the effects of damage dealt to you, postponing it for one turn. |  
+| 14th | **Fractured Soul** – Once per long rest, when reduced to 0 HP, you instead drop to 1 HP and temporarily phase out, avoiding damage until your next turn. |  
+| 18th | **Manifest Destiny** – Once per long rest, you can influence probability, forcing any d20 roll within 30 feet to be rerolled (yours or another’s). |  
+
+{{pageNumber,auto}}
+\page
+
+### **Synthetic Soul**  
+*"I was built, not born. And yet, the magic flows through me."*  
+
+#### **Features & Playstyle**  
+- **An artificial being infused with arcane energy.**  
+- Excels at **magic reinforcement, energy efficiency, and synthetic spellcasting.**  
+- Common among **corporate constructs, escaped AI experiments, and Thaumatech prototypes.**  
+
+#### **Origin Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Machine Precision** – When you cast a spell that requires an attack roll, you can reroll any natural 1 once per turn. |  
+| 6th | **Arcane Optimization** – The first time you use Metamagic each turn, the Sorcery Point cost is reduced by 1 (minimum 1). |  
+| 14th | **Core Stabilization** – Once per long rest, when you drop to 0 HP, you can reboot yourself and regain half your HP instead. |  
+| 18th | **Perfected Form** – You can activate an enhanced state for 1 minute, during which all of your spells automatically succeed on concentration checks and deal maximum possible damage or healing. |  
+
+---
+
+### **Blood of the Covenant**  
+*"A deal was made long before I was born. I must see it through."*  
+
+#### **Features & Playstyle**  
+- **Your power comes from an ancient, forgotten pact that binds you.**  
+- Uses **contract magic, binding spells, and debt-based power.**  
+- Common among **cursed nobles, corporate inheritors, and those unknowingly linked to lost deities.**  
+
+#### **Origin Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Inherited Bargain** – Once per long rest, you can cast a spell without using a spell slot, but must fulfill a minor demand from the entity that empowered you. |  
+| 6th | **Bound by Oath** – When you deal damage to a creature, you can force them to make a Charisma saving throw or be unable to willingly move away from you for 1 minute. |  
+| 14th | **Contract Clause** – If an enemy reduces you to 0 HP, they must succeed on a Wisdom saving throw or be cursed, suffering disadvantage on all rolls until they complete a long rest. |  
+| 18th | **Debt Reclaimed** – Once per long rest, you can absorb life force from all creatures within 30 feet, regaining HP equal to the total damage dealt. |  
+
+---
+
+### **Arcano-Industrial Conduit**  
+*"The city itself hums with energy. I am its conduit."*  
+
+#### **Features & Playstyle**  
+- **You draw magic from the infrastructure of Concord City.**  
+- Excels at **manipulating urban ley lines, industrial magic, and energy conversion.**  
+- Common among **corporate thaumaturges, power plant sorcerers, and arcane engineers.**  
+
+#### **Origin Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Urban Resonance** – You gain advantage on Arcana checks related to magical infrastructure and technology. |  
+| 6th | **Energy Conduit** – You can absorb energy from spells that target you. If a spell fails to affect you due to a successful saving throw, you regain Sorcery Points equal to the spell’s level. |  
+| 14th | **City’s Pulse** – When casting a spell in an urban environment, you can increase its range or area of effect by 50%. |  
+| 18th | **Metropolitan Ascendance** – Once per long rest, you can merge with a city’s magical grid, allowing you to teleport up to 1 mile through the infrastructure. |  
+
+---
+
+### **Fractured Timeline**  
+*"I exist in multiple realities at once."*  
+
+#### **Features & Playstyle**  
+- **Your soul is unstuck in time, allowing you to manipulate causality.**  
+- Excels at **delaying events, rerolling outcomes, and preemptively dodging attacks.**  
+- Common among **survivors of The Emergence, time-lost wanderers, and failed corporate experiments.**  
+
+#### **Origin Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Temporal Afterimage** – Once per short rest, you can force an attacker to reroll their attack, as if they had struck an alternate version of you. |  
+| 6th | **Echoes of Fate** – You can roll 1d4 and add or subtract the result from any attack roll, ability check, or saving throw you or a creature within 30 feet makes. |  
+| 14th | **Paradox Shift** – When you take damage, you can instead delay that damage for 1 round. |  
+| 18th | **Rewind the Thread** – Once per long rest, you can rewind the last 6 seconds (one round), undoing all actions taken and forcing new rolls. |  
+
+{{pageNumber,auto}}
+\page
+
+### **Singularity Touched**  
+*"The void called to me. And I answered."*  
+
+#### **Features & Playstyle**  
+- **Your body has been altered by exposure to a singularity, granting you void-based magic.**  
+- Uses **gravity shifts, black-hole energy, and space warping in combat.**  
+- Common among **accidental anomaly survivors, rogue A.S.T.R.A.L. agents, and those touched by the Whisperer.**  
+
+#### **Origin Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Voidborn Essence** – You gain resistance to force damage and cannot be pulled or pushed against your will. |  
+| 6th | **Gravity Well** – Once per short rest, you can create a 10-foot radius of unstable gravity. Enemies within must succeed on a Strength saving throw or be pulled to the center. |  
+| 14th | **Event Horizon** – Once per short rest, when you are reduced to 0 HP, you instead explode outward in a wave of void energy, dealing force damage and pushing all creatures away from you. |  
+| 18th | **Singularity Collapse** – Once per long rest, you can create a temporary singularity in a 20-foot radius for 1 minute. All ranged attacks pass through harmlessly, and creatures inside have disadvantage on Dexterity saving throws. |  
+
+---
+
+### **The Shattered Mind**  
+*"My magic speaks to me in whispers from the void."*  
+
+#### **Features & Playstyle**  
+- **You possess a fractured psyche, channeling magic from unknown voices.**  
+- Uses **psychic energy, hallucinations, and forced mind intrusions.**  
+- Common among **ex-A.S.T.R.A.L. test subjects, anomaly survivors, and individuals suffering from unstable cognition.**  
+
+#### **Origin Abilities**  
+| Level | Feature |  
+|-------|---------|  
+| 1st | **Discordant Thoughts** – You gain resistance to psychic damage. Once per short rest, when a creature within 30 feet casts a spell, you can disrupt it, forcing them to make a concentration check or waste the spell. |  
+| 6th | **Flickering Reality** – You can alter your physical presence. Once per short rest, you can phase slightly out of sync, giving attackers disadvantage against you for 1 minute. |  
+| 14th | **Cognitive Overload** – Once per short rest, you can force a creature to make an Intelligence saving throw or suffer disadvantage on all Intelligence, Wisdom, and Charisma checks for 1 minute. |  
+| 18th | **The Final Whisper** – Once per long rest, you can open your mind completely to the unknown. You gain temporary insight, allowing you to ask one question and receive a cryptic but truthful answer. Until your next long rest, you gain advantage on all spell saving throws, but also suffer minor hallucinations. |  
+
+---
+
+## **Multiclassing**  
+If your campaign allows multiclassing, use the following rules for a **Sorcerer** multiclass character.  
+
+### **Ability Score Minimums**  
+- Charisma 13  
+
+### **Proficiencies Gained**  
+- Light armor, one skill from the Sorcerer list  
+
+---
+
+## **Quick Build**  
+You can make a **Sorcerer** quickly by following these suggestions:  
+- Choose **Tiefling or Human** for a thematic fit.  
+- Pick the **Corporate Experiment** or **Anomalous Survivor** background.  
+- Prioritize **Charisma**, followed by **Dexterity**.  
+- Take a monofilament dagger and an encrypted spell tablet.  
+
+{{pageNumber,auto}}

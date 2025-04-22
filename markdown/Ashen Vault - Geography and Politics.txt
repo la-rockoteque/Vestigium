@@ -1,0 +1,1332 @@
+```metadata
+title: Ashen Vault - Geography and Politics
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+/*=======--- Example CSS styling ---=======*/
+/* Any CSS here will apply to your document! */
+ @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+ @import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive);
+ :root {
+     --rotate: 20deg;
+     --left: unset;
+     --top: unset;
+     --correction: "correction";
+     --source: 'https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png';
+}
+/* Removes Drop Caps */
+ .page h1+p:first-letter {
+     all: unset;
+}
+ .page .footnote {
+     border-top: lightgray dotted 2px;
+     width: 80%;
+     color: gray;
+     bottom: 28px;
+}
+ .page .footnote > h1 {
+     background-color: transparent;
+     border: none;
+     font-size: 10px;
+     margin-bottom: 0px;
+}
+/* Removes Small-Caps in first line */
+ .page h1+p:first-line {
+     all: unset;
+}
+ .page {
+     background-color: #F8F8F8;
+    /* Light gray background */
+     background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+     background-size: 20px 20px;
+    /* Adjust spacing */
+     font-family: "Courier New", Courier, monospace;
+    /* Typewriter / Redacted Report */
+}
+ .page:after, .page:has(.frontCover):after, .page:has(.insideCover):after, .page:nth-child(even)::after {
+     all: unset;
+     content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+     transform-origin: top right;
+     transform: rotate(270deg);
+     white-space: nowrap;
+     position: absolute;
+     right: 1.5cm;
+     top: 0px;
+     color: gray;
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     width: 29cm;
+}
+ .page:before {
+     all: unset;
+     content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+     transform-origin: top left;
+     transform: rotate(90deg);
+     white-space: nowrap;
+     position: absolute;
+     left: 1.5cm;
+     top: 0px;
+     color: gray;
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     width: 29cm;
+}
+ .page:has(.frontCover) .logo {
+     top: 10cm;
+     right: 0;
+     left: 0;
+     filter: drop-shadow(0 0 .075cm black);
+}
+ .page:has(.insideCover) .logo {
+     top: 0.5cm;
+     right: 0;
+     left: 0;
+     filter: drop-shadow(0 0 .075cm black);
+}
+ .page:has(.insideCover) p, .page:has(.insideCover) ul {
+     margin-top: 20px;
+     text-align: left;
+}
+ .page:has(.insideCover) .logo>img {
+     height: 2cm;
+     width: 1.8cm;
+     opacity: 0.1;
+     filter:none;
+}
+ .page:has(.frontCover) .logo>img {
+     height: 10cm;
+     width: 9cm;
+     opacity: 0.1;
+     filter:none;
+}
+
+ .page:has(.frontCover),
+  .page:has(.insideCover){
+   background: none;
+   background-color: #F8F8F8;
+}
+
+.coverpicture {
+margin-top: 1.5cm;
+  max-width: 15cm;
+  max-height: 15cm;
+}
+
+.coverpicture > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+ .page h1 {
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size: 24px;
+     color: #2C2C2C;
+    /* Vault Black */
+     background-color: #EDEDED;
+    /* Subtle Header Background */
+     padding: 5px;
+     border-bottom: 3px solid #2C2C2C;
+    /* Strong Bureaucratic Divider */
+}
+ .page:has(.insideCover) h1, .page:has(.frontCover) h1, .page:has(.partCover) h1 {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size: 24px;
+     background-color: #EDEDED;
+    /* Subtle Header Background */
+     color: #2C2C2C;
+    /* Vault Black */
+     padding: 5px;
+     border-bottom: 0 
+}
+ .page:has(.frontCover) h1 {
+     -webkit-text-stroke: 0 
+}
+ .page:has(.insideCover) h1 {
+     background-image: linear-gradient(45deg, #f7f7f7 25%, #dbdbdb 25%, #dbdbdb 50%, #f7f7f7 50%, #f7f7f7 75%, #dbdbdb 75%, #dbdbdb 100%);
+     background-size: 14.14px 14.14px;
+}
+ .page:has(.insideCover) .footnote, .page:has(.frontCover) .footnote, .page:has(.partCover) .footnote {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 15px;
+     margin-top: 40px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+     -webkit-text-stroke: 0;
+     text-align: left;
+}
+ .block .footnote {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 20px;
+     margin-top: 40px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+}
+ .page h2 {
+     font-family: "Oswald", sans-serif;
+     text-transform: uppercase;
+     font-size: 20px;
+     color: #2C2C2C;
+     border-bottom: 2px solid #8F8F8F;
+}
+ .page:has(.insideCover) h2, .page:has(.frontCover) h2, .page:has(.partCover) h2 {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 20px;
+     margin-top: 20px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+     border-bottom: 0;
+}
+ .page:has(.frontCover) h2 {
+     -webkit-text-stroke: 0 
+}
+ .page h3, .page:has(.insideCover) h3, .page:has(.frontCover) h3, .page:has(.partCover) h3 {
+     font-family: "Courier New", Courier, monospace;
+     font-size: 18px;
+     color: #5A5A5A;
+     text-transform: uppercase;
+     border-bottom: gray dashed 1px;
+    ;
+}
+ .page h4, .page:has(.insideCover) h4, .page:has(.frontCover) h4, .page:has(.partCover) h4 {
+     font-family: "Courier New", Courier, monospace;
+     font-size: 16px;
+     color: #8F8F8F;
+}
+ .page .redacted {
+     background-color: black;
+     color: black;
+     padding: 2px 5px;
+     border-radius: 2px;
+}
+ .page:has(.frontCover) hr {
+     margin: 10px;
+     position: relative;
+     width: 100%;
+     height: 5mm;
+    /* Adjust height to match a real ruler */
+     background: repeating-linear-gradient( to right, transparent 0mm, transparent 0.8mm, black 0.8mm, black 1mm );
+     filter:none;
+}
+ .page:has(.insideCover) hr {
+     position: relative;
+     width: 100%;
+     height: 1mm;
+    /* Adjust height to match a real ruler */
+     background: repeating-linear-gradient( to right, transparent 0mm, transparent 0.8mm, black 0.8mm, black 1mm );
+}
+ page hr {
+     border: 2px dashed #8F8F8F;
+    /* Looks like an official document break */
+}
+ .page blockquote {
+     background-color: #EDEDED;
+     border-left: 4px solid #2C2C2C;
+     padding: 10px;
+     font-family: "Courier New", Courier, monospace;
+}
+/* --- Tables: Bureaucratic Report Style --- */
+ .page table {
+     border-collapse: collapse;
+     width: 100%;
+}
+ .page th {
+     background-color: #D6D6D6;
+    /* Ash Gray */
+     color: #2C2C2C;
+    /* Vault Black */
+     padding: 8px;
+     border-bottom: 3px solid #8F8F8F;
+    /* Stronger Border */
+     text-transform: uppercase;
+}
+ .page td {
+     background-color: #F8F8F8;
+    /* Paper White */
+     color: #5A5A5A;
+    /* Charcoal Gray */
+     padding: 8px;
+     border-bottom: 1px solid #BFBFBF;
+    /* Soft Grid */
+}
+/* --- Links: Subtle and Official-Looking --- */
+ .page a {
+     color: #2C2C2C;
+     text-decoration: none;
+     border-bottom: 1px dashed #8F8F8F;
+}
+ .page a:hover {
+     color: #5A5A5A;
+     border-bottom: 1px solid #5A5A5A;
+}
+ .post-it {
+     left: var(--left);
+     top: var(--top);
+     transform: rotate(var(--rotate));
+     max-width:250px;
+     max-height:240px;
+     width:250px;
+     height:240px;
+     position:relative;
+     background:#ffa;
+     overflow:hidden;
+     margin:30px auto;
+     padding:20px;
+     border-radius:0 0 0 30px/45px;
+     box-shadow: inset 0 -40px 40px rgba(0,0,0,0.05), inset 0 25px 10px rgba(0,0,0,0.07), 0 5px 6px 5px rgba(0,0,0,0.2);
+     font-family: 'Cedarville Cursive', cursive;
+     line-height:1.7em;
+     font-size:19px;
+     -webkit-mask-image: url(data:image/png;
+    base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+     color:#130d6b;
+}
+ .post-it:before {
+     content:"";
+     position:absolute;
+     width:20px;
+     height:25px;
+     background:#ffa;
+     box-shadow: 3px -2px 10px rgba(0,0,0,0.2), inset 15px -15px 15px rgba(0,0,0,0.3);
+     left:0;
+     bottom:0;
+     z-index:2;
+     transform:skewX(25deg);
+}
+ .smudge {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     filter: blur(1px) contrast(110%);
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/5d4334616f20bd1d1f059f6007892650.png') no-repeat center;
+     background-size: contain;
+
+
+}
+
+    .smudge:before {
+    position: absolute;
+    content:'';
+    left: 0;
+    top: 0;
+     width: 10cm;
+     height: 10cm;
+   
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 19%, rgba(255,255,255,0) 52%);
+background-blend-mode: lighten
+
+    
+    }
+
+
+
+ .coffee-stain {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     filter: blur(1px) contrast(110%);
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f74119a30ba73c9c5b3a7cc1aa9d7d42.png') no-repeat center;
+     background-size: contain;
+     mix-blend-mode: multiply;
+}
+ 
+ 
+.corrected {
+    position: relative;
+    text-decoration: line-through;
+    color: black;
+}
+
+.corrected::after {
+    content: var(--correction, "Default Text");;
+    font-size: 12px;
+    color: #0F3D75;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+       font-family: 'Cedarville Cursive', cursive;
+   
+    -webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+}
+
+
+.paperclip {
+ 
+    position: absolute;
+    display-block;
+    top: -10px;
+    left: var(--left, 60);
+    width: 50px;
+    height: 150px;
+    transform: rotate(-15deg); /* Slight tilt for realism */
+    opacity: 0.8; /* Slight transparency */
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/421f492b3660fca7d119964aff1f24db.png') no-repeat center;
+    background-size: contain;
+}
+
+ .polaroid {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     max-width:10cm;
+     max-height: 10cm;
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png') no-repeat center;
+    background-size: contain;
+         transform-origin: top left;
+}
+
+.polaroid > p > img {
+  margin-left: 1.26cm;
+  margin-top: 0.74cm;
+  height: 7.4cm;
+  width: 7.5cm;
+  object-fit: cover;
+  mix-blend-mode: screen;
+}
+
+
+.doodle.dog1 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/6d860afef532110ae76b559ace75dfa7.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.dog2 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/e2820894e1c1c58cb9d710e5522858fc.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.cat1 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/b43f55649f7f416de20109ce0f3b6722.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.cat2 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/898133d59ab4ce7d036283cf075620e2.png') no-repeat center;
+    background-size: contain;
+}
+
+.doodle {
+position: relative;
+   top: var(--top);
+   left: var(--left);
+    display: block;
+    width: 150px;
+    height: 150px;
+     -webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-repeat: repeat;
+}
+
+
+.fading {
+    background: linear-gradient(to bottom, black 10%, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.4) 70%, rgba(0, 0, 0, 0.1) 90%, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+```
+
+{{frontCover}}
+
+
+
+# Geography and Politics
+## The Other Cities and how they Interact
+
+{{coverpicture ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/0171879a0a0f9236dc75d47317591705.png)}}
+
+\page
+
+{{insideCover}}
+
+# CONFIDENTIAL  
+## ⚠  A.S.T.R.A.L. ⚠  
+## CLASSIFIED DOCUMENT  
+___  
+
+This document is the sole property of the **Agency for Surveillance, Tracking, and Regulation of Anomalous Landscapes (A.S.T.R.A.L.)** and is classified under **Protocol X-27**. Unauthorized access, duplication, or distribution is a direct violation of the **Anomalous Contingency Act (A.C.A. §13-97)** and will be met with immediate countermeasures, up to and including **forced administrative reassignment** (which, in certain cases, may involve existing in a different timeline).  
+
+By opening this document, you acknowledge:  
+- **You have the necessary clearance level** to access restricted anomaly intelligence.  
+- **You have not, at any point, been replaced by an identical anomaly impersonation** (if unsure, consult **Verification Form 92-A**).  
+- **You are subject to continuous monitoring** under Section 12 of the Astral Compliance Directive.  
+- **Any unauthorized disclosure will trigger Protocol X**, authorizing full intervention by **Containment & Erasure Taskforce Omega** (Note: The **previous** Containment & Erasure Taskforce Omega was erased under Protocol X. This is the **new** Taskforce Omega. Try not to ask what happened).  
+- **Dissemination of classified content will result in memory redaction procedures**, as outlined in **Directive 46-C**, or, if memory redaction is not feasible, assignment to the **Department of Unanswered Inquiries** (success rate: inconclusive).  
+
+If you are not the intended recipient:  
+1. **Cease all interaction immediately.**  
+2. **Report this breach to A.S.T.R.A.L. Oversight Bureau (O.B.)** via secure terminal **[O.B.//DIRECT-LINK-SEC/347-99]**.  
+3. **Wait for retrieval personnel to arrive.** This may take **minutes, weeks, or retroactively already have happened**.  
+
+**Failure to comply will result in automatic escalation to Level-4 Contingency Response, which involves (but is not limited to):**  
+- **A 48-hour debriefing inside an undisclosed location** (which you will **never** be able to find again).  
+- **A mandatory seminar on "The Importance of Forgetting"** (attendance is compulsory; comprehension is optional).  
+- **Being reassigned as an anomaly observer** (or, if deemed necessary, as an anomaly).  
+
+___  
+
+{{logo ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png)}}
+
+___  
+
+\page
+
+# **THE OTHER ISLANDS OF THE FLOATING REALMS**  
+## **A SITUATIONAL BRIEFING**  
+### *Filed under: Astral Geographic Contingency Report #77-B*  
+**For Internal Use Only – Do Not Archive, Unless Required, Or Already Archived**  
+
+## **Overview**  
+
+Concord City is the **largest and most influential** entity in the Floating Realms, but **not the only one**. Numerous **other islands drift through the skies**, each with its **own government, economy, and level of anomaly mismanagement**.  
+
+These islands exist in **a delicate balance of trade, diplomacy, and occasional existential instability**. While some maintain **formal relationships with Concord City**, others operate under **questionable legality, anomalous sovereignty, or complete disregard for observable reality**.  
+
+The following is a **comprehensive (subject to revision and/or denial) classification** of notable floating islands, their **political structures**, their **economic significance**, and **how much of a problem they are expected to become in the next five cycles** (note: **five cycles remain undefined as of last revision**).  
+
+## **How These Islands Affect Concord City**  
+- **Trade Relations:** Concord City is **the economic powerhouse**, but **it relies on imports** from these islands for **resources, knowledge, military forces, and illicit goods**.  
+- **Political Tensions:** Each island has **its own policies on anomalies**, and **not all align with Concord City's corporate-driven model**. Conflicts **over trade, governance, and anomaly containment** are common.  
+- **Factions & Influence:** These islands house **independent factions** that can either **support or oppose the players**, depending on their goals.  
+
+### **Conclusion**  
+The other islands exist as **independent political and economic entities**, but Concord City remains **the largest and most unstable hub of paranormal activity**. As the campaign progresses, these islands **may become allies, battlegrounds, or even refuge**, depending on how the players interact with them.
+
+\page
+
+# 🌆 Sablemarch – The Rogue Port
+> *"Trade is free, but so is treachery."*
+
+## 📌 Overview
+Sablemarch is the **underworld’s primary smuggling hub**, an industrial playground where rogue corporations, private security firms, and black-market traders operate freely. The island thrives on **unregulated commerce**, including **illicit anomaly dealings, shipbuilding contracts, and mercenary services**. Unlike Concord City, Sablemarch has **no centralized authority**, making it both a haven and a dangerous place for anyone willing to do business beyond the law.
+
+## 🌍 Geography & Structure
+- A **chaotic port city**, built on layers of **rusted docks, salvaged ships, and labyrinthine trade zones**.  
+- **No defined districts**—the city expands and contracts as new factions carve out territory.  
+- **Underground warehouses and hidden vaults** house forbidden technologies and anomalies.  
+
+## 🏛 Government & Rule
+- **Decentralized Syndicates**, controlled by **trade guilds, smugglers, and mercenaries**.  
+- **The Free Syndicate** is the most powerful group, maintaining a **delicate balance between anarchy and business interests**.  
+- While the city lacks formal governance, **informal laws and unspoken rules** dictate trade relationships.  
+
+## 💰 Economy & Trade
+- **The largest black-market hub** in the floating islands, dealing in **contraband, unlicensed anomaly research, and experimental technology**.  
+- A major hub for **shipbuilding and weapons trading**, where rogue corporations test unauthorized prototypes.  
+- **A.S.T.R.A.L. has no formal presence**, but their spies are rumored to infiltrate key groups.  
+
+## ⚔️ Major Factions
+- **The Free Syndicate** – The dominant power in the city, operating **like a shadow government of smugglers, privateers, and traders**.  
+- **The Ashen Blades** – A **mercenary collective**, hiring out **private security, assassins, and enforcers**.  
+- **The Revenant Cartel** – A faction specializing in **anomaly smuggling and black-market artifacts**.  
+
+## 🌐 Cultural & Social Aspects
+- **Freedom is everything**, but loyalty is a rare commodity.  
+- The city operates on a **"reputation economy"**—your **worth is determined by your network and business credibility**.  
+- People wear **protective charms or follow passed-down rituals** to survive the **unstable paranormal activity beneath the docks**.  
+
+## 🔮 Paranormal & Anomalous Presence
+- **Anomalies are completely unregulated**, and some **black-market traders sell them as weapons**.  
+- The city is known for **"ghost ships"—vessels that arrive without a crew, carrying cargo from unknown origins**.  
+- Some claim there is **an entire sunken district beneath the port**, where time and space **do not function properly**.  
+
+## 🗺 Race Distribution
+| Race      | % Population | Role in Society |
+|-----------|-------------|----------------|
+| **Vorraki**   | 30%  | Mercenaries, enforcers, and security forces |
+| **Felkin**    | 20%  | Smugglers, information brokers, and spies |
+| **Humans**    | 15%  | Independent traders and rogue engineers |
+| **Canid**     | 10%  | Scouts, bounty hunters, and survivalists |
+| **Aestari**   | 10%  | Corporate outcasts and black-market researchers |
+| **Veilborn**  | 5%  | Drifters, wanderers, and outcasts |
+| **Delvani**   | 5%  | Shipbuilders and salvage workers |
+| **Other**     | 5%  | Unclassified and undocumented residents |
+
+\page
+
+## 🔗 Relationship with Concord City
+- **Officially unaffiliated, unofficially invaluable.** Concord City’s elite **secretly fund and utilize Sablemarch for deniable operations**.  
+- **A.S.T.R.A.L. has tried and failed to establish control**, as Sablemarch is **too deeply embedded in the underworld**.  
+- **Thaumatech Industries and the Solstice Initiative** both maintain secret **supply lines through Sablemarch**, bypassing Concord City's corporate restrictions.  
+
+## 📝 Key Observations from A.S.T.R.A.L.
+> *"Sablemarch does not need laws because it has consequences. If you cannot protect your assets, they were never yours to begin with. Our informants suggest anomaly experimentation is reaching dangerous levels, yet no faction seems interested in containment. Direct intervention is impossible—our only option is to ensure that when Sablemarch eventually collapses, we are not standing in its shadow."*
+
+\page
+
+# 🌆 Varnhallow – The Industrial Stronghold
+> *"Progress does not ask for permission."*
+
+## 📌 Overview
+Varnhallow is a **heavily industrialized island**, dominated by **massive refineries, metalworks, and mining operations**. The city is built upon an economy of **ruthless industrial ambition**, controlled by an oligarchy of **corporate leaders**. While it provides **key exports to Thaumatech Industries and the Solstice Initiative**, its workers live under harsh conditions, and **labor unrest is growing**. **Anomalies are rare, but when they do appear, they often manifest as catastrophic industrial malfunctions.**
+
+## 🌍 Geography & Structure
+- **A massive industrial complex**, covered in **smog-choked factories and ceaseless refineries**.  
+- **Worker districts and industrial slums** exist in the lower layers, while **corporate towers rise above them**.  
+- **Abandoned mines and tunnels** beneath the city may hold **ancient anomalies**, but workers are forbidden from entering them.  
+
+## 🏛 Government & Rule
+- **Corporate Plutocracy**, ruled by an **industrial syndicate** that values **profit above all else**.  
+- **Worker unions struggle for rights**, but dissent is **swiftly crushed or bought off**.  
+- **Private security forces serve the corporations**, not the people.  
+
+## 💰 Economy & Trade
+- **A key exporter of rare minerals and metals**, supplying **Thaumatech Industries and the Solstice Initiative**.  
+- Specializes in **arms manufacturing, industrial machinery, and energy production**.  
+- **Black-market deals thrive**, particularly in the **illegal sale of experimental weaponry and stolen industrial tech**.  
+
+## ⚔️ Major Factions
+- **The Iron Syndicate** – The **ruling industrial conglomerate**, controlling most of the city's wealth and power.  
+- **The Steel Union** – An underground **worker resistance movement**, secretly fighting for better conditions.  
+- **The Black Anvil** – A rogue faction **selling stolen industrial schematics and illegal technology**.  
+
+## 🌐 Cultural & Social Aspects
+- **Work is life**—citizens are expected to **labor for the good of industry**, with few breaks.  
+- Most workers wear **breathing masks and protective gear**, as the city’s air **is dangerously polluted**.  
+- **Rumors persist that some factory accidents are not accidents at all**, but **intentional sabotage** by the oppressed.  
+
+## 🔮 Paranormal & Anomalous Presence
+- **Anomalies are rare but highly dangerous**, often appearing as **glitches in machinery or spontaneous technological failures**.  
+- Some machines **continue operating long after they have been shut down**, as if they have **a will of their own**.  
+- The lower tunnels **contain artifacts and lost tech**, but corporate leaders **refuse to acknowledge their existence**.  
+
+## 🗺 Race Distribution
+| Race      | % Population | Role in Society |
+|-----------|-------------|----------------|
+| **Delvani**   | 40%  | Engineers, miners, and laborers |
+| **Vorraki**   | 20%  | Security forces, enforcers, and bodyguards |
+| **Humans**    | 10%  | Corporate managers and industrial foremen |
+| **Canid**     | 10%  | Logistics workers, scouts, and guides |
+| **Aestari**   | 5%  | Corporate executives and researchers |
+| **Felkin**    | 5%  | Black-market traders and industrial spies |
+| **Veilborn**  | 5%  | Drifters and undocumented workers |
+| **Other**     | 5%  | Unknown or unclassified inhabitants |
+
+\page
+
+## 🔗 Relationship with Concord City
+- **An economic ally**, supplying **key materials for Concord City’s technological infrastructure**.  
+- **Resents A.S.T.R.A.L.**, believing **corporate progress should not be hindered by excessive anomaly restrictions**.  
+- Some suspect that **Thaumatech Industries is secretly funding Varnhallow’s leadership**, ensuring its **continued independence** from government oversight.  
+
+## 📝 Key Observations from A.S.T.R.A.L.
+> *"Varnhallow presents no direct threat to Concord City, but its disregard for anomaly containment protocols is concerning. Reports suggest that certain factories are powered by forces that should not exist. Whether through negligence or intention, this city may soon become a danger to itself."*
+
+\page
+
+# 🌆 Erelis – The Academic Citadel
+> *"Knowledge must be controlled, or it will control us."*
+
+## 📌 Overview
+Erelis is a scholarly island, home to prestigious universities, research institutions, and laboratories. It serves as the world’s foremost center for anomaly research, but unlike A.S.T.R.A.L., it does not focus on containment—it aims for understanding and application. However, whispers persist of experiments that have gone too far, and some claim entire research teams have vanished overnight due to mishandling anomalies.
+
+## 🌍 Geography & Structure
+- A fortress-like floating island, with towering ivory academies, underground research labs, and isolated testing sites. 
+- Strictly divided districts, separating students, researchers, and anomaly-containment zones.
+- **"The Mirror Halls"**, a shifting research facility where anomalies are studied under strict observation.
+
+## 🏛 Government & Rule
+- **Meritocratic Republic**, ruled by a council of leading scholars, researchers, and artifact analysts.
+- Highly structured and regulated, with strict oversight on **who can access restricted knowledge**.
+- While outwardly **peaceful**, the council is **divided between those who seek practical applications of anomalies and those who believe they must remain untouched**.
+
+## 💰 Economy & Trade
+- The economy thrives on **higher education, scientific research, and the study of anomalies**.
+- Sells **controlled access to research data and specialized anomaly-handling technology** to Concord City and other governments.
+- Some believe **secret research factions** trade in **unstable anomalies on the black market**.
+
+## ⚔️ Major Factions
+- **The Ivory Council** – The **official ruling body**, composed of leading scholars and researchers.
+- **The Veil Inquiry** – A faction within the city pushing for **direct experimentation with anomalies**, regardless of risks.
+- **The Keepers of the Forbidden** – A secretive order that **archives and hides knowledge deemed too dangerous**.
+
+## 🌐 Cultural & Social Aspects
+- **Knowledge is power**—status is determined by **intelligence and contributions to research**.
+- A **competitive and secretive academic environment**, where **researchers sabotage each other to protect their work**.
+- Outsiders are **viewed with suspicion**, unless they have **proven academic credentials**.
+
+## 🔮 Paranormal & Anomalous Presence
+- **Anomalies are everywhere**, but **strictly controlled**—or at least, that is the belief.
+- Rumors persist that **some research facilities house anomalies that have rewritten sections of the city itself**.
+- Some scholars **disappear into their own experiments**, and their names **vanish from records as if they never existed**.
+
+## 🗺 Race Distribution
+| Race      | % Population | Role in Society |
+|-----------|-------------|----------------|
+| **Aestari**   | 50%  | Scholars, researchers, elite faculty |
+| **Felkin**    | 15%  | Secret brokers of restricted knowledge |
+| **Humans**    | 5%  | Outsiders seeking education or research roles |
+| **Veilborn**  | 8%  | Experimental subjects, anomalies given a place in society |
+| **Delvani**   | 5%  | Engineers, technology developers |
+| **Vorraki**   | 5%  | Security enforcers protecting restricted areas |
+| **Canid**     | 3%  | Loyal assistants, guides, and enforcers |
+| **Other**     | 9%  | Various races drawn by the city’s academic reputation |
+
+\page
+
+## 🔗 Relationship with Concord City
+- A **major intellectual hub** that Concord City relies on for **scientific discoveries and anomaly analysis**.
+- While allied, **Erelis resents A.S.T.R.A.L.’s obsession with containment**, believing anomalies should be **understood, not just locked away**.
+- **Conflicts arise** over who should have access to restricted knowledge, as some fear Erelis **is too reckless with its research**.
+
+## 📝 Key Observations from A.S.T.R.A.L.
+> *"Erelis remains both a valuable ally and an unpredictable liability. Their pursuit of knowledge borders on recklessness, and we suspect that at least one ‘lost’ research team has not vanished but instead merged with their experiment. Continued surveillance is advised."*
+
+\page
+
+# 🌆 Vexholm – The Military Bastion
+> *"Discipline is not a choice. It is the only path to survival."*
+
+## 📌 Overview
+Vexholm is a **fortress island**, home to **elite mercenary forces, corporate militias, and private war-tech developers**. It is ruled by a **strict military council**, where **law and order take precedence over personal freedoms**. This is where corporations **train their private armies** and where the **Solstice Initiative** conducts classified **weapons research**. While anomalies exist, they are viewed as **potential assets**, sometimes even **weaponized for combat**, resulting in **horrific accidents that are swiftly covered up**.
+
+## 🌍 Geography & Structure
+- **A fortified city**, built around **massive military compounds, training grounds, and research facilities**.  
+- **Heavily patrolled streets**—civilians are under **constant surveillance**.  
+- **Outer districts house mercenary barracks**, while the **inner city contains corporate war-tech laboratories**.  
+
+## 🏛 Government & Rule
+- **Governed by a strict military council**, with **no tolerance for dissent**.  
+- **Citizens live under martial law**, and every aspect of life is **regulated for security purposes**.  
+- **Corporate contracts dictate military operations**, with **Thaumatech and the Solstice Initiative funding war-tech development**.  
+
+## 💰 Economy & Trade
+- **Primary hub for private military contracts**, supplying **security forces and mercenaries to Concord City’s elite**.  
+- **Advanced weapons research**, including **experimental war-tech, cybernetics, and anomaly-based weaponization**.  
+- **High-value arms trade**, though **some experimental weapons vanish into the black market**.  
+
+## ⚔️ Major Factions
+- **The Iron Legion** – The **official military force**, ensuring order within the city.  
+- **Solstice Initiative Research Division** – Conducts **classified military experiments**, pushing **ethical boundaries**.  
+- **The Ghost Regiment** – A **mercenary faction of rogue soldiers**, rumored to have **undergone dangerous experiments**.  
+
+## 🌐 Cultural & Social Aspects
+- **A highly regimented society**—every citizen is **assigned a role**, and deviations are **harshly punished**.  
+- **Combat training begins at a young age**, and most **residents serve in a military capacity**.  
+- Outsiders are **heavily vetted**, and those who do not fit in are **quickly expelled or conscripted**.  
+
+## 🔮 Paranormal & Anomalous Presence
+- **Anomalies are weaponized**, treated as **military assets** rather than threats.  
+- Some **elite soldiers undergo "enhancements"**, infusing them with **anomalous properties**.  
+- **Containment facilities exist**, but escape incidents are **not uncommon**.  
+
+## 🗺 Race Distribution
+| Race      | % Population | Role in Society |
+|-----------|-------------|----------------|
+| **Vorraki**   | 35%  | Soldiers, enforcers, and military officers |
+| **Humans**    | 20%  | Tactical coordinators, engineers, and administrators |
+| **Aestari**   | 15%  | Corporate strategists and war-tech developers |
+| **Felkin**    | 10%  | Spies, intelligence operatives, and black-market dealers |
+| **Delvani**   | 10%  | Weapons engineers and industrial workers |
+| **Veilborn**  | 5%  | Experimental subjects and enhanced operatives |
+| **Other**     | 5%  | Unknown or unregistered individuals |
+
+\page
+
+## 🔗 Relationship with Concord City
+- **A military supplier for Concord City's elite**, providing **mercenary forces and war-tech advancements**.  
+- **A.S.T.R.A.L. and Vexholm remain in conflict**, as the city's **weaponization of anomalies violates containment protocols**.  
+- Some suspect **Solstice Initiative is secretly using Vexholm as a testing ground** for classified **anomaly-driven warfare**.  
+
+## 📝 Key Observations from A.S.T.R.A.L.
+> *"Vexholm has no interest in containment. To them, anomalies are merely untapped weapons waiting to be refined. The risk of their experimentation is incalculable, yet the city remains too valuable to Concord City's elite for intervention. If war ever comes to the floating islands, it will begin here."*
+
+\page
+
+---
+
+# 🌆 Lysoria – The Oasis of the Old Ways
+> *"The islands breathe, the tides speak, and we listen."*
+
+## 📌 Overview
+Lysoria is a **rural, isolated island**, home to a deeply spiritual population that believes anomalies are not disturbances but **expressions of the floating islands’ will**. It is governed by **The Dawnkeepers**, a spiritual order that guides the people in their **harmonious relationship with anomalies**. Despite its **tranquil, utopian appearance**, strange occurrences happen frequently—but rather than fearing them, the people **embrace them as omens or divine trials**.
+
+## 🌍 Geography & Structure
+- **A lush, crystal-clear island**, filled with **dense forests, flowing waterfalls, and ancient shrines**.  
+- The landscape is shaped by **natural formations** rather than industry—buildings are seamlessly **woven into the environment**.  
+- **Sacred anomaly sites** exist across the island, where reality behaves **slightly differently**, yet the locals remain **unfazed**.  
+
+## 🏛 Government & Rule
+- **Ruled by The Dawnkeepers**, a **monastic order** that serves as **spiritual guides** rather than law enforcers.  
+- There are **no formal laws**—instead, **tradition and belief** govern behavior.  
+- Outsiders often find Lysoria’s **way of life unsettling**, as there is **no punishment system**—yet crime is **virtually nonexistent**.  
+
+## 💰 Economy & Trade
+- The economy is **minimalist and self-sufficient**, based on **agriculture, fishing, and natural remedies**.  
+- While not a major trade hub, it does supply **rare herbs, spiritual artifacts, and healing techniques** sought after by outsiders.  
+- Concord City has attempted to **formalize trade agreements**, but Lysoria remains **largely uninterested in commerce**.  
+
+## ⚔️ Major Factions
+- **The Dawnkeepers** – The ruling **spiritual order**, guiding the people in **understanding and coexisting with anomalies**.  
+- **The Verdant Circle** – A group of **naturalists and healers** who study anomalies as **a natural force rather than a disruption**.  
+- **The Twilight Wanderers** – A small sect that believes **anomalies hold secret knowledge**, seeking to **decode their messages**.  
+
+## 🌐 Cultural & Social Aspects
+- **Deeply spiritual society**, where **meditation, storytelling, and rituals** shape daily life.  
+- People view anomalies as **natural occurrences**, not threats—when an anomaly changes reality, **they adapt, rather than fight it**.  
+- While peaceful, the people of Lysoria are **incredibly stubborn**—outsiders find it **nearly impossible to change their ways**.  
+
+## 🔮 Paranormal & Anomalous Presence
+- **Anomalies manifest frequently**, but the locals **do not try to suppress or control them**.  
+- Some villagers seem to **disappear and return years later**, claiming they **never left**.  
+- **Animals sometimes speak in human tongues**, yet no one reacts as if it’s unusual.  
+
+\page
+
+## 🗺 Race Distribution
+| Race      | % Population | Role in Society |
+|-----------|-------------|----------------|
+| **Delvani**   | 35%  | Guardians of the land, caretakers of nature |
+| **Humans**    | 5%  | Outsiders seeking spiritual enlightenment |
+| **Veilborn**  | 15%  | Wandering mystics and anomaly-born individuals |
+| **Aestari**   | 10%  | Monks, scholars, and spiritual guides |
+| **Korrak**    | 5%  | Warriors who protect sacred sites |
+| **Felkin**    | 5%  | Secretive travelers and hermits |
+| **Vorraki**   | 3%  | Occasional visitors, often wary of Lysoria’s ways |
+| **Canid**     | 2%  | Rare but respected as spiritual seekers |
+| **Other**     | 20%  | Beings of unknown origin, anomalies given form |
+
+## 🔗 Relationship with Concord City
+- **Practically non-existent**—Lysoria has **no interest in politics or commerce**.  
+- Concord City **respects Lysoria’s independence** but remains **frustrated by its unwillingness to engage in formal trade**.  
+- Some **A.S.T.R.A.L. researchers** believe Lysoria **holds secrets about anomalies that could be weaponized**, but **the islanders refuse to cooperate**.  
+
+## 📝 Key Observations from A.S.T.R.A.L.
+> *"Lysoria is a paradox—a society untouched by fear of anomalies, yet more stable than any corporate-controlled state. Attempts to study them have proven fruitless, as they refuse to acknowledge anomalies as something separate from their existence. There is something here we do not understand, and that alone is reason for concern."*
+
+\page
+
+# 🌆 Severance – The City Beneath the Falls  
+> *"We were cast away, and so we built something better. Let the world above rot in its ruins—we will power the future."*  
+
+## 📌 Overview  
+Severance is a **vertically suspended city**, hanging beneath the remains of a drowned island, where **cascading waterfalls power an industrial metropolis of mist, steel, and rebellion**. A technological marvel, Severance operates **entirely on hydroelectric energy**, exporting **massive battery-like power cores via titanic spacecraft** that dock in cities across the world, keeping entire nations running.  
+
+Despite its economic power, Severance is a **political anomaly**—a fiercely independent **hydrocommunist state** where **corporations have been outlawed, private ownership is nonexistent, and labor is the currency of survival**. Here, **every citizen is assigned work**, rations are distributed equally, and innovation belongs to all.  
+
+The city is **an upside-down jungle of cables, platforms, and waterfalls**, where **massive elevators ferry workers** between industrial districts, while **airships drift between cities at great cost**. Beneath its **state-controlled efficiency**, however, **a growing counterculture thrives**, fueled by **smugglers, Umbranauts, and black-market traders**, all seeking **the freedom Severance refuses to grant**.  
+
+## 🌍 Geography & Structure  
+- **Suspended beneath a ruined island**, connected by **reinforced struts, hydraulic tethers, and stone-chained foundations**.  
+- **Constant waterfalls cascade through the city**, powering its massive **hydroelectric plants**.  
+- **Titanic space-barges** carry charged power cores to the world above, while **empty ones cycle back**.  
+- **An efficient elevator network** forms the backbone of city transport, connecting the tiers from **the industrial depths to the upper residences**.  
+- **Expensive airships serve external travel**, reserved for the **state, diplomats, and the wealthiest citizens**.  
+
+## 🏛 Government & Rule – The Cascadian Collective  
+Severance is governed by the **Cascadian Collective**, a **state-controlled hydrocommunist regime** that ensures that **no individual owns wealth**, only **the city as a whole**.  
+
+✅ **Hydroelectric Power is Socialized** – All energy is owned **by the people**, distributed to nations **at Severance's discretion**.  
+✅ **Public Housing & Rations** – No one owns property, but **everyone is assigned a place to live and food to eat**.  
+✅ **Mandatory Labor Contribution** – Every citizen **belongs to a guild**, which dictates job assignments and quotas.  
+✅ **Airships are State-Controlled** – Unauthorized air travel is **strictly prohibited**—only state-approved transport is legal.  
+✅ **Nationalized Exploration** – **Umbranauts are government-funded**, ensuring **Severance benefits from their discoveries**.  
+
+### **The Downsides**  
+❌ **No Personal Wealth** – Luxuries are **rare and tightly controlled**—a black market thrives for those who want more.  
+❌ **Work Quotas are Mandatory** – Fail to meet labor quotas, and **rations are cut**—forcing many into **underground work**.  
+❌ **Corrupt Power Monopoly** – The **Hydromasters**, the engineers who control energy distribution, have **become an unelected oligarchy**.  
+❌ **Surveillance Without Technology** – Spies monitor citizens **with outdated, analog methods**—cassette recorders, physical dossiers, and informant networks replace AI.  
+
+## 💰 Economy & Trade  
+- **Severance’s true wealth is power**—it controls **hydroelectric energy on a global scale**, making it an economic powerhouse.  
+- **Massive battery ships**—floating **power stations the size of skyscrapers**—transport **stored energy to nations in need**.  
+- **Black-market goods flood the city**, as traders smuggle in **Concordian technology, VHS players, and corporate luxuries**.
+\page
+- **The Umbranauts are state-sponsored**, making exploration **one of the few lucrative careers** in Severance.  
+
+## ⚔️ Major Factions  
+- **The Hydromasters** – The **engineers and power regulators**, the true rulers behind Severance’s socialist front.  
+- **The Guild Council** – Labor unions dictating **who works where and what resources are shared**.  
+- **The Skyward Union** – A rogue group of **black-market airship pilots**, sneaking goods **in and out of the city**.  
+- **The Abyss Seekers** – Umbranauts who **dive into the drowned ruins above**, uncovering **forbidden knowledge**.  
+- **The Neon Underground** – A rising **counterculture of dissidents, artists, and smugglers** who **rebel through illegal music, underground clubs, and banned media**.  
+
+## 🌐 Cultural & Social Aspects  
+- **The city is covered in vines and moss**, with vegetation **growing along every structure**, slowly reclaiming the infrastructure.  
+- **Waterproof cassette tapes** are the primary **method of recording and messaging**, leading to a **culture of mixtapes, audio manifestos, and underground broadcasts**.  
+- **Personal fashion blends industrial utility with retrofuturistic flair**—**waterproof bomber jackets, reflective shades, jumpsuits, and neon-lined vests** define the look.  
+- **Airship clubs and illegal race circuits** operate **in defiance of the state**, where pilots risk their lives for **freedom, thrill, and profit**.  
+- **Music is an act of rebellion**—underground **synthwave concerts**, hidden clubs, and banned performances fuel **anarchist movements**.  
+
+## 🔮 Paranormal & Anomalous Presence  
+- The **drowned ruins above whisper**, and **Umbranauts report seeing structures change upon return visits**.  
+- The **Sunless Glow** shifts strangely—**some claim it flickers in patterns**, as if sending signals.  
+- **Some people never leave the city, yet are seen elsewhere**, leading to rumors of **false memories, temporal anomalies, or doppelgängers**.  
+
+## 🗺 Race Distribution  
+| Race      | % Population | Role in Society |
+|-----------|-------------|----------------|
+| **Delvani**  | 30%  | Engineers, hydro-specialists, and builders |
+| **Umbranauts** | 20%  | Explorers, guides, and artifact hunters |
+| **Avian Races (Pavani, Rubrini, Azurini, Hirundari)** | 15%  | Couriers, artists, and aerial navigators |
+| **Myrleths**  | 10%  | Deep-sea specialists, traders, and enforcers |
+| **Felkin**  | 10%  | Smugglers, spies, and undercity brokers |
+| **Humans**   | 5%  | Pilots, merchants, and tech innovators |
+| **Other**    | 10%  | Strange wanderers who thrive in the mist |
+
+## 🔗 Relationship with Concord City  
+- **Severance controls energy distribution**, making it **too valuable for Concord City to openly oppose**.  
+- **A.S.T.R.A.L. struggles to maintain control**, as Severance’s **analog surveillance and decentralized power structure make infiltration difficult**.  
+- **The city is a hub for smuggling**, with rogue **A.S.T.R.A.L. defectors, political refugees, and black-market traders escaping here**.  
+
+\page
+
+## 📝 Key Observations from A.S.T.R.A.L.  
+> *"Severance is a paradox. It thrives on its own energy, yet cannot exist without external trade. It rejects corporate control, yet its Hydromasters rule unchecked. It bans private wealth, yet its underground economy flourishes. It is the dream of revolution realized, and the nightmare of stagnation revealed."*  
+> – **A.S.T.R.A.L. Internal Report**
+
+\page
+
+# 🌆 Cinderhold – The City That Burns But Never Dies  
+> *"The fire never goes out. We do not ask why. We only learn how to survive."*  
+
+## 📌 Overview  
+Cinderhold is a **massive industrial city**, built within the remains of an ancient volcanic floating island. Smoke and ash **choke the skies**, and the ground is constantly **warm beneath one’s feet**. The city is a forge of **constant creation and destruction**, where metal flows like water, and **fire is worshipped as a source of power**. The industrial elite **control the flames**, while the workers struggle to **breathe in the soot**.  
+
+## 🌍 Geography & Structure  
+- **Built into the hollowed-out core of a volcanic island**, with cities clinging to **steep cliffs and metallic scaffolding**.  
+- The **air is thick with sulfur and smoke**, and the ground **occasionally cracks open to reveal molten rivers**.  
+- **The Ember Vaults**, a labyrinthine network of old tunnels, house **abandoned projects and hidden workshops**.  
+
+## 🏛 Government & Rule  
+- **Ruled by the Infernal Syndicate**, a coalition of **industrial barons, warlocks, and fireblooded nobility**.  
+- The **Cinderborn Guard**, an elite force of **molten-armored warriors**, enforces brutal laws.  
+- **Worship of the Eternal Flame** is encouraged—some say **those who defy the flames disappear into them**.  
+
+## 💰 Economy & Trade  
+- A major exporter of **weapons, armor, and experimental arcane metallurgy**.  
+- **Fire-forged steel and Veil-infused alloys** make Cinderhold one of the most valuable trade partners for Concord City.  
+- **Illegal alchemical experiments and energy-based weaponry** are secretly developed in the Ember Vaults.  
+
+## ⚔️ Major Factions  
+- **The Ember Pact** – A brotherhood of **smiths and artificers**, responsible for the city’s warforges.  
+- **The Pyrehands** – A militant order of **fire-wielding warriors**, who enforce order through **ritualistic duels**.  
+- **The Ashmouth Legion** – A brutal **mercenary company**, rumored to **conduct live weapon tests on prisoners**.  
+
+## 🌐 Cultural & Social Aspects  
+- **Fire is both revered and feared**—destruction is seen as **a necessary step in creation**.  
+- **Dueling is an accepted form of conflict resolution**, and the **strongest rule over the weak**.  
+- People do not leave **Cinderhold unchanged**—those who survive its trials **often carry its heat within them**.  
+
+## 🔮 Paranormal & Anomalous Presence  
+- **Molten anomalies** occasionally appear, reshaping the landscape in **unnatural ways**.  
+- Some smiths claim to hear **whispers in the flames**, as if the fire itself **has a will of its own**.  
+- **The oldest forges never cool**, even if left untouched for centuries.  
+
+## 🗺 Race Distribution  
+| Race      | % Population | Role in Society |
+|-----------|-------------|----------------|
+| **Ashenborn**  | 30%  | Naturally attuned to the city’s extreme heat |
+| **Cindervein** | 20%  | Hardened survivors, adapted to molten environments |
+| **Delvani**    | 15%  | Smiths, engineers, and weapons manufacturers |
+| **Vorraki**    | 15%  | The city’s enforcers and guards |
+| **Zakariss**   | 10%  | Seeking to claim the **"eternal fire" as their own** |
+| **Humans**     | 5%  | Immigrants, often indentured to the forges |
+| **Felkin**     | 5%  | Black-market traders and assassins |
+
+\page
+
+## 🔗 Relationship with Concord City  
+- **A vital arms supplier**, providing Concord City with **advanced metallurgy and weaponry**.  
+- Concord City’s elite **quietly fund some of Cinderhold’s research projects**, in exchange for **exclusive war-tech contracts**.  
+- **A.S.T.R.A.L. has repeatedly condemned** Cinderhold’s use of anomalies in weapons research, but has **failed to intervene** due to political pressures.  
+
+## 📝 Key Observations from A.S.T.R.A.L.  
+> *"Cinderhold’s technological advancements in weaponized anomalies are deeply troubling. Their disregard for containment protocols could lead to catastrophic failures. Despite this, Concord City continues to rely on their production. We strongly advise contingency plans in case of industrial collapse."*
+
+\page
+
+# 🌆 Mirrorshard – The Fractured City  
+> *"Step carefully. The city does not always reflect what you expect."*  
+
+## 📌 Overview  
+Mirrorshard is a **city fractured across realities**, a place where buildings, streets, and even people **flicker between alternate versions of themselves**. It is a haven for **Veil scholars, Riftborn wanderers, and anomaly chasers** who wish to understand its shifting nature. However, even the most experienced explorers can become **lost in its shifting corridors**, trapped in **echoes of worlds that no longer exist—or never did**.  
+
+## 🌍 Geography & Structure  
+- **A shattered island**, where **districts appear and disappear** at unpredictable intervals.  
+- The **architecture changes subtly**—sometimes entire buildings **shift in color, shape, or age** overnight.  
+- The city’s core, known as **The Reflection**, is a place where reality **folds in on itself**, and entering it **without protection is fatal**.  
+
+## 🏛 Government & Rule  
+- No centralized ruler—**factions fight to control stable pockets of reality**.  
+- The **Glimmershade Collective**, a group of **Eidolon philosophers and Riftborn sages**, seeks to **understand the city's nature**.  
+- The **Shardborn Order**, a sect of Veil-walkers, **claims the city is a portal to something greater**.  
+
+## 💰 Economy & Trade  
+- Mirrorshard is known for **selling information**—maps of stable regions, anomaly reports, and secrets only visible in one reality.  
+- The city is home to **skilled navigators and guides**, who are hired at high prices to **lead expeditions into unstable zones**.  
+- Artifacts found in Mirrorshard are **highly valuable**, but their properties **change depending on when and where they are observed**.  
+
+## ⚔️ Major Factions  
+- **The Glass Court** – A secretive council of elites who **control access to the city’s rarest anomalies**.  
+- **The Veilshapers** – Researchers obsessed with **stabilizing the city’s fractured districts**.  
+- **The Unspoken** – Individuals who **do not belong to this reality** but have become **trapped here**.  
+
+## 🌐 Cultural & Social Aspects  
+- **Mirrorshard has no fixed history**—the past is as fluid as the city itself.  
+- Locals often carry **"anchors"**—personal items that help them **maintain their place in a shifting reality**.  
+- **Identity is flexible**—some residents change appearances, names, or even species from day to day.  
+
+## 🔮 Paranormal & Anomalous Presence  
+- **Every street is an anomaly**—the city itself defies consistent mapping.  
+- Some citizens **exist in multiple versions** of themselves at once.  
+- **Occasionally, a district will vanish**, leaving only **a reflection in the water where it once stood**.  
+
+## 🗺 Race Distribution  
+| Race      | % Population | Role in Society |
+|-----------|-------------|----------------|
+| **Eidolon**   | 30%  | Naturally attuned to the city's instability |
+| **Riftborn**  | 20%  | Nomads who use the city as a waypoint |
+| **Umbranauts**| 15%  | Explorers, traders, and travelers of the Veil |
+| **Veilborn**  | 10%  | Lingering echoes of past events |
+| **Felkin**    | 10%  | Brokers of rare information and anomalies |
+| **Humans**    | 5%  | Seekers of knowledge, lost wanderers |
+| **Aestari**   | 5%  | Scholars, researchers, and spies |
+| **Vorraki**   | 5%  | Bodyguards and enforcers for high-value individuals |
+
+\page
+
+## 🔗 Relationship with Concord City  
+- Concord City views Mirrorshard as **both a mystery and a liability**—the city is **too unpredictable to fully exploit**.  
+- **A.S.T.R.A.L. has abandoned attempts at containment**, concluding that **stability is impossible to enforce**.  
+- Some believe that **Mirrorshard holds records of alternate versions of history**, and Concord City's elite **are terrified of what might be discovered**.  
+
+## 📝 Key Observations from A.S.T.R.A.L.  
+> *"Mirrorshard cannot be controlled, only navigated. Any attempts to impose order result in paradoxical shifts that erase those involved. The city is best left untouched—those who meddle with it tend not to return, and when they do, they are not the same."*
+
+
+\page
+
+# 🌆 Nevermourn – The City of the Forgotten  
+> *"Here, the dead do not rest, and neither do we."*  
+
+## 📌 Overview  
+Nevermourn is a **haunted city**, a place where the veil between life and death **is thin enough to walk through**. It is home to **ghosts, lost souls, and those who seek to understand the mysteries of undeath**. The city thrives on **necromantic research and spiritual communion**, yet it is not a place of horror—rather, it is a place where **death is simply another stage of existence**. However, even here, there are whispers of **things that should not have returned**.  
+
+## 🌍 Geography & Structure  
+- **A mist-covered island**, where the architecture is **a mix of mausoleums, gothic spires, and ancient ruins**.  
+- **The Echo District** is where the dead walk freely, existing **in parallel with the living**.  
+- **The Black Tomb**, a vast crypt beneath the city, is said to house **the remains of something never meant to be found**.  
+
+## 🏛 Government & Rule  
+- **Governed by the Mourning Council**, a group of **elders, spirits, and necromantic scholars**.  
+- Laws are dictated by **both the living and the dead**—**ghosts have a voice in political matters**.  
+- **The city does not fear death, but rather the disruption of its balance**—rogue necromancers and grave thieves **face severe punishment**.  
+
+## 💰 Economy & Trade  
+- The city trades in **funerary rites, spiritual guidance, and necromantic research**.  
+- Some scholars **pay high prices for knowledge on immortality**, though the council is **hesitant to share it**.  
+- Black-market dealings in **forbidden resurrection magic** are **tightly controlled but impossible to eradicate**.  
+
+## ⚔️ Major Factions  
+- **The Veilkeepers** – The city's protectors, ensuring **spirits and the living coexist peacefully**.  
+- **The Graveborn Scholars** – Researchers who study **the transition between life and death**.  
+- **The Hollow Choir** – A secretive cult that believes **the dead should inherit the world**.  
+
+## 🌐 Cultural & Social Aspects  
+- **Conversations with the dead are common**—most families maintain bonds with **deceased ancestors**.  
+- **Funeral rites are celebrations**, marking **a transition rather than an end**.  
+- **Some residents have lived multiple lifetimes**, reincarnating into new bodies with **memories intact**.  
+
+## 🔮 Paranormal & Anomalous Presence  
+- **Ghosts walk among the living**, bound to the city rather than passing on.  
+- Some buildings are **"alive" with memories**, replaying moments of history when touched.  
+- The Black Tomb **hides something older than recorded history**—something that **watches from the dark**.  
+
+## 🗺 Race Distribution  
+| Race      | % Population | Role in Society |
+|-----------|-------------|----------------|
+| **Veilborn**  | 30%  | Ghosts, spirits, and echoes of the past |
+| **Felkin**    | 20%  | Morticians, guides, and caretakers of the dead |
+| **Aestari**   | 15%  | Necromantic scholars and spiritual researchers |
+| **Humans**    | 10%  | Pilgrims and seekers of forbidden knowledge |
+| **Canid**     | 5%  | Guardians of the city's sacred grounds |
+| **Vorraki**   | 5%  | Warrior-monks who defend the balance of life and death |
+| **Delvani**   | 5%  | Craftsmen and builders of funerary architecture |
+| **Other**     | 10%  | Beings not easily classified, some of whom were never alive to begin with |
+
+\page
+
+## 🔗 Relationship with Concord City  
+- Concord City **avoids direct involvement**, viewing Nevermourn as **too dangerous to interfere with**.  
+- **A.S.T.R.A.L. maintains a quiet presence**, keeping tabs on **resurrection practices and spiritual anomalies**.  
+- Some believe **Nevermourn holds secrets to true immortality**, a fact that Concord City's elite **would kill to possess**.  
+
+## 📝 Key Observations from A.S.T.R.A.L.  
+> *"Nevermourn exists in defiance of natural law, yet it remains more stable than any empire. The dead do not seek conquest, only understanding. Perhaps they are wiser than the living. Regardless, what lies beneath the Black Tomb must never be disturbed."*
+
+\page
+# 🌆 Dreadmere – The Smoldering Gate  
+> *"We came from the Spiral. We were shaped by its fire. The world below is weak, but we will teach it endurance."*  
+
+## 📌 Overview  
+Dreadmere is a **vast, burning metropolis** at the base of the Ashen Spiral, home to the **Dren**, an ancient race of smoke-breathing beings whose technology is **as alien as it is advanced**. The city is **a furnace of innovation and endurance**, its towers of **blackened stone and molten veins** standing unshaken by time. To the unprepared, **Dreadmere is uninhabitable**—its streets waver in a mirage of heat, its air thick with **sulfur, metallic dust, and curling smoke**.  
+
+Despite its hostile environment, Dreadmere is **one of the most advanced civilizations in existence**. The Dren's technology is **not digital, nor mechanical—it is something older, something woven into the fabric of existence itself**. They have no screens, no data banks, no circuitry—yet their creations **eclipse mortal innovation** in efficiency, permanence, and resilience.  
+
+Dreadmere is **the only sanctioned gateway into the Spiral**, and those who seek its depths **must first prove they can withstand the city's trials**. The Dren allow outsiders, but only those **willing to endure**.  
+
+## 🌍 Geography & Structure  
+- Built within a **chasm of volcanic stone**, where **rivers of molten rock serve as both energy sources and barriers**.  
+- **Air thick with smoke**, requiring visitors to **wear protective suits** or use **respiratory filters**.  
+- **The Pillars of Ash**, **immense black towers** of fused stone and metal, serve as the city's districts.  
+- **The Gate of the Spiral**, a massive obsidian archway, is the **only permitted passage** into the depths of the Ashen Spiral.  
+
+## 🏛 Government & Rule  
+- **Ruled by the Embered Conclave**, a council of **ancient Dren engineers, forgemasters, and scholars**.  
+- The **strongest and most enduring** hold power—the Dren see **resilience as the only true form of leadership**.  
+- The city's laws are enforced by the **Smokewardens**, elite Dren enforcers who **wield weapons that appear as nothing more than heat and vapor**.  
+
+## 💰 Economy & Trade  
+- Dreadmere **produces no exports** in the traditional sense—**its knowledge and technology are its only trade goods**.  
+- **Dren technology is incomprehensible to outsiders**, but when traded, it **outlasts and outperforms anything the mortal world has built**.  
+- The city's **refineries extract exotic minerals and unknown elements** from the Spiral, fueling industries no other civilization understands.  
+
+## ⚔️ Major Factions  
+- **The Embered Conclave** – The ruling body, made up of **Dren who have proven their endurance**.  
+- **The Smokewardens** – Elite law enforcers who wield **weapons forged from condensed heat and vapor**.  
+- **The Black Alchemists** – An enigmatic order of **Dren artificers**, whose **creations defy mortal comprehension**.  
+- **The Ashen Pact** – Outsiders who have chosen to remain in Dreadmere, attempting to **decode Dren technology**.  
+
+## 🌐 Cultural & Social Aspects  
+- **Strength is measured in endurance**—outsiders are often tested before being allowed deep into the city.  
+- The Dren **do not use written language**—their knowledge is encoded into **heat-etched stone, soundless vibrations, and shifting metallic plates**.  
+- **Art is functional**—every structure, every creation, is designed to **last eternally**.  
+
+\page
+
+## 🔮 Paranormal & Anomalous Presence  
+- **Dren technology has no visible moving parts**, yet it functions with an **unshakable permanence**.  
+- **The city's heat is unnatural**—its fires **never diminish, never consume**, as if they were not truly fire at all.  
+- Some say **the Spiral watches through Dreadmere**, using the city as its last, eternal witness.  
+
+## 🗺 Race Distribution  
+| Race      | % Population | Role in Society |
+|-----------|-------------|----------------|
+| **Dren**     | 85%  | Rulers, engineers, and the city's true inhabitants |
+| **Delvani**  | 5%   | Mineral traders, suited workers in the lower city |
+| **Vorraki**  | 3%   | Hired as bodyguards, struggle with the heat |
+| **Humans**   | 3%   | Scholars, desperate to learn Dren secrets |
+| **Felkin**   | 2%   | Smugglers, black-market traders of stolen Dren tech |
+| **Other**    | 2%   | Outliers who can withstand the city's conditions |
+
+## 🔗 Relationship with Concord City  
+- **Dreadmere does not answer to Concord City.** The Dren view mortal nations as **temporary distractions**.  
+- **A.S.T.R.A.L. has a presence**, but their agents struggle to **decode, contain, or even comprehend** Dren technology.  
+- The few Concord officials who gain access to the city **often return altered**, speaking of **patterns in the flames, whispers in the heatwaves**.  
+
+## 📝 Key Observations from A.S.T.R.A.L.  
+> *"Dreadmere is a paradox. It is both a city and a machine. It is both ancient and eternal. The Dren do not build—they reveal. We have studied their technology for decades, and we are no closer to understanding its function. It does not corrode. It does not degrade. It does not require power. It simply is."*  
+> – **Classified Report: A.S.T.R.A.L. Division of Planar Containment**
+
+
+\page
+
+# 🌆 Aurisfall – The City of Eternal Radiance  
+> *"The Falls never cease, and neither do we. Our light will outlast time itself."*  
+
+## 📌 Overview  
+Aurisfall, the **capital of Everbright**, is a breathtaking **city of gold and light**, built upon the **sheer cliffs of the Radiant Falls**. At its heart stands **the Auric Spire**, a **monumental tower of gilded stone and shimmering glass**, which serves as **both the city’s seat of power and its greatest mystery**. The city itself is **built upon and within its massive walls**, cascading **down the cliffs like terraces of a golden temple**.  
+
+The **Radiant Falls**, an endless waterfall that **fades into nothingness as it stretches toward the unstable edges of reality**, fuels the city’s **sacred energy**, its people believing that **Aurisfall is the last true beacon of stability before existence unravels**. The city's inhabitants live by a strict **doctrine of illumination, knowledge, and order**, believing that their role is to **preserve the light of civilization against encroaching entropy**.  
+
+## 🌍 Geography & Structure  
+- **A city of gold and marble**, built upon **cliffside terraces, bridges, and suspended districts**.  
+- The **Auric Spire**, a towering **gilded monolith**, serves as the city’s heart and **the axis of power**.  
+- **The Lower Districts**, carved into the cliffside, house **workers, scholars, and merchants**.  
+- **The Upper Bastions**, where noble houses and the city’s elite reside, extend **into floating sanctuaries** tethered by radiant chains.  
+- **The Evervault**, a deep sanctum within the Auric Spire, holds **records of ancient knowledge and lost civilizations**.  
+
+## 🏛 Government & Rule  
+- **Ruled by the Radiant Assembly**, a council of **philosopher-kings, scholars, and exalted luminaries** chosen for their **wisdom and spiritual clarity**.  
+- The city follows the **Doctrine of Illumination**, which dictates that **truth, beauty, and knowledge must be preserved against the creeping entropy beyond the Falls**.  
+- Governance is **strict but benevolent**, with **tradition and enlightenment guiding law rather than force**.  
+
+## 💰 Economy & Trade  
+- A center of **trade, philosophy, and alchemical refinement**, exporting **alchemized gold, sacred artifacts, and knowledge**.  
+- **The Radiant Falls generate vast energy reserves**, used to **power the city's advanced arcane and technological wonders**.  
+- **Everbright’s most skilled artisans and scholars** reside here, producing **legendary works of art, architecture, and mystical innovation**.  
+
+## ⚔️ Major Factions  
+- **The Radiant Assembly** – The ruling council, composed of **scholars, luminaries, and keepers of ancient knowledge**.  
+- **The Auric Sentinels** – The city’s **elite guardians**, protecting both **the Spire and the sanctity of the Falls**.  
+- **The Luminous Guild** – Artisans, alchemists, and architects dedicated to **preserving beauty and knowledge**.  
+- **The Exalted Choir** – A mysterious sect that **believes the Falls sing the last hymn of existence** and seek to **decode its meaning**.  
+
+## 🌐 Cultural & Social Aspects  
+- **A deeply hierarchical society**, where **wisdom and knowledge** determine status rather than birth.  
+- **The Doctrine of Illumination** teaches that **stability is sacred, and all must contribute to civilization’s endurance**.  
+- **Music, art, and gold** are revered as symbols of **eternal beauty and defiance against decay**.  
+- Those who abandon **the city’s teachings** often vanish into **the unknown edges beyond the Falls**, never to return.  
+\page
+
+## 🔮 Paranormal & Anomalous Presence  
+- The **Radiant Falls defy physics**, existing **beyond the normal boundaries of time and space**.  
+- Some claim that **standing too close to the Falls alters one’s perception of reality**, making the city’s edge **both beautiful and dangerous**.  
+- The Auric Spire is **immeasurably old**, yet **unchanged**, as if it exists **outside the reach of entropy itself**.  
+
+## 🗺 Race Distribution  
+| Race      | % Population | Role in Society |
+|-----------|-------------|----------------|
+| **Aestari**   | 40%  | Scholars, rulers, and philosophers |
+| **Humans**    | 15%  | Merchants, travelers, and scribes |
+| **Delvani**   | 15%  | Artisans, engineers, and builders |
+| **Celestborn**| 10%  | Spiritual leaders and seekers of enlightenment |
+| **Felkin**    | 5%  | Hidden observers, archivists of forbidden knowledge |
+| **Veilborn**  | 5%  | Mystics attuned to the Falls’ whispers |
+| **Other**     | 10%  | Beings who should not exist yet walk among them |
+
+## 🔗 Relationship with Concord City  
+- **An uneasy alliance**—Aurisfall sees Concord City as **a kingdom of decay, bound to materialism rather than enlightenment**.  
+- Concord City, in turn, **values Aurisfall’s expertise** but finds its rigid traditions **impractical for governance**.  
+- **A.S.T.R.A.L. has little influence here**, as the city’s **doctrine of self-sufficiency rejects external oversight**.  
+
+## 📝 Key Observations from A.S.T.R.A.L.  
+> *"Aurisfall believes itself eternal, but eternity is a fragile thing. Its people cling to the light, fearing the darkness beyond the Falls. Yet, in their fear, they forget that even light may blind those who stare at it for too long."*
+
+\page
+
+# 🌆 Vareithal – The Living City  
+> *"A city is not built; it is grown."*  
+
+## 📌 Overview  
+Vareithal is **a city of living wood and stone**, its towers not constructed but **shaped from colossal trees** that predate written history. The city **thrives in symbiosis with its environment**, its **roads winding between the branches**, its homes **woven into the great canopies**. The city breathes—its very air filled with the **scent of growth and ancient wisdom**, while its people practice **biomancy and regenerative magic**, ensuring that **progress does not come at the cost of destruction**.  
+
+## 🌍 Geography & Structure  
+- Built within the **Emerald Boughs**, a region where **trees reach into the heavens**.  
+- The city's **paths, bridges, and towers are part of the trees**, shifting as they grow.  
+- The **Heartwood Nexus**, a **pulsating core of glowing flora**, connects the city **to the natural magic of the Cradle**.  
+
+## 🏛 Government & Rule  
+- Governed by the **Circle of Roots**, a council of **druids, sages, and ancestral spirits**.  
+- Leadership is **not inherited but bestowed by the land itself**, as those chosen by the **Verdant Communion** gain insight beyond mortal wisdom.  
+- **Biomantic architects** regulate growth, ensuring **the city's expansion does not disrupt the balance**.  
+
+## 💰 Economy & Trade  
+- Vareithal exports **alchemic compounds, rare herbs, and regenerative materials**.  
+- **Biomantic healing and organic engineering** are the city's greatest resources.  
+- Unlike most cities, its economy is **not currency-driven**—barter, favors, and symbiotic exchange are common.  
+
+## ⚔️ Major Factions  
+- **The Circle of Roots** – The ruling body, ensuring harmony between **Vareithal and the land**.  
+- **The Greenwardens** – Defenders of the city, wielding **nature-forged weapons** that **grow and adapt to their wielders**.  
+- **The Hollowbark Pact** – A faction of **radical survivalists**, who believe the city should **abandon civilization entirely and return to the wild**.  
+
+## 🌐 Cultural & Social Aspects  
+- **Reverence for the land**—every child is bonded to a **lifetree**, growing alongside them.  
+- **Music is part of daily life**, with buildings that **sing** as the wind passes through their branches.  
+- **Nomadic traders weave through the canopy**, ensuring that **no region of the city is ever isolated**.  
+
+## 🔮 Paranormal & Anomalous Presence  
+- **Some trees seem to remember**—they shift subtly, altering the city's layout based on **long-forgotten events**.  
+- The **Verdant Communion** speaks to **those attuned to the land**, offering glimpses of the past and future.  
+- Some say the **city itself is alive**, responding to those who call it home.  
+
+## 🗺 Race Distribution  
+| Race      | % Population | Role in Society |
+|-----------|-------------|----------------|
+| **Delvani**   | 35%  | Forest wardens, artisans, and biomancers |
+| **Humans**    | 15%  | Nomadic traders, seekers of wisdom |
+| **Veilborn**  | 15%  | Mystics attuned to the Cradle’s whispers |
+| **Bloomers**  | 10%  | Living floral beings, part of the city itself |
+| **Felkin**    | 10%  | Wanderers, shamans, and alchemists |
+| **Other**     | 15%  | Creatures unknown, welcomed by the land |
+
+\page
+
+# 🌆 Y’Shaara – The City of Endless Hunt  
+> *"To thrive is to struggle. To struggle is to grow."*  
+
+## 📌 Overview  
+Where most cities of the **Verdant Cradle** harmonize with the land, **Y’Shaara embraces its brutality**. Built upon the **skeletons of colossal beasts**, this city is one of **hunters, warriors, and primal survivalists**. **Domed shelters of woven bone and chitin**, **watchtowers carved from petrified beasts**, and a **society where strength earns respect** define Y’Shaara. Here, **the hunt is sacred**, and the strongest warriors become **both leaders and legends**.  
+
+## 🌍 Geography & Structure  
+- **Built within the Gravewilds**, a place where **massive creatures die and the land reclaims them**.  
+- **Massive walls of hardened resin and bone**, protecting against **the shifting ecosystem**.  
+- The **Great Maw Arena**, where warriors **prove themselves against the beasts of the Cradle**.  
+
+## 🏛 Government & Rule  
+- **Led by the Huntcallers**, warriors chosen not by birth but by **deeds and victories**.  
+- Trials determine rank—**a weak ruler is quickly replaced**.  
+- **The Hunt Code** dictates that **nothing is wasted**—every kill, every resource, has purpose.  
+
+## 💰 Economy & Trade  
+- The city thrives on **beastcrafting**, using **bones, scales, and hides** to create powerful tools.  
+- **Alchemical extracts** from the region’s **predators** are highly sought after.  
+- Hunters often **sell their services** to other cities, acting as **trackers, mercenaries, and monster slayers**.  
+
+## ⚔️ Major Factions  
+- **The Huntcallers** – The ruling warriors, chosen through **trial and blood**.  
+- **The Boneweavers** – Skilled crafters who **use the remnants of great beasts** to create weapons and armor.  
+- **The Shadowfangs** – A rogue faction that **hunts not only beasts but also rival warriors**.  
+
+## 🌐 Cultural & Social Aspects  
+- **A culture of competition**—one’s worth is measured in **skill, courage, and strength**.  
+- **Storytelling is sacred**—hunters immortalize their greatest battles in **trophies, carvings, and tattoos**.  
+- **Exile is the worst punishment**—to be banished from the city is to be marked as **prey**.  
+
+## 🔮 Paranormal & Anomalous Presence  
+- Some **hunters return changed**, their eyes **reflecting something inhuman**.  
+- The Great Maw Arena **has never been empty**—**something always waits beneath its sands**.  
+- **Ancient voices whisper in the bones**, recalling **long-forgotten wars between giants and titans**.  
+
+## 🗺 Race Distribution  
+| Race      | % Population | Role in Society |
+|-----------|-------------|----------------|
+| **Vorraki**   | 40%  | Warriors, trackers, and enforcers |
+| **Delvani**   | 20%  | Artisans, crafters, and alchemists |
+| **Felkin**    | 10%  | Shadow-hunters, spies, and lorekeepers |
+| **Humans**    | 10%  | Outsiders proving their worth |
+| **Korrak**    | 10%  | Champions of the Great Hunt |
+| **Other**     | 10%  | Creatures who earned their place in the city |
+
+---
+
+Would you like additional cities for **trade, religious sanctuaries, or ancient ruins**? I can create more to round out the **Verdant Cradle's ecosystem!**
+
+
+\page
+{{insideCover}}
+
+## **Key Observations from A.S.T.R.A.L.'s Department of Geographic Anomalies & Diplomatic Failures**  
+
+- **Varnhallow** produces **industrial output at a staggering rate**, but it remains unclear **how their labor force endures such conditions** (*see: Incident Report VNH-74, in which an entire factory operated for three days without workers*).  
+- **Erelis** houses **the highest concentration of scholars, researchers, and people who say “it’s just a theory” before vanishing under mysterious circumstances**.  
+- **Sablemarch** is technically a **trade hub**, though most of its **exports are smuggled, and most of its imports are stolen**.  
+- **Vexholm** believes **anomalies should be weaponized**, and **if that statement does not immediately concern you, you have not read enough A.S.T.R.A.L. declassified documents**.  
+- **Lysoria** remains **the least documented island**, due to an unusual phenomenon where **anyone attempting to write a detailed report about it instead finds themselves writing poetry about clouds**.  
+
+## **Current Risks & Recommendations**  
+
+- **Potential diplomatic incidents: HIGH** *(Probability of at least one island declaring hostility towards Concord City: 87%)*  
+- **Unregulated anomaly presence: EXTREME** *(Sablemarch alone has more **illegal anomaly trafficking** than A.S.T.R.A.L. has tracking personnel)*  
+- **Probability of one or more islands vanishing without explanation: UNCERTAIN** *(Last cycle, Erelis disappeared for six months. They insist they were “always there.” We are currently pretending to believe them.)*  
+- **Likelihood of Vexholm testing an anomalous weapon on a nearby island: GUARANTEED** *(The only uncertainty is which island will be the unlucky recipient.)*  
+
+**Final Recommendation:** Continue **monitoring**, establish **containment protocols where possible**, and **absolutely do not accept invitations to "anomaly-enhanced warfare demonstrations" from Vexholm**.  
+
+## **A.S.T.R.A.L. – DEFENDING REALITY AGAINST THE UNSEEN**  
+### *Everything is under observation. Including this document. Including you.*

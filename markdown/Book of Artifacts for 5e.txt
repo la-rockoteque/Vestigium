@@ -1,0 +1,1144 @@
+```metadata
+title: Book of Artifacts for 5e
+description: ''
+tags:
+  - ''
+systems:
+  - 5e
+renderer: legacy
+theme: 5ePHB
+
+```
+
+
+AL-QADIM™ Campaign (ahl kah-DEEM)
+Take a magic carpet ride to adventure! Behold the legendary might of Zakhara, the Land of Fate. In this realm of burning
+sands and burning passions, threads of Arabian legend are richly interwoven with the fantasy of the AD&D® game. Visit
+spired cities, lush oases, and mysterious isles set in glittering seas. Meet sultans and sheikhs. See genies and giants. Discover a
+trove of new magical treasures! Whether your character sets sail from the compatible FORGOTTEN REALMS setting or
+explores Zakhara as a native, the exotic AL-QADIM campaign will enchant role-players for a thousand and one adventures.
+GREYHAWK® Campaign
+Bigby, Tenser, Mordenkainen, Leomund .. . If you've perused the spells and magical items for the AD&D game, you've
+discovered their famous names. These and other personalities hail from the GREYHAWK campaign setting, the oldest world
+created for the AD&D game line. Steeped in tradition, the GREYHAWK campaign abounds with castles and valiant knights.
+It is also a realm of free-wheeling adventure and mercenaries for hire. In the wake of a recent war, the nations live with an
+uneasy truce. Now heroes face new challenges in the endless struggle for the cause of good, from eluding the nefarious spies
+of the Scarlet Brotherhood to evading the ghoulish army of Ivid the Undying.
+DRAGONLANCE® Campaign
+Enter the world of Ansalon, a land of romance and high adventure. Discover tinker gnomes, gully dwarves, nefarious
+villains, noble heroes . . . and dark, deadly dragons. All things draconian play a starring role in this world—from the
+half-man, half-dragon thugs who patrol the streets, to the evil red dragons who fill the skies, to the beautiful creatures of
+gold and silver who do battle on the side of good. This is a world struggling to regain its lost honor and glory—a land where
+unlikely adventurers can become legendary heroes.
+DARK SUN® Campaign ^^ ^
+The DARK SUN world is TSR's most savage game setting—a desert realm scorched by a relentless sun, blasted by the
+destructive magic of generations of evil wizards. It is a land of evil sorcerer-kings and powerful psionicists (characters with
+astounding paranormal powers). In this wild and brutal landscape, a single adventurer can alter the course of unfolding
+history.
+RAVENLOFT® Campaign
+Whether you journey to Ravenloft for an occasional evening of terror or an extended nightmare, the experience will haunt
+you forever. The RAVENLOFT campaign is a horrific realm of dread and desire, rooted in the Gothic tradition. The misty
+fingers of this world can reach into any other campaign setting to draw unsuspecting travelers into its midst. Once it holds
+them in its icy embrace, it may never let them go. In a shadowy world filled with vampires, werewolves, and ghosts, only
+those who are strong of heart may survive.
+FORGOTTEN REALMS® Campaign
+Well met. . . and welcome to the most popular, most detailed fantasy campaign world ever created. Here gods walk the
+earth and fantastic armies clash. Visitors explore a vast frontier filled with fascinating folk, from bold heroes and whimsical
+characters to shadowy villains and clandestine societies. This is the home of Elminster the sage and Drizzt the dark .elf—two
+heroes featured in TSR's best-selling FORGOTTEN REALMS novel line. No setting can match the grand scope of the
+FORGOTTEN REALMS campaign world.
+
+Incredible Magic for All Campaigns!
+Design: David "Zeb" Cook
+Additional Artifact Design: Rich Baker, Wolfgang Baur, Steve and Glenda Burns,
+Bill Connors, Dale "Slade" Henson, Colm McComb, Thomas M. Reid, and
+David Wise
+Supervision and Development: David "Zeb" Cook
+Editing: Thomas M Reid
+Additional Editing and Proofreading: David Wise
+Cover Art: Fred Fields
+Art Coordination: Peggy Cooper
+Interior Art and Icons: Daniel Frazier
+Graphic Coordination: Sarah Feggestad
+Typesetting: Gaye O'Keefe
+TSR, Inc
+FOB 756
+Lake Geneva
+WI53147 US A
+TSR Ltd
+120 Church End, Cherry Hinton
+Cambridge CB1 3LB
+United Kingdom
+2
+Random House and its affiliate companies have worldwide distribution rights in the book trade for English language products of TSR, Inc
+Distributed to the book and hobby trade in the United Kingdom by TSR Ltd
+Distributed to the toy and hobby trade by regional distributors
+ADVANCED DUNGEONS & DRAGONS AD&D, DARK SUN DRAGONLANCE, FORGOTTEN REALMS, GREYHAWK, RAVENLOFT, GAMMA WORLD, and
+SPET T JAMMER are registered trademarks owned by TSR Inc
+AL-QADIM DUNGEON MASTER, DM, BATTLESYSTEM, MONSTROUS COMPENDIUM, and the TSR logo are trademarks owned by TSR, Inc
+All TSR characters, character names, and the distinctive likenesses thereof are trademarks owned by TSR, Inc
+This material is protected under the copyright laws of the United States of America Anv reproduction or other unauthorized use of the material or artwork contained
+herein is prohibited without the express written consent of TSR, Inc
+Printed in U S A
+Copyright ©1993 TSR, Inc All Rights Reserved
+1-56076-672-7
+Introduction ..........................................................3
+Acorn of Wo Mai.................................................ll
+All-Knowing Eye of Yasmin Sira ......................12
+Apparatus...............................................................l3
+Artifurnace...........................................................l6
+Axe of the Dwarvish Lords...............................17
+Axe of the Emperors ..........................................19
+BabaYaga's Hut..................................................21
+Blackjammer's Cutlass ......................................24
+Book with No End..............................................25
+Codex of the Infinite Planes..............................27
+Coin of Jisan the Bountiful................................28
+Crystal of the Ebon Flame.................................29
+Cup of Al'Akbar.................................................30
+Talisman of Al'Akbar.........................................30
+Death Rock ..........................................................32
+Hammer of Gesen ..............................................33
+HandofVecna.....................................................35
+Eye of Vecna........................................................35
+Herald of Mei Lung ...........................................37
+Heward's Mystical Organ.................................39
+Horn of Change..................................................42
+Invulnerable Coat and Arnd ............................43
+Iron Bow of Gesen..............................................44
+Iron Flask of Tuerny the Merciless...................45
+Ivory Chain of Pao .............................................46
+Jacinth of Inestimable Beauty...........................46
+Johydee'sMask...................................................49
+Kuroth's Quill .....................................................50
+MaceofCuthbert.................................................52
+Machine of Lum the Mad..................................53
+Mighty Servant of Leuk-o .................................58
+Monocle of Bagthalos ........................................61
+Obsidian Man.....................................................63
+Orbs of Dragonkind...........................................65
+Psychometron of Nerad ....................................77
+Queen Ehlissa's Marvelous Nightingale.........78
+Recorder of Ye'Cind ...........................................79
+Regalia of Good ..................................................80
+Regalia of Neutrality..........................................80
+Regalia of Evil .....................................................80
+Ring of Gaxx........................................................90
+Rod of Seven Parts .............................................91
+Rod of Teeth ........................................................93
+Scepter of the Sorcerer-Kings............................95
+Seal of Jafar al-Samal .........................................97
+Silencer of Bodach..............................................98
+Sword of Kas.....................................................100
+Teeth of Dahlvar-Nar.......................................l01
+Throne of the Gods ..........................................103
+Triad of Betryal .................................................105
+Creating Magical Items ...................................107
+Recharging Magical Items...............................l30
+Appendix A: Common Rechargeable
+Magical Items.................................................137
+Appendix B: Random Power Tables..............l38
+Appendix C: Song List for Heward's
+Mystical Organ..............................................159
+
+\page
+<div class='wide'>### Introduction</div>
+
+Welcome to the big Book of Artifacts! Within these
+pages is one of the most amazing, diverse, and
+colorful collections of arcane magic ever assembled
+for use in AD&D® campaigns. Before getting
+started, though, it's time to clear up a few
+misconceptions:
+
+"Artifacts are too powerful for a campaign."
+Not true! Artifact does not mean immensely powerful.
+The Herald ofMei Lung is useful, but it can't
+blast anyone to ashes the way the Axe of the
+Emperors might. It's not the power, but the history
+and role-playing opportunities that really
+make the difference.
+
+"All artifacts have horrible curses that keep
+them from being useful." All artifacts have side
+effects that reflect their nature, but not all side
+effects are curses. The fiend trapped in the Acorn of
+Wo Mai is definitely evil, and freeing him would
+be a bad thing. The truthfulness imposed by the
+Crown of Law isn't evil, although it may create difficulties
+for the player character. These side effects
+create opportunities for role-playing as characters
+are faced with the choices, changes, and dilemmas
+that great power brings. With prudence and good
+judgement, most artifacts can be used safely by
+PCs, but only by testing their mettle.
+
+"Artifacts are just collections of random powers."
+It used to be that artifacts had very little definition—a
+bit of history, one or two powers, and a
+lot of fill-in-the-blanks that relied on random
+tables. In the Book of Artifacts, there are all types.
+Some still let the DM choose powers while others
+are completely defined. The majority of artifacts
+here have their major powers defined while the
+lesser powers are left for the DM to pick.
+
+"Artifacts are all created by gods that
+shouldn't be involved in the campaign." No,
+many are the work of heroes from ages long past
+and a good number have their origins lost in
+time. The Coin ofjisan the Bountiful is tied to that
+goddess and may not be suitable for every campaign,
+but the same cannot be said of the Machine
+ofLum the Mad. There are more than enough artifacts
+available that are free of the troublesome
+interference of gods.
+
+"Artifacts are found only in the GREYHAWK®
+campaign." The first artifacts did appear in the
+GREYHAWK setting, and most of those are found
+in here, but the GREYHAWK world has no lock
+on artifacts. All the old favorites and many new
+ones appear in this book, suitable for any campaign.
+There are also artifacts designed for the
+FORGOTTEN REALMS®, DRAGONLANCE®,
+DARK SUN®, SPELLJAMMER®, RAVENLOFT®,
+and AL-QADIM"' settings.
+
+"If the characters stumble across an artifact,
+it could ruin the campaign." Purely and simply,
+nobody ever "stumbles upon" an artifact. Artifacts
+are special, and no one just finds them
+lying around. There are no treasure tables for
+artifacts; they do not appear in random treasure
+piles. In fact, the only time characters can find an
+artifact is when the DM wants them to. It's
+assumed that the characters won't be given an
+artifact unless the DM is ready to deal with it.
+
+"A character with an artifact will ruin the
+adventure." The artifact is the adventure, and is
+there because the adventure needs it. Artifacts
+are about stories, and characters find them
+because there is a special need. Throughout the
+Book of Artifacts, there are adventure suggestions
+built around the artifacts.
+
+"Artifacts are nothing but a headache." Of
+course they are if the DM and players don't use
+them well. Give a character Baba Yaga's Hut without
+a little planning and thought, and disaster will
+certainly follow. With a little preparation, however,
+artifacts make for memorable adventures.
+With all these misconceptions out of the way,
+it's clear that artifacts can be used in ways that
+won't unbalance the campaign, destroy player
+characters, muck up the world, or even ruin an
+adventure.
+Now, doesn't that feel better?
+
+
+\page
+<div class='wide'>### Introduction</div>
+
+## What's In Here?
+
+The Book of Artifacts is a supplement for the
+core rules of the AD&D® 2nd Edition game. In
+other words, everything in this book is optional.
+This is not something every DM must have or a
+book every player should read. DM's who want
+to use the material here can, others don't have
+to. The Book of Artifacts is not a vital piece for
+every campaign.
+
+As one might expect, the Book of Artifacts
+includes descriptions of artifacts for use in the
+game. These descriptions fill the better part of
+the book. Each description includes a history
+and advice for creating adventures that revolve
+around the artifact.
+
+To aid the DM in using artifacts, there is also a
+chapter of general information about artifacts. In
+it the DM can find advice on creating new artifacts,
+building adventures around artifacts, getting
+artifacts out of a campaign, and how to
+repair a damaged campaign if an artifact gets
+out of hand.
+
+Although not directly related to artifacts, two
+chapters dealing with the creation and recharging
+of magical items have also been included.
+These give detailed rules and guidelines to help
+the DM when player characters decide to make
+their own magical items. Now, when the PC
+mage wants to recharge a wand of frost or make a
+potion of spider climbing, the DM will be ready.
+
+After all this comes a host of appendices.
+These cover tables for artifact powers, diagrams
+of the control panels for the Machine of Lum the
+Mad and the stops of Heward's Mystical Organ,
+listings of artifacts suitable to particular AD&D
+worlds, and more. The DM can use these to create
+and integrate his own artifacts into the campaign.
+
+The best way to approach this material is to
+skip around. DM's are encouraged to read
+through the chapter on artifacts first. The artifact
+descriptions can be read in any order desired or
+not read at all. The information on magical items
+can be read when needed; none of the rules there
+is needed to use any artifact in a campaign.
+
+```
+```
+
+## What is an Artifact?
+
+Since this book is about artifacts, it helps to
+have a clear idea of just what an artifact is and
+isn't. It's not what a lot of people expect.
+One occasional point of confusion is that there
+are two different names for the same thing—
+artifact and relic. Artifacts are powerful magical
+items that have wizard, priest, or other powers
+and are made by gods, lichs, wizards, and other
+spellcasters. Relics are powerful magical items
+that have wizard, priest, or other powers, are
+made by gods and priests, and have some holy
+importance to a particular temple. Otherwise,
+the two types are identical. Throughout this
+book, the term "artifact" refers to both artifacts
+and relics. "Relic" refers only to that group of
+artifacts that have holy significance.
+A common assumption is that an artifact is
+any ultra-powerful magical device. This is not
+true. A staff of the magi is considered by many to
+be an ultra-powerful device, but it is not an artifact.
+Indeed, many artifacts have fewer powers
+than this staff. While most artifacts are potent
+(because the DM wants them to be memorable),
+sheer power is not a defining quality. An artifact
+must have three properties: it must be unique, it
+must have a history, and it must be important to
+the adventure.
+___
+**Unique**. Artifacts are one-of-a-kind items, and
+that's part of what makes them valuable. There's
+only one Talisman of Al-Akbar. If there were
+more, they wouldn't be as special. In most campaigns,
+this means there's only one in the entire
+world. In those campaigns that cross to different
+worlds (as a SPELLJAMMER® game would), it
+means there's only one in all the worlds and
+planes. This also means that characters who are
+brought from one DM's campaign to another
+cannot bring artifacts with them. The DM gets to
+keep those toys.
+___
+**History**. One of the most important features of
+every artifact is that it has baggage. Someone or
+something made it, used it, and eventually man4
+aged to lose it. The history should explain or at
+least hint at the reason the artifact exists and
+what it was originally used for. The tale may
+also tell what has happened to the artifact since
+it was made, particularly the great or wondrous
+fates of successive owners. Histories are important.
+They provide something for the player
+characters to research and a means for the DM to
+give clues about the item's vast powers. A colorful
+if not wholly accurate description of the terrible
+fate that met the last owner of the Crystal of
+the Ebon Flame is certain to make the player characters
+cautious, should they ever find the same
+device.
+___
+Story. This is the most curious qualifier for an
+artifact since it doesn't really affect the powers
+of the item or any other aspect of the game rules.
+It does affect how the DM uses an artifact and
+the information players might gain.
+
+Purely and simply, artifacts exist to tell stories.
+Characters don't just "find" an artifact. They
+discover it because the DM put it there as part of
+a specific adventure. The minute an artifact
+turns up, smart players will know the DM has a
+special adventure in mind for their characters.
+
+As befits the unique nature of artifacts, adventures
+built around them can't be ordinary ones.
+The DM should make every effort to create a
+memorable challenge for the players. With their
+histories, artifacts have the tools to make good
+stories, but it is up the DM to finish the job.
+So there it is. Artifacts are unique and colorful
+magical items that provide adventure tools for
+the DM. They don't have to be powerful items,
+although, because of their histories, most are.
+One last point—artifacts are optional! No DM
+must include artifacts in a campaign. Even if
+they are used, no DM has to use every artifact
+listed in this book. DMs can always pick and
+choose those liked best and declare that the rest
+do not exist in the campaign.
+More importantly, no player has the right to
+tell any DM that an artifact must exist in the
+5 campaign. In a normal group, with only one
+DM, this is seldom a problem. It is important to
+remember this, however, for those groups where
+several DMs may be running the same player
+characters at different times. If Martha is DMing
+and introduces the Sword of Kas for an adventure,
+players should not insist that John let them
+use the Sword of Kas when he is DMing the same
+characters in a later adventure. If it is necessary,
+remember that artifacts always have an amazing
+ability to vanish unexpectedly, only to reappear
+innocently at some later date.
+The artifacts described in this book are not the
+only artifacts that can be used in a campaign.
+Artifacts, with their detailed histories and powerful
+effects, are personal things, so it makes
+sense that the DM should create artifacts unique
+to an individual campaign. In fact, that's just
+what the DM should do. Every campaign should
+have artifacts that are truly unique to it, thereby
+ensuring that the DM's world is different from
+every other campaign out there.
+Great idea, the DM may say, but how do I do
+it?
+Don't worry. It's really not that hard. By following
+a few simple guidelines, DMs discover
+that artifacts practically create themselves. This
+section provides a step-by-step example of the
+whole process.
+Artifacts are about wonder—not power like
+many players think. Artifacts are the highest of
+all magic in a normal campaign, so they have to
+be surprising, awe-inspiring, and unpredictable;
+in other words, all the things that make the
+world wondrous. Artifacts can't be ho-hum
+devices bound by the standard rules of magical
+devices—the dreary realities of charges, command
+words, and the like. Artifacts exist to
+break the rules.
+By the strict game rules, nobody could build
+the Machine of Lum the Mad—but Lum did. By
+the game rules, no one would make the Rod of
+Seven Parts—but it was made. The pseudo-scientific
+Apparatus doesn't conform to the rules
+for spells and magical devices—but it doesn't
+matter. It's the effect that is important, the feel
+of wonder and mystery that is added to the
+campaign.
+When creating an artifact, consider first the
+effect. A good idea is to choose something that is
+impossible by normal spells and magical items.
+This makes the artifact special and desirable.
+The effect doesn't have to be all-powerful, only
+impossible by the current rules. Make that the
+principal effect of the artifact.
+This artifact makes a wizard's spells permanent, so he
+never has to memorize spells.
+That's pretty powerful and impossible, and
+it's a good example for an artifact's effect. So,
+where does one go next?
+Any wizards or priests worth half their salt
+can make a magical item. They get a bunch of
+materials, research a few spells, lock themselves
+away in a tower or cellar, and poof-bingo-bango!—
+there's a magical item. While the materials and
+steps needed may be a mystery, the process itself
+is not mysterious. Everyone knows spellcasters
+make magical items, so no one is surprised
+when Jalarko the Magnificent comes out of his
+tower waving a long sword +1.
+Artifacts, though, are not just things. They
+quickly take on a life of their own. It's better to
+imagine an artifact as being born rather than
+built. Birth implies mystery and strangeness,
+wonder beyond a mere manufacturing process.
+As much as characters might like to, nobody in
+the present history of a campaign "makes" artifacts.
+Artifacts always come from times more distant,
+a few centuries to a few millennia in the
+6
+past. Sometimes the maker and the circumstances
+of the device's creation are well known;
+more often, however, the history of who did
+what and what was done is vague and uncertain.
+It is said that this artifact, the Crown of Memory,
+was a gift to the archmage Forlin from his
+grateful former apprentices, now mighty mages
+themselves. In his advanced years, their beloved
+master's memory was not all it could have been,
+and so for his 180th birthday they sought a solution.
+Their gift decided, each worked his part in
+secrecy, fashioning and adding a little more to
+the crown without yet knowing what the others
+had done. It is said that one of them even pleaded
+to the powers of magic for aid in the task. Perhaps
+his cries were heard, for the Crown was the
+result.
+Simply saying that an artifact is, is not enough.
+Artifacts come wrapped in long chains of history
+and legend that bind them to specific places
+and things. Part of this is in the mystery of their
+birth—who first made them, who first used
+them, who first died at their hands—but their
+legends reach beyond this. Artifacts are like
+proverbial bad pennies, resurfacing time and
+time again to wreak havoc, inspire tragedy, or
+save the day. Each appearance is a mini-epic in
+which the artifact plays a central role. No tale is
+ever, "Oh by the way, he used this artifact he
+found." Instead, the artifact changes the hero (or
+heroine); sometimes for the better, oft for the
+worse, and then like an actor whose part is finished,
+it disappears from the stage. Imagine that
+artifacts have wills of their own. They allow
+themselves to be discovered and used and they
+leave when the time is done.
+One practical effect of coming up with a colorful
+tale is that it provides the DM with the
+ammunition needed for adventures and so forth,
+in the form of rumors, legends, and hints for the
+campaign. Since learning the powers of any artifact
+is supposed to be hard, these tales (already
+prepared) may be the best sources of meager
+information for the player characters.
+When the archmage finally died, dissension rose
+among his loyal students. Some wanted to inter
+the treasure with their master, while others
+decried this ivaste. The argument was settled
+when Liras seized the Crown and claimed it as
+her own. The wrath of all the others turned upon
+her, but, aided by the Crown, Liras slew them
+all. Ambition fueled a madness in her and so,
+with the Crown's might, she overthrew the
+rightful king and proclaimed the Sorcerous
+Dynasty. Terrible was her rule, as she crushed
+any who opposed her. At last the hero Turoc,
+aided by a bound fiend, brought an end to her
+reign.
+Alas for Turoc, the fiend tricked the warrior
+into undoing its bond. Claiming the Crown as
+its prize, it slew its former master and fled from
+this plane. Perhaps it and the Crown still
+remain in the Abyss.
+The old maxim "with great power comes
+great responsibility" couldn't be more true in the
+case of artifacts. Nothing is free or easy about
+these devices. There are always costs, drawbacks,
+or outright curses tied to their use.
+This has two effects, both important for the
+campaign. First, an effective curse quickly discourages
+any potential abuse of the artifact's
+powers. Risking possession or the arrival of a
+major fiend each time a power is used generally
+promotes cautious behavior on the part of the
+player characters. Second, by giving the player
+characters an artifact fraught with its own perils
+that must be used in the adventure, the DM generates
+tension. "Do I dare call upon the powers
+of the Scepter of the Sorcerer Kings, or should I
+wait and hope to get out of this alive some other
+way?" Of course, to be truly effective, the player
+characters should have some idea of what the
+curse is, preferably by learning the supposed
+fates of previous owners.
+7
+The Crown holds trapped within it Liras's spirit.
+Once it longed for power, but centuries in the Abyss
+have driven it vengefully mad. Any who wear the
+Crown risk activating the mad spirit trapped within.
+From the adventure standpoint, a good curse
+adds a necessary touch of drama and pathos to
+an item's history. It is far more memorable to say
+Ethganir Heartbow used the Axe of the Emperors
+to save the city, only to have it sap his life away,
+than to just say he used it and later got killed.
+This balance between weal and woe, need and
+risk, is what makes artifacts exciting to use.
+Although every artifact is unique, there are
+two cursed properties found in many of these
+items—artifact possession and artifact transformation.
+The first occurs when that item imposes its
+will and goals upon the personality of its owner.
+This is a subtle and insidious change that often
+passes unremarked by others until too late. The
+second power actually changes something more
+concrete about the character—physical form,
+alignment, race, even class may be altered to
+something more desirable to the artifact. While
+the change is slow, the effect far less subtle than
+its cousin.
+In addition to the powers possessed individually,
+all artifacts share certain features in common.
+These properties generally conceal and
+protect the artifact, placing them outside the
+normal rules for magical items.
+• Artifacts are unique. Unless the description
+says more than one exists, there can only be one
+of each in a campaign world.
+• Artifacts radiate only dim power to a detect
+magic spell. The spell never reveals the type of
+magic involved.
+• Artifacts are immune to detect evil, identify,
+know alignment, or locate object spells.
+• Legend lore and contact other plane spells never
+reveal the location of an artifact. These spells can
+be used to learn more about an artifact's powers,
+but the answers are often highly mysterious.
+• Artifacts are immune to physical or magical
+harm, except by a few specific means. If placed
+in a situation where a magical item would be
+utterly destroyed (such as crushed under an
+immense slab) the artifact simply disappears.
+This immunity extends even to the powers of
+the gods.
+• The effects of artifacts, particularly the curses,
+are permanent unless otherwise noted. Even
+wishes or supplications to the gods cannot undo
+the harm an artifact has caused.
+When an item is capable of artifact possession,
+the DM should note the goals and ambitions
+outlined in the Curse section of the device's
+8
+description. This is what a possessed character
+will seek to do or become. A wise DM will be
+prepared to deal with this possession, should it
+occur.
+Artifacts do not instantly possess their owners—that
+would be no fun. Instead, the degeneration
+of a character is a gradual process, as the
+character slides further and further out of control.
+Not only does this provide the opportunity
+to build mystery and horror, but it gives the
+player ample warning of the fate that awaits.
+Possession checks are made using the same
+rules as those for intelligent magical items.
+However, one check is made every week in addition
+to checks required from potential conflicts
+between the character and the artifact. (These
+are not based on alignment, but on the goals and
+history of the item.) For these checks, treat the
+artifact as if it has a personality score of 40 +
+1dlO.
+Each time the character's personality is overwhelmed,
+the artifact is able to assert a little
+more control over the character. The DM must
+track how many times this occurs, for once domination
+has taken place a number of times equal
+to the character's Wisdom score, the PC is permanently
+and forever possessed. Furthermore,
+characters partially overwhelmed (say, a character
+with a Wisdom score of 12 who has been
+dominated 6 times) have greater difficulty resisting
+the artifact or shaking off its effects. Use the
+ratio of possessions to total Wisdom as a percentage
+guide (50% in the above example).
+The ultimate purpose of artifact possession is
+to increase role-playing danger and excitement.
+There is no set length for the possession process.
+Instead, the DM should prolong or shorten it as
+best suits the drama of the campaign; too
+quickly and the tension of the character's gradual
+decay is lost, too slowly and the fear of possession
+is lost. It is a balancing act the DM must
+master.
+A more obvious case of character destruction
+is artifact transformation. As with possession, the
+artifact's curse will describe just how the character
+changes. It is then the DM's task to adjudicate
+this subtle shift.
+Each week that a character owns an artifact, a
+saving throw vs. polymorph (with a -4 penalty)
+must be rolled. Do not explain to players the
+purpose of this roll. If the saving throw is successful,
+nothing happens. If it is failed, then
+sometime during that week, a change occurs in
+the character and one aspect of the character
+adopts the new form. If an artifact is slowly
+changing Chekhos the Warrior into an ogre, then
+he might wake up one morning to find himself
+much bigger. His clothes and armor no longer
+fit, and he suffers larger-than-man-sized damage
+in combat. The next week, he might not be
+as handsome as he once was, as his Charisma
+drops to more ogrish levels. In the third week,
+Chekhos's wits dull, and so on until the process
+is complete.
+Artifact transformation is not meant to be beneficial
+to the character. This is important. The character
+in the process of becoming an ogre could
+benefit from ogre strength, but find himself both
+clumsy and ugly.
+The transformation is not only physical. As
+the new form becomes more final, the character's
+personality should reflect the change. The
+soon-to-be ogre starts to harbor ogrish thoughts
+and ogrish habits. When the transformation is
+complete, so is the personality change. Those
+transformed into monsters are immediately
+relinquished to the DM for use as NPCs.
+The first part of every artifact description is a
+description of the item's appearance, accompanied
+by an illustration. In most cases this
+description can be read directly to the players
+when the artifact is discovered. Of course, all
+9
+mention of the item's name should be avoided—
+that is for the players and their characters to
+learn later. Every artifact has a unique set of powers that
+can be divided into five categories: constant,
+invoked, random, resonating, and curse. The most
+important powers are usually defined here.
+The background of every artifact is important,
+since it explains powers, builds the story, and
+provides clues for the player characters. Except
+for those items tied to specific game worlds
+(such as the Mace of Cuthbert), these histories are
+purposefully vague. This should make it easier
+for the DM to incorporate the item into an individual
+campaign. Deities are not specifically
+named, and the various wizards, warriors,
+priests, and rogues are not taken from any specific
+game world (again, with the exception of
+those items specific to certain realms).
+The histories are suggestions only, because it
+is impossible to create legends and tales here
+that instantly and perfectly match every campaign.
+The DM can freely change any element
+desired, but should remember that the history is
+also meant to provide clues about the artifact to
+the players, should their characters have the
+sense to do any research.
+This is an important section of advice and
+adventure suggestions for the DM, since artifacts
+are about stories. Generally, this section
+discusses whether it is a good idea for the PCs to
+use the item or whether it is something that they
+should try to keep out of the hands of others.
+There is usually a simple adventure plotline that
+may include advice on how to introduce the artifact,
+what to do with it, and (perhaps most
+importantly) how to remove it when the adventure
+is concluded.
+Constant. These powers take effect without
+the character having to do anything other than
+hold the artifact. Sample constant powers are an
+Armor Class of 5, continual true seeing (per the
+spell), or an additional experience level for the
+owner.
+Invoked. These powers require the character
+to do something, perhaps as simple as willing it,
+shouting a command word, pushing a button, or
+reading a page. Invoked powers often have limitations
+on their number of uses.
+Random. These powers are left for the DM to
+define. This section lists the appropriate tables
+from Appendix B: Random Power Tables and
+the number of powers from that table. The DM
+can then choose from those or create others.
+Resonating. These powers only appear when
+two or more pieces of a matched set (such as the
+Eye and Hand of Vecna) are joined. Resonating
+powers seldom occur and may be constant,
+invoked, or random.
+Curse. Every artifact has drawbacks that
+reflect its nature or history. These are not all evil,
+but can be things that force particular behaviors.
+The two special curses mentioned earlier can be
+included: artifact possession and artifact transformation.
+Should either of these apply, the item's
+goals or final transformation is described here.
+This provides some colorful means by which
+the artifact can be permanently destroyed. The
+DM can create others, but none of the options
+should be easy.
+10
+
+\page
+
+### Acorn of Wo Mai
+
+The Acorn of Wo Mai is a large lead vessel, dull
+gray in color. As its name suggests, it is fashioned
+to look like an enormous acorn, almost
+three feet in height. Two golden bands, inscribed
+with arcane characters, encircle it from bottom
+to top, where they meet under a large seal of a
+dragon coiled around a sword. Although it
+appears to be tremendously heavy, the artifact
+can be carried by a strong individual with ease.
+It sometimes makes faint thumping noises, and
+is warm to the touch.
+According to ancient eastern legend, the Acorn
+of Wo Mai is the prison of a powerful fiend who
+once ruled and terrorized a great empire at the
+edges of the eastern lands. The fiend was summoned
+by war-wizards but escaped their control.
+Hearing of this fiend's cruelties, the great
+Wo Mai challenged it to battle. They fought
+long, the fiend confident, for its life force was
+hidden far away, and it could not be slain. When
+Wo Mai discovered this, he bound the fiend in
+irons that it could not break. Next, he and his
+companions shaped the Acorn, imprisoned the
+fiend inside, and brought the prize back to the
+imperial court. When the court fell to barbarian
+invaders, the Acorn was lost.
+The Acorn is best used if allowed to fall into the
+hands of the player characters, since its powers
+(and curse) will create many role-playing opportunities.
+The PCs could find the Acorn as part of a
+treasure trove, or wrest it from another whom the
+fiend has gained control of. The fiend will seek to
+seduce a player character to his aid, all the time
+stressing the need for secrecy. Should he be successful,
+the fiend will manipulate the character
+and even the entire party into freeing it. Should
+any player character oppose this, the fiend will
+do its best to turn the others against its enemy.
+To rid themselves of this artifact, the player
+characters should find some way to hide the
+Acorn away, preferably forever. Alternatively,
+they could carry it to the lower planes and open
+it, trapping the fiend in his own plane.
+Invoked. The fiend within the Acorn provides
+good advice (Int 20), telepathically providing
+answers to questions posed by its owner. It also
+grants the ability to polymorph any object (1/day).
+Random. 3 from Table 26: Minor Spell-like
+Powers.
+Curse. The fiend trapped within the Acorn is
+an evil demi-god and craves its release more
+than anything else. It is aware of its surroundings,
+particularly the life forces of creatures
+nearby, and will use its powers (and advice) to
+persuade its owner to free it from its prison.
+Once freed, of course, it will reward its former
+master with death.
+• The seal must be broken with a +5 weapon
+upon the throne of the Imperial Emperor.
+• The inscribed characters on the golden bands
+must be erased.
+• It must be cast into a volcano of Tarterus.
+11
+\page
+The All-Knowing Eye of Yasmin Sira is a large,
+opalescent strip of fabric decorated with signs of
+truth, vision, and prophecy. It is always cool and
+silky to the touch. It is a veil when worn by a
+woman, a keffiyah when worn by a man. It is
+found only in Zakhara, the Land of Fate.
+Legends of the jann and Al-Badia say that the
+Eye was made by Sahin Sira, the Sheikh of the
+Great Ghuls, as a gift for his stolen bride, a mortal
+hakima named Yasmin. He hoped that by
+having her survey all the desert and peaks he
+ruled, he would win her heart.
+In fact, Yasmin hated her husband and her
+duties. Eager to hide herself from him, she
+imbued the veil with all the power she could,
+binding the spirits of dying ghuls to it to protect
+her. But as is the way of ghul magic, the veil did
+its job too well. In time, the Eye hid her from her
+husband's sight perfectly, but it also altered her
+true sight, showing her only what she wished to
+see.
+Characters can be allowed to use the item for
+a short time, but it will unbalance a campaign.
+Any adventure built around it should require
+that the PCs uncover some great secret. It may
+be necessary to find a caliph's kidnapped son,
+thus averting a war, or to properly interpret
+mysterious omens that warn of some coming
+doom. The item's curse will complicate these
+tasks.
+The ghuls will do all they can to recover the
+Eye. This will lead to constant attacks and
+intrigues against the PCs.
+Constant. The veil provides the wearer the
+benefits of the avert evil eye, nondetection, and true
+12
+seeing spells at will. The last of these is subject to
+the curse (explained below).
+Invoked. The owner gains the use of the
+shapechange (I/day) and alter self (2/day) spells.
+The owner also benefits from the effects of the
+invisibility spell, but only to ghuls.
+Random. 4 from Table 16: Divination, 4 from
+Table 15: Detection
+Curse. The veil gradually responds to the
+owner by providing visions that match that creature's
+temperament, desires, and fears. The
+process takes 1d3 months, starting with small
+changes or additions and gradually building to
+a world of complete unreality. Once the halfway
+point of the process is reached, the owner refuses
+to remove the veil, even wearing it while eating
+and sleeping. The words of friends and relatives
+are no longer heard unless these match the character's
+dream world. When the owner dies, the
+ghuls arrive to claim their treasure once more.
+• The Eye must be worn by a blind god.
+• It must be carried to the heart of a black cloud
+of vengeance by a willing hakima.
+• It must be cast into the Negative Material
+plane while wrapped in a cloak of shadows.
+
+\page
+The Apparatus, or the Alchemist's Apparatus as it
+is sometimes known, is best described from the
+notebooks of Meister Dettrick.
+The very sight of it [the Apparatus] inspired a
+terror within me, for its very shape spoke of the
+unholy researches that planned it. It filled Herr
+Gustav's great hall, o'er-reaching even the balconies
+that looked upon the floor below. The
+main part consisted of a great glass sphere of
+sulphurous fumes, madly churning as the lightning
+teased the steel receptors set atop it. The
+whole was supported in a tripod of oppressive
+wood and iron, beneath which were suspended
+two smaller globes, each still the height of a man.
+Piping arced from these to the sulphurous orb.
+Ringing these were yet smaller orbs, interwoven
+by tubes through which flowed streams of noxious
+yellow gas. To my trepidation, Herr Gustav
+already stood among the wires and pipes of the
+platform, priming the foul device for the coming
+storm. Then I saw that each contained a beast—
+one a quivering fawn, the other a ravening dire
+wolf. "Behold the test!" he cried to me, frantic
+with his madness as he gestured to the orbs.
+From his robes he produced a crystal rod, no
+more than two feet long, that throbbed with
+crystal fire. "The rod!" he shouted above the
+enraged storm. "With the rod I shall—"
+No more of his madness could I bear, and so
+risking the fury of the elements I fled the sage's
+halls and into the night....
+It is unclear whether the Apparatus is a single
+device or a set of plans and concepts so infernal
+in their execution that the result is the diabolic
+machine known by that name. The doubt exists
+because several times this artifact is said to have
+been both invented and destroyed, and yet it
+somehow seems to recreate itself elsewhere to
+once again wreak havoc upon those who experiment
+with it.
+The first known construction of the Apparatus
+was by one known as the Alchemist of Mordentshire,
+although this person is sometimes
+confused with Count Strahd Von Zarovich,
+another who figures in the tale. That tale says
+that the Alchemist created the Apparatus in order
+to divide a soul and purge it of evil or, as others
+maintain, to fuse his own incomplete soul with
+another. Whatever his goal, the Alchemist's
+ambitions became ensnared in those of Strahd
+and disaster occurred, destroying the Apparatus
+and its maker.
+The monstrous Apparatus had more of a life
+than its maker, it seems, for it has reappeared in
+other lands, sometimes as it was and sometimes
+changed and improved. Thus it is that some
+sages maintain that the true artifact is not the
+Apparatus itself but the supposed notebooks of
+the original Alchemist, and that it is from these
+plans that the physical Apparatus is built. No
+one, however, can ever testify to seeing a copy of
+these notes.
+One important feature of the Apparatus is the
+rod of Rastinon. This magical item, although not an
+artifact in its own right, is vital to several of the
+Apparatus's powers. It must be set in place
+between the two chamber orbs and then powered
+by lightning—or so that is how the story goes.
+The Apparatus is a wonderful artifact to
+threaten player characters with because its pow13
+14
+Unlike many other artifacts, the powers of the
+Apparatus cannot be utilized at will. Although
+magical in nature, the device operates more like
+a machine. To run, it must be energized by lightning.
+No other electrical source will suffice, for
+the Apparatus requires not only the voltage, but
+the elemental power that the lightning provides.
+The metal receptor plate in the top must be
+struck 12 times in the space of three hours for
+the device to build up the necessary charge.
+Only one charge can be held at a time and
+beyond the time limit, the stored energies fade.
+The charge is enough to feed a single power of
+the Apparatus. Which power is used is determined
+by the operator, who must constantly
+supervise the machine's operation. Transpossession
+can be used without additional preparation,
+but the remaining powers of the Apparatus
+require the use of the rod of Rastinon, set in its
+place between the two globes.
+Invoked. The simplest power is transpossession,
+the complete exchange of minds between
+two creatures. The subjects are placed in the
+two globes and, amid swirls of gas and glowing
+blue sparks, the transfer is made. All mental,
+spellcasting, and psionic abilities are transferred
+between the two bodies. The new form
+has the Strength, Constitution, Dexterity, and
+Charisma of the host, but the Intelligence and
+Wisdom of the transferred mind. The subjects
+are struck unconscious for 1d3 turns. Transpossessed
+subjects detect as neutral to all spells and
+psionics that would reveal alignment, ethos, or
+personality.
+The second power, soul-splitting, divides a single
+subject into two personalities. The split separates
+some property of the psyche into its
+opposing elements—good vs. evil, law vs. chaos,
+wisdom vs. folly, etc. The two persons are physically
+similar, differing only in ways that characterize
+the nature of the split and the strength of
+each trait. The good personality may be fair and
+strong, if the original subject was filled with
+good, or sickly and pale if the subject was less
+than noble. Each personality has the full knowledge
+and abilities (within the limits of the separation)
+of the original body.
+The two forms are also utterly opposed to
+each other, so that cooperation is impossible.
+Depending on the nature of the separation, one
+will seek to destroy the other or reverse the soulsplitting
+process. An evil twin would seek its
+counterpart's death while the good tries for
+reunion. A wise twin might revel at the freedom
+ers of transpossession and soul-splitting strike at
+the very essence of the player character. The
+thought of having one's mind and psyche transferred
+into that of an orc or, perhaps worse yet, a
+goat should be enough to rouse fear in any
+player character.
+Since the Apparatus is not small, portable, or
+even quick to use, any adventure involving it
+most have a strong villain, one who can trap the
+player characters and then operate the device. A
+strong villain needs strong ambitions, too. The
+goals of this villain are certainly more than just
+tormenting the player characters. They are only
+attacked because they are useful in some made
+experiments or because they threaten, knowingly
+or not, greater plans.
+Should the characters manage to avoid the
+threats posed by the Apparatus, they can still be
+faced with other problems. Friends and allies
+may suddenly become enemies through transpossession.
+Innocents may need to be restored or
+transpossessed spies ferreted out. This may
+require the characters to seize and operate the
+Apparatus, all at great peril to their own selves!
+Among all of the artifacts, the Apparatus is the
+easiest to remove from any campaign, for it has
+a history of overloading, exploding, and otherwise
+destroying itself. Whenever the device's
+time has passed, it is a simple matter to demolish
+it in a dramatic stroke of lightning. Another
+Apparatus, should it ever be needed, can always
+conveniently appear elsewhere, for like true science,
+once released from Pandora's box, it can
+never be banished completely.
+from the foolish half. A foolish twin is likely to
+become wild and bestial, filled with more-thananimal
+cunning. In all cases, the two separated
+properties become concentrated and exaggerated
+in each individual until the distilled trait
+dominates their personalities. It radiates with
+astonishing intensity to detection spells that
+reveal that trait.
+The third power is that of soul-fusing. Here,
+two personalities are joined in one body. Normally
+this is done to reverse the process of soulsplitting,
+but it is possible to merge two unrelated
+personalities into a single creature. The merged
+form now has two separate minds within it.
+Each retains its own personality, including all
+class, mental, spellcasting, and psionic powers.
+One personality, however, cannot use the powers
+of the other.
+The result of this fusion is seldom harmonious,
+for unless the two minds are in perfect
+agreement on all things, they will vie for control
+of the body. Any time there would be disagreement
+over a course of action, an Intelligence
+check is made for each mind. Should one succeed
+and the other fail, that personality seizes
+physical control. The subject's mannerisms,
+voice, accent, likes, and dislikes are instantly
+those of the dominant personality. Should both
+fail, the subject is wracked by fearsome
+headaches so severe that any action is impossible.
+If both succeed their checks, the subject's
+body is the battleground for control. Movements
+become confused and jerky, behavior erratic
+from moment to moment, as each personality
+tries to assert itself.
+Attempts to detect the mental nature of such a
+person reveal details of the current dominant
+personality. If there is no dominant force, the
+result is a confused blur that might be mistaken
+for neutrality.
+Curse. With the Apparatus there are perils both
+for those subjected to its horrible transformations
+and for those who would use it upon
+themselves or others.
+For subjects, in addition to the perils described
+above, there is a chance that, unable to reconcile
+oneself to the alteration, madness will occur. The
+subject (or subjects in the case of a split) must
+immediately roll a successful saving throw vs.
+death or succumb to incurable madness. Thereafter,
+the subject must roll a successful saving
+throw every day for a full week. Only after this
+time is the subject able to come to terms with the
+situation. Note that for those subjected to soulfusing,
+each personality must roll a separate saving
+throw and it is perfectly possible for one
+personality to be sane and the other to be utterly
+mad.
+The experimenter risks other fates each time
+the Apparatus is used. If the Apparatus is used
+within the RAVENLOFT® campaign setting
+(where the device was originally found), the
+operator must roll a Dark Powers check each
+time the device is used—even if the operator is
+the subject. Furthermore, evil "twins" created by
+the Apparatus are immediately adopted by the
+land.
+If used outside of the RAVENLOFT setting
+(where such checks do not exist), there is a 20%
+chance (noncumulative) that the energies of the
+Apparatus create a field that transfers the device
+and surrounding locale (such as the building
+housing it), along with all characters, into the
+RAVENLOFT realm. (Players familiar with this
+realm know this is a serious curse.)
+• The machine itself is quite fragile and can be
+easily destroyed. However, it will recreate
+itself at some other place and time.
+• The characters must travel back in time to the
+workshops of the original Alchemist and
+there destroy him, his works, and all his
+notes.
+• Mystical barriers blocking the blend of science
+and magic must be erected to protect
+each prime material world. This will not
+destroy the device, but will prevent its appearance
+in that world.
+15
+\page

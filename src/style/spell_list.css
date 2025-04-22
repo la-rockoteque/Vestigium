@@ -1,4 +1,48 @@
-.two-columns {
+.page .spellList {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+    column-count: 2;
+    column-gap: 2em;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    color: #2C2C2C;
+    min-height: 1000px;
+}
+
+.page .spellList ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0 0 1em 0;
+    text-indent: 0;
+}
+
+.page .spellList li {
+    padding-left: 1em;
+    text-indent: -1em;
+    font-size: 10px;
+    line-height: 1;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.page .spellList h5,
+.page .spellList h4,
+.page .spellList h3 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 0.25em;
+    color: #5A5A5A;
+    border-bottom: 1px dashed gray;
+    padding-bottom: 0.2em;
+    break-after: avoid;
+}
+
+.page .spellList.wide {
     column-count: 4;
-    column-gap: 40px;
+}
+
+.page .spellList p {
+    margin: 0 0 0.5em 0;
+    font-size: 10px;
+    line-height: 1;
 }

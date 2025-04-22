@@ -1,0 +1,739 @@
+```metadata
+title: Ashen Vault - Critical & Fumbles
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+/*=======--- Example CSS styling ---=======*/
+/* Any CSS here will apply to your document! */
+ @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+ @import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive);
+ :root {
+     --rotate: 20deg;
+     --left: unset;
+     --top: unset;
+     --correction: "correction";
+     --source: 'https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png';
+}
+/* Removes Drop Caps */
+ .page h1+p:first-letter {
+     all: unset;
+}
+ .page .footnote {
+     border-top: lightgray dotted 2px;
+     width: 80%;
+     color: gray;
+     bottom: 28px;
+}
+ .page .footnote > h1 {
+     background-color: transparent;
+     border: none;
+     font-size: 10px;
+     margin-bottom: 0px;
+}
+/* Removes Small-Caps in first line */
+ .page h1+p:first-line {
+     all: unset;
+}
+ .page {
+     background-color: #F8F8F8;
+    /* Light gray background */
+     background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+     background-size: 20px 20px;
+    /* Adjust spacing */
+     font-family: "Courier New", Courier, monospace;
+    /* Typewriter / Redacted Report */
+}
+ .page:after, .page:has(.frontCover):after, .page:has(.insideCover):after, .page:nth-child(even)::after {
+     all: unset;
+     content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+     transform-origin: top right;
+     transform: rotate(270deg);
+     white-space: nowrap;
+     position: absolute;
+     right: 1.5cm;
+     top: 0px;
+     color: gray;
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     width: 29cm;
+}
+ .page:before {
+     all: unset;
+     content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+     transform-origin: top left;
+     transform: rotate(90deg);
+     white-space: nowrap;
+     position: absolute;
+     left: 1.5cm;
+     top: 0px;
+     color: gray;
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     width: 29cm;
+}
+ .page:has(.frontCover) .logo {
+     top: 10cm;
+     right: 0;
+     left: 0;
+     filter: drop-shadow(0 0 .075cm black);
+}
+ .page:has(.insideCover) .logo {
+     top: 0.5cm;
+     right: 0;
+     left: 0;
+     filter: drop-shadow(0 0 .075cm black);
+}
+ .page:has(.insideCover) p, .page:has(.insideCover) ul {
+     margin-top: 20px;
+     text-align: left;
+}
+ .page:has(.insideCover) .logo>img {
+     height: 2cm;
+     width: 1.8cm;
+     opacity: 0.1;
+     filter:none;
+}
+ .page:has(.frontCover) .logo>img {
+     height: 10cm;
+     width: 9cm;
+     opacity: 0.1;
+     filter:none;
+}
+
+ .page:has(.frontCover),
+  .page:has(.insideCover){
+   background: none;
+   background-color: #F8F8F8;
+}
+
+.coverpicture {
+margin-top: 1.5cm;
+  max-width: 15cm;
+  max-height: 15cm;
+}
+
+.coverpicture > img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+ .page h1 {
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size: 24px;
+     color: #2C2C2C;
+    /* Vault Black */
+     background-color: #EDEDED;
+    /* Subtle Header Background */
+     padding: 5px;
+     border-bottom: 3px solid #2C2C2C;
+    /* Strong Bureaucratic Divider */
+}
+ .page:has(.insideCover) h1, .page:has(.frontCover) h1, .page:has(.partCover) h1 {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     font-size: 24px;
+     background-color: #EDEDED;
+    /* Subtle Header Background */
+     color: #2C2C2C;
+    /* Vault Black */
+     padding: 5px;
+     border-bottom: 0 
+}
+ .page:has(.frontCover) h1 {
+     -webkit-text-stroke: 0 
+}
+ .page:has(.insideCover) h1 {
+     background-image: linear-gradient(45deg, #f7f7f7 25%, #dbdbdb 25%, #dbdbdb 50%, #f7f7f7 50%, #f7f7f7 75%, #dbdbdb 75%, #dbdbdb 100%);
+     background-size: 14.14px 14.14px;
+}
+ .page:has(.insideCover) .footnote, .page:has(.frontCover) .footnote, .page:has(.partCover) .footnote {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 15px;
+     margin-top: 40px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+     -webkit-text-stroke: 0;
+     text-align: left;
+}
+ .block .footnote {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 20px;
+     margin-top: 40px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+}
+ .page h2 {
+     font-family: "Oswald", sans-serif;
+     text-transform: uppercase;
+     font-size: 20px;
+     color: #2C2C2C;
+     border-bottom: 2px solid #8F8F8F;
+}
+ .page:has(.insideCover) h2, .page:has(.frontCover) h2, .page:has(.partCover) h2 {
+     font-family: "Courier New", Courier, monospace;
+     text-transform: uppercase;
+     font-size: 20px;
+     margin-top: 20px;
+     margin-bottom: 5px;
+     color: #2C2C2C;
+     border-bottom: 0;
+}
+ .page:has(.frontCover) h2 {
+     -webkit-text-stroke: 0 
+}
+ .page h3, .page:has(.insideCover) h3, .page:has(.frontCover) h3, .page:has(.partCover) h3 {
+     font-family: "Courier New", Courier, monospace;
+     font-size: 18px;
+     color: #5A5A5A;
+     text-transform: uppercase;
+     border-bottom: gray dashed 1px;
+    ;
+}
+ .page h4, .page:has(.insideCover) h4, .page:has(.frontCover) h4, .page:has(.partCover) h4 {
+     font-family: "Courier New", Courier, monospace;
+     font-size: 16px;
+     color: #8F8F8F;
+}
+ .page .redacted {
+     background-color: black;
+     color: black;
+     padding: 2px 5px;
+     border-radius: 2px;
+}
+ .page:has(.frontCover) hr {
+     margin: 10px;
+     position: relative;
+     width: 100%;
+     height: 5mm;
+    /* Adjust height to match a real ruler */
+     background: repeating-linear-gradient( to right, transparent 0mm, transparent 0.8mm, black 0.8mm, black 1mm );
+     filter:none;
+}
+ .page:has(.insideCover) hr {
+     position: relative;
+     width: 100%;
+     height: 1mm;
+    /* Adjust height to match a real ruler */
+     background: repeating-linear-gradient( to right, transparent 0mm, transparent 0.8mm, black 0.8mm, black 1mm );
+}
+ page hr {
+     border: 2px dashed #8F8F8F;
+    /* Looks like an official document break */
+}
+ .page blockquote {
+     background-color: #EDEDED;
+     border-left: 4px solid #2C2C2C;
+     padding: 10px;
+     font-family: "Courier New", Courier, monospace;
+}
+/* --- Tables: Bureaucratic Report Style --- */
+ .page table {
+     border-collapse: collapse;
+     width: 100%;
+}
+ .page th {
+     background-color: #D6D6D6;
+    /* Ash Gray */
+     color: #2C2C2C;
+    /* Vault Black */
+     padding: 8px;
+     border-bottom: 3px solid #8F8F8F;
+    /* Stronger Border */
+     text-transform: uppercase;
+}
+ .page td {
+     background-color: #F8F8F8;
+    /* Paper White */
+     color: #5A5A5A;
+    /* Charcoal Gray */
+     padding: 8px;
+     border-bottom: 1px solid #BFBFBF;
+    /* Soft Grid */
+}
+
+/* === Alternate Row Shading: Faded Moonlight Layers === */
+.page tr:nth-child(even) td {
+    background: rgba(237, 237, 237, 0.7)
+}
+
+
+/* --- Links: Subtle and Official-Looking --- */
+ .page a {
+     color: #2C2C2C;
+     text-decoration: none;
+     border-bottom: 1px dashed #8F8F8F;
+}
+ .page a:hover {
+     color: #5A5A5A;
+     border-bottom: 1px solid #5A5A5A;
+}
+ .post-it {
+     left: var(--left);
+     top: var(--top);
+     transform: rotate(var(--rotate));
+     max-width:250px;
+     max-height:240px;
+     width:250px;
+     height:240px;
+     position:relative;
+     background:#ffa;
+     overflow:hidden;
+     margin:30px auto;
+     padding:20px;
+     border-radius:0 0 0 30px/45px;
+     box-shadow: inset 0 -40px 40px rgba(0,0,0,0.05), inset 0 25px 10px rgba(0,0,0,0.07), 0 5px 6px 5px rgba(0,0,0,0.2);
+     font-family: 'Cedarville Cursive', cursive;
+     line-height:1.7em;
+     font-size:19px;
+     -webkit-mask-image: url(data:image/png;
+    base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+     color:#130d6b;
+}
+ .post-it:before {
+     content:"";
+     position:absolute;
+     width:20px;
+     height:25px;
+     background:#ffa;
+     box-shadow: 3px -2px 10px rgba(0,0,0,0.2), inset 15px -15px 15px rgba(0,0,0,0.3);
+     left:0;
+     bottom:0;
+     z-index:2;
+     transform:skewX(25deg);
+}
+ .smudge {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     filter: blur(1px) contrast(110%);
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/5d4334616f20bd1d1f059f6007892650.png') no-repeat center;
+     background-size: contain;
+
+
+}
+
+    .smudge:before {
+    position: absolute;
+    content:'';
+    left: 0;
+    top: 0;
+     width: 10cm;
+     height: 10cm;
+   
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 19%, rgba(255,255,255,0) 52%);
+background-blend-mode: lighten
+
+    
+    }
+
+
+
+ .coffee-stain {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     filter: blur(1px) contrast(110%);
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f74119a30ba73c9c5b3a7cc1aa9d7d42.png') no-repeat center;
+     background-size: contain;
+     mix-blend-mode: multiply;
+}
+ 
+ 
+.corrected {
+    position: relative;
+    text-decoration: line-through;
+    color: black;
+}
+
+.corrected::after {
+    content: var(--correction, "Default Text");;
+    font-size: 12px;
+    color: #0F3D75;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+       font-family: 'Cedarville Cursive', cursive;
+   
+    -webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+}
+
+
+.paperclip {
+ 
+    position: absolute;
+    display-block;
+    top: -10px;
+    left: var(--left, 60);
+    width: 50px;
+    height: 150px;
+    transform: rotate(-15deg); /* Slight tilt for realism */
+    opacity: 0.8; /* Slight transparency */
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/421f492b3660fca7d119964aff1f24db.png') no-repeat center;
+    background-size: contain;
+}
+
+ .polaroid {
+     position: absolute;
+     top: var(--top);
+     left: var(--left);
+     width: 10cm;
+     height: 10cm;
+     max-width:10cm;
+     max-height: 10cm;
+     background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png') no-repeat center;
+    background-size: contain;
+         transform-origin: top left;
+}
+
+.polaroid > p > img {
+  margin-left: 1.26cm;
+  margin-top: 0.74cm;
+  height: 7.4cm;
+  width: 7.5cm;
+  object-fit: cover;
+  mix-blend-mode: screen;
+}
+
+
+.doodle.dog1 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/6d860afef532110ae76b559ace75dfa7.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.dog2 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/e2820894e1c1c58cb9d710e5522858fc.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.cat1 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/b43f55649f7f416de20109ce0f3b6722.png') no-repeat center;
+    background-size: contain;
+}
+.doodle.cat2 {
+    display: block;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/898133d59ab4ce7d036283cf075620e2.png') no-repeat center;
+    background-size: contain;
+}
+
+.doodle {
+position: relative;
+   top: var(--top);
+   left: var(--left);
+    display: block;
+    width: 150px;
+    height: 150px;
+     -webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-repeat: repeat;
+}
+
+
+.fading {
+    background: linear-gradient(to bottom, black 10%, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.4) 70%, rgba(0, 0, 0, 0.1) 90%, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+```
+
+{{frontCover}}
+
+
+# Critical & Fumbles
+
+{{coverpicture ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/68c1a263d876c9b0e9656810d7ec8cec.png)}}
+
+\page
+
+{{insideCover}}
+
+# CONFIDENTIAL  
+## ⚠  A.S.T.R.A.L. ⚠  
+## CLASSIFIED DOCUMENT  
+___  
+
+This document is the sole property of the **Agency for Surveillance, Tracking, and Regulation of Anomalous Landscapes (A.S.T.R.A.L.)** and is classified under **Protocol X-27**. Unauthorized access, duplication, or distribution is a direct violation of the **Anomalous Contingency Act (A.C.A. §13-97)** and will be met with immediate countermeasures, up to and including **forced administrative reassignment** (which, in certain cases, may involve existing in a different timeline).  
+
+By opening this document, you acknowledge:  
+- **You have the necessary clearance level** to access restricted anomaly intelligence.  
+- **You have not, at any point, been replaced by an identical anomaly impersonation** (if unsure, consult **Verification Form 92-A**).  
+- **You are subject to continuous monitoring** under Section 12 of the Astral Compliance Directive.  
+- **Any unauthorized disclosure will trigger Protocol X**, authorizing full intervention by **Containment & Erasure Taskforce Omega** (Note: The **previous** Containment & Erasure Taskforce Omega was erased under Protocol X. This is the **new** Taskforce Omega. Try not to ask what happened).  
+- **Dissemination of classified content will result in memory redaction procedures**, as outlined in **Directive 46-C**, or, if memory redaction is not feasible, assignment to the **Department of Unanswered Inquiries** (success rate: inconclusive).  
+
+If you are not the intended recipient:  
+1. **Cease all interaction immediately.**  
+2. **Report this breach to A.S.T.R.A.L. Oversight Bureau (O.B.)** via secure terminal **[O.B.//DIRECT-LINK-SEC/347-99]**.  
+3. **Wait for retrieval personnel to arrive.** This may take **minutes, weeks, or retroactively already have happened**.  
+
+**Failure to comply will result in automatic escalation to Level-4 Contingency Response, which involves (but is not limited to):**  
+- **A 48-hour debriefing inside an undisclosed location** (which you will **never** be able to find again).  
+- **A mandatory seminar on "The Importance of Forgetting"** (attendance is compulsory; comprehension is optional).  
+- **Being reassigned as an anomaly observer** (or, if deemed necessary, as an anomaly).  
+
+___  
+
+{{logo ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png)}}
+
+
+\page
+
+# Melee Critical Hit Table (d100) – Concord City Edition  
+
+
+{{wide
+
+### When you roll a natural 20 on a melee attack, roll a d100 and apply the effect below. 
+
+| d100 | Effect |
+|--8%--|--------|
+| 01-05 | Deep Wound! The target suffers 1d8 ongoing bleeding damage at the start of each of their turns. |
+| 06-10 | Bone-Shattering Impact! The target's speed is reduced by half for 1 minute due to a crushed limb. |
+| 11-15 | Brutal Knockback! The target is launched 10 feet in a direction of your choice and falls prone. |
+| 16-20 | Flesh Wound! The target is stunned until the end of their next turn. |
+| 21-25 | Punctured Lung! The target must succeed on a DC 12 Constitution save or be unable to dash or take reactions for 1 minute. |
+| 26-30 | Armor Crack! The target’s AC is reduced by 2 for the rest of combat. |
+| 31-35 | Severing Blow! If the target is a minion or non-boss, they immediately die. |
+| 36-40 | Tactical Opportunity! An ally within 5 feet can immediately make a melee attack as a reaction. |
+| 41-45 | Joint Dislocation! The target suffers disadvantage on Strength and Dexterity-based attacks for 1 minute. |
+| 46-50 | Weapon Momentum! You can immediately make another melee attack against the same target. |
+| 51-55 | Fearsome Blow! The target must make a DC 12 Wisdom saving throw or be frightened of you for 2 rounds. |
+| 56-60 | Lethal Strike! Roll an additional weapon damage die. |
+| 61-65 | Cracked Skull! The target has disadvantage on all Intelligence, Wisdom, and Charisma checks until healed. |
+| 66-70 | Painful Distraction! The target automatically fails their next Concentration check. |
+| 71-75 | Echoing Strike! Your attack sends a shockwave—each enemy within 10 feet must make a DC 12 Dexterity save or be pushed back 5 feet. |
+| 76-80 | Unstoppable Assault! You gain temporary HP equal to your level as adrenaline surges through you. |
+| 81-85 | Brutal Gash! The target has disadvantage on attack rolls until the end of their next turn. |
+| 86-90 | Terrorizing Execution! If you reduce the target to 0 HP, all enemies who saw it must make a DC 12 Wisdom save or be frightened for 1 minute. |
+| 91-95 | Reality Fracture! Something unnatural happens. The target’s body glitches for a moment—DM chooses a bizarre effect. |
+| 96-99 | Instant Execution! If the target is below 20 HP, they are instantly slain. |
+| 100  | Merciless Carnage! Your attack deals maximum possible damage, and you can make another attack as a bonus action. |
+
+}}
+
+
+\page
+
+# Melee Fumble Table (d100) – Concord City Edition  
+
+{{wide
+#### When you roll a natural 1 on a melee attack, roll a d100 and suffer the effect below. 
+| d100 | Effect |
+|-8%--|--------|
+| 01-05 | Slipped Grip: Your weapon slips from your grasp. You must make a DC 12 Dexterity saving throw or drop it at your feet. |
+| 06-10 | Pulled Something: Your muscles tense unnaturally. Make a DC 12 Constitution saving throw or your speed is halved for 1 minute. |
+| 11-15 | Swing & Stagger: You miscalculate your attack and stumble. You are off-balance, granting advantage to the next attack made against you. |
+| 16-20 | Adrenaline Crash: You become exhausted (level 1) until the fight ends. |
+| 21-25 | Lost Focus: You blank out for a moment. You are stunned until the end of your next turn. |
+| 26-30 | Horrific Recoil: Your attack rebounds in an unexpected way, causing 1d8 damage to yourself. |
+| 31-35 | Paranormal Feedback: An unseen force interferes. Your attack hits nothing—but you hear whispers mocking you. |
+| 36-40 | Disarmed: You lose control of your weapon. It flies 10 feet away in a random direction. |
+| 41-45 | Bad Timing: You hesitate at the worst moment. You drop to last in the initiative order next round. |
+| 46-50 | Tactical Error: Your attack leaves you wide open. The target may use their reaction to attack you immediately. |
+| 51-55 | Echoing Strike: Your weapon passes through the target like they’re not entirely real. Your next attack is at disadvantage. |
+| 56-60 | Sweat in Your Eyes: Vision blurs. Your melee attacks are at disadvantage for the next 2 turns. |
+| 61-65 | Exposed Vulnerability: Your enemy rerolls all 1s and 2s on their next melee damage roll against you. |
+| 66-70 | Corporate Sabotage: If you are fighting in a corporate or underground setting, cameras flicker. You are being watched, and someone is logging your combat performance. |
+| 71-75 | Weapon Jammed/Stuck: Your weapon embeds itself in a nearby surface. DC 14 Strength check to free it as an action. |
+| 76-80 | Surprise Counterattack: Your opponent sees an opening and gains advantage on their next attack against you. |
+| 81-85 | Distorted Reality: A paranormal glitch occurs. Your attack lands but does no damage—instead, you feel like you hit an invisible barrier. |
+| 86-90 | Panic Surge: You momentarily lose control of your fight-or-flight response. DC 12 Wisdom save or you must move away from the enemy immediately, provoking attacks of opportunity. |
+| 91-95 | Self-Inflicted Injury: You overextend and hit yourself. Roll damage as if you hit the target and apply it to yourself. |
+| 96-99 | Phantom Retaliation: Your attack doesn’t land—but you feel the pain of the strike anyway. Take max damage as if you were hit. |
+| 100  | Brutal Backlash: Your attack somehow reverses, striking you with a critical hit against yourself. |
+}}
+\page
+
+# Ranged Critical Hit Table (d100) – Concord City Edition  
+{{wide
+#### When you roll a natural 20 on a ranged weapon attack, roll a d100 and apply the effect below.
+| d100 | Effect |
+|-8%--|--------|
+| 01-05 | Through and Through! Your shot pierces through the target, hitting another enemy behind them (if any). Roll a new attack roll against them. |
+| 06-10 | Pinned Down! The target must make a DC 12 Strength save or be knocked prone. |
+| 11-15 | Perfect Shot! Your attack ignores half cover and three-quarters cover against this target. |
+| 16-20 | Armor Bypass! Your shot ignores AC bonuses from armor and deals an additional weapon die of damage. |
+| 21-25 | Shattered Visor! If the target is using optics, helmets, or scopes, they are blinded until they spend an action fixing it. |
+| 26-30 | Tactical Precision! An ally within 30 feet of the target can immediately move up to half their speed as a reaction. |
+| 31-35 | Disabling Shot! Your attack cripples a limb. The target suffers disadvantage on attack rolls until the end of their next turn. |
+| 36-40 | Panic Inducer! The target must make a DC 12 Wisdom saving throw or be frightened for 1 minute. |
+| 41-45 | Nerve Strike! The target’s next attack or ability check is made at disadvantage. |
+| 46-50 | Adrenaline Surge! You can immediately make another ranged attack against the same target. |
+| 51-55 | Explosive Ricochet! Your shot bounces off a surface, striking a different enemy within 15 feet. Roll a new attack roll. |
+| 56-60 | Ruptured Eardrum! If your weapon is loud, the target is deafened for 1 minute. |
+| 61-65 | Bullet Storm! If you are using a semi-auto or burst weapon, you can fire an extra shot at another nearby target. |
+| 66-70 | Armor Penetration! Your shot reduces the target’s AC by 2 for the rest of combat. |
+| 71-75 | Crack Shot! Your attack deals triple damage instead of double. |
+| 76-80 | Suppressive Fire! All enemies within 10 feet of the target must make a DC 12 Dexterity saving throw or be unable to take reactions until the end of their next turn. |
+| 81-85 | Ghost Bullet! Your shot passes through walls or solid objects (if not too thick) to hit the target. |
+| 86-90 | Phase Distortion! Something paranormal happens—the trajectory of your shot glitches in real-time. The DM chooses an unexpected but beneficial effect. |
+| 91-95 | Execution Shot! If the target is below 20 HP, they are instantly killed. |
+| 96-99 | Paranormal Ricochet! Your bullet vanishes for a moment, then reappears, striking the target a second time for half damage. |
+| 100  | Perfect Kill! Your shot deals maximum damage, and you can make another attack as a bonus action. |
+}}
+
+\page
+
+# Ranged Fumble Table (d100) – Concord City Edition  
+{{wide
+#### When you roll a natural 1 on a ranged weapon attack, roll a d100 and suffer the effect below.
+| d100 | Effect |
+|-8%--|--------|
+| 01-05 | Jammed! Your firearm jams and requires an action to clear before you can fire again. If using a bow or crossbow, your string twists or slips, requiring an action to reset. |
+| 06-10 | Misfire! The round misfires and your next attack with this weapon is at disadvantage. |
+| 11-15 | Dropped Ammo! You fumble your next reload. You must spend a bonus action to recover ammo before firing again. |
+| 16-20 | Weapon Overheat! Your weapon becomes too hot to hold, forcing you to drop it or take 1d8 fire damage. If using a bow, your arm cramps, causing disadvantage on your next attack. |
+| 21-25 | Ricochet! Your shot rebounds unpredictably. Roll 1d6: (1-2) Hits an ally in range, (3-4) Hits a random object, causing sparks or debris, (5-6) Bullet embeds in something harmless.|
+| 26-30 | Scope Glare! The glare from your optics or movement exposes your position. The next attack against you has advantage. |
+| 31-35 | Magazine Eject! Your firearm's magazine falls out (or your bowstring unravels), requiring an action to fix. |
+| 36-40 | Faulty Trigger! Your weapon's trigger sticks, and you must make a DC 12 Dexterity check to fire again. |
+| 41-45 | Targeting Error! Your shots go wide, and your next two ranged attacks are at disadvantage. |
+| 46-50 | Paranormal Disturbance! A ghostly distortion or unexplained force pulls your shot off-course. You feel something watching you. |
+| 51-55 | Wind Shift / Sudden Movement! Something shifts—wind, lighting, or vibrations—forcing you to re-aim before firing again (spend a bonus action). |
+| 56-60 | Barrel Warp! The barrel of your firearm is slightly bent or damaged, reducing its range by half until repaired. |
+| 61-65 | Knockback! The recoil throws off your balance. Make a DC 12 Strength save or be knocked prone. |
+| 66-70 | Wrong Target! You accidentally fire at an ally within range instead. Roll a new attack roll against them. |
+| 71-75 | Tactical Nightmare! You panic and reload improperly, losing half your remaining ammo from your magazine. |
+| 76-80 | Explosive Malfunction! Your firearm sparks or ignites improperly, causing 1d6 fire damage to you. |
+| 81-85 | Bullet Fade / Energy Dissipation! Your projectile vanishes mid-flight, as if erased from existence. It never lands. |
+| 86-90 | Corrupt Sights! You see glitching lights or phantom movement in your vision. You must pass a DC 12 Wisdom save or suffer disadvantage on your next shot. |
+| 91-95 | Critical Backfire! Your gun explodes in your hand. You take your weapon’s damage die as force damage. |
+| 96-99 | Horrifying Echo! Your shot creates an ominous sound or reality distortion, drawing unwanted attention from an unknown force. |
+| 100  | Catastrophic Failure! Your weapon is completely destroyed unless it is enchanted or specially reinforced. |
+}}
+ 
+\page
+# Spell Fumble Table (d100) – Concord City Edition  
+{{wide
+#### When you roll a natural 1 on a spell attack or fail a concentration check catastrophically, roll a d100 and apply the effect below.
+| d100 | Effect |
+|-8%--|--------|
+| 01  | Spell Backlash! The spell misfires and deals half damage to you instead of the target. |
+| 02  | Mana Drain! You lose a spell slot of the same level. |
+| 03  | Reality Disturbance! A minor anomaly (flickering shadows, whispering voices, or gravity fluctuations) lingers for 1 minute. |
+| 04  | Ghost Circuit! A nearby electronic system flickers uncontrollably, as if your magic briefly possessed it. |
+| 05  | Disrupted Flow! You cannot cast another spell until the start of your next turn. |
+| 06  | Spectral Leak! A ghostly figure appears at the spell’s impact site, staring at you before vanishing. |
+| 07  | Wild Feedback! Your spell jumps to another target, determined randomly by the DM. |
+| 08  | Eldritch Interference! You hear an unfamiliar voice whispering directly into your mind. |
+| 09  | Delayed Effect! Your spell does not activate immediately but triggers at the start of your next turn. |
+| 10  | Arcane Exhaustion! You gain one level of exhaustion. |
+| 11  | Spell Reversal! Your spell affects you instead of the target. |
+| 12  | Mana Leak! A faint glowing aura lingers around you, making you visible even in darkness for 1 minute. |
+| 13  | Hostile Entity Detected! If you are near a corporate security system, an alarm triggers and your spell signature is logged. |
+| 14  | Spell Glitch! Your spell’s effect lasts half as long as normal. |
+| 15  | Null Surge! The spell fizzles, leaving behind a 10-ft antimagic field for 1 minute. |
+| 16  | Conscious Spell! Your magic manifests a temporary mind of its own, acting unpredictably for 1 turn. |
+| 17  | Dimensional Echo! A weak clone of yourself appears nearby and mimics your movements. |
+| 18  | Neural Shock! You take 1d8 psychic damage from sudden arcane overload. |
+| 19  | Paradox Surge! Your spell happens twice but at half potency. |
+| 20  | Astral Intrusion! A tear in reality briefly reveals something watching from the void. |
+| 21  | Hyperfocus Crash! Your next ability check is at disadvantage. |
+| 22  | Spell Branding! A paranormal organization or corporate entity now knows your magical signature. |
+| 23  | Jittering Space! The air around you warps unpredictably, imposing disadvantage on ranged attacks against you for 1 minute. |
+| 24  | Unexpected Summoning! A small incomprehensible creature appears, remains for 1 turn, then vanishes. |
+| 25  | Echo Surge! You must cast the same spell again next turn, even if you don’t want to. |
+| 26  | Power Drain! Your next successful spell deals half damage. |
+| 27  | Arcane Contamination! A small, unstable rift remains at the spell’s location for 1 minute. |
+| 28  | Lingering Heat! The air crackles around you. Metallic objects become too hot to touch for 1 minute. |
+| 29  | Displaced Target! Your spell moves 10 feet in a random direction before activating. |
+| 30  | Corporate Hacking! If you are near networked technology, your spell triggers unexpected digital interference. |
+| 31  | Overloaded Senses! Your hearing and vision become hypersensitive, causing disadvantage on Perception checks for 1 minute. |
+| 32  | Phantom Recoil! You feel as if something is pulling your magic away from you. |
+| 33  | Mana Corruption! Your next spell is randomly altered by the DM. |
+| 34  | Blood Price! Your spell works, but you take 2d6 necrotic damage. |
+| 35  | Temporal Shift! For the next 10 seconds, time moves slower around you. |
+| 36  | Shadow Attachment! Your shadow behaves independently for 1 minute. |
+| 37  | Personal Loop! You experience déjà vu. Roll twice on your next attack and take the lower result. |
+| 38  | Whispering Wound! If you took damage this turn, it speaks to you. |
+| 39  | Spell Copy! A random enemy learns the spell you just cast. |
+| 40  | Leyline Flux! The next spell you cast within 1 minute has an unpredictable effect. |
+| 41-50 | Roll again, but the effect is doubled. |
+| 51-60 | Your spell takes on a new aesthetic appearance, such as glowing neon lines, corporate branding, or ghostly afterimages. |
+| 61-70 | For the next minute, every time you speak, you hear an unknown voice respond. |
+| 71-75 | All magical effects within 30 feet of you briefly flicker. |
+| 76-80 | Your hands glow with unstable power, forcing you to drop anything you're holding. |
+| 81-85 | You smell burning plastic, but no one else notices it. |
+| 86-90 | A paranormal entity takes interest in you and may intervene in a future battle. |
+| 91-95 | Your reflection in glass surfaces moves independently for 1 hour. |
+| 96-99 | The spell succeeds, but you permanently leave behind a "ghost" of yourself in this location, barely visible in certain light. |
+| 100 | Catastrophic Spell Collapse! Roll twice and apply both results. |
+}}
+\page
+
+# Missed Attacks & Friendly Fire – Concord City Edition  
+
+## 1. Missed Ranged Attacks (Weapons & Spells)  
+If a ranged weapon attack or spell attack misses, check the difference between the attack roll and the target’s AC:  
+
+- Missed by 1-5 → The attack continues in a straight line and hits the next creature in line (roll a new attack roll).  
+- Missed by more than half the target’s AC → The attack is completely lost (no further rolls).  
+- Missed by 6 or more (but not more than half AC) → An adjacent creature (within 5 feet of the original target) is hit instead (roll a new attack roll).  
+
+If there is no other target in range, the attack hits an object, wall, or disappears.  
+
+---
+
+## 2. Blind Shots (Firing Without Sight)  
+If attacking without seeing the target (due to blindness, darkness, invisibility, etc.):  
+
+- If the attack misses, it travels 10 feet in a random direction.  
+- If another creature is within that 10 feet, they are hit instead.  
+
+---
+
+## 3. Area of Effect Spells & Explosions (Missed Target Rule)  
+For AoE spells and explosives (Fireball, Cone of Cold, grenades, etc.), if the attack misses the intended location:  
+
+- The area of effect shifts 10 feet in a random direction.  
+- Creatures in the new area must make the appropriate saving throws.  
+- If no creatures are hit, the spell dissipates.  
+
+\page
+
+# Spell Convergence (Dual-Caster Flanking)
+If two spellcasters target the same creature with spells on the same party turn, they may choose one of the following effects:  
+
+### Spell Convergence Effects (Choose One)
+- Arcane Overload – The target has disadvantage on its next saving throw against one of the spells cast this turn.  
+- Weaving Energies – If both spells require attack rolls, each caster gains a +1 bonus to their spell attack roll.  
+- Disruptive Resonance – If both spells deal the same type of damage, the target suffers -2 AC until the start of the next party turn.  
+- Entropy Cascade – If both spells have a duration longer than 1 round, the duration extends by 1 additional round (to a max of double duration).  
+- Echoing Spells – If both spells have the same saving throw type, the target must roll the saving throw twice and take the lower result (this does not stack with disadvantage).  
+
+### Conditions for Spell Convergence
+- Two different spellcasters must target the same creature with spells (area-of-effect spells count if the creature is inside the area).  
+- Spells must be cast within the same party turn (this works naturally within the Party Initiative system).  
+- Only one Spell Convergence effect applies per pair of casters.  
+- Casters do not need to cast the same spell or even the same spell level—just targeting the same enemy is enough.  
+- A third spellcaster does not stack additional effects, but they can contribute to another separate Spell Convergence.  
+
+---
+
+## Ritual Instability (DM-Optional Rule)
+At the DM's discretion, if two spellcasters attempt to cast the same spell at the same time, unpredictable effects may occur:  
+- The spell overloads and mutates, producing unexpected paranormal results.  
+- The spells cancel each other out as magical forces collapse into nothingness.  
+- The spells merge into a single, more powerful effect, amplifying its magnitude.  
+- A paranormal anomaly forms, creating lingering magical disturbances in the area.  
+
+The DM chooses whether Ritual Instability takes effect based on the situation.

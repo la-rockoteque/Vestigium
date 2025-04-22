@@ -1,0 +1,1891 @@
+```metadata
+title: WIP Corporate Template
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap);
+
+:root {
+    --HB_Color_Background: #FDFDFD; /* Soft white, mimics paper */
+    --HB_Color_Accent: #D1D5DB; /* Light gray for dividers */
+    --HB_Color_HeaderText: #C9D1D9; /* Light corporate steel-white */
+    --HB_Color_HeaderUnderline: #8B949E; /* Professional soft gray for dividers */
+    --HB_Color_MonsterStatBackground: #21262D; /* Dark navy-slate for structured data */
+    --HB_Color_HorizontalRule: #58A6FF; /* Corporate bright blue for emphasis */
+    --HB_Color_CaptionText: #8B949E; /* Soft gray for secondary text */
+    --HB_Color_Footnotes: #C9D1D9; /* Soft corporate white, slightly muted */
+    --HB_Color_WatercolorStain: #484F58; /* Darkened slate gray for subtle overlays */
+    --HB_Color_Text: #2C3E50; /* Professional dark blue-gray */
+    --TOC: 'include'
+}
+
+
+.page .productlist {
+   columns: 1;
+   column-span: all;
+}
+
+
+.page:has(.frontCover) {
+  background: linear-gradient(to bottom, #111, #333);
+  color: white;
+}
+
+.page:has(.frontCover) .coverBackground {
+  color: white;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -1cm;
+  left: 0;
+  z-index: -1;
+  background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/9635fc6cb489b92e61114364b9e54ebe.webp');
+  background-size: cover;
+    background-position: center;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 20%), rgba(0, 0, 0, 0) 100%);
+  -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 53%);
+}
+
+.page:has(.frontCover) .coverImage {
+  color: white;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: -7cm;
+  left: 0;
+  background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/0a0b5e7e9496fd06deac901172f5455f.png');
+  background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.page:has(.frontCover) h1,
+.page:has(.frontCover) h2,
+.page:has(.frontCover) h3{
+  border-bottom: unset;
+  -webkit-text-stroke: unset;
+  text-stroke: unset;;
+}
+
+.page:has(.frontCover) h1 {
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #ff4747;
+  margin-top: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.page:has(.frontCover) h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.page:has(.frontCover) .footnote {
+  font-size: 1.5rem;
+  color: #d1d1d1;
+  margin-top: 30px;
+  
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-text-stroke: 2px gray;;
+  text-stroke: 2px gray;
+  text-align: right;
+}
+
+.page:has(.productlist) .block {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: flex-start;
+   justify-content: flex-start;
+   gap: 5px;
+
+}
+
+.page:has(.productlist) .block .product{
+   display: block;
+   width: 6.226cm;
+   border: 2px solid gray;
+   padding: 5px;
+   font-size: 12.2px;
+   
+}
+
+.page:has(.productlist) h1 {
+   font-size: 20px;
+   font-family: "Arial", sans-serif;
+}
+
+.page:has(.productlist) .block .product h3 {
+   font-size: 15px;
+   font-family: "Arial", sans-serif;
+}
+
+.page:has(.productlist) .block .product em {
+   color: gray;
+}
+
+.page {
+    background-color: #F8F9FA; /* Soft white background */
+    font-family: "Arial", sans-serif; /* Clean, professional font */
+    font-size: 14px;
+    color: #2C3E50; /* Dark executive blue-gray */
+    line-height: 1.6;
+    padding: 50px;
+    text-align: left;
+    background-image: linear-gradient(180deg, rgba(255,255,255,0.6) 0%, rgba(235,237,240,0.9) 100%);
+}
+
+ width: 29cm;
+}
+
+
+.page p {
+    line-height: 1.25em
+}
+
+.page p+* {
+    margin-top: .325cm
+}
+
+.page p+p {
+    margin-top: 0
+}
+
+
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+
+.page ul li {
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 8px;
+    font-size: 13px;
+    color: #34495E;
+}
+
+
+.page ol {
+    padding-left: 1.4em;
+    margin-bottom: .8em;
+    line-height: 1.25em
+}
+
+.page p+p,.page ul+p,.page ol+p {
+    text-indent: 1em
+}
+
+.page img {
+    z-index: -1
+}
+
+.page strong { 
+    font-weight: bold;
+    letter-spacing: -0.02em
+}
+
+.page h1,.page h2,.page h3,.page h4 {
+    font-family: 'MrEavesRemake';
+    color: var(--HB_Color_HeaderText)
+}
+
+.page h1 {
+    font-size: 1cm;
+    font-weight: bold;
+    color: #2C3E50;
+    border-bottom: 3px solid lightgray;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.page h1+p::first-letter {
+    all: unset;
+}
+
+.page h1+p::first-line {
+    font-variant: small-caps
+}
+
+.page h2 {
+    font-size: 1.1cm;
+    font-weight: 600;
+    color: #2C3E50;
+    border-bottom: 2px solid #D1D5DB;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+}
+
+.page h3 {
+    font-size: 0.85cm;
+    font-weight: 500;
+    color: #5A6D80;
+    text-transform: uppercase;
+    border-bottom: 1px solid #8B949E;
+    margin-bottom: 6px;
+}
+
+.page h3+* {
+    margin-top: .17cm
+}
+
+.page *+h3 {
+    margin-top: .155cm
+}
+
+.page h4 {
+    font-size: .458cm;
+    line-height: .971em
+}
+
+.page h4+* {
+    margin-top: .09cm
+}
+
+.page *+h4 {
+    margin-top: .235cm
+}
+
+.page h5 {
+    font-family: 'ScalySansSmallCapsRemake';
+    font-size: .423cm;
+    line-height: .951em
+}
+
+.page h5+* {
+    margin-top: .2cm
+}
+
+/* Corporate Inventory Table - Spreadsheet Style */
+.page table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+    margin-bottom: 20px;
+    line-height: 1em
+    border: 10px double gray;
+}
+
+.page table p,.page table dl,.page table ul,.page table ol {
+    line-height: 1.2em
+}
+
+.page table ul,.page table ol {
+    padding-left: 1em
+}
+
+.page table em {
+    font-style: italic
+}
+
+.page table strong {
+    font-weight: 800;
+    letter-spacing: -0.02em
+}
+
+.page table h5+* {
+    margin-top: .1cm
+}
+
+.page table+* {
+    margin-top: .325cm
+}
+
+/* Table Header */
+.page table thead {
+    background-color: #C0C0C0; /* Light gray section headers */
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #888D93;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.page table thead th {
+    padding: 8px;
+    border: 1px solid #888D93; /* Subtle border */
+}
+
+/* Table Body */
+.page table tbody tr td {
+    border-left: 2px solid #8C8A7A;
+    border-right: 2px solid #8C8A7A;
+    border-bottom: 2px dashed #8C8A7A;
+    background-image: linear-gradient(0deg, #FFFFCB 47.62%, #c4c3bb 47.62%, #c4c3bb 50%, #FFFFCB 50%, #FFFFCB 97.62%, #c4c3bb 97.62%, #c4c3bb 100%);
+    background-size: 42.00px 42.00px;
+    background-blend-mode: lighten;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.page table tbody {
+    border: 3px double #8C8A7A;
+    border-top: 6px double #8C8A7A;
+}
+.page table thead {
+    border: 3px double #8C8A7A;
+    border-bottom: 6px double #8C8A7A;
+}
+
+
+.page .quote>p {
+    font-style: italic;
+    line-height: .54cm
+}
+
+.page .quote>p:first-child::first-line {
+    font-size: .38cm;
+    font-style: normal;
+    font-variant: small-caps
+}
+
+.page .quote p+.attribution {
+    margin-top: 0
+}
+
+.page .quote .attribution {
+    display: block;
+    font-style: normal;
+    line-height: .54cm;
+    text-align: right
+}
+
+.page .quote .attribution::before {
+    margin-right: .2em;
+    content: '---'
+}
+
+.page .quote+* {
+    margin-top: .54cm
+}
+
+.page .note {
+    font-family: 'ScalySansRemake';
+    font-size: .318cm;
+    line-height: 1.2em;
+    padding: .13cm .16cm;
+    background-color: var(--HB_Color_Accent);
+    border-style: solid;
+    border-width: 1px;
+    border-image: url('/assets/noteBorder.png') 12 stretch;
+    border-image-width: 11px;
+    border-image-outset: 9px 0px;
+    box-shadow: 1px 4px 14px #888888
+}
+
+.page .note p,.page .note dl,.page .note ul,.page .note ol {
+    line-height: 1.2em
+}
+
+.page .note ul,.page .note ol {
+    padding-left: 1em
+}
+
+.page .note em {
+    font-style: italic
+}
+
+.page .note strong {
+    font-weight: 800;
+    letter-spacing: -0.02em
+}
+
+.page .note h5+* {
+    margin-top: .1cm
+}
+
+.page :where(.page .note) {
+    margin-top: 9px
+}
+
+.page .note+* {
+    margin-top: .45cm
+}
+
+.page .note h5 {
+    font-size: .375cm
+}
+
+.page .note p {
+    display: block;
+    padding-bottom: 0px
+}
+
+.page .note :last-child {
+    margin-bottom: 0
+}
+
+.page .descriptive {
+    font-family: 'ScalySansRemake';
+    font-size: .318cm;
+    line-height: 1.2em;
+    padding: .1em;
+    background-color: #FAF7EA;
+    border-style: solid;
+    border-width: 7px;
+    border-image: url('/assets/descriptiveBorder.png') 12 stretch;
+    border-image-outset: 4px;
+    box-shadow: 0 0 6px #FAF7EA
+}
+
+.page .descriptive p,.page .descriptive dl,.page .descriptive ul,.page .descriptive ol {
+    line-height: 1.2em
+}
+
+.page .descriptive ul,.page .descriptive ol {
+    padding-left: 1em
+}
+
+.page .descriptive em {
+    font-style: italic
+}
+
+.page .descriptive strong {
+    font-weight: 800;
+    letter-spacing: -0.02em
+}
+
+.page .descriptive h5+* {
+    margin-top: .1cm
+}
+
+.page :where(.page .descriptive) {
+    margin-top: 4px
+}
+
+.page .descriptive+* {
+    margin-top: .45cm
+}
+
+.page .descriptive h5 {
+    font-size: .375cm
+}
+
+.page .descriptive p {
+    display: block;
+    padding-bottom: 0px;
+    line-height: 1.5em
+}
+
+.page .descriptive :last-child {
+    margin-bottom: 0
+}
+
+.page .artist {
+    position: absolute;
+    width: auto;
+    font-family: 'WalterTurncoat';
+    font-size: .27cm;
+    color: var(--HB_Color_CaptionText);
+    text-align: center
+}
+
+.page .artist p,.page .artist p+p {
+    margin: unset;
+    line-height: 1em;
+    text-indent: unset
+}
+
+.page .artist h5 {
+    font-family: 'WalterTurncoat';
+    font-size: 1.3em
+}
+
+.page .artist a {
+    color: inherit;
+    text-decoration: unset
+}
+
+.page .artist a:hover {
+    text-decoration: underline
+}
+
+.page .watermark {
+    color: black
+}
+
+.page .watercolor1 {
+    --wc: url('/assets/watercolor/watercolor1.png')
+}
+
+.page .watercolor2 {
+    --wc: url('/assets/watercolor/watercolor2.png')
+}
+
+.page .watercolor3 {
+    --wc: url('/assets/watercolor/watercolor3.png')
+}
+
+.page .watercolor4 {
+    --wc: url('/assets/watercolor/watercolor4.png')
+}
+
+.page .watercolor5 {
+    --wc: url('/assets/watercolor/watercolor5.png')
+}
+
+.page .watercolor6 {
+    --wc: url('/assets/watercolor/watercolor6.png')
+}
+
+.page .watercolor7 {
+    --wc: url('/assets/watercolor/watercolor7.png')
+}
+
+.page .watercolor8 {
+    --wc: url('/assets/watercolor/watercolor8.png')
+}
+
+.page .watercolor9 {
+    --wc: url('/assets/watercolor/watercolor9.png')
+}
+
+.page .watercolor10 {
+    --wc: url('/assets/watercolor/watercolor10.png')
+}
+
+.page .watercolor11 {
+    --wc: url('/assets/watercolor/watercolor11.png')
+}
+
+.page .watercolor12 {
+    --wc: url('/assets/watercolor/watercolor12.png')
+}
+
+.page .monster {
+    font-family: 'ScalySansRemake';
+    font-size: .318cm;
+    line-height: 1.2em;
+    position: relative;
+    padding: 0px;
+    margin-bottom: .325cm
+}
+
+.page .monster p,.page .monster dl,.page .monster ul,.page .monster ol {
+    line-height: 1.2em
+}
+
+.page .monster ul,.page .monster ol {
+    padding-left: 1em
+}
+
+.page .monster em {
+    font-style: italic
+}
+
+.page .monster strong {
+    font-weight: 800;
+    letter-spacing: -0.02em
+}
+
+.page .monster h5+* {
+    margin-top: .1cm
+}
+
+.page .monster.frame {
+    width: calc(100% + .32cm);
+    padding: 4px 2px;
+    margin-right: -0.16cm;
+    margin-left: -0.16cm;
+    background-color: var(--HB_Color_MonsterStatBackground);
+    background-image: url('/assets/parchmentBackgroundGrayscale.jpg');
+    background-blend-mode: overlay;
+    border-style: solid;
+    border-width: 7px 6px;
+    border-image: url('/assets/monsterBorderFancy.png') 14 round;
+    border-image-outset: 0px 2px;
+    box-shadow: 1px 4px 14px #888888
+}
+
+.page .monster h2 {
+    margin: 0;
+    font-size: .62cm;
+    line-height: 1em
+}
+
+.page .monster h2+p {
+    margin-bottom: 0;
+    font-size: .304cm
+}
+
+.page .monster h3 {
+    font-family: 'ScalySansSmallCapsRemake';
+    font-size: .45cm;
+    border-bottom: 1.5px solid var(--HB_Color_HeaderText)
+}
+
+.page .monster hr {
+    height: 6px;
+    margin: .12cm 0;
+    visibility: visible;
+    background-image: url('/assets/redTriangle.png');
+    background-size: 100% 100%;
+    border: none
+}
+
+.page .monster hr~:is(dl,p) {
+    color: var(--HB_Color_HeaderText)
+}
+
+.page .monster hr:last-of-type~:is(dl,p) {
+    color: inherit
+}
+
+.page .monster hr:last-of-type+* {
+    margin-top: .325cm
+}
+
+.page .monster .bonus {
+    float: right;
+    padding-right: .5em
+}
+
+.page .monster hr+table:first-of-type {
+    margin: 0;
+    column-span: none;
+    color: var(--HB_Color_HeaderText);
+    background-color: transparent;
+    border-style: none;
+    border-image: none;
+    -webkit-column-span: none
+}
+
+.page .monster hr+table:first-of-type tr {
+    background-color: transparent
+}
+
+.page .monster hr+table:first-of-type td,.page .monster hr+table:first-of-type th {
+    padding: 0px
+}
+
+.page .monster :is(ul,ol)+p {
+    text-indent: 0
+}
+
+.page .monster :last-child {
+    margin-bottom: 0
+}
+
+.page .monster.wide {
+    column-count: 2;
+    column-fill: balance;
+    column-gap: .9cm;
+    column-width: 7.68cm;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-width: 7.68cm;
+    -moz-column-width: 7.68cm;
+    -webkit-column-gap: .9cm;
+    -moz-column-gap: .9cm
+}
+
+@supports (-webkit-touch-callout: none) {
+    .page .page .monster.frame {
+        background-repeat: no-repeat;
+        background-size: cover
+    }
+}
+
+.page::after {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 100;
+    width: 100%;
+    height: 50px;
+    content: '';
+    background-image: url('/assets/PHB_footerAccent.png');
+    background-size: cover
+}
+
+.page:nth-child(even)::after {
+    transform: scaleX(-1)
+}
+
+.page:nth-child(even) .pageNumber {
+    left: 2px
+}
+
+.page:nth-child(even) .footnote {
+    left: 80px;
+    text-align: left
+}
+
+.page .pageNumber {
+    right: 2px;
+    bottom: 22px;
+    color: var(--HB_Color_Footnotes)
+}
+
+.page .footnote {
+     border-top: lightgray dotted 2px;
+     width: 80%;
+     color: gray;
+     bottom: 28px;
+}
+
+.page code {
+    padding: 0px 4px;
+    font-size: .325cm;
+    color: #58180D;
+    background-color: #FAF7EA;
+    border-radius: 4px
+}
+
+.page pre code {
+    padding: .15cm;
+    margin-bottom: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 12px;
+    border-image: url('/assets/codeBorder.png') 26 stretch;
+    border-image-width: 10px;
+    border-image-outset: 2px
+}
+
+.page :where(.page pre code) {
+    margin-top: 2px
+}
+
+.page pre code+* {
+    margin-top: .325cm
+}
+
+/* === Corporate Horizontal Rule === */
+.page hr {
+    border: none;
+    height: 1px;
+    background-color: #D1D5DB;
+    margin: 20px 0;
+}
+
+.page table+p {
+    text-indent: 1em
+}
+
+.page ul ul,.page ol ol,.page ul ol,.page ol ul {
+    margin-bottom: 0px;
+    margin-left: 1.5em
+}
+
+.page .spellList {
+    font-family: 'ScalySansRemake';
+    font-size: .318cm;
+    line-height: 1.2em;
+    column-count: 2
+}
+
+.page .spellList p,.page .spellList dl,.page .spellList ul,.page .spellList ol {
+    line-height: 1.2em
+}
+
+.page .spellList ul,.page .spellList ol {
+    padding-left: 1em
+}
+
+.page .spellList em {
+    font-style: italic
+}
+
+.page .spellList strong {
+    font-weight: 800;
+    letter-spacing: -0.02em
+}
+
+.page .spellList h5+* {
+    margin-top: .1cm
+}
+
+.page .spellList ul+h5 {
+    margin-top: 15px
+}
+
+.page .spellList p,.page .spellList ul {
+    font-size: .352cm;
+    line-height: 1.265em
+}
+
+.page .spellList ul {
+    padding-left: 1em;
+    margin-bottom: .5em;
+    text-indent: -1em;
+    list-style-type: none;
+    -webkit-column-break-inside: auto;
+    page-break-inside: auto;
+    break-inside: auto
+}
+
+.page .spellList.wide {
+    column-count: 4
+}
+
+.page .classTable th[colspan]:not([rowspan]) {
+    white-space: nowrap
+}
+
+.page .classTable.frame {
+    width: calc(100% + .2cm);
+    margin-top: .7cm;
+    margin-right: -0.1cm;
+    margin-bottom: .9cm;
+    margin-left: -0.1cm;
+    border-collapse: separate;
+    background-color: white;
+    border: initial;
+    border-style: solid;
+    border-image-source: url('/assets/frameBorder.png');
+    border-image-slice: 200;
+    border-image-width: 47px;
+    border-image-outset: .4cm .3cm;
+    border-image-repeat: stretch
+}
+
+.page .classTable.frame.wide:first-child {
+    margin-top: .12cm
+}
+
+.page .classTable.frame+* {
+    margin-top: 0
+}
+
+.page .classTable.decoration {
+    position: relative
+}
+
+.page .classTable.decoration::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    width: 7.75cm;
+    height: calc(100% + 3.3cm);
+    content: '';
+    background-image: url('/assets/classTableDecoration.png'),url('/assets/classTableDecoration.png');
+    filter: drop-shadow(0 0 1px #C8C5C080);
+    background-repeat: no-repeat,no-repeat;
+    background-position: top, bottom;
+    background-size: contain, contain;
+    transform: translateY(-50%) translateX(-50%)
+}
+
+.page .classTable.decoration.wide::before {
+    width: calc(100% + 3.3cm);
+    height: 7.75cm;
+    background-position: left, right
+}
+
+.page .classTable h5+table {
+    margin-top: .2cm
+}
+
+.commerzbank{
+  width: 100;
+  background-color: orange;
+  height: 100%;
+}
+
+.page:has(.commerzbank) {
+    columns: 1;
+    padding-left: 200px;
+}
+
+.page:has(.commerzbank):before {
+     all: unset;
+     content: '';
+     white-space: nowrap;
+     position: absolute;
+     left: 20px;
+     top: 0px;
+     color: gray;
+     background-color: lightblue;
+     font-family: "Oswald", sans-serif;
+     text-transform: uppercase;
+     width: 4cm;
+     height: 80%;
+}
+.page:has(.commerzbank) h1 {
+  --p: 50px; /* control the shape (can be percentage) */
+  height: 35px;
+  margin-left: -100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  clip-path: polygon(var(--p) 0,100% 0,calc(100% - var(--p)) 100%,0 100%);
+  background: lightblue;
+}
+
+.page:has(.commerzbank):before {
+     all: unset;
+     content: 'Playtest material';
+     transform-origin: bottom left;
+     transform: rotate(90deg);
+     position: absolute;
+     right: 1.65cm;
+     top: -45px;
+     color: gray;
+     font-family: "Oswald", sans-serif;
+     text-transform: uppercase;
+     width: 90%;
+     height: 4cm;
+     background-color: lightblue;
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+     border-right: transparent solid 1cm;
+         box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.page:has(.commerzbank):after {
+     all: unset;
+     content: '';
+     white-space: nowrap;
+     position: absolute;
+     left: 20px;
+     bottom: 40px;
+     color: gray;
+     background-color: lightgray;
+     font-family: "Oswald", sans-serif;
+     text-transform: uppercase;
+     width: 4cm;
+     height: 15%;
+     z-index: -1;
+}
+
+
+.page:has(.insideCover) {
+    background-color: #FDFDFD; /* Light, near-white paper feel */
+    background-image: none; /* No unnecessary textures */
+    border: 1px solid #D1D5DB; /* Soft executive border */
+    font-family: "Arial", sans-serif; /* Standard corporate font */
+    font-size: 14px;
+    color: #2C3E50; /* Professional dark blue-gray */
+    line-height: 1.6;
+    padding: 40px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); /* Soft document shadow */
+    text-align: left;
+}
+
+.page:has(.insideCover)::after {
+    display: none
+}
+
+
+.page:has(.insideCover) {
+    background-color: var(--HB_Color_Background);
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    color: var(--HB_Color_Text);
+    line-height: 1.5;
+    padding: 30px;
+    text-align: left;
+    border: 1px solid var(--HB_Color_Accent);
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.page:has(.insideCover) h1 {
+    all: unset;
+    font-family: 'Georgia', serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--HB_Color_Text);
+    text-align: center;
+    margin-bottom: 0.4cm;
+    display: block;
+}
+
+.page:has(.insideCover) h2 {
+    all: unset;
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    color: var(--HB_Color_Text);
+    text-align: left;
+    margin-bottom: 0.3cm;
+    border-bottom: 1px solid var(--HB_Color_Accent);
+    padding-bottom: 0.1cm;
+    letter-spacing: 1px;
+    width: auto;
+        display: block;
+}
+
+.page:has(.insideCover) h3 {
+    all: unset;
+    display: block;
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--HB_Color_Text);
+    text-transform: uppercase;
+    margin-bottom: 0.25cm;
+}
+
+.page:has(.insideCover) h4 {
+    all: unset;
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--HB_Color_Text);
+    margin-bottom: 0.2cm;
+    display: block;
+}
+
+.page:has(.insideCover) p,
+.page:has(.insideCover) ul,
+.page:has(.insideCover) ol{
+  border-left: lightgray solid 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding:2px;
+}
+
+.page:has(.insideCover) li{
+margin-left: 25px;
+}
+
+.page:has(.insideCover) p{
+  padding-left:10px;
+}
+
+.page:has(.insideCover) hr {
+    position: relative;
+    display: block;
+    width: 95%;
+    height: 1px;
+    margin: 10px 0;
+    background-color: var(--HB_Color_Accent);
+    border: none;
+    opacity: 0.8;
+    background-image: unset;
+}
+
+.page:has(.insideCover) .logo {
+    position: absolute;
+    right: 0;
+    bottom: 1cm;
+    left: 0;
+    height: 2cm
+}
+
+.page:has(.insideCover) .logo img {
+    width: 100%;
+    height: 2cm
+}
+
+.page:has(.backCover) {
+    padding: 2.25cm 1.3cm 2cm 1.3cm;
+    color: #FFFFFF;
+    columns: 1
+}
+
+.page:has(.backCover)::after {
+    display: none
+}
+
+.page:has(.backCover) .columnWrapper {
+    width: 7.6cm
+}
+
+.page:has(.backCover) .backCover {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    width: 11cm;
+    background-image: url('/assets/backCover.png');
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+.page:has(.backCover) .blank {
+    height: 1.4em
+}
+
+.page:has(.backCover) h1 {
+    margin-bottom: .3cm;
+    font-family: 'NodestoCapsCondensed';
+    font-size: 1.35cm;
+    line-height: 1.28cm;
+    color: #ED1C24;
+    text-align: center
+}
+
+.page:has(.backCover) h1+p::first-line,.page:has(.backCover) h1+p::first-letter {
+    all: unset
+}
+
+.page:has(.backCover) img {
+    position: absolute;
+    top: 0px;
+    z-index: -2;
+    height: 100%
+}
+
+.page:has(.backCover) hr {
+    width: 4.5cm;
+    height: .53cm;
+    margin-top: 1.1cm;
+    margin-right: auto;
+    margin-left: auto;
+    visibility: visible;
+    background-image: url('/assets/horizontalRule.svg');
+    background-size: 100% 100%;
+    border: none
+}
+
+.page:has(.backCover) p {
+    font-family: 'Overpass';
+    font-size: .332cm;
+    line-height: .35cm
+}
+
+.page:has(.backCover) hr+p {
+    margin-top: .6cm;
+    text-align: center
+}
+
+.page:has(.backCover) .logo {
+    position: absolute;
+    bottom: 2cm;
+    left: 1.2cm;
+    z-index: 0;
+    width: 7.6cm;
+    height: 1.5cm
+}
+
+.page:has(.backCover) .logo img {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 1.5cm
+}
+
+.page:has(.backCover) .logo p {
+    position: relative;
+    width: 100%;
+    font-family: 'NodestoCapsWide';
+    font-size: .4cm;
+    line-height: 1em;
+    line-height: 1.28cm;
+    color: #FFFFFF;
+    text-align: center;
+    text-indent: 0
+}
+
+.page:has(.partCover) {
+    padding-top: 0;
+    text-align: center;
+    columns: 1
+}
+
+.page:has(.partCover) .partCover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6cm;
+    background-image: url('/assets/partCoverHeaderPHB.png');
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+.page:has(.partCover) h1 {
+    position: relative;
+    margin-top: .4cm;
+    font-family: 'NodestoCapsCondensed';
+    font-size: 2.3cm;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.page:has(.partCover) h2 {
+    position: relative;
+    margin-top: -0.7em;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Overpass';
+    font-size: .45cm;
+    line-height: .495cm
+}
+
+h4,h5,h6,.page:has(.frontCover),.page:has(.backCover),.page:has(.insideCover),.monster,.noToC,.toc {
+    --TOC: exclude
+}
+
+.tocIncludeH1 h1 {
+    --TOC: include
+}
+
+.tocIncludeH2 h2 {
+    --TOC: include
+}
+
+.tocIncludeH3 h3 {
+    --TOC: include
+}
+
+.tocIncludeH4 h4 {
+    --TOC: include
+}
+
+.tocIncludeH5 h5 {
+    --TOC: include
+}
+
+.tocIncludeH6 h6 {
+    --TOC: include
+}
+
+.tocDepthH2 :is(h1, h2) {
+    --TOC: include
+}
+
+.tocDepthH3 :is(h1, h2, h3) {
+    --TOC: include
+}
+
+.tocDepthH4 :is(h1, h2, h3, h4) {
+    --TOC: include
+}
+
+.tocDepthH5 :is(h1, h2, h3, h4, h5) {
+    --TOC: include
+}
+
+.tocDepthH6 :is(h1, h2, h3, h4, h5, h6) {
+    --TOC: include
+}
+
+.tocExcludeH1 h1 {
+    --TOC: exclude
+}
+
+.tocExcludeH2 h2 {
+    --TOC: exclude
+}
+
+.tocExcludeH3 h3 {
+    --TOC: exclude
+}
+
+.tocExcludeH4 h4 {
+    --TOC: exclude
+}
+
+.tocExcludeH5 h5 {
+    --TOC: exclude
+}
+
+.tocExcludeH6 h6 {
+    --TOC: exclude
+}
+
+.page:has(.partCover) {
+    --TOC: exclude
+}
+
+.page:has(.partCover) h1 {
+    --TOC: include
+}
+
+.page:has(.toc)::after {
+    display: none
+}
+
+.page .toc {
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid
+}
+
+.page .toc h1 {
+    margin-bottom: .3cm;
+    text-align: center
+}
+
+.page .toc a {
+    display: inline;
+    color: inherit;
+    text-decoration: none
+}
+
+.page .toc a:hover {
+    text-decoration: underline
+}
+
+.page .toc h4 {
+    margin-top: .2cm;
+    line-height: .4cm
+}
+
+.page .toc h4+ul li {
+    line-height: 1.2em
+}
+
+.page .toc ul {
+    padding-left: 0;
+    margin-top: 0;
+    list-style-type: none
+}
+
+.page .toc ul a {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%
+}
+
+.page .toc ul li+li h3 {
+    margin-top: .26cm;
+    line-height: 1em
+}
+
+.page .toc ul h3 span:first-child::after {
+    border: none
+}
+
+.page .toc ul span {
+    display: contents
+}
+
+.page .toc ul span:first-child::after {
+    bottom: .08cm;
+    flex: 1;
+    margin-right: .16cm;
+    margin-bottom: .08cm;
+    margin-left: .08cm;
+    content: '';
+    border-bottom: .05cm dotted #000000
+}
+
+.page .toc ul span:last-child {
+    display: inline-block;
+    align-self: flex-end;
+    font-family: 'BookInsanityRemake';
+    font-size: .34cm;
+    font-weight: normal;
+    color: #000000
+}
+
+.page .toc ul ul {
+    margin-left: 1em
+}
+
+.page .toc.wide {
+    column-count: 2;
+    column-fill: balance;
+    column-gap: .9cm;
+    column-width: 7.68cm;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-width: 7.68cm;
+    -moz-column-width: 7.68cm;
+    -webkit-column-gap: .9cm;
+    -moz-column-gap: .9cm
+}
+
+.page .toc.wide li {
+    break-inside: auto
+}
+
+.page dl {
+    line-height: 1.25em
+}
+
+.page dl+* {
+    margin-top: .17cm
+}
+
+.page p+dl {
+    margin-top: .17cm
+}
+
+.page dt {
+    margin-right: 5px;
+    margin-left: -1em
+}
+
+.page .wide {
+    margin-bottom: .325cm
+}
+
+.page h1+* {
+    margin-top: 0
+}
+
+.page .descriptive.wide+* {
+    margin-top: 0
+}
+
+.page .runeTable {
+    margin-block:.7cm}
+
+.page .runeTable table {
+    font-family: inherit
+}
+
+.page .runeTable table tbody tr {
+    background: unset
+}
+
+.page .runeTable table th,.page .runeTable table td {
+    width: 1.3cm;
+    height: 1.3cm;
+    font-weight: normal;
+    text-transform: uppercase;
+    vertical-align: middle;
+    outline: 1px solid #000000
+}
+
+.page .runeTable table th {
+    font-family: 'BookInsanityRemake';
+    font-size: .45cm
+}
+
+.page .runeTable table td {
+    font-size: .7cm
+}
+
+.page .runeTable.frame {
+    border: initial;
+    border-style: solid;
+    border-image-source: url('/assets/scriptBorder.png');
+    border-image-slice: 170;
+    border-image-width: 1.4cm;
+    border-image-outset: .45cm .35cm .4cm .4cm;
+    border-image-repeat: stretch
+}
+
+.page .index {
+    font-size: .218cm
+}
+
+.page .index ul ul {
+    margin: 0
+}
+
+.page .index ul {
+    padding-left: 0;
+    text-indent: 0;
+    list-style-type: none
+}
+
+.page .index>ul>li {
+    padding-left: 1.5em;
+    text-indent: -1.5em
+}
+
+updated with colors, typography, spacings, alignement, rulers, borders, tables, but without changeing any order of things in the css.
+```
+
+\page
+{{frontCover}}
+
+# ⚠ CONFIDENTIAL ⚠
+# THAUMATEC INDUSTRIES
+## EXECUTIVE CORPORATE REPORT  
+---
+### **NOTICE TO AUTHORIZED PERSONNEL**  
+This document is classified under the **Thaumatec Industries Corporate Asset Protection Act (CAPA-92)**.  
+Unauthorized access, duplication, or disclosure will result in **contract termination and asset recovery protocols**.  
+
+By accessing this document, you confirm:  
+✅ You hold **Class-5 Executive Clearance** or above.  
+✅ You acknowledge **ongoing performance tracking and behavioral audits**.  
+✅ You waive all rights to dispute **corporate restructuring initiatives**.  
+
+---
+
+**“Maximizing Value. Monetizing Innovation.”**  
+
+### **DIVISIONS & STRATEGIC OPERATIONS**  
+🟡 **Corporate Finance (C.F.)** – Ensuring revenue streams remain uninterrupted.  
+🔵 **Human Resource Optimization (H.R.O.)** – Streamlining personnel efficiency.  
+🔴 **Market Expansion & Acquisitions (M.E.A.)** – Capitalizing on emerging markets.  
+🟢 **Research & Development (R&D)** – Monetizing proprietary innovations.  
+⚫ **Operational Efficiency & Compliance (O.E.C.)** – Eliminating redundancies.  
+
+\page
+{{insideCover}}
+
+# **THAUMATEC INDUSTRIES**  
+**Human Resources Department**  
+[Company Address]  
+[Date]
+
+---
+
+## **To:** All Thaumatec Employees  
+## **From:** Human Resources Department  
+## **Subject:** Q3 Business & Compliance Updates  
+
+Dear Employees,  
+
+As we move into the third quarter of the fiscal year, we would like to provide key updates regarding **business expansion, compliance policies, and corporate expectations.**  
+
+---
+
+## **STRATEGIC BUSINESS EXPANSION**  
+
+Thaumatec Industries continues to grow and adapt in a competitive market. Key initiatives for Q3 include:  
+
+- **Expansion into the commercial enchantment market** via a merger with ArcanoCorp.  
+- **Automated Performance Oversight**, an AI-driven system replacing traditional managerial reviews.  
+- **Subscription-Based Employee Contracts**, allowing personnel to opt into **Premium Performance Tiers.**  
+
+These efforts are designed to increase **efficiency and innovation** while maintaining our commitment to excellence.  
+
+---
+
+## **COMPLIANCE & LEGAL AFFAIRS**  
+
+Thaumatec Industries expects all employees to adhere to updated compliance regulations:  
+
+1. **All personnel must maintain an "Adaptability Quotient" (AQ) of 85+** to ensure alignment with corporate values.  
+2. **Profit-driven restructuring is a standard business process** and does not require employee consultation.  
+3. **Personal time off is subject to pre-approval based on financial performance metrics.**  
+
+Failure to comply with corporate policies will result in **Efficiency Audits (EA-3)** and potential contract review.  
+
+If you have any questions regarding compliance policies, please refer to the **HR Employee Handbook** or contact **[HR Contact Name]** directly.  
+
+---
+
+## **PUBLIC RELATIONS & CORPORATE IMAGE**  
+
+As representatives of Thaumatec Industries, it is critical that employees understand our public positioning:  
+
+- *"Thaumatec Industries is committed to excellence in all market sectors."* (For investor briefings)  
+- *"We are optimizing workforce potential for mutual success."* (For internal workforce morale)  
+- *"Thaumatec’s operations are fully compliant with regulatory standards."* (For external audits)  
+
+We appreciate your **continued dedication and adaptability** as we work toward a stronger, more innovative future.  
+
+If you have any further questions, please reach out to **your HR representative** or the **Corporate Compliance Office.**  
+
+Sincerely,  
+
+---
+
+**[HR Representative Name]**  
+Human Resources Department  
+Thaumatec Industries  
+
+\page
+
+{{commerzbank}}
+
+# Thaumatec Industries - Internal Use Only  
+## Firearm Classification & Specification Sheet  
+
+---
+
+## Product Line: Tactical & Security Firearms  
+**Issued by:** Thaumatec Industries, Weapons & Security Division  
+**Date:** [INSERT DATE]  
+**Distribution Level:** Authorized Corporate Use Only  
+
+---
+
+## Model: TCI-12 Handgun  
+**Category:** Semi-Automatic Handgun  
+**Intended Use:** Corporate Security, Law Enforcement, Executive Protection  
+**Manufacturer:** Thaumatec Industries  
+
+### Regulatory Compliance  
+- Concord City Security Ordinance 57-A  
+- Corporate Liability Act, Section 4.2  
+- Thaumatec Operational Safety Standards (TOSS-3)  
+
+### Technical Specifications  
+| Attribute          | Specification           |
+|-------------------|------------------------|
+| **Caliber**       | 10mm AP                 |
+| **Weight**        | 2.1 lbs (Unloaded)      |
+| **Magazine Capacity** | 15+1 Rounds         |
+| **Effective Range** | 50m                   |
+| **Fire Modes**    | Semi-Automatic          |
+| **Safety Mechanism** | Biometric Thumbprint Lock |
+| **Frame Material** | Polymer-Coated Alloy  |
+| **Additional Features** | - Integrated Smart-Link System™ for security clearance verification <br> - Low-visibility matte finish for non-reflective tactical applications |
+
+---
+
+## Usage & Deployment  
+- **Standard issue** for **Thaumatec Executive Security Teams**  
+- Authorized for **Corporate Response Units (CRU)**  
+- Available for **licensed private security contractors** under corporate regulation  
+
+## Procurement & Distribution  
+- **Authorized Vendors:** Thaumatec Supply Chain Division, Section 3B  
+- **License Requirements:** Tier-2 Corporate Access or higher  
+- **Maintenance Cycle:** Mandatory servicing every 6,000 rounds  
+- **Liability Clause:** Use outside of Thaumatec-sanctioned engagements voids warranty and corporate coverage  
+
+## Compliance Statement  
+All personnel issued this firearm must complete the **Thaumatec Firearm Proficiency Program (TFPP-1)** and adhere to corporate-use policies as outlined in **Concord City Ordinance 82-J.**  
+
+---
+
+## End of Document  
+*Thaumatec Industries reserves the right to amend this specification sheet as necessary to comply with regulatory changes and corporate security policies.*  
+
+\page
+{{wide
+# Firearms
+
+| Name | Cost | Damage | Weight | Properties |
+|------|------|--------|--------|------------|
+| Handgun | 1,000 credit | 3d6 piercing | 3 lb. | Ammunition (range 50/200), reload 6 |
+| Revolver | 1,500 credit | 3d8 piercing | 4 lb. | Ammunition (range 40/160), reload 6, loud |
+| Submachine Gun | 3,000 credit | 4d6 piercing | 6 lb. | Ammunition (range 60/250), burst fire, reload 30 |
+| Shotgun | 3,500 credit | 4d10 piercing | 8 lb. | Ammunition (range 30/90), spread, reload 6 |
+| Hunting Rifle | 5,000 credit | 5d12 piercing | 9 lb. | Ammunition (range 120/500), reload 5, high velocity |
+| Sniper Rifle | 8,000 credit | 6d10 piercing | 12 lb. | Ammunition (range 200/800), reload 5, scope required |
+| Assault Rifle | 6,500 credit | 4d8 piercing | 10 lb. | Ammunition (range 100/400), burst fire, reload 30 |
+| Heavy Machine Gun | 12,000 credit | 6d12 piercing | 20 lb. | Ammunition (range 150/600), full auto, reload 100 |
+| Energy Pistol | 5,000 credit | 4d6 radiant | 3 lb. | Ammunition (range 50/200), energy cell, silent |
+| Plasma Rifle | 10,000 credit | 6d8 fire | 12 lb. | Ammunition (range 120/500), energy cell, overheats |
+| Gauss Rifle | 15,000 credit | 8d12 force | 15 lb. | Ammunition (range 300/1000), reload 3, penetration |
+
+### **Firearm Properties**
+- **Ammunition**: The weapon requires a specific type of ammunition. Reloading takes an action.
+- **Reload**: The number of shots a firearm can hold before needing to be reloaded.
+- **Burst Fire**: Can fire in a spray to hit multiple targets within a 10-foot cone, requiring a Dexterity saving throw.
+- **Spread**: Shotguns deal full damage to targets within 10 feet, but only half damage beyond that range.
+- **Loud**: Weapons with this trait create a loud noise upon firing, potentially revealing the user's location.
+- **Scope Required**: Weapons with this trait require a scope to make effective long-range shots.
+- **Full Auto**: Can make multiple attacks using a full attack action, consuming more ammunition.
+- **High Velocity**: Shots fired with this weapon ignore cover below half-cover.
+- **Energy Cell**: These weapons require an energy cell rather than traditional ammunition.
+- **Overheats**: After sustained use, the weapon may require a cooling period before being used again.
+- **Penetration**: Ignores resistance to nonmagical attacks and deals extra damage against armored targets.
+
+
+## **Ammunition**
+| Name | Cost | Description |
+|------|------|-------------|
+| Handgun Ammo (12 rounds) | 50 credit | Standard small-caliber bullets for handguns and revolvers. |
+| Rifle Ammo (10 rounds) | 100 credit | High-velocity bullets used for hunting and sniper rifles. |
+| Shotgun Shells (8 rounds) | 120 credit | Pellets designed for close-range stopping power. |
+| SMG Ammo (30 rounds) | 150 credit | Compact rounds used in submachine guns and assault rifles. |
+| Heavy Ammo (50 rounds) | 500 credit | Large-caliber rounds for heavy machine guns and gauss rifles. |
+| Energy Cell (1 charge) | 300 credit | A power source for energy-based weapons, can be recharged. |
+| Plasma Core (1 charge) | 800 credit | Highly unstable energy source for plasma-based weapons. |
+}}
+\page
+# Vestigium Magic Items – Firearms
+{{productlist
+
+{{product
+
+### *The Echo Repeater*  
+*Firearm (Pistol), Very Rare*  
+A **sleek revolver**, its barrel marked with shifting runes.  
+When fired, the bullet **repeats itself in time**, striking the same target **twice** in rapid succession.  
+Each shot **forces the target to relive the moment of impact**, requiring a **DC 16 Intelligence saving throw** or suffer **1d4 psychic damage** as their mind fractures under temporal distortion.  
+}}
+{{product
+### *The Hollowshot Derringer*  
+*Firearm (Pistol), Rare*  
+A **small black pistol**, seemingly weightless when held.  
+Instead of bullets, it fires **small voids of absolute silence**, which **ignore armor** but deal **no physical damage**.  
+Instead, any creature hit by it must succeed on a **DC 15 Wisdom saving throw** or be **muted for 1 minute**, unable to speak, cast spells, or communicate telepathically.  
+}}
+
+{{product
+### *The Ironsoul Ordinance*  
+*Firearm (Rifle), Very Rare*  
+A **long-barreled rifle**, humming faintly when held.  
+Each bullet it fires **bonds to the user’s soul**, allowing them to **recall a spent shot back into the chamber** once per turn.  
+However, each recalled bullet **leaves behind a spectral scar**, permanently **lowering the user’s Charisma by 1** for each shot recovered.  
+}}
+{{product
+### *The Black Barrel Manifest*  
+*Firearm (Shotgun), Mythic*  
+A **massive, ancient shotgun**, carved with **impossible geometric symbols**.  
+When fired, it **does not shoot lead**, but instead releases **a blast of unreality**, forcing all creatures within 20 feet to make a **DC 18 Wisdom saving throw**.  
+On a failure, they experience **a different version of themselves from an alternate timeline**, causing **1d6 psychic damage for each unrealized future they glimpse**.  
+}}
+
+}}
+
+\page
+# Vestigium Magic Items – Firearms Upgradess  
+{{productlist
+
+{{product
+### *The Misfire Codex*  
+*Firearm Upgrade, Very Rare*  
+A **small, handwritten book**, containing arcane diagrams of impossible guns.  
+Attaching it to any firearm grants **+2 to attack and damage rolls**, but each shot has **a 10% chance to fire twice, hitting a random target instead of the intended one**.  
+The wielder occasionally hears **murmured conversations in a language they don’t recognize**, coming from within the book.  
+}}
+{{product
+### *The Whispering Chamber*  
+*Firearm Attachment, Rare*  
+A **revolver cylinder**, cold to the touch, etched with **ancient script**.  
+Any gun fitted with this chamber fires **completely silent bullets**, making the attack **undetectable** by sound.  
+However, for each shot fired, the wielder must succeed on a **DC 15 Wisdom saving throw** or hear **faint whispers describing their own death**, growing louder with each use.  
+}}
+{{product
+### *The Hellmouth Barrel*  
+*Firearm (Hand Cannon), Legendary*  
+A **pistol with an oversized barrel**, its metal constantly warm.  
+Firing it **does not consume ammunition**—instead, it **pulls a bullet from another timeline**, dealing **1d12 force damage** as a shot from another reality strikes the target.  
+Once per day, the gun can fire a shot from **a version of the wielder who never hesitated**, turning a missed attack into a critical hit.  
+}}
+{{product
+### *The Phantom Clip*  
+*Magazine, Rare*  
+A **box magazine**, engraved with glowing runes.  
+When loaded into a firearm, it **doubles the gun’s normal magazine capacity**, but each extra bullet is **pulled from a parallel dimension**.  
+Each shot after the magazine’s normal limit has a **20% chance to fire a bullet that was never meant to exist**, causing **unexpected reality glitches** that neither the shooter nor the target can predict.  
+}}
+
+{{product
+### *The Kill-Chain Circuit*  
+*Firearm Enhancement, Legendary*  
+A **thin, silver coil**, wrapping around a gun’s grip like a snake.  
+Any firearm fitted with this circuit **builds up power with each consecutive hit**, increasing damage by **+1d6 per successful shot**, up to a maximum of **+4d6**.  
+However, if a shot **misses**, the circuit releases all stored energy in **a violent backlash**, dealing the accumulated bonus damage to the shooter instead.  
+}}
+{{product
+### *The Eclipsing Sight*  
+*Firearm Scope, Very Rare*  
+A **blackened scope**, its lens reflecting nothing.  
+Attaching it to a gun allows the user to **see through walls and illusions for 30 feet** while aiming.  
+However, prolonged use forces the wielder to **catch glimpses of something watching them**, requiring a **DC 18 Wisdom saving throw** after 10 minutes of use, or becoming **paranoid that they are being followed** by an unseen force.  
+}}
+
+
+{{product
+### *The Unfinished Gun*  
+*Firearm (Pistol), Legendary*  
+A **half-built firearm**, constantly shifting in form.  
+The wielder may **mentally shape the weapon’s properties**, choosing its caliber, range, and fire mode at will.  
+However, the gun is **never truly complete**, and once per day, it will **alter itself unpredictably**, adding a new effect or removing a previous one without warning.  
+}}
+}}
+\page
+# Vestigium Magic Items – Amunitions
+
+{{productlist
+{{product
+### *The Ghostfire Rounds*  
+*Ammunition, Rare*  
+A **set of six bullets**, glowing with a faint blue flame.  
+When fired, these rounds **pass through all physical barriers**, only affecting creatures with **souls or psychic presence**.  
+These rounds **ignore armor**, but deal **no damage to constructs, undead, or creatures without a spiritual essence**.  
+}}
+{{product
+### *The Unfired Cartridge*  
+*Ammunition, Mythic*  
+A **brass casing, sealed shut, containing something that should not be contained**.  
+Attempting to fire this cartridge **produces no immediate effect**.  
+Instead, **exactly 24 hours later**, the shot occurs as if it had just been fired in that moment, striking **whoever the wielder was aiming at when the trigger was pulled**—regardless of distance or current location.  
+}}
+{{product
+### *The Shattered Bolt*  
+*Ammunition, Very Rare*  
+A **crystalline bullet**, humming with unstable energy.  
+When fired, the bullet **splits into multiple projectiles**, striking up to three targets in a straight line.  
+However, if all three shots hit, the shooter must succeed on a **DC 16 Dexterity saving throw** or experience **a momentary breakdown of self**, feeling **briefly disconnected from reality**.  
+}}
+{{product
+### *The Bullet That Remembers*  
+*Ammunition, Legendary*  
+A **simple lead bullet**, humming softly when touched.  
+Once fired, it **remains in existence**, endlessly returning to the shooter’s pocket at the start of each day.  
+However, each time it is used to kill, the shooter begins to **remember a life they never lived**, suffering **disadvantage on Insight and Intelligence checks for 24 hours** as memories of another timeline bleed through.  
+}}
+
+{{product
+### *The Revenant's Last Round*  
+*Ammunition (Bullet), Legendary*  
+A **single, heavy brass bullet**, etched with the name of its intended target.  
+When fired, the bullet **never misses**, bending reality to strike its marked prey.  
+However, if the target survives, **they know exactly who fired it**, and their fate becomes **intertwined with the shooter’s**—for better or worse.  
+}}
+}}
+
+\page
+{{wide
+### **Firearm Classification & Specification Sheet**  
+
+---
+
+#### **Product Information**  
+**Model:** TCI-12 Handgun  
+**Category:** Semi-Automatic Handgun  
+**Manufacturer:** Thaumatec Industries  
+**Intended Use:** Corporate Security, Law Enforcement, Executive Protection  
+**Regulatory Compliance:**  
+- Concord City Security Ordinance 57-A  
+- Corporate Liability Act, Section 4.2  
+- Thaumatec Operational Safety Standards (TOSS-3)  
+
+}}
+
+#### **Technical Specifications**  
+
+| Attribute              | Specification                         |
+|------------------------|-------------------------------------|
+| **Caliber**            | 10mm AP                              |
+| **Weight**            | 2.1 lbs (Unloaded)                   |
+| **Magazine Capacity** | 15+1 Rounds                          |
+| **Effective Range**   | 50m                                   |
+| **Fire Modes**        | Semi-Automatic                       |
+| **Safety Mechanism**  | Biometric Thumbprint Lock            |
+| **Frame Material**    | Polymer-Coated Alloy                 |
+| **Additional Features** | - Integrated Smart-Link System™ for security clearance verification <br> - Low-visibility matte finish for non-reflective tactical applications |
+
+---
+
+#### **Deployment & Use**  
+
+| Division | Status |
+|----------|--------------------------------|
+| **Executive Security Teams** | Standard Issue |
+| **Corporate Response Units (CRU)** | Authorized Use |
+| **Private Contractors** | Restricted - License Required |
+
+
+#### **Procurement & Maintenance**  
+
+| Process                 | Details |
+|-------------------------|--------------------------------------|
+| **Authorized Vendors**  | Thaumatec Supply Chain Division (Sec. 3B) |
+| **License Requirements** | Tier-2 Corporate Access or higher  |
+| **Maintenance Cycle**   | Mandatory servicing every 6,000 rounds |
+| **Liability Clause**    | Unauthorized use voids warranty & corporate coverage |
+
+{{wide
+
+#### **Compliance Statement**  
+All personnel issued this firearm must complete the **Thaumatec Firearm Proficiency Program (TFPP-1)** and adhere to corporate-use policies as outlined in **Concord City Ordinance 82-J.**  
+
+---
+
+#### **End of Document**  
+*Thaumatec Industries reserves the right to amend this specification sheet as necessary to comply with regulatory changes and corporate security policies.*  
+}}

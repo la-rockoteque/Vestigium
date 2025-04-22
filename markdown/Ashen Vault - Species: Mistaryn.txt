@@ -1,0 +1,421 @@
+```metadata
+title: 'Ashen Vault - Species: Mistaryn'
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+/* === Mystarin Theme (Severan: Soviet-Synthwave-Bureaucratic Aesthetic) === */
+
+/* Removes Drop Caps */
+.page h1+p:first-letter {
+	all: unset;
+}
+
+/* Removes Small-Caps in first line */
+.page h1+p:first-line {
+	all: unset;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;600&display=swap');
+
+:root {
+    --neon-pink: #E04A6B;
+    --neon-blue: #41A7DC;
+    --dark-bg: #121212;
+    --light-bg: #F5E3E0;
+    --crt-scanline: rgba(0, 0, 0, 0.1);
+    --text-glow: rgba(255, 0, 77, 0.3);
+    --bureau-red: var(--neon-pink);
+    --soviet-gray: #2C2C2C;
+    --poster-yellow: var(--neon-blue);
+    --propaganda-red: var(--neon-pink);
+}
+
+/* === General Page Styling === */
+.page {
+    background: var(--light-bg);
+    color: var(--soviet-gray);
+    font-family: 'IBM Plex Mono', monospace;
+    text-shadow: 0 0 2px var(--text-glow);
+        background-image: repeating-linear-gradient(
+        to bottom,
+        var(--crt-scanline) 0px,
+        transparent 3px
+    );
+}
+
+
+.coverpicture {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+ z-index: -1;
+ mix-blend-mode: lighten;
+}
+
+.coverpicture>img {
+	width: 100%;
+	height: 100%;
+  object-fit: cover;
+}
+
+.page:after {
+  background: none;
+}
+
+.page p+p {
+  margin-top: 5px;
+}
+
+.page p,
+.page:has(.insideCover) p,
+.page:has(.frontCover) p {
+  margin-top: 10px;
+}
+
+/* === Soviet Poster Style for Covers === */
+.page:has(.frontCover), .page:has(.insideCover) {
+    background: var(--dark-bg);
+    color: var(--light-bg);
+    text-shadow: 0 0 2px var(--text-glow);
+}
+
+.page:has(.frontCover) {
+   background: none;
+   background-color: var(--neon-blue);
+}
+
+/* === Soviet Poster Style for Covers === */
+.page:has(.frontCover) p, 
+.page:has(.insideCover) p {
+    text-align: left;
+}
+
+/* === Headers: Soviet Propaganda Look === */
+.page h1, .page h2, .page h3 {
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: var(--propaganda-red);
+    color: var(--poster-yellow);
+    padding: 8px;
+    box-shadow: 4px 4px 0px black;
+    border-left: 8px solid var(--neon-blue);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.page h2 {
+  font-size: 22px;
+  margin-top: 5px;
+
+}
+
+.page h3 {
+    margin-top: 19px;
+    font-size: 18px;
+    color: var(--neon-pink);
+    background-color: var(--poster-yellow);
+}
+
+.page li {
+  text-align: left;
+}
+
+/* === Headers: Soviet Propaganda Look === */
+.page:has(.frontCover) h1, .page:has(.frontCover) h2, .page:has(.frontCover) h3,
+.page:has(.insideCover) h1, .page:has(.insideCover) h2, .page:has(.insideCover) h3 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+/* === Headers: Soviet Propaganda Look === */
+.page:has(.frontCover) h1, .page:has(.frontCover) h2, .page:has(.frontCover) h3 {
+    -webkit-text-stroke: 4px navy;
+    text-stroke: 4px navy;
+}
+
+
+.page:has(.insideCover) h1 {
+  font-size: 30px;
+}
+
+.page:has(.insideCover) h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.page blockquote {
+    font-family: 'Press Start 2P', cursive;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-left: 4px solid var(--neon-pink);
+    text-shadow: 2px 2px 5px var(--text-glow);
+}
+
+/* === Tables: Communist Bureaucracy === */
+.page table {
+    border-collapse: collapse;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.page th {
+    background: var(--bureau-red);
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.page td {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--soviet-gray);
+    padding: 10px;
+    border-bottom: 2px solid var(--neon-blue);
+}
+
+/* === Soviet Poster Styled Footer === */
+.page .footnote {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: var(--bureau-red);
+    letter-spacing: 3px;
+    border-top: 3px solid var(--bureau-red);
+    background: var(--dark-bg);
+    padding: 10px;
+}
+
+/* === Links: Industrial Soviet Cyberpunk === */
+.page a {
+    color: var(--neon-blue);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--neon-pink);
+}
+
+.page a:hover {
+    color: var(--bureau-red);
+    border-bottom: 1px solid var(--bureau-red);
+}
+
+/* === Final Adjustments === */
+.page hr {
+    border: 2px dashed var(--soviet-gray);
+    opacity: 0.5;
+}
+
+/* === Final Adjustments === */
+.page:has(.insideCover) hr,
+.page:has(.frontCover) hr {
+    height: 10px;
+    width: 50%;
+    border-bottom: 4px dashed var(--light-bg);
+    margin-bottom: 10px;
+    opacity: 0.5;
+    filter: drop-shadow(16px 16px 20px var(--neon-blue));
+    background: none;
+}
+
+/* === Logo Styling === */
+.page:has(.frontCover) .logo {
+  width: 100%;
+  top: 10cm;
+  filter: drop-shadow(0 0 .075cm black);
+  text-align: center;
+}
+
+.page:has(.insideCover) .logo {
+  width: 100%;
+  top: 0.5cm;
+  filter: drop-shadow(0 0 .075cm black);
+  text-align: center;
+}
+
+.page:has(.insideCover) .logo>img {
+    height: 2cm;
+    width: 1.8cm;
+    opacity: 0.1;
+    filter: none;
+}
+
+.page:has(.frontCover) .logo>img {
+    height: 10cm;
+    width: 9cm;
+    opacity: 0.1;
+    filter: none;
+}
+
+ .page:after, .page:has(.frontCover):after, .page:has(.insideCover):after, .page:nth-child(even)::after {
+     all: unset;
+     content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+     transform-origin: top right;
+     transform: rotate(270deg);
+     white-space: nowrap;
+     position: absolute;
+     right: 1.5cm;
+     top: 0px;
+     color: gray;
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     width: 29cm;
+}
+ .page:before {
+     all: unset;
+     content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+     transform-origin: top left;
+     transform: rotate(90deg);
+     white-space: nowrap;
+     position: absolute;
+     left: 1.5cm;
+     top: 0px;
+     color: gray;
+     font-family: "Oswald", sans-serif;
+    /* Bold, Classified Look */
+     text-transform: uppercase;
+     width: 29cm;
+     
+}
+```
+
+{{frontCover}}
+
+# Mistaryn
+## The Waterborn Who Walk
+
+{{coverpicture ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/d4feca28abe45778e3226a62fc157189.webp)}}
+
+\page
+
+{{insideCover}}
+# **SEVERAN STATE DIRECTIVE**  
+## ⚠ FOR INTERNAL REVIEW ONLY ⚠  
+## PEOPLE'S MINISTRY OF HYDROSTABILITY  
+___  
+
+**GLORY TO SEVERAN – CITY OF ETERNAL MIST!**  
+The **People’s Ministry of Hydrostability** upholds the **unwavering progress** of our **mist-born civilization**. The survival of Severan depends upon **order, unity, and the responsible stewardship of our hydro-resources**.  
+
+This document is classified under **Directive 88-V** of the **Severan Unified Compliance Doctrine**. Unauthorized duplication or dissemination constitutes **gross subversion** of state policy and will result in **corrective reorientation at Facility Nov-07**.  
+
+### **BY ACCESSING THIS FILE, YOU AFFIRM THAT YOU:**  
+- Are a **certified overseer of state-sanctioned hydro-intelligence**.  
+- Are subject to **continuous biometric and cognitive-trace verification**.  
+- Accept that **unauthorized replication will trigger Hydrosecurity Protocol: Vaporlock**.  
+
+All findings within this dossier are monitored by the **Hydrological Oversight Bureau (H.O.B.)**, ensuring **truthful dissemination** and **elimination of subversive doubt**.  
+
+If you were not granted access, report immediately to the **Office of Remediation & Trust** at [H.O.B.//DIRECT-LINK//392-77]. **Failure to self-report is an admission of guilt.**  
+
+---
+
+{{logo ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png)}}  
+
+### **THE MISTARYN – CLASSIFIED SPECIES DESIGNATION: HYDRO-RELIANT CITIZENS**  
+**"From the tides, we rose. From the mist, we endure."**  
+
+**SUMMARY:** The **Mistaryn** represent a **successful hydro-assimilation model**, demonstrating **high adaptability to state-engineered atmospheric hydration cycles**. Their biological enhancements—**vestigial gill structures, hydrodynamic lung efficiency, and dermal luminescence**—are **state-monitored for optimal urban integration**.  
+
+Mistaryn integration statistics remain **within acceptable thresholds**, though recorded fluctuations in **hydration dependency, biomechanical stability, and latent migratory impulses** require **sustained observation**. The **People’s Ministry of Hydrostability** will continue rigorous **Hydro-Census Evaluations** to **uphold mistborn order**.  
+
+---
+
+## **SEVERAN PROSPERS THROUGH STRENGTH AND UNITY**  
+**DO NOT QUESTION THE FOG – IT NOURISHES, IT PROTECTS.**  
+
+\page
+
+# **Mistaryn Exiles – The Waterborn Who Walk**  
+*"From the tides we rose, from the sky we fell, and now on land, we endure."*  
+
+The **Mistaryn Exiles** were once a people of the deep, thriving in the vast oceans of Mycea. Their cities lay beneath the waves, illuminated by bioluminescent corals, shaped by the currents, and echoing with the songs of their ancestors. When the cataclysm tore Mycea’s seas apart and raised the floating islands, their world was shattered. With the oceans drained, their people were forced to migrate inland, adapting painfully to a world where water was no longer their home.  
+
+Their transition was slow but inevitable. What were once **gills became vestigial slits along their necks**; their **webbed hands and feet shrank over generations**, though some still retain elongated fingers or toes, remnants of their past. Their **skin, once smooth and scaled for hydrodynamics, hardened** in some cases, or in others, remained eerily slick, giving them a ghostly, otherworldly presence.  
+
+Now, most of them live in **Severan**, a city teeming with mist and artificial waterways, where they cling to what little of their heritage remains.  
+
+---
+
+## **Physiology**  
+The Mistaryn are an **amphibious species turned fully terrestrial**, yet traces of their past remain. Over time, different subgroups have emerged, each adapting to the new world in unique ways.  
+
+### **Common Features**  
+- **Eyes:** Large, with a faint reflective sheen, adapted for deep-sea darkness, giving them excellent low-light vision.  
+- **Skin:** Smooth, sometimes iridescent, or marked by faint bioluminescent patterns that fade with age.  
+- **Hair:** Many remain bald or have thin, tendril-like strands reminiscent of fins. Others developed short, bristly hair adapted for land.  
+- **Nasal Adaptation:** Their nostrils are narrow slits, and some can close them at will—an ancient ability meant for deep-sea diving.  
+- **Lung Capacity:** A holdover from their aquatic ancestry, many can hold their breath far longer than land-born species.  
+- **Webbing:** Some still have partial webbing between their fingers or toes, though it is largely vestigial.  
+- **Gills:** Non-functional slits remain along the sides of their necks or ribs, sometimes flaring when experiencing strong emotions.  
+
+---
+
+## **Cultural Adaptation**  
+### **Water’s Absence & the Rise of Rituals**  
+Without oceans, the Mistaryn became obsessed with **water conservation, mist, and artificial lakes**. Severan itself is filled with fog-choked streets, canals, and elaborate **mist towers** that collect moisture from the air. Many Mistaryn **bathe in mist** instead of immersing themselves in water, a symbolic act to honor their lost home.  
+
+- **The Hollow Depths:** A religious movement centered on the idea that the oceans were stolen and will one day return. Some extremists believe that the floating islands must fall for balance to be restored.  
+- **Brine Priests:** Keepers of what little saltwater remains, they mix old oceanic lore with strange rituals of purification.  
+- **Rainwalkers:** Some Mistaryn feel called to chase the rain, moving between regions that experience downpours and collecting water in sacred vessels.
+
+\page
+
+### **Societal Roles**  
+- **Hydromancers & Mistcallers:** Some retained a natural affinity for controlling water, though in limited ways, such as extracting moisture from the air or manipulating small bodies of water.  
+- **Pearl Artisans:** Since ocean pearls are now impossibly rare, those who own them are considered nobility. Imitation pearls are crafted by Mistaryn artisans who replicate the sheen of real ones with painstaking detail.
+- **Architects of Water:** Mistaryn often become engineers or artisans specializing in plumbing, artificial rivers, and mist distribution.  
+
+---
+
+## **Subspecies & Variants**  
+Over time, different branches of Mistaryn have emerged, influenced by their oceanic past and the way they adapted to land:  
+
+### **1. The Brineborn** *(Remnants of the Deep)*  
+- **Stocky, slightly tougher skin, remnants of chitin or armored plating.**  
+- **Water-adapted lungs, allowing them to filter toxins.**  
+- **Better suited for harsher environments like salt flats and deserts.**  
+- **Brine-slicked hair or ridges along their heads that resemble old fin structures.**  
+
+The Brineborn hold onto old oceanic traditions most fiercely and tend to be the most isolationist of their kind.  
+
+### **2. The Mistkin** *(Those Who Walk in Fog)*  
+- **Lighter, almost translucent skin.**  
+- **Some retained limited bioluminescence, faint flickers appearing during heightened emotions.**  
+- **Extremely dexterous, often moving with fluid, unsettling grace.**  
+- **Deep affinity for manipulating mist and vapor, making them sought-after illusionists.**  
+
+The Mistkin are the most integrated into Severan society and often lead its religious and political factions.  
+
+### **3. The Abyssborn** *(Echoes of the Trenches)*  
+- **Tall, gaunt, with hauntingly large eyes.**  
+- **Stronger night vision but sensitive to direct sunlight.**  
+- **Skin that appears permanently damp, cold to the touch.**  
+- **Can hold their breath unnaturally long and move with eerie silence.**  
+
+The Abyssborn are the most secretive and superstitious of the Mistaryn, often found in shadowed alleys or deep in underground sanctuaries where water is still venerated.  
+
+---
+
+## **Naming Conventions**  
+Mistaryn names still echo their oceanic origins but have been slowly changing over the generations. Many retain **fluid, melodic names** or names with **glottal stops and breathy sounds**, reminiscent of the way their ancestors spoke underwater.  
+
+- **Traditional Names:** Thal’een, Isskar, Myyshka, Or'vuun, Caelthir, Vas'tiel.  
+- **Modern Mistaryn Names:** Veylan, Drenna, Aeris, Lyshar, Zhayn, Calthis.  
+- **Surnames:** Many names reference **water, mist, pearls, and deep-sea creatures**, such as "Tidemourn," "Pearlshed," "Brineshadow," or "Mistveil."  
+
+---
+
+## **Severan – The City of Mist**  
+Severan is the **last refuge of the Mistaryn Exiles**, a **fog-draped metropolis** where **artificial waterways** and **sacred reservoirs** preserve the remnants of their heritage. Within its **mist-laden streets**, the Mistaryn cling to rituals that **honor their lost seas**, collecting and safeguarding water as if it were a **sacred relic**. 
+\page
+
+Severan is ruled by **Hydromancers and Rainwalkers**, who control its artificial mist towers, and the **Brine Priests**, who keep the last reservoirs of oceanic water under lock and key. Among its people, whispers speak of **The Hollow Depths**, a movement that **seeks to bring the oceans back—by any means necessary.**  
