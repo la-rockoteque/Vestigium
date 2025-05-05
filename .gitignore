@@ -298,3 +298,6 @@ dist
 credentials.json
 key.json
 token.pickle
+.env
+extracted
+pw_profile
