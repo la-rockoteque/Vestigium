@@ -9,53 +9,42 @@ background_list = [
     {
         "name": row.get("Background"),
         "source": json_source,
-        "skillProficiencies": [
-            {skill.lower(): True for skill in row.get("Skills").split(", ")}
-        ],
+        **({
+               "skillProficiencies": [
+                   {skill.lower(): True for skill in row.get("Skills").split(", ")}
+               ]
+           } if pd.notnull(row.get("Skills")) and row.get("Skills") else {}),
         "entries": [
             {
                 "type": "list",
                 "style": "list-hang-notitle",
                 "items": [
-                    {
+                    *([{
                         "type": "item",
                         "name": "Skill Proficiencies",
                         "entry": ", ".join(
-                            [
-                                f"{{@skill {skill}}}"
-                                for skill in row.get("Skills").split(", ")
-                            ]
+                            f"{{@skill {skill}}}"
+                            for skill in row.get("Skills").split(", ")
                         ),
-                    },
-                    {
+                    }] if pd.notnull(row.get("Skills")) and row.get("Skills") else []),
+                    *([{
                         "type": "item",
                         "name": "Tool Proficiencies",
                         "entry": row.get("Tools"),
-                    },
-                    {
-                        "type": "item",
-                        "name": "Languages",
-                        "entry": ", ".join(
-                            [
-                                f"{{@language {language}}}"
-                                for language in row.get("Languages").split(", ")
-                            ]
-                        ),
-                    },
-                    {
+                    }] if pd.notnull(row.get("Tools")) and row.get("Tools") else []),
+                    *([{
+                         "type": "item",
+                         "name": "Languages",
+                         "entry": ", ".join(
+                                 f"{{@language {language}}}"
+                                 for language in row.get("Languages").split(", ")
+                             ),
+                     }] if pd.notnull(row.get("Languages")) else []),
+                    *([{
                         "type": "item",
                         "name": "Equipment",
-                        "entry": "A small banner with your symbol of nobility, a scroll of pedigree, an item you always carry on you with a symbol of your nobility or family, a set of fine travel clothes, a set of meditation clothes, and a purse containing 25 gold.",
-                    },
-                ],
-            },
-            {
-                "name": "Samuraihood:",
-                "type": "entries",
-                "entries": [
-                    "Samurai are a different class of nobility from others, with their own hierarchy and structure. Others tend to view them with respect, acting as stalwart judges and defenders of the people, though some can become terrifying in their cold logic and strict lawfulness.",
-                    "You may consider adding to your equipment a small banner carrying a symbol of your nobility, such as a sheet of paper with a crest drawn in ink or a wooden scroll with a crest burned into the surface. You may also consider noting that one piece of your equipment is embellished with the same symbol, or a more personal one, such as a crest on your chest armor or hilt of your sword.",
-                    "You may choose to take the Judgement of the Wise feature over the Position of Privilege.",
+                        "entry": ", ".join(row.get("Items").split(", ")),
+                    }] if pd.notnull(row.get("Items")) and row.get("Items") else []),
                 ],
             },
             {
@@ -65,9 +54,11 @@ background_list = [
                 "data": {"isFeature": True},
             },
         ],
-        "startingEquipment": [
-            {"_": [{"special": item} for item in row.get("Items").split(", ")]}
-        ],
+        **({
+            "startingEquipment": [
+                {"_": [{"special": item} for item in row.get("Starting Equipment").split(", ")]}
+            ]
+        } if pd.notnull(row.get("Starting Equipment")) and row.get("Starting Equipment") else {}),
     }
     for index, row in df_background.iterrows()
     if pd.notnull(row.get("Background")) and row.get("Source") == source

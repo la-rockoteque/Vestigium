@@ -5,15 +5,30 @@ feat_url = "https://docs.google.com/spreadsheets/d/1I4FHncl40_xx1Udc_Q2rWWWvpL6x
 df_feat = pd.read_csv(feat_url)
 df_feat.head()
 
-feat_list = [
-    {
+def row_to_feat(row):
+    feat_pos = row.index.get_loc("Feat")
+    return     {
         "name": row.get("Name").lower(),
         "source": json_source,
+        "ability": [{
+            "cha: 1"
+        }],
+        "proficiency": [
+            {
+                "weapon": "martial"
+            },
+            {
+                "armor": "heavy"
+            }
+        ],
         "entries": [
             row.get("Flavor Text"),
-            *row.get("Features").split(";"),
+            row.iloc[feat_pos:].dropna().tolist()
         ],
     }
+
+feat_list = [
+    row_to_feat(row)
     for index, row in df_feat.iterrows()
     if pd.notnull(row.get("Name")) and row.get("Source") == source
 ]
