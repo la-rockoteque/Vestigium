@@ -1,0 +1,1090 @@
+```metadata
+title: 'Ashen Vault - Species:  Dren'
+description: ''
+tags: []
+systems: []
+renderer: V3
+theme: 5ePHB
+
+```
+
+```css
+/*=======--- Example CSS styling ---=======*/
+/* Any CSS here will apply to your document! */
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css2?family=Cedarville+Cursive);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+:root {
+    --rotate: 20deg;
+    --left: unset;
+    --top: unset;
+    --correction: "correction";
+    --source: 'https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png';
+
+    --hazard-yellow: #ffcc00;
+    --radiation-black: #111;
+    --industrial-gray: #3b3b3b;
+    --warning-red: #b20000;
+    --distressed-white: #f5f5f5;
+    --background-paper: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f1ec070e75cb548a01624335bbca1b87.png');
+}
+
+/* Nuclear, Industrial, Radiation Themed Overhaul */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+
+/* Removes Drop Caps */
+.page h1+p:first-letter {
+    all: unset;
+}
+
+
+.page:has(.frontCover) {
+    background:unset;
+    background-color: #CFBDA4;
+}
+
+.page:has(.frontCover) .coverBackground {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -1cm;
+    left: 0;
+    z-index: -1;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/3b85c753bd7a2fb71e00d884d548ad93.webp');
+    background-size: cover;
+    background-position: left;
+    mask-image: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 20%), rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: linear-gradient(270deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+.page:has(.frontCover) .coverImage {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -7cm;
+    left: 0;
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/0a0b5e7e9496fd06deac901172f5455f.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.page:has(.frontCover) h1,
+.page:has(.frontCover) h2,
+.page:has(.frontCover) h3 {
+    border: unset;
+    background-color: unset;
+    -webkit-text-stroke: unset;
+    text-stroke: unset;
+    color:white;
+    mix-blend-mode: normal;
+}
+
+.page:has(.frontCover) h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: White;
+    margin-top: 50px;
+    font-family: "Oswald", sans-serif;
+    background: none;
+}
+
+.page:has(.frontCover) h2 {
+    font-size: 2rem;
+    letter-spacing: 8.5px;
+    text-align: center;
+    margin-top: 20px;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.page:has(.frontCover) h3 {
+	  color: white;
+    margin-top: 10px;
+    text-decoration: underline overline #d1d1d1;
+}
+
+.page:has(.frontCover) h4 {
+   letter-spacing: 10px;
+	 color: white;
+   font-family: "Oswald", sans-serif;
+}
+
+
+.page:has(.frontCover) .footnote {
+    font-size: 1.5rem;
+    margin-top: 30px;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 2px gray;
+    ;
+    text-stroke: 2px gray;
+    text-align: right;
+}
+
+.page li {
+    text-align: left;
+}
+
+.page .footnote {
+    border-top: lightgray dotted 2px;
+    width: 80%;
+    color: gray;
+    bottom: 28px;
+}
+
+.page .footnote>h1 {
+    background-color: transparent;
+    border: none;
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+
+/* Removes Small-Caps in first line */
+.page h1+p:first-line {
+    all: unset;
+}
+
+.page {
+    background-image: var(--background-paper);
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    color: var(--radiation-black);
+    text-transform: uppercase;
+    filter: contrast(85%) brightness(90%);
+}
+
+.page:has(.insideCover) p,
+.page:has(.insideCover) ul {
+    text-align: left;
+}
+
+.page .subheading {
+    columns: 1;
+    column-span: all;
+    -webkit-column-span: all;
+    display: flex;
+    margin-top: -2px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    align-items: stretch;
+    mix-blend-mode: overlay;
+}
+
+.page .subheading p,
+.page .subheading ul,
+.page:has(.insideCover) .subheading p {
+    border: 2px solid var(--industrial-gray);
+    padding: 2px 10px;
+    flex-grow: 1;
+    text-align: right;
+    font-size: 9px;
+    max-width: 400px
+}
+
+.page .subheading ul,
+.page:has(.insideCover) .subheading ul {
+    list-style-position: inside;
+    margin: 0;
+}
+
+
+.page:after,
+.page:has(.insideCover):after,
+.page:nth-child(even)::after {
+    all: unset;
+    content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+    transform-origin: top right;
+    transform: rotate(270deg);
+    white-space: nowrap;
+    position: absolute;
+    right: 1.5cm;
+    top: 0px;
+    text-transform: uppercase;
+    width: 29cm;
+    font-family: 'Special Elite', sans-serif;
+    color: var(--warning-red);
+    mix-blend-mode: multiply;
+}
+
+.page:before {
+    all: unset;
+    content: 'Playtest material—rules and content may change. — Playtest material—rules and content may change. — Playtest material—rules and content may change.';
+    transform-origin: top left;
+    transform: rotate(90deg);
+    white-space: nowrap;
+    position: absolute;
+    left: 1.5cm;
+    top: 0px;
+    text-transform: uppercase;
+    width: 29cm;
+    font-family: 'Special Elite', sans-serif;
+    color: var(--warning-red);
+    mix-blend-mode: multiply;
+}
+
+.page:has(.insideCover) .logo {
+    top: 0.5cm;
+    right: 0;
+    left: 0;
+    filter: drop-shadow(0 0 .075cm black);
+}
+
+.page:has(.insideCover) .logo>img {
+    height: 2cm;
+    width: 1.8cm;
+    opacity: 0.1;
+    filter: none;
+}
+
+.page:has(.insideCover) {
+    background-image: var(--background-paper);
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    color: var(--radiation-black);
+    text-transform: uppercase;
+    filter: contrast(85%) brightness(90%);
+}
+
+.coverpicture {
+    margin-top: 1.5cm;
+    max-width: 15cm;
+    max-height: 15cm;
+    mix-blend-mode: overlay;
+}
+
+.coverpicture>img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.radiationsymbol {
+    margin-top: 1.5cm;
+    max-width: 12cm;
+    max-height: 12cm;
+    mix-blend-mode: multiply;
+}
+
+.radiationsymbol>img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: -14cm;
+}
+
+.page h1,
+.page:has(.insideCover) h1,
+.page:has(.partCover) h1 {
+    font-size: 32px;
+    font-family: 'Special Elite', sans-serif;
+    background: none;
+    background-color: var(--industrial-gray);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    mix-blend-mode: color-burn;
+}
+
+
+.page:has(.insideCover) .footnote,
+.page:has(.partCover) .footnote,
+.block .footnote {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: #2C2C2C;
+    -webkit-text-stroke: 0;
+    text-align: left;
+}
+
+.page h2,
+.page:has(.insideCover) h2,
+.page:has(.partCover) h2 {
+    font-size: 24px;
+    text-align: left;
+    color: var(--industrial-gray);
+    font-family: 'Oswald', sans-serif;
+    padding: 5px;
+    text-align: center;
+    background-color: var(--hazard-yellow);
+    border: 5px solid var(--industrial-gray);
+    margin: 5px;
+    mix-blend-mode: multiply;
+}
+
+.page h3,
+.page:has(.insideCover) h3,
+.page:has(.partCover) h3 {
+    font-size: 25px;
+    color: var(--industrial-gray);
+    font-family: 'Special Elite', sans-serif;
+    margin-top: 15px
+
+}
+
+.page h3 {
+    border: none;
+}
+
+.page h4,
+.page:has(.insideCover) h4,
+.page:has(.partCover) h4 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    color: #8F8F8F;
+}
+
+.page:has(.insideCover) hr,
+.page hr {
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+    width: 80%;
+    height: 1mm;
+    background: none;
+    background-color: var(--industrial-gray);
+    mix-blend-mode: overlay;
+}
+
+.page blockquote {
+    background: rgba(255, 204, 0, 0.2);
+    border-left: 6px solid var(--hazard-yellow);
+    padding: 12px;
+    font-family: 'Special Elite', sans-serif;
+    text-align: justify;
+    font-style: italic;
+}
+
+/* --- Tables: Bureaucratic Report Style --- */
+.page table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.page th {
+    background-color: #D6D6D6;
+    /* Ash Gray */
+    color: #2C2C2C;
+    /* Vault Black */
+    padding: 8px;
+    border-bottom: 3px solid #8F8F8F;
+    /* Stronger Border */
+    text-transform: uppercase;
+}
+
+.page td {
+    background-color: #F8F8F8;
+    /* Paper White */
+    color: #5A5A5A;
+    /* Charcoal Gray */
+    padding: 8px;
+    border-bottom: 1px solid #BFBFBF;
+    /* Soft Grid */
+}
+
+
+.post-it {
+    left: var(--left);
+    top: var(--top);
+    transform: rotate(var(--rotate));
+    max-width: 250px;
+    max-height: 240px;
+    width: 250px;
+    height: 240px;
+    position: relative;
+    background: #ffa;
+    overflow: hidden;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 0 0 0 30px/45px;
+    box-shadow: inset 0 -40px 40px rgba(0, 0, 0, 0.05), inset 0 25px 10px rgba(0, 0, 0, 0.07), 0 5px 6px 5px rgba(0, 0, 0, 0.2);
+    font-family: 'Cedarville Cursive', cursive;
+    line-height: 1.7em;
+    font-size: 19px;
+    -webkit-mask-image: url(data:image/png;
+ base64, iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+    color: #130d6b;
+}
+
+.post-it:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    background: #ffa;
+    box-shadow: 3px -2px 10px rgba(0, 0, 0, 0.2), inset 15px -15px 15px rgba(0, 0, 0, 0.3);
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    transform: skewX(25deg);
+}
+
+.smudge {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/5d4334616f20bd1d1f059f6007892650.png') no-repeat center;
+    background-size: contain;
+
+
+}
+
+.smudge:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 10cm;
+    height: 10cm;
+
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 19%, rgba(255, 255, 255, 0) 52%);
+    background-blend-mode: lighten
+}
+
+
+.coffee-stain {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    filter: blur(1px) contrast(110%);
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/f74119a30ba73c9c5b3a7cc1aa9d7d42.png') no-repeat center;
+    background-size: contain;
+    mix-blend-mode: multiply;
+}
+
+
+.corrected {
+    position: relative;
+    text-decoration: line-through;
+    color: black;
+}
+
+.corrected::after {
+    content: var(--correction, "Default Text");
+    ;
+    font-size: 12px;
+    color: #0F3D75;
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    font-family: 'Cedarville Cursive', cursive;
+
+    -webkit-mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+    mask-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/25beee1b6e86ef67613c17cd20f128ad.png');
+}
+
+
+.paperclip {
+
+    position: absolute;
+    display-block;
+    top: -10px;
+    left: var(--left, 60);
+    width: 50px;
+    height: 150px;
+    transform: rotate(-15deg);
+    /* Slight tilt for realism */
+    opacity: 0.8;
+    /* Slight transparency */
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/421f492b3660fca7d119964aff1f24db.png') no-repeat center;
+    background-size: contain;
+}
+
+.polaroid {
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    width: 10cm;
+    height: 10cm;
+    max-width: 10cm;
+    max-height: 10cm;
+    background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png') no-repeat center;
+    background-size: contain;
+    transform-origin: top left;
+}
+
+.polaroid>p>img {
+    margin-left: 1.26cm;
+    margin-top: 0.74cm;
+    height: 7.4cm;
+    width: 7.5cm;
+    object-fit: cover;
+    mix-blend-mode: screen;
+}
+
+
+.fading {
+    background: linear-gradient(to bottom, black 10%, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.4) 70%, rgba(0, 0, 0, 0.1) 90%, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.page .stamped-text {
+    font-family: 'Special Elite', sans-serif;
+    font-size: 14px;
+    color: var(--radiation-black);
+    padding: 5px;
+    border: 2px solid var(--warning-red);
+    display: inline-block;
+    transform: rotate(-10deg);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin: 10px 0;
+}
+
+.page .block {
+    position: relative;
+}
+
+.page .handwritten {
+    font-family: "Permanent Marker", serif;
+    color: var(--industrial-gray);
+    font-size: 18px;
+    position: absolute;
+    transform: rotate(3deg);
+    mix-blend-mode: multiply;
+    text-shadow:
+        -1px -1px 2px rgba(0, 0, 0, 0.6),
+        2px 2px 5px rgba(255, 100, 0, 0.2);
+    /* Burn glow */
+    filter: blur(0.5px) contrast(95%);
+}
+
+.page .warning-label {
+    display: inline-block;
+    background: var(--warning-red);
+    color: white;
+    padding: 6px 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Special Elite', sans-serif;
+    transform: rotate(8deg);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.page .burn {
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/7a8d9b181eef72191276fb227eb43962.png');
+    width: 7cm;
+    height: 7cm;
+    background-size: contain;
+    background-repeat: no-repeat;
+    mix-blend-mode: hard-light;
+    margin-bottom: -7cm;
+    margin-right: -7cm;
+
+    position: relative;
+    top: -3.5cm;
+    left: -3.5cm;
+
+}
+
+.page .burn+* {
+    margin-top: -5px;
+    ;
+}
+
+.page .radiation-symbol {
+    background: url('/mnt/data/Ashen_Vault_Template_Dreadmere.webp') no-repeat center;
+    background-size: contain;
+    width: 65px;
+    height: 65px;
+    display: inline-block;
+}
+
+.page .redacted {
+    background: black;
+    color: black;
+    padding: 3px 8px;
+    border-radius: 2px;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+
+.page .classified {
+    background-color: var(--warning-red);
+    color: white;
+    padding: 7px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Special Elite', sans-serif;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transform: rotate(-5deg);
+    display: inline-block;
+    margin: 5px;
+}
+
+
+.page .isotope {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page .orbital {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid gray;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page .electron {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    background: blue;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.page .nucleus {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+}
+
+.page .proton {
+    display: flex;
+    background: darkred;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.page .neutron {
+    display: flex;
+    background: gray;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    top: -10px;
+    left: 10px;
+}
+
+.page .neutron+.neutron {
+    top: -38px;
+    left: -10px;
+}
+
+.particle {
+  color: white;
+}
+
+
+
+.page .notation {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    mix-blend-mode: color-burn;
+}
+
+.page .symbol {
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    color: gray;
+    width: 100%;
+}
+
+.page .nuclear {
+    margin-top: 2cm;
+    columns: 1;
+    column-span: all;
+    -webkit-column-span: all;
+    display: flex;
+    filter: brightness(40%);
+    mix-blend-mode: overlay;
+}
+
+.block.polaroid {
+	position: absolute;
+	top: var(--top);
+	left: var(--left);
+	width: 10cm;
+	height: 10cm;
+	max-width: 10cm;
+	max-height: 10cm;
+	background: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/a4708a63a846816291a63e2a580d2ec1.png') no-repeat center;
+	background-size: contain;
+	transform-origin: top left;
+  filter: brightness(80%);
+}
+
+.block.polaroid>p>img {
+	margin-left: 0cm;
+	margin-top: 0.74cm;
+	height: 7.4cm;
+	width: 7.5cm;
+	object-fit: cover;
+	mix-blend-mode: screen;
+}
+
+.page .burn {
+    background-image: url('https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/7a8d9b181eef72191276fb227eb43962.png');
+    width: 20cm;
+    height: 20cm;
+    background-size: contain;
+    background-repeat: no-repeat;
+    mix-blend-mode: luminosity;
+    margin-bottom: -7cm;
+    margin-right: -7cm;
+    z-index: -1;
+    position: absolute;
+	  top: var(--top);
+	  left: var(--left);
+
+}
+
+.page .burn+* {
+    margin-top: -5px;
+}
+```
+
+{{frontCover}}
+{{coverBackground}}
+## Species
+# Dren
+## The Keepers of Ash and Smoke
+
+{{footnote 
+#### A.S.T.R.A.L Genus Research
+}}
+
+\page
+{{insideCover}}
+
+{{radiationsymbol ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/87195c5a148e808487efcf0436e0a4dd.jpeg)}}
+
+{{coverpicture ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/ac1f4055e054c10198cb8ce16cce0301.png)}}
+
+\page
+
+{{insideCover}}
+
+# CONFIDENTIAL  
+## ⚠ D.E.A.D. ⚠  
+## CLASSIFIED DOCUMENT  
+
+{{subheading
+**Background Radiation in Dreadmere:** ~12.7 Sv/year  
+
+**Acute Exposure Lethal Dose (LD50):** ~4-5 Sv in a single dose  
+
+**Maximum Safe Occupational Dose:** 0.05 Sv/year  
+
+**Primary Reactor Core Output:** 850 MW (nominal)  
+
+**Decay Heat Retention:** ~6.5% of full power after shutdown  
+
+}}
+
+___  
+
+
+{{handwritten  
+Check dosimeter levels  
+before proceeding. 
+}}
+:::
+This document is the sole property of the **Dren's Energy Assessment Department (D.E.A.D.)** and is classified under **Protocol R-99**. Unauthorized access, duplication, or distribution is a direct violation of the **Radiation Containment and Exposure Act (R.C.E.A. §44-21)** and will result in immediate countermeasures, up to and including **enforced relocation** to the Outer Perimeter Safety Zone.  
+
+## **NOTICE TO ALL VISITORS**  
+{{subheading
+**Primary Fissile Material:** Enriched U-235 (~4.8%)  
+
+**Neutron Flux in Core Chamber:** ~10¹² neutrons/cm²/sec  
+
+**Spent Fuel Half-Life:** ~24,000 years (Plutonium-239)  
+
+**Emergency Core Cooling Activation Time:** <12 seconds  
+
+}}
+Dreadmere operates under **continuous nuclear exposure conditions**. The entire city is subject to **pervasive radiation fields**, both residual and active. All individuals **not acclimated to the region's unique energy flux** must adhere to the following safety protocols at all times:
+
+- **Radiation Shielding Equipment (RSE)** must be worn at all times within city limits. Approved gear includes **lead-lined suits, ionizing field dampeners, and Aetheric Displacement Layers (ADLs)**.
+- **Dosimeter Badges** are **MANDATORY** and must be calibrated daily at designated checkpoints.
+- **Inhalation of airborne irradiated particles is strictly prohibited**. Only **D.E.A.D.-approved respirators** may be used.
+- **Unshielded exposure exceeding 3 hours requires immediate medical assessment** at a registered Radiation Mitigation Facility (R.M.F.).
+
+## **ACCESS RESTRICTIONS**  
+{{subheading
+**Decontamination Quarantine Period:** Minimum 48 hours  
+
+**Failure Rate of Old Containment Shields:** 2.3% per decade  
+
+}}
+Certain zones within Dreadmere are classified as **Critical Exposure Areas (CEA)**. Unauthorized entry will result in:
+- **Forced quarantine** pending decontamination evaluation.
+- **Confiscation of all non-compliant protective gear**.
+- **Revocation of visitation clearance** and permanent denial of entry.
+
+\page
+
+## **ENERGY HARVEST & CONTAINMENT**  
+Dreadmere’s energy infrastructure is fueled by **reactive decay emissions** from its **subterranean nuclear core**. This energy source is **self-sustaining yet highly volatile**. Any tampering with **containment fields, reactor substations, or energy siphons** will be considered an act of **industrial sabotage** and will be dealt with accordingly.
+
+{{insideCover}}
+
+## **IF YOU EXPERIENCE ANY OF THE FOLLOWING SYMPTOMS, REPORT IMMEDIATELY TO A RADIATION CHECKPOINT:**  
+- **Sudden vision distortion or localized field warping**  
+- **Irregular skin pigmentation (blackened veins, luminous patches, or dermal crystallization)**  
+- **Auditory hallucinations consistent with EM interference**  
+- **Unintended levitation or gravitational anomalies**  
+- **Perception of entities or structures not present in baseline reality**  
+
+If symptoms persist beyond **6 hours**, personnel may be required to undergo **Phase Shift Containment (PSC)** until stabilization is confirmed.
+
+**Failure to comply with D.E.A.D. protocols will result in immediate extraction and reassessment under Directive R-07.**  
+
+{{subheading
+**Background Radiation in Dreadmere:** ~12.7 Sv/year  
+
+**Acute Exposure Lethal Dose (LD50):** ~4-5 Sv in a single dose  
+
+**Maximum Safe Occupational Dose:** 0.05 Sv/year  
+
+{{burn}}
+}}
+
+
+If you are not the intended recipient:  
+1. **Cease all interaction immediately.**  
+2. **Report this breach to D.E.A.D. Oversight Bureau (O.B.)** via secure terminal **[O.B.//DIRECT-LINK-SEC/617-42]**.  
+3. **Await retrieval personnel. Do not attempt to leave the area.**  
+
+**Noncompliance will result in automatic escalation to Level-5 Contingency Response, which includes (but is not limited to):**  
+- **24-hour forced decontamination within a classified radiation sink**.  
+- **Induction into the long-term exposure adaptation program** (success rate: 38%).  
+- **Assignment to the Dreadmere Energy Harvest Division (indefinite contract).**  
+
+{{handwritten
+::
+They still haven't fixed the  
+last retrieval glitch...
+}}
+
+---
+
+{{logo ![](https://wa-cdn.nyc3.cdn.digitaloceanspaces.com/user-data/production/6ea5d061-1dff-454e-83a7-7b83d4546ed4/uploads/images/30ee771c8d82d688542769f4c0834c3d.png)}}
+
+___  
+
+{{nuclear
+  {{isotope
+    {{notation
+      {{orbital
+        {{nucleus
+          {{particle,proton
+  p
+          }}
+        }}
+        {{electron
+  e
+        }}
+      }}
+      {{symbol
+  ¹₁H
+      }}
+    }}
+  }}
+
+
+  {{isotope
+    {{notation
+      {{orbital
+        {{nucleus
+          {{particle,proton
+  p
+          }}
+          {{particle,neutron
+  n
+          }}
+        }}
+        {{electron
+  e
+        }}
+      }}
+      {{symbol
+  ²₁H
+      }}
+    }}
+  }}
+
+
+  {{isotope
+    {{notation
+      {{orbital
+        {{nucleus
+          {{particle,proton
+  p
+          }}
+          {{particle,neutron
+  n
+          }}
+          {{particle,neutron
+  n
+          }}
+        }}
+        {{electron
+  e
+        }}
+      }}
+      {{symbol
+  ³₁H
+      }}
+    }}
+  }}
+}}
+
+\page
+
+# **Dren - The Keepers of Ash and Smoke**
+
+
+{{subheading
+{{subheading
+**Average Radiation Flux in Industrial Zones:** ~5.4 Sv/year  
+
+**Radiation Exposure Limit for Non-Acclimated Personnel:** 0.02 Sv/month  
+
+**Threshold for Neurological Impairment Due to Radiation:** 3.5 Sv+  
+
+**Efficiency Drop in Reactor Output Due to Core Aging:** ~1.2% per year  
+
+**Residual Radiation Emission from Spent Fuel Rods:** ~1.8 mSv/hour  
+
+**Half-Life of Common Reactor Coolant Contaminants:**  
+- Tritium (H-3): ~12.3 years  
+- Cobalt-60: ~5.27 years  
+- Strontium-90: ~28.8 years  
+
+**Primary Reactor Coolant Circulation Rate:** 15,000 liters/min  
+
+**Critical Heat Flux (CHF) for Fuel Rod Meltdown Prevention:** ~2.5 MW/m²  
+
+**Containment Breach Probability in Seismic Events:** 0.08% per unit of magnitude  
+
+**Dose Limit for Emergency Responders (Short-Term):** 0.5 Sv (single incident)  
+
+**Atmospheric Ionization Rate Near Reactor Exhaust:** ~300 ion pairs/cm³/sec  
+
+**Neutron Activation Risk for Unshielded Equipment:** High (1.5 MeV+ exposure)  
+
+**Induced Radioactivity Decay Time for Contaminated Surfaces:** ~35 days (short-lived isotopes)  
+
+**Core Reactivity Drop After Control Rod Deployment:** ~85% within 1.2 sec  
+
+**Thermal Expansion Tolerance of Reactor Pressure Vessel:** ~3.5 cm radial deviation  
+
+**Projected Radiation-Induced Structural Fatigue in Primary Shielding:** ~4.7% degradation per decade  
+
+**Min. Required Thickness for Neutron Absorption Barriers:**  
+- Boron-Carbide Composite: 5 cm  
+- Tungsten-Alloy Plates: 8 cm  
+- High-Density Concrete: 2m  
+
+**Automated Shutdown Sequence Duration:** 3.2 sec (emergency SCRAM)  
+
+**Background Radiation in Abandoned Zones:** ~18.6 Sv/year  
+
+**Latent Radiation Emission from Decommissioned Reactor Sites:** ~0.75 mSv/day  
+
+**Rate of Tritium Absorption in Groundwater Near Reactor Leaks:** ~2.1 Bq/L/year  
+
+}}
+
+}}
+
+
+The **Dren** are an **ancient people**, their history stretching back **millennia** to the highest reaches of the **Ashen Spiral**. They were never exiles, nor were they cast down by the will of some greater force. **They moved downward by choice, walking the edges of entropy itself, adapting, enduring, and never breaking.**  
+
+Now, they make their home in **Dreadmere**, the **City of Ash and Smoke**, where their legacy lives on. Unlike those who fear the Spiral’s touch, the **Dren have mastered survival in places that would consume others**. They are **welcoming, wise, and fiercely resilient**, knowing that **community is the only thing that keeps people from falling into the abyss**.  
+
+The world has **burned, broken, and rebuilt itself countless times**—and still, the **Dren remain**.  
+
+---
+
+{{handwritten
+
+what is happening
+
+}}
+
+## **Dren Traits**  
+Your Dren character has the following racial traits.  
+
+### **Ability Score Increase**  
+- Your **Constitution** score increases by **2**.  
+- Your **Wisdom** score increases by **1**.
+
+### **Age**  
+The **Dren do not age as others do**. Their bodies remain strong for **centuries**, their lifespans stretching well beyond **300 years**. Some believe this is due to their time in the Spiral, while others claim it is simply the will of the Dren **to persist**.  
+
+### **Size**  
+Dren **stand between 5’6” and 6’8”**, their **frames sturdy, weathered, and shaped by the elements**. Their skin **carries the touch of the Spiral**—some appear **soot-stained, others ember-flecked, and some seem to waver like mirages in the heat**. Your size is **Medium**.  
+
+### **Speed**  
+Your base walking speed is **30 feet**.  
+
+### **Darkvision**  
+Your embered eyes grant you **Darkvision up to 60 feet**.  
+
+### **Racial Traits**  
+- **Ashen Endurance.** You have **resistance to fire and necrotic damage**.  
+- **Cinder Veil.** Once per long rest, as a bonus action, you can **turn into smoke until the start of your next turn**, becoming **intangible and immune to non-magical attacks**.  
+- **Smoke-Walker.** You are **immune to inhaled toxins, poisonous gases, and smoke**, making you invaluable in industrial work and hazardous environments.  
+- **Keepers of the Ember.** You have **advantage on death saving throws**, as if **your body refuses to extinguish**.  
+
+\page
+
+## **Where They Fit**  
+- The **Dren are not feared, but respected**—they have **seen the end of things and kept moving forward**.  
+- In **Dreadmere**, they are **elders, laborers, and masters of fire, metal, and survival**.  
+- In **Concord City**, some work as **industrial specialists, fireproof workers, and disaster consultants**, while others serve as **guides to those who fear the Spiral’s pull**.  
+- Some **Dren still wander**, believing that **to be Dren is to walk forever, never stopping, never fading**.  
