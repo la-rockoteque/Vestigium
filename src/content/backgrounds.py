@@ -47,12 +47,12 @@ background_list = [
                     }] if pd.notnull(row.get("Items")) and row.get("Items") else []),
                 ],
             },
-            {
+            *([{
                 "name": row.get("Feature Name"),
                 "type": "entries",
                 "entries": [row.get("Feature")],
                 "data": {"isFeature": True},
-            },
+            }] if pd.notnull(row.get("Feature Name")) else []),
         ],
         **({
             "startingEquipment": [

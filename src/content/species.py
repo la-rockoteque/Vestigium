@@ -68,10 +68,10 @@ def row_to_species(row):
         },
         "entries": [
             f"{row.get('Name')} Traits",
-            {"type": "entries", "name": "Age", "entries": [row.get("Age")]},
-            {"type": "entries", "name": "Size", "entries": [row.get("Size")]},
-            {"type": "entries", "name": "Speed", "entries": [row.get("Speed")]},
-            {"name": "Vision", "entries": [row.get("Vision")], "type": "entries"},
+            {"type": "entries", "name": "Age", "entries": [row.get("Age") if pd.notnull(row.get("Age")) else ""]},
+            {"type": "entries", "name": "Size", "entries": [row.get("Size") if pd.notnull(row.get("Size")) else ""]},
+            {"type": "entries", "name": "Speed", "entries": [row.get("Speed") if pd.notnull(row.get("Speed")) else ""]},
+            {"type": "entries", "name": "Vision", "entries": [row.get("Vision") if pd.notnull(row.get("Vision")) else ""]},
             *(
                 {
                     "name": row.get(f"Trait {index}").split("|")[0],

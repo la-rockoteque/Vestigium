@@ -204,8 +204,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1754052160,
-        "_dateLastModifiedHash": "89f6a666b7",
+        "dateLastModified": 1754054350,
+        "_dateLastModifiedHash": "3f0ec83263",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -4096,7 +4096,7 @@
             "classes": {
                 "fromClassList": [
                     {
-                        "name": "nan",
+                        "name": "Psionic",
                         "source": "VSTGCC"
                     }
                 ]
@@ -4150,7 +4150,7 @@
             "classes": {
                 "fromClassList": [
                     {
-                        "name": "nan",
+                        "name": "Psionic",
                         "source": "VSTGCC"
                     }
                 ]
@@ -8310,7 +8310,7 @@
                 ]
             },
             "entries": [
-                "You place your hand on a willing creature and channel a diagnostic pulse of divinatory energy. For a brief moment, their body becomes transparent to your senses, revealing hidden disruptions or irregularities within.\n\nYou detect the presence of any internal affliction, including:\n- Natural or magical diseases\n- Poisons or chemical imbalances\n- Curses with a biological or physiological component\n- Arcane mutations or lingering experimental side effects\n\nYou immediately learn the type of affliction present (e.g., “necrotic infection,” “alchemical toxin,” or “soul- linked corruption”). You do not learn the exact name or nature of the condition unless you succeed on a DC 13 Intelligence (Medicine or Arcana) check.\n\nCreatures without any detectable affliction feel nothing. Afflicted creatures may feel a brief sting, or other harmless somatic response depending on the nature of their condition."
+                "You place your hand on a willing creature and channel a diagnostic pulse of divinatory energy. For a brief moment, their body becomes transparent to your senses, revealing hidden disruptions or irregularities within.\n\nYou detect the presence of any internal affliction, including:\n- Ntural or magical diseases\n- Poisons or chemical imbalances\n- Curses with a biological or physiological component\n- Arcane mutations or lingering experimental side effects\n\nYou immediately learn the type of affliction present (e.g., “necrotic infection,” “alchemical toxin,” or “soul- linked corruption”). You do not learn the exact name or nature of the condition unless you succeed on a DC 13 Intelligence (Medicine or Arcana) check.\n\nCreatures without any detectable affliction feel nothing. Afflicted creatures may feel a brief sting, or other harmless somatic response depending on the nature of their condition."
             ],
             "components": {
                 "v": false,
@@ -26996,7 +26996,7 @@
             "classes": {
                 "fromClassList": [
                     {
-                        "name": "nan",
+                        "name": "Psionic",
                         "source": "VSTGCC"
                     }
                 ]
@@ -27026,7 +27026,7 @@
             "source": "VestigiumGuidetoConcordCity",
             "name": "Sundersoul",
             "level": 0,
-            "school": NaN,
+            "school": "V",
             "time": [
                 {
                     "number": 1,
@@ -27048,7 +27048,7 @@
             "classes": {
                 "fromClassList": [
                     {
-                        "name": "nan",
+                        "name": "Psionic",
                         "source": "VSTGCC"
                     }
                 ]
@@ -28884,9 +28884,9 @@
             "name": "Polaroid",
             "source": "EverydayGuidetoConcordCity",
             "type": "OTH",
-            "value": NaN,
-            "weight": NaN,
-            "page": NaN
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0
         },
         {
             "name": "Disposable Gloves (Latex)",
@@ -29507,9 +29507,9 @@
             "name": "Fuel Tank",
             "source": "EverydayGuidetoConcordCity",
             "type": "A",
-            "value": NaN,
-            "weight": NaN,
-            "page": NaN,
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
             "entries": [
                 "A pressurized canister of combustible fluid. Used by flamethrowers and industrial incinerators; dangerous and volatile."
             ]
@@ -29589,9 +29589,9 @@
             "name": "9×18mm Makarov",
             "source": "EverydayGuidetoConcordCity",
             "type": "A",
-            "value": NaN,
-            "weight": NaN,
-            "page": NaN,
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
             "entries": [
                 "A slightly lower-pressure cartridge compared to 9mm Parabellum. Common in compact pistols and older military sidearms."
             ]
@@ -29600,9 +29600,9 @@
             "name": ".38 Hollow-Point Cartridge",
             "source": "EverydayGuidetoConcordCity",
             "type": "A",
-            "value": NaN,
-            "weight": NaN,
-            "page": NaN,
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
             "entries": [
                 "A classic revolver round with a concave tip. Expands upon impact to maximize internal damage while reducing overpenetration."
             ]
@@ -50954,11 +50954,11 @@
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
                         "Umbravision\nYour eyes, reflecting the dim glow of the city’s skyline, grant you Umbravision up to 60 feet. You perceive the world in shades of gray, but in the right light, your eyes gleam with an unnatural radiance."
-                    ],
-                    "type": "entries"
+                    ]
                 },
                 {
                     "name": "Poise in Motion",
@@ -50998,7 +50998,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -51087,11 +51087,11 @@
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Synthetic Body",
@@ -51129,7 +51129,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -51219,11 +51219,11 @@
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
                         "You have **Darkvision up to 60 feet**.  "
-                    ],
-                    "type": "entries"
+                    ]
                 },
                 {
                     "name": "Sky Mastery",
@@ -51254,7 +51254,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -51325,29 +51325,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -51357,7 +51357,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -51408,29 +51408,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -51440,7 +51440,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -51482,15 +51482,15 @@
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
                         "Your keen senses grant you **Darkvision up to 60 feet**. "
-                    ],
-                    "type": "entries"
+                    ]
                 },
                 {
                     "name": "Pack Mentality",
@@ -51523,7 +51523,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -51577,11 +51577,11 @@
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Artisan’s Focus",
@@ -51619,7 +51619,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 1.0
+                    "anyStandard": 1
                 }
             ],
             "fluff": {
@@ -51677,22 +51677,22 @@
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -51702,7 +51702,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -51748,11 +51748,11 @@
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
                         "Your unraveling form grants you **Darkvision up to 60 feet**.  "
-                    ],
-                    "type": "entries"
+                    ]
                 },
                 {
                     "name": "Warden’s Presence",
@@ -51804,7 +51804,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 1.0
+                    "anyStandard": 1
                 }
             ],
             "fluff": {
@@ -51869,29 +51869,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -51904,7 +51904,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -51950,11 +51950,11 @@
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
                         "You do not have Darkvision, as humanity’s origins are tied to the daylight, not the dark.  "
-                    ],
-                    "type": "entries"
+                    ]
                 },
                 {
                     "name": "Stonebound Endurance",
@@ -51994,7 +51994,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -52073,29 +52073,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -52105,7 +52105,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 1.0
+                    "anyStandard": 1
                 }
             ],
             "fluff": {
@@ -52151,11 +52151,11 @@
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
                         "Your embered eyes grant you **Darkvision up to 60 feet**.  "
-                    ],
-                    "type": "entries"
+                    ]
                 },
                 {
                     "name": "Ashen Endurance",
@@ -52193,7 +52193,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -52236,29 +52236,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -52268,7 +52268,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 1.0
+                    "anyStandard": 1
                 }
             ],
             "fluff": {
@@ -52296,29 +52296,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -52328,7 +52328,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 0.0
+                    "anyStandard": 0
                 }
             ],
             "fluff": {
@@ -52374,11 +52374,11 @@
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
                         "Your keen senses grant you **Darkvision up to 60 feet**. "
-                    ],
-                    "type": "entries"
+                    ]
                 },
                 {
                     "name": "**Nine Lives",
@@ -52411,7 +52411,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -52447,29 +52447,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -52479,7 +52479,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -52508,29 +52508,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -52540,7 +52540,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -52568,29 +52568,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Unshaken Resolve",
@@ -52623,7 +52623,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 1.0
+                    "anyStandard": 1
                 }
             ],
             "fluff": {
@@ -52694,29 +52694,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -52729,7 +52729,7 @@
             "languageProficiencies": [
                 {
                     "any": 1.0,
-                    "anyStandard": 1.0
+                    "anyStandard": 1
                 }
             ],
             "fluff": {
@@ -52757,29 +52757,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -52789,7 +52789,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 1.0
+                    "anyStandard": 1
                 }
             ],
             "fluff": {
@@ -52825,29 +52825,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -52860,7 +52860,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 1.0
+                    "anyStandard": 1
                 }
             ],
             "fluff": {
@@ -52906,11 +52906,11 @@
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
                         "Your industrial-honed senses grant you **Darkvision** up to **60 feet**. You can see in dim light and darkness **as if it were bright light**, but only in **shades of dull red and gray**.  \n"
-                    ],
-                    "type": "entries"
+                    ]
                 },
                 {
                     "name": "**Toxic Resilience",
@@ -52950,7 +52950,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 1.0
+                    "anyStandard": 1
                 }
             ],
             "fluff": {
@@ -53021,29 +53021,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -53053,7 +53053,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 1.0
+                    "anyStandard": 1
                 }
             ],
             "fluff": {
@@ -53081,29 +53081,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -53116,7 +53116,7 @@
             "languageProficiencies": [
                 {
                     "any": 1.0,
-                    "anyStandard": 3.0
+                    "anyStandard": 3
                 }
             ],
             "fluff": {
@@ -53144,29 +53144,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -53176,7 +53176,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 1.0
+                    "anyStandard": 1
                 }
             ],
             "fluff": {
@@ -53204,29 +53204,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -53236,7 +53236,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -53264,29 +53264,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -53299,7 +53299,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 1.0
+                    "anyStandard": 1
                 }
             ],
             "fluff": {
@@ -53333,29 +53333,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Amphibious",
@@ -53402,7 +53402,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": NaN
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -53467,29 +53467,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -53499,7 +53499,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 1.0
+                    "anyStandard": 1
                 }
             ],
             "fluff": {
@@ -53527,29 +53527,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -53559,7 +53559,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -53587,29 +53587,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -53619,7 +53619,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -53648,29 +53648,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -53683,7 +53683,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -53729,11 +53729,11 @@
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
                         "Your connection to the **Ashen Spiral** grants you **Darkvision up to 60 feet**. You see the world in **shades of deep red and orange**, as if embers still smolder in the shadows.  \n"
-                    ],
-                    "type": "entries"
+                    ]
                 },
                 {
                     "name": "**Flickering Step",
@@ -53767,7 +53767,7 @@
             "languageProficiencies": [
                 {
                     "any": 1.0,
-                    "anyStandard": 1.0
+                    "anyStandard": 1
                 }
             ],
             "fluff": {
@@ -53818,29 +53818,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
                         "Darkvision: 60 ft."
-                    ],
-                    "type": "entries"
+                    ]
                 },
                 {
                     "name": "Nimble Paws",
@@ -53881,7 +53881,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": NaN
+                    "anyStandard": 1
                 }
             ],
             "fluff": {
@@ -53946,29 +53946,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -53980,7 +53980,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -54008,29 +54008,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -54043,7 +54043,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -54072,29 +54072,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -54104,7 +54104,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -54132,29 +54132,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -54164,7 +54164,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 1.0
+                    "anyStandard": 1
                 }
             ],
             "fluff": {
@@ -54192,29 +54192,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -54224,7 +54224,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 1.0
+                    "anyStandard": 1
                 }
             ],
             "fluff": {
@@ -54252,29 +54252,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -54284,7 +54284,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 3.0
+                    "anyStandard": 3
                 }
             ],
             "fluff": {
@@ -54312,29 +54312,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -54344,7 +54344,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 1.0
+                    "anyStandard": 1
                 }
             ],
             "fluff": {
@@ -54372,29 +54372,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -54404,7 +54404,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -54432,29 +54432,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -54464,7 +54464,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 1.0
+                    "anyStandard": 1
                 }
             ],
             "fluff": {
@@ -54492,29 +54492,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -54524,7 +54524,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -54552,29 +54552,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -54584,7 +54584,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 1.0
+                    "anyStandard": 1
                 }
             ],
             "fluff": {
@@ -54612,29 +54612,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -54644,7 +54644,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 1.0
+                    "anyStandard": 1
                 }
             ],
             "fluff": {
@@ -54672,29 +54672,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -54704,7 +54704,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -54732,29 +54732,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -54764,7 +54764,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 1.0
+                    "anyStandard": 1
                 }
             ],
             "fluff": {
@@ -54810,11 +54810,11 @@
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
                         "You can see in dim light within 60 feet\nas if it were bright light, and in\ndarkness as if it were dim light."
-                    ],
-                    "type": "entries"
+                    ]
                 },
                 {
                     "name": "Relentless Endurance",
@@ -54866,7 +54866,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -54937,29 +54937,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -54969,7 +54969,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -55026,29 +55026,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -55058,7 +55058,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -55086,29 +55086,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -55118,7 +55118,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 1.0
+                    "anyStandard": 1
                 }
             ],
             "fluff": {
@@ -55146,29 +55146,29 @@
                     "type": "entries",
                     "name": "Age",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Size",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Speed",
                     "entries": [
-                        NaN
+                        ""
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Vision",
                     "entries": [
-                        NaN
-                    ],
-                    "type": "entries"
+                        ""
+                    ]
                 },
                 {
                     "name": "Languages",
@@ -55178,7 +55178,7 @@
             ],
             "languageProficiencies": [
                 {
-                    "anyStandard": 2.0
+                    "anyStandard": 2
                 }
             ],
             "fluff": {
@@ -55823,16 +55823,6 @@
                     "type": "list",
                     "style": "list-hang-notitle",
                     "items": []
-                },
-                {
-                    "name": NaN,
-                    "type": "entries",
-                    "entries": [
-                        NaN
-                    ],
-                    "data": {
-                        "isFeature": true
-                    }
                 }
             ]
         },
@@ -55844,16 +55834,6 @@
                     "type": "list",
                     "style": "list-hang-notitle",
                     "items": []
-                },
-                {
-                    "name": NaN,
-                    "type": "entries",
-                    "entries": [
-                        NaN
-                    ],
-                    "data": {
-                        "isFeature": true
-                    }
                 }
             ]
         },
@@ -55865,16 +55845,6 @@
                     "type": "list",
                     "style": "list-hang-notitle",
                     "items": []
-                },
-                {
-                    "name": NaN,
-                    "type": "entries",
-                    "entries": [
-                        NaN
-                    ],
-                    "data": {
-                        "isFeature": true
-                    }
                 }
             ]
         },
@@ -55886,16 +55856,6 @@
                     "type": "list",
                     "style": "list-hang-notitle",
                     "items": []
-                },
-                {
-                    "name": NaN,
-                    "type": "entries",
-                    "entries": [
-                        NaN
-                    ],
-                    "data": {
-                        "isFeature": true
-                    }
                 }
             ]
         },
@@ -55907,16 +55867,6 @@
                     "type": "list",
                     "style": "list-hang-notitle",
                     "items": []
-                },
-                {
-                    "name": NaN,
-                    "type": "entries",
-                    "entries": [
-                        NaN
-                    ],
-                    "data": {
-                        "isFeature": true
-                    }
                 }
             ]
         },
@@ -55928,16 +55878,6 @@
                     "type": "list",
                     "style": "list-hang-notitle",
                     "items": []
-                },
-                {
-                    "name": NaN,
-                    "type": "entries",
-                    "entries": [
-                        NaN
-                    ],
-                    "data": {
-                        "isFeature": true
-                    }
                 }
             ]
         },
@@ -55949,16 +55889,6 @@
                     "type": "list",
                     "style": "list-hang-notitle",
                     "items": []
-                },
-                {
-                    "name": NaN,
-                    "type": "entries",
-                    "entries": [
-                        NaN
-                    ],
-                    "data": {
-                        "isFeature": true
-                    }
                 }
             ]
         },
@@ -55970,16 +55900,6 @@
                     "type": "list",
                     "style": "list-hang-notitle",
                     "items": []
-                },
-                {
-                    "name": NaN,
-                    "type": "entries",
-                    "entries": [
-                        NaN
-                    ],
-                    "data": {
-                        "isFeature": true
-                    }
                 }
             ]
         },
@@ -55991,16 +55911,6 @@
                     "type": "list",
                     "style": "list-hang-notitle",
                     "items": []
-                },
-                {
-                    "name": NaN,
-                    "type": "entries",
-                    "entries": [
-                        NaN
-                    ],
-                    "data": {
-                        "isFeature": true
-                    }
                 }
             ]
         },
@@ -56012,16 +55922,6 @@
                     "type": "list",
                     "style": "list-hang-notitle",
                     "items": []
-                },
-                {
-                    "name": NaN,
-                    "type": "entries",
-                    "entries": [
-                        NaN
-                    ],
-                    "data": {
-                        "isFeature": true
-                    }
                 }
             ]
         }
