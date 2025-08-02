@@ -7,7 +7,7 @@ df_disease.head()
 
 def row_to_disease(row):
   return     {
-    "name": row.get("Name").lower(),
+    "name": row.get("Name"),
     "source": json_source,
     "entries": [
       row.get("Symptoms"),

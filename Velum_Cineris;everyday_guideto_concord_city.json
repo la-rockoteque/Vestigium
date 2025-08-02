@@ -204,8 +204,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1754142535,
-        "_dateLastModifiedHash": "a8090cbac5",
+        "dateLastModified": 1754142736,
+        "_dateLastModifiedHash": "2f8d4a4cdc",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -50776,7 +50776,7 @@
     ],
     "disease": [
         {
-            "name": "chirapsis myelitis",
+            "name": "Chirapsis Myelitis",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Tingling and weakness in the extremities, progressing to spasmodic hand movements (“chira” = hand) and partial paralysis. Eyes may show a faint phosphorescent halo under low light.",
@@ -50787,7 +50787,7 @@
             "page": 0
         },
         {
-            "name": "coriovex dermal syndrome",
+            "name": "Coriovex Dermal Syndrome",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Leathery skin plaques, extreme itchiness, and shedding of dermal layers. Advanced stages cause biofluorescence in cracked skin patterns.",
@@ -50798,7 +50798,7 @@
             "page": 0
         },
         {
-            "name": "vestigial bloom (florentis relictum)",
+            "name": "Vestigial Bloom (Florentis Relictum)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Growth of small, bioluminescent fungal nodules along the spinal ridge and hairline; nausea, hallucinations.",
@@ -50809,7 +50809,7 @@
             "page": 0
         },
         {
-            "name": "necraphageic fever (febris necraphaga)",
+            "name": "Necraphageic Fever (Febris Necraphaga)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "High fever, necrotic lesions at extremities, blackened veins visible beneath the skin.",
@@ -50820,7 +50820,7 @@
             "page": 0
         },
         {
-            "name": "oculus hemorrhagicus",
+            "name": "Oculus Hemorrhagicus",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Eyes redden with capillary rupture, vision blurs into crimson hues. Occasional spontaneous bleeding from tear ducts.",
@@ -50831,7 +50831,7 @@
             "page": 0
         },
         {
-            "name": "pulvinar atrophy",
+            "name": "Pulvinar Atrophy",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Muscular wasting, especially in shoulders and thighs; victims complain of “hollowness” in their limbs.",
@@ -50842,7 +50842,7 @@
             "page": 0
         },
         {
-            "name": "lumenic sickness (morbus luminis)",
+            "name": "Lumenic Sickness (Morbus Luminis)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Victim’s skin glows faintly in the dark; extreme photosensitivity develops causing burning pain in sunlight.",
@@ -50853,7 +50853,7 @@
             "page": 0
         },
         {
-            "name": "rascani worms (parasitus rascaniensis)",
+            "name": "Rascani Worms (Parasitus Rascaniensis)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Subcutaneous wriggling sensation, visible under thin skin. Occasional vomiting of small white worms.",
@@ -50864,7 +50864,7 @@
             "page": 0
         },
         {
-            "name": "chronothorax disorder",
+            "name": "Chronothorax Disorder",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Victim experiences time dilation: minutes feel like hours or hours like seconds. Speech slurring and limb delay ensues.",
@@ -50875,7 +50875,7 @@
             "page": 0
         },
         {
-            "name": "aestari veinfire (vasculitis pyrophoricus)",
+            "name": "Aestari Veinfire (Vasculitis Pyrophoricus)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Veins visibly “burn” with a fiery glow; victims experience intense fever, chest pain, and occasional coughing of sparks.",
@@ -50886,7 +50886,7 @@
             "page": 0
         },
         {
-            "name": "spiralis cerebri",
+            "name": "Spiralis Cerebri",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Victims suffer vertigo, slurred speech, and spiraling visual distortions. MRI scans reveal corkscrew-like lesions in brain tissue.",
@@ -50897,7 +50897,7 @@
             "page": 0
         },
         {
-            "name": "cryptothorax myiasis",
+            "name": "Cryptothorax Myiasis",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Tiny, armored larvae burrow into the chest cavity, causing coughing fits and audible chittering sounds from within.",
@@ -50908,7 +50908,7 @@
             "page": 0
         },
         {
-            "name": "thanatoviral syndrome",
+            "name": "Thanatoviral Syndrome",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "A cold pallor and slowed metabolism, mimicking death. Heart rate drops to 10 bpm.",
@@ -50919,7 +50919,7 @@
             "page": 0
         },
         {
-            "name": "auricular bloom",
+            "name": "Auricular Bloom",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Victim hears phantom whispers and develops vibrant fungal growth in the ear canal. Advanced stages emit faint spores during speech.",
@@ -50930,7 +50930,7 @@
             "page": 0
         },
         {
-            "name": "calcivena ossification",
+            "name": "Calcivena Ossification",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Progressive stiffening of joints and arteries as calcium deposits harden tissues. Victim’s movements become jerky and brittle.",
@@ -50941,7 +50941,7 @@
             "page": 0
         },
         {
-            "name": "hematovore infestation",
+            "name": "Hematovore Infestation",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Blood thickens into a sluggish, tar-like consistency as microscopic parasites feed on plasma proteins. Victim suffers fatigue and pale skin.",
@@ -50952,7 +50952,7 @@
             "page": 0
         },
         {
-            "name": "neurolux collapse",
+            "name": "Neurolux Collapse",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Affects neural bio-lumens in Aestari and humans with neural implants, causing memory fragmentation and sporadic seizures.",
@@ -50963,7 +50963,7 @@
             "page": 0
         },
         {
-            "name": "gastrothrix ulceris",
+            "name": "Gastrothrix Ulceris",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Severe abdominal pain, vomiting dark bile, and visible writhing in the stomach under thin skin.",
@@ -50974,7 +50974,7 @@
             "page": 0
         },
         {
-            "name": "sopor mortis (sleepwalker’s rot)",
+            "name": "Sopor Mortis (Sleepwalker’s Rot)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Victim falls into trance-like states, wandering aimlessly at night. Skin becomes clammy and pale.",
@@ -50985,7 +50985,7 @@
             "page": 0
         },
         {
-            "name": "photomorphosis syndrome",
+            "name": "Photomorphosis Syndrome",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Exposure to light causes victims’ skin to sprout photosynthetic fronds, while eyes grow reflective membranes.",
@@ -50996,7 +50996,7 @@
             "page": 0
         },
         {
-            "name": "pyrovex dermatitis",
+            "name": "Pyrovex Dermatitis",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Victim’s sweat becomes flammable, skin emits faint heat waves.",
@@ -51007,7 +51007,7 @@
             "page": 0
         },
         {
-            "name": "vestigial annelidosis",
+            "name": "Vestigial Annelidosis",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Thin wormlike creatures appear in tear ducts and fingernails; nausea and faint tapping sounds in ears.",
@@ -51018,7 +51018,7 @@
             "page": 0
         },
         {
-            "name": "sanguis plasmaticus",
+            "name": "Sanguis Plasmaticus",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Blood loses clotting ability; victim bruises easily, bleeding from gums and nose.",
@@ -51029,7 +51029,7 @@
             "page": 0
         },
         {
-            "name": "neurochoric dissonance",
+            "name": "Neurochoric Dissonance",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Conflicting auditory hallucinations, inability to focus on single conversations, frequent migraines.",
@@ -51040,7 +51040,7 @@
             "page": 0
         },
         {
-            "name": "xenocystic fibrosis",
+            "name": "Xenocystic Fibrosis",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Chest tightness, coughing up translucent fibrous masses; lungs become lined with alien cyst material.",
@@ -51051,7 +51051,7 @@
             "page": 0
         },
         {
-            "name": "aethyric flux disorder",
+            "name": "Aethyric Flux Disorder",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Unpredictable surges of latent anomaly energy cause brief levitation, minor telekinesis, and pain.",
@@ -51062,7 +51062,7 @@
             "page": 0
         },
         {
-            "name": "cryoviral lesions",
+            "name": "Cryoviral Lesions",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Frostbite-like patches forming in warm temperatures; victims exhale chilled mist.",
@@ -51073,7 +51073,7 @@
             "page": 0
         },
         {
-            "name": " pulmonis infestare",
+            "name": " Pulmonis Infestare",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Breathing difficulties, clicking sounds in lungs; advanced cases emit faint bioluminescence from nostrils.",
@@ -51084,7 +51084,7 @@
             "page": 0
         },
         {
-            "name": "viscera myocardia",
+            "name": "Viscera Myocardia",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Heartbeat accelerates beyond safe levels (tachycardia), causing chest pain and muscle spasms.",
@@ -51095,7 +51095,7 @@
             "page": 0
         },
         {
-            "name": "helminthic psychosis",
+            "name": "Helminthic Psychosis",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Victims complain of voices in their heads urging violent acts; post-mortem scans reveal wormlike entities in neural tissue.",
@@ -51106,7 +51106,7 @@
             "page": 0
         },
         {
-            "name": "serica infiltrata (silk vein syndrome)",
+            "name": "Serica Infiltrata (Silk Vein Syndrome)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Victims develop fine web-like growths in subdermal tissues of the groin and inner thighs, glowing faintly under UV light. It causes itching, tingling, and eventually a creeping numbness.",
@@ -51117,7 +51117,7 @@
             "page": 0
         },
         {
-            "name": "verrucis luminis (glow blight)",
+            "name": "Verrucis Luminis (Glow Blight)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Small, bioluminescent pustules appear on genitalia and surrounding skin. Victims complain of burning sensations during urination and intercourse.",
@@ -51128,7 +51128,7 @@
             "page": 0
         },
         {
-            "name": "mycofloridiosis (carnal bloom)",
+            "name": "Mycofloridiosis (Carnal Bloom)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Victims experience an overwhelming floral scent emitted from their pores, coupled with pink fungal filaments sprouting from mucous membranes. Libido increases uncontrollably in early stages.",
@@ -51139,7 +51139,7 @@
             "page": 0
         },
         {
-            "name": " neuroplasm venosa (phantom’s touch)",
+            "name": " Neuroplasm Venosa (Phantom’s Touch)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Victims report hallucinated caresses, phantom sensations, and persistent tingling in erogenous zones. Late stages lead to nerve degeneration and numbness.",
@@ -51150,7 +51150,7 @@
             "page": 0
         },
         {
-            "name": "sanguinaris viralis (red kiss disease)",
+            "name": "Sanguinaris Viralis (Red Kiss Disease)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Transmitted via blood-contact during intimacy. Causes bright crimson discoloration of mucous membranes and low-grade fever. Advanced cases see victims cough small blood clots.",
@@ -51161,7 +51161,7 @@
             "page": 0
         },
         {
-            "name": "plasmocystis intima (slick rot)",
+            "name": "Plasmocystis Intima (Slick Rot)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Sticky, mucosal discharge with a faint iridescence; tissue irritation leads to ulcers on genitalia and inner thighs. Infected individuals emit a faint sweet scent.",
@@ -51172,7 +51172,7 @@
             "page": 0
         },
         {
-            "name": "dreadmere syndrome (radiation exposure from the ashen spiral)",
+            "name": "Dreadmere Syndrome (Radiation exposure from the Ashen Spiral)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Persistent nausea, grey pallor of the skin, hair loss, blackened fingernails. Advanced stages include coughing up soot-like particulates and phosphorescent lesions.",
@@ -51183,7 +51183,7 @@
             "page": 0
         },
         {
-            "name": "umbric descent syndrome (overexposure to the deep unraveling pull of shadow)",
+            "name": "Umbric Descent Syndrome (Overexposure to the deep unraveling pull of shadow)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Eyes darken to full black, voice grows hollow. Patients report being stalked by “the echo of themselves.” Emotional flatness and memory loss.",
@@ -51194,7 +51194,7 @@
             "page": 0
         },
         {
-            "name": "luminic psychosis (overexposure in the pull of light)",
+            "name": "Luminic Psychosis (Overexposure in the pull of light)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Euphoric mania, uncontrollable tears of liquid light, skin blistering under intense glow. Later, screaming episodes and light hallucinations.",
@@ -51205,7 +51205,7 @@
             "page": 0
         },
         {
-            "name": "ambition’s ruin syndrome (unprepared voyage to the “throne of ambitions” plane)",
+            "name": "Ambition’s Ruin Syndrome (Unprepared voyage to the “Throne of Ambitions” plane)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Swollen amygdala observed in scans, obsessive thoughts, insomnia, “phantom limbs” of imagined bodies. Victims become obsessed with ascension.",
@@ -51216,7 +51216,7 @@
             "page": 0
         },
         {
-            "name": "umbranaut asphyxia (exposure to mortal plane air for umbranauts)",
+            "name": "Umbranaut Asphyxia (Exposure to mortal plane air for Umbranauts)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Lungs develop dark lesions, skin cracks and weeps tar-like fluid. Victims lose their shadow temporarily.",
@@ -51227,7 +51227,7 @@
             "page": 0
         },
         {
-            "name": "veil breath sickness (exposure to veil’s air for most species)",
+            "name": "Veil Breath Sickness (Exposure to veil’s air for most species)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Hallucinatory déjà vu, dizziness, bleeding gums. Cells show erratic mitosis under microscopy.",
@@ -51238,7 +51238,7 @@
             "page": 0
         },
         {
-            "name": "lithic fever",
+            "name": "Lithic Fever",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Skin hardens into brittle stone-like patches, fever spikes to 105°F, joints lock. Victims may shed flakes resembling rock dust.",
@@ -51249,7 +51249,7 @@
             "page": 0
         },
         {
-            "name": "fracture pulse syndrome (exposure to destabilized spaces)",
+            "name": "Fracture Pulse Syndrome (Exposure to destabilized spaces)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Vertigo, nausea, perception of space as “folding and snapping.” Objects appear closer/farther unpredictably.",
@@ -51260,7 +51260,7 @@
             "page": 0
         },
         {
-            "name": "temporal loops syndrome (exposure to looping events)",
+            "name": "Temporal Loops Syndrome (Exposure to looping events)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Confusion about sequence of events, bleeding from nose/ears, skin bruises “reset” each loop.",
@@ -51271,7 +51271,7 @@
             "page": 0
         },
         {
-            "name": "atlas fatigue syndrome (depression from prolonged work in atlas labs)",
+            "name": "Atlas Fatigue Syndrome (Depression from prolonged work in ATLAS labs)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Insomnia, weight loss, irritability, feeling of “being watched.” Victims describe an urge to stay underground.",
@@ -51282,7 +51282,7 @@
             "page": 0
         },
         {
-            "name": "rascan itchfoot (pedis rascanis)",
+            "name": "Rascan Itchfoot (Pedis Rascanis)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Mild itching and tingling between toes, worsens after exposure to Rascan fungal carpets.",
@@ -51293,7 +51293,7 @@
             "page": 0
         },
         {
-            "name": "embarrassalis (aestari blushing disorder)",
+            "name": "Embarrassalis (Aestari blushing disorder)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Irregular patches of glowing blush on face, neck, and hands when nervous.",
@@ -51304,7 +51304,7 @@
             "page": 0
         },
         {
-            "name": "flatulentus minor (microbe imbalance)",
+            "name": "Flatulentus Minor (Microbe imbalance)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Excessive gas production, amplified in zero-gravity environments.",
@@ -51315,7 +51315,7 @@
             "page": 0
         },
         {
-            "name": "lab tan (atlas underground syndrome)",
+            "name": "Lab Tan (ATLAS Underground Syndrome)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Pale complexion with strange, uneven tanning from lab lights. Often leaves bizarre patterns resembling lab goggles or gloves.",
@@ -51326,7 +51326,7 @@
             "page": 0
         },
         {
-            "name": "slimeskin (dermatis mucosa)",
+            "name": "Slimeskin (Dermatis Mucosa)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Thin, harmless mucous layer forms on skin after exposure to Delvani ocean mists. Victims report feeling “slippery.”",
@@ -51337,7 +51337,7 @@
             "page": 0
         },
         {
-            "name": "temporal jet lag (chronolag)",
+            "name": "Temporal Jet Lag (Chronolag)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Mild headaches, confusion about time of day, hunger at odd intervals. Common after short visits to planes with different temporal flow.",
@@ -51348,7 +51348,7 @@
             "page": 0
         },
         {
-            "name": "sweatshine syndrome (glandula luminis)",
+            "name": "Sweatshine Syndrome (Glandula Luminis)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Sweat glands excrete faintly bioluminescent fluid under stress, creating a glowing sheen on skin.",
@@ -51359,7 +51359,7 @@
             "page": 0
         },
         {
-            "name": "veil pollen rhinitis (common veil allergy)",
+            "name": "Veil Pollen Rhinitis (Common veil allergy)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Sneezing fits, watery eyes, slight glow in nasal discharge.",
@@ -51370,7 +51370,7 @@
             "page": 0
         },
         {
-            "name": "feather flu (mild mutation syndrome)",
+            "name": "Feather Flu (Mild mutation syndrome)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Tiny, soft feather-like growths appear randomly on skin after exposure to the Throne of Ambitions.",
@@ -51381,7 +51381,7 @@
             "page": 0
         },
         {
-            "name": "saline tongue (glossitis salina)",
+            "name": "Saline Tongue (Glossitis Salina)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Slightly salty taste in mouth, mild swelling of the tongue after Delvani sea air exposure.",
@@ -51392,7 +51392,7 @@
             "page": 0
         },
         {
-            "name": "giggle fits (risuvirus)",
+            "name": "Giggle Fits (Risuvirus)",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "Uncontrollable giggling at inappropriate times, common in Rascan urban areas during spring.",
@@ -51403,7 +51403,7 @@
             "page": 0
         },
         {
-            "name": "phantom glow",
+            "name": "Phantom Glow",
             "source": "EverydayGuidetoConcordCity",
             "entries": [
                 "A faint flickering halo around the head at night, caused by anomaly energy residue.",
@@ -51924,7 +51924,7 @@
     ],
     "deity": [
         {
-            "name": "omnis",
+            "name": "Omnis",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Skull Constellation",
@@ -51935,6 +51935,9 @@
             "alignment": [
                 "N"
             ],
+            "altNames": [
+                "Conscious Universe"
+            ],
             "customProperties": {
                 "Plane": "The Infinite Loom",
                 "Followers": " ",
@@ -51944,7 +51947,7 @@
             }
         },
         {
-            "name": "véa",
+            "name": "Véa",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Crucifix",
@@ -51964,7 +51967,7 @@
             }
         },
         {
-            "name": "bhaz’qorith",
+            "name": "Bhaz’qorith",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Gaping Mouth",
@@ -51984,7 +51987,7 @@
             }
         },
         {
-            "name": "gaïa",
+            "name": "Gaïa",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Rooted Tree",
@@ -52004,7 +52007,7 @@
             }
         },
         {
-            "name": "terra",
+            "name": "Terra",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Multibranched Tree",
@@ -52024,7 +52027,7 @@
             }
         },
         {
-            "name": "damarus",
+            "name": "Damarus",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Fangs",
@@ -52044,7 +52047,7 @@
             }
         },
         {
-            "name": "morokei",
+            "name": "Morokei",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Hand Lines",
@@ -52064,7 +52067,7 @@
             }
         },
         {
-            "name": "huruma",
+            "name": "Huruma",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Six-Armed Naked Doll",
@@ -52084,7 +52087,7 @@
             }
         },
         {
-            "name": "vizira",
+            "name": "Vizira",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "The Veiled Eye",
@@ -52104,7 +52107,7 @@
             }
         },
         {
-            "name": "zars",
+            "name": "Zars",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "The Laurel-Crowned Helm",
@@ -52124,7 +52127,7 @@
             }
         },
         {
-            "name": "agramon",
+            "name": "Agramon",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "The Gladiator’s Helm",
@@ -52144,7 +52147,7 @@
             }
         },
         {
-            "name": "okoma",
+            "name": "Okoma",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "The Dissected Body",
@@ -52164,7 +52167,7 @@
             }
         },
         {
-            "name": "willebrand",
+            "name": "Willebrand",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "The Six-Fingered Hand",
@@ -52184,7 +52187,7 @@
             }
         },
         {
-            "name": "tybula",
+            "name": "Tybula",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "The Sun Atop the Pyramid",
@@ -52204,7 +52207,7 @@
             }
         },
         {
-            "name": "zebulon",
+            "name": "Zebulon",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "The Inverted Pyramid on a Five-Branched Star",
@@ -52224,7 +52227,7 @@
             }
         },
         {
-            "name": "callista",
+            "name": "Callista",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "The Chalice",
@@ -52244,7 +52247,7 @@
             }
         },
         {
-            "name": "roma",
+            "name": "Roma",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Dual Theater Masks",
@@ -52264,7 +52267,7 @@
             }
         },
         {
-            "name": "ophelia",
+            "name": "Ophelia",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Three-String Harp",
@@ -52275,6 +52278,9 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Goddess of Music"
+            ],
             "customProperties": {
                 "Plane": "The Throne of Ambitions",
                 "Followers": "",
@@ -52284,7 +52290,7 @@
             }
         },
         {
-            "name": "the ordinator",
+            "name": "The Ordinator",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Triskelion",
@@ -52295,6 +52301,11 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Governor of Logics",
+                "The Absolute",
+                "Simetricus"
+            ],
             "customProperties": {
                 "Plane": "The Realm of Absolutism",
                 "Followers": "",
@@ -52304,7 +52315,7 @@
             }
         },
         {
-            "name": "quilin",
+            "name": "Quilin",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Peacock Feather",
@@ -52315,6 +52326,10 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Administrator of the Sanctum",
+                "Tesseral Archon"
+            ],
             "customProperties": {
                 "Plane": "The Tesseral Leys",
                 "Followers": "",
@@ -52324,7 +52339,7 @@
             }
         },
         {
-            "name": "gaberal",
+            "name": "Gaberal",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Ouroboros",
@@ -52335,6 +52350,10 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "God-That-Could-Die",
+                "The Frail God"
+            ],
             "customProperties": {
                 "Plane": "The Murmuring Depths",
                 "Followers": "",
@@ -52344,7 +52363,7 @@
             }
         },
         {
-            "name": "luthgarde",
+            "name": "Luthgarde",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Ten-Branched Antlers",
@@ -52355,6 +52374,9 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Protectress of the Woods,"
+            ],
             "customProperties": {
                 "Plane": "The Verdant Cradle",
                 "Followers": "",
@@ -52364,7 +52386,7 @@
             }
         },
         {
-            "name": "sarruinn",
+            "name": "Sarruinn",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Three Golden Coins",
@@ -52375,6 +52397,11 @@
             "alignment": [
                 "C"
             ],
+            "altNames": [
+                "God of Greed",
+                "Mordinfather",
+                "The Covetous Maw "
+            ],
             "customProperties": {
                 "Plane": "The Domain of Torment",
                 "Followers": "",
@@ -52384,7 +52411,7 @@
             }
         },
         {
-            "name": "vertugadin",
+            "name": "Vertugadin",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Opened Eye",
@@ -52395,6 +52422,9 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Truth Speaker"
+            ],
             "customProperties": {
                 "Plane": "Gaïa",
                 "Followers": "",
@@ -52404,7 +52434,7 @@
             }
         },
         {
-            "name": "verdugo",
+            "name": "Verdugo",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Blind Eye",
@@ -52415,6 +52445,9 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Patron of Lies"
+            ],
             "customProperties": {
                 "Plane": "Gaïa",
                 "Followers": "",
@@ -52424,7 +52457,7 @@
             }
         },
         {
-            "name": "gate of truth",
+            "name": "Gate of Truth",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "A Portal",
@@ -52435,6 +52468,15 @@
             "alignment": [
                 "N"
             ],
+            "altNames": [
+                "Omniscience",
+                "Gizy ao zrfzm",
+                "Sal si hwiack",
+                "Git shaf trratsh",
+                "Gaave ro avruavh",
+                "Videnn de' aster",
+                "Edhekal eron nakhum"
+            ],
             "customProperties": {
                 "Plane": "The Blinding Ends",
                 "Followers": "",
@@ -52444,7 +52486,7 @@
             }
         },
         {
-            "name": "ratheithiae",
+            "name": "Ratheithiae",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Flaming Planet",
@@ -52455,6 +52497,9 @@
             "alignment": [
                 "C"
             ],
+            "altNames": [
+                "Primal Sun"
+            ],
             "customProperties": {
                 "Plane": "The Verdant Cradle",
                 "Followers": "",
@@ -52464,7 +52509,7 @@
             }
         },
         {
-            "name": "the ocato",
+            "name": "The Ocato",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Flame",
@@ -52475,6 +52520,9 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "God of the Flame"
+            ],
             "customProperties": {
                 "Plane": "Gaïa",
                 "Followers": "",
@@ -52484,7 +52532,7 @@
             }
         },
         {
-            "name": "the malocato",
+            "name": "The Malocato",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Flame Within Flame",
@@ -52495,6 +52543,9 @@
             "alignment": [
                 "N"
             ],
+            "altNames": [
+                "Messiah of the Flame"
+            ],
             "customProperties": {
                 "Plane": "Gaïa",
                 "Followers": "",
@@ -52504,7 +52555,7 @@
             }
         },
         {
-            "name": "daranthes",
+            "name": "Daranthes",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "",
@@ -52515,6 +52566,10 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "The Trickster",
+                "The Traiterous"
+            ],
             "customProperties": {
                 "Plane": "The Murmuring Depths",
                 "Followers": "",
@@ -52524,7 +52579,7 @@
             }
         },
         {
-            "name": "cassian",
+            "name": "Cassian",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "A triangle, in a square, in a circle",
@@ -52535,6 +52590,9 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "First Reaper"
+            ],
             "customProperties": {
                 "Plane": "The Infinite Loom",
                 "Followers": "",
@@ -52544,7 +52602,7 @@
             }
         },
         {
-            "name": "lazaro",
+            "name": "Lazaro",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "A square, in a circle, in a triangle",
@@ -52555,6 +52613,9 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Third Reaper"
+            ],
             "customProperties": {
                 "Plane": "The Infinite Loom",
                 "Followers": "",
@@ -52564,7 +52625,7 @@
             }
         },
         {
-            "name": "corvin",
+            "name": "Corvin",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "A circle, in a triangle, in a square",
@@ -52575,6 +52636,9 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Second Reaper"
+            ],
             "customProperties": {
                 "Plane": "The Infinite Loom",
                 "Followers": "",
@@ -52584,7 +52648,7 @@
             }
         },
         {
-            "name": "yagnar",
+            "name": "Yagnar",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "???",
@@ -52595,6 +52659,9 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Divine Champion of the Orcs"
+            ],
             "customProperties": {
                 "Plane": "Gaïa",
                 "Followers": "",
@@ -52604,7 +52671,7 @@
             }
         },
         {
-            "name": "quirmizi",
+            "name": "Quirmizi",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "???",
@@ -52615,6 +52682,9 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "God of Orcs"
+            ],
             "customProperties": {
                 "Plane": "The Unwaking Plains",
                 "Followers": "",
@@ -52624,7 +52694,7 @@
             }
         },
         {
-            "name": "dun",
+            "name": "Dun",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Warhammer",
@@ -52635,6 +52705,9 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "First Titan"
+            ],
             "customProperties": {
                 "Plane": "The Domain of Torment",
                 "Followers": "",
@@ -52644,7 +52717,7 @@
             }
         },
         {
-            "name": "dunavald",
+            "name": "Dunavald",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Double Hammer",
@@ -52655,6 +52728,9 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Primordial Titan"
+            ],
             "customProperties": {
                 "Plane": "The Mortal Realm",
                 "Followers": "",
@@ -52664,7 +52740,7 @@
             }
         },
         {
-            "name": "dunhark",
+            "name": "Dunhark",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Double Blade",
@@ -52675,6 +52751,9 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Primordial Titan"
+            ],
             "customProperties": {
                 "Plane": "The Mortal Realm",
                 "Followers": "",
@@ -52684,7 +52763,7 @@
             }
         },
         {
-            "name": "dravemir",
+            "name": "Dravemir",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Shield and Hammer",
@@ -52695,6 +52774,9 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Hero of the Dwarf"
+            ],
             "customProperties": {
                 "Plane": "The Lithic Bastion",
                 "Followers": "",
@@ -52704,7 +52786,7 @@
             }
         },
         {
-            "name": "druquenein",
+            "name": "Druquenein",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Hammer in Skull",
@@ -52715,6 +52797,9 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Harbinger of the Dwarves"
+            ],
             "customProperties": {
                 "Plane": "The Lithic Bastion",
                 "Followers": "",
@@ -52724,7 +52809,7 @@
             }
         },
         {
-            "name": "quinglong",
+            "name": "Quinglong",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Owl",
@@ -52735,6 +52820,10 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "God of all Dragons",
+                "Supreme Dragon"
+            ],
             "customProperties": {
                 "Plane": "The Murmuring Depths",
                 "Followers": "",
@@ -52744,7 +52833,7 @@
             }
         },
         {
-            "name": "voskalel",
+            "name": "Voskalel",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Wyvern",
@@ -52755,6 +52844,10 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Golden Wyvern",
+                "Wigned Gold"
+            ],
             "customProperties": {
                 "Plane": "The Unwaking Plains",
                 "Followers": "",
@@ -52764,7 +52857,7 @@
             }
         },
         {
-            "name": "ova",
+            "name": "Ova",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Wyrm",
@@ -52775,6 +52868,9 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Wish Granter"
+            ],
             "customProperties": {
                 "Plane": "The Unwaking Plains",
                 "Followers": "",
@@ -52784,7 +52880,7 @@
             }
         },
         {
-            "name": "varec",
+            "name": "Varec",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Composite Bow",
@@ -52795,6 +52891,9 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Hunter of Demons"
+            ],
             "customProperties": {
                 "Plane": "The Domain of Torment",
                 "Followers": "",
@@ -52804,7 +52903,7 @@
             }
         },
         {
-            "name": "the voidress",
+            "name": "The Voidress",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Whirlwind",
@@ -52815,6 +52914,11 @@
             "alignment": [
                 "N"
             ],
+            "altNames": [
+                "Queen of Nothing",
+                "The Derelict",
+                "The Forgotten Lover"
+            ],
             "customProperties": {
                 "Plane": "The Void",
                 "Followers": "",
@@ -52824,7 +52928,7 @@
             }
         },
         {
-            "name": "quercus",
+            "name": "Quercus",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Skull With no Eyesocket",
@@ -52835,6 +52939,11 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Patron of Murders",
+                "Saint-Quercus",
+                "The Patriarch"
+            ],
             "customProperties": {
                 "Plane": "The Domain of Torment",
                 "Followers": "",
@@ -52844,7 +52953,7 @@
             }
         },
         {
-            "name": "dunemedall",
+            "name": "Dunemedall",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Prison Bars",
@@ -52855,6 +52964,10 @@
             "alignment": [
                 "N"
             ],
+            "altNames": [
+                "Warden of All Prison",
+                "Bane of the Oppressor"
+            ],
             "customProperties": {
                 "Plane": "The Unwaking Plains",
                 "Followers": "",
@@ -52864,7 +52977,7 @@
             }
         },
         {
-            "name": "artume",
+            "name": "Artume",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Hay",
@@ -52875,6 +52988,10 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Goddess of the Elven",
+                "The Cunning Fox"
+            ],
             "customProperties": {
                 "Plane": "The Verdant Cradle",
                 "Followers": "",
@@ -52884,7 +53001,7 @@
             }
         },
         {
-            "name": "nòm istam",
+            "name": "Nòm istam",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Blinding Light",
@@ -52895,6 +53012,11 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "The First Light",
+                "The Blinding One",
+                "Prima Lumin"
+            ],
             "customProperties": {
                 "Plane": "The Blinding Ends",
                 "Followers": "",
@@ -52904,7 +53026,7 @@
             }
         },
         {
-            "name": "yelna of the light",
+            "name": "Yelna of the Light",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Wand of Light",
@@ -52915,6 +53037,12 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "The First of the Light",
+                "The Lightbearer",
+                "The Ancestor",
+                "The Aesterdawn"
+            ],
             "customProperties": {
                 "Plane": "The Kindling Plains",
                 "Followers": "",
@@ -52924,7 +53052,7 @@
             }
         },
         {
-            "name": "ragna of the light",
+            "name": "Ragna of the Light",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "",
@@ -52935,6 +53063,10 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "The Second of the Light",
+                "The Martyr of Light"
+            ],
             "customProperties": {
                 "Plane": "The Kindling Plains",
                 "Followers": "",
@@ -52944,7 +53076,7 @@
             }
         },
         {
-            "name": "rakadishna",
+            "name": "Rakadishna",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Sun",
@@ -52955,6 +53087,10 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Goddess of Agriculture",
+                "The Fertile Princess"
+            ],
             "customProperties": {
                 "Plane": "The Verdant Cradle",
                 "Followers": "",
@@ -52964,7 +53100,7 @@
             }
         },
         {
-            "name": "tiqyzeus",
+            "name": "Tiqyzeus",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Hammer and Anvil",
@@ -52975,6 +53111,12 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "God of Blacksmiths",
+                "God of Artisan",
+                "The Creator",
+                "The One that Echoes in the Distance"
+            ],
             "customProperties": {
                 "Plane": "The Lithic Bastion",
                 "Followers": "",
@@ -52984,7 +53126,7 @@
             }
         },
         {
-            "name": "jasandoril",
+            "name": "Jasandoril",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Elephant Face",
@@ -52995,6 +53137,11 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "God in a Bottle",
+                "The Weak",
+                "The Wishbearer"
+            ],
             "customProperties": {
                 "Plane": "Terra",
                 "Followers": "",
@@ -53004,7 +53151,7 @@
             }
         },
         {
-            "name": "caprico",
+            "name": "Caprico",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Billy Goat Head",
@@ -53015,6 +53162,10 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Guardian of Times",
+                "Ram of While"
+            ],
             "customProperties": {
                 "Plane": "The Veil",
                 "Followers": "",
@@ -53024,7 +53175,7 @@
             }
         },
         {
-            "name": "the keywright",
+            "name": "The Keywright",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Bunch of Keys",
@@ -53035,6 +53186,10 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Lord of Keys",
+                "The Master of Doors"
+            ],
             "customProperties": {
                 "Plane": "The Veil",
                 "Followers": "",
@@ -53044,7 +53199,7 @@
             }
         },
         {
-            "name": "morena",
+            "name": "Morena",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Scythe",
@@ -53055,6 +53210,10 @@
             "alignment": [
                 "N"
             ],
+            "altNames": [
+                "Whisperer of Death",
+                "Deadfather"
+            ],
             "customProperties": {
                 "Plane": "Morena's Realm ",
                 "Followers": "",
@@ -53064,7 +53223,7 @@
             }
         },
         {
-            "name": "erebus",
+            "name": "Erebus",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Black",
@@ -53075,6 +53234,10 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "The Darkness",
+                "Ruler of the Unraveling"
+            ],
             "customProperties": {
                 "Plane": "The Unraveling Ends",
                 "Followers": "",
@@ -53084,7 +53247,7 @@
             }
         },
         {
-            "name": "alcmeon",
+            "name": "Alcmeon",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Boat",
@@ -53095,6 +53258,11 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Veilen Vagrant",
+                "The Captain of the Veil",
+                "The Vagabond"
+            ],
             "customProperties": {
                 "Plane": "The Veil",
                 "Followers": "",
@@ -53104,7 +53272,7 @@
             }
         },
         {
-            "name": "canuk",
+            "name": "Canuk",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Book",
@@ -53115,6 +53283,10 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "The Librarian",
+                "The Cornuto"
+            ],
             "customProperties": {
                 "Plane": "Everbright",
                 "Followers": "",
@@ -53124,7 +53296,7 @@
             }
         },
         {
-            "name": "liod",
+            "name": "Liod",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Snowflake",
@@ -53135,6 +53307,10 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Patron of Winter",
+                "The Cold Embrace"
+            ],
             "customProperties": {
                 "Plane": "The Lithic Bastion",
                 "Followers": "",
@@ -53144,7 +53320,7 @@
             }
         },
         {
-            "name": "hase",
+            "name": "Hase",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Wings",
@@ -53155,6 +53331,11 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Queen of the Sky",
+                "Flight Maiden",
+                "The Skyborn"
+            ],
             "customProperties": {
                 "Plane": "Terra",
                 "Followers": "",
@@ -53164,7 +53345,7 @@
             }
         },
         {
-            "name": "nerion",
+            "name": "Nerion",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Intertwined Snake",
@@ -53175,6 +53356,10 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Master of Sea and Storms",
+                "Guardian of the Seas"
+            ],
             "customProperties": {
                 "Plane": "Terra",
                 "Followers": "",
@@ -53184,7 +53369,7 @@
             }
         },
         {
-            "name": "scaphandria",
+            "name": "Scaphandria",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Scaphander",
@@ -53195,6 +53380,9 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "God of the Deep"
+            ],
             "customProperties": {
                 "Plane": "The Lithic Bastion",
                 "Followers": "",
@@ -53204,7 +53392,7 @@
             }
         },
         {
-            "name": "malkuth",
+            "name": "Malkuth",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Planet in a Globe",
@@ -53215,6 +53403,11 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Patroller of Comsos",
+                "The Voyager",
+                "The Vagrant God"
+            ],
             "customProperties": {
                 "Plane": "The Veil",
                 "Followers": "",
@@ -53224,7 +53417,7 @@
             }
         },
         {
-            "name": "unmada",
+            "name": "Unmada",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Butterfly",
@@ -53235,6 +53428,10 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "The Mad God",
+                "The Unhinged"
+            ],
             "customProperties": {
                 "Plane": "The Domain of Torment",
                 "Followers": "",
@@ -53244,7 +53441,7 @@
             }
         },
         {
-            "name": "somnio",
+            "name": "Somnio",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Blurried Face",
@@ -53255,6 +53452,9 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Deity of Dreams"
+            ],
             "customProperties": {
                 "Plane": "The Dreamscape",
                 "Followers": "",
@@ -53264,7 +53464,7 @@
             }
         },
         {
-            "name": "ole lokoje",
+            "name": "Ole Lokoje",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Magnifier Between Brackets",
@@ -53275,6 +53475,9 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "King of Dunes"
+            ],
             "customProperties": {
                 "Plane": "The Dreamscape",
                 "Followers": "",
@@ -53284,7 +53487,7 @@
             }
         },
         {
-            "name": "ezhoxorh",
+            "name": "Ezhoxorh",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Milletipede",
@@ -53295,6 +53498,9 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "God of Plagues"
+            ],
             "customProperties": {
                 "Plane": "The Withered Womb",
                 "Followers": "",
@@ -53304,7 +53510,7 @@
             }
         },
         {
-            "name": "zerecilda",
+            "name": "Zerecilda",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "Centipede",
@@ -53315,6 +53521,9 @@
             "alignment": [
                 "L"
             ],
+            "altNames": [
+                "Goddess of the Swarm"
+            ],
             "customProperties": {
                 "Plane": "The Withered Womb",
                 "Followers": "",
@@ -53324,7 +53533,7 @@
             }
         },
         {
-            "name": "azromar",
+            "name": "Azromar",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "A gem-encrusted hammer buried halfway in bedrock",
@@ -53335,6 +53544,10 @@
             "alignment": [
                 "N"
             ],
+            "altNames": [
+                "The Deep Crown",
+                "Lord of the Unyielding Heart"
+            ],
             "customProperties": {
                 "Plane": "The Lithic Bastion",
                 "Followers": "Dwarven architects, stone-carving ascetics, gemcutters who hear “the song beneath the stone.",
@@ -53344,7 +53557,7 @@
             }
         },
         {
-            "name": "sepsurion",
+            "name": "Sepsurion",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "A cracked seed overrun by mushroom growth, encircled by buzzing flies",
@@ -53355,6 +53568,12 @@
             "alignment": [
                 "N"
             ],
+            "altNames": [
+                "The Blightfather",
+                "He Who Feeds in Silence",
+                "The Rot That Remains",
+                "The Pale Bloom"
+            ],
             "customProperties": {
                 "Plane": "The Withered Womb",
                 "Followers": "Hermitic druids who believe in the sanctity of rot, Poisoners and plague-bearers who call it “the sacred cycle”, Forgotten caretakers of mass graves and bog tombs, Cults that preserve rather than embalm, letting noble flesh return to soil",
@@ -53364,7 +53583,7 @@
             }
         },
         {
-            "name": "the legislator",
+            "name": "The Legislator",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "",
@@ -53375,6 +53594,9 @@
             "alignment": [
                 "N"
             ],
+            "altNames": [
+                "Ruler of Benevolence"
+            ],
             "customProperties": {
                 "Plane": "The Infinite Loom",
                 "Followers": "",
@@ -53384,7 +53606,7 @@
             }
         },
         {
-            "name": "the justificator",
+            "name": "The Justificator",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "",
@@ -53395,6 +53617,9 @@
             "alignment": [
                 "N"
             ],
+            "altNames": [
+                "Ruler of Malevolence"
+            ],
             "customProperties": {
                 "Plane": "The Infinite Loom",
                 "Followers": "",
@@ -53404,7 +53629,7 @@
             }
         },
         {
-            "name": "the weaver",
+            "name": "The Weaver",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "",
@@ -53415,6 +53640,9 @@
             "alignment": [
                 "N"
             ],
+            "altNames": [
+                "Weaver of Reality"
+            ],
             "customProperties": {
                 "Plane": "The Infinite Loom",
                 "Followers": "",
@@ -53424,7 +53652,7 @@
             }
         },
         {
-            "name": "the architect",
+            "name": "The Architect",
             "source": "EverydayGuidetoConcordCity",
             "pantheon": "None",
             "symbol": "",
@@ -53434,6 +53662,9 @@
             "page": 0,
             "alignment": [
                 "N"
+            ],
+            "altNames": [
+                "Pillar of Existence"
             ],
             "customProperties": {
                 "Plane": "The Infinite Loom",
