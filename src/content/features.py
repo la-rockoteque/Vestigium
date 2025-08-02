@@ -82,7 +82,7 @@ def row_to_features(row):
         and str(entry_row.get("Class")).strip() == classes
     ]
     entries = [
-        *([entry] if not pd.isnull(row.get("Entry")) else []),
+        *([entry] if not pd.isnull(row.get("Entry")) else ["Apparition unearthly spectral creepy uncanny wraith preternatural with"]),
         *(
             (
                 [
@@ -112,14 +112,14 @@ def row_to_features(row):
 df_class_features = pd.read_csv(class_features_url, header=1)
 df_class_features.head()
 
-features_list = [
+features_list = list({f"{item.get("className")}\0{item.get("name")}\1{item.get("level")}": item for item in [
     row_to_features(row)
     for index, row in df_class_features.iterrows()
     if pd.notnull(row.get("Name"))
-    and pd.isnull(row.get("Parent"))
-    and row.get("Source") == source
-    and pd.isnull(row.get("Subclass"))
-]
+       and pd.isnull(row.get("Parent"))
+       and row.get("Source") == source
+       and pd.isnull(row.get("Subclass"))
+]}.values())
 
 sub_class_features_list = [
     row_to_subclass_features(row)

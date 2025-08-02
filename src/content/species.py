@@ -44,13 +44,8 @@ def row_to_species(row):
 
     return {
         "name": row.get("Name"),
-        **(
-            {"traitTags": row.get("Tag").split(", ")}
-            if pd.notnull(row.get("Tag"))
-            else {}
-        ),
-        **({"alias": [row.get("Alias")]} if pd.notnull(row.get("Alias")) else {}),
         "source": row.get("Source"),
+        "page": 1,
         "ability": [
             {
                 f"{row.get('Ability 1')[:3].lower()}": row.get("Score 1"),
@@ -58,14 +53,13 @@ def row_to_species(row):
             }
         ],
         "size": [row.get("Size ABRV")[:1].upper()],
-        "speed": {
-            "walk": row.get("Walk Speed"),
-            **(
-                {"fly": row.get("Fly Speed")}
-                if pd.notnull(row.get("Fly Speed"))
-                else {}
-            ),
-        },
+        **(
+            {"traitTags": row.get("Tag").split(", ")}
+            if pd.notnull(row.get("Tag"))
+            else {}
+        ),
+        **({"alias": [row.get("Alias")]} if pd.notnull(row.get("Alias")) else {}),
+        "speed": row.get("Walk Speed"),
         "entries": [
             f"{row.get('Name')} Traits",
             {"type": "entries", "name": "Age", "entries": [row.get("Age") if pd.notnull(row.get("Age")) else ""]},

@@ -216,7 +216,7 @@ def row_to_class(row):
     classes = {
         "source": json_source,
         "name": class_name,
-        **({"hd": {"faces": row.get("Hit Points ar 1st Level", ""), "number": 1}}),
+        **({"hd": {"faces": row.get("Hit Points at 1st Level"), "number": 1}}),
         "proficiency": [prof[:3].lower() for prof in proficiency.split(", ")],
         "startingProficiencies": {
             "armor": [armor.lower() for armor in armors.split(", ")],
@@ -278,7 +278,6 @@ def row_to_class(row):
             else {}
         ),
         "classFeatures": get_features_for_class(class_name, subclass_title),
-        "subclasses": subclasses,
         **(
             {"classSpells": class_spells}
             if not pd.isnull(row.get("spellcastingAbility"))

@@ -48,6 +48,7 @@ def row_to_item(row):
         "value": row.get("Value", ""),
         "weight": row.get("Weight", ""),
         "page": row.get("Page", ""),
+        "rarity": "none",
         **(
             {"recharge": row.get("Recharge", "")}
             if not pd.isnull(row.get("Recharge"))

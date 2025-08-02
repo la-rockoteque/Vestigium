@@ -15,7 +15,7 @@ def row_to_monster(row):
     )
     return {
         "source": json_source,
-        "name": row.get("Name"),
+        "name": f"{row.get("Name")}, {row.get("Variant")}" if pd.notnull(row.get("Variant")) else row.get("Name"),
         "size": [row.get("Size")[:1].upper()],
         "type": row.get("Classic 5e Type").lower(),
         "alignment": [row.get("Alignment")[:1].upper()],
@@ -53,7 +53,7 @@ def row_to_monster(row):
         "wis": row.get("WIS"),
         "cha": row.get("CHA"),
         **(
-            {"immune": row.get("Condition Immunities").lower().split(", ")}
+            {"conditionImmune": row.get("Condition Immunities").lower().split(", ")}
             if pd.notnull(row.get("Condition Immunities"))
             else {}
         ),

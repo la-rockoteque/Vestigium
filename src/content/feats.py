@@ -10,20 +10,9 @@ def row_to_feat(row):
     return     {
         "name": row.get("Name").lower(),
         "source": json_source,
-        "ability": [{
-            "cha: 1"
-        }],
-        "proficiency": [
-            {
-                "weapon": "martial"
-            },
-            {
-                "armor": "heavy"
-            }
-        ],
         "entries": [
             row.get("Flavor Text"),
-            row.iloc[feat_pos:].dropna().tolist()
+            *row.iloc[feat_pos:].dropna().tolist()
         ],
     }
 
