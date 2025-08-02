@@ -123,11 +123,11 @@ def row_to_species(row):
                     "images": [
                         {
                             "type": "image",
-                            "href": {"type": "external", "url": row.get("Image")},
+                            "href": {"type": "external", "url": row.get("Image Male")},
                         }
                     ]
                 }
-                if pd.notnull(row.get("Image"))
+                if pd.notnull(row.get("Image Male"))
                 else {}
             ),
         },

@@ -204,8 +204,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1754141194,
-        "_dateLastModifiedHash": "29a21a66b4",
+        "dateLastModified": 1754142535,
+        "_dateLastModifiedHash": "a8090cbac5",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -348,6 +348,15 @@
                         ],
                         "type": "entries"
                     }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/aestari_M.png"
+                        }
+                    }
                 ]
             }
         },
@@ -478,6 +487,15 @@
                         ],
                         "type": "entries"
                     }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/android_M.png"
+                        }
+                    }
                 ]
             }
         },
@@ -601,6 +619,15 @@
                         ],
                         "type": "entries"
                     }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/aquilani_M.png"
+                        }
+                    }
                 ]
             }
         },
@@ -682,6 +709,15 @@
                         ],
                         "type": "entries"
                     }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/arochi_M.png"
+                        }
+                    }
                 ]
             }
         },
@@ -741,7 +777,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/azurini_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -830,6 +875,15 @@
                             "The **Canid** are **the muscle behind the throne, the enforcers of order, and the ones who settle scores when words fail**. They **don’t waste time with pleasantries**—they let their **presence, their reputation, and their fists do the talking**.  \n\nTheir **bodies are built for endurance, with thick-set frames, heavy hands, and broad shoulders**. Their fur is **short, functional, and practical**, ranging from **earthy browns and sharp grays to deep reds and shadow-black**. Their **eyes don’t wander—they watch, they calculate, they decide.**  \n\nCanid **don’t back down, don’t run from a fight, and don’t let anyone tell them what they are worth**. Some wear **badges**, others wear **brass knuckles**, but either way, they make sure **no one forgets their name**.  "
                         ],
                         "type": "entries"
+                    }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/canid_M.png"
+                        }
                     }
                 ]
             }
@@ -940,6 +994,15 @@
                         ],
                         "type": "entries"
                     }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/cindralis_M.png"
+                        }
+                    }
                 ]
             }
         },
@@ -999,7 +1062,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/corvani_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -1136,6 +1208,15 @@
                         ],
                         "type": "entries"
                     }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/custodian_M.png"
+                        }
+                    }
                 ]
             }
         },
@@ -1198,7 +1279,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/cygnari_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -1337,6 +1427,15 @@
                         ],
                         "type": "entries"
                     }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/delvani_M.png"
+                        }
+                    }
                 ]
             }
         },
@@ -1396,7 +1495,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/dentari_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -1498,6 +1606,15 @@
                         ],
                         "type": "entries"
                     }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/dren_M.png"
+                        }
+                    }
                 ]
             }
         },
@@ -1557,7 +1674,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/eidolons_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -1616,7 +1742,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/emanants_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -1706,6 +1841,15 @@
                         ],
                         "type": "entries"
                     }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/felkin_M.png"
+                        }
+                    }
                 ]
             }
         },
@@ -1765,7 +1909,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/gruii_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -1824,7 +1977,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/hirundari_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -1949,6 +2111,15 @@
                         ],
                         "type": "entries"
                     }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/humans_M.png"
+                        }
+                    }
                 ]
             }
         },
@@ -2011,7 +2182,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/ithilari_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -2078,6 +2258,15 @@
                         ],
                         "type": "entries"
                     }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/kairos_M.png"
+                        }
+                    }
                 ]
             }
         },
@@ -2140,7 +2329,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/kerevhan_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -2272,6 +2470,15 @@
                         ],
                         "type": "entries"
                     }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/korrak_M.png"
+                        }
+                    }
                 ]
             }
         },
@@ -2331,7 +2538,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/luminari_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -2393,7 +2609,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/lysorian_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -2452,7 +2677,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/mireborn_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -2511,7 +2745,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/mistaryn_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -2573,7 +2816,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/myrleth_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -2711,6 +2963,15 @@
                         ],
                         "type": "entries"
                     }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/naureli_M.png"
+                        }
+                    }
                 ]
             }
         },
@@ -2770,7 +3031,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/necari_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -2829,7 +3099,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/orphai_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -2888,7 +3167,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/oteisha_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -2950,7 +3238,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/pavani_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -3047,6 +3344,15 @@
                             "Pykari carve out lives in **hidden alleys, underground circuits, and the ever-moving shadows of the city**. They excel as **street performers, smugglers, data-runners, and fortune-tellers**, their nimble hands and sharp instincts making them **essential to both the underworld and the elite**. Many have traded their **fire-dancing for neon-lit hacking**, their **whispered omens** now carried through encrypted networks.  "
                         ],
                         "type": "entries"
+                    }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/pykari_M.png"
+                        }
                     }
                 ]
             }
@@ -3177,6 +3483,15 @@
                         ],
                         "type": "entries"
                     }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/rascan_M.png"
+                        }
+                    }
                 ]
             }
         },
@@ -3238,7 +3553,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/rubrini_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -3300,7 +3624,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/sablemarcher_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -3359,7 +3692,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/strigani_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -3418,7 +3760,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/thornkin_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -3477,7 +3828,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/tyrikai_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -3536,7 +3896,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/umbranauts_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -3595,7 +3964,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/vaelari_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -3654,7 +4032,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/varnhallan_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -3713,7 +4100,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/veilborn_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -3772,7 +4168,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/veithyn_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -3831,7 +4236,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/velthask_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -3890,7 +4304,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/vessels_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -3949,7 +4372,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/vexholmic_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -4008,7 +4440,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/vok_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -4152,6 +4593,15 @@
                         ],
                         "type": "entries"
                     }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/vorraki_M.png"
+                        }
+                    }
                 ]
             }
         },
@@ -4240,6 +4690,15 @@
                         ],
                         "type": "entries"
                     }
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/weftifeles_M.png"
+                        }
+                    }
                 ]
             }
         },
@@ -4299,7 +4758,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/zakariss_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -4358,7 +4826,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/zhimeus_M.png"
+                        }
+                    }
+                ]
             }
         },
         {
@@ -4417,7 +4894,16 @@
                 }
             ],
             "fluff": {
-                "entries": []
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Species/zyrrkhal_M.png"
+                        }
+                    }
+                ]
             }
         }
     ],
@@ -51436,7 +51922,1528 @@
             ]
         }
     ],
-    "dieties": [],
+    "deity": [
+        {
+            "name": "omnis",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Skull Constellation",
+            "entries": [
+                "Omnis is the world, the unseen dreamer entwined with the Loom. Every step taken ripples through the weave of existence, as his slumbering thoughts give rise to reality."
+            ],
+            "page": 0,
+            "alignment": [
+                "N"
+            ],
+            "customProperties": {
+                "Plane": "The Infinite Loom",
+                "Followers": " ",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "véa",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Crucifix",
+            "entries": [
+                "Goddess of the earth"
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Verdant Cradle",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "bhaz’qorith",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Gaping Mouth",
+            "entries": [
+                "Bhaz’qorith, the Unraveler, lurks in the farthest reaches of the woven layers, where the threads of existence fray into the unknown. Once an entity of the Vorthirith, Bhaz’qorith was drawn toward the birthing Intent of Acrimony, mesmerized by the creeping pulse of its power.\n\nHis form is a gaping void of endless consumption, a spiraling mass of teeth and unraveling sinew, his very essence eroding reality with his passing. He does not merely destroy—he unwinds, dissolves, and unmakes. Where he treads, pillars crack, threads fray, and meaning collapses into forgotten echoes.\n\nFrom his corruption, Véa was forced into unwanted union, and from that wound, Gaïa and Terra, the twin life-trees, were birthed—a paradox of devastation birthing renewal. Though an agent of dissolution, Bhaz’qorith sees his own undoing within the growth of what he sought to consume. His hunger lingers, yet creation endures."
+            ],
+            "page": 0,
+            "alignment": [
+                "C"
+            ],
+            "customProperties": {
+                "Plane": "The Far Cosmos",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "gaïa",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Rooted Tree",
+            "entries": [
+                "Gaïa, one of the Twin Life-Trees, is a colossal, ever-growing entity whose roots stretch through the woven fabric of the Mortal Plane. She is not a goddess in the conventional sense, but a living pillar of existence, sustaining life and anchoring the world’s cycle of renewal.\n\nBorn from Véa, Gaïa embodies the relentless pulse of growth, evolution, and adaptation. Her form towers beyond mortal comprehension—a vast, living structure whose roots spread unseen beneath the world, entwining with Terra, her twin, while her branches stretch into the skies, weaving the ever-changing currents of life.\n\nGaïa does not rule, nor does she intervene—she endures. She is the breath between the birth and death of all things, the silent witness to an endless cycle of creation and decay. Through her, the land flourishes and withers, forests rise and fall, and the seasons march ever forward, unmoved by the will of gods or mortals.\n\nHer bond with Terra is inseparable, yet their natures are not the same. While Terra embodies stability and the enduring foundation, Gaïa is the restless force of renewal—the wildfire that makes way for new growth, the flood that reshapes the land, the cycle that never halts.\n\nThose who revere Gaïa do not seek comfort—they seek understanding. To walk her path is to embrace the truth that life does not yield, but it does change. One must bend with the storm, adapt with the seasons, and grow through the hardships that shape all living things."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "Gaïa",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "terra",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Multibranched Tree",
+            "entries": [
+                "Terra, one of the Twin Life-Trees, is the immutable foundation upon which the Mortal Plane endures. Towering beyond the sight of mortals, his branches do not seek the sky, but instead coil inward, reinforcing the world against unraveling. If Gaïa is the pulse of change, Terra is the unyielding root of stability—the presence that ensures there will always be ground to stand upon.\n\nForged from Véa’s stability, Terra is an anchor in the great Tension, the point upon which all cycles turn. He is not simply a god of growth, but of structure, of persistence, and of eternal return. His form is unseen, but his influence is felt in the unshaken mountains, the steady erosion of rivers, the eternal cycle of death feeding new life.\n\nUnlike his twin Gaïa, Terra does not embrace the wild chaos of adaptation. He is the guardian of balance, the force that ensures cycles continue rather than spiral into oblivion. Those who follow Terra do not seek to change their fate, but to endure it.\n\nTerra and Gaïa are forever intertwined, yet eternally distinct. Where she pushes forward, he remains steadfast. Where she burns to give birth anew, he ensures the ashes do not scatter into nothing. He is not opposed to change, but without his presence, change would consume itself.\n\nTo worship Terra is to accept the burdens of time, to endure hardship as a passage to wisdom, and to understand that all things return. His lessons are not those of comfort, but of resilience—a belief that nothing is lost, only reshaped."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "Terra",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "damarus",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Fangs",
+            "entries": [
+                "Damarus, the Wild Guardian, is the untamed spirit of the hunt, the primal force that drives survival beyond all odds. Born from Gaïa, he is not merely a hunter—he is the instinct to endure, to fight, to refuse to be broken.\n\nA symbol of courage and unrelenting will, he is the patron of lycanthropes, the lost, and the forsaken. Where others see monsters, he sees kindred spirits—beasts who have been cast out, warriors who fight not for glory, but for survival. He watches over those who are scorned and those who claw their way through an unforgiving world.\n\nDamarus does not demand worship. He does not ask for temples or prayers. His favor is earned in the wild, in the fight, in the moment when instinct takes hold and fear is cast aside. A hunter who stands his ground, a warrior who refuses to yield—these are his true disciples.\n\nHe is a god of action, not words. To those who seek his blessing, he does not grant visions or omens. Instead, he offers a single lesson: survive."
+            ],
+            "page": 0,
+            "alignment": [
+                "C"
+            ],
+            "customProperties": {
+                "Plane": "The Murmuring Depths",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "morokei",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Hand Lines",
+            "entries": [
+                "Born of Terra, shaped by mystery, Morokeï is the whisper in the mind, the unseen hand that guides the dreamer toward revelation.\n\nBefore the world had light, before sight had meaning, she crawled in the dark, feeling her way through an existence without form. Damarus, her twin, carried her within him, shielding her from the void’s vast emptiness. When the first light was kindled, she emerged, her essence forever marked by the unseen.\n\nShe is the mother of psychics, the patron of those who hear beyond hearing, who see without sight. Legends say that those born with psychic gifts bear the imprint of Morokeï’s touch, a spark of her ancient journey.\n\nYet Morokeï is not an oracle, nor does she bestow prophecy lightly. Knowledge is a burden, and she teaches that true understanding comes only to those willing to carry its weight. The mind is a vast expanse, but few dare walk its depths."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Murmuring Depths",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "huruma",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Six-Armed Naked Doll",
+            "entries": [
+                "Huruma is the embodiment of unchecked indulgence, the whisper of temptation that lures mortals toward excess. Often depicted as a shadowed figure with six arms beckoning in invitation, her presence is felt in the fevered pulse of ecstatic gatherings, in the flicker of candlelight at clandestine feasts, and in the intoxicated steps of dancers lost to abandon. She is not a goddess of love, nor even of passion—hers is the force of desire itself, unbridled and all-consuming.\n\nTo revere Huruma is to yield to one’s cravings, to cast off restraint and embrace the euphoria of the present, heedless of consequence. Devotees celebrate her through masked revels, extravagant feasts, and sacred excess, believing that indulgence offers a glimpse of the divine."
+            ],
+            "page": 0,
+            "alignment": [
+                "N"
+            ],
+            "customProperties": {
+                "Plane": "The Throne of Ambitions",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "vizira",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "The Veiled Eye",
+            "entries": [
+                "A mysterious goddess of **the Weft**, Vizira is the eternal seeker, the weaver of spells, and the keeper of **forbidden knowledge**. Clad in an intricate mask that conceals her true visage, she embodies the boundless enigma of magic—both its wonders and its dangers. \n\nShe is often depicted holding an **ornate grimoire** in her left hand, brimming with ever-changing script that only the truly devoted can decipher. It is said that her whispered teachings are hidden in the turning of its pages, guiding those who dare to expand the boundaries of the known.\n\nVizira is the **Founder of the Tesseract**, the ever-shifting domain of magic where the laws of reality unravel and reform in infinite permutations. Her followers are scholars, spellweavers, and seekers of **esoteric truths**, driven by an insatiable thirst for knowledge. They do not merely practice magic—they **pioneer** it, forging new paths into the arcane unknown. Some worship her in the solitude of candlelit studies, others in grand academies where her name is spoken in reverence. To walk Vizira’s path is to embrace both **curiosity and chaos**, for true magic knows no chains.\n\n\\page"
+            ],
+            "page": 0,
+            "alignment": [
+                "C"
+            ],
+            "customProperties": {
+                "Plane": "The Tesseral Leys",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "zars",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "The Laurel-Crowned Helm",
+            "entries": [
+                "A goddess of **war, conquest, and unyielding triumph**, Zars stands as the embodiment of **strength through action, strategy through instinct, and victory through will**. Unlike deities of bloodshed or destruction, her dominion is not over war for its own sake but over the **art of battle**, the test of mettle, and the pursuit of glory through challenge.\n\nClad in **resplendent armor**, she strides across battlefields like a storm, her presence a **clarion call to the bold and the fearless**. To follow Zars is to embrace **conflict as a crucible**, where warriors refine themselves through struggle and emerge sharpened. Her followers—generals, champions, and wandering duelists—seek more than survival; they seek to **carve their names into legend**.\n\nZars does not demand war without purpose, nor conquest without wisdom. She rewards those who fight **with cunning as much as courage**, teaching that **tactical brilliance** is as much a weapon as the blade itself. Victory, to her faithful, is **not merely taking—but earning**."
+            ],
+            "page": 0,
+            "alignment": [
+                "C"
+            ],
+            "customProperties": {
+                "Plane": "The Domain of Torment",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "agramon",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "The Gladiator’s Helm",
+            "entries": [
+                "A god of **violence, wrath, and the inescapable bonds of blood**, Agramon is a figure of contradiction—both destroyer and protector, tyrant and guardian. He is war **not for glory, but for dominance**, for the raw assertion of power through conflict. He is worshipped by conquerors, warlords, and those who see battle as the purest form of control.\n\nDepicted as a **towering warrior clad in blood-streaked bronze**, his presence looms over history like a storm that never ceases. He does not fight for justice or honor, but for the **ineluctable truth that strength rules all**. Yet, beneath his relentless brutality lies something deeper—a **twisted grasp on love, kinship, and the unbreakable chains of family.** He binds as fiercely as he destroys, enforcing loyalty with the same force that he crushes defiance."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Murmuring Depths",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "okoma",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "The Dissected Body",
+            "entries": [
+                "A god of **alchemy, transformation, and the boundless nature of existence**, Okoma stands as an enigma—neither wholly one thing nor another. Neither male nor female, neither whole nor broken, Okoma embodies **equity, emptiness, and infinity**, existing in a state of perpetual flux. \n\nAlways depicted as a **dissected or skinless figure**, Okoma reveals the hidden truths beneath the surface, the structures that define and reshape all things. Worshipped by alchemists, transmuters, and those who seek to unravel the mysteries of form and essence, they are the patron of those who experiment, deconstruct, and reform—both in science and in self. \n\nOkoma’s presence is unsettling yet profound; their doctrine is not of morality, but of **understanding the hidden balance within all things**. To seek Okoma is to accept that **all states are impermanent**, and that the self is but another formula waiting to be rewritten."
+            ],
+            "page": 0,
+            "alignment": [
+                "N"
+            ],
+            "customProperties": {
+                "Plane": "",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "willebrand",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "The Six-Fingered Hand",
+            "entries": [
+                "**The Unfaithful. The Whisperer of Betrayal. The Keeper of Wrongs.**  \n\nWillebrand, god of **secrets, vendetta, and treachery**, is a name spoken only in hushed tones—if at all. To invoke him is to invite misfortune, for his gaze lingers upon those who dare to utter his name. None can trust him, yet all fear his power, for he is the shadow behind every whispered lie, the force behind every lingering grudge.\n\nHe is said to reside in a city that bears his cursed name, a place of lawless indulgence where **betrayal is currency, vengeance is worship, and truth is a fleeting illusion**. There, he governs not through order, but through **chaos and perversion**, orchestrating schemes that ensnare even the most careful minds. \n\nTo Willebrand, loyalty is weakness, trust is folly, and **secrets are the only true power**. His followers are spies, informants, and those who weave deception into every breath. They offer prayers in the form of **acts of revenge**, believing that each carefully planned betrayal strengthens their god’s dominion.\n\nOne does not worship Willebrand. One survives him."
+            ],
+            "page": 0,
+            "alignment": [
+                "N"
+            ],
+            "customProperties": {
+                "Plane": "Gaïa",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "tybula",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "The Sun Atop the Pyramid",
+            "entries": [
+                "**The Eternal Sun. The Radiant Twin. The Unyielding Light.**  \n\nTybula is not merely a goddess of the sun—**she is the Sun itself**. Her presence is absolute, a celestial force that burns at the heart of the sky, bathing the world in her golden radiance. She is the relentless fire that **nurtures life, scorches the unworthy, and ensures the unceasing march of time**.  \n\nHer form is often depicted as a being of **pure incandescence**, clad in **shifting hues of molten gold, fiery crimson, and piercing white**. She is the dawn and the noon, the heat of summer and the beacon of revelation. To bask in her light is to **experience clarity and power**, but to defy her is to risk **annihilation beneath her scorching gaze**.  \n\nYet, Tybula’s **radiance is not without conflict**. She exists in an **eternal struggle against her twin brother, Zebulon, the embodiment of the Moon and the Night**. Their ceaseless war defines the cycle of time itself—**day clashing against night, fire against shadow, revelation against concealment**. Neither can truly triumph, for the world depends upon their struggle.  \n\nHer followers honor her through **rituals of illumination**, lighting vast pyres, adorning themselves in sun-marked vestments, and embracing the **fierce, untamed force of her being**. To revere Tybula is to **seek truth, burn away weakness, and walk boldly in the path of revelation—no matter the cost**."
+            ],
+            "page": 0,
+            "alignment": [
+                "C"
+            ],
+            "customProperties": {
+                "Plane": "The Mortal Realm",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "zebulon",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "The Inverted Pyramid on a Five-Branched Star",
+            "entries": [
+                "The Celestial Twin, the Moon Eternal, the Keeper of Secrets.  \n\nZebulon is not merely a god of the moon—he is the Moon itself, an enigmatic force of reflection, mystery, and quiet revelation. His silver glow drapes the world in a tapestry of shifting shadows and soft radiance, a soothing counterbalance to the unrelenting blaze of his twin sister, Tybula, the Sun. Where she burns, he illuminates, where she demands, he guides.  \n\nHe is depicted as a figure of serene beauty, his flowing robes of deep indigo and silver shifting with the moon’s phases, ever-changing yet constant. He is the voice in the silence, the hidden knowledge waiting in the stillness of night, the unseen patterns woven into the fabric of the cosmos.  \n\nLocked in perpetual conflict with Tybula, Zebulon embraces the fluid dance of night and day, the push-and-pull that defines existence itself. His is the power of patience and inevitability, the wisdom of cycles, the acceptance of change as a path to greater understanding. Though they oppose one another, neither can truly overcome the other—for without night, there is no dawn.  \n\nZebulon's influence is felt in the hush of twilight, the stillness of dreams, the gentle ripples of a moonlit lake. His followers honor him through nocturnal rituals, silent meditations, and the pursuit of hidden truths. Philosophers, seekers, and mystics walk the paths of the night, knowing that under the Moon’s gaze, all things are revealed in time.  \n\nTo walk in the light of Zebulon is to embrace the unseen, listen to the silence, and seek wisdom in the shadows."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Mortal Realm",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "callista",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "The Chalice",
+            "entries": [
+                "The poor and the forsaken worship Callista, for she is the mistress of giving. She is the patron of those who have nothing yet still offer kindness, the protector of those who endure hardship with grace. Her followers often take vows of poverty, dedicating themselves to service and charity.  \n\nMen have long depicted her as a woman baring her breast to feed a child, a symbol of nurture and generosity. Many erotic paintings have been made in her likeness, though such interpretations stray far from her true nature. She does not embrace sexuality or any form of carnal worship, nor does she seek adoration for the sake of desire. To Callista, giving is a sacred act, not an indulgence."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Throne of Ambitions",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "roma",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Dual Theater Masks",
+            "entries": [
+                "In his own domain, Roma performs endless plays for an audience that does not exist, speaking to characters born of his own imagination. He governs all that is theatrical and grandiose, shaping the world through spectacle and performance. Yet, in his loneliness, he often falls into excess, consumed by his own illusions and the weight of his own narrative.  \n\nMen have long worshiped him for this, raising their glasses in tribute to his burlesque existence. His influence lingers in the grand halls of drama and in the quiet moments where reality bends to the stories we tell ourselves.  \n\nWhen Roma rarely manifests before mortals, he bears multiple faces, each concealed behind a mask. This is not by choice, nor out of vanity—he simply cannot settle on a single expression, nor fully control the emotions and compulsions that shape him. He is a god of roles, shifting endlessly between them, a paradox of identity lost in the theater of existence."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Throne of Ambitions",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "ophelia",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Three-String Harp",
+            "entries": [
+                "Ophelia craves nothing but music. Never-ending serenades, endless minuets, the sound of devotion woven into melody. Her compositions are divine, yet cursed—those who attempt to perform them lose themselves in the act, their minds unraveling as the notes take hold. Once a song of hers is begun, it cannot be stopped. She demands attention, and she will consume it to the last drop.  \n\nHer followers describe her as arrogant, proud, and selfish. To Ophelia, admiration is not given; it is owed. She is often depicted standing atop a pedestal, men and women crawling at her feet, ensnared by her presence. Many gods have sought her favor, yet she has never chosen one. Among the divine, she is said to be the most beautiful, yet the most insufferable—a muse whose love is unattainable, whose approval is a prison.  \n\nThose who worship her know the truth: Ophelia does not seek companionship, nor passion. She seeks an audience, and she will never let them go."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Throne of Ambitions",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "the ordinator",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Triskelion",
+            "entries": [
+                "The Ordinator governs logic, mathematics, and the unwavering pursuit of absolute order. His temples are constructed with perfect symmetry, for anything less is an affront to his nature. If a structure bearing his name is flawed, he **destroys it** without hesitation. He is a being of pure precision, unmoved by emotion or mortal imperfections.  \n\nDisgusted by the asymmetry of the world and the flawed nature of its inhabitants, he withdrew into his own realm, a sanctuary of absolute perfection. He no longer intervenes in mortal affairs, choosing instead to meditate in solitude, contemplating the infinite patterns that only he can fully comprehend."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Realm of Absolutism",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "quilin",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Peacock Feather",
+            "entries": [
+                "Quilin is the grand administrator of the **Tesseral Sanctum**, the vast and shifting repository of knowledge within the Tesserac. He founded it, shaped its halls, and established its laws so that mortals might access and harness its boundless power. A meticulous overseer, he ensures that knowledge is preserved, safeguarded, and wielded with discipline.  \n\nThough he does not bestow the secrets of the Tesserac freely, he does not hoard them either. He governs the balance between access and restriction, believing that only those who prove their worth and understanding should be permitted to walk the Sanctum’s halls. To approach Quilin is to petition for wisdom, but only those who can navigate the complexities of his domain will earn his favor."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Tesseral Leys",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "gaberal",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Ouroboros",
+            "entries": [
+                "Gabérial was not like his brothers and sisters. He was born as the **God-That-Could-Die**, the only one among the divine who felt the slow passage of time eroding his form. As he watched his kin remain eternal while he withered, he dedicated himself to **the pursuit of immortality**, determined to escape the fate that no other god shared.  \n\nHis body grew frail, each passing century weighing upon him more than the last. In time, he found only one solution—**to shed his mortal shell and transfer his mind into a construct of his own making**. With the aid of Mechanus, he forged **a vessel beyond the reach of decay**, casting aside flesh and bone for something imperishable. Now, he is known as **the God-That-Cannot-Be-Killed**, a wandering presence that will outlast the death of worlds, drifting through the void long after all things have faded."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Murmuring Depths",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "luthgarde",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Ten-Branched Antlers",
+            "entries": [
+                "Luthgarde, goddess of the elves and protectress of the woods, walks the unseen paths of the deepest forests, where few mortals dare to tread. She is the guardian of ancient glades and whispering canopies, shielding the wilds from those who would seek to defile them.  \n\nHer presence is rarely seen, yet always felt. The rustling of leaves without wind, the sudden stillness of beasts before an unseen force, the flicker of something just beyond the trees—these are the signs of her passing. She does not merely defend the forest; she is woven into it, a presence that lingers in every root and branch, watching, waiting, ensuring the cycle of life remains unbroken.  \n\nThe spirits of the woods heed her call, and those who trespass with ill intent find the land itself turned against them. Shadows deepen, trails vanish, and a quiet dread settles in the bones of those who do not belong.  \n\nTo the elves, she is more than a goddess—she is the soul of the wilds, a force of balance, protector and judge, unseen but never absent."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Verdant Cradle",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "sarruinn",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Three Golden Coins",
+            "entries": [
+                "Nobility is not a thing of beauty but of greed. Sitting on his mountain of gold, Sarruinn is contemplating his glowing treasure. nothing is more important then gold and precious gems. Some dwarf in their caves sometimes worship him when their mind have turn to greed. He"
+            ],
+            "page": 0,
+            "alignment": [
+                "C"
+            ],
+            "customProperties": {
+                "Plane": "The Domain of Torment",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "vertugadin",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Opened Eye",
+            "entries": [
+                "All truths are not good to know, but no lies should be true. He saw the absolute truth and for punishment his eyes were torned out."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "Gaïa",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": "He walked out in the gray light and stood and he saw for a brief moment the absolute truth of the world. The cold relentless circling of the intestate earth. Darkness implacable. The blind dogs of the sun in their running. The crushing black vacuum of the universe. And somewhere two hunted animals trembling like ground-foxes in their cover. Borrowed time and borrowed world and borrowed eyes with which to sorrow it"
+            }
+        },
+        {
+            "name": "verdugo",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Blind Eye",
+            "entries": [
+                "When Vertugadin transcended the gate his body and mind could not withstand it. Half of him saw accepted the truth, the other hald denied it. When the elder gods came to know about his transgression, they punished him. His body was torned and scatterred accross the cosmos. All parts rotted and vanished except for his eyes. One of them, Vertugo was retrieved and conserved, the other, Verdugo was left to rot in hell for eternity. He came to be known as the patron of lies, as every sound he mouthed was unexceptionally a lie. Lies, lies, nothing but lies."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "Gaïa",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "gate of truth",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "A Portal",
+            "entries": [
+                "Gizy ao zrfzm, Sal si hwiack, Git shaf trratsh, Gaave ro avruavh, Videnn de' aster, Edhekal eron nakhum.\n\nit has many names. All of them are true. This sentient gate is forbidden from all gods even evil ones for it is the most dangerous being. He who pass through its veils become omniscient. Vertugadin once plunged into its opening and was punished for it. Many who tried before took their own life for the absolute truth is unbearable. Few of them succeeded, the only remnant of them is a sealed scroll, an old book and a pair of gloves."
+            ],
+            "page": 0,
+            "alignment": [
+                "N"
+            ],
+            "customProperties": {
+                "Plane": "The Blinding Ends",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "ratheithiae",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Flaming Planet",
+            "entries": [
+                "In the old ages before the men, the moedertal worships the old forgotten gods. Those have been forgotten but one remained in legends and myth. The Moedertal believed that the planets in the sky were in fact celestial devine bodies. While some evidence in ancestrals scriptures support the coming of Ratheithiae to this world. Most folk have discredited those stories as superstitions. The was supposedly the goddess of the flame."
+            ],
+            "page": 0,
+            "alignment": [
+                "C"
+            ],
+            "customProperties": {
+                "Plane": "The Verdant Cradle",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "the ocato",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Flame",
+            "entries": [
+                "Daranthesonce stole the power of the flame from some forgotten place and gave it to the mortals. Ocato accepted this gift, nowaday know as the Gift of Destruction\n\nThe Ocato was once the accepted religion amonst Ignes. Ocato came to this world bearing the forgoten flame that Ratheithiae used to weild and gave the knowledge to the Ignes. He was venered as the leader of all clans and successfully unified all his people under his protection to wage war to the men who came to conquer their lands. Since then his knowledge has long been forgotten and the clans are once again devided awaiting his coming again."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "Gaïa",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "the malocato",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Flame Within Flame",
+            "entries": [
+                "The Malocato is a belief amonst Ignes that The Ocato will once again come to this land bearing the true flame. He is prophecised as the messiah of fire and the reincarnation of the Ocato. Many wars have been waged over the whose clan will bring the Malocato."
+            ],
+            "page": 0,
+            "alignment": [
+                "N"
+            ],
+            "customProperties": {
+                "Plane": "Gaïa",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "daranthes",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "",
+            "entries": [
+                "Darantheswas once a great god. Venered as very powerfule. He met his decline when he decided to intervene into mortal affairs. Many incident brought him closer to his fall. Some of them are well known in folkloric lores. He brought many people to the gate of thruth wich led to the demise of Vertugadin and Verdugo. He was also the one responsible for the Gift of Destruction to the Ignes. Once the Greater gods found out they tossed him off the top of Olympus and comdemned him to fall for eternity into the bottomless abyss. Nowadays he is often mocked as the Failed God, The False Thief or the Curse Giver. His worshipping is forbidden in most part of the worlds and his holy symbol have been wipped out from the walls and caves. His symbol is actually forgotten but from some very old people who would not dare writing it nowhere."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Murmuring Depths",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "cassian",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "A triangle, in a square, in a circle",
+            "entries": [
+                "The first to come and collect human lives. They come from the sky, a giant face, looking mostly mechanical. Though he is the ones looking a little more human in figure."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Infinite Loom",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "lazaro",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "A square, in a circle, in a triangle",
+            "entries": [
+                "The second to come. he leaves the place he come in a bloody mess. He is said to have murderous eyes. Two red glowing orbs glowing right at you."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Infinite Loom",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "corvin",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "A circle, in a triangle, in a square",
+            "entries": [
+                "The last to come. he is the one who brings in the more souls. he moves slowly in the sky over a multitude of towns. He prefers small village over crowded cities.\n\n:::"
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Infinite Loom",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "yagnar",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "???",
+            "entries": [
+                "He his the god of the orcs. Once the gods experimented with creation and ended up creating what they dubbed the most hideous creature. Those who had seen him where never really the same after that. They kept him hidden in a prison somewhere on an unknown realm."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "Gaïa",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "quirmizi",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "???",
+            "entries": [
+                "God and leader of most orcs. Nicknamed the Red-Orc. He was born a mere mortal with a crippling condition. But with this curse came great power. He was the one to eventually free Yagnar from his prison and was given godlihood from him."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Unwaking Plains",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "dun",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Warhammer",
+            "entries": [
+                "Dun, the first and mightiest of titans, was a gargantuan figure whose colossal form spanned the horizon. His skin was like rugged stone, laced with veins that pulsed with molten fire, and rivers of shimmering ice. His eyes, vast and storm-filled, held the ancient chaos of creation itself. Each stride he took reshaped mountains and carved valleys.\n\nUpon his demise, his immense body fragmented, dissolving into the earth’s rivers, with his lifeblood becoming the fertile ancestor of new titans, such as Dunavald and Dunhark."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Domain of Torment",
+                "Followers": "",
+                "Slogan": "The Slain Titan",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "dunavald",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Double Hammer",
+            "entries": [
+                "Dunavald is the embodiment of unyielding might and the immovable force of the world. His form is vast, unbreakable, and said to resemble the mountains themselves. Legends claim that every earthquake is a mere echo of his buried strength, and that deep within the heart of the world, his breath still lingers, warming the veins of molten ore.\n\nThose who honor Dunavald see him not as a god but as the enduring principle of the world—the unshaken foundation upon which all things stand.\n"
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Mortal Realm",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "dunhark",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Double Blade",
+            "entries": [
+                "Dunhark represents the shifting, unseen, and relentless flow of change. While Dunavald became the firm foundation of stone, Dunhark became the endless network of veins and tunnels, the paths unseen, the knowledge forgotten yet waiting to be rediscovered.\n\nHis form is vast, fluid, and enigmatic, his voice a whisper in the dark places of the world. His followers, if they exist, believe he watches from the depths, guiding those who seek what was lost."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Mortal Realm",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "dravemir",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Shield and Hammer",
+            "entries": [
+                "Dravemir, the legendary dwarven hero, is celebrated as a symbol of dwarven valor and martial prowess, known throughout history for his courage and strength. Depicted in art and song, he stands as a robust figure clad in gleaming, intricately crafted armor that reflects the deep heritage of his people. Wielding a mighty double-bladed axe in each hand, his proud, silvery beard cascades over his broad chest, marking him as a true paragon of dwarven might.\n\nDespite his ascension to godhood, Dravemir's story is intimately intertwined with that of his rival, Druquenein. While Dravemir embodies open valor and straightforward strength, Druquenein—known as the Shadow of the Forge—represents the strategic and cunning aspects of warfare. Their legendary rivalry showcased the balance between brute force and keen strategy, with each god respecting the other's unique approach to battle.\n\nThe legacy of Dravemir is one of honor, loyalty, and the unbreakable spirit of dwarven kind. Even as he watches over his people as a divine protector, his eternal contest with Druquenein reminds all dwarves of the multifaceted nature of heroism, illustrating the diverse paths to greatness within their storied culture."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Lithic Bastion",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "druquenein",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Hammer in Skull",
+            "entries": [
+                "Druquenein, Dravemir's formidable rival, ascended to godhood as a figure both revered and feared within dwarven lore. Known as the Shadow of the Forge, he embodies the cunning and strategic genius that complements pure martial might. Visually, Druquenein is depicted as a tall and imposing figure, cloaked in dark, smoke-like armor that seems to shift with an ethereal fluidity.\n\nHis eyes, gleaming with a cold, calculating intelligence, are said to penetrate the hearts of warriors, discerning their deepest fears and weaknesses. Unlike Dravemir, Druquenein favors agile, precise weapons such as slender blades and crossbows, employing tactics that rely on guile and precision.\n\nWhile Dravemir represents open valor and strength, Druquenein is the embodiment of the tactical mind, representing the power of strategy, subterfuge, and adaptability in combat. His legacy as a god is honored by those who believe that victory lies as much in wit and cunning as it does in strength and bravery, standing as a testament to the diverse paths of heroism within dwarven culture.\n\n\\page"
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Lithic Bastion",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "quinglong",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Owl",
+            "entries": [
+                "Quinglong, the esteemed god of all dragons, epitomizes immense wisdom and majestic power. Often referred to as the Celestial Dragon, he is depicted in myth as a grand, serpentine creature adorned with scales that shimmer in a radiant, ever-changing spectrum. His eyes, pools of molten gold, reflect an ancient and profound understanding of the cosmos, embodying the limitless wisdom he possesses.\n\nAs the divine overseer of elemental balance and natural harmony, Quinglong served as a crucial link between the material and celestial realms. His influence extends far beyond his ascension to higher planes, where he now presides over the cosmic order from a realm beyond mortal reach. To dragons and their worshippers, Quinglong remains an enduring symbol of enlightenment and harmony, inspiring generations to seek the balance and grandeur that he embodies."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Murmuring Depths",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "voskalel",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Wyvern",
+            "entries": [
+                "Voskalel, the golden wyvern, is revered as a god by those who are driven by the shadows of ambition and the gleam of wealth. His scales dazzle with the radiant brilliance of gold, a captivating spectacle that mirrors his insatiable hunger for treasure. With eyes like polished amber set against a backdrop of endless desire, Voskalel surveys the world with a focus on the glitter and glitz of precious metals and gems.\n\nEmbodying the very essence of greed, Voskalel traverses the realms in pursuit of the most opulent hoards, his presence both a blessing and a curse to those seeking fortune. Among his adherents are morally ambiguous individuals who find divine inspiration in his endless quest for acquisition and the boundless wealth that it promises. They venerate him as the ultimate arbiter of wealth and excess, drawn to the notion that unrestrained greed can lead to unimaginable power and prosperity. His followers often tread a thin line between ambition and avarice, driven by the allure of Voskalel’s golden radiance."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Unwaking Plains",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "ova",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Wyrm",
+            "entries": [
+                "Ova, the enigmatic dragon goddess known as the Wish Granter, moves through the realms like a gust of curiosity-driven wind. Her appearance captivates with scales that shimmer in ever-shifting hues of silver and azure, reminiscent of a twilight sky filled with whispered secrets. Her eyes, vast and luminous as the stars, reflect not moral judgments but a boundless curiosity about the desires of those who seek her.\n\nUnlike the benevolent deities, Ova is driven by an insatiable interest in the stories and outcomes of mortal lives. She grants wishes not purely out of kindness, but from a deep fascination with the myriad ways in which these desires can alter the tapestry of reality. Her capricious nature means that whether a granted wish brings fortune or folly, it serves to satiate her thirst for understanding the complex webs of fate and ambition.\n\nWorshipped by those who are willing to embrace uncertainty and risk, Ova's followers are as varied as their wishes, motivated by the intriguing allure of possibilities she offers. Their devotion is marked not by acts of purity, but by a willingness to explore the edges of potential, creating a dynamic relationship with a goddess who delights in the unexpected turns of destiny."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Unwaking Plains",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "varec",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Composite Bow",
+            "entries": [
+                "Artémiz is revered as a god of vengeance and protection, a legendary figure who ascended from mortal beginnings to divine stature through his relentless pursuit of justice against the infernal. He is depicted as a tall, imposing figure clad in intricately runed armor, forged from dark, gleaming metal that seems to absorb the very light around it. His eyes burn with an intense, unwavering silver light—a testament to his divine purpose. Wielding a crossbow crafted from celestial steel, Artémiz strides through the realms as both hunter and guardian, a symbol of resilience and retribution."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Domain of Torment",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "the voidress",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Whirlwind",
+            "entries": [
+                "The Voidress, known as the Queen of Nothing and The Annihilated, once held immense power, her very name inspiring fear across realms. Now, she is the sovereign of emptiness, a regal yet spectral figure defined by absence rather than presence. Legends whisper of her profound love for a god whose grief echoes through the darkest, most silent nights, a mourning melody carried by the wind that chills even the stars.\n\nDespite her fall into nothingness, the Voidress commands deep reverence from a shadowy clan devoted to her memory. They gather in secret, their hearts filled with vengeance, vowing to reclaim what was lost and honor her with fervent loyalty. This clan believes that the echo of her existence holds the key to a deeper power, one that transcends time and oblivion.\n\nThe god she loved, now a figure of eternal vigilance and loss, is said to feel the weight of her absence in every shadow, their once-bright passion now a lingering void. The subtle hints of this shared past manifest whenever the air grows still and cold, a silent testament to their unfulfilled destiny."
+            ],
+            "page": 0,
+            "alignment": [
+                "N"
+            ],
+            "customProperties": {
+                "Plane": "The Void",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "quercus",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Skull With no Eyesocket",
+            "entries": [
+                "Quercus, the unsettling God of Murders, reigns as a shadowy patron over those who dwell in the darker depths of human nature. Known to some as Saint Quercus, he is invoked as the father of the killer, a harbinger who embodies the cold precision and remorseless finality of murder. Portrayed as a figure shrouded in dark robes that seem to drink in the light, his presence is marked by a chilling calmness.\n\nIn his name stands a notorious house, its walls echoing with the whispers of bloody deeds done in honor of the god's somber dominion. This place is both sanctuary and sanctum for those who call upon Quercus, binding themselves to his austerely merciless philosophy.\n\nHis fervent followers, devoted to what they perceive as the purifying power of murder, believe that Quercus cleanses the world of weakness and futility. They view their violent acts as a sacred rite, believing his spectral guidance elevates them above the mundane cycle of life and death. To worship Quercus is to embrace a stark vision of order, where only the resolute endure amidst the chaos of existence."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Domain of Torment",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "dunemedall",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Prison Bars",
+            "entries": [
+                "Dunemedall, the steadfast God of Prisons, serves as the unwavering protector of those confined within the walls of justice. Embodying the paradox of confinement and sanctuary, he stands as a guardian who ensures that while prisoners serve their time, they remain shielded from harm. His visage is often envisioned as that of a resolute sentinel, draped in iron-gray robes that symbolize both the strength and the solemn duty of incarceration.\n\nUnder Dunemedall's watchful eye, the imprisoned are afforded a sense of security, for his divine presence is a promise that no harm shall befall them while they are under his aegis. His influence extends into the very stones and bars of the prison, imbuing them with a quiet power that demands respect for the bound humanity within.\n\nAs a god, Dunemedall embodies both justice and mercy, recognizing the potential for redemption even within the confines of a cell. His followers, ranging from wardens to advocates for reform, uphold his tenets of protection, fairness, and the hope of transformation. Through Dunemedall, the imprisoned find both a measure of peace and the possibility of a renewed path upon their release.\n\n\\page"
+            ],
+            "page": 0,
+            "alignment": [
+                "N"
+            ],
+            "customProperties": {
+                "Plane": "The Unwaking Plains",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "artume",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Hay",
+            "entries": [
+                "Artume, the dark and enigmatic Goddess of the Elves, roams the ancient forests as a harbinger of malevolence. Cloaked in shadows, she moves with an ethereal grace, her presence causing the rustle of leaves and the murmurs of the woodland to fall eerily silent. Her eyes, like cold embers, burn with a bitter resolve.\n\nBearing an intense disdain for the elves, whom she views as abominations from a foreign realm, Artume seeks to proliferate evil spirits throughout the forests, twisting the natural balance into a domain of dark enchantments. Her malevolent influence stirs unrest, as creatures of the night rally to her call, sowing discord and fear among the elves.\n\nThose who venture too close to her realm sense the oppressive weight of her wrath, a chilling reminder of the ancient grievances she harbors. Artume's quest to eradicate the elven presence is driven by a view of purifying her domain of what she considers an invasive stain, making her both a formidable adversary and a tragic figure bound by her relentless hatred. Her story serves as a cautionary tale of unchecked vengeance and the destructive potential of enmity."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Verdant Cradle",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "nòm istam",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Blinding Light",
+            "entries": [
+                "Nòm Istam, the revered Creator of Light, is a deity whose brilliance pierces the veil of darkness, casting his divine radiance across all worlds. Seen as a luminous figure, his form is a tapestry of shimmering gold and pure white, emanating a celestial glow that seems to flow and ripple like sunlight over water.\n\nHis light, a symbol of hope and knowledge, extends its reach into the farthest corners of existence, illuminating realms from the verdant skies to the shadowed pits of the abyss. Even in the depths of hell, where darkness vies to prevail, Nòm Istam's radiance can occasionally pierce the gloom, offering a glimpse of redemption and the potential for change.\n\nHis followers revere him as a beacon of clarity and truth, striving to bring his enlightening presence into their lives and deeds. Nòm Istam's influence is a perpetual reminder of the power of light to conquer darkness, fostering life and understanding in the endless cosmic dance of day and night."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Blinding Ends",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "yelna of the light",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Wand of Light",
+            "entries": [
+                "Yelna of the Light, the radiant and enigmatic entity from beyond, holds the unique honor of being the first being of light to traverse into our world. Her presence was a beacon of purity and warmth, captivating all who witnessed her ethereal glow. Known for her profound compassion and grace, Freyr's heart was captured by a mortal, and their love story became a timeless legend.\n\nUpon the untimely death of her beloved, Freyr's sorrow was so profound that her once-vibrant light faded, casting the world into a pall of uncertainty. It was during this time of obscured brilliance that the eternal conflict between the Dawn and Dusk twins ignited, each vying for dominion in her absence.\n\nIn a moment of celestial climax, Freyr returned, her radiant essence restored. Her light intervened in the twins' quarrel, restoring a fragile peace and establishing the natural cycle that now divides day from night. Her return not only brought harmony but also ensured the enduring balance between light and darkness, reminding all that love and sacrifice are intrinsically woven into the fabric of existence. Freyr's legacy continues to guide the rhythms of the world, her luminous spirit forever watching over the ebb and flow of time."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Kindling Plains",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "ragna of the light",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "",
+            "entries": [
+                ""
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Kindling Plains",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "rakadishna",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Sun",
+            "entries": [
+                "Rikadishna, the benevolent Goddess of Agriculture, is revered as the nurturing force behind the earth's bounty and the cycle of growth. Often depicted as a figure of serene beauty, she embodies the vitality and abundance of the natural world. Her flowing robes resemble fields of golden grain, while her hair cascades like verdant vines, adorned with blooming flowers and ripe fruits.\n\nWith a gentle touch, Rikadishna blesses the soil, ensuring the prosperity of crops and the fertility of the land. Her presence is a constant reminder of the harmony between humankind and nature, guiding farmers with wisdom and patience through the seasons. As the protector of fields and harvests, she fosters the sustenance and nourishment of communities, symbolizing the interconnectedness of all living things.\n\nHer worshippers honor her with festivals of planting and reaping, offering thanks for her gifts and seeking her guidance in times of drought and hardship. Through Rikadishna's eternal vigilance, the balance of life and sustenance is preserved, promising renewal and plenty for all who live in harmony with her natural domains."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Verdant Cradle",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "tiqyzeus",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Hammer and Anvil",
+            "entries": [
+                "Tiqyzeus, the revered God of Artisans, is a divine figure who celebrates the craftsmanship and creativity inherent in the mortal soul. Manifesting in the mortal realm as a master blacksmith, he embraces the role with a palpable ease, finding solace and purpose in the rhythmic dance of hammer and anvil. The forge fires cast his form in an eternal silhouette of industrious dedication, with each strike of his hammer resonating like a celestial heartbeat across the worlds.\n\nThough he often appears in the guise of a humble blacksmith, his legendary presence can be felt and heard far beyond the confines of any workshop. The reverberating clang of his hammer echoes through the fabric of creation, inspiring artisans and craftsmen to reach new heights of mastery and innovation.\n\nLegend holds that Tiqyzeus is the creator of the warforged, the sentient constructs born from the fusion of metal and magic, imbued with life by his unparalleled skill. Through them, his influence persists as a testament to the enduring power of creativity and the bonds forged between material and spirit. Tiqyzeus stands as a patron and mentor to all who seek to shape the world with their hands, embodying the divine craftsmanship that bridges the realms of gods and mortals."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Lithic Bastion",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "jasandoril",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Elephant Face",
+            "entries": [
+                "Jasandoril is an enigmatic figure who wanders the realms, crossing paths with adventurers at opportune moments to offer his unique services and mysterious aid. Radiating an aura of wisdom and experience, he carries an air of intrigue that suggests a history far deeper than what meets the eye. His captivating presence is both reassuring and enigmatic, drawing in those who are fortunate to encounter him.\n\nLong ago, Jasandoril was imprisoned in a mystical lamp by Artemis, a consequence of a forgotten transgression or misunderstood magic. This ancient binding left him with a deep well of arcane knowledge and the ability to assist those in need, often by uncovering hidden truths or providing guidance through treacherous paths.\n\nThough his freedom is now unfettered, echoes of that time still linger in his essence, lending a touch of melancholy to his otherwise generous spirit. Jasandoril's encounters with adventurers are marked by a peculiar blend of fortuity and purpose, as he continues to navigate the world, offering aid in unexpected and extraordinary ways, forever bound to the wanderer's journey."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "Terra",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "caprico",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Billy Goat Head",
+            "entries": [
+                "Caprico, the enigmatic Guardian of Time, stands as the vigilant protector of the delicate threads that weave the continuity of existence. His presence is both ethereal and commanding, ensuring that time's relentless flow remains unbroken despite the myriad threats that seek to unravel its fabric. With the head of a billy goat, Caprico embodies both the wisdom of age and the vitality of nature, his inscrutable gaze peering through the ages with unwavering focus.\n\nWhen Caprico appears, time itself seems to pause, drawing attention to the fragility of the moments he safeguards. In his wake, he leaves a trail of black blossoms, strange and beautiful reminders of his passage, each petal a silent testament to the mysteries of time that he guards so fiercely. These flowers, as ephemeral as the seconds they represent, whisper the tales of epochs past and futures yet to be.\n\nHis existence is essential, a cornerstone ensuring that the past, present, and future remain harmonious. Those who witness Caprico are left with a profound sense of awe, cognizant of his ceaseless duty and the preciousness of each fleeting moment he protects."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Veil",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "the keywright",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Bunch of Keys",
+            "entries": [
+                "The Keywright, also known as the Lord of the Keys, is an enigmatic emissary from the outer planes, carrying with him a mystique as vast as the boundless realms he traverses. With a key for every lock, his mastery spans all domains and dimensions, granting him access to the seen and unseen corners of existence.\n\nAdorned with countless luggage, backpacks, and pouches, he embodies the essence of infinite travel, each bag holding secrets and treasures from worlds far and wide. His attire is an eclectic tapestry from varied planes, a testament to his endless journey through time and space.\n\nEvery key he possesses holds the promise of discovery and potential, making him a figure of fascination to those who seek the unknown or are in need of passage to the unreachable. The Keywright's presence, both mysterious and purposeful, hints at the vast knowledge and experiences gathered over endless voyages, ensuring that he remains a revered and sought-after ally to those fortunate enough to encounter him on their own paths."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Veil",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "morena",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Scythe",
+            "entries": [
+                "Morena, the enigmatic god often associated with death, is the divine messenger tasked with guiding the souls of the departed to their final resting place. He embodies the impartial passage between life and the afterlife, coming to collect the souls of those whose time has come with a serene presence that is both inevitable and gentle."
+            ],
+            "page": 0,
+            "alignment": [
+                "N"
+            ],
+            "customProperties": {
+                "Plane": "Morena's Realm ",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": "**Preamble:**\nWithin these pages lies the path of shadow and purpose, known only to those consecrated as Blood Merchants. In service to Morena, the God of Passage, we maintain the sacred balance, delivering those forsaken by destiny or those who defy its course.\n\n**Directive I:**\nA Blood Merchant honors the whispers of Morena above all; their actions must align with the divine mandate, beyond personal vendetta or mortal gain.\n\n**Directive II:**\nDiscretion and silence are the shields of the Blood Merchant. No act shall reveal our purpose to the common world, lest chaos robs the balance we protect.\n\n**Directive III:**\nUpon contemplation of each soul's balance, a Blood Merchant executes their duty with precision, ensuring minimal disruption to the natural order.\n\n**Directive IV:**\nThe life that must pass shall do so with respect, recognizing the inevitability of their passage, bestowing neither cruelty nor mercy, only the tide of fate.\n\n**Directive V:**\nIn unity and secrecy, the Blood Merchants support one another, guarding the knowledge and the integrity of this solemn pact.\n\nThus, let these principles guide your hand and heart in the service of the eternal balance."
+            }
+        },
+        {
+            "name": "erebus",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Black",
+            "entries": [
+                "Erebus, the enigmatic God of Darkness and the Deeps, is revered as the solemn guardian of the world's shadowy caverns and untold depths. His presence, though terrifying in its vastness, is not inherently malevolent, but rather a testament to the profound mysteries that lie within the earth's hidden recesses.\n\nManifesting as a figure wreathed in impenetrable shadow, Erebus embodies the silence and stillness of the underground realms. His eyes, glowing faintly like distant stars, pierce the inky blackness, offering a watchful gaze over those who dare venture into the caves and mines. His form shifts and melds with the darkness, evoking awe and a primal respect for the unknown.\n\nDespite his fearsome appearance, Erebus serves as a neutral arbiter of the subterranean world, balancing the forces of nature and safeguarding against disturbances to the earth’s quiet sanctuaries. Those who acknowledge his dominion tread carefully, respecting the delicate equilibrium of darkness and light, aware that within the shadows lie both hidden dangers and the potential for discovery."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Unraveling Ends",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "alcmeon",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Boat",
+            "entries": [
+                "Alcméon, the Astral Vagabond, is a mystical figure who sails the boundless expanses of the astral sea on his ethereal flying boat. With sails of shimmering stardust and a vessel carved from the light of distant galaxies, Alcméon navigates the cosmic currents with a spirit of boundless curiosity and adventure.\n\nKnown as a guardian of travelers, he watches over those who journey the vast astral realms, offering protection and guidance from unseen perils. Tales of encountering Alcméon are cherished, for his presence is said to bestow good fortune and serendipitous paths to those fortunate enough to cross his way.\n\nHis legend is one of mystery and magnanimity, as he weaves through the astral canvas, a beacon of hope and wonder. Often described as both wise and whimsical, Alcméon inspires wanderers and explorers, reminding them that the journey is as significant as the destination, and that the universe holds endless possibilities for those daring enough to seek them."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Veil",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "canuk",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Book",
+            "entries": [
+                "Canuk, known as The Librarian, is a god revered as the guardian of knowledge and the keeper of infinite wisdom. Within his vast, ethereal library, boundless bookshelves stretch endlessly, each tome capturing the collective knowledge and secrets of the world. Canuk's domain is a sanctuary of learning, filled with the quiet rustle of turning pages and the gentle glow of reading lamps that flicker with enchanted light.\n\nIn myth, Canuk's search for understanding led him to a poignant and unreciprocated romance with Ophelie, a figure of captivating allure. This tale of longing and unfulfilled love inspired a theatrical play, celebrated for its depth but controversially banned across the world due to its sensitive portrayal of divine emotions. Despite its prohibition, the play remains beloved by Ophelie and Roma, celebrated in clandestine circles for its exploration of love and the eternal pursuit of wisdom.\n\nCanuk, with his infinite library, continues to embody the pursuit of knowledge, inspiring scholars and seekers who value learning above all else. His legend serves as a testament to the complexities of desire and the pursuit of enlightenment."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "Everbright",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "liod",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Snowflake",
+            "entries": [
+                "Liod, the formidable God and Master of Winter, is a deity whose presence heralds the chilling embrace of the cold season. Cloaked in frost and wreathed in icy winds, Liod's appearance is often accompanied by a deep, biting chill that blankets the land in silence and stillness. His eyes are said to glisten like glaciers under a pale sun, reflecting both the beauty and the harshness of winter.\n\nAncient scriptures chronicle tales of Liod's wrath, describing times when his anger caused winter's icy grip to linger for years, spreading despair and hardship. These stories serve as both awe-inspiring myths and cautionary tales, illustrating the power of nature's cycles and the need for respect and balance.\n\nLiod's influence can transform the landscape into a crystalline wonderland or a relentless, frozen wilderness, reminding all of the dual nature of winter—an essential, yet potentially devastating force. As both a guardian and a bringer of the cold, Liod embodies the majesty and the menace of winter's enduring legacy."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Lithic Bastion",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "hase",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Wings",
+            "entries": [
+                ""
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "Terra",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "nerion",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Intertwined Snake",
+            "entries": [
+                "Nerion, the God of the Seas and Storms, reigns as a formidable and awe-inspiring deity, his presence as vast and deep as the oceans he commands. To those deemed worthy, Nerion reveals himself as a colossal sea snake, whose scales shimmer with all the hues of the deep—ranging from the darkest midnight blue to the radiant turquoise of sunlit shallows.\n\nHis eyes, luminous and ever-watchful, gleam like polished pearls, reflecting the wisdom and power of the boundless waters. The very air crackles with thunderous energy when he emerges, and his serpentine form coils with the fluid grace of the ocean waves. Around him, the seas swell and churn, embodying both the serenity of calm waters and the raw fury of tempests.\n\nNerion's presence is a testament to the balance of nature's gentleness and its fierce power, a reminder of the respect owed to the vast seas and the storms that sweep across them. Those who encounter him are often imbued with a profound understanding of the ocean's majesty, their hearts forever marked by the divine essence of the god who watches over all waters."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "Terra",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "scaphandria",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Scaphander",
+            "entries": [
+                "Scaphandria, the enigmatic God of the Deep, stands as the formidable Guardian of the ocean's most profound mysteries. Veiled in the murky, unfathomable depths, Scaphandria embodies the fear and anguish often associated with the dark, unknown expanses of the sea. His presence is sensed rather than seen, like the unnerving chill and oppressive weight of the abyssal depths.\n\nHe is often envisioned as a shadowy figure cloaked in the swirling currents of the deep, with eyes that pierce through the darkness like distant, luminous orbs. The very water around him seems to pulse with an eerie, rhythmic breath, echoing the heartbeats of those who dare venture too close. His dominion extends over the hidden wonders and terrors lurking beneath the waves, commanding respect and caution from all who sail upon the sea.\n\nWhile Scaphandria protects the ocean's secrets, he also serves as a reminder of the delicate line between fear and fascination, drawing mortals into the mysteries of the ocean while evoking awe and reverence for its boundless depth."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Lithic Bastion",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "malkuth",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Planet in a Globe",
+            "entries": [
+                "Malkuth, the God Patroller of the Cosmos, is revered as the vigilant sentinel of the celestial realms. Manifesting as a towering figure clad in robes woven from stardust and cosmic light, he embodies the precise balance and order that govern the universe. His eyes, deep voids filled with swirling galaxies, observe the intricate dance of celestial bodies with unwavering focus.\n\nIn his hands, he wields a staff forged from comets and constellations, a symbol of his authority over the harmonious movement of planets and stars. Malkuth's presence is one of serene potency, a guiding force that ensures the cosmos remains in equilibrium.\n\nAs the eternal guardian of the night sky, Malkuth is regarded as both protector and arbiter, overseeing the natural laws that bind the universe. His followers, attuned to the rhythms of the heavens, seek to embody his principles of balance and vigilance, recognizing the divine harmony that underpins all existence."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Veil",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "unmada",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Butterfly",
+            "entries": [
+                "Unmada, the God of Madness, personifies chaos and the tumultuous depths of the human psyche. Often depicted as an enigmatic figure cloaked in swirling shadows and flickering lights, his presence is both mesmerizing and unsettling. His eyes, ever-shifting in color and intensity, are said to reflect the myriad forms of madness—from the whispering curiosity of a child's imagination to the stormy torment of a fractured mind.\n\nUnmada's influence weaves through dreams and reality alike, dissolving the barriers between logic and lunacy. His laughter, echoing through the corridors of thought, is both captivating and disconcerting, inviting mortals to explore the fringes of sanity.\n\nDespite the fear he inspires, Unmada is also seen as a source of inspiration and unconventional wisdom, revealing insights hidden beyond the realm of reason. Followers who embrace the chaos he embodies often walk a fine line between brilliance and madness, channeling his power to uncover the truths veiled by"
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Domain of Torment",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "somnio",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Blurried Face",
+            "entries": [
+                "Somnio, the enigmatic Deity of Dreams, reigns over the ethereal realm where the subconscious weaves its intricate tapestry. Depicted as a figure of shifting shadows and gentle luminescence, Somnio possesses a form that adapts to the dreamscape around them. Most strikingly, they bear no face, symbolizing the boundless and undefined nature of dreams themselves.\n\nIn their dominion, the boundaries of reality dissolve into a flowing canvas of imagination, where thoughts and desires manifest into landscapes as varied as the stars. Somnio moves silently through these ephemeral worlds, guiding dreamers through their nighttime odysseys.\n\nTheir presence is both comforting and mysterious, a silent conductor of the symphony of dreams. As the guardian of slumber, Somnio inspires both wonder and introspection, inviting souls to explore the hidden depths of their inner worlds and the limitless possibilities of the dreaming mind. Followers who revere the power of dreams often find insight and creativity in the whispers from Somnio's domain.\n\n\\page"
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Dreamscape",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "ole lokoje",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Magnifier Between Brackets",
+            "entries": [
+                "Ole Lokoje, the elusive God of Sleep, is a figure shrouded in mystery, moving with an air of inevitability as he guides the living into the depths of slumber. Revered also as the Sandman and the King of Dunes, his presence is heralded by the whispering sands that dance in his wake, shimmering with a spectral glow under the cloak of night.\n\nAs darkness descends, Ole Lokoje quietly pursues those not yet surrendered to rest, his influence a compelling force that draws them into the boundless realms of dreams. His embrace is one of profound stillness, enveloping the world in a hushed silence that silences the waking world.\n\nThe sands of his domain, ever-shifting, cradle those who wander into his grasp, offering visions woven from the fabric of dreams. An enigma to mortals, Ole Lokoje’s intentions remain inscrutable, his ceaseless journey a reminder of the transient barrier between wakefulness and the shadowed allure of sleep."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Dreamscape",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "ezhoxorh",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Milletipede",
+            "entries": [
+                "Ezhoxorh, the formidable God of Plagues, Pestilence, and Nefarious Insects, is a deity whose presence heralds chaos and decay. Cloaked in swirling shadows, Ezhoxorh commands a terrifying force that reflects the untamed power of nature's darkest aspects. Clouds of virulent miasma surround them, casting an ominous gloom wherever they tread.\n\nEzhoxorh's influence is far-reaching; they are the harbinger of swarms that blot out the sun, carrying with them disease and destruction. These nefarious insects are extensions of Ezhoxorh’s will, spreading pestilence and laying waste to the lands they scourge.\n\nTheir role in the pantheon is one of dread and caution, a reminder of the thin line between order and chaos. Oaths are whispered in their name to stave off their wrath, for Ezhoxorh's dominion stands as both a testament to nature's might and a warning of the havoc wrought by unchecked decay."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Withered Womb",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "zerecilda",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "Centipede",
+            "entries": [
+                "Zerecilda, the gentle Goddess of Bugs and Insects, is revered as the protectress of the swarms and the hives, embodying the delicate balance and intricate harmony of the natural world. Envisioned as a figure adorned with wings that shimmer with iridescent colors, her presence exudes a calming aura that nurtures and protects the myriad creatures under her care.\n\nKnown for her benevolence, Zerecilda is often depicted with an expression of serene compassion, her touch gentle and transformative, guiding her insect kin toward unity and purpose. Her domain is a vibrant tapestry of buzzing life, where every creature plays a crucial role in the web of existence.\n\nAs a goddess, Zerecilda inspires humans to appreciate the vital roles of insects in pollination, decomposition, and the fine-tuning of ecosystems. Her followers, who understand the beauty and necessity of her charges, are guided by her wisdom to foster coexistence with these small yet mighty beings, ensuring the continuation of life's intricate dance."
+            ],
+            "page": 0,
+            "alignment": [
+                "L"
+            ],
+            "customProperties": {
+                "Plane": "The Withered Womb",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "azromar",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "A gem-encrusted hammer buried halfway in bedrock",
+            "entries": [
+                "Azromar is carved from the first stone that ever cooled. He slumbers and wakes with the tectonic rhythm of eternity. Dwelling deep within the Lithic Bastion, a plane of colossal caverns, diamond peaks, and basalt skies, Azromar is unmoving yet ever-present.\n\nHis form is vast and multifaceted, a living monolith whose skin resembles polished granite veined with veins of sapphire and ruby. His voice is a tremor; his footsteps are fault lines. He speaks little, but his teachings are etched into the world’s bones.\n\nHe is revered by builders, miners, and those who seek unyielding strength in the face of time."
+            ],
+            "page": 0,
+            "alignment": [
+                "N"
+            ],
+            "customProperties": {
+                "Plane": "The Lithic Bastion",
+                "Followers": "Dwarven architects, stone-carving ascetics, gemcutters who hear “the song beneath the stone.",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "sepsurion",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "A cracked seed overrun by mushroom growth, encircled by buzzing flies",
+            "entries": [
+                "Sepsurion is not the god of death. He is the god of what lingers after—the black mold in sanctuaries, the sweet rot of fallen kings, the bloated fruit of a cursed orchard. Where death ends, Sepsurion begins.\n\nOnce whispered of in the dark corners of druidic groves, he was never worshipped, only acknowledged, like the inevitable scent that follows rainfall on a grave. His form, when glimpsed through fungal hallucination or in fevered decay, is that of a towering figure composed of rot and bloom—a body of rootlike tendons, a crown of flies, and a smile that never reaches its ivory-pale eyes.\n\nHe does not destroy. He reclaims."
+            ],
+            "page": 0,
+            "alignment": [
+                "N"
+            ],
+            "customProperties": {
+                "Plane": "The Withered Womb",
+                "Followers": "Hermitic druids who believe in the sanctity of rot, Poisoners and plague-bearers who call it “the sacred cycle”, Forgotten caretakers of mass graves and bog tombs, Cults that preserve rather than embalm, letting noble flesh return to soil",
+                "Slogan": "",
+                "Lore": "It is said Sepsurion once gifted a blossom to a mortal king—a flower that bloomed only after the king’s death. From that blossom spread a plague that cleansed an empire, returning its marble cities to soil and root. The people called it a curse. Sepsurion called it a return.",
+                "Quote": "“Even the gods will mold one day.” — Last words of the priest Moldan of Thyr."
+            }
+        },
+        {
+            "name": "the legislator",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "",
+            "entries": [
+                "The Legislator"
+            ],
+            "page": 0,
+            "alignment": [
+                "N"
+            ],
+            "customProperties": {
+                "Plane": "The Infinite Loom",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "the justificator",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "",
+            "entries": [
+                "The Justificator"
+            ],
+            "page": 0,
+            "alignment": [
+                "N"
+            ],
+            "customProperties": {
+                "Plane": "The Infinite Loom",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "the weaver",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "",
+            "entries": [
+                "The Weaver"
+            ],
+            "page": 0,
+            "alignment": [
+                "N"
+            ],
+            "customProperties": {
+                "Plane": "The Infinite Loom",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        },
+        {
+            "name": "the architect",
+            "source": "EverydayGuidetoConcordCity",
+            "pantheon": "None",
+            "symbol": "",
+            "entries": [
+                "The Architect"
+            ],
+            "page": 0,
+            "alignment": [
+                "N"
+            ],
+            "customProperties": {
+                "Plane": "The Infinite Loom",
+                "Followers": "",
+                "Slogan": "",
+                "Lore": "",
+                "Quote": ""
+            }
+        }
+    ],
     "classFeature": [
         {
             "className": "Anomalous",
