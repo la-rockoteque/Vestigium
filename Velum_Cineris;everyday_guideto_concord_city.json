@@ -204,8 +204,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1755513950,
-        "_dateLastModifiedHash": "6f2326c862",
+        "dateLastModified": 1755514262,
+        "_dateLastModifiedHash": "bd400ebc66",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -34837,6 +34837,138 @@
     ],
     "item": [
         {
+            "name": ".30-30 Winchester",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "A",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none",
+            "entries": [
+                "A classic lever-action rifle round. Known for moderate recoil and effectiveness against medium-sized targets at short-to-mid range."
+            ]
+        },
+        {
+            "name": ".300 Winchester Magnum",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "A",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none",
+            "entries": [
+                "A high-powered sniper cartridge with exceptional ballistic performance. Used for precision shooting over extended distances."
+            ]
+        },
+        {
+            "name": ".38 Hollow-Point Cartridge",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "A",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none",
+            "entries": [
+                "A classic revolver round with a concave tip. Expands upon impact to maximize internal damage while reducing overpenetration."
+            ]
+        },
+        {
+            "name": ".44 Magnum",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "A",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none",
+            "entries": [
+                "A powerful revolver cartridge favored for its massive stopping power. Known for heavy recoil and devastating close-range damage."
+            ]
+        },
+        {
+            "name": ".50 Action Express",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "A",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none",
+            "entries": [
+                "An extremely high-caliber pistol round used in hand cannons. Capable of penetrating armored targets at short range with explosive impact."
+            ]
+        },
+        {
+            "name": "12 Gauge Buckshot",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "A",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none",
+            "entries": [
+                "Contains multiple metal pellets, spreading upon firing. Highly lethal at close range and favored for home defense and tactical use."
+            ]
+        },
+        {
+            "name": "12 Gauge Short Shells",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "A",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none",
+            "entries": [
+                "Compact shotgun shells with reduced recoil and pellet count. Ideal for small shotguns and increased magazine capacity."
+            ]
+        },
+        {
+            "name": "12 Gauge Slug",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "A",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none",
+            "entries": [
+                "A single heavy metal projectile fired from a shotgun. Excellent for short-range armor penetration and door breaching."
+            ]
+        },
+        {
+            "name": "5.56×45mm NATO",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "A",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none",
+            "entries": [
+                "A standard intermediate rifle cartridge used in assault rifles. Offers good balance of range, recoil, and armor-piercing potential."
+            ]
+        },
+        {
+            "name": "5cc Neuro-Dart",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "A",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none",
+            "entries": [
+                "A tranquilizer dart filled with neuro-suppressant chemicals. Designed for silent takedowns of living targets without lasting harm."
+            ]
+        },
+        {
+            "name": "7.62×51mm NATO",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "A",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none",
+            "entries": [
+                "A full-power rifle cartridge used in designated marksman rifles and machine guns. Renowned for long-range precision and reliability."
+            ]
+        },
+        {
             "name": "8-Track Player",
             "source": "EverydayGuidetoConcordCity",
             "type": "OTH",
@@ -34846,6 +34978,42 @@
             "rarity": "none",
             "entries": [
                 "Predecessor to cassette decks. Bulky and unreliable, but still found in older break rooms and security vehicles."
+            ]
+        },
+        {
+            "name": "9×18mm Makarov",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "A",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none",
+            "entries": [
+                "A slightly lower-pressure cartridge compared to 9mm Parabellum. Common in compact pistols and older military sidearms."
+            ]
+        },
+        {
+            "name": "9×19mm Parabellum",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "A",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none",
+            "entries": [
+                "The most common handgun and SMG cartridge in modern use. Reliable, versatile, and widely manufactured across civilian and military sectors."
+            ]
+        },
+        {
+            "name": "9mm",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "A",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none",
+            "entries": [
+                "A generic shorthand for the 9×19mm Parabellum or similar cartridges. Often used interchangeably with standard service pistol ammo."
             ]
         },
         {
@@ -35105,16 +35273,19 @@
             ]
         },
         {
-            "name": "Bean Bag Round",
+            "name": "Assault Rifle",
             "source": "EverydayGuidetoConcordCity",
-            "type": "A",
+            "type": "OTH",
             "value": 100.0,
             "weight": 10.0,
             "page": 0.0,
             "rarity": "none",
-            "entries": [
-                "A non-lethal shotgun shell that fires a small fabric sack filled with lead pellets. Designed to incapacitate targets through blunt trauma without penetration."
-            ]
+            "property": [
+                "MMN",
+                "RST",
+                "LD"
+            ],
+            "dmg1": "4d8"
         },
         {
             "name": "Audio Recorder",
@@ -35195,7 +35366,7 @@
             "rarity": "none"
         },
         {
-            "name": "Energy Cell",
+            "name": "Bean Bag Round",
             "source": "EverydayGuidetoConcordCity",
             "type": "A",
             "value": 100.0,
@@ -35203,8 +35374,17 @@
             "page": 0.0,
             "rarity": "none",
             "entries": [
-                "A rechargeable, palm-sized capacitor that provides energy for plasma or directed-energy weapons. Emits a soft hum when fully charged."
+                "A non-lethal shotgun shell that fires a small fabric sack filled with lead pellets. Designed to incapacitate targets through blunt trauma without penetration."
             ]
+        },
+        {
+            "name": "Biker Gear",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "LA",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none"
         },
         {
             "name": "Binder Clips",
@@ -35659,6 +35839,27 @@
             ]
         },
         {
+            "name": "Catalyst",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "SCF",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none"
+        },
+        {
+            "name": "Celebrityl Massager (Vibe)",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "OTH",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none",
+            "entries": [
+                "Analog motor, loud. May have other uses (distraction device, nervous stim tool, spirit irritant)."
+            ]
+        },
+        {
             "name": "Ceramic Mug (Office-Issued)",
             "source": "EverydayGuidetoConcordCity",
             "type": "OTH",
@@ -35750,6 +35951,15 @@
             "entries": [
                 "Sold quietly from behind the counter. Includes size warnings, self-written disclaimers, and a faded “no refunds” tag."
             ]
+        },
+        {
+            "name": "Chic Shoes",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "OTH",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none"
         },
         {
             "name": "Cigarette Case (Empty)",
@@ -35920,28 +36130,20 @@
             ]
         },
         {
-            "name": "9×19mm Parabellum",
+            "name": "Combat Shotgun",
             "source": "EverydayGuidetoConcordCity",
-            "type": "A",
+            "type": "OTH",
             "value": 100.0,
             "weight": 10.0,
             "page": 0.0,
             "rarity": "none",
-            "entries": [
-                "The most common handgun and SMG cartridge in modern use. Reliable, versatile, and widely manufactured across civilian and military sectors."
-            ]
-        },
-        {
-            "name": "9mm",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "A",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none",
-            "entries": [
-                "A generic shorthand for the 9×19mm Parabellum or similar cartridges. Often used interchangeably with standard service pistol ammo."
-            ]
+            "property": [
+                "MMN",
+                "D",
+                "LD",
+                "PRD"
+            ],
+            "dmg1": "4d8"
         },
         {
             "name": "Compact Car",
@@ -35962,28 +36164,20 @@
             "rarity": "none"
         },
         {
-            "name": ".44 Magnum",
+            "name": "Compact SMG",
             "source": "EverydayGuidetoConcordCity",
-            "type": "A",
+            "type": "OTH",
             "value": 100.0,
             "weight": 10.0,
             "page": 0.0,
             "rarity": "none",
-            "entries": [
-                "A powerful revolver cartridge favored for its massive stopping power. Known for heavy recoil and devastating close-range damage."
-            ]
-        },
-        {
-            "name": ".50 Action Express",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "A",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none",
-            "entries": [
-                "An extremely high-caliber pistol round used in hand cannons. Capable of penetrating armored targets at short range with explosive impact."
-            ]
+            "property": [
+                "MMN",
+                "RST",
+                "LD",
+                "LNT"
+            ],
+            "dmg1": "3d6"
         },
         {
             "name": "Concussive Charge",
@@ -36181,15 +36375,18 @@
             "rarity": "none"
         },
         {
-            "name": "Net Gun Cartridge",
+            "name": "Dart Gun",
             "source": "EverydayGuidetoConcordCity",
-            "type": "A",
+            "type": "OTH",
             "value": 100.0,
             "weight": 10.0,
             "page": 0.0,
             "rarity": "none",
-            "entries": [
-                "A compressed gas-powered cartridge that deploys a weighted net to entangle and immobilize targets. Often used for capture or crowd control."
+            "property": [
+                "MMN",
+                "LD",
+                "LNT",
+                "RNQ"
             ]
         },
         {
@@ -36262,15 +36459,6 @@
             ]
         },
         {
-            "name": "Polaroid",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none"
-        },
-        {
             "name": "Disposable Gloves (Latex)",
             "source": "EverydayGuidetoConcordCity",
             "type": "OTH",
@@ -36283,16 +36471,20 @@
             ]
         },
         {
-            "name": "Phantom Clip",
+            "name": "Disposable Smartgun",
             "source": "EverydayGuidetoConcordCity",
-            "type": "A",
+            "type": "OTH",
             "value": 100.0,
             "weight": 10.0,
             "page": 0.0,
             "rarity": "none",
-            "entries": [
-                "A smart magazine loaded with encrypted sub-sonic caseless rounds. Also carries targeting telemetry for smartguns with onboard systems."
-            ]
+            "property": [
+                "MMN",
+                "NCR",
+                "LD",
+                "LNT"
+            ],
+            "dmg1": "3d6"
         },
         {
             "name": "Disposable Vibrator",
@@ -36319,64 +36511,37 @@
             ]
         },
         {
-            "name": "Plasma Core",
+            "name": "Double-Barreled Pistol",
             "source": "EverydayGuidetoConcordCity",
-            "type": "A",
+            "type": "OTH",
             "value": 100.0,
             "weight": 10.0,
             "page": 0.0,
             "rarity": "none",
-            "entries": [
-                "A high-density fuel cell suspended in magnetic containment. Powers plasma-based rifles with destructive energy bursts and superheated gas."
-            ]
+            "property": [
+                "MMN",
+                "RST",
+                "D",
+                "CL",
+                "LD"
+            ],
+            "dmg1": "6d6"
         },
         {
-            "name": "7.62×51mm NATO",
+            "name": "Drum-fed SMG",
             "source": "EverydayGuidetoConcordCity",
-            "type": "A",
+            "type": "OTH",
             "value": 100.0,
             "weight": 10.0,
             "page": 0.0,
             "rarity": "none",
-            "entries": [
-                "A full-power rifle cartridge used in designated marksman rifles and machine guns. Renowned for long-range precision and reliability."
-            ]
-        },
-        {
-            "name": "5.56×45mm NATO",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "A",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none",
-            "entries": [
-                "A standard intermediate rifle cartridge used in assault rifles. Offers good balance of range, recoil, and armor-piercing potential."
-            ]
-        },
-        {
-            "name": ".300 Winchester Magnum",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "A",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none",
-            "entries": [
-                "A high-powered sniper cartridge with exceptional ballistic performance. Used for precision shooting over extended distances."
-            ]
-        },
-        {
-            "name": ".30-30 Winchester",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "A",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none",
-            "entries": [
-                "A classic lever-action rifle round. Known for moderate recoil and effectiveness against medium-sized targets at short-to-mid range."
-            ]
+            "property": [
+                "MMN",
+                "RST",
+                "D",
+                "LD"
+            ],
+            "dmg1": "4d6"
         },
         {
             "name": "Duct Tape",
@@ -36487,7 +36652,7 @@
             ]
         },
         {
-            "name": "Rubber Bullet Magazine",
+            "name": "Energy Cell",
             "source": "EverydayGuidetoConcordCity",
             "type": "A",
             "value": 100.0,
@@ -36495,7 +36660,7 @@
             "page": 0.0,
             "rarity": "none",
             "entries": [
-                "A detachable magazine loaded with rubber or plastic bullets for riot control. Non-lethal but capable of serious injury at close range."
+                "A rechargeable, palm-sized capacitor that provides energy for plasma or directed-energy weapons. Emits a soft hum when fully charged."
             ]
         },
         {
@@ -36508,40 +36673,36 @@
             "rarity": "none"
         },
         {
-            "name": "12 Gauge Slug",
+            "name": "Energy Pistol",
             "source": "EverydayGuidetoConcordCity",
-            "type": "A",
+            "type": "OTH",
             "value": 100.0,
             "weight": 10.0,
             "page": 0.0,
             "rarity": "none",
-            "entries": [
-                "A single heavy metal projectile fired from a shotgun. Excellent for short-range armor penetration and door breaching."
-            ]
+            "property": [
+                "MMN",
+                "NRG",
+                "LNT"
+            ],
+            "dmg1": "4d6"
         },
         {
-            "name": "12 Gauge Buckshot",
+            "name": "Energy SMG",
             "source": "EverydayGuidetoConcordCity",
-            "type": "A",
+            "type": "OTH",
             "value": 100.0,
             "weight": 10.0,
             "page": 0.0,
             "rarity": "none",
-            "entries": [
-                "Contains multiple metal pellets, spreading upon firing. Highly lethal at close range and favored for home defense and tactical use."
-            ]
-        },
-        {
-            "name": "12 Gauge Short Shells",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "A",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none",
-            "entries": [
-                "Compact shotgun shells with reduced recoil and pellet count. Ideal for small shotguns and increased magazine capacity."
-            ]
+            "property": [
+                "MMN",
+                "RST",
+                "NRG",
+                "LD",
+                "LNT"
+            ],
+            "dmg1": "4d6"
         },
         {
             "name": "Energy Syrup Shot",
@@ -36587,6 +36748,15 @@
             "entries": [
                 "Comes with 6 adhesive options. One smells like shoe polish."
             ]
+        },
+        {
+            "name": "Fashionable Clothes",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "OTH",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none"
         },
         {
             "name": "Faux-Fur Handcuffs",
@@ -36721,16 +36891,20 @@
             ]
         },
         {
-            "name": "5cc Neuro-Dart",
+            "name": "Flamethrower",
             "source": "EverydayGuidetoConcordCity",
-            "type": "A",
+            "type": "OTH",
             "value": 100.0,
             "weight": 10.0,
             "page": 0.0,
             "rarity": "none",
-            "entries": [
-                "A tranquilizer dart filled with neuro-suppressant chemicals. Designed for silent takedowns of living targets without lasting harm."
-            ]
+            "property": [
+                "MMN",
+                "D",
+                "VRH",
+                "PRD"
+            ],
+            "dmg1": "5d6"
         },
         {
             "name": "Flash Cartridge (Camera)",
@@ -36766,22 +36940,6 @@
             "rarity": "none",
             "entries": [
                 "Blinds and deafens creatures in a 20 ft. radius for 1d4 rounds on failed CON save. Used for breaching or crowd control."
-            ]
-        },
-        {
-            "name": "Heavy-Duty Flashlight",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "G",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none",
-            "property": [
-                "TTR",
-                "WRD"
-            ],
-            "entries": [
-                "A long metal flashlight. Can be used as an improvised weapon. Flickers if shaken."
             ]
         },
         {
@@ -36930,18 +37088,6 @@
             "rarity": "none"
         },
         {
-            "name": "Gag (Ball or Ring)",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none",
-            "entries": [
-                "Typically part of restraint kits. Popular in underground arenas and intimacy cults alike."
-            ]
-        },
-        {
             "name": "Fuel Tank",
             "source": "EverydayGuidetoConcordCity",
             "type": "A",
@@ -36954,9 +37100,45 @@
             ]
         },
         {
+            "name": "Gag (Ball or Ring)",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "OTH",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none",
+            "entries": [
+                "Typically part of restraint kits. Popular in underground arenas and intimacy cults alike."
+            ]
+        },
+        {
             "name": "Gauss Rifle",
             "source": "EverydayGuidetoConcordCity",
             "type": "R",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none"
+        },
+        {
+            "name": "Gauss Rifle",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "OTH",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none",
+            "property": [
+                "MMN",
+                "NTR",
+                "LD"
+            ],
+            "dmg1": "8d12 "
+        },
+        {
+            "name": "Gaz Mask",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "G",
             "value": 100.0,
             "weight": 10.0,
             "page": 0.0,
@@ -37032,31 +37214,7 @@
             ]
         },
         {
-            "name": "9×18mm Makarov",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "A",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none",
-            "entries": [
-                "A slightly lower-pressure cartridge compared to 9mm Parabellum. Common in compact pistols and older military sidearms."
-            ]
-        },
-        {
-            "name": ".38 Hollow-Point Cartridge",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "A",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none",
-            "entries": [
-                "A classic revolver round with a concave tip. Expands upon impact to maximize internal damage while reducing overpenetration."
-            ]
-        },
-        {
-            "name": "Assault Rifle",
+            "name": "Hand Cannon",
             "source": "EverydayGuidetoConcordCity",
             "type": "OTH",
             "value": 100.0,
@@ -37065,10 +37223,25 @@
             "rarity": "none",
             "property": [
                 "MMN",
-                "RST",
+                "D",
+                "CL",
                 "LD"
             ],
-            "dmg1": "4d8"
+            "dmg1": "5d12 "
+        },
+        {
+            "name": "Handgun",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "OTH",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none",
+            "property": [
+                "MMN",
+                "LD"
+            ],
+            "dmg1": "3d6 "
         },
         {
             "name": "Handheld Gaming Device",
@@ -37078,6 +37251,22 @@
             "weight": 10.0,
             "page": 0.0,
             "rarity": "none"
+        },
+        {
+            "name": "Hanheld Thermal Imager",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "G",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none",
+            "property": [
+                "TTR",
+                "WRD"
+            ],
+            "entries": [
+                "Requires 2-handed use. Detects body heat through walls or darkness in 30 ft. cone. Refresh rate is slow (every 6 seconds). Useless in high-heat environments."
+            ]
         },
         {
             "name": "Hardlight Projection Shield",
@@ -37110,7 +37299,7 @@
             ]
         },
         {
-            "name": "Combat Shotgun",
+            "name": "Heavy Machine Gun",
             "source": "EverydayGuidetoConcordCity",
             "type": "OTH",
             "value": 100.0,
@@ -37119,27 +37308,10 @@
             "rarity": "none",
             "property": [
                 "MMN",
-                "D",
-                "LD",
-                "PRD"
+                "LLT",
+                "LD"
             ],
-            "dmg1": "4d8"
-        },
-        {
-            "name": "Compact SMG",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none",
-            "property": [
-                "MMN",
-                "RST",
-                "LD",
-                "LNT"
-            ],
-            "dmg1": "3d6"
+            "dmg1": "6d12 "
         },
         {
             "name": "Heavy Rotary Stamp",
@@ -37154,7 +37326,32 @@
             ]
         },
         {
-            "name": "Dart Gun",
+            "name": "Heavy-Duty Flashlight",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "G",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none",
+            "property": [
+                "TTR",
+                "WRD"
+            ],
+            "entries": [
+                "A long metal flashlight. Can be used as an improvised weapon. Flickers if shaken."
+            ]
+        },
+        {
+            "name": "Hicking Shoes",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "OTH",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none"
+        },
+        {
+            "name": "Hunting Rifle",
             "source": "EverydayGuidetoConcordCity",
             "type": "OTH",
             "value": 100.0,
@@ -37163,10 +37360,10 @@
             "rarity": "none",
             "property": [
                 "MMN",
-                "LD",
-                "LNT",
-                "RNQ"
-            ]
+                "GHL",
+                "LD"
+            ],
+            "dmg1": "5d12 "
         },
         {
             "name": "Ice Pick",
@@ -37421,7 +37618,7 @@
             ]
         },
         {
-            "name": "Disposable Smartgun",
+            "name": "Lever-Action Rifle",
             "source": "EverydayGuidetoConcordCity",
             "type": "OTH",
             "value": 100.0,
@@ -37430,11 +37627,10 @@
             "rarity": "none",
             "property": [
                 "MMN",
-                "NCR",
-                "LD",
-                "LNT"
+                "GHL",
+                "LD"
             ],
-            "dmg1": "3d6"
+            "dmg1": "4d10 "
         },
         {
             "name": "LIDAR Scope (Mounted)",
@@ -37459,6 +37655,15 @@
             "entries": [
                 "Engraved with logos from dead corporations. Works every time—or never when it counts."
             ]
+        },
+        {
+            "name": "Lingerie",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "OTH",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none"
         },
         {
             "name": "Lingerie Set (Mesh/Lace)",
@@ -37546,7 +37751,7 @@
             ]
         },
         {
-            "name": "Double-Barreled Pistol",
+            "name": "Machine Pistol",
             "source": "EverydayGuidetoConcordCity",
             "type": "OTH",
             "value": 100.0,
@@ -37556,11 +37761,10 @@
             "property": [
                 "MMN",
                 "RST",
-                "D",
-                "CL",
+                "NCL",
                 "LD"
             ],
-            "dmg1": "6d6"
+            "dmg1": "3d4 "
         },
         {
             "name": "Mag-Lev Baton",
@@ -37629,7 +37833,7 @@
             ]
         },
         {
-            "name": "Drum-fed SMG",
+            "name": "Marksman Rifle",
             "source": "EverydayGuidetoConcordCity",
             "type": "OTH",
             "value": 100.0,
@@ -37638,11 +37842,11 @@
             "rarity": "none",
             "property": [
                 "MMN",
-                "RST",
-                "D",
-                "LD"
+                "GHL",
+                "LD",
+                "CPQ"
             ],
-            "dmg1": "4d6"
+            "dmg1": "5d10 "
         },
         {
             "name": "Matchbook (Soggy Corner)",
@@ -37848,19 +38052,16 @@
             "rarity": "none"
         },
         {
-            "name": "Energy Pistol",
+            "name": "Net Gun Cartridge",
             "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
+            "type": "A",
             "value": 100.0,
             "weight": 10.0,
             "page": 0.0,
             "rarity": "none",
-            "property": [
-                "MMN",
-                "NRG",
-                "LNT"
-            ],
-            "dmg1": "4d6"
+            "entries": [
+                "A compressed gas-powered cartridge that deploys a weighted net to entangle and immobilize targets. Often used for capture or crowd control."
+            ]
         },
         {
             "name": "Neural Disruptor Rod",
@@ -38084,6 +38285,15 @@
             ]
         },
         {
+            "name": "Painkillers",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "OTH",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none"
+        },
+        {
             "name": "Paperweight",
             "source": "EverydayGuidetoConcordCity",
             "type": "OTH",
@@ -38190,18 +38400,6 @@
             ]
         },
         {
-            "name": "Celebrityl Massager (Vibe)",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none",
-            "entries": [
-                "Analog motor, loud. May have other uses (distraction device, nervous stim tool, spirit irritant)."
-            ]
-        },
-        {
             "name": "Phantom Charge",
             "source": "EverydayGuidetoConcordCity",
             "type": "EXP|DMG",
@@ -38214,21 +38412,16 @@
             ]
         },
         {
-            "name": "Energy SMG",
+            "name": "Phantom Clip",
             "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
+            "type": "A",
             "value": 100.0,
             "weight": 10.0,
             "page": 0.0,
             "rarity": "none",
-            "property": [
-                "MMN",
-                "RST",
-                "NRG",
-                "LD",
-                "LNT"
-            ],
-            "dmg1": "4d6"
+            "entries": [
+                "A smart magazine loaded with encrypted sub-sonic caseless rounds. Also carries targeting telemetry for smartguns with onboard systems."
+            ]
         },
         {
             "name": "Pipe Bomb",
@@ -38254,20 +38447,16 @@
             "rarity": "none"
         },
         {
-            "name": "Flamethrower",
+            "name": "Plasma Core",
             "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
+            "type": "A",
             "value": 100.0,
             "weight": 10.0,
             "page": 0.0,
             "rarity": "none",
-            "property": [
-                "MMN",
-                "D",
-                "VRH",
-                "PRD"
-            ],
-            "dmg1": "5d6"
+            "entries": [
+                "A high-density fuel cell suspended in magnetic containment. Powers plasma-based rifles with destructive energy bursts and superheated gas."
+            ]
         },
         {
             "name": "Plasma Knuckles",
@@ -38282,7 +38471,7 @@
             ]
         },
         {
-            "name": "Gauss Rifle",
+            "name": "Plasma Rifle",
             "source": "EverydayGuidetoConcordCity",
             "type": "OTH",
             "value": 100.0,
@@ -38291,10 +38480,10 @@
             "rarity": "none",
             "property": [
                 "MMN",
-                "NTR",
-                "LD"
+                "NRG",
+                "VRH"
             ],
-            "dmg1": "8d12 "
+            "dmg1": "6d8 "
         },
         {
             "name": "Plastique Sheet",
@@ -38356,6 +38545,15 @@
             ]
         },
         {
+            "name": "Polaroid",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "OTH",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none"
+        },
+        {
             "name": "Polaroid Camera",
             "source": "EverydayGuidetoConcordCity",
             "type": "OTH",
@@ -38407,6 +38605,15 @@
             "name": "Portable Card Duel Kit",
             "source": "EverydayGuidetoConcordCity",
             "type": "GS",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none"
+        },
+        {
+            "name": "Portable Welding Tools",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "OTH",
             "value": 100.0,
             "weight": 10.0,
             "page": 0.0,
@@ -38515,7 +38722,7 @@
             ]
         },
         {
-            "name": "Hand Cannon",
+            "name": "Rail Pistol",
             "source": "EverydayGuidetoConcordCity",
             "type": "OTH",
             "value": 100.0,
@@ -38524,11 +38731,12 @@
             "rarity": "none",
             "property": [
                 "MMN",
+                "NRG",
                 "D",
-                "CL",
+                "NTR",
                 "LD"
             ],
-            "dmg1": "5d12 "
+            "dmg1": "4d6 "
         },
         {
             "name": "Reality Anchor",
@@ -38540,7 +38748,7 @@
             "rarity": "none"
         },
         {
-            "name": "Handgun",
+            "name": "Recoilless Rifle",
             "source": "EverydayGuidetoConcordCity",
             "type": "OTH",
             "value": 100.0,
@@ -38549,9 +38757,11 @@
             "rarity": "none",
             "property": [
                 "MMN",
+                "LLT",
+                "D",
                 "LD"
             ],
-            "dmg1": "3d6 "
+            "dmg1": "6d12 "
         },
         {
             "name": "Regen Patch",
@@ -38609,7 +38819,7 @@
             "rarity": "none"
         },
         {
-            "name": "Heavy Machine Gun",
+            "name": "Revolver",
             "source": "EverydayGuidetoConcordCity",
             "type": "OTH",
             "value": 100.0,
@@ -38618,25 +38828,10 @@
             "rarity": "none",
             "property": [
                 "MMN",
-                "LLT",
+                "D",
                 "LD"
             ],
-            "dmg1": "6d12 "
-        },
-        {
-            "name": "Hunting Rifle",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none",
-            "property": [
-                "MMN",
-                "GHL",
-                "LD"
-            ],
-            "dmg1": "5d12 "
+            "dmg1": "3d8 "
         },
         {
             "name": "Riot Baton (Telescoping)",
@@ -38760,19 +38955,16 @@
             ]
         },
         {
-            "name": "Lever-Action Rifle",
+            "name": "Rubber Bullet Magazine",
             "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
+            "type": "A",
             "value": 100.0,
             "weight": 10.0,
             "page": 0.0,
             "rarity": "none",
-            "property": [
-                "MMN",
-                "GHL",
-                "LD"
-            ],
-            "dmg1": "4d10 "
+            "entries": [
+                "A detachable magazine loaded with rubber or plastic bullets for riot control. Non-lethal but capable of serious injury at close range."
+            ]
         },
         {
             "name": "Rubber Stamp (CLASSIFIED)",
@@ -38785,6 +38977,15 @@
             "entries": [
                 "Used in old archive departments. Somehow always has just enough ink. Might work on people’s memories."
             ]
+        },
+        {
+            "name": "Running Shoes",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "OTH",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none"
         },
         {
             "name": "Rusted Bayonet",
@@ -38859,7 +39060,7 @@
             ]
         },
         {
-            "name": "Machine Pistol",
+            "name": "Sawed-off Shotgun",
             "source": "EverydayGuidetoConcordCity",
             "type": "OTH",
             "value": 100.0,
@@ -38868,11 +39069,21 @@
             "rarity": "none",
             "property": [
                 "MMN",
-                "RST",
                 "NCL",
-                "LD"
+                "D",
+                "LD",
+                "PRD"
             ],
-            "dmg1": "3d4 "
+            "dmg1": "5d6 "
+        },
+        {
+            "name": "Scalpel",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "M",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none"
         },
         {
             "name": "Scratcher Coin (Bent)",
@@ -38955,7 +39166,7 @@
             ]
         },
         {
-            "name": "Marksman Rifle",
+            "name": "Shotgun",
             "source": "EverydayGuidetoConcordCity",
             "type": "OTH",
             "value": 100.0,
@@ -38964,26 +39175,10 @@
             "rarity": "none",
             "property": [
                 "MMN",
-                "GHL",
                 "LD",
-                "CPQ"
+                "PRD"
             ],
-            "dmg1": "5d10 "
-        },
-        {
-            "name": "Plasma Rifle",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none",
-            "property": [
-                "MMN",
-                "NRG",
-                "VRH"
-            ],
-            "dmg1": "6d8 "
+            "dmg1": "4d10 "
         },
         {
             "name": "Shovel (Metal)",
@@ -39100,23 +39295,6 @@
             "rarity": "none"
         },
         {
-            "name": "Rail Pistol",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none",
-            "property": [
-                "MMN",
-                "NRG",
-                "D",
-                "NTR",
-                "LD"
-            ],
-            "dmg1": "4d6 "
-        },
-        {
             "name": "Smoke Bomb",
             "source": "EverydayGuidetoConcordCity",
             "type": "EXP|DMG",
@@ -39129,7 +39307,7 @@
             ]
         },
         {
-            "name": "Recoilless Rifle",
+            "name": "Sniper Rifle",
             "source": "EverydayGuidetoConcordCity",
             "type": "OTH",
             "value": 100.0,
@@ -39138,11 +39316,10 @@
             "rarity": "none",
             "property": [
                 "MMN",
-                "LLT",
-                "D",
-                "LD"
+                "LD",
+                "CPQ"
             ],
-            "dmg1": "6d12 "
+            "dmg1": "6d10 piercing"
         },
         {
             "name": "Sonic Disruptor",
@@ -39281,7 +39458,7 @@
             ]
         },
         {
-            "name": "Revolver",
+            "name": "Submachine Gun",
             "source": "EverydayGuidetoConcordCity",
             "type": "OTH",
             "value": 100.0,
@@ -39290,22 +39467,28 @@
             "rarity": "none",
             "property": [
                 "MMN",
-                "D",
+                "RST",
                 "LD"
             ],
-            "dmg1": "3d8 "
+            "dmg1": "4d6 "
         },
         {
-            "name": "Tactical Sunglasses",
+            "name": "Suit & Tie",
             "source": "EverydayGuidetoConcordCity",
-            "type": "G",
+            "type": "OTH",
             "value": 100.0,
             "weight": 10.0,
             "page": 0.0,
-            "rarity": "none",
-            "entries": [
-                "Reflective lenses, sturdy frame. Doubles as minor eye protection. Hides telltale glows from paranormal exposure."
-            ]
+            "rarity": "none"
+        },
+        {
+            "name": "Suit & Tie (Luxury)",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "OTH",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none"
         },
         {
             "name": "Surveillance Kit",
@@ -39357,6 +39540,18 @@
             "rarity": "none",
             "entries": [
                 "Marketed to children of agents. Slightly chalky, occasionally nostalgic."
+            ]
+        },
+        {
+            "name": "Tactical Sunglasses",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "G",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none",
+            "entries": [
+                "Reflective lenses, sturdy frame. Doubles as minor eye protection. Hides telltale glows from paranormal exposure."
             ]
         },
         {
@@ -39489,22 +39684,6 @@
             ]
         },
         {
-            "name": "Hanheld Thermal Imager",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "G",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none",
-            "property": [
-                "TTR",
-                "WRD"
-            ],
-            "entries": [
-                "Requires 2-handed use. Detects body heat through walls or darkness in 30 ft. cone. Refresh rate is slow (every 6 seconds). Useless in high-heat environments."
-            ]
-        },
-        {
             "name": "Thermite Charge",
             "source": "EverydayGuidetoConcordCity",
             "type": "EXP|DMG",
@@ -39583,23 +39762,6 @@
             "entries": [
                 "1d6 bludgeoning, grants parry bonus. Originally riot gear, adapted by martial artists."
             ]
-        },
-        {
-            "name": "Sawed-off Shotgun",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none",
-            "property": [
-                "MMN",
-                "NCL",
-                "D",
-                "LD",
-                "PRD"
-            ],
-            "dmg1": "5d6 "
         },
         {
             "name": "Trench Coat (Padded)",
@@ -39819,6 +39981,15 @@
             ]
         },
         {
+            "name": "Welding Tools",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "OTH",
+            "value": 100.0,
+            "weight": 10.0,
+            "page": 0.0,
+            "rarity": "none"
+        },
+        {
             "name": "Whispering Chamber",
             "source": "EverydayGuidetoConcordCity",
             "type": "OTH",
@@ -39874,177 +40045,6 @@
             "entries": [
                 "Brass and refillable. Often engraved. The flame never flickers in the wind."
             ]
-        },
-        {
-            "name": "Scalpel",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "M",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none"
-        },
-        {
-            "name": "Painkillers",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none"
-        },
-        {
-            "name": "Catalyst",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "SCF",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none"
-        },
-        {
-            "name": "Biker Gear",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "LA",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none"
-        },
-        {
-            "name": "Running Shoes",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none"
-        },
-        {
-            "name": "Hicking Shoes",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none"
-        },
-        {
-            "name": "Chic Shoes",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none"
-        },
-        {
-            "name": "Suit & Tie",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none"
-        },
-        {
-            "name": "Suit & Tie (Luxury)",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none"
-        },
-        {
-            "name": "Fashionable Clothes",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none"
-        },
-        {
-            "name": "Lingerie",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none"
-        },
-        {
-            "name": "Gaz Mask",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "G",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none"
-        },
-        {
-            "name": "Shotgun",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none",
-            "property": [
-                "MMN",
-                "LD",
-                "PRD"
-            ],
-            "dmg1": "4d10 "
-        },
-        {
-            "name": "Sniper Rifle",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none",
-            "property": [
-                "MMN",
-                "LD",
-                "CPQ"
-            ],
-            "dmg1": "6d10 piercing"
-        },
-        {
-            "name": "Submachine Gun",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
-            "value": 100.0,
-            "weight": 10.0,
-            "page": 0.0,
-            "rarity": "none",
-            "property": [
-                "MMN",
-                "RST",
-                "LD"
-            ],
-            "dmg1": "4d6 "
-        },
-        {
-            "name": "Welding Tools",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
-            "value": NaN,
-            "weight": NaN,
-            "page": NaN,
-            "rarity": "none"
-        },
-        {
-            "name": "Portable Welding Tools",
-            "source": "EverydayGuidetoConcordCity",
-            "type": "OTH",
-            "value": NaN,
-            "weight": NaN,
-            "page": NaN,
-            "rarity": "none"
         },
         {
             "name": "A.S.T.R.A.L. Incident Report (Form X-17B)",
