@@ -204,8 +204,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1754142736,
-        "_dateLastModifiedHash": "2f8d4a4cdc",
+        "dateLastModified": 1755513950,
+        "_dateLastModifiedHash": "6f2326c862",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -4908,6 +4908,207 @@
         }
     ],
     "class": [
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Psychomancer",
+            "hd": {
+                "faces": 6,
+                "number": 1
+            },
+            "proficiency": [
+                "wis",
+                "int"
+            ],
+            "startingProficiencies": {
+                "armor": [
+                    "light"
+                ],
+                "weapons": [
+                    "simple"
+                ],
+                "skills": [
+                    {
+                        "choose": {
+                            "from": [
+                                "insight",
+                                "arcana",
+                                "stealth",
+                                "deception",
+                                "persuasion",
+                                "investigation"
+                            ],
+                            "count": 3
+                        }
+                    }
+                ]
+            },
+            "startingEquipment": {
+                "additionalFromBackground": true,
+                "default": [
+                    "{@item Desk Organizer|VSTGCC}",
+                    "{@item Paperweight|VSTGCC}",
+                    "{@item Slingshot|VSTGCC}"
+                ],
+                "defaultData": [
+                    {
+                        "a": [
+                            "Desk Organizer|VSTGCC"
+                        ]
+                    },
+                    {
+                        "a": [
+                            "Paperweight|VSTGCC"
+                        ]
+                    },
+                    {
+                        "_": [
+                            "Slingshot|VSTGCC"
+                        ]
+                    }
+                ]
+            },
+            "spellcastingAbility": "int",
+            "classTableGroups": [
+                {
+                    "colLabels": [
+                        "{@filter Proficiency Bonus|value|class=Psychomancer}",
+                        "{@filter Max Spell Level|value|class=Psychomancer}",
+                        "{@filter Treshold|value|class=Psychomancer}"
+                    ],
+                    "rows": [
+                        [
+                            2,
+                            1,
+                            2
+                        ],
+                        [
+                            2,
+                            1,
+                            2
+                        ],
+                        [
+                            2,
+                            2,
+                            3
+                        ],
+                        [
+                            2,
+                            2,
+                            3
+                        ],
+                        [
+                            3,
+                            2,
+                            4
+                        ],
+                        [
+                            3,
+                            3,
+                            4
+                        ],
+                        [
+                            3,
+                            3,
+                            5
+                        ],
+                        [
+                            3,
+                            3,
+                            5
+                        ],
+                        [
+                            4,
+                            4,
+                            6
+                        ],
+                        [
+                            4,
+                            4,
+                            6
+                        ],
+                        [
+                            4,
+                            4,
+                            6
+                        ],
+                        [
+                            4,
+                            5,
+                            7
+                        ],
+                        [
+                            5,
+                            5,
+                            7
+                        ],
+                        [
+                            5,
+                            5,
+                            7
+                        ],
+                        [
+                            5,
+                            6,
+                            8
+                        ],
+                        [
+                            5,
+                            6,
+                            8
+                        ],
+                        [
+                            6,
+                            6,
+                            8
+                        ],
+                        [
+                            6,
+                            7,
+                            9
+                        ],
+                        [
+                            6,
+                            7,
+                            9
+                        ],
+                        [
+                            6,
+                            8,
+                            10
+                        ]
+                    ]
+                }
+            ],
+            "subclassTitle": "Psych",
+            "classFeatures": [
+                "Psionic Core|Psychomancer|EverydayGuidetoConcordCity|1|EverydayGuidetoConcordCity",
+                "Subclass Power|Psychomancer|EverydayGuidetoConcordCity|1|EverydayGuidetoConcordCity",
+                "Augment Path Feature|Psychomancer|EverydayGuidetoConcordCity|2|EverydayGuidetoConcordCity",
+                "Threshold Feedback|Psychomancer|EverydayGuidetoConcordCity|3|EverydayGuidetoConcordCity",
+                "Ability Score Improvement|Psychomancer|EverydayGuidetoConcordCity|4|EverydayGuidetoConcordCity",
+                "Ability Score Improvement|Psychomancer|EverydayGuidetoConcordCity|4|EverydayGuidetoConcordCity",
+                "Threshold Technique|Psychomancer|EverydayGuidetoConcordCity|5|EverydayGuidetoConcordCity",
+                "Augment Path Feature|Psychomancer|EverydayGuidetoConcordCity|6|EverydayGuidetoConcordCity",
+                "Reactive Surge|Psychomancer|EverydayGuidetoConcordCity|7|EverydayGuidetoConcordCity",
+                "Ability Score Improvement|Psychomancer|EverydayGuidetoConcordCity|8|EverydayGuidetoConcordCity",
+                "Ability Score Improvement|Psychomancer|EverydayGuidetoConcordCity|8|EverydayGuidetoConcordCity",
+                "Surge Mastery|Psychomancer|EverydayGuidetoConcordCity|9|EverydayGuidetoConcordCity",
+                "Subclass Mutation|Psychomancer|EverydayGuidetoConcordCity|10|EverydayGuidetoConcordCity",
+                "Unstable Duplicate|Psychomancer|EverydayGuidetoConcordCity|11|EverydayGuidetoConcordCity",
+                "Ability Score Improvement|Psychomancer|EverydayGuidetoConcordCity|12|EverydayGuidetoConcordCity",
+                "Ability Score Improvement|Psychomancer|EverydayGuidetoConcordCity|12|EverydayGuidetoConcordCity",
+                "Second Surge|Psychomancer|EverydayGuidetoConcordCity|13|EverydayGuidetoConcordCity",
+                "Augment Path Feature|Psychomancer|EverydayGuidetoConcordCity|14|EverydayGuidetoConcordCity",
+                "Echo Cast|Psychomancer|EverydayGuidetoConcordCity|15|EverydayGuidetoConcordCity",
+                "Ability Score Improvement|Psychomancer|EverydayGuidetoConcordCity|16|EverydayGuidetoConcordCity",
+                "Ability Score Improvement|Psychomancer|EverydayGuidetoConcordCity|16|EverydayGuidetoConcordCity",
+                "Threshold Mastery|Psychomancer|EverydayGuidetoConcordCity|17|EverydayGuidetoConcordCity",
+                "Subclass Apex Feature|Psychomancer|EverydayGuidetoConcordCity|18|EverydayGuidetoConcordCity",
+                "Ability Score Improvement|Psychomancer|EverydayGuidetoConcordCity|19|EverydayGuidetoConcordCity",
+                "Ability Score Improvement|Psychomancer|EverydayGuidetoConcordCity|19|EverydayGuidetoConcordCity",
+                "Anomalous Ascension|Psychomancer|EverydayGuidetoConcordCity|20|EverydayGuidetoConcordCity"
+            ]
+        },
         {
             "source": "EverydayGuidetoConcordCity",
             "name": "Anomalous",
@@ -10910,6 +11111,59 @@
         },
         {
             "source": "VestigiumGuidetoConcordCity",
+            "name": "Mindsling",
+            "level": 0,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60.0
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Psionic",
+                        "source": "VSTGCC"
+                    }
+                ]
+            },
+            "entries": [
+                "You form a sharpened shard of mental force—an arrow of intent, a spike of memory, or a piercing thought—and hurl it toward a creature within range.\n\nMake a ranged spell attack against the target. On a hit, the target takes 1d8 cognitive damage.\n\nThe shard is invisible to those without psychic sensitivity, leaving no physical trace. To mundane observers, the effect may resemble the target momentarily flinching or losing focus.\n\nThematic Delivery\n\nYou choose the form your psyslings take. Examples include:\n- A crystalline memory dart\n- A shimmering synaptic spike\n- A phrase spoken backward that drills through thought\n- A fractal glyph burned across the air\n\nThe number of shards you manifest increases as you gain levels.\nEach shard can target the same or different creatures. You make a separate attack roll for each.",
+                "### Psysling Cantrip Progression\n\n| Character Level | Damage | Number of Shards |\n|----------------- |-------- |------------------ |\n| 1st | 1d8 | 1 |\n| 5th | 1d8 | 2 |\n| 11th | 1d8 | 3 |\n| 17th | 1d8 | 4 |"
+            ],
+            "components": {
+                "v": true,
+                "s": false,
+                "r": false
+            },
+            "fluff": {
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Spell/mindsling.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "VestigiumGuidetoConcordCity",
             "name": "Misfiled Presence",
             "level": 0,
             "school": "I",
@@ -11478,7 +11732,7 @@
                 ]
             },
             "entries": [
-                "You gesture subtly, and a phantasmal breeze whispers through an area you can see within range. Curtains billow, candles flicker, papers shift, and cold air brushes the skin. Though entirely illusory, the sensation feels real—enough to distract, unnerve, or suggest a presence unseen.- The wind cannot cause harm or move objects heavier than 5 lbs.- Creatures within the area instinctively glance around. If they are unaware of you or expecting stealth, you may gain advantage on your next Charisma (Deception or Performance) or Dexterity (Stealth) check against them before the end of your next turn.\n\nThis 0- Cantrip is often used to haunt, mislead, or emphasize one’s words, and is popular among illusionists, tricksters, and dramatists alike."
+                "You gesture subtly, and a phantasmal breeze whispers through an area you can see within range. Curtains billow, candles flicker, papers shift, and cold air brushes the skin. Though entirely illusory, the sensation feels real—enough to distract, unnerve, or suggest a presence unseen.- The wind cannot cause harm or move objects heavier than 5 lbs.- Creatures within the area instinctively glance around. If they are unaware of you or expecting stealth, you may gain advantage on your next Charisma (Deception or Performance) or Dexterity (Stealth) check against them before the end of your next turn.\n\nThis 0-Cantrip is often used to haunt, mislead, or emphasize one’s words, and is popular among illusionists, tricksters, and dramatists alike."
             ],
             "components": {
                 "v": true,
@@ -11555,59 +11809,6 @@
                         "href": {
                             "type": "external",
                             "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Spell/psyblade.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "VestigiumGuidetoConcordCity",
-            "name": "Mindsling",
-            "level": 0,
-            "school": "V",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 60.0
-                }
-            },
-            "duration": [
-                {
-                    "type": "instant"
-                }
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Psionic",
-                        "source": "VSTGCC"
-                    }
-                ]
-            },
-            "entries": [
-                "You form a sharpened shard of mental force—an arrow of intent, a spike of memory, or a piercing thought—and hurl it toward a creature within range.\n\nMake a ranged spell attack against the target. On a hit, the target takes 1d8 cognitive damage.\n\nThe shard is invisible to those without psychic sensitivity, leaving no physical trace. To mundane observers, the effect may resemble the target momentarily flinching or losing focus.\n\nThematic Delivery\n\nYou choose the form your psyslings take. Examples include:\n- A crystalline memory dart\n- A shimmering synaptic spike\n- A phrase spoken backward that drills through thought\n- A fractal glyph burned across the air\n\nThe number of shards you manifest increases as you gain levels.\nEach shard can target the same or different creatures. You make a separate attack roll for each.",
-                "### Psysling Cantrip Progression\n\n| Character Level | Damage | Number of Shards |\n|----------------- |-------- |------------------ |\n| 1st | 1d8 | 1 |\n| 5th | 1d8 | 2 |\n| 11th | 1d8 | 3 |\n| 17th | 1d8 | 4 |"
-            ],
-            "components": {
-                "v": true,
-                "s": false,
-                "r": false
-            },
-            "fluff": {
-                "entries": [],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Spell/mindsling.png"
                         }
                     }
                 ]
@@ -12884,6 +13085,71 @@
         },
         {
             "source": "VestigiumGuidetoConcordCity",
+            "name": "Spellgraft",
+            "level": 0,
+            "school": "E",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "hours"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30.0
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minutes",
+                        "amount": 1,
+                        "upTo": false
+                    },
+                    "concentration": false
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "VSTGCC"
+                    },
+                    {
+                        "name": "Cleric",
+                        "source": "VSTGCC"
+                    }
+                ]
+            },
+            "entries": [
+                "You weave a transient channel of arcane force into a willing creature you can see within range. Until the spell ends, the next time that creature makes a spell attack and hits, the attack deals one additional damage die of the same type as the spell (do not add ability modifiers twice). The effect then ends. If the attack misses, the spell persists until the end of the duration or until an empowered spell attack hits. This spell ends early if you cast another spell that requires concentration."
+            ],
+            "components": {
+                "v": false,
+                "s": true,
+                "r": false
+            },
+            "miscTags": [
+                "SGT"
+            ],
+            "fluff": {
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Spell/spellgraft.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "VestigiumGuidetoConcordCity",
             "name": "Splinter Dart",
             "level": 0,
             "school": "T",
@@ -13236,6 +13502,62 @@
         },
         {
             "source": "VestigiumGuidetoConcordCity",
+            "name": "Sundersoul",
+            "level": 0,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "radius",
+                "distance": {
+                    "type": "feet",
+                    "amount": 5.0
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Psionic",
+                        "source": "VSTGCC"
+                    }
+                ]
+            },
+            "entries": [
+                "You release a concussive burst of internal instability — the psychic scream of a soul sundered by power.\n\nEach creature of your choice within 5 feet of you must make a Constitution saving throw. On a failed save, they take 1d6 cognitive damage and are pushed 5 feet away from you. On a success, they take half damage and are not moved.\n\nThe psychic burst has no visible light, but those affected feel an echo of broken memory.",
+                "The spell’s damage increases as you reach higher levels:\n| Character Level | Damage |\n|-----------------|--------|\n| 1st             | 1d6    |\n| 5th             | 2d6    |\n| 11th            | 3d6    |\n| 17th            | 4d6    |"
+            ],
+            "components": {
+                "v": true,
+                "s": false,
+                "r": false
+            },
+            "damageInflict": [
+                "psychic"
+            ],
+            "fluff": {
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Spell/sundersoul.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "VestigiumGuidetoConcordCity",
             "name": "Surefooted Leap",
             "level": 0,
             "school": "T",
@@ -13291,6 +13613,64 @@
                         "href": {
                             "type": "external",
                             "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Spell/surefooted%20leap.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "VestigiumGuidetoConcordCity",
+            "name": "Thoughtseed",
+            "level": 0,
+            "school": "D",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60.0
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minutes",
+                        "amount": 1,
+                        "upTo": false
+                    },
+                    "concentration": false
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Psionic",
+                        "source": "VSTGCC"
+                    }
+                ]
+            },
+            "entries": [
+                "You plant a subtle psychic thread into the mind of a creature you can see within range. The target must succeed on an **Intelligence saving throw** or become **Seeded** for the duration.\n\nWhile Seeded:\n- You can hear **surface thoughts** (what they are actively thinking).\n- You know the creature’s **emotional state** and any strong **intent** involving you or your allies.\n- As a bonus action on your turn, you may:\n- Ask the GM one **yes/no question** the creature knows the answer to.\n- Whisper a **single word or phrase** into their mind, which they perceive as their own thought.\n\nA creature that succeeds on the save is immune to your Thoughtseed for 24 hours. \nThis spell has **no visual or audible effect** and cannot be detected by mundane means."
+            ],
+            "components": {
+                "v": true,
+                "s": false,
+                "r": false
+            },
+            "fluff": {
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Spell/thoughtseed.png"
                         }
                     }
                 ]
@@ -13571,7 +13951,7 @@
             ],
             "fluff": {
                 "entries": [
-                    "Verdant Renewal is a hallmark 0- Cantrip of druids who walk the forgotten arteries of modern sprawl—those who find nature not in forests, but in the weeds in gutters, moss in subways, and roots beneath asphalt. These druids believe resilience is nature’s truest gift—and draw upon it to steady their own breath in moments of fatigue and illness."
+                    "Verdant Renewal is a hallmark 0-Cantrip of druids who walk the forgotten arteries of modern sprawl—those who find nature not in forests, but in the weeds in gutters, moss in subways, and roots beneath asphalt. These druids believe resilience is nature’s truest gift—and draw upon it to steady their own breath in moments of fatigue and illness."
                 ],
                 "images": [
                     {
@@ -14804,7 +15184,7 @@
         },
         {
             "source": "VestigiumGuidetoConcordCity",
-            "name": "Grubby Learn- Fists",
+            "name": "Grubby Learn-Fists",
             "level": 1,
             "school": "A",
             "time": [
@@ -14852,7 +15232,7 @@
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Spell/grubby%20learn_%20fists.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Spell/grubby%20learn_fists.png"
                         }
                     }
                 ]
@@ -16763,7 +17143,7 @@
             "entries": [
                 "You summon a localized, magical downpour of harmless frogs in a 10- foot radius area within range. The frogs immediately cover the ground, creating difficult terrain for the duration. They persistently croak in gentle harmony, producing mild distraction but no other direct harm.\n\nWhen the spell ends, the frogs disperse naturally, leaving no lasting effect.",
                 "Clarifications:- The frogs are non- hostile and cannot be used for damage.- The difficult terrain affects all creatures equally, allies and enemies alike.",
-                "| Spell Slot Level | Radius of Effect |\n|----------------------- |-------------------- |\n| 1st- level | 10- foot radius |\n| 2nd- level | 20- foot radius |\n| 3rd- level | 30- foot radius |\n| 4th- level | 40- foot radius |\n| 5th- level or higher | 50- foot radius |"
+                "| Spell Slot Level | Radius of Effect |\n|----------------------- |-------------------- |\n| 1st-level | 10- foot radius |\n| 2nd-level | 20- foot radius |\n| 3rd-level | 30- foot radius |\n| 4th-level | 40- foot radius |\n| 5th-level or higher | 50- foot radius |"
             ],
             "components": {
                 "v": true,
@@ -22199,7 +22579,7 @@
                 ]
             },
             "entries": [
-                "With a whispered invocation, you impose absolute certainty upon an event, ensuring it cannot be undone, altered, or reversed by normal means.\n \n\n- When cast, you declare one simple factual state affecting an object, person, or event. This fact becomes legally binding in the fabric of reality.\n- Examples include:\n- \"This door was never locked.\"\n- \"She was always employed here.\"\n- \"This bullet did not hit me.\"\n- The effect cannot be dispelled, countered, or challenged by ordinary magic.\n- A court- level anomaly nullification hearing (or a 5th- level dispel magic cast in a place of corporate power) is required to break the clause."
+                "With a whispered invocation, you impose absolute certainty upon an event, ensuring it cannot be undone, altered, or reversed by normal means.\n \n\n- When cast, you declare one simple factual state affecting an object, person, or event. This fact becomes legally binding in the fabric of reality.\n- Examples include:\n- \"This door was never locked.\"\n- \"She was always employed here.\"\n- \"This bullet did not hit me.\"\n- The effect cannot be dispelled, countered, or challenged by ordinary magic.\n- A court- level anomaly nullification hearing (or a 5th-level dispel magic cast in a place of corporate power) is required to break the clause."
             ],
             "components": {
                 "v": true,
@@ -24249,6 +24629,72 @@
                         "href": {
                             "type": "external",
                             "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Spell/a.s.t.r.a.l.%20recall.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "VestigiumGuidetoConcordCity",
+            "name": "Analog Waves",
+            "level": 4,
+            "school": "V",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 60.0
+                }
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "minutes",
+                        "amount": 1,
+                        "upTo": false
+                    },
+                    "concentration": false
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "VSTGCC"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "VSTGCC"
+                    },
+                    {
+                        "name": "Paladin",
+                        "source": "VSTGCC"
+                    }
+                ]
+            },
+            "entries": [
+                "You summon a storm of distorted analog signals, corrupted waveforms, and audio screeches that flood the minds of all creatures in a 10- foot- radius sphere centered on a point within range. Each creature in the area must make a Constitution saving throw. On a failed save, the target takes 5d8 sound damage and is stunned until the start of its next turn. On a success, the target takes half damage and is not stunned."
+            ],
+            "components": {
+                "v": true,
+                "s": true,
+                "r": true
+            },
+            "fluff": {
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Spell/analog%20waves.png"
                         }
                     }
                 ]
@@ -26523,72 +26969,6 @@
             "areaTags": [
                 "C"
             ]
-        },
-        {
-            "source": "VestigiumGuidetoConcordCity",
-            "name": "Analog Waves",
-            "level": 4,
-            "school": "V",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 60.0
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minutes",
-                        "amount": 1,
-                        "upTo": false
-                    },
-                    "concentration": false
-                }
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Wizard",
-                        "source": "VSTGCC"
-                    },
-                    {
-                        "name": "Warlock",
-                        "source": "VSTGCC"
-                    },
-                    {
-                        "name": "Paladin",
-                        "source": "VSTGCC"
-                    }
-                ]
-            },
-            "entries": [
-                "You summon a storm of distorted analog signals, corrupted waveforms, and audio screeches that flood the minds of all creatures in a 10- foot- radius sphere centered on a point within range. Each creature in the area must make a Constitution saving throw. On a failed save, the target takes 5d8 sound damage and is stunned until the start of its next turn. On a success, the target takes half damage and is not stunned."
-            ],
-            "components": {
-                "v": true,
-                "s": true,
-                "r": true
-            },
-            "fluff": {
-                "entries": [],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Spell/analog%20waves.png"
-                        }
-                    }
-                ]
-            }
         },
         {
             "source": "VestigiumGuidetoConcordCity",
@@ -32750,7 +33130,7 @@
                 ]
             },
             "entries": [
-                "You lock a creature’s existence behind bureaucratic impossibility, stamping them out of authorized reality.\n\nChoose one creature within range. Until the spell ends:\n- It is immune to beneficial spells and healing effects.\n- It cannot be resurrected or revived while under the effect.\n- If it dies while the spell is active, no remains are left, and it is considered non- recoverable by any means short of a 9th- level anomaly correction."
+                "You lock a creature’s existence behind bureaucratic impossibility, stamping them out of authorized reality.\n\nChoose one creature within range. Until the spell ends:\n- It is immune to beneficial spells and healing effects.\n- It cannot be resurrected or revived while under the effect.\n- If it dies while the spell is active, no remains are left, and it is considered non- recoverable by any means short of a 9th-level anomaly correction."
             ],
             "components": {
                 "v": true,
@@ -33463,7 +33843,7 @@
         },
         {
             "source": "VestigiumGuidetoConcordCity",
-            "name": "Time- Locked Asset",
+            "name": "Time-Locked Asset",
             "level": 8,
             "school": "C",
             "time": [
@@ -33520,7 +33900,7 @@
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Spell/time_%20locked%20asset.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Spell/time_locked%20asset.png"
                         }
                     }
                 ]
@@ -33647,6 +34027,60 @@
                         "href": {
                             "type": "external",
                             "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Spell/corporate%20directive%3A%20population%20lockdown.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "VestigiumGuidetoConcordCity",
+            "name": "Create Spell",
+            "level": 9,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "minutes"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "self"
+                }
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "VSTGCC"
+                    }
+                ]
+            },
+            "entries": [
+                "You channel the latent narrative forces of the multiverse to manifest an entirely new occult practice, ritual, or thaumaturgic procedure. The spell you create becomes part of your personal occult catalog, possibly inscribed into anomalous archives, grimoires, or SCP containment protocols. The form, effects, and limits of the new spell are theoretically unbounded, but the DM is the final arbiter of legality, scope, and drawbacks.\n\nGuidelines for Created Spell Level:\n- Cantrips & 1st–3rd: Minor effects, situational utility.\n- 4th–6th: Major combat or utility with risks.\n- 7th–8th: High-tier control, transformation, or resurrection-tier with severe costs.\n- 9th: Reality-warping effects akin to Wish.\n\nDrawbacks: Memory loss, exhaustion, psychic damage, anomaly contamination, permanent ability loss, or SCP-style containment breaches.\nLimitations: Only 1 created spell can be stable in your catalog at a time; others require containment. Backlash possible on failure."
+            ],
+            "components": {
+                "v": false,
+                "s": false,
+                "r": false
+            },
+            "miscTags": [
+                "PRM"
+            ],
+            "fluff": {
+                "entries": [],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Spell/create%20spell.png"
                         }
                     }
                 ]
@@ -34395,120 +34829,6 @@
                         "href": {
                             "type": "external",
                             "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Spell/vow%20of%20erasure.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "VestigiumGuidetoConcordCity",
-            "name": "Thoughtseed",
-            "level": 0,
-            "school": "D",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 60.0
-                }
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "minutes",
-                        "amount": 1,
-                        "upTo": false
-                    },
-                    "concentration": false
-                }
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Psionic",
-                        "source": "VSTGCC"
-                    }
-                ]
-            },
-            "entries": [
-                "You plant a subtle psychic thread into the mind of a creature you can see within range. The target must succeed on an **Intelligence saving throw** or become **Seeded** for the duration.\n\nWhile Seeded:\n- You can hear **surface thoughts** (what they are actively thinking).\n- You know the creature’s **emotional state** and any strong **intent** involving you or your allies.\n- As a bonus action on your turn, you may:\n- Ask the GM one **yes/no question** the creature knows the answer to.\n- Whisper a **single word or phrase** into their mind, which they perceive as their own thought.\n\nA creature that succeeds on the save is immune to your Thoughtseed for 24 hours. \nThis spell has **no visual or audible effect** and cannot be detected by mundane means."
-            ],
-            "components": {
-                "v": true,
-                "s": false,
-                "r": false
-            },
-            "fluff": {
-                "entries": [],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Spell/thoughtseed.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "VestigiumGuidetoConcordCity",
-            "name": "Sundersoul",
-            "level": 0,
-            "school": "V",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                }
-            ],
-            "range": {
-                "type": "radius",
-                "distance": {
-                    "type": "feet",
-                    "amount": 5.0
-                }
-            },
-            "duration": [
-                {
-                    "type": "instant"
-                }
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Psionic",
-                        "source": "VSTGCC"
-                    }
-                ]
-            },
-            "entries": [
-                "You release a concussive burst of internal instability — the psychic scream of a soul sundered by power.\n\nEach creature of your choice within 5 feet of you must make a Constitution saving throw. On a failed save, they take 1d6 cognitive damage and are pushed 5 feet away from you. On a success, they take half damage and are not moved.\n\nThe psychic burst has no visible light, but those affected feel an echo of broken memory.",
-                "The spell’s damage increases as you reach higher levels:\n| Character Level | Damage |\n|-----------------|--------|\n| 1st             | 1d6    |\n| 5th             | 2d6    |\n| 11th            | 3d6    |\n| 17th            | 4d6    |"
-            ],
-            "components": {
-                "v": true,
-                "s": false,
-                "r": false
-            },
-            "damageInflict": [
-                "psychic"
-            ],
-            "fluff": {
-                "entries": [],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Spell/sundersoul.png"
                         }
                     }
                 ]
@@ -39707,6 +40027,24 @@
                 "LD"
             ],
             "dmg1": "4d6 "
+        },
+        {
+            "name": "Welding Tools",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "OTH",
+            "value": NaN,
+            "weight": NaN,
+            "page": NaN,
+            "rarity": "none"
+        },
+        {
+            "name": "Portable Welding Tools",
+            "source": "EverydayGuidetoConcordCity",
+            "type": "OTH",
+            "value": NaN,
+            "weight": NaN,
+            "page": NaN,
+            "rarity": "none"
         },
         {
             "name": "A.S.T.R.A.L. Incident Report (Form X-17B)",
@@ -53878,6 +54216,216 @@
         },
         {
             "className": "Anomalous",
+            "name": "Anomalous Ascension",
+            "level": 20,
+            "source": "EverydayGuidetoConcordCity",
+            "classSource": "EverydayGuidetoConcordCity",
+            "entries": [
+                "sustain 0-point surge casting; no threshold cap"
+            ]
+        },
+        {
+            "className": "Psychomancer",
+            "name": "Psionic Core",
+            "level": 1,
+            "source": "EverydayGuidetoConcordCity",
+            "classSource": "EverydayGuidetoConcordCity",
+            "entries": [
+                "Apparition unearthly spectral creepy uncanny wraith preternatural with"
+            ]
+        },
+        {
+            "className": "Psychomancer",
+            "name": "Subclass Power",
+            "level": 1,
+            "source": "EverydayGuidetoConcordCity",
+            "classSource": "EverydayGuidetoConcordCity",
+            "entries": [
+                "Apparition unearthly spectral creepy uncanny wraith preternatural with"
+            ]
+        },
+        {
+            "className": "Psychomancer",
+            "name": "Augment Path Feature",
+            "level": 2,
+            "source": "EverydayGuidetoConcordCity",
+            "classSource": "EverydayGuidetoConcordCity",
+            "entries": [
+                "choose 1 of 2 augment options tied to subclass power"
+            ]
+        },
+        {
+            "className": "Psychomancer",
+            "name": "Threshold Feedback",
+            "level": 3,
+            "source": "EverydayGuidetoConcordCity",
+            "classSource": "EverydayGuidetoConcordCity",
+            "entries": [
+                "gain benefit after a Surge"
+            ]
+        },
+        {
+            "className": "Psychomancer",
+            "name": "Ability Score Improvement",
+            "level": 4,
+            "source": "EverydayGuidetoConcordCity",
+            "classSource": "EverydayGuidetoConcordCity",
+            "entries": [
+                "Apparition unearthly spectral creepy uncanny wraith preternatural with"
+            ]
+        },
+        {
+            "className": "Psychomancer",
+            "name": "Threshold Technique",
+            "level": 5,
+            "source": "EverydayGuidetoConcordCity",
+            "classSource": "EverydayGuidetoConcordCity",
+            "entries": [
+                "one-time burn for big effect"
+            ]
+        },
+        {
+            "className": "Psychomancer",
+            "name": "Augment Path Feature",
+            "level": 6,
+            "source": "EverydayGuidetoConcordCity",
+            "classSource": "EverydayGuidetoConcordCity",
+            "entries": [
+                "deeper customizatio\n"
+            ]
+        },
+        {
+            "className": "Psychomancer",
+            "name": "Reactive Surge",
+            "level": 7,
+            "source": "EverydayGuidetoConcordCity",
+            "classSource": "EverydayGuidetoConcordCity",
+            "entries": [
+                "surge on reaction spells or interrupt"
+            ]
+        },
+        {
+            "className": "Psychomancer",
+            "name": "Ability Score Improvement",
+            "level": 8,
+            "source": "EverydayGuidetoConcordCity",
+            "classSource": "EverydayGuidetoConcordCity",
+            "entries": [
+                "Apparition unearthly spectral creepy uncanny wraith preternatural with"
+            ]
+        },
+        {
+            "className": "Psychomancer",
+            "name": "Surge Mastery",
+            "level": 9,
+            "source": "EverydayGuidetoConcordCity",
+            "classSource": "EverydayGuidetoConcordCity",
+            "entries": [
+                "roll surge with advantage or cancel minor surge once/da"
+            ]
+        },
+        {
+            "className": "Psychomancer",
+            "name": "Subclass Mutation",
+            "level": 10,
+            "source": "EverydayGuidetoConcordCity",
+            "classSource": "EverydayGuidetoConcordCity",
+            "entries": [
+                "evolves subclass power with new use case"
+            ]
+        },
+        {
+            "className": "Psychomancer",
+            "name": "Unstable Duplicate",
+            "level": 11,
+            "source": "EverydayGuidetoConcordCity",
+            "classSource": "EverydayGuidetoConcordCity",
+            "entries": [
+                "create psychic clone that casts or takes damage"
+            ]
+        },
+        {
+            "className": "Psychomancer",
+            "name": "Ability Score Improvement",
+            "level": 12,
+            "source": "EverydayGuidetoConcordCity",
+            "classSource": "EverydayGuidetoConcordCity",
+            "entries": [
+                "Apparition unearthly spectral creepy uncanny wraith preternatural with"
+            ]
+        },
+        {
+            "className": "Psychomancer",
+            "name": "Second Surge",
+            "level": 13,
+            "source": "EverydayGuidetoConcordCity",
+            "classSource": "EverydayGuidetoConcordCity",
+            "entries": [
+                "gain second Threshold bar per day"
+            ]
+        },
+        {
+            "className": "Psychomancer",
+            "name": "Augment Path Feature",
+            "level": 14,
+            "source": "EverydayGuidetoConcordCity",
+            "classSource": "EverydayGuidetoConcordCity",
+            "entries": [
+                "final augment trait"
+            ]
+        },
+        {
+            "className": "Psychomancer",
+            "name": "Echo Cast",
+            "level": 15,
+            "source": "EverydayGuidetoConcordCity",
+            "classSource": "EverydayGuidetoConcordCity",
+            "entries": [
+                "repeat a low-cost power for free once/long rest"
+            ]
+        },
+        {
+            "className": "Psychomancer",
+            "name": "Ability Score Improvement",
+            "level": 16,
+            "source": "EverydayGuidetoConcordCity",
+            "classSource": "EverydayGuidetoConcordCity",
+            "entries": [
+                "Apparition unearthly spectral creepy uncanny wraith preternatural with"
+            ]
+        },
+        {
+            "className": "Psychomancer",
+            "name": "Threshold Mastery",
+            "level": 17,
+            "source": "EverydayGuidetoConcordCity",
+            "classSource": "EverydayGuidetoConcordCity",
+            "entries": [
+                "control what you roll on Surge table"
+            ]
+        },
+        {
+            "className": "Psychomancer",
+            "name": "Subclass Apex Feature",
+            "level": 18,
+            "source": "EverydayGuidetoConcordCity",
+            "classSource": "EverydayGuidetoConcordCity",
+            "entries": [
+                "based on core power"
+            ]
+        },
+        {
+            "className": "Psychomancer",
+            "name": "Ability Score Improvement",
+            "level": 19,
+            "source": "EverydayGuidetoConcordCity",
+            "classSource": "EverydayGuidetoConcordCity",
+            "entries": [
+                "Apparition unearthly spectral creepy uncanny wraith preternatural with"
+            ]
+        },
+        {
+            "className": "Psychomancer",
             "name": "Anomalous Ascension",
             "level": 20,
             "source": "EverydayGuidetoConcordCity",
