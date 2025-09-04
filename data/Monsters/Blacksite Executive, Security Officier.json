@@ -1,0 +1,18 @@
+Blacksite Executive, Security Officer
+Medium humanoid (human), unaligned
+Armor Class 12 (tactical armor)
+Hit Points 76 (8d12 + 24)
+Speed 30 ft.
+STR DEX CON INT WIS CHA
+10 (+0) 16 (+3) 14 (+2) 12 (+1) 13 (+1) 10 (+0)
+Saving Throws DEX +5
+Skills Perception +3, Stealth +5
+Senses Darkvision 60 ft., passive Perception 13
+Languages Common, Draconic
+Challenge 4 (1,100 XP)
+Heightened Awareness. Gain a +2 bonus to initiative rolls.
+Evasive Maneuvering. Opportunity attacks against the Security Officer are made with disadvantage.
+Actions
+Bladed Assault. Melee Attack: +8 to hit, dealing 19 (3d8 + 6) slashing damage with a combat knife. If the target is below half hit points, they must succeed on a DC 12 Constitution saving throw or become incapacitated until the end of their next turn. If the target is incapacitated, the Security Officer can use Lethal Precision as a bonus action.
+Lethal Precision. Melee Attack: +8 to hit, dealing 22 (3d10 + 6) piercing damage with a tactical sidearm. This action can only be used on a creature that is incapacitated as a result of Bladed Assault.
+Containment Tactics. The Security Officer unleashes a series of precise strikes aimed at subduing a target. The target must make a DC 12 Dexterity saving throw. On a failed save, the target takes 30 (4d12 + 4) bludgeoning damage and is grappled until the end of the Security Officer's next turn. The Security Officer can only use this action once per short rest.
