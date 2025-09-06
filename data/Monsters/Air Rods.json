@@ -1,20 +1,86 @@
-Air Rod
-Tiny aberration, unaligned
-Armor Class 13 (natural armor)
-Hit Points 13 (2d8 + 4)
-Speed 0 ft., fly 60 ft. (hover)
-STR DEX CON INT WIS CHA
-1 (-5) 18 (+4) 14 (+2) 1 (-5) 10 (+0) 1 (-5)
-Saving Throws DEX +6, CON +4
-Skills Stealth +8
-Damage Resistances Bludgeoning, Cold, Lightning, Thunder
-Damage Immunities Poison, Psychic
-Condition Immunities Frustrated, Blinded
-Senses Blindsight 60 ft. (blind beyond this radius), passive Perception 10
-Languages Understand Primordial but cannot speak
-Challenge 1/4 (50 XP)
-Evasive Maneuvering. The Air Rod has advantage on Dexterity saving throws against effects that would cause it to be targeted or hit, as it can swiftly change direction in the air.
-Temporal Shift. As a being that exists between moments, the Air Rod can phase through physical barriers, allowing it to move through objects and creatures without provoking opportunity attacks.
-Actions
-Temporal Flicker. Melee Attack: +4 to hit, melee attack dealing 5 (1d6 + 2) force damage. On a hit, the target must succeed on a DC 12 Dexterity saving throw or have disadvantage on its next attack roll due to the disorienting effect of the Air Rod's swift movements.
-Airborne Surge. Ranged Attack: +4 to hit, ranged attack dealing 5 (1d6 + 2) lightning damage. On a hit, the target must succeed on a DC 12 Constitution saving throw or be stunned until the end of its next turn as the jolt of electricity disrupts its senses.
+{
+	"Source": "",
+	"Type": "Tiny aberration, unaligned",
+	"HP": {
+		"Value": 13,
+		"Notes": "2d8 + 4"
+	},
+	"AC": {
+		"Value": 13,
+		"Notes": "natural armor"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"0 ft., fly 60 ft. (hover)"
+	],
+	"Abilities": {
+		"Str": 1,
+		"Dex": 18,
+		"Con": 14,
+		"Int": 1,
+		"Wis": 10,
+		"Cha": 1
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Bludgeoning, Cold, Lightning, Thunder"
+	],
+	"DamageImmunities": [
+		"Poison, Psychic"
+	],
+	"ConditionImmunities": [
+		"Frustrated",
+		"Blinded"
+	],
+	"Saves": [
+		{
+			"Name": "DEX",
+			"Modifier": 6
+		},
+		{
+			"Name": "CON",
+			"Modifier": 4
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Stealth",
+			"Modifier": 8
+		}
+	],
+	"Senses": [
+		"Blindsight 60 ft."
+	],
+	"Languages": [
+		"Understand Primordial but cannot speak"
+	],
+	"Challenge": "4",
+	"Traits": [
+		{
+			"Name": "Evasive Maneuvering",
+			"Content": "The Air Rod has advantage on Dexterity saving throws against effects that would cause it to be targeted or hit, as it can swiftly change direction in the air."
+		},
+		{
+			"Name": "Temporal Shift",
+			"Content": "As a being that exists between moments, the Air Rod can phase through physical barriers, allowing it to move through objects and creatures without provoking opportunity attacks."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Temporal Flicker",
+			"Content": "Melee Attack: +4 to hit, melee attack dealing 5 (1d6 + 2) force damage. On a hit, the target must succeed on a DC 12 Dexterity saving throw or have disadvantage on its next attack roll due to the disorienting effect of the Air Rod's swift movements."
+		},
+		{
+			"Name": "Airborne Surge",
+			"Content": "Ranged Attack: +4 to hit, ranged attack dealing 5 (1d6 + 2) lightning damage. On a hit, the target must succeed on a DC 12 Constitution saving throw or be stunned until the end of its next turn as the jolt of electricity disrupts its senses."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}
