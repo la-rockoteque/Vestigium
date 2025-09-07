@@ -41,6 +41,7 @@ def get_features_for_class(class_name, subclass_title):
             for index, entry_row in df_class_features.iterrows()
             if pd.notnull(entry_row.get("Class"))
             and pd.notnull(entry_row.get("Name"))
+            and pd.notnull(entry_row.get("Level"))
             and pd.isnull(entry_row.get("Parent"))
             and str(entry_row.get("Class")) == class_name
         ]
