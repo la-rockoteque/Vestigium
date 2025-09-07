@@ -17,7 +17,7 @@ def row_to_monster(row):
         "source": json_source,
         "name": f"{row.get("Name")}, {row.get("Variant")}" if pd.notnull(row.get("Variant")) else row.get("Name"),
         "size": [row.get("Size")[:1].upper()],
-        "type": row.get("Classic 5e Type").lower(),
+        "type": row.get("Type").lower(),
         "alignment": [row.get("Alignment")[:1].upper()],
         "ac": [row.get("Armor Class")],
         "hp": {
