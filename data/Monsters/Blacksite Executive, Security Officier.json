@@ -1,18 +1,1 @@
-Blacksite Executive, Security Officer
-Medium humanoid (human), unaligned
-Armor Class 12 (tactical armor)
-Hit Points 76 (8d12 + 24)
-Speed 30 ft.
-STR DEX CON INT WIS CHA
-10 (+0) 16 (+3) 14 (+2) 12 (+1) 13 (+1) 10 (+0)
-Saving Throws DEX +5
-Skills Perception +3, Stealth +5
-Senses Darkvision 60 ft., passive Perception 13
-Languages Common, Draconic
-Challenge 4 (1,100 XP)
-Heightened Awareness. Gain a +2 bonus to initiative rolls.
-Evasive Maneuvering. Opportunity attacks against the Security Officer are made with disadvantage.
-Actions
-Bladed Assault. Melee Attack: +8 to hit, dealing 19 (3d8 + 6) slashing damage with a combat knife. If the target is below half hit points, they must succeed on a DC 12 Constitution saving throw or become incapacitated until the end of their next turn. If the target is incapacitated, the Security Officer can use Lethal Precision as a bonus action.
-Lethal Precision. Melee Attack: +8 to hit, dealing 22 (3d10 + 6) piercing damage with a tactical sidearm. This action can only be used on a creature that is incapacitated as a result of Bladed Assault.
-Containment Tactics. The Security Officer unleashes a series of precise strikes aimed at subduing a target. The target must make a DC 12 Dexterity saving throw. On a failed save, the target takes 30 (4d12 + 4) bludgeoning damage and is grappled until the end of the Security Officer's next turn. The Security Officer can only use this action once per short rest.
+{"Source":"","Type":"Medium humanoid (human), unaligned","HP":{"Value":90,"Notes":"12d10 + 24"},"AC":{"Value":15,"Notes":"tactical armor"},"InitiativeModifier":0,"InitiativeAdvantage":false,"Speed":["30 ft."],"Abilities":{"Str":14,"Dex":16,"Con":14,"Int":12,"Wis":15,"Cha":10},"DamageVulnerabilities":[],"DamageResistances":["None"],"DamageImmunities":["None"],"ConditionImmunities":["None"],"Saves":[{"Name":"DEX","Modifier":6},{"Name":"CON","Modifier":5}],"Skills":[{"Name":"Perception","Modifier":5},{"Name":"Stealth","Modifier":6}],"Senses":["Darkvision 60 ft."],"Languages":["Common, Infernal"],"Challenge":"5","Traits":[{"Name":"Advanced Surveillance","Content":"The officer gains advantage on Wisdom (Perception) checks made to notice hidden or invisible creatures within 30 feet."},{"Name":"Tactical Advantage","Content":"When the officer is not surprised, they add +2 to their initiative rolls."}],"Actions":[{"Name":"Multiattack","Content":"The officer makes two attacks: one with its Assault Rifle and one with its Tactical Strike."},{"Name":"Assault Rifle","Content":"Ranged Attack: +7 to hit, range 20/60 ft., one target. Hit: 13 (2d8 + 4) piercing damage, plus 3 (1d6) electrical damage from the rifle’s enhanced firing system."},{"Name":"Tactical Strike","Content":"Melee Attack: +7 to hit, reach 10 ft., one target. Hit: 18 (2d6 + 4 + 2d6) slashing damage with a tactical knife and the target must make a DC 14 Constitution saving throw or be incapacitated until the end of their next turn, representing the disorienting nature of the strike."},{"Name":"Sonic Disruption Blast","Content":"The officer deploys a sonic dispersal device in a 15-foot cone. Each creature in that area must make a DC 14 Constitution saving throw, taking 30 (4d12 + 4) thunder damage on a failed save or half as much on a successful one. The officer can use this ability once per short rest."}],"BonusActions":[],"Reactions":[],"MythicActions":[],"Description":"","Player":"","Version":"3.6.10","ImageURL":""}
