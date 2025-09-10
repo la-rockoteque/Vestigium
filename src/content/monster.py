@@ -12,14 +12,56 @@ def parse_entries(raw_text):
   pattern = re.compile(r"([A-Z][^.]+?)\.\s+(.*?)(?=(?:[A-Z][^.]+?\.)|$)", re.S)
   entries = []
 
-  for match in pattern.finditer(raw_text):
-    name = match.group(1).strip()
-    entry = match.group(2).strip().replace("\n", " ")
+  for text in raw_text.split("\n"):
+    name, entry = (text.split(":: ") + ["", ""])[:2]
     entries.append({
       "name": name,
       "entries": [entry]
     })
   return entries
+
+DMG = {
+  "acid","cold","fire","force","lightning","necrotic",
+  "poison","psychic","radiant","thunder"
+}
+
+BPS = {"bludgeoning","piercing","slashing"}
+
+def parse_immunities(raw_text):
+  immunities = []
+  for immunity in DMG:
+    if immunity in raw_text.lower():
+      immunities.append(immunity)
+      
+  if "from" in raw_text.lower():
+    special_immunities = []
+    fluff = raw_text.split(" from ")[1]
+    for immunity in BPS:
+      if immunity in raw_text.lower():
+        special_immunities.append(immunity)
+    immunities.append({
+      "immune": special_immunities,
+      "note": f"from {fluff.lower()}"
+    })
+
+def parse_skills(raw_text):
+  # Matches:
+  #  - "STR +13"
+  #  - "Sleight of Hand +7"
+  #  - "Animal Handling -1"
+  # Works across commas/newlines: "Perception +4, Stealth +5"
+  pattern = re.compile(
+    r"(?:^|[,\n;]\s*)"
+    r"([A-Z]{3}|[A-Za-z][A-Za-z'/-]*(?:\s+[A-Za-z'/-]+)*)"
+    r"\s*([+-]\d+)",
+    re.IGNORECASE
+  )
+
+  skills = {}
+  for m in pattern.finditer(raw_text):
+    name = m.group(1).strip().lower()
+    skills[name] = m.group(2)
+  return skills
 
 def parse_saves(raw_text):
   # Regex to match things like STR +13
@@ -42,13 +84,6 @@ def parse_saves(raw_text):
 
   return saves
 
-def parse_skills(text):
-  # Regex to capture "SkillName +Number"
-  pattern = re.compile(r"([A-Za-z]+)\s*([+-]\d+)")
-  # Normalize to lowercase
-  skills = {skill.lower(): value for skill, value in pattern.findall(text)}
-  return skills
-
 def row_to_monster(row):
     languages = (
         row.get("Languages").lower().split(", ")
@@ -69,26 +104,26 @@ def row_to_monster(row):
             "average": row.get("Hit Points"),
             "formula": f"{row.get('Hit Dice').lower()} + {row.get('CON Mod')}",
         },
-        "save:": parse_saves(row.get("Saving Throws")),
+        "save": parse_saves(row.get("Saving Throws")),
         "passive": row.get("Passive Perception"),
         "speed": {
             **(
-                {"walk": row.get("Speed (Walking)")}
+                {"walk": int(row.get("Speed (Walking)"))}
                 if pd.notnull(row.get("Speed (Walking)"))
                 else {}
             ),
             **(
-                {"fly": row.get("Speed (Flying)")}
+                {"fly": int(row.get("Speed (Flying)"))}
                 if pd.notnull(row.get("Speed (Flying)"))
                 else {}
             ),
             **(
-                {"swim": row.get("Speed (Swimming)")}
+                {"swim": int(row.get("Speed (Swimming)"))}
                 if pd.notnull(row.get("Speed (Swimming)"))
                 else {}
             ),
             **(
-                {"burrow": row.get("Speed (Burrowing)")}
+                {"burrow": int(row.get("Speed (Burrowing)"))}
                 if pd.notnull(row.get("Speed (Burrowing)"))
                 else {}
             ),
@@ -99,23 +134,35 @@ def row_to_monster(row):
         "int": row.get("INT"),
         "wis": row.get("WIS"),
         "cha": row.get("CHA"),
-        "actions": parse_entries(row.get("Actions")),
-        "traits": parse_entries(row.get("Traits")),
-        "skills": parse_skills(row.get("Skills")),
         **(
-          {"immnue": row.get("Damage Immunities").lower().split(", ")}
+          {"action": parse_entries(row.get("Actions"))}
+          if pd.notnull(row.get("Actions"))
+          else {}
+        ),
+        **(
+          {"trait": parse_entries(row.get("Traits"))}
+          if pd.notnull(row.get("Traits"))
+          else {}
+        ),
+        **(
+          {"skill": parse_skills(row.get("Skills"))}
+          if pd.notnull(row.get("Skills"))
+          else {}
+        ),
+        **(
+          {"immune": parse_immunities(row.get("Damage Immunities"))}
           if pd.notnull(row.get("Damage Immunities"))
           else {}
         ),
         **(
-            {"conditionImmune": row.get("Condition Immunities").lower().split(", ")}
+          {"conditionImmune": row.get("Condition Immunities").lower().split(", ")}
             if pd.notnull(row.get("Condition Immunities"))
             else {}
         ),
         # **({"languages":
         #       (languages[0] if len(languages) == 1 else languages[0])
         # } if pd.notnull(row.get("Languages")) else {}),
-        "cr": f"{row.get('CR (Challenge Rating)')}",
+        "cr": f"{int(row.get('CR (Challenge Rating)'))}",
         "fluff": {
           "entries": [
             row.get("Description")
@@ -127,5 +174,5 @@ def row_to_monster(row):
 monster_list = [
     row_to_monster(row)
     for index, row in df_monster.iterrows()
-    if pd.notnull(row.get("Name")) and row.get("Source") == source
+    if pd.notnull(row.get("Name"))
 ]

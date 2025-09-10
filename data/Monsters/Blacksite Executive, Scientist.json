@@ -1,1 +1,93 @@
-{"Source":"","Type":"Medium humanoid (human), unaligned","HP":{"Value":39,"Notes":"6d10 + 6"},"AC":{"Value":11,"Notes":"natural agility"},"InitiativeModifier":0,"InitiativeAdvantage":false,"Speed":["30 ft."],"Abilities":{"Str":10,"Dex":14,"Con":12,"Int":16,"Wis":13,"Cha":15},"DamageVulnerabilities":[],"DamageResistances":["Psychic"],"DamageImmunities":["None"],"ConditionImmunities":["None"],"Saves":[{"Name":"INT","Modifier":5},{"Name":"CHA","Modifier":4}],"Skills":[{"Name":"Deception","Modifier":4},{"Name":"Investigation","Modifier":5},{"Name":"Stealth","Modifier":4}],"Senses":["Darkvision 60 ft."],"Languages":["Common, Infernal"],"Challenge":"1","Traits":[{"Name":"Cunning Researcher","Content":"The Blacksite Executive has advantage on Intelligence (Investigation) checks made to identify or analyze anomalies."},{"Name":"Secretive Nature","Content":"The Blacksite Executive has advantage on Dexterity (Stealth) checks made in urban environments."}],"Actions":[{"Name":"Anomalous Strike","Content":"Melee Attack: +4 to hit, dealing 7 (1d10 + 2) slashing damage and 5 (1d10) psychic damage. The target must succeed on a DC 13 Intelligence saving throw or become Confused until the end of its next turn, unable to take reactions."},{"Name":"Experimental Manipulation","Content":"Special Attack: The Blacksite Executive uses Anomalous Strike against a target it has previously affected by Confused. If it hits, the target is subjected to Disadvantage on all saving throws and takes 10 (3d6) psychic damage at the start of each of the Blacksite Executive's turns. The Blacksite Executive can only have one target affected by Experimental Manipulation at a time. If the Blacksite Executive is incapacitated, the target can make a DC 13 Intelligence saving throw to break free from the effect."}],"BonusActions":[],"Reactions":[],"MythicActions":[],"Description":"","Player":"","Version":"3.6.10","ImageURL":""}
+{
+	"Source": "",
+	"Type": "Medium humanoid (human), unaligned",
+	"HP": {
+		"Value": 39,
+		"Notes": "6d10 + 6"
+	},
+	"AC": {
+		"Value": 11,
+		"Notes": "natural agility"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"30 ft."
+	],
+	"Abilities": {
+		"Str": 10,
+		"Dex": 14,
+		"Con": 12,
+		"Int": 16,
+		"Wis": 13,
+		"Cha": 15
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Psychic"
+	],
+	"DamageImmunities": [
+		"None"
+	],
+	"ConditionImmunities": [
+		"None"
+	],
+	"Saves": [
+		{
+			"Name": "INT",
+			"Modifier": 5
+		},
+		{
+			"Name": "CHA",
+			"Modifier": 4
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Deception",
+			"Modifier": 4
+		},
+		{
+			"Name": "Investigation",
+			"Modifier": 5
+		},
+		{
+			"Name": "Stealth",
+			"Modifier": 4
+		}
+	],
+	"Senses": [
+		"Darkvision 60 ft."
+	],
+	"Languages": [
+		"Common, Infernal"
+	],
+	"Challenge": "1",
+	"Traits": [
+		{
+			"Name": "Cunning Researcher",
+			"Content": "The Blacksite Executive has advantage on Intelligence (Investigation) checks made to identify or analyze anomalies."
+		},
+		{
+			"Name": "Secretive Nature",
+			"Content": "The Blacksite Executive has advantage on Dexterity (Stealth) checks made in urban environments."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Anomalous Strike",
+			"Content": "Melee Attack: +4 to hit, dealing 7 (1d10 + 2) slashing damage and 5 (1d10) psychic damage. The target must succeed on a DC 13 Intelligence saving throw or become Confused until the end of its next turn, unable to take reactions."
+		},
+		{
+			"Name": "Experimental Manipulation",
+			"Content": "Special Attack: The Blacksite Executive uses Anomalous Strike against a target it has previously affected by Confused. If it hits, the target is subjected to Disadvantage on all saving throws and takes 10 (3d6) psychic damage at the start of each of the Blacksite Executive's turns. The Blacksite Executive can only have one target affected by Experimental Manipulation at a time. If the Blacksite Executive is incapacitated, the target can make a DC 13 Intelligence saving throw to break free from the effect."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

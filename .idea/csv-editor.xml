@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/images/Species/Air_Rods_Vestigium_Monster.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
