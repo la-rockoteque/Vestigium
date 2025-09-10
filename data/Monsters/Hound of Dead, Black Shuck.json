@@ -1,0 +1,102 @@
+{
+	"Source": "",
+	"Type": "Large undead, unaligned",
+	"HP": {
+		"Value": 90,
+		"Notes": "12d10 + 24"
+	},
+	"AC": {
+		"Value": 15,
+		"Notes": ""
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"50 ft."
+	],
+	"Abilities": {
+		"Str": 18,
+		"Dex": 16,
+		"Con": 15,
+		"Int": 1,
+		"Wis": 12,
+		"Cha": 1
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"None"
+	],
+	"DamageImmunities": [
+		"None"
+	],
+	"ConditionImmunities": [
+		"Frightened",
+		"Charmed"
+	],
+	"Saves": [
+		{
+			"Name": "STR",
+			"Modifier": 7
+		},
+		{
+			"Name": "DEX",
+			"Modifier": 6
+		},
+		{
+			"Name": "CON",
+			"Modifier": 5
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Perception",
+			"Modifier": 4
+		},
+		{
+			"Name": "Stealth",
+			"Modifier": 6
+		}
+	],
+	"Senses": [
+		"Darkvision 60 ft."
+	],
+	"Languages": [
+		"Understands Common but cannot speak"
+	],
+	"Challenge": "5",
+	"Traits": [
+		{
+			"Name": "Aura of Misfortune",
+			"Content": "Creatures within 30 feet of Black Shuck have disadvantage on saving throws against being frightened."
+		},
+		{
+			"Name": "Flaming Fury",
+			"Content": "When Black Shuck is reduced to 0 hit points, it explodes in a burst of flames, dealing 4d6 fire damage to all creatures within 10 feet."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Multiattack",
+			"Content": "The creature makes two attacks: one with its Bite and one with its Burning Embrace."
+		},
+		{
+			"Name": "Bite",
+			"Content": "Melee Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage, plus 3 (1d6) fire damage."
+		},
+		{
+			"Name": "Burning Embrace",
+			"Content": "Melee Attack: +7 to hit, reach 10 ft., one target. Hit: 18 (2d6 + 4 + 2d6) fire damage and the target must succeed on a DC 14 Constitution saving throw or become blinded until the end of its next turn."
+		},
+		{
+			"Name": "Cursed Howl",
+			"Content": "The Hound of Dead unleashes a terrifying howl. Each creature of its choice within 30 feet must succeed on a DC 14 Wisdom saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature fails this saving throw, it takes 12 (2d12) necrotic damage and must immediately use its reaction to move as far away from Black Shuck as possible."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

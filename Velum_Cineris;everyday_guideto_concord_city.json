@@ -204,8 +204,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1757511782,
-        "_dateLastModifiedHash": "f4fee1455a",
+        "dateLastModified": 1757516715,
+        "_dateLastModifiedHash": "71195aeb21",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -44896,7 +44896,7 @@
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Architectural_Shifter.png",
             "fluff": {
                 "entries": [
-                    "Living rooms and staircases that rearrange themselves to trap victims."
+                    "A labyrinth given will and malice, the Architectural Shifter twists familiar halls into predatory puzzles. Rooms breathe, staircases loop back on themselves, and doorways lead only deeper into confusion. Victims find themselves herded through impossible geometry, trapped within corridors that rearrange like shifting ribs, until panic or exhaustion delivers them to the Shifter’s chosen end."
                 ],
                 "images": [
                     {
@@ -44997,7 +44997,7 @@
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Asphalt_Crawler.png",
             "fluff": {
                 "entries": [
-                    "Humanoid creatures of cracked pavement, dripping with tar."
+                    "Born from ruined highways and forgotten overpasses, Asphalt Crawlers resemble humanoid figures sculpted from cracked pavement. Their bodies ooze black tar that hisses and smokes where it falls, leaving a trail of choking fumes. They hunt by night along desolate roads, dragging victims into the mire of their own melting flesh, as if the city itself had risen to reclaim what walks upon it."
                 ],
                 "images": [
                     {
@@ -45087,7 +45087,7 @@
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Automated_Interrogator.png",
             "fluff": {
                 "entries": [
-                    "Robotic enforcers designed for psychic probing and invasive questioning."
+                    "Cold and angular, these mechanical enforcers are built not for combat but for extraction of secrets. Their faceless visors hum with psychic resonance, projecting needles of thought that pierce memory and will. Victims describe a sensation of drowning within their own minds as the machine scours for hidden truths, its synthetic voice layering question upon question until the subject breaks—or becomes an empty shell."
                 ],
                 "images": [
                     {
@@ -45194,7 +45194,7 @@
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Babushka_Lady.png",
             "fluff": {
                 "entries": [
-                    "Mysterious veiled woman filming during infamous events. Appears in multiple timelines with concealed knowledge."
+                    "A veiled woman glimpsed on the edges of calamity, always with a camera in hand. She drifts through riots, assassinations, and disasters, her presence recorded in conflicting archives across decades and timelines. Those who approach her recall only the lens—cold, unblinking, as though it peers not outward but inward. Scholars whisper she does not witness events so much as anchor them, concealing knowledge meant never to surface."
                 ],
                 "images": [
                     {
@@ -45291,7 +45291,7 @@
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ball_Lightning.png",
             "fluff": {
                 "entries": [
-                    "A glowing sphere of electrical plasma drifting unpredictably. Burns through walls and explodes when threatened."
+                    "An incandescent sphere drifting with erratic grace, the Ball of Lightning crackles with a mindless hunger. Its surface ripples like molten glass, veined with arcs of plasma that leap toward anything living. Witnesses describe it phasing through walls and vehicles, leaving only scorched outlines and the stench of ozone in its wake. Though fleeting, its appearance heralds chaos—an impossible storm condensed into a single, wandering globe."
                 ],
                 "images": [
                     {
@@ -45389,7 +45389,7 @@
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Beast_of_Gévaudan.png",
             "fluff": {
                 "entries": [
-                    "An enormous wolf-like predator from 18th century France, responsible for a wave of killings."
+                    "Once thought slain centuries ago, the Beast of Gévaudan endures as a curse that outlives centuries. Towering over any natural wolf, its hide shifts like shadowed iron, turning aside musket balls and modern bullets alike. Eyes like burning coals pierce the dark as it stalks villages, leaving behind only mauled corpses and whispers of its return. Neither beast nor spirit, the Gévaudan is a terror bound to cycles of fear—resurfacing whenever humanity dares believe the wilderness has been tamed."
                 ],
                 "images": [
                     {
@@ -45404,96 +45404,180 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Black Hound of Dead",
+            "name": "Hound of Dead, Black Shuck",
             "size": [
                 "L"
             ],
             "type": "undead",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
-                    "ac": 16,
+                    "ac": 15,
                     "from": [
                         "Shadow Hide"
                     ]
                 }
             ],
             "hp": {
-                "average": 112,
-                "formula": "1 + 3"
+                "average": 90,
+                "formula": "1 + 2"
             },
             "save": {
-                "dex": "+7",
-                "wis": "+5",
-                "cha": "+6"
+                "str": "+7",
+                "dex": "+6",
+                "con": "+5"
             },
-            "passive": 17,
+            "passive": 16,
             "speed": {
                 "walk": 50
             },
-            "str": 14,
-            "dex": 18,
-            "con": 16,
-            "int": 12,
-            "wis": 14,
-            "cha": 16,
+            "str": 18,
+            "dex": 16,
+            "con": 15,
+            "int": 1,
+            "wis": 12,
+            "cha": 1,
             "action": [
                 {
                     "name": "Multiattack",
                     "entries": [
-                        "The Black Hound of Dead makes three melee attacks: one with its Bite and two with its Claws.;"
+                        "The creature makes two attacks: one with its Bite and one with its Burning Embrace.;"
                     ]
                 },
                 {
                     "name": "Bite",
                     "entries": [
-                        "Melee Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage. The target must succeed on a DC 15 Constitution saving throw or take an additional 7 (2d6) necrotic damage at the start of its next turn.;"
+                        "Melee Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) piercing damage, plus 3 (1d6) fire damage.;"
                     ]
                 },
                 {
-                    "name": "Claw",
+                    "name": "Burning Embrace",
                     "entries": [
-                        "Melee Attack: +7 to hit, reach 5 ft., one creature. Hit: 9 (2d4 + 4) slashing damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Dexterity saving throw or be knocked prone.;"
+                        "Melee Attack: +7 to hit, reach 10 ft., one target. Hit: 18 (2d6 + 4 + 2d6) fire damage and the target must succeed on a DC 14 Constitution saving throw or become blinded until the end of its next turn.;"
                     ]
                 },
                 {
-                    "name": "Spectral Whirlwind",
+                    "name": "Cursed Howl",
                     "entries": [
-                        "The Black Hound summons a whirlwind of spectral energy around it, making a melee attack against each creature within 10 feet. Each target takes 13 (2d8 + 4) force damage, and must succeed on a DC 15 Wisdom saving throw or be frightened until the end of its next turn.;"
-                    ]
-                },
-                {
-                    "name": "Primary Ranged Attack",
-                    "entries": [
-                        "Ranged Attack: +7 to hit, range 20/60 ft., one target. Hit: 13 (2d8 + 4) psychic damage as a chilling howling echoes through the target's mind.;"
-                    ]
-                },
-                {
-                    "name": "Reaction",
-                    "entries": [
-                        "The Black Hound uses a Reaction to add 3 to its AC against one melee attack that would hit it. To do so, the creature must see the attacker, and as it does, a spectral form momentarily appears, startling the assailant."
+                        "The Hound of Dead unleashes a terrifying howl. Each creature of its choice within 30 feet must succeed on a DC 14 Wisdom saving throw or be frightened for 1 minute. A frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature fails this saving throw, it takes 12 (2d12) necrotic damage and must immediately use its reaction to move as far away from Black Shuck as possible."
                     ]
                 }
             ],
             "trait": [
                 {
-                    "name": "Spectral Presence",
+                    "name": "Aura of Misfortune",
                     "entries": [
-                        "The Black Hound of Dead has an aura of dread. Creatures within 10 feet of it must succeed on a DC 14 Wisdom saving throw or be frightened until the end of their next turn.;"
+                        "Creatures within 30 feet of Black Shuck have disadvantage on saving throws against being frightened.;"
                     ]
                 },
                 {
-                    "name": "Silent Stalker",
+                    "name": "Flaming Fury",
                     "entries": [
-                        "The Black Hound has advantage on Dexterity (Stealth) checks when in dim light or darkness.;"
+                        "When Black Shuck is reduced to 0 hit points, it explodes in a burst of flames, dealing 4d6 fire damage to all creatures within 10 feet."
+                    ]
+                }
+            ],
+            "skill": {
+                "perception": "+4",
+                "stealth": "+6"
+            },
+            "conditionImmune": [
+                "frightened",
+                "charmed"
+            ],
+            "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hound_of_Dead_Black_Shuck.png",
+            "fluff": {
+                "entries": [
+                    "A towering hound with eyes like burning coals. Black Shuck roams coastal paths and storm-lashed villages, its appearance heralding misfortune or sudden death. Some tales claim it can burst into flame when cornered, leaving nothing but scorched earth."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hound%20of%20Dead%2C%20Black%20Shuck.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Hound of Dead, Barghest",
+            "size": [
+                "L"
+            ],
+            "type": "fiend",
+            "alignment": [
+                "C"
+            ],
+            "ac": [
+                {
+                    "ac": 19,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 123,
+                "formula": "1 + 4"
+            },
+            "save": {
+                "str": "+8",
+                "dex": "+7",
+                "con": "+8"
+            },
+            "passive": 16,
+            "speed": {
+                "walk": 50
+            },
+            "str": 18,
+            "dex": 16,
+            "con": 18,
+            "int": 1,
+            "wis": 12,
+            "cha": 5,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Hound of Dead makes three attacks with its claws and can replace one claw attack with its nightmarish bite.;"
                     ]
                 },
                 {
-                    "name": "Spellcasting",
+                    "name": "Claw Attack",
                     "entries": [
-                        "The Black Hound of Dead's spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components: At will: minor illusion, thorn whip; 1/day each: curse of the fallen, shadow blade."
+                        "Melee Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) slashing damage. A creature hit must succeed on a DC 16 Constitution saving throw or suffer from a lingering curse that prevents healing for 1d4 hours.;"
+                    ]
+                },
+                {
+                    "name": "Nightmare Bite",
+                    "entries": [
+                        "Melee Attack: +6 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) necrotic damage. The creature must succeed on a DC 16 Wisdom saving throw or be frightened until the end of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Shadow Strike",
+                    "entries": [
+                        "Melee Attack: +6 to hit, reach 5 ft., one creature. Hit: 2 (1d4) necrotic damage plus 9 (2d8) psychic damage. A creature hit must succeed on a DC 16 Intelligence saving throw or be unable to take reactions until the start of its next turn."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Shadowy Physique",
+                    "entries": [
+                        "The Barghest’s body is partially insubstantial, giving it resistance to damage from non-magical weapons.;"
+                    ]
+                },
+                {
+                    "name": "Curse of the Wounded",
+                    "entries": [
+                        "Any creature hit by the Barghest’s claw attacks must succeed on a DC 16 Constitution saving throw or suffer from a lingering curse that prevents healing for 1d4 hours."
                     ]
                 }
             ],
@@ -45503,20 +45587,326 @@
             },
             "immune": null,
             "conditionImmune": [
-                "frightened"
+                "frightened",
+                "poisoned"
             ],
-            "cr": "5",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Black_Hound_of_Dead.png",
+            "cr": "6",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hound_of_Dead_Barghest.png",
             "fluff": {
                 "entries": [
-                    "A spectral black dog that appears to herald death, stalking roads at night."
+                    "A ghastly, goblin-hound that haunts lonely roads and moors. Barghests can grow to monstrous size, their bodies half-shadow, half-flesh. Legends speak of their claws leaving wounds that never heal, carrying curses long after the beast is gone."
                 ],
                 "images": [
                     {
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Black%20Hound%20of%20Dead.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hound%20of%20Dead%2C%20Barghest.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Hound of Dead, Cŵn Annwn",
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "alignment": [
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 12,
+                    "from": [
+                        "Shadow Hide"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 85,
+                "formula": "1 + 3"
+            },
+            "save": {
+                "dex": "+4",
+                "con": "+3"
+            },
+            "passive": 16,
+            "speed": {
+                "walk": 50
+            },
+            "str": 14,
+            "dex": 16,
+            "con": 16,
+            "int": 1,
+            "wis": 12,
+            "cha": 6,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Hound of Dead makes two attacks: one with Claw Strike and one with Soul Rend.;"
+                    ]
+                },
+                {
+                    "name": "Claw Strike",
+                    "entries": [
+                        "Melee Attack: +7 to hit, dealing 14 (2d8 + 5) slashing damage. A creature hit by this attack must succeed on a DC 14 Strength saving throw or be knocked prone.;"
+                    ]
+                },
+                {
+                    "name": "Soul Rend",
+                    "entries": [
+                        "Melee Attack: +7 to hit, dealing 14 (2d8 + 5) necrotic damage. On a hit, the target must succeed on a DC 14 Constitution saving throw or their hit point maximum is reduced by an amount equal to the necrotic damage dealt until they finish a long rest.;"
+                    ]
+                },
+                {
+                    "name": "Howl of the Hunt",
+                    "entries": [
+                        "The Hound emits a haunting howl that chills the souls of mortals nearby. Each creature of the Hound's choice within 30 feet must make a DC 14 Wisdom saving throw or be frightened until the end of their next turn. On a successful save, they take 21 (6d6) psychic damage. The Hound can use this ability once per short rest."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Ethereal Howl",
+                    "entries": [
+                        "The Hound's howls resonate in the minds of those nearby, causing them to feel an unsettling sense of dread, imposing disadvantage on saving throws against being frightened.;"
+                    ]
+                },
+                {
+                    "name": "Soul Guide",
+                    "entries": [
+                        "When the Hound of Dead drops a creature to 0 hit points, it can choose to guide the soul instead of killing it, allowing the creature to make a Wisdom saving throw to avoid death, returning with 1 hit point unless it fails the save."
+                    ]
+                }
+            ],
+            "skill": {
+                "perception": "+3",
+                "stealth": "+6"
+            },
+            "conditionImmune": [
+                "frightened",
+                "poisoned"
+            ],
+            "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hound_of_Dead_Cŵn_Annwn.png",
+            "fluff": {
+                "entries": [
+                    "Pale, spectral hounds whose cries sound like fading echoes. Said to hunt across the sky with the Wild Hunt, their howls foretell death from afar. Unlike their darker kin, they are not always malevolent—sometimes they serve as escorts for souls bound to the Otherworld."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hound%20of%20Dead%2C%20C%C5%B5n%20Annwn.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Hound of Dead, Gabriel Hounds",
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "alignment": [
+                "C"
+            ],
+            "ac": [
+                {
+                    "ac": 14,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 75,
+                "formula": "1 + 2"
+            },
+            "save": {
+                "dex": "+6",
+                "wis": "+4"
+            },
+            "passive": 16,
+            "speed": {
+                "walk": 50,
+                "fly": 60
+            },
+            "str": 14,
+            "dex": 16,
+            "con": 14,
+            "int": 1,
+            "wis": 12,
+            "cha": 1,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Hound of Dead makes four attacks: one with Bite and three with Spectral Claw.;"
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) piercing damage. The target must succeed on a DC 15 Constitution saving throw or be afflicted with the poisoned condition until the end of their next turn.;"
+                    ]
+                },
+                {
+                    "name": "Spectral Claw",
+                    "entries": [
+                        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) necrotic damage. The target must succeed on a DC 15 Wisdom saving throw or be frightened until the end of their next turn.;"
+                    ]
+                },
+                {
+                    "name": "Wail of the Damned",
+                    "entries": [
+                        "The Hound of Dead emits a mournful wail. Each creature of the Hound’s choice within 30 feet must make a DC 15 Wisdom saving throw. On a failed save, a creature takes 30 (4d12 + 4) necrotic damage and is stunned until the end of its next turn. On a successful save, the creature takes half damage and is not stunned. This action can be used once per long rest."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Spectral Apparition",
+                    "entries": [
+                        "The Hound of Dead can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.;"
+                    ]
+                },
+                {
+                    "name": "Omen of Calamity",
+                    "entries": [
+                        "Creatures within 30 feet of the Hound of Dead have disadvantage on saving throws against being frightened."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+9"
+            },
+            "conditionImmune": [
+                "frightened",
+                "poisoned"
+            ],
+            "cr": "6",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hound_of_Dead_Gabriel_Hounds.png",
+            "fluff": {
+                "entries": [
+                    "A pack of spectral dogs flying in formation across the night sky. Their baying resembles the cries of lost souls, and their passage signals plague or calamity. To hear them above one’s home is an omen of doom within the household."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hound%20of%20Dead%2C%20Gabriel%20Hounds.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Hound of Dead, Moddey Dhoo",
+            "size": [
+                "L"
+            ],
+            "type": "undead",
+            "alignment": [
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 136,
+                "formula": "1 + 3"
+            },
+            "save": {
+                "str": "+7",
+                "dex": "+6",
+                "con": "+6"
+            },
+            "passive": 16,
+            "speed": {
+                "walk": 60
+            },
+            "str": 18,
+            "dex": 16,
+            "con": 16,
+            "int": 1,
+            "wis": 12,
+            "cha": 1,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Hound of Dead, Moddey Dhoo makes two primary attacks. If both attacks hit a Medium or smaller target, the target suffers the Frightened condition (escape DC 14), and the Hound uses its Cursed Gaze ability on it.;"
+                    ]
+                },
+                {
+                    "name": "Primary Attack",
+                    "entries": [
+                        "Melee Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) necrotic damage. The jaws of the Moddey Dhoo tear into the flesh of its prey, leaving a lingering curse upon those who succumb to its bite.;"
+                    ]
+                },
+                {
+                    "name": "Cursed Gaze",
+                    "entries": [
+                        "The Moddey Dhoo locks eyes with a creature within 30 feet. The target must succeed on a DC 15 Wisdom saving throw or be cursed. A cursed creature takes 13 (2d8 + 4) necrotic damage at the start of each of its turns. The curse lasts until removed by a greater restoration spell or similar magic.;"
+                    ]
+                },
+                {
+                    "name": "Shadow of Death",
+                    "entries": [
+                        "The Moddey Dhoo shrouds a target in a wave of invisible terror. One creature within 30 feet must succeed on a DC 14 Wisdom saving throw or become paralyzed until the end of its next turn. On a failed save, it also takes 13 (2d8 + 4) necrotic damage as it feels the weight of impending doom. This ability recharges after a short or long rest."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Silent Watch",
+                    "entries": [
+                        "The Moddey Dhoo is always aware of its surroundings and can sense creatures within 30 feet, even if they are invisible or hidden.;"
+                    ]
+                },
+                {
+                    "name": "Cursed Gaze",
+                    "entries": [
+                        "Any creature that starts its turn within 30 feet of the Moddey Dhoo and can see its eyes must succeed on a DC 15 Wisdom saving throw or be cursed. A cursed creature takes 3d6 necrotic damage at the start of each of its turns. The curse lasts until removed by a greater restoration spell or similar magic."
+                    ]
+                }
+            ],
+            "skill": {
+                "perception": "+4",
+                "stealth": "+6"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "frightened",
+                "poisoned"
+            ],
+            "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hound_of_Dead_Moddey_Dhoo.png",
+            "fluff": {
+                "entries": [
+                    "A shaggy black hound that prowls castle halls and guards ancient ruins. It is said that those who gaze upon the Moddey Dhoo’s eyes are cursed to die within days, their fate sealed by the beast’s silent watch."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hound%20of%20Dead%2C%20Moddey%20Dhoo.png"
                         }
                     }
                 ]
@@ -50648,7 +51038,7 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Hippantrope",
+            "name": "Hippanthrope",
             "size": [
                 "L"
             ],
@@ -50725,7 +51115,7 @@
                 "stealth": "+7"
             },
             "cr": "5",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hippantrope.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hippanthrope.png",
             "fluff": {
                 "entries": [
                     "A disturbing hybrid of foal and human, possessing a horse's body with a human face. Known for haunting barns and fields at night."
@@ -50735,7 +51125,7 @@
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hippantrope.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hippanthrope.png"
                         }
                     }
                 ]
@@ -51984,95 +52374,6 @@
                         "href": {
                             "type": "external",
                             "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Holy%20Molly.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
-            "name": "House Hippo",
-            "size": [
-                "T"
-            ],
-            "type": "beast",
-            "alignment": [
-                "U"
-            ],
-            "ac": [
-                {
-                    "ac": 12,
-                    "from": [
-                        "natural armor"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 11,
-                "formula": "2 + 1"
-            },
-            "save": {
-                "dex": "+5",
-                "wis": "+4"
-            },
-            "passive": 17,
-            "speed": {
-                "walk": 30
-            },
-            "str": 5,
-            "dex": 16,
-            "con": 12,
-            "int": 1,
-            "wis": 14,
-            "cha": 1,
-            "action": [
-                {
-                    "name": "Nibbly Bite",
-                    "entries": [
-                        "Melee Attack: +3 to hit, dealing 4 (1d6 + 1) piercing damage. This attack has a chance to distract the target, imposing disadvantage on their next attack roll if they can't succeed on a DC 12 Wisdom saving throw.;"
-                    ]
-                },
-                {
-                    "name": "Dusty Dash",
-                    "entries": [
-                        "Melee Attack: +3 to hit, dealing 5 (1d8 + 1) bludgeoning damage as the House Hippo scurries past, giving it advantage on its next Stealth check. If the target is larger than the House Hippo, they must succeed on a DC 12 Dexterity saving throw or be knocked prone due to the sudden dash."
-                    ]
-                }
-            ],
-            "trait": [
-                {
-                    "name": "Camouflage",
-                    "entries": [
-                        "The House Hippo has advantage on Dexterity (Stealth) checks when in natural environments or inside homes.;"
-                    ]
-                },
-                {
-                    "name": "Evasive Nature",
-                    "entries": [
-                        "The House Hippo can move through the space of any creature that is larger than it, and it can escape being grappled by using a bonus action."
-                    ]
-                }
-            ],
-            "skill": {
-                "stealth": "+7"
-            },
-            "immune": null,
-            "conditionImmune": [
-                "frightened",
-                "invisible"
-            ],
-            "cr": "8",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/House_Hippo.png",
-            "fluff": {
-                "entries": [
-                    "Blip"
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/House%20Hippo.png"
                         }
                     }
                 ]
@@ -60139,7 +60440,7 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Traffic Drone",
+            "name": "Drone, Traffic",
             "size": [
                 "M"
             ],
@@ -60212,7 +60513,7 @@
                 "frightened"
             ],
             "cr": "2",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Traffic_Drone.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Drone_Traffic.png",
             "fluff": {
                 "entries": [
                     "Blip"
@@ -60222,7 +60523,7 @@
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Traffic%20Drone.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Drone%2C%20Traffic.png"
                         }
                     }
                 ]
@@ -60680,6 +60981,281 @@
                         "href": {
                             "type": "external",
                             "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Vorthirith%2C%20Cthithrzho.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Hippantrope",
+            "size": [
+                "L"
+            ],
+            "type": "monstrosity",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 15,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 110,
+                "formula": "1 + 4"
+            },
+            "save": {
+                "dex": "+6"
+            },
+            "passive": 16,
+            "speed": {
+                "walk": 50
+            },
+            "str": 16,
+            "dex": 18,
+            "con": 18,
+            "int": 2,
+            "wis": 12,
+            "cha": 8,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Hippantrope makes three attacks: one with its Haunting Kick and two with its Disturbing Bite. Alternatively, it can use its Terrifying Whinny twice.;"
+                    ]
+                },
+                {
+                    "name": "Haunting Kick",
+                    "entries": [
+                        "Melee Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage. The target must succeed on a DC 14 Strength saving throw or be knocked prone.;"
+                    ]
+                },
+                {
+                    "name": "Disturbing Bite",
+                    "entries": [
+                        "Melee Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. The target must make a DC 14 Wisdom saving throw or become frightened until the end of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Terrifying Whinny",
+                    "entries": [
+                        "Ranged Attack: +6 to hit, range 150 ft., one creature. Hit: 10 (3d6) thunder damage. The target must succeed on a DC 14 Constitution saving throw or be deafened until the end of its next turn."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Evasive Maneuvers",
+                    "entries": [
+                        "The Hippantrope has advantage on Dexterity saving throws made to avoid area effects, such as a dragon's breath or an evoker's spell.;"
+                    ]
+                },
+                {
+                    "name": "Haunting Presence",
+                    "entries": [
+                        "Creatures that start their turn within 30 feet of the Hippantrope have disadvantage on Wisdom saving throws until they move out of that range."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+7"
+            },
+            "cr": "5",
+            "tokenUrl": NaN,
+            "fluff": {
+                "entries": [
+                    NaN
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": NaN
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "House Hippo",
+            "size": [
+                "T"
+            ],
+            "type": "beast",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 12,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 11,
+                "formula": "2 + 1"
+            },
+            "save": {
+                "dex": "+5",
+                "wis": "+4"
+            },
+            "passive": 17,
+            "speed": {
+                "walk": 30
+            },
+            "str": 5,
+            "dex": 16,
+            "con": 12,
+            "int": 1,
+            "wis": 14,
+            "cha": 1,
+            "action": [
+                {
+                    "name": "Nibbly Bite",
+                    "entries": [
+                        "Melee Attack: +3 to hit, dealing 4 (1d6 + 1) piercing damage. This attack has a chance to distract the target, imposing disadvantage on their next attack roll if they can't succeed on a DC 12 Wisdom saving throw.;"
+                    ]
+                },
+                {
+                    "name": "Dusty Dash",
+                    "entries": [
+                        "Melee Attack: +3 to hit, dealing 5 (1d8 + 1) bludgeoning damage as the House Hippo scurries past, giving it advantage on its next Stealth check. If the target is larger than the House Hippo, they must succeed on a DC 12 Dexterity saving throw or be knocked prone due to the sudden dash."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Camouflage",
+                    "entries": [
+                        "The House Hippo has advantage on Dexterity (Stealth) checks when in natural environments or inside homes.;"
+                    ]
+                },
+                {
+                    "name": "Evasive Nature",
+                    "entries": [
+                        "The House Hippo can move through the space of any creature that is larger than it, and it can escape being grappled by using a bonus action."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+7"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "frightened",
+                "invisible"
+            ],
+            "cr": "8",
+            "tokenUrl": NaN,
+            "fluff": {
+                "entries": [
+                    NaN
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": NaN
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Traffic Drone",
+            "size": [
+                "M"
+            ],
+            "type": "construct",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 13,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 59,
+                "formula": "7 + 2"
+            },
+            "save": {
+                "dex": "+4",
+                "con": "+4"
+            },
+            "passive": 16,
+            "speed": {
+                "walk": 30,
+                "fly": 60
+            },
+            "str": 10,
+            "dex": 14,
+            "con": 15,
+            "int": 1,
+            "wis": 12,
+            "cha": 1,
+            "action": [
+                {
+                    "name": "Traffic Bolt",
+                    "entries": [
+                        "Melee Attack: +6 to hit, dealing 14 (3d6 + 4) bludgeoning damage, has a reach of 10 ft., and targets one creature. The drone uses a mechanical arm to strike with precision, mimicking a traffic signal's authoritative direction.;"
+                    ]
+                },
+                {
+                    "name": "Siren Showdown",
+                    "entries": [
+                        "The Traffic Drone emits a powerful sonic pulse in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 14 Constitution saving throw, taking 22 (4d10) thunder damage on a failed save, or half as much damage on a successful one. This action can be used once per short rest as the drone recharges its systems after broadcasting its alert."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Automated Navigation",
+                    "entries": [
+                        "The Traffic Drone automatically maneuvers around obstacles, granting it advantage on Dexterity saving throws against being grappled or immobilized.;"
+                    ]
+                },
+                {
+                    "name": "Emergency Signals",
+                    "entries": [
+                        "When activated, the Traffic Drone emits bright lights and sounds that can be seen and heard from 300 feet away, providing advantage on checks to alert nearby allies."
+                    ]
+                }
+            ],
+            "skill": {
+                "perception": "+3"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "blinded",
+                "deafened",
+                "frightened"
+            ],
+            "cr": "2",
+            "tokenUrl": NaN,
+            "fluff": {
+                "entries": [
+                    NaN
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": NaN
                         }
                     }
                 ]
