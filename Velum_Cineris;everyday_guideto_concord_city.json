@@ -204,8 +204,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1757510581,
-        "_dateLastModifiedHash": "f81204035b",
+        "dateLastModified": 1757511782,
+        "_dateLastModifiedHash": "f4fee1455a",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -45804,7 +45804,7 @@
                 "resistant to under surveillance"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Blacksite_Executive,_Manager.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Blacksite_Executive_Manager.png",
             "fluff": {
                 "entries": [
                     "High-ranking corporate officers enhanced beyond natural limits."
@@ -45890,7 +45890,7 @@
                 "stealth": "+4"
             },
             "cr": "1",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Blacksite_Executive,_Scientist.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Blacksite_Executive_Scientist.png",
             "fluff": {
                 "entries": [
                     "High-ranking corporate officers enhanced beyond natural limits."
@@ -45987,7 +45987,7 @@
                 "stealth": "+6"
             },
             "cr": "5",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Blacksite_Executive,_Security_Officier.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Blacksite_Executive_Security_Officier.png",
             "fluff": {
                 "entries": [
                     "High-ranking corporate officers enhanced beyond natural limits."
@@ -47981,7 +47981,7 @@
                 "unconscious"
             ],
             "cr": "5",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Drone,_Assault.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Drone_Assault.png",
             "fluff": {
                 "entries": [
                     "Flying mechanical spies or combat units, often deployed in urban zones."
@@ -48095,7 +48095,7 @@
                 "unconscious"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Drone,_Security.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Drone_Security.png",
             "fluff": {
                 "entries": [
                     "Flying mechanical spies or combat units, often deployed in urban zones."
@@ -48186,7 +48186,7 @@
                 "deafened"
             ],
             "cr": "2",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Drone,_Surveillance.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Drone_Surveillance.png",
             "fluff": {
                 "entries": [
                     "Flying mechanical spies or combat units, often deployed in urban zones."
@@ -49887,7 +49887,7 @@
                 "unconscious"
             ],
             "cr": "4",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem,_Asphalt.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem_Asphalt.png",
             "fluff": {
                 "entries": [
                     "A wretched amalgamation of waste, disease, and sludge, animated by unknown forces."
@@ -49994,7 +49994,7 @@
                 "unconscious"
             ],
             "cr": "5",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem,_Concrete.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem_Concrete.png",
             "fluff": {
                 "entries": [
                     "A wretched amalgamation of waste, disease, and sludge, animated by unknown forces."
@@ -50106,7 +50106,7 @@
                 "unconscious"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem,_Electronic.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem_Electronic.png",
             "fluff": {
                 "entries": [
                     "A wretched amalgamation of waste, disease, and sludge, animated by unknown forces."
@@ -50216,7 +50216,7 @@
                 "unconscious"
             ],
             "cr": "2",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem,_Paper.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem_Paper.png",
             "fluff": {
                 "entries": [
                     "A wretched amalgamation of waste, disease, and sludge, animated by unknown forces."
@@ -50321,7 +50321,7 @@
                 "poisoned"
             ],
             "cr": "5",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem,_Waste.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem_Waste.png",
             "fluff": {
                 "entries": [
                     "A wretched amalgamation of waste, disease, and sludge, animated by unknown forces."
@@ -51033,7 +51033,7 @@
                 "unconscious"
             ],
             "cr": "1",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_File,_Greater.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_File_Greater.png",
             "fluff": {
                 "entries": [
                     "A floating folder that erases names, memories, and past events."
@@ -51130,7 +51130,7 @@
                 "frightened"
             ],
             "cr": "2",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_File,_Lesser.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_File_Lesser.png",
             "fluff": {
                 "entries": [
                     "A floating folder that erases names, memories, and past events."
@@ -51243,7 +51243,7 @@
                 "unconscious"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_File,_Swarm.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_File_Swarm.png",
             "fluff": {
                 "entries": [
                     "A floating folder that erases names, memories, and past events."
@@ -51346,7 +51346,7 @@
                 "incapacitated"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow,_Adult.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_Adult.png",
             "fluff": {
                 "entries": [
                     "The Hollows are not corpses that rise, nor spirits bound in decay. They are husks of humanity emptied of soul, left behind when life has moved on. Though they were once living people, their deaths were incomplete — a faltering of passage, a failure of release. What remains is a body that breathes but feels nothing, a shell that walks among the living with glassy stillness.\n\nHollows are not predators. They carry no hunger, ambition, or desire; no joy stirs them, no grief bends them. They persist only because they cannot do otherwise. Death has already claimed them, yet their bodies do not rot, their minds do not wander, and their presence lingers indefinitely.\n\nTo outsiders, Hollows are uncanny but not monstrous. They farm, trade, and dwell in towns, but only in motions learned from life, not driven by purpose. Their words are sparse, their laughter absent, their eyes dull. They exist, yet do not live."
@@ -51449,7 +51449,7 @@
                 "incapacitated"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow,_Child.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_Child.png",
             "fluff": {
                 "entries": [
                     "The Hollows are not corpses that rise, nor spirits bound in decay. They are husks of humanity emptied of soul, left behind when life has moved on. Though they were once living people, their deaths were incomplete — a faltering of passage, a failure of release. What remains is a body that breathes but feels nothing, a shell that walks among the living with glassy stillness.\n\nHollows are not predators. They carry no hunger, ambition, or desire; no joy stirs them, no grief bends them. They persist only because they cannot do otherwise. Death has already claimed them, yet their bodies do not rot, their minds do not wander, and their presence lingers indefinitely.\n\nTo outsiders, Hollows are uncanny but not monstrous. They farm, trade, and dwell in towns, but only in motions learned from life, not driven by purpose. Their words are sparse, their laughter absent, their eyes dull. They exist, yet do not live."
@@ -51552,7 +51552,7 @@
                 "incapacitated"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow,_Elder.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_Elder.png",
             "fluff": {
                 "entries": [
                     "The Hollows are not corpses that rise, nor spirits bound in decay. They are husks of humanity emptied of soul, left behind when life has moved on. Though they were once living people, their deaths were incomplete — a faltering of passage, a failure of release. What remains is a body that breathes but feels nothing, a shell that walks among the living with glassy stillness.\n\nHollows are not predators. They carry no hunger, ambition, or desire; no joy stirs them, no grief bends them. They persist only because they cannot do otherwise. Death has already claimed them, yet their bodies do not rot, their minds do not wander, and their presence lingers indefinitely.\n\nTo outsiders, Hollows are uncanny but not monstrous. They farm, trade, and dwell in towns, but only in motions learned from life, not driven by purpose. Their words are sparse, their laughter absent, their eyes dull. They exist, yet do not live."
@@ -51655,7 +51655,7 @@
                 "incapacitated"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow,_Infant.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_Infant.png",
             "fluff": {
                 "entries": [
                     "Blip"
@@ -51758,7 +51758,7 @@
                 "incapacitated"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow,_Teenager.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_Teenager.png",
             "fluff": {
                 "entries": [
                     "The Hollows are not corpses that rise, nor spirits bound in decay. They are husks of humanity emptied of soul, left behind when life has moved on. Though they were once living people, their deaths were incomplete — a faltering of passage, a failure of release. What remains is a body that breathes but feels nothing, a shell that walks among the living with glassy stillness.\n\nHollows are not predators. They carry no hunger, ambition, or desire; no joy stirs them, no grief bends them. They persist only because they cannot do otherwise. Death has already claimed them, yet their bodies do not rot, their minds do not wander, and their presence lingers indefinitely.\n\nTo outsiders, Hollows are uncanny but not monstrous. They farm, trade, and dwell in towns, but only in motions learned from life, not driven by purpose. Their words are sparse, their laughter absent, their eyes dull. They exist, yet do not live."
@@ -53122,7 +53122,7 @@
                 "immune to poisoned; resistant to charmed"
             ],
             "cr": "4",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Militia_Solder,_Human.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Militia_Solder_Human.png",
             "fluff": {
                 "entries": [
                     "Press‑ganged regulars in mismatched kit: city-issue jacket over farm boots, surplus helmets two owners old. They fight by whistle and hand‑signal, anchoring alleys with shields and stub carbines while a sergeant reads the street like a map. Not cruel by default, but pay, pride, or panic can turn a line of Solder into a stampede (Human contingent)."
@@ -53185,7 +53185,7 @@
                 "immune to poisoned; resistant to charmed"
             ],
             "cr": "4",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Militia_Solder,_Korrak.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Militia_Solder_Korrak.png",
             "fluff": {
                 "entries": [
                     "Press‑ganged regulars in mismatched kit: city-issue jacket over farm boots, surplus helmets two owners old. They fight by whistle and hand‑signal, anchoring alleys with shields and stub carbines while a sergeant reads the street like a map. Not cruel by default, but pay, pride, or panic can turn a line of Solder into a stampede (Korrak contingent)."
@@ -53248,7 +53248,7 @@
                 "immune to poisoned; resistant to charmed"
             ],
             "cr": "4",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Militia_Solder,_Vorraki.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Militia_Solder_Vorraki.png",
             "fluff": {
                 "entries": [
                     "Press‑ganged regulars in mismatched kit: city-issue jacket over farm boots, surplus helmets two owners old. They fight by whistle and hand‑signal, anchoring alleys with shields and stub carbines while a sergeant reads the street like a map. Not cruel by default, but pay, pride, or panic can turn a line of Solder into a stampede (Vorraki contingent)."
@@ -53311,7 +53311,7 @@
                 "immune to exhaustion"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Miner,_Delvani,_Old.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Miner_Delvani_Old.png",
             "fluff": {
                 "entries": [
                     "A hardworking miner, often forced into labor in the deep tunnels."
@@ -53374,7 +53374,7 @@
                 "immune to exhaustion"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Miner,_Delvani,_Young.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Miner_Delvani_Young.png",
             "fluff": {
                 "entries": [
                     "A hardworking miner, often forced into labor in the deep tunnels."
@@ -53916,7 +53916,7 @@
                 "grappled"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ore_Vein,_Aggressive.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ore_Vein_Aggressive.png",
             "fluff": {
                 "entries": [
                     "A mineral deposit that lashes out violently when disturbed."
@@ -53980,7 +53980,7 @@
                 "grappled"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ore_Vein,_Depressive.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ore_Vein_Depressive.png",
             "fluff": {
                 "entries": [
                     "A sorrowful mineral that drains the willpower of those near it."
@@ -54044,7 +54044,7 @@
                 "grappled"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ore_Vein,_Hungry.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ore_Vein_Hungry.png",
             "fluff": {
                 "entries": [
                     "A living rock that consumes flesh and metal alike."
@@ -54108,7 +54108,7 @@
                 "grappled"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ore_Vein,_Seductive.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ore_Vein_Seductive.png",
             "fluff": {
                 "entries": [
                     "A shimmering ore that lures miners into obsession and madness."
@@ -54393,7 +54393,7 @@
                 "immune to charmed; causes altered"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pile,_Office_Furniture.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pile_Office_Furniture.png",
             "fluff": {
                 "entries": [
                     "A chaotic mass of animated office furniture attacking intruders."
@@ -54496,7 +54496,7 @@
                 "poisoned"
             ],
             "cr": "7",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis,_Angelfish.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis_Angelfish.png",
             "fluff": {
                 "entries": [
                     "The Angelfish Piscis glides with flowing fins that fan out like wings, its body glowing with a soft, pearly radiance that turns night clouds silver as it passes. Of all the Piscis, it is the most ethereal, often mistaken for a heavenly apparition or a star fallen low into the atmosphere. Sky-watchers believe the Angelfish carries messages from the divine, and that seeing one above a city heralds peace, healing, or long-awaited forgiveness."
@@ -54605,7 +54605,7 @@
                 "stunned"
             ],
             "cr": "6",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis,_Discuss.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis_Discuss.png",
             "fluff": {
                 "entries": [
                     "The Discus Piscis is wide and flat, its shape like a massive spinning coin gliding silently through the upper clouds. Its reflective scales catch the sun at odd angles, flashing like distant signals across the horizon. Legends say the Discus Piscis is a bringer of wealth and abundance, appearing only when great prosperity is about to bloom — though some claim its gleam blinds those who covet it."
@@ -54721,7 +54721,7 @@
                 "charmed"
             ],
             "cr": "6",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis,_Goldie.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis_Goldie.png",
             "fluff": {
                 "entries": [
                     "The Goldie Piscis gleams like a coin cast into the heavens, its smaller body aglow with brilliant golden scales that glitter even at night. Entire flocks of these rare Piscis can turn the sky into a shower of sparks, their presence tied to stories of prosperity and bountiful harvests. Farmers say that to see a Goldie at dawn is to be blessed with a year free from famine."
@@ -54824,7 +54824,7 @@
                 "poisoned"
             ],
             "cr": "7",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis,_Rainbowfish.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis_Rainbowfish.png",
             "fluff": {
                 "entries": [
                     "The Rainbowfish Piscis drifts through the sky like a living prism, its translucent scales scattering sunlight into rippling auroras across the clouds. Entire horizons shimmer with color in its wake, and sightings are considered powerful omens of harmony or destined unions. Pilots whisper that following a Rainbowfish ensures safe passage, as if the sky itself bends to its luminous blessing."
@@ -54927,7 +54927,7 @@
                 "poisoned"
             ],
             "cr": "7",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis,_Ram.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis_Ram.png",
             "fluff": {
                 "entries": [
                     "The Ram Piscis is marked by great, curling crests along its head and spine, resembling the horns of a celestial beast. Unlike its gentler kin, it is bold and brash, often ramming through thunderheads and scattering stormfronts with thunderous force. Some sky-watchers believe these Piscis are guardians who charge headlong at tempests, keeping their destructive power at bay."
@@ -55030,7 +55030,7 @@
                 "poisoned"
             ],
             "cr": "7",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis,_Red_Crowtail.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis_Red_Crowtail.png",
             "fluff": {
                 "entries": [
                     "With long, crimson fins streaming like banners behind it, the Red Crowtail Piscis cuts a striking figure across the skies. Said to herald great change, both good and ill, its appearance fills villages with awe and apprehension. Where it passes, skies often shift violently — still dawns bursting into sudden storms, or rain clouds parting into blood-red sunsets."
@@ -55093,7 +55093,7 @@
                 "resistant to compelled"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter,_Aestari.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter_Aestari.png",
             "fluff": {
                 "entries": [
                     "A highly skilled Aestari warrior, hardened by brutal arena combat."
@@ -55156,7 +55156,7 @@
                 "resistant to compelled"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter,_Aestari,_Champion.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter_Aestari_Champion.png",
             "fluff": {
                 "entries": [
                     "A highly skilled Aestari warrior, hardened by brutal arena combat."
@@ -55219,7 +55219,7 @@
                 "resistant to compelled"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter,_Aestari,_Recruit.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter_Aestari_Recruit.png",
             "fluff": {
                 "entries": [
                     "A highly skilled Aestari warrior, hardened by brutal arena combat."
@@ -55282,7 +55282,7 @@
                 "resistant to poisoned"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter,_Delvani.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter_Delvani.png",
             "fluff": {
                 "entries": [
                     "A Delvani brute, wielding raw strength and resilience in the ring."
@@ -55345,7 +55345,7 @@
                 "resistant to frightened"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter,_Human.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter_Human.png",
             "fluff": {
                 "entries": [
                     "A human brawler who has survived the unforgiving pit arenas."
@@ -55408,7 +55408,7 @@
                 "resistant to unstable"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter,_Vorraki.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter_Vorraki.png",
             "fluff": {
                 "entries": [
                     "A ruthless Vorraki gladiator, trained to fight in underground circuits."
@@ -56429,7 +56429,7 @@
                 "exhaustion; resistant to frightened"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret,_Flamethrower.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret_Flamethrower.png",
             "fluff": {
                 "entries": [
                     "Automated defense turrets programmed to eliminate threats."
@@ -56493,7 +56493,7 @@
                 "exhaustion; resistant to frightened"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret,_Laser.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret_Laser.png",
             "fluff": {
                 "entries": [
                     "Automated defense turrets programmed to eliminate threats."
@@ -56557,7 +56557,7 @@
                 "exhaustion; resistant to frightened"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret,_Machinegun.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret_Machinegun.png",
             "fluff": {
                 "entries": [
                     "Automated defense turrets programmed to eliminate threats."
@@ -56621,7 +56621,7 @@
                 "exhaustion; resistant to frightened"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret,_Missile.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret_Missile.png",
             "fluff": {
                 "entries": [
                     "Automated defense turrets programmed to eliminate threats."
@@ -56685,7 +56685,7 @@
                 "exhaustion; resistant to frightened"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret,_Sonic.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret_Sonic.png",
             "fluff": {
                 "entries": [
                     "Automated defense turrets programmed to eliminate threats."
@@ -56811,7 +56811,7 @@
                 "immune to poisoned; causes grappled"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sewer_Alligator,_Mutated.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sewer_Alligator_Mutated.png",
             "fluff": {
                 "entries": [
                     "Colossal, mutated alligators with enhanced strength and intelligence."
@@ -56874,7 +56874,7 @@
                 "immune to poisoned; resistant to charmed"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sewer_Rat,_Mutated.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sewer_Rat_Mutated.png",
             "fluff": {
                 "entries": [
                     "Oversized, grotesque rats with disease-ridden bites."
@@ -57064,7 +57064,7 @@
                 "immune to prone; resistant to compelled"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sewer_Turtle,_Mutated.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sewer_Turtle_Mutated.png",
             "fluff": {
                 "entries": [
                     "Shell-armored mutants lurking in toxic runoff."
@@ -57860,7 +57860,7 @@
                 "poisoned"
             ],
             "cr": "6",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer,_Capelobo.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer_Capelobo.png",
             "fluff": {
                 "entries": [
                     "A South American predator that embodies the feral side of the Springer myth. Humanoid but bestial, with a muzzle like a tapir and shaggy fur, the Capelobo can leap through the jungle canopy to ambush prey. It is said to tear into livestock and even humans, leaving only bloodied earth and crushed undergrowth. Unlike its more spectral cousins, the Capelobo is tangible, physical, and voracious—proof that not all Springers are phantoms."
@@ -57963,7 +57963,7 @@
                 "frightened"
             ],
             "cr": "4",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer,_El_Sombreron.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer_El_Sombreron.png",
             "fluff": {
                 "entries": [
                     "Less overtly violent than its kin, El Sombrerón is a small figure with a wide-brimmed hat and unnaturally strong leaps. It harasses travelers and animals alike, appearing suddenly to braid horses’ manes or serenade victims into sleeplessness. Though folkloric in origin, its sudden pouncing entrances and hypnotic songs align it with the Springers’ disorienting tendencies. Those who dismiss it as harmless often find themselves drained by weeks of sleepless nights."
@@ -58061,7 +58061,7 @@
                 "deception": "+8"
             },
             "cr": "9",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer,_Jack.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer_Jack.png",
             "fluff": {
                 "entries": [
                     "The infamous origin of the Springer tales, Spring-Heeled Jack is a cloaked figure with burning eyes and clawed hands. Witnesses describe it vaulting over high walls and rooftops with impossible ease, sometimes belching blue flames or shrieking in metallic tones. Its appearance has always carried an air of cruel playfulness—striking terror with sudden leaps, then vanishing in laughter. Some accounts call it a nobleman cursed with infernal springs, while others whisper of an urban demon feeding on panic."
@@ -58157,7 +58157,7 @@
                 "frightened"
             ],
             "cr": "8",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer,_Jersey_Devil.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer_Jersey_Devil.png",
             "fluff": {
                 "entries": [
                     "A monstrous variant of the Springer myth, the Jersey Devil stalks the pine barrens as a leaping, winged beast. With goat-like legs and a reptilian tail, it bounds between trees before taking flight, its cries said to curdle blood. Though it shares the Springer’s love of sudden appearances, its nature is more feral: a predator of livestock and a terror of isolated farmsteads. Where others confuse or haunt, the Jersey Devil feasts."
@@ -58257,7 +58257,7 @@
                 "frightened"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer,_Le_Loyon.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer_Le_Loyon.png",
             "fluff": {
                 "entries": [
                     "A silent figure cloaked in a dark hood and mask, drifting through forests and abandoned roads. Witnesses describe its movements as eerily smooth, with sudden vanishing leaps that defy explanation. Le Loyon does not speak, but its presence sows dread; animals grow restless in its wake, and children report feeling watched for weeks after glimpsing it. In some tales, those who follow Le Loyon too long find themselves lost in endless woods, no matter how familiar the path."
@@ -58358,7 +58358,7 @@
                 "restrained; causes delayed"
             ],
             "cr": "4",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer,_Mad_Gasser.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer_Mad_Gasser.png",
             "fluff": {
                 "entries": [
                     "Originating in stories of a faceless prowler who sprayed noxious fumes at night, the Mad Gasse is a gaunt, leaping figure wreathed in clouds of acrid smoke. Its jumps are chaotic bursts, often accompanied by the hiss of escaping gas. Victims describe sudden paralysis, confusion, and vivid hallucinations after an encounter, as though their senses had been poisoned. It is said that Mad Gasse delights in watching people stumble and cough as they flee, before vanishing into the night with a final, lung-crushing leap."
@@ -58454,7 +58454,7 @@
                 "poisoned"
             ],
             "cr": "6",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer,_Pérák.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer_Pérák.png",
             "fluff": {
                 "entries": [
                     "A lean, wiry figure of uncanny elasticity, Perak bounds across rooftops and alleys with impossible grace. Legends paint it as both trickster and terror: sometimes frightening soldiers or criminals, sometimes protecting locals by startling wrongdoers into retreat. Its glowing eyes can be seen flashing before it vaults into the dark, leaving behind a trail of echoes like coiled springs snapping. Unlike its darker kin, Perak embodies more ambiguity—equal parts phantom protector and night-stalking menace."
@@ -58556,7 +58556,7 @@
                 "charmed; frightened"
             ],
             "cr": "9",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer,_Tikbalang.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer_Tikbalang.png",
             "fluff": {
                 "entries": [
                     "Towering and horse-headed, the Tikbalang leaps along mountain trails and forest paths, luring travelers astray with mocking laughter. It delights in confusion, leading victims in circles until they collapse from exhaustion, before vanishing into mist. Though tricksterish, the Tikbalang can become violent if angered, trampling its prey with crushing strength. In the Springer family, it represents the uncanny fusion of playful cruelty and predatory danger."
@@ -58769,7 +58769,7 @@
                 "poisoned"
             ],
             "cr": "8",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sumashi,_Abura.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sumashi_Abura.png",
             "fluff": {
                 "entries": [
                     "The Abura Sumashi is a strange figure of rural legend, haunting lonely mountain passes and quiet roadsides. Its body is that of a withered humanoid wrapped in simple rags, but its head is heavy and stone-like, as though carved from weathered rock. Its piercing eyes glow with a dim, watchful light.\n\nAccording to tales, the Abura Sumashi was once a human who stole precious oil—lamp oil, cooking oil, or sacred oil from shrines. For this crime it was cursed, its spirit bound in this grotesque form. Now it lingers in mountain paths and farm roads, appearing to lone travelers. Though rarely violent at first, its presence is unsettling, and those who linger in its company too long may find themselves harried, cursed, or followed for days by the soft scrape of its stone visage turning toward them.\n\nSilent Haunter. The Abura Sumashi rarely speaks, instead appearing suddenly to startle and frighten. It seems to feed on fear and unease, vanishing and reappearing to heighten dread.\n\nTwisted Punisher. If angered—by insult, mockery, or refusal to show respect—the yokai lashes out with supernatural malice. Some stories tell of travelers struck mute, oil lamps snuffed by unseen hands, or food stores spoiled overnight after an encounter.\n\nEnduring Curse. Destroying an Abura Sumashi only delays its torment. Unless its original theft is atoned for—through offerings, prayer, or restitution—it reforms along the same road, cursed to linger forever."
@@ -58879,7 +58879,7 @@
                 "poisoned"
             ],
             "cr": "8",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sumashi,_Kemuri.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sumashi_Kemuri.png",
             "fluff": {
                 "entries": [
                     "The Kemuri Sumashi is a drifting spirit born from fire, smoke, and forgotten rituals. Its form resembles a vaguely humanoid figure woven of incense plumes and ash, with an indistinct head that billows like rising smoke. Where the Abura Sumashi embodies punishment for theft, the Kemuri Sumashi is a warning: respect flame, ritual, and the unseen forces that linger in smoke.\n\nThey haunt abandoned shrines, ruined temples, and desecrated sacred fires. At times, they appear as guardians—warding intruders from defiled grounds—but at others, they drift aimlessly, curious, sorrowful, and unpredictable. Their bodies shift with every breeze, flowing in and out of shape, their presence scented faintly of ash and incense.\n\nDrifting Guardian. The Kemuri Sumashi can pass through cracks and walls like smoke, watching intruders silently. When threatened, it expands into a suffocating cloud, choking breath and sight alike.\n\nSpirit of Smoke. Its attacks are rarely physical. Instead, it manipulates air, heat, and haze, creating illusions or forcing visions of ritual flames long extinguished.\n\nBound to Fire. The Kemuri Sumashi is strongest where sacred fire once burned. In places of profaned or neglected ritual, it lashes out with greatest ferocity, seeking to reclaim forgotten reverence."
@@ -58989,7 +58989,7 @@
                 "frightened"
             ],
             "cr": "7",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sumashi,_Ki.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sumashi_Ki.png",
             "fluff": {
                 "entries": [
                     "Born from the essence of trees and sacred groves, the Ki Sumashi once lingered peacefully in mountain forests, temple woods, and quiet shrines. With a bark-carved body and a great wooden head like an idol mask, it was a silent watcher, content to guard balance between humanity and nature.\n\nBut as forests were cut, rivers poisoned, and sacred groves paved into avenues, the Ki Sumashi grew restless. In modern sprawl and mega-cities, these spirits are rare, but when they emerge, they seethe with irritation, grief, and vengeful anger. Their moss-covered forms wander alleyways, rooftops, and construction sites, appearing like grotesque statues dragged from forgotten shrines. Their silence is broken only by the creaking of wood and the splintering crash of their wrath.\n\nUrban Haunter. The Ki Sumashi loathes the scent of asphalt, smoke, and metal. In cities, it manifests not as a protector but as an avenger of lost groves. It stalks industrial yards and abandoned parks, attacking those who embody heedless consumption: polluters, desecrators, and careless trespassers.\n\nVengeful Guardian. Unlike in wild places, where it may still judge impartially, the Ki Sumashi in urban areas is prone to rage. They lash out at mortals not out of evil, but out of pain and frustration, a spirit that cannot find peace while its forest is gone.\n\nEcho of the Wild. Even in their anger, they are reminders of what once thrived beneath the concrete. To some, they are terrifying monsters. To others, they are tragic omens—living testaments of how far humanity has strayed from balance."
@@ -59096,7 +59096,7 @@
                 "poisoned"
             ],
             "cr": "6",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sumashi,_Kusa.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sumashi_Kusa.png",
             "fluff": {
                 "entries": [
                     "The Kusa Sumashi is a spirit born of abandonment and neglect, woven from old straw mats, broken tools, and forgotten harvests. Its body resembles a scarecrow-like figure, patchwork and uneven, with a large head of bound reeds and splintered wood. Where once it stood silently among crops, it now lingers in empty fields, half-ruined barns, and sacred harvest grounds where no one comes to give thanks.\n\nSpirit of the Harvest. The Kusa Sumashi embodies the sacred bond between people and the land. It rises when fields are forsaken, rituals forgotten, or offerings left undone. To those who honor the soil and the cycle of planting and reaping, it may be only a watchful presence. But to those who profane or abandon the land, it stirs with anger, lashing out with the weight of toil unfulfilled.\n\nPatchwork Guardian. The spirit’s body is cobbled together from what is left behind—rotting mats, dulled blades, snapped plows, and broken baskets. These fragments of human life, once meant for labor, have become its armor and its weapons.\n\nLament of Fields Lost. In rural places, the Kusa Sumashi is a stern but fair sentinel. In urbanized regions, where farmland has been devoured by concrete, it becomes restless and sorrowful, sometimes wandering streets with the smell of cut grass and dust trailing after it—an omen of land forever lost.\n\nDefender of Sacred Grounds. The yokai is especially protective of ancient harvest shrines and forgotten boundaries. Trespassers who mock, pillage, or burn offerings will find themselves pursued by the rustling of straw and the creak of tools wielded by unseen hands."
@@ -59206,7 +59206,7 @@
                 "frightened"
             ],
             "cr": "8",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sumashi,_Mizu.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sumashi_Mizu.png",
             "fluff": {
                 "entries": [
                     "The Mizu Sumashi is a spirit of sacred waters, born from wells, springs, and rivers where offerings were once made. Its form is a shifting humanoid shape of rippling water, crowned with a misty plume that resembles a flowing head. Its body glimmers with reflected light one moment, then darkens into a churning torrent the next.\n\nGuardian of Wells and Springs. Where water is honored, the Mizu Sumashi appears as a quiet protector, warding off pollution and blessing the thirsty. Where water is profaned—wells defiled, rivers dammed, or sacred springs forgotten—it manifests as an angry, drenching spirit, pulling trespassers beneath waves of unseen current.\n\nShifting Essence. Unlike its stone- or straw-bodied kin, the Mizu Sumashi’s form is fluid and unstable. It can melt into mist to drift unseen, surge into a tide to sweep away intruders, or condense into droplets that vanish back into the soil.\n\nBalance of Life and Loss. The yokai embodies both the generosity and fury of water. It is healer and destroyer, quenching thirst one day, drowning fields the next. Its silence leaves mortals uncertain whether they are protected or judged until its actions decide the truth.\n\nUrban Haunter. In sprawling cities, the Mizu Sumashi grows restless. It drifts through storm drains, abandoned bathhouses, and defiled fountains, its once-pure essence turned stagnant. When stirred, it lashes out with floods of resentment, as though mourning every forgotten spring paved over by stone."
@@ -59624,7 +59624,7 @@
                 "frightened"
             ],
             "cr": "9",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Synthetic_Vampire,_Elite.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Synthetic_Vampire_Elite.png",
             "fluff": {
                 "entries": [
                     "Beings sustained by cybernetic components rather than blood."
@@ -59730,7 +59730,7 @@
                 "frightened"
             ],
             "cr": "9",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Synthetic_Vampire,_Hunter.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Synthetic_Vampire_Hunter.png",
             "fluff": {
                 "entries": [
                     "Beings sustained by cybernetic components rather than blood."
@@ -59836,7 +59836,7 @@
                 "frightened"
             ],
             "cr": "9",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Synthetic_Vampire,_Lurker.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Synthetic_Vampire_Lurker.png",
             "fluff": {
                 "entries": [
                     "Beings sustained by cybernetic components rather than blood."
@@ -59942,7 +59942,7 @@
                 "frightened"
             ],
             "cr": "9",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Synthetic_Vampire,_Seducer.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Synthetic_Vampire_Seducer.png",
             "fluff": {
                 "entries": [
                     "Beings sustained by cybernetic components rather than blood."
@@ -60431,7 +60431,7 @@
                 "charmed"
             ],
             "cr": "20",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vorthirith,_Abhaaldrac.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vorthirith_Abhaaldrac.png",
             "fluff": {
                 "entries": [
                     "Embodiment of the infinite firmament and the unfathomable gulfs between stars, Abhaaldrac is a living paradox: the beauty of the cosmos bound to the cruelty of unfeeling curiosity. Towering beyond comprehension, this gargantuan entity drifts through the void, his presence a sickness that warps the heavens themselves.\n\nHis hunger is not born of need but of wonder twisted to cruelty. Abhaaldrac devours worlds, lives, and suns not for survival, but for the terrible delight of knowing what will happen when they are gone. He is the cosmos turned predator, a universal psychopath whose questions are answered in ruin and whose fascination is written in extinction.\n\nEvil pulses in his veins like dark matter, seeping outward in waves of chaos. Behind his path lie shattered planets, orphaned stars, and the echoes of civilizations reduced to ash. Yet even in his destruction, there is no hatred, no purpose—only the cold, inexorable curiosity of a mind that sees all existence as experiment and plaything.\n\nTo speak of Abhaaldrac is to speak of inevitability: the sickness of curiosity without compassion, a malady written across the stars themselves."
@@ -60551,7 +60551,7 @@
                 "petrified"
             ],
             "cr": "20",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vorthirith,_Bhazquorith.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vorthirith_Bhazquorith.png",
             "fluff": {
                 "entries": [
                     "A primordial world-eater, Bhaz’qorith lurks at the ragged edges of creation, where the woven layers of existence fray into the void. Once a sovereign among the Vorthirith, he was lured to the birthing Intent of Acrimony, enthralled by its malignant pulse, and forever twisted into an avatar of dissolution.\n\nHis form is a gaping abyss of endless hunger: a spiraling maw of teeth and unraveling sinew, a body whose very presence gnaws at reality. He does not simply destroy—he unwinds, dissolves, and unmakes. Where he passes, stone pillars crack like brittle reeds, threads of fate unravel, and the meaning of things bleeds into hollow echoes.\n\nHis hunger is eternal, his tread catastrophic. Yet in every cycle of unraveling, creation lingers, whispering defiance through the roots of the life-trees. Bhaz’qorith’s doom may lie not in his defeat, but in the growth that rises defiantly from the ruins he leaves behind."
@@ -60669,7 +60669,7 @@
                 "paralyzed"
             ],
             "cr": "20",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vorthirith,_Cthithrzho.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vorthirith_Cthithrzho.png",
             "fluff": {
                 "entries": [
                     "C’thithr’zho is doom made manifest, the harbinger of laments whose presence turns hope to silence. Vast as a planet and draped in endless shadow, he drifts through the void as a dirge given form, a living requiem that consumes both flesh and spirit.\n\nHe feasts upon life and blood, unmaking the strong and the frail alike, until only desolation remains. Where others devour for hunger or curiosity, C’thithr’zho consumes for the sake of despair itself. His essence is evil distilled to its most perfect state, a toxin in the fabric of creation, saturating the stars with sorrow and fear.\n\nHis coming is heralded not by fire or ruin, but by silence: songs falter, prayers go unanswered, and even memory begins to weep. To behold him is to feel inevitability’s weight, the crushing truth that nothing endures. Planets blacken beneath his shadow, their oceans turned to blood-red voids, their skies collapsing into endless mourning.\n\nC’thithr’zho does not rage, nor revel, nor question—he laments. Yet in that lament lies the certainty of annihilation, for he is the requiem of all things, and every star that shines is but a verse in the dirge he will one day complete."
