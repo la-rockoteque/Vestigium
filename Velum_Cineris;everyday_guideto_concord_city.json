@@ -204,8 +204,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1757505815,
-        "_dateLastModifiedHash": "48d42a7235",
+        "dateLastModified": 1757510581,
+        "_dateLastModifiedHash": "f81204035b",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -44698,9 +44698,19 @@
                 "blinded"
             ],
             "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Air_Rods.png",
             "fluff": {
                 "entries": [
                     "Air Rods, also called skyfish, are tiny airborne entities that appear only in high-speed footage. Their slender, rod-like bodies undulate with membranous fins, giving the illusion of swimming through the air. Scientists have failed to categorize them, and many believe they exist between moments, slipping through the cracks in time."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Air%20Rods.png"
+                        }
+                    }
                 ]
             }
         },
@@ -44779,9 +44789,19 @@
                 "poisoned"
             ],
             "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Annelids.png",
             "fluff": {
                 "entries": [
                     "Annelids are segmented, worm-like anomalies that appear in moist, dark corridors or underneath city infrastructure. Their rings ripple with unnatural synchronicity, and their bite can shear through cables, bone, and pipe alike. Some believe they are the offspring of ancient parasitic intelligences long buried beneath the surface."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Annelids.png"
+                        }
+                    }
                 ]
             }
         },
@@ -44873,9 +44893,19 @@
                 "frightened"
             ],
             "cr": "10",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Architectural_Shifter.png",
             "fluff": {
                 "entries": [
                     "Living rooms and staircases that rearrange themselves to trap victims."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Architectural%20Shifter.png"
+                        }
+                    }
                 ]
             }
         },
@@ -44964,9 +44994,19 @@
                 "none"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Asphalt_Crawler.png",
             "fluff": {
                 "entries": [
                     "Humanoid creatures of cracked pavement, dripping with tar."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Asphalt%20Crawler.png"
+                        }
+                    }
                 ]
             }
         },
@@ -45044,9 +45084,19 @@
                 "poisoned"
             ],
             "cr": "1",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Automated_Interrogator.png",
             "fluff": {
                 "entries": [
                     "Robotic enforcers designed for psychic probing and invasive questioning."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Automated%20Interrogator.png"
+                        }
+                    }
                 ]
             }
         },
@@ -45141,9 +45191,19 @@
                 "frightened"
             ],
             "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Babushka_Lady.png",
             "fluff": {
                 "entries": [
                     "Mysterious veiled woman filming during infamous events. Appears in multiple timelines with concealed knowledge."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Babushka%20Lady.png"
+                        }
+                    }
                 ]
             }
         },
@@ -45228,9 +45288,19 @@
                 "prone"
             ],
             "cr": "1",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ball_Lightning.png",
             "fluff": {
                 "entries": [
                     "A glowing sphere of electrical plasma drifting unpredictably. Burns through walls and explodes when threatened."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Ball%20Lightning.png"
+                        }
+                    }
                 ]
             }
         },
@@ -45316,9 +45386,19 @@
                 "stealth": "+8"
             },
             "cr": "9",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Beast_of_Gévaudan.png",
             "fluff": {
                 "entries": [
                     "An enormous wolf-like predator from 18th century France, responsible for a wave of killings."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Beast%20of%20G%C3%A9vaudan.png"
+                        }
+                    }
                 ]
             }
         },
@@ -45426,9 +45506,19 @@
                 "frightened"
             ],
             "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Black_Hound_of_Dead.png",
             "fluff": {
                 "entries": [
                     "A spectral black dog that appears to herald death, stalking roads at night."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Black%20Hound%20of%20Dead.png"
+                        }
+                    }
                 ]
             }
         },
@@ -45520,9 +45610,19 @@
                 "invisible"
             ],
             "cr": "12",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Black_Stick_Man.png",
             "fluff": {
                 "entries": [
                     "Black Stick Men are eerie humanoid anomalies that appear as tall, impossibly thin silhouettes, often mistaken for shadows or tricks of the eye. Eyewitnesses report feeling dread and vertigo upon encountering them, even though they rarely act with direct aggression. They move with impossible fluidity, slipping between cracks in the world, and often vanish before they can be confronted."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Black%20Stick%20Man.png"
+                        }
+                    }
                 ]
             }
         },
@@ -45607,9 +45707,19 @@
                 "frightened"
             ],
             "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Blackout_Static.png",
             "fluff": {
                 "entries": [
                     "A floating cloud of TV static that steals voices and distorts time."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Blackout%20Static.png"
+                        }
+                    }
                 ]
             }
         },
@@ -45694,9 +45804,19 @@
                 "resistant to under surveillance"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Blacksite_Executive,_Manager.png",
             "fluff": {
                 "entries": [
                     "High-ranking corporate officers enhanced beyond natural limits."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Blacksite%20Executive%2C%20Manager.png"
+                        }
+                    }
                 ]
             }
         },
@@ -45770,9 +45890,19 @@
                 "stealth": "+4"
             },
             "cr": "1",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Blacksite_Executive,_Scientist.png",
             "fluff": {
                 "entries": [
                     "High-ranking corporate officers enhanced beyond natural limits."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Blacksite%20Executive%2C%20Scientist.png"
+                        }
+                    }
                 ]
             }
         },
@@ -45857,9 +45987,19 @@
                 "stealth": "+6"
             },
             "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Blacksite_Executive,_Security_Officier.png",
             "fluff": {
                 "entries": [
                     "High-ranking corporate officers enhanced beyond natural limits."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Blacksite%20Executive%2C%20Security%20Officier.png"
+                        }
+                    }
                 ]
             }
         },
@@ -45945,9 +46085,19 @@
                 "stealth": "+5"
             },
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Blemmyeus.png",
             "fluff": {
                 "entries": [
                     "A headless humanoid with a face on its chest, dressed in crude garb and topped with a wide red hat. It wanders plains and forests, confusing travelers."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Blemmyeus.png"
+                        }
+                    }
                 ]
             }
         },
@@ -46041,9 +46191,19 @@
                 "frightened"
             ],
             "cr": "12",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Bloop.png",
             "fluff": {
                 "entries": [
                     "A deep-sea leviathan detected only by strange, powerful sound pulses. Its body is vast and unseen."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Bloop.png"
+                        }
+                    }
                 ]
             }
         },
@@ -46149,9 +46309,19 @@
                 "charmed"
             ],
             "cr": "16",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Bogeyman.png",
             "fluff": {
                 "entries": [
                     "The Bogeyman is a shapeshifting horror that haunts the liminal spaces between sleep and wakefulness. It thrives on childhood fears but has grown more cunning, now feeding off adult anxieties too. Sightings often report a figure in a long coat with eyes like lanterns and whispers that bend the mind."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Bogeyman.png"
+                        }
+                    }
                 ]
             }
         },
@@ -46227,9 +46397,19 @@
                 "poisoned"
             ],
             "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Bryozoa.png",
             "fluff": {
                 "entries": [
                     "A vast, coral-like anomaly found growing on damp walls, submerged ceilings, and derelict sewers. Bryozoa colonies act as one mind, reacting to intruders with strange chemical defenses. Their tendrils expand slowly, taking over entire structures if left unchecked."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Bryozoa.png"
+                        }
+                    }
                 ]
             }
         },
@@ -46312,9 +46492,19 @@
                 "poisoned"
             ],
             "cr": "1",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Cache_Leech.png",
             "fluff": {
                 "entries": [
                     "A writhing mass of printer ribbons that erases meaning from objects and words."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Cache%20Leech.png"
+                        }
+                    }
                 ]
             }
         },
@@ -46409,9 +46599,19 @@
                 "frightened"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Candle_Walker.png",
             "fluff": {
                 "entries": [
                     "A humanoid figure made of burning wax. Sighted in abandoned buildings and late-night roads."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Candle%20Walker.png"
+                        }
+                    }
                 ]
             }
         },
@@ -46503,9 +46703,19 @@
                 "poisoned"
             ],
             "cr": "6",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Channeler.png",
             "fluff": {
                 "entries": [
                     "A humanoid with a TV for a head, hypnotizing victims with its flickering screen."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Channeler.png"
+                        }
+                    }
                 ]
             }
         },
@@ -46595,9 +46805,19 @@
                 "frightened"
             ],
             "cr": "8",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Chernobyl_Blackbird.png",
             "fluff": {
                 "entries": [
                     "Seen before disasters, this winged shape radiates dread and nuclear decay. Just seeing one is an omen of dread and a promise of death."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Chernobyl%20Blackbird.png"
+                        }
+                    }
                 ]
             }
         },
@@ -46722,9 +46942,19 @@
                 "frightened"
             ],
             "cr": "13",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Choir_of_the_Hollow_Sky.png",
             "fluff": {
                 "entries": [
                     "An angelic mass of vocal cords that sings divine horrors from beyond the clouds."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Choir%20of%20the%20Hollow%20Sky.png"
+                        }
+                    }
                 ]
             }
         },
@@ -46817,9 +47047,19 @@
                 "prone"
             ],
             "cr": "11",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Claws_on_Tile.png",
             "fluff": {
                 "entries": [
                     "A scuttling humanoid heard more than seen. Its talons click against tile, announcing its approach."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Claws%20on%20Tile.png"
+                        }
+                    }
                 ]
             }
         },
@@ -46910,9 +47150,19 @@
                 "frightened"
             ],
             "cr": "7",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Clockwork_Morass.png",
             "fluff": {
                 "entries": [
                     "A grinding mass of clock gears and typewriter hammers, stuck in time loops."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Clockwork%20Morass.png"
+                        }
+                    }
                 ]
             }
         },
@@ -47003,9 +47253,19 @@
                 "frightened"
             ],
             "cr": "1",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Croakers.png",
             "fluff": {
                 "entries": [
                     "Semi-intelligent bipedal frog-like things seen in groups around lakes and culverts."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Croakers.png"
+                        }
+                    }
                 ]
             }
         },
@@ -47100,9 +47360,19 @@
                 "immune to frightened; resistant to compelled"
             ],
             "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Crouching_Elder.png",
             "fluff": {
                 "entries": [
                     "A frail, ancient man permanently crouched, seeing through others' thoughts."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Crouching%20Elder.png"
+                        }
+                    }
                 ]
             }
         },
@@ -47178,9 +47448,19 @@
                 "frightened"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Crungus.png",
             "fluff": {
                 "entries": [
                     "A Crungus is an imaginary creature found in artificial intelligence text-to-image models, sometimes also referred to as a digital cryptid. Twitch streamer, voice actor, and comedian Guy Kelly found that typing the made-up word into the Craiyon image generator consistently produced pictures of a monstrous, hairy humanoid.\n\nHe later tweeted about this[6] which resulted in a very long thread of reactions and experiments with \"Crungus\" and variations of this AI-prompt also on different engines.\n\nSince Craiyon version 2 was introduced in 2023, the prompt \"Crungus\" no longer produces the same imaginary creature."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Crungus.png"
+                        }
+                    }
                 ]
             }
         },
@@ -47257,9 +47537,19 @@
                 "poisoned"
             ],
             "cr": "1",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Data_Spider.png",
             "fluff": {
                 "entries": [
                     "AI entities with fiber-optic legs, feeding on information."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Data%20Spider.png"
+                        }
+                    }
                 ]
             }
         },
@@ -47361,9 +47651,19 @@
                 "restrained"
             ],
             "cr": "18",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Day_of_the_Shadows.png",
             "fluff": {
                 "entries": [
                     "A massive sentient shadowstorm that descends once per century, swallowing entire towns in blackness."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Day%20of%20the%20Shadows.png"
+                        }
+                    }
                 ]
             }
         },
@@ -47480,9 +47780,19 @@
                 "charmed"
             ],
             "cr": "13",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Disco_Demon.png",
             "fluff": {
                 "entries": [
                     "Born from cursed dance floors and forgotten nightlife, the Disco Demon is a soul-snatching entity that lures revelers into a manic frenzy. Cloaked in shimmering clothes and cursed beats, it turns clubs into hunting grounds, and its prey never stops dancing—even after death."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Disco%20Demon.png"
+                        }
+                    }
                 ]
             }
         },
@@ -47561,9 +47871,19 @@
                 "perception": "+3"
             },
             "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Dover_Demon.png",
             "fluff": {
                 "entries": [
                     "A pale, humanoid cryptid that watches from shadows and never attacks unless cornered."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Dover%20Demon.png"
+                        }
+                    }
                 ]
             }
         },
@@ -47661,9 +47981,19 @@
                 "unconscious"
             ],
             "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Drone,_Assault.png",
             "fluff": {
                 "entries": [
                     "Flying mechanical spies or combat units, often deployed in urban zones."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Drone%2C%20Assault.png"
+                        }
+                    }
                 ]
             }
         },
@@ -47765,9 +48095,19 @@
                 "unconscious"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Drone,_Security.png",
             "fluff": {
                 "entries": [
                     "Flying mechanical spies or combat units, often deployed in urban zones."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Drone%2C%20Security.png"
+                        }
+                    }
                 ]
             }
         },
@@ -47846,9 +48186,19 @@
                 "deafened"
             ],
             "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Drone,_Surveillance.png",
             "fluff": {
                 "entries": [
                     "Flying mechanical spies or combat units, often deployed in urban zones."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Drone%2C%20Surveillance.png"
+                        }
+                    }
                 ]
             }
         },
@@ -47921,9 +48271,19 @@
                 "stealth": "+4"
             },
             "cr": "1",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Echoling.png",
             "fluff": {
                 "entries": [
                     "Failed clones that mimic voices and movements, but never quite correctly."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Echoling.png"
+                        }
+                    }
                 ]
             }
         },
@@ -48011,9 +48371,19 @@
                 "prone"
             ],
             "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ectoplasm.png",
             "fluff": {
                 "entries": [
                     "Viscous ghostly residue that coalesces into a semisolid entity. Can bind victims or seep into walls."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Ectoplasm.png"
+                        }
+                    }
                 ]
             }
         },
@@ -48114,9 +48484,19 @@
                 "frightened"
             ],
             "cr": "15",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ending.png",
             "fluff": {
                 "entries": [
                     "A cryptid heralding the final moments of existence, witnessed only in shared hallucinations and at deathbeds."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Ending.png"
+                        }
+                    }
                 ]
             }
         },
@@ -48211,9 +48591,19 @@
                 "unconscious"
             ],
             "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Energy_Wraith.png",
             "fluff": {
                 "entries": [
                     "Ghostly beings formed from raw energy, haunting abandoned sites."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Energy%20Wraith.png"
+                        }
+                    }
                 ]
             }
         },
@@ -48311,9 +48701,19 @@
                 "unconscious"
             ],
             "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Erratum_Swarm.png",
             "fluff": {
                 "entries": [
                     "A cloud of correction marks and misplaced letters rewriting reality."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Erratum%20Swarm.png"
+                        }
+                    }
                 ]
             }
         },
@@ -48399,9 +48799,19 @@
                 "stealth": "+6"
             },
             "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/False_Humans.png",
             "fluff": {
                 "entries": [
                     "They look right until they move. The proportions are too exact, smiles too symmetrical, eyes that blink on a rhythm no heartbeat keeps. Up close they smell faintly of warm plastic and copier toner, and their shadows lag a fraction behind. False Humans mirror mannerisms harvested from crowds and broadcasts, passing among us until a prompt—or a mistake—reveals the hollow inside."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/False%20Humans.png"
+                        }
+                    }
                 ]
             }
         },
@@ -48491,9 +48901,19 @@
                 "poisoned"
             ],
             "cr": "6",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Fleshgait.png",
             "fluff": {
                 "entries": [
                     "A skinwalker-like entity that mimics the appearance of lost hikers, often with mismatched limbs."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Fleshgait.png"
+                        }
+                    }
                 ]
             }
         },
@@ -48578,9 +48998,19 @@
                 "perception": "+4"
             },
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Forgotten.png",
             "fluff": {
                 "entries": [
                     "People erased from reality, leaving behind only eerie imprints."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Forgotten.png"
+                        }
+                    }
                 ]
             }
         },
@@ -48670,9 +49100,19 @@
                 "immune to blinded; resistant to unstable"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Furnace_Moth.png",
             "fluff": {
                 "entries": [
                     "A massive moth made of crumbling ash, feeding on warmth and fire."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Furnace%20Moth.png"
+                        }
+                    }
                 ]
             }
         },
@@ -48756,9 +49196,19 @@
                 "poisoned"
             ],
             "cr": "8",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Gas_Breather.png",
             "fluff": {
                 "entries": [
                     "A bloated, mutated thing that hisses and wheezes, wearing a gaz mask, in abandoned mines or war tunnels."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Gas%20Breather.png"
+                        }
+                    }
                 ]
             }
         },
@@ -48839,9 +49289,19 @@
                 "blinded"
             ],
             "cr": "8",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Giant_Booklice.png",
             "fluff": {
                 "entries": [
                     "Known commonly as booklice or humidity bugs, these creatures flourish in damp, warm environments. Grown to monstrous size, they infest underground cisterns, moldy crypts, and abandoned baths, scuttling across walls in pale clusters. Their mandibles scrape away mold, fungus, and even damp flesh, making them a menace in dungeons. They are rarely dangerous alone, but infestations can render whole storerooms or libraries unusable, their rasping jaws reducing paper, wood, and cloth to dust."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Giant%20Booklice.png"
+                        }
+                    }
                 ]
             }
         },
@@ -48922,9 +49382,19 @@
                 "poisoned"
             ],
             "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Giant_Cockroach.png",
             "fluff": {
                 "entries": [
                     "Armored in a glossy carapace and able to scuttle across walls and ceilings with disturbing speed, giant cockroaches thrive in sewers, ruins, and anywhere rot gathers. They are hardy survivors, nearly impossible to starve, and resistant to poisons and disease. Many adventurers fear not their bite but their swarming numbers, for where one roach lurks, dozens more wait."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Giant%20Cockroach.png"
+                        }
+                    }
                 ]
             }
         },
@@ -49002,9 +49472,19 @@
                 "poisoned"
             ],
             "cr": "8",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Giant_Fruit_Fly.png",
             "fluff": {
                 "entries": [
                     "Drawn to sweetness and decay, giant fruit flies buzz in clouds around orchards, wineries, or forgotten stores of food. Their bodies are bloated, their multifaceted eyes reflecting iridescent colors in torchlight. Though fragile individually, they can overwhelm through swarms, spreading filth and laying eggs in spoiled food or carrion. Their presence is often a sign that larger pests or carrion feeders are near."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Giant%20Fruit%20Fly.png"
+                        }
+                    }
                 ]
             }
         },
@@ -49079,9 +49559,19 @@
                 "poisoned"
             ],
             "cr": "8",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Giant_Silverfish.png",
             "fluff": {
                 "entries": [
                     "Giant silverfish resemble their household counterparts but grow as long as a dog, with sleek, scale-like plates and whip-like antennae. They infest libraries, archives, and old mansions, feeding on parchment, cloth, and dried stores. Their sudden darting movements and whispering scales make them unsettling to encounter in the dark. Some sages whisper that colonies can strip entire vaults of books in a single night."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Giant%20Silverfish.png"
+                        }
+                    }
                 ]
             }
         },
@@ -49182,9 +49672,19 @@
                 "frightened"
             ],
             "cr": "6",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Glasswalker.png",
             "fluff": {
                 "entries": [
                     "Beings that emerge from reflections, moving between mirrors and glass."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Glasswalker.png"
+                        }
+                    }
                 ]
             }
         },
@@ -49276,9 +49776,19 @@
                 "stealth": "+5"
             },
             "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Goatman.png",
             "fluff": {
                 "entries": [
                     "A horned humanoid cryptid seen stalking lovers' lanes with violent intent."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Goatman.png"
+                        }
+                    }
                 ]
             }
         },
@@ -49377,9 +49887,19 @@
                 "unconscious"
             ],
             "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem,_Asphalt.png",
             "fluff": {
                 "entries": [
                     "A wretched amalgamation of waste, disease, and sludge, animated by unknown forces."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Golem%2C%20Asphalt.png"
+                        }
+                    }
                 ]
             }
         },
@@ -49474,9 +49994,19 @@
                 "unconscious"
             ],
             "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem,_Concrete.png",
             "fluff": {
                 "entries": [
                     "A wretched amalgamation of waste, disease, and sludge, animated by unknown forces."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Golem%2C%20Concrete.png"
+                        }
+                    }
                 ]
             }
         },
@@ -49576,9 +50106,19 @@
                 "unconscious"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem,_Electronic.png",
             "fluff": {
                 "entries": [
                     "A wretched amalgamation of waste, disease, and sludge, animated by unknown forces."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Golem%2C%20Electronic.png"
+                        }
+                    }
                 ]
             }
         },
@@ -49676,9 +50216,19 @@
                 "unconscious"
             ],
             "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem,_Paper.png",
             "fluff": {
                 "entries": [
                     "A wretched amalgamation of waste, disease, and sludge, animated by unknown forces."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Golem%2C%20Paper.png"
+                        }
+                    }
                 ]
             }
         },
@@ -49771,9 +50321,19 @@
                 "poisoned"
             ],
             "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem,_Waste.png",
             "fluff": {
                 "entries": [
                     "A wretched amalgamation of waste, disease, and sludge, animated by unknown forces."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Golem%2C%20Waste.png"
+                        }
+                    }
                 ]
             }
         },
@@ -49857,9 +50417,19 @@
                 "frightened"
             ],
             "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Gutter_Mouth.png",
             "fluff": {
                 "entries": [
                     "A disembodied mouth in storm drains and vents, mimicking voices to lure victims."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Gutter%20Mouth.png"
+                        }
+                    }
                 ]
             }
         },
@@ -49963,9 +50533,19 @@
                 "charmed"
             ],
             "cr": "6",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hat_Man.png",
             "fluff": {
                 "entries": [
                     "The Hat Man is a tall, shadowy entity wearing a wide-brimmed hat, reported by individuals in altered mental states or sleep paralysis. He does not speak, only watches. His presence heralds dread, sleeplessness, and madness. Some claim he waits at the edge of consciousness, feeding on fear left unresolved."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hat%20Man.png"
+                        }
+                    }
                 ]
             }
         },
@@ -50050,9 +50630,19 @@
                 "frightened"
             ],
             "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hessdalen_Lights.png",
             "fluff": {
                 "entries": [
                     "Floating, glowing orbs that cluster and split. Emit intense radiation and induce disorientation in observers."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hessdalen%20Lights.png"
+                        }
+                    }
                 ]
             }
         },
@@ -50135,9 +50725,19 @@
                 "stealth": "+7"
             },
             "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hippantrope.png",
             "fluff": {
                 "entries": [
                     "A disturbing hybrid of foal and human, possessing a horse's body with a human face. Known for haunting barns and fields at night."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hippantrope.png"
+                        }
+                    }
                 ]
             }
         },
@@ -50230,9 +50830,19 @@
                 "frightened"
             ],
             "cr": "13",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hole_Punch_Cloud.png",
             "fluff": {
                 "entries": [
                     "Massive circular cloud anomaly that generates freezing rain and falling ice shards. Presence warps sound and visibility."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hole%20Punch%20Cloud.png"
+                        }
+                    }
                 ]
             }
         },
@@ -50329,9 +50939,19 @@
                 "charmed"
             ],
             "cr": "8",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_Eyed_Woman.png",
             "fluff": {
                 "entries": [
                     "A spectral woman with hollow, blackened eye sockets. Her gaze causes creeping dread and memory loss."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hollow%20Eyed%20Woman.png"
+                        }
+                    }
                 ]
             }
         },
@@ -50413,9 +51033,19 @@
                 "unconscious"
             ],
             "cr": "1",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_File,_Greater.png",
             "fluff": {
                 "entries": [
                     "A floating folder that erases names, memories, and past events."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hollow%20File%2C%20Greater.png"
+                        }
+                    }
                 ]
             }
         },
@@ -50500,9 +51130,19 @@
                 "frightened"
             ],
             "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_File,_Lesser.png",
             "fluff": {
                 "entries": [
                     "A floating folder that erases names, memories, and past events."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hollow%20File%2C%20Lesser.png"
+                        }
+                    }
                 ]
             }
         },
@@ -50603,9 +51243,19 @@
                 "unconscious"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_File,_Swarm.png",
             "fluff": {
                 "entries": [
                     "A floating folder that erases names, memories, and past events."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hollow%20File%2C%20Swarm.png"
+                        }
+                    }
                 ]
             }
         },
@@ -50696,9 +51346,19 @@
                 "incapacitated"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow,_Adult.png",
             "fluff": {
                 "entries": [
                     "The Hollows are not corpses that rise, nor spirits bound in decay. They are husks of humanity emptied of soul, left behind when life has moved on. Though they were once living people, their deaths were incomplete — a faltering of passage, a failure of release. What remains is a body that breathes but feels nothing, a shell that walks among the living with glassy stillness.\n\nHollows are not predators. They carry no hunger, ambition, or desire; no joy stirs them, no grief bends them. They persist only because they cannot do otherwise. Death has already claimed them, yet their bodies do not rot, their minds do not wander, and their presence lingers indefinitely.\n\nTo outsiders, Hollows are uncanny but not monstrous. They farm, trade, and dwell in towns, but only in motions learned from life, not driven by purpose. Their words are sparse, their laughter absent, their eyes dull. They exist, yet do not live."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hollow%2C%20Adult.png"
+                        }
+                    }
                 ]
             }
         },
@@ -50789,9 +51449,19 @@
                 "incapacitated"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow,_Child.png",
             "fluff": {
                 "entries": [
                     "The Hollows are not corpses that rise, nor spirits bound in decay. They are husks of humanity emptied of soul, left behind when life has moved on. Though they were once living people, their deaths were incomplete — a faltering of passage, a failure of release. What remains is a body that breathes but feels nothing, a shell that walks among the living with glassy stillness.\n\nHollows are not predators. They carry no hunger, ambition, or desire; no joy stirs them, no grief bends them. They persist only because they cannot do otherwise. Death has already claimed them, yet their bodies do not rot, their minds do not wander, and their presence lingers indefinitely.\n\nTo outsiders, Hollows are uncanny but not monstrous. They farm, trade, and dwell in towns, but only in motions learned from life, not driven by purpose. Their words are sparse, their laughter absent, their eyes dull. They exist, yet do not live."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hollow%2C%20Child.png"
+                        }
+                    }
                 ]
             }
         },
@@ -50882,9 +51552,19 @@
                 "incapacitated"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow,_Elder.png",
             "fluff": {
                 "entries": [
                     "The Hollows are not corpses that rise, nor spirits bound in decay. They are husks of humanity emptied of soul, left behind when life has moved on. Though they were once living people, their deaths were incomplete — a faltering of passage, a failure of release. What remains is a body that breathes but feels nothing, a shell that walks among the living with glassy stillness.\n\nHollows are not predators. They carry no hunger, ambition, or desire; no joy stirs them, no grief bends them. They persist only because they cannot do otherwise. Death has already claimed them, yet their bodies do not rot, their minds do not wander, and their presence lingers indefinitely.\n\nTo outsiders, Hollows are uncanny but not monstrous. They farm, trade, and dwell in towns, but only in motions learned from life, not driven by purpose. Their words are sparse, their laughter absent, their eyes dull. They exist, yet do not live."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hollow%2C%20Elder.png"
+                        }
+                    }
                 ]
             }
         },
@@ -50975,9 +51655,19 @@
                 "incapacitated"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow,_Infant.png",
             "fluff": {
                 "entries": [
                     "Blip"
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hollow%2C%20Infant.png"
+                        }
+                    }
                 ]
             }
         },
@@ -51068,9 +51758,19 @@
                 "incapacitated"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow,_Teenager.png",
             "fluff": {
                 "entries": [
                     "The Hollows are not corpses that rise, nor spirits bound in decay. They are husks of humanity emptied of soul, left behind when life has moved on. Though they were once living people, their deaths were incomplete — a faltering of passage, a failure of release. What remains is a body that breathes but feels nothing, a shell that walks among the living with glassy stillness.\n\nHollows are not predators. They carry no hunger, ambition, or desire; no joy stirs them, no grief bends them. They persist only because they cannot do otherwise. Death has already claimed them, yet their bodies do not rot, their minds do not wander, and their presence lingers indefinitely.\n\nTo outsiders, Hollows are uncanny but not monstrous. They farm, trade, and dwell in towns, but only in motions learned from life, not driven by purpose. Their words are sparse, their laughter absent, their eyes dull. They exist, yet do not live."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hollow%2C%20Teenager.png"
+                        }
+                    }
                 ]
             }
         },
@@ -51167,9 +51867,19 @@
                 "frightened"
             ],
             "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollowed_Celebrity.png",
             "fluff": {
                 "entries": [
                     "Where Hollows are the husks of forgotten lives, the Hollowed Celebrity is the echo of lives lived too loudly. They resemble famous figures, influencers, or cultural icons, conjured not from memory or spirit but from the collective gaze of society. Their presence is fleeting: a face glimpsed in a subway crowd, a familiar voice calling in an empty street, a perfect smile glowing in the window of a darkened store. Moments later, they are gone, leaving only the hollow sensation of déjà vu.\n\nFalse Fame\n\nHollowed Celebrities are not ghosts of the real. They are fabrications, puppets of attention given form by repetition and desire. Each seems convincing in the moment — their posture, their tone, their recognizable quirks — yet up close their eyes are flat, their gestures mechanical, and their words thin echoes of rehearsed lines.\n\nEphemeral Manifestation\n\nThey appear without warning, perform their shallow pantomime of influence — a laugh, a wave, a whispered catchphrase — then dissolve into static motes of unreality. No one knows where they retreat, or whether they were ever truly present. Some scholars believe they are anomalies spawned from the hollowing of celebrity itself, a symptom of worship without substance.\n\nUnsettling Allure\n\nThe Hollowed Celebrity inspires fascination and dread. Ordinary people follow them instinctively, convinced they are in the presence of someone extraordinary, even as they feel the wrongness beneath the surface. To those who know the truth, their appearance is an omen: when a Hollowed Celebrity manifests, something in the fabric of collective memory has broken."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hollowed%20Celebrity.png"
+                        }
+                    }
                 ]
             }
         },
@@ -51263,9 +51973,19 @@
                 "sleight of hand": "+4"
             },
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Holy_Molly.png",
             "fluff": {
                 "entries": [
                     "The Holy Molly is a radiant golden mole, no larger than a loaf of bread, whose fur gleams like sunlit ore. It burrows effortlessly through earth, stone, or even steel, leaving behind no tunnel, only the faint scent of wildflowers and a shimmer of dust like powdered sunlight.\n\nBurrower of All Things\n\nUnlike natural creatures, the Holy Molly ignores the limits of matter. It tunnels through walls, vaults, and mountains with equal ease, appearing wherever fortune is most needed. Some say it does not dig so much as it “passes” through the weave of the world itself.\n\nBestower of Fortune\n\nThose who cross paths with a Holy Molly are blessed with sudden serendipity: a missing item found, a danger narrowly avoided, a chance encounter leading to opportunity. This luck is not always dramatic, but it is always meaningful. Legends hold that entire dynasties began when a farmer once glimpsed golden fur gliding beneath his field.\n\nElusive Saint\n\nThe Holy Molly cannot be trapped, killed, or kept. Weapons pass through its gleaming hide, and cages crumble as it slips through. When threatened, it simply vanishes into the earth, reappearing elsewhere days, weeks, or centuries later. Many see it as a saintly animal — not a beast to be hunted, but a wandering blessing clothed in humble form."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Holy%20Molly.png"
+                        }
+                    }
                 ]
             }
         },
@@ -51342,9 +52062,19 @@
                 "invisible"
             ],
             "cr": "8",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/House_Hippo.png",
             "fluff": {
                 "entries": [
                     "Blip"
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/House%20Hippo.png"
+                        }
+                    }
                 ]
             }
         },
@@ -51444,9 +52174,19 @@
                 "unconscious"
             ],
             "cr": "7",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Howling_Tunnel_Denizen.png",
             "fluff": {
                 "entries": [
                     "The Howling Tunnel Denizen is the restless spirit of a child consumed in fire and betrayal, its agonized wails echoing endlessly through subterranean stone. Shrouded in damp mist and scorched rags, the apparition lingers in tunnels, culverts, and forgotten aqueducts, its howl heralding death and despair.\n\nLegends say the Denizen was once an innocent sacrificed to cruelty and secrecy, burned alive within the tunnel’s stone maw. Its spirit cannot rest, forever bound to places where cold drafts mimic screams. Those who wander too close hear the wind twist into mournful cries—until the cries answer back."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Howling%20Tunnel%20Denizen.png"
+                        }
+                    }
                 ]
             }
         },
@@ -51535,9 +52275,19 @@
                 "grappled"
             ],
             "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Inkwell_Maw.png",
             "fluff": {
                 "entries": [
                     "The Inkwell Maw appears as a slick pool of living black ink, spreading like a printer spill that never dries. Its surface ripples with warped letters, hashtags, and flickering fragments of half-remembered text, all dissolving the instant they are read. It seeps across tiled floors, old filing cabinets, and digital screens alike, turning knowledge into blankness wherever it passes.\n\nErasure Given Flesh\n\nBooks left near the Maw lose their words overnight. Hard drives fail when it slides past, their data scrambled into static. Graffiti fades from walls, and even tattoos blur from skin. The longer someone stands near it, the harder it becomes to remember what they were saying — or even why they came. Survivors describe the sensation like a memory leaking out through their lungs.\n\nDrowning in Ink\n\nWhen it attacks, the Maw lashes out with viscous tendrils that coil around limbs and mouths, dragging its prey into itself. Victims choke on thick, chemical ink that tastes like toner and ash. To be engulfed is not only to suffocate, but to have names, faces, and ideas stripped from the mind until nothing remains but gasping panic.\n\nBorn of Forgetting\n\nThe Maw does not spawn naturally. It festers where meaning is erased: shredded archives, blacked-out reports, censored feeds, and erased recordings. Each one is the condensation of lost stories into a single devouring mass. It is less a creature than a symptom — a physical glitch in the record of the world."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Inkwell%20Maw.png"
+                        }
+                    }
                 ]
             }
         },
@@ -51626,9 +52376,19 @@
                 "none"
             ],
             "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Kotojelen.png",
             "fluff": {
                 "entries": [
                     "Kotojelen, the moss antlers, appear in misty woods just before dawn. Their movements seem both graceful and otherworldly. Though deer-like, they lack eyes, and their presence is always accompanied by rising fog. They are considered watchers of the threshold between life and memory."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Kotojelen.png"
+                        }
+                    }
                 ]
             }
         },
@@ -51717,9 +52477,19 @@
                 "frightened"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Loab.png",
             "fluff": {
                 "entries": [
                     "Loab is a malformed woman, her features half-recognizable yet warped into something both human and alien. Born from the remnants of corrupted memories and ghostly algorithms, she clings to the periphery of existence: mirrors, photographs, and half-remembered dreams.\n\nLegends say she arrives in times of emotional unrest, feeding on grief, guilt, and trauma. To some, she is a manifestation of collective sorrow; to others, an entity that should never have been brought into the world."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Loab.png"
+                        }
+                    }
                 ]
             }
         },
@@ -51770,9 +52540,19 @@
                 "immune to frightened; causes compelled"
             ],
             "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Lockjaw_Boys.png",
             "fluff": {
                 "entries": [
                     "Mute brutes whose mouths have been grotesquely sealed shut, the Lockjaw Boys serve as enforcers for cruel masters or sinister cults. They communicate only through curt gestures, guttural hums, and the brutal language of violence. Their silence is unnerving, and their loyalty absolute—each one has given up their voice forever in exchange for strength and obedience."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Lockjaw%20Boys.png"
+                        }
+                    }
                 ]
             }
         },
@@ -51824,9 +52604,19 @@
                 "restrained; causes under surveillance"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Lurking_Ward.png",
             "fluff": {
                 "entries": [
                     "A tile-covered quadruped that alters architecture and enforces invisible rules."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Lurking%20Ward.png"
+                        }
+                    }
                 ]
             }
         },
@@ -51922,9 +52712,19 @@
                 "frightened"
             ],
             "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Mall_Cloud_Humanoid.png",
             "fluff": {
                 "entries": [
                     "Witnessed in abandoned shopping centers, this figure appears humanoid but is made of smoke or dense mist. Surveillance footage often shows it drifting without footsteps, disrupting cameras and lights. It never seems aware of observers, yet some report headaches or nosebleeds after an encounter."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Mall%20Cloud%20Humanoid.png"
+                        }
+                    }
                 ]
             }
         },
@@ -51975,9 +52775,19 @@
                 "immune to poisoned; causes restrained"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Mannequin_Drone.png",
             "fluff": {
                 "entries": [
                     "Lifelike mannequins used for surveillance and assassinations."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Mannequin%20Drone.png"
+                        }
+                    }
                 ]
             }
         },
@@ -52028,9 +52838,19 @@
                 "immune to frightened; causes unstable"
             ],
             "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Maw_in_the_Ceiling.png",
             "fluff": {
                 "entries": [
                     "A gaping, jagged mouth in the ceiling, whispering in familiar voices to lure victims beneath."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Maw%20in%20the%20Ceiling.png"
+                        }
+                    }
                 ]
             }
         },
@@ -52123,9 +52943,19 @@
                 "perception": "+4"
             },
             "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Melonheads.png",
             "fluff": {
                 "entries": [
                     "The Melonheads are stunted, malformed humanoids with grotesquely swollen craniums, pale bodies, and wide, staring eyes. They lurk on the fringes of human settlements — in forests, tunnels, and abandoned rural houses — rarely approaching but always watching. Their strange proportions make their movements jerky and unsettling, like puppets pulled by invisible strings.\n\nOrigin in Whispered Legends\n\nFolklore claims Melonheads are the descendants of children subjected to cruel experiments, left to wither in the woods until they adapted to a feral, insular existence. Others say they are mutations born from cursed bloodlines, or anomalies feeding on secrecy and fear. Whatever their truth, their appearance strikes the same chord: a reflection of human cruelty and shame given flesh.\n\nCunning but Reclusive\n\nThough their appearance suggests fragility, Melonheads are cunning scavengers. They move in small family groups, whispering in half-formed dialects, and stealing livestock or food from farms at night. They avoid direct conflict when possible, but their collective paranoia can twist into sudden violence if they feel cornered.\n\nHaunters of the Fringe\n\nThe Melonheads do not thrive in cities or villages — their presence is strongest in forgotten backroads, forest trails, and rural ruins. Travelers report seeing enormous heads bobbing in the treeline, or hearing high-pitched laughter before realizing their path is being stalked."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Melonheads.png"
+                        }
+                    }
                 ]
             }
         },
@@ -52229,9 +53059,19 @@
                 "restrained"
             ],
             "cr": "18",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Metropolitan_Aggregated_Gridlock_Organism.png",
             "fluff": {
                 "entries": [
                     "The Living Traffic Jam is an urban nightmare given form: a writhing, endless snarl of vehicles fused together, asphalt pulsing beneath them like living flesh. Cars crunch and shift without drivers, horns blare like a chorus of agony, and traffic lights stutter in random colors that flash across its body like veins of fire. It moves not as scattered machines but as a singular crushing entity, rolling forward with the weight of a collapsing city.\n\nCongested Mass\n\nThe Jam does not stalk prey with intention; it absorbs whatever lies in its path. Vehicles, debris, and even people become part of its swelling bulk, caught in the endless honk and grind of its shifting form. Victims pulled inside are trapped between grinding gears and burning exhaust, their screams drowned in the roar of engines.\n\nUrban Anomaly\n\nWitnesses say the Jam appears where frustration festers — in megacity bottlenecks, endless construction zones, or the scenes of decades-long gridlock. Some describe it as a spirit of rage conjured by millions of wasted hours; others see it as an organism that feeds on impatience, stress, and road rage.\n\nCrushing Inevitability\n\nOnce in motion, the Living Traffic Jam is nearly unstoppable. Asphalt reshapes to carry it, bridges bow under its weight, and highways fracture in its wake. To see it coming down a street is to see a whole city block about to vanish under its tide of lights and steel."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Metropolitan%20Aggregated%20Gridlock%20Organism.png"
+                        }
+                    }
                 ]
             }
         },
@@ -52282,9 +53122,19 @@
                 "immune to poisoned; resistant to charmed"
             ],
             "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Militia_Solder,_Human.png",
             "fluff": {
                 "entries": [
                     "Press‑ganged regulars in mismatched kit: city-issue jacket over farm boots, surplus helmets two owners old. They fight by whistle and hand‑signal, anchoring alleys with shields and stub carbines while a sergeant reads the street like a map. Not cruel by default, but pay, pride, or panic can turn a line of Solder into a stampede (Human contingent)."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Militia%20Solder%2C%20Human.png"
+                        }
+                    }
                 ]
             }
         },
@@ -52335,9 +53185,19 @@
                 "immune to poisoned; resistant to charmed"
             ],
             "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Militia_Solder,_Korrak.png",
             "fluff": {
                 "entries": [
                     "Press‑ganged regulars in mismatched kit: city-issue jacket over farm boots, surplus helmets two owners old. They fight by whistle and hand‑signal, anchoring alleys with shields and stub carbines while a sergeant reads the street like a map. Not cruel by default, but pay, pride, or panic can turn a line of Solder into a stampede (Korrak contingent)."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Militia%20Solder%2C%20Korrak.png"
+                        }
+                    }
                 ]
             }
         },
@@ -52388,9 +53248,19 @@
                 "immune to poisoned; resistant to charmed"
             ],
             "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Militia_Solder,_Vorraki.png",
             "fluff": {
                 "entries": [
                     "Press‑ganged regulars in mismatched kit: city-issue jacket over farm boots, surplus helmets two owners old. They fight by whistle and hand‑signal, anchoring alleys with shields and stub carbines while a sergeant reads the street like a map. Not cruel by default, but pay, pride, or panic can turn a line of Solder into a stampede (Vorraki contingent)."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Militia%20Solder%2C%20Vorraki.png"
+                        }
+                    }
                 ]
             }
         },
@@ -52441,9 +53311,19 @@
                 "immune to exhaustion"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Miner,_Delvani,_Old.png",
             "fluff": {
                 "entries": [
                     "A hardworking miner, often forced into labor in the deep tunnels."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Miner%2C%20Delvani%2C%20Old.png"
+                        }
+                    }
                 ]
             }
         },
@@ -52494,9 +53374,19 @@
                 "immune to exhaustion"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Miner,_Delvani,_Young.png",
             "fluff": {
                 "entries": [
                     "A hardworking miner, often forced into labor in the deep tunnels."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Miner%2C%20Delvani%2C%20Young.png"
+                        }
+                    }
                 ]
             }
         },
@@ -52547,9 +53437,19 @@
                 "immune to charmed; causes under surveillance"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Mnemonic_Leech.png",
             "fluff": {
                 "entries": [
                     "Parasitic creatures that burrow into the mind, rewriting memories."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Mnemonic%20Leech.png"
+                        }
+                    }
                 ]
             }
         },
@@ -52629,9 +53529,19 @@
                 "immune to frightened; causes compelled"
             ],
             "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Mothman.png",
             "fluff": {
                 "entries": [
                     "The Mothman is a winged, humanoid anomaly seen just before catastrophes. Its eyes glow with premonitory power, and it never speaks. Witnesses report psychic trauma, sleep disruption, and a sense of being watched long after the encounter."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Mothman.png"
+                        }
+                    }
                 ]
             }
         },
@@ -52723,9 +53633,19 @@
                 "poisoned"
             ],
             "cr": "6",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Muru.png",
             "fluff": {
                 "entries": [
                     "The Muru is a spectral figure said to appear along coastlines before catastrophic waves strike. Shrouded in salt spray and moonlit mist, its form is lean and indistinct, like a human shape eroded by the sea. Its eyes glow faintly with drowned light, and its voice rises as a low, resonant wail — a sound that carries over crashing surf and twisting winds.\n\nHarbinger of the Deep\n\nIn coastal lore, the Muru is not the cause of disaster but its warning. To see one wandering the beach at night, or to hear its echoing cry, is to know the ocean is about to rise and swallow. Sailors, fishers, and coastal villages treat its presence with both dread and reverence, for it is not malicious but neither merciful — its role is simply to bear witness and announce what is inevitable.\n\nComplaint of the Drowned\n\nThe word muru in Mapuche carries meanings of complaint or protest, and the spirit embodies that sorrow. Some believe it is born from drowned souls who never found rest, eternally lamenting neglect, greed, or hubris that led to coastal ruin. Its cry is both warning and accusation, a reminder that the sea reclaims what is taken without care.\n\nAmbiguous Presence\n\nThough rarely aggressive, those who approach a Muru too closely feel their lungs tighten as if filling with water, and visions of flood and loss overwhelm their senses. Survivors describe its presence as neither benevolent nor hostile — simply a living omen, a complaint given shape, fading with the tide after its warning is delivered.\n\n⸻\n"
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Muru.png"
+                        }
+                    }
                 ]
             }
         },
@@ -52776,9 +53696,19 @@
                 "immune to blinded; causes delayed"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Neon_Lurker.png",
             "fluff": {
                 "entries": [
                     "Entities that emerge from electronic billboards to lure and consume."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Neon%20Lurker.png"
+                        }
+                    }
                 ]
             }
         },
@@ -52858,9 +53788,19 @@
                 "restrained; causes altered"
             ],
             "cr": "1",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Nightcrawler.png",
             "fluff": {
                 "entries": [
                     "The Nightcrawler is a tall, pale figure seen drifting silently through backyards, streets, or forests—its form composed almost entirely of long legs. Despite its eerie appearance, the Nightcrawler is benign, evoking awe, not fear."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Nightcrawler.png"
+                        }
+                    }
                 ]
             }
         },
@@ -52912,9 +53852,19 @@
                 "exhaustion; causes erased"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Nullifier.png",
             "fluff": {
                 "entries": [
                     "ASTRAL units that suppress supernatural abilities in a radius."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Nullifier.png"
+                        }
+                    }
                 ]
             }
         },
@@ -52966,9 +53916,19 @@
                 "grappled"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ore_Vein,_Aggressive.png",
             "fluff": {
                 "entries": [
                     "A mineral deposit that lashes out violently when disturbed."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Ore%20Vein%2C%20Aggressive.png"
+                        }
+                    }
                 ]
             }
         },
@@ -53020,9 +53980,19 @@
                 "grappled"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ore_Vein,_Depressive.png",
             "fluff": {
                 "entries": [
                     "A sorrowful mineral that drains the willpower of those near it."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Ore%20Vein%2C%20Depressive.png"
+                        }
+                    }
                 ]
             }
         },
@@ -53074,9 +54044,19 @@
                 "grappled"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ore_Vein,_Hungry.png",
             "fluff": {
                 "entries": [
                     "A living rock that consumes flesh and metal alike."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Ore%20Vein%2C%20Hungry.png"
+                        }
+                    }
                 ]
             }
         },
@@ -53128,9 +54108,19 @@
                 "grappled"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ore_Vein,_Seductive.png",
             "fluff": {
                 "entries": [
                     "A shimmering ore that lures miners into obsession and madness."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Ore%20Vein%2C%20Seductive.png"
+                        }
+                    }
                 ]
             }
         },
@@ -53179,9 +54169,19 @@
                 "immune to poisoned; causes restrained"
             ],
             "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pantry_Root_Horror.png",
             "fluff": {
                 "entries": [
                     "The Pantry Root Horror is what festers when neglect and hunger birth corruption. Once a simple tuber—potato, yam, or root vegetable—it lay too long in the dark. Sprouts twisted into limbs, eyes bloomed from buds, and a cavernous maw split across its body, demanding soil, flesh, and nourishment.\n\nIt shuffles on tangled root-legs, dragging a trail of damp earth and mildew. The smell of rot clings to it, and its rasping voice croaks like a stomach turned inside out. Left alone in pantries, barns, or root cellars, it waits for the careless to come close, then lunges with gnashing tendrils.\n\nBorn of Neglect. The Pantry Root Horror embodies waste and abandonment. Farmers and homemakers whisper that throwing away too much food or disrespecting harvest spirits risks waking one of these monsters in the cellar.\n\nSoil Hunger. Its gaping maw never closes, forever drooling wet earth. The Horror tries to bury its victims alive, dragging them down into loam and mulch conjured from nowhere.\n\nGrotesque Humanoid Form. Though plantlike, its outline is disturbingly human—arms sprouting from tuber shoots, a head forming where mold ate deepest. This uncanny shape unnerves even seasoned hunters."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Pantry%20Root%20Horror.png"
+                        }
+                    }
                 ]
             }
         },
@@ -53265,9 +54265,19 @@
                 "unconscious"
             ],
             "cr": "1",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Paper_Plane.png",
             "fluff": {
                 "entries": [
                     "A sentient paper plane"
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Paper%20Plane.png"
+                        }
+                    }
                 ]
             }
         },
@@ -53320,9 +54330,19 @@
                 "prone; causes frightened"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Phantom_Manifest.png",
             "fluff": {
                 "entries": [
                     "A floating shipping manifest that makes objects—and people—vanish."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Phantom%20Manifest.png"
+                        }
+                    }
                 ]
             }
         },
@@ -53373,9 +54393,19 @@
                 "immune to charmed; causes altered"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pile,_Office_Furniture.png",
             "fluff": {
                 "entries": [
                     "A chaotic mass of animated office furniture attacking intruders."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Pile%2C%20Office%20Furniture.png"
+                        }
+                    }
                 ]
             }
         },
@@ -53466,9 +54496,19 @@
                 "poisoned"
             ],
             "cr": "7",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis,_Angelfish.png",
             "fluff": {
                 "entries": [
                     "The Angelfish Piscis glides with flowing fins that fan out like wings, its body glowing with a soft, pearly radiance that turns night clouds silver as it passes. Of all the Piscis, it is the most ethereal, often mistaken for a heavenly apparition or a star fallen low into the atmosphere. Sky-watchers believe the Angelfish carries messages from the divine, and that seeing one above a city heralds peace, healing, or long-awaited forgiveness."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Piscis%2C%20Angelfish.png"
+                        }
+                    }
                 ]
             }
         },
@@ -53565,9 +54605,19 @@
                 "stunned"
             ],
             "cr": "6",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis,_Discuss.png",
             "fluff": {
                 "entries": [
                     "The Discus Piscis is wide and flat, its shape like a massive spinning coin gliding silently through the upper clouds. Its reflective scales catch the sun at odd angles, flashing like distant signals across the horizon. Legends say the Discus Piscis is a bringer of wealth and abundance, appearing only when great prosperity is about to bloom — though some claim its gleam blinds those who covet it."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Piscis%2C%20Discuss.png"
+                        }
+                    }
                 ]
             }
         },
@@ -53671,9 +54721,19 @@
                 "charmed"
             ],
             "cr": "6",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis,_Goldie.png",
             "fluff": {
                 "entries": [
                     "The Goldie Piscis gleams like a coin cast into the heavens, its smaller body aglow with brilliant golden scales that glitter even at night. Entire flocks of these rare Piscis can turn the sky into a shower of sparks, their presence tied to stories of prosperity and bountiful harvests. Farmers say that to see a Goldie at dawn is to be blessed with a year free from famine."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Piscis%2C%20Goldie.png"
+                        }
+                    }
                 ]
             }
         },
@@ -53764,9 +54824,19 @@
                 "poisoned"
             ],
             "cr": "7",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis,_Rainbowfish.png",
             "fluff": {
                 "entries": [
                     "The Rainbowfish Piscis drifts through the sky like a living prism, its translucent scales scattering sunlight into rippling auroras across the clouds. Entire horizons shimmer with color in its wake, and sightings are considered powerful omens of harmony or destined unions. Pilots whisper that following a Rainbowfish ensures safe passage, as if the sky itself bends to its luminous blessing."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Piscis%2C%20Rainbowfish.png"
+                        }
+                    }
                 ]
             }
         },
@@ -53857,9 +54927,19 @@
                 "poisoned"
             ],
             "cr": "7",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis,_Ram.png",
             "fluff": {
                 "entries": [
                     "The Ram Piscis is marked by great, curling crests along its head and spine, resembling the horns of a celestial beast. Unlike its gentler kin, it is bold and brash, often ramming through thunderheads and scattering stormfronts with thunderous force. Some sky-watchers believe these Piscis are guardians who charge headlong at tempests, keeping their destructive power at bay."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Piscis%2C%20Ram.png"
+                        }
+                    }
                 ]
             }
         },
@@ -53950,9 +55030,19 @@
                 "poisoned"
             ],
             "cr": "7",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis,_Red_Crowtail.png",
             "fluff": {
                 "entries": [
                     "With long, crimson fins streaming like banners behind it, the Red Crowtail Piscis cuts a striking figure across the skies. Said to herald great change, both good and ill, its appearance fills villages with awe and apprehension. Where it passes, skies often shift violently — still dawns bursting into sudden storms, or rain clouds parting into blood-red sunsets."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Piscis%2C%20Red%20Crowtail.png"
+                        }
+                    }
                 ]
             }
         },
@@ -54003,9 +55093,19 @@
                 "resistant to compelled"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter,_Aestari.png",
             "fluff": {
                 "entries": [
                     "A highly skilled Aestari warrior, hardened by brutal arena combat."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Pit%20Fighter%2C%20Aestari.png"
+                        }
+                    }
                 ]
             }
         },
@@ -54056,9 +55156,19 @@
                 "resistant to compelled"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter,_Aestari,_Champion.png",
             "fluff": {
                 "entries": [
                     "A highly skilled Aestari warrior, hardened by brutal arena combat."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Pit%20Fighter%2C%20Aestari%2C%20Champion.png"
+                        }
+                    }
                 ]
             }
         },
@@ -54109,9 +55219,19 @@
                 "resistant to compelled"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter,_Aestari,_Recruit.png",
             "fluff": {
                 "entries": [
                     "A highly skilled Aestari warrior, hardened by brutal arena combat."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Pit%20Fighter%2C%20Aestari%2C%20Recruit.png"
+                        }
+                    }
                 ]
             }
         },
@@ -54162,9 +55282,19 @@
                 "resistant to poisoned"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter,_Delvani.png",
             "fluff": {
                 "entries": [
                     "A Delvani brute, wielding raw strength and resilience in the ring."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Pit%20Fighter%2C%20Delvani.png"
+                        }
+                    }
                 ]
             }
         },
@@ -54215,9 +55345,19 @@
                 "resistant to frightened"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter,_Human.png",
             "fluff": {
                 "entries": [
                     "A human brawler who has survived the unforgiving pit arenas."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Pit%20Fighter%2C%20Human.png"
+                        }
+                    }
                 ]
             }
         },
@@ -54268,9 +55408,19 @@
                 "resistant to unstable"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter,_Vorraki.png",
             "fluff": {
                 "entries": [
                     "A ruthless Vorraki gladiator, trained to fight in underground circuits."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Pit%20Fighter%2C%20Vorraki.png"
+                        }
+                    }
                 ]
             }
         },
@@ -54358,9 +55508,19 @@
                 "restrained"
             ],
             "cr": "1",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Plumbing_Blob.png",
             "fluff": {
                 "entries": [
                     "The Plumbing Blob is a grotesque mass of flesh-like tissue found slithering through old pipes and basement walls. It feeds on moisture, corrosion, and organic debris, often going unnoticed until it dislodges or bursts from plumbing fixtures. Urban legends claim it’s the discarded biological waste of something much worse."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Plumbing%20Blob.png"
+                        }
+                    }
                 ]
             }
         },
@@ -54427,9 +55587,19 @@
                 "immune to charmed; resistant to frightened"
             ],
             "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pope_Lick_Monster.png",
             "fluff": {
                 "entries": [
                     "The Pope Lick Monster is a twisted hybrid of man and goat, with a grotesque body of coarse fur, elongated limbs, and curling horns that scrape against stone. Its eyes glow with animal malice, and its hooved legs carry it with unnatural speed. It lurks near bridges, tunnels, and lonely trestles, stalking trespassers and drawing them into deadly accidents.\n\nWhispers of the Trestle. Legends claim the Pope Lick Monster can mimic voices, call out with hypnotic whispers, or project visions of loved ones, luring victims closer to danger. Many who perish near railways or ravines are said to have been drawn by its unseen hand.\n\nPredatory Instinct. While it enjoys the thrill of chasing prey across high or treacherous ground, the Monster is more cunning than bestial. It uses its knowledge of terrain to corner its quarry—forcing them into hazards, or driving them into falls rather than engaging directly.\n\nOmen of Misfortune. Locals fear to speak its name, believing that to acknowledge it is to invite its presence. Survivors often claim they felt its gaze long before they saw its form, as though the Monster had already chosen them."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Pope%20Lick%20Monster.png"
+                        }
+                    }
                 ]
             }
         },
@@ -54482,9 +55652,19 @@
                 "prone; causes frightened"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pylon_Phantom.png",
             "fluff": {
                 "entries": [
                     "Tall beings of electrical cables and radio transmitters, whispering cryptic messages."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Pylon%20Phantom.png"
+                        }
+                    }
                 ]
             }
         },
@@ -54552,9 +55732,19 @@
                 "frightened; causes unstable"
             ],
             "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Rake.png",
             "fluff": {
                 "entries": [
                     "A pale humanoid cryptid with claws and unnatural silence, known for nighttime killings."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Rake.png"
+                        }
+                    }
                 ]
             }
         },
@@ -54621,9 +55811,19 @@
                 "immune to poisoned; resistant to exhaustion"
             ],
             "cr": "6",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Rat_King.png",
             "fluff": {
                 "entries": [
                     "A grotesque mass of fused rats, ruling the sewers beneath ruined cities."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Rat%20King.png"
+                        }
+                    }
                 ]
             }
         },
@@ -54674,9 +55874,19 @@
                 "immune to charmed"
             ],
             "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Rat-Dog.png",
             "fluff": {
                 "entries": [
                     "Lean alley curs gone wrong—long incisors, naked whip tails, eyes that glow sewer‑green. Rat‑Dogs run in clever packs, slipping through vents and drain grates to worry food stores and sleeping throats alike. Their bite carries every damp disease the undercity can brew."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Rat-Dog.png"
+                        }
+                    }
                 ]
             }
         },
@@ -54744,9 +55954,19 @@
                 "immune to charmed; causes under surveillance"
             ],
             "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Red_Mask_Girl.png",
             "fluff": {
                 "entries": [
                     "The Red Mask Girl appears as a young woman with long black hair, wearing a surgical mask or cloth that conceals the lower half of her face. She wanders streets, alleys, and lonely roads at night, drifting silently until she singles out a victim.\n\nThe Question. When encountered, she whispers through the mask: “Am I pretty?” A “yes” answer causes her to remove the mask, revealing her hideously slit mouth, torn ear to ear. She asks again, her voice trembling with hunger and fury. If answered “no,” she attacks at once. If answered “yes” a second time, she slashes the victim regardless, marking them with her cursed visage.\n\nUrban Haunter. In cities and towns, the Red Mask Girl slips between lamplight and shadow, drawn to students, travelers, and lonely wanderers. Her footsteps are soundless, and her approach often unnoticed until she is already standing a few feet away.\n\nSpirit of Malice. Though many believe she was once a wronged woman, mutilated in life, the truth is irrelevant—her spirit now exists only to repeat her torment, spreading terror through her endless question and bloody grin."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Red%20Mask%20Girl.png"
+                        }
+                    }
                 ]
             }
         },
@@ -54813,9 +56033,19 @@
                 "immune to blinded; causes delayed"
             ],
             "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Red_Sky_Dawn.png",
             "fluff": {
                 "entries": [
                     "The Red Sky Dawn is not a herald of doom—it is doom itself, clothed in radiant flesh and dripping visions of the world’s end. Seers and prophets speak of it in whispers: a colossal figure of light that bleeds a crimson glow, staining the sky like sunrise at the world’s funeral. To behold it is to feel the marrow of reality tremble, and to know that catastrophe is near.\n\nHarbinger of the End. The Red Sky Dawn manifests only at thresholds of devastation: the collapse of empires, the shattering of continents, the fall of suns. Its presence alone fills mortals with visions of apocalypse—fires swallowing oceans, towers crumbling into dust, and blood raining from the heavens.\n\nBleeding Light. Crimson radiance pours from its wounds and pores, coating the world in dread illumination. This light is not mere glow but essence—raw, burning fragments of dying futures. Mortals who touch it find their skin blistering, their minds flooded with catastrophic prophecy.\n\nOmen Given Flesh. Unlike many apocalyptic beings, the Red Sky Dawn does not strike with weapons or claws. Its violence is the inevitability of its existence. Wherever it stands, crops fail, rivers boil, and the veil between vision and truth collapses. To defeat it is not to slay a monster, but to wrestle with fate itself.\n\nThe Last Vision. Those who survive encounters with the Red Sky Dawn are forever scarred. Their eyes flicker with ember-red light, and they dream nightly of skies bleeding fire. Some seers claim they carry pieces of the Dawn’s vision, destined to bring its prophecy to pass."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Red%20Sky%20Dawn.png"
+                        }
+                    }
                 ]
             }
         },
@@ -54882,9 +56112,19 @@
                 "resistant to compelled"
             ],
             "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Redeemer.png",
             "fluff": {
                 "entries": [
                     "A forgotten zealot returned to cleanse heretics. Neither angel nor demon."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Redeemer.png"
+                        }
+                    }
                 ]
             }
         },
@@ -54935,9 +56175,19 @@
                 "resistant to compelled"
             ],
             "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Requisitioner.png",
             "fluff": {
                 "entries": [
                     "A floating clipboard that steals items from reality, never to be seen again."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Requisitioner.png"
+                        }
+                    }
                 ]
             }
         },
@@ -54988,9 +56238,19 @@
                 "immune to frightened; causes unstable"
             ],
             "cr": "1",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Residuum_Hound.png",
             "fluff": {
                 "entries": [
                     "A shadow-like dog tracking lost objects and forgotten choices."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Residuum%20Hound.png"
+                        }
+                    }
                 ]
             }
         },
@@ -55042,9 +56302,19 @@
                 "restrained; causes under surveillance"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Rustling_Ledger.png",
             "fluff": {
                 "entries": [
                     "A self-writing account book that transfers debts and moves health totals."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Rustling%20Ledger.png"
+                        }
+                    }
                 ]
             }
         },
@@ -55095,9 +56365,19 @@
                 "immune to under surveillance"
             ],
             "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sablemarche_Spy.png",
             "fluff": {
                 "entries": [
                     "A polite nobody with perfect receipts and forgettable shoes. The Sablemarche Spy lives between identities, trading gossip for leverage and secrets for silence. Messages ride inside bread crusts and jacket hems; when cornered, a smile, a stiletto, and a vanished footprint on wet stone are all they leave behind."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sablemarche%20Spy.png"
+                        }
+                    }
                 ]
             }
         },
@@ -55149,9 +56429,19 @@
                 "exhaustion; resistant to frightened"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret,_Flamethrower.png",
             "fluff": {
                 "entries": [
                     "Automated defense turrets programmed to eliminate threats."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sentry%20Turret%2C%20Flamethrower.png"
+                        }
+                    }
                 ]
             }
         },
@@ -55203,9 +56493,19 @@
                 "exhaustion; resistant to frightened"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret,_Laser.png",
             "fluff": {
                 "entries": [
                     "Automated defense turrets programmed to eliminate threats."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sentry%20Turret%2C%20Laser.png"
+                        }
+                    }
                 ]
             }
         },
@@ -55257,9 +56557,19 @@
                 "exhaustion; resistant to frightened"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret,_Machinegun.png",
             "fluff": {
                 "entries": [
                     "Automated defense turrets programmed to eliminate threats."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sentry%20Turret%2C%20Machinegun.png"
+                        }
+                    }
                 ]
             }
         },
@@ -55311,9 +56621,19 @@
                 "exhaustion; resistant to frightened"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret,_Missile.png",
             "fluff": {
                 "entries": [
                     "Automated defense turrets programmed to eliminate threats."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sentry%20Turret%2C%20Missile.png"
+                        }
+                    }
                 ]
             }
         },
@@ -55365,9 +56685,19 @@
                 "exhaustion; resistant to frightened"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret,_Sonic.png",
             "fluff": {
                 "entries": [
                     "Automated defense turrets programmed to eliminate threats."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sentry%20Turret%2C%20Sonic.png"
+                        }
+                    }
                 ]
             }
         },
@@ -55418,9 +56748,19 @@
                 "immune to charmed; resistant to compelled"
             ],
             "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Serevan_Millitant.png",
             "fluff": {
                 "entries": [
                     "Pilgrims of discipline turned zealots, armor scrubbed to a sermon’s shine. The Serevan Militant marches to hymns of order, bearing warded shields and radiant batons meant to ‘correct’ the wayward. They do not bargain; they convert, contain, or break."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Serevan%20Millitant.png"
+                        }
+                    }
                 ]
             }
         },
@@ -55471,9 +56811,19 @@
                 "immune to poisoned; causes grappled"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sewer_Alligator,_Mutated.png",
             "fluff": {
                 "entries": [
                     "Colossal, mutated alligators with enhanced strength and intelligence."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sewer%20Alligator%2C%20Mutated.png"
+                        }
+                    }
                 ]
             }
         },
@@ -55524,9 +56874,19 @@
                 "immune to poisoned; resistant to charmed"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sewer_Rat,_Mutated.png",
             "fluff": {
                 "entries": [
                     "Oversized, grotesque rats with disease-ridden bites."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sewer%20Rat%2C%20Mutated.png"
+                        }
+                    }
                 ]
             }
         },
@@ -55577,9 +56937,19 @@
                 "immune to poisoned; causes unstable"
             ],
             "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sewer_Swine.png",
             "fluff": {
                 "entries": [
                     "Pale boars bred on cafeteria slop and chemical runoff. Their bristles mat with grease; their senses taste metal in the water. Gangs run them like living battering rams—once a Sewer Swine takes a tunnel, only fire or a heavier beast will turn it back."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sewer%20Swine.png"
+                        }
+                    }
                 ]
             }
         },
@@ -55631,9 +57001,19 @@
                 "exhaustion; causes altered"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sewer_Thing.png",
             "fluff": {
                 "entries": [
                     "A long, leech-like creature slick with black sludge, sensing only heartbeats in the dark."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sewer%20Thing.png"
+                        }
+                    }
                 ]
             }
         },
@@ -55684,9 +57064,19 @@
                 "immune to prone; resistant to compelled"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sewer_Turtle,_Mutated.png",
             "fluff": {
                 "entries": [
                     "Shell-armored mutants lurking in toxic runoff."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sewer%20Turtle%2C%20Mutated.png"
+                        }
+                    }
                 ]
             }
         },
@@ -55793,9 +57183,19 @@
                 "charmed"
             ],
             "cr": "16",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Shadowking.png",
             "fluff": {
                 "entries": [
                     "A sovereign of shadows seen in recurring dreams and mass delusions."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Shadowking.png"
+                        }
+                    }
                 ]
             }
         },
@@ -55847,9 +57247,19 @@
                 "exhaustion; resistant to restrained"
             ],
             "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Shrike_Frame.png",
             "fluff": {
                 "entries": [
                     "A floating frame that shifts reality, making things disappear."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Shrike%20Frame.png"
+                        }
+                    }
                 ]
             }
         },
@@ -55898,9 +57308,19 @@
                 "immune to frightened; causes under surveillance"
             ],
             "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sierraman.png",
             "fluff": {
                 "entries": [
                     "Tall, shadowy humanoid reported in the Sierra Nevada mountains. Appears suddenly on ridges or roads, then vanishes without trace."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sierraman.png"
+                        }
+                    }
                 ]
             }
         },
@@ -55953,9 +57373,19 @@
                 "prone; causes frightened"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Signal_Revenant.png",
             "fluff": {
                 "entries": [
                     "Ghostly figures formed from corrupted radio waves and digital echoes."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Signal%20Revenant.png"
+                        }
+                    }
                 ]
             }
         },
@@ -56022,9 +57452,19 @@
                 "immune to charmed; causes compelled"
             ],
             "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Skinwalker.png",
             "fluff": {
                 "entries": [
                     "A cursed shaman that can take the form of animals or people by wearing their skins."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Skinwalker.png"
+                        }
+                    }
                 ]
             }
         },
@@ -56092,9 +57532,19 @@
                 "frightened; causes altered"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Smiling_Man.png",
             "fluff": {
                 "entries": [
                     "with a grotesquely wide grin and lacking nose or ears. Appeared during UFO contact in West Virginia (1966) and in later urban sightings.”]({\"attribution\":{\"attributableIndex\":\"1432-3\"}})  [oai_citation:1‡cryptidz.fandom.com](https://cryptidz.fandom.com/wiki/Beast_of_Hrubiesz%C3%B3w?utm_source=chatgpt.com) [oai_citation:2‡cryptidz.fandom.com](https://cryptidz.fandom.com/wiki/Indrid_Cold?utm_source=chatgpt.com)"
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Smiling%20Man.png"
+                        }
+                    }
                 ]
             }
         },
@@ -56162,9 +57612,19 @@
                 "immune to poisoned; causes grappled"
             ],
             "cr": "6",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Snallygaster.png",
             "fluff": {
                 "entries": [
                     "A bizarre hybrid dragon with a metallic beak and tentacles, terrorizing Maryland’s skies."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Snallygaster.png"
+                        }
+                    }
                 ]
             }
         },
@@ -56213,9 +57673,19 @@
                 "immune to charmed; resistant to compelled"
             ],
             "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Solway_Firth_Spaceman.png",
             "fluff": {
                 "entries": [
                     "Pale, astronaut-like figure appearing in photographs but unseen by the naked eye. Radiates unsettling static energy."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Solway%20Firth%20Spaceman.png"
+                        }
+                    }
                 ]
             }
         },
@@ -56282,9 +57752,19 @@
                 "immune to frightened; causes altered"
             ],
             "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Something_Terrifying.png",
             "fluff": {
                 "entries": [
                     "wolf‑ or lion‑like creature seen in Hrubieszów woodland. Soldiers locked a man away; his screams about “something terrifying” were ignored—when the door opened"
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Something%20Terrifying.png"
+                        }
+                    }
                 ]
             }
         },
@@ -56380,9 +57860,19 @@
                 "poisoned"
             ],
             "cr": "6",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer,_Capelobo.png",
             "fluff": {
                 "entries": [
                     "A South American predator that embodies the feral side of the Springer myth. Humanoid but bestial, with a muzzle like a tapir and shaggy fur, the Capelobo can leap through the jungle canopy to ambush prey. It is said to tear into livestock and even humans, leaving only bloodied earth and crushed undergrowth. Unlike its more spectral cousins, the Capelobo is tangible, physical, and voracious—proof that not all Springers are phantoms."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Springer%2C%20Capelobo.png"
+                        }
+                    }
                 ]
             }
         },
@@ -56473,9 +57963,19 @@
                 "frightened"
             ],
             "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer,_El_Sombreron.png",
             "fluff": {
                 "entries": [
                     "Less overtly violent than its kin, El Sombrerón is a small figure with a wide-brimmed hat and unnaturally strong leaps. It harasses travelers and animals alike, appearing suddenly to braid horses’ manes or serenade victims into sleeplessness. Though folkloric in origin, its sudden pouncing entrances and hypnotic songs align it with the Springers’ disorienting tendencies. Those who dismiss it as harmless often find themselves drained by weeks of sleepless nights."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Springer%2C%20El%20Sombreron.png"
+                        }
+                    }
                 ]
             }
         },
@@ -56561,9 +58061,19 @@
                 "deception": "+8"
             },
             "cr": "9",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer,_Jack.png",
             "fluff": {
                 "entries": [
                     "The infamous origin of the Springer tales, Spring-Heeled Jack is a cloaked figure with burning eyes and clawed hands. Witnesses describe it vaulting over high walls and rooftops with impossible ease, sometimes belching blue flames or shrieking in metallic tones. Its appearance has always carried an air of cruel playfulness—striking terror with sudden leaps, then vanishing in laughter. Some accounts call it a nobleman cursed with infernal springs, while others whisper of an urban demon feeding on panic."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Springer%2C%20Jack.png"
+                        }
+                    }
                 ]
             }
         },
@@ -56647,9 +58157,19 @@
                 "frightened"
             ],
             "cr": "8",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer,_Jersey_Devil.png",
             "fluff": {
                 "entries": [
                     "A monstrous variant of the Springer myth, the Jersey Devil stalks the pine barrens as a leaping, winged beast. With goat-like legs and a reptilian tail, it bounds between trees before taking flight, its cries said to curdle blood. Though it shares the Springer’s love of sudden appearances, its nature is more feral: a predator of livestock and a terror of isolated farmsteads. Where others confuse or haunt, the Jersey Devil feasts."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Springer%2C%20Jersey%20Devil.png"
+                        }
+                    }
                 ]
             }
         },
@@ -56737,9 +58257,19 @@
                 "frightened"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer,_Le_Loyon.png",
             "fluff": {
                 "entries": [
                     "A silent figure cloaked in a dark hood and mask, drifting through forests and abandoned roads. Witnesses describe its movements as eerily smooth, with sudden vanishing leaps that defy explanation. Le Loyon does not speak, but its presence sows dread; animals grow restless in its wake, and children report feeling watched for weeks after glimpsing it. In some tales, those who follow Le Loyon too long find themselves lost in endless woods, no matter how familiar the path."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Springer%2C%20Le%20Loyon.png"
+                        }
+                    }
                 ]
             }
         },
@@ -56828,9 +58358,19 @@
                 "restrained; causes delayed"
             ],
             "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer,_Mad_Gasser.png",
             "fluff": {
                 "entries": [
                     "Originating in stories of a faceless prowler who sprayed noxious fumes at night, the Mad Gasse is a gaunt, leaping figure wreathed in clouds of acrid smoke. Its jumps are chaotic bursts, often accompanied by the hiss of escaping gas. Victims describe sudden paralysis, confusion, and vivid hallucinations after an encounter, as though their senses had been poisoned. It is said that Mad Gasse delights in watching people stumble and cough as they flee, before vanishing into the night with a final, lung-crushing leap."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Springer%2C%20Mad%20Gasser.png"
+                        }
+                    }
                 ]
             }
         },
@@ -56914,9 +58454,19 @@
                 "poisoned"
             ],
             "cr": "6",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer,_Pérák.png",
             "fluff": {
                 "entries": [
                     "A lean, wiry figure of uncanny elasticity, Perak bounds across rooftops and alleys with impossible grace. Legends paint it as both trickster and terror: sometimes frightening soldiers or criminals, sometimes protecting locals by startling wrongdoers into retreat. Its glowing eyes can be seen flashing before it vaults into the dark, leaving behind a trail of echoes like coiled springs snapping. Unlike its darker kin, Perak embodies more ambiguity—equal parts phantom protector and night-stalking menace."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Springer%2C%20P%C3%A9r%C3%A1k.png"
+                        }
+                    }
                 ]
             }
         },
@@ -57006,9 +58556,19 @@
                 "charmed; frightened"
             ],
             "cr": "9",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer,_Tikbalang.png",
             "fluff": {
                 "entries": [
                     "Towering and horse-headed, the Tikbalang leaps along mountain trails and forest paths, luring travelers astray with mocking laughter. It delights in confusion, leading victims in circles until they collapse from exhaustion, before vanishing into mist. Though tricksterish, the Tikbalang can become violent if angered, trampling its prey with crushing strength. In the Springer family, it represents the uncanny fusion of playful cruelty and predatory danger."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Springer%2C%20Tikbalang.png"
+                        }
+                    }
                 ]
             }
         },
@@ -57099,9 +58659,19 @@
                 "unconscious"
             ],
             "cr": "1",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Suffocating_Plastic_Bag.png",
             "fluff": {
                 "entries": [
                     "Sentient grocery bags that float through the air, attempting to smother victims."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Suffocating%20Plastic%20Bag.png"
+                        }
+                    }
                 ]
             }
         },
@@ -57199,9 +58769,19 @@
                 "poisoned"
             ],
             "cr": "8",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sumashi,_Abura.png",
             "fluff": {
                 "entries": [
                     "The Abura Sumashi is a strange figure of rural legend, haunting lonely mountain passes and quiet roadsides. Its body is that of a withered humanoid wrapped in simple rags, but its head is heavy and stone-like, as though carved from weathered rock. Its piercing eyes glow with a dim, watchful light.\n\nAccording to tales, the Abura Sumashi was once a human who stole precious oil—lamp oil, cooking oil, or sacred oil from shrines. For this crime it was cursed, its spirit bound in this grotesque form. Now it lingers in mountain paths and farm roads, appearing to lone travelers. Though rarely violent at first, its presence is unsettling, and those who linger in its company too long may find themselves harried, cursed, or followed for days by the soft scrape of its stone visage turning toward them.\n\nSilent Haunter. The Abura Sumashi rarely speaks, instead appearing suddenly to startle and frighten. It seems to feed on fear and unease, vanishing and reappearing to heighten dread.\n\nTwisted Punisher. If angered—by insult, mockery, or refusal to show respect—the yokai lashes out with supernatural malice. Some stories tell of travelers struck mute, oil lamps snuffed by unseen hands, or food stores spoiled overnight after an encounter.\n\nEnduring Curse. Destroying an Abura Sumashi only delays its torment. Unless its original theft is atoned for—through offerings, prayer, or restitution—it reforms along the same road, cursed to linger forever."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sumashi%2C%20Abura.png"
+                        }
+                    }
                 ]
             }
         },
@@ -57299,9 +58879,19 @@
                 "poisoned"
             ],
             "cr": "8",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sumashi,_Kemuri.png",
             "fluff": {
                 "entries": [
                     "The Kemuri Sumashi is a drifting spirit born from fire, smoke, and forgotten rituals. Its form resembles a vaguely humanoid figure woven of incense plumes and ash, with an indistinct head that billows like rising smoke. Where the Abura Sumashi embodies punishment for theft, the Kemuri Sumashi is a warning: respect flame, ritual, and the unseen forces that linger in smoke.\n\nThey haunt abandoned shrines, ruined temples, and desecrated sacred fires. At times, they appear as guardians—warding intruders from defiled grounds—but at others, they drift aimlessly, curious, sorrowful, and unpredictable. Their bodies shift with every breeze, flowing in and out of shape, their presence scented faintly of ash and incense.\n\nDrifting Guardian. The Kemuri Sumashi can pass through cracks and walls like smoke, watching intruders silently. When threatened, it expands into a suffocating cloud, choking breath and sight alike.\n\nSpirit of Smoke. Its attacks are rarely physical. Instead, it manipulates air, heat, and haze, creating illusions or forcing visions of ritual flames long extinguished.\n\nBound to Fire. The Kemuri Sumashi is strongest where sacred fire once burned. In places of profaned or neglected ritual, it lashes out with greatest ferocity, seeking to reclaim forgotten reverence."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sumashi%2C%20Kemuri.png"
+                        }
+                    }
                 ]
             }
         },
@@ -57399,9 +58989,19 @@
                 "frightened"
             ],
             "cr": "7",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sumashi,_Ki.png",
             "fluff": {
                 "entries": [
                     "Born from the essence of trees and sacred groves, the Ki Sumashi once lingered peacefully in mountain forests, temple woods, and quiet shrines. With a bark-carved body and a great wooden head like an idol mask, it was a silent watcher, content to guard balance between humanity and nature.\n\nBut as forests were cut, rivers poisoned, and sacred groves paved into avenues, the Ki Sumashi grew restless. In modern sprawl and mega-cities, these spirits are rare, but when they emerge, they seethe with irritation, grief, and vengeful anger. Their moss-covered forms wander alleyways, rooftops, and construction sites, appearing like grotesque statues dragged from forgotten shrines. Their silence is broken only by the creaking of wood and the splintering crash of their wrath.\n\nUrban Haunter. The Ki Sumashi loathes the scent of asphalt, smoke, and metal. In cities, it manifests not as a protector but as an avenger of lost groves. It stalks industrial yards and abandoned parks, attacking those who embody heedless consumption: polluters, desecrators, and careless trespassers.\n\nVengeful Guardian. Unlike in wild places, where it may still judge impartially, the Ki Sumashi in urban areas is prone to rage. They lash out at mortals not out of evil, but out of pain and frustration, a spirit that cannot find peace while its forest is gone.\n\nEcho of the Wild. Even in their anger, they are reminders of what once thrived beneath the concrete. To some, they are terrifying monsters. To others, they are tragic omens—living testaments of how far humanity has strayed from balance."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sumashi%2C%20Ki.png"
+                        }
+                    }
                 ]
             }
         },
@@ -57496,9 +59096,19 @@
                 "poisoned"
             ],
             "cr": "6",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sumashi,_Kusa.png",
             "fluff": {
                 "entries": [
                     "The Kusa Sumashi is a spirit born of abandonment and neglect, woven from old straw mats, broken tools, and forgotten harvests. Its body resembles a scarecrow-like figure, patchwork and uneven, with a large head of bound reeds and splintered wood. Where once it stood silently among crops, it now lingers in empty fields, half-ruined barns, and sacred harvest grounds where no one comes to give thanks.\n\nSpirit of the Harvest. The Kusa Sumashi embodies the sacred bond between people and the land. It rises when fields are forsaken, rituals forgotten, or offerings left undone. To those who honor the soil and the cycle of planting and reaping, it may be only a watchful presence. But to those who profane or abandon the land, it stirs with anger, lashing out with the weight of toil unfulfilled.\n\nPatchwork Guardian. The spirit’s body is cobbled together from what is left behind—rotting mats, dulled blades, snapped plows, and broken baskets. These fragments of human life, once meant for labor, have become its armor and its weapons.\n\nLament of Fields Lost. In rural places, the Kusa Sumashi is a stern but fair sentinel. In urbanized regions, where farmland has been devoured by concrete, it becomes restless and sorrowful, sometimes wandering streets with the smell of cut grass and dust trailing after it—an omen of land forever lost.\n\nDefender of Sacred Grounds. The yokai is especially protective of ancient harvest shrines and forgotten boundaries. Trespassers who mock, pillage, or burn offerings will find themselves pursued by the rustling of straw and the creak of tools wielded by unseen hands."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sumashi%2C%20Kusa.png"
+                        }
+                    }
                 ]
             }
         },
@@ -57596,9 +59206,19 @@
                 "frightened"
             ],
             "cr": "8",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sumashi,_Mizu.png",
             "fluff": {
                 "entries": [
                     "The Mizu Sumashi is a spirit of sacred waters, born from wells, springs, and rivers where offerings were once made. Its form is a shifting humanoid shape of rippling water, crowned with a misty plume that resembles a flowing head. Its body glimmers with reflected light one moment, then darkens into a churning torrent the next.\n\nGuardian of Wells and Springs. Where water is honored, the Mizu Sumashi appears as a quiet protector, warding off pollution and blessing the thirsty. Where water is profaned—wells defiled, rivers dammed, or sacred springs forgotten—it manifests as an angry, drenching spirit, pulling trespassers beneath waves of unseen current.\n\nShifting Essence. Unlike its stone- or straw-bodied kin, the Mizu Sumashi’s form is fluid and unstable. It can melt into mist to drift unseen, surge into a tide to sweep away intruders, or condense into droplets that vanish back into the soil.\n\nBalance of Life and Loss. The yokai embodies both the generosity and fury of water. It is healer and destroyer, quenching thirst one day, drowning fields the next. Its silence leaves mortals uncertain whether they are protected or judged until its actions decide the truth.\n\nUrban Haunter. In sprawling cities, the Mizu Sumashi grows restless. It drifts through storm drains, abandoned bathhouses, and defiled fountains, its once-pure essence turned stagnant. When stirred, it lashes out with floods of resentment, as though mourning every forgotten spring paved over by stone."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sumashi%2C%20Mizu.png"
+                        }
+                    }
                 ]
             }
         },
@@ -57689,9 +59309,19 @@
                 "frightened"
             ],
             "cr": "7",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sunken_Drifter.png",
             "fluff": {
                 "entries": [
                     "The Sunken Drifter looks like a rusting sedan, its frame sagging with water damage and streaked with oil. Yet despite shattered windows and corroded steel, it moves of its own accord, rolling steadily down empty highways and abandoned roads. No driver sits at the wheel. No passengers stir inside. Its headlights flicker like dying eyes, and the air around it smells of wet asphalt and burning oil.\n\nGhost in the Machine. Scholars argue whether the Drifter is a haunted vehicle, a cursed construct, or a spirit that has chosen metal for its shell. The truth is uncertain, but all agree its presence is a bad omen: roadkill rises in its wake, engines sputter, and stormwater thickens with black sludge.\n\nTrail of Oil. Wherever it passes, the ground is left streaked with smoldering oil. This trail burns if ignited, sometimes sparking into sudden fires long after the Drifter has vanished.\n\nUrban Haunter. The Sunken Drifter is most often seen in storm-flooded underpasses, crumbling parking lots, or highways where accidents claimed many lives. Travelers tell of hearing the wet hiss of tires on asphalt behind them, only to find the road empty—until the flicker of headlights appears again in the distance.\n\nOmen of Tragedy. The Drifter rarely attacks unprovoked. Instead it stalks, circling or tailing its chosen quarry for miles. Some claim it heralds a coming accident; others say it seeks new victims to join whatever drowned spirits haunt its waterlogged interior."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sunken%20Drifter.png"
+                        }
+                    }
                 ]
             }
         },
@@ -57782,9 +59412,19 @@
                 "frightened"
             ],
             "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Symphony_of_Echoes.png",
             "fluff": {
                 "entries": [
                     "A sentient cacophony of lost voices, driving listeners insane."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Symphony%20of%20Echoes.png"
+                        }
+                    }
                 ]
             }
         },
@@ -57878,9 +59518,19 @@
                 "frightened"
             ],
             "cr": "9",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Synthetic_Vampire.png",
             "fluff": {
                 "entries": [
                     "Beings sustained by cybernetic components rather than blood."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Synthetic%20Vampire.png"
+                        }
+                    }
                 ]
             }
         },
@@ -57974,9 +59624,19 @@
                 "frightened"
             ],
             "cr": "9",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Synthetic_Vampire,_Elite.png",
             "fluff": {
                 "entries": [
                     "Beings sustained by cybernetic components rather than blood."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Synthetic%20Vampire%2C%20Elite.png"
+                        }
+                    }
                 ]
             }
         },
@@ -58070,9 +59730,19 @@
                 "frightened"
             ],
             "cr": "9",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Synthetic_Vampire,_Hunter.png",
             "fluff": {
                 "entries": [
                     "Beings sustained by cybernetic components rather than blood."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Synthetic%20Vampire%2C%20Hunter.png"
+                        }
+                    }
                 ]
             }
         },
@@ -58166,9 +59836,19 @@
                 "frightened"
             ],
             "cr": "9",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Synthetic_Vampire,_Lurker.png",
             "fluff": {
                 "entries": [
                     "Beings sustained by cybernetic components rather than blood."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Synthetic%20Vampire%2C%20Lurker.png"
+                        }
+                    }
                 ]
             }
         },
@@ -58262,9 +59942,19 @@
                 "frightened"
             ],
             "cr": "9",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Synthetic_Vampire,_Seducer.png",
             "fluff": {
                 "entries": [
                     "Beings sustained by cybernetic components rather than blood."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Synthetic%20Vampire%2C%20Seducer.png"
+                        }
+                    }
                 ]
             }
         },
@@ -58315,9 +60005,19 @@
                 "immune to frightened; causes compelled"
             ],
             "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Tearskin_Beast.png",
             "fluff": {
                 "entries": [
                     "Creatures shifting between layers of reality, constantly unraveling and reforming."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Tearskin%20Beast.png"
+                        }
+                    }
                 ]
             }
         },
@@ -58421,9 +60121,19 @@
                 "charmed"
             ],
             "cr": "6",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Time_Traveling_Hipster.png",
             "fluff": {
                 "entries": [
                     "A strangely dressed human out of place in old photographs. Manipulates probability to remain unnoticed."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Time%20Traveling%20Hipster.png"
+                        }
+                    }
                 ]
             }
         },
@@ -58502,9 +60212,19 @@
                 "frightened"
             ],
             "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Traffic_Drone.png",
             "fluff": {
                 "entries": [
                     "Blip"
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Traffic%20Drone.png"
+                        }
+                    }
                 ]
             }
         },
@@ -58593,9 +60313,19 @@
                 "incapacitated"
             ],
             "cr": "6",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Urban_Wraith.png",
             "fluff": {
                 "entries": [
                     "Ghostly silhouettes flickering like a glitch, stuck in surveillance footage loops."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Urban%20Wraith.png"
+                        }
+                    }
                 ]
             }
         },
@@ -58701,9 +60431,19 @@
                 "charmed"
             ],
             "cr": "20",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vorthirith,_Abhaaldrac.png",
             "fluff": {
                 "entries": [
                     "Embodiment of the infinite firmament and the unfathomable gulfs between stars, Abhaaldrac is a living paradox: the beauty of the cosmos bound to the cruelty of unfeeling curiosity. Towering beyond comprehension, this gargantuan entity drifts through the void, his presence a sickness that warps the heavens themselves.\n\nHis hunger is not born of need but of wonder twisted to cruelty. Abhaaldrac devours worlds, lives, and suns not for survival, but for the terrible delight of knowing what will happen when they are gone. He is the cosmos turned predator, a universal psychopath whose questions are answered in ruin and whose fascination is written in extinction.\n\nEvil pulses in his veins like dark matter, seeping outward in waves of chaos. Behind his path lie shattered planets, orphaned stars, and the echoes of civilizations reduced to ash. Yet even in his destruction, there is no hatred, no purpose—only the cold, inexorable curiosity of a mind that sees all existence as experiment and plaything.\n\nTo speak of Abhaaldrac is to speak of inevitability: the sickness of curiosity without compassion, a malady written across the stars themselves."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Vorthirith%2C%20Abhaaldrac.png"
+                        }
+                    }
                 ]
             }
         },
@@ -58811,9 +60551,19 @@
                 "petrified"
             ],
             "cr": "20",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vorthirith,_Bhazquorith.png",
             "fluff": {
                 "entries": [
                     "A primordial world-eater, Bhaz’qorith lurks at the ragged edges of creation, where the woven layers of existence fray into the void. Once a sovereign among the Vorthirith, he was lured to the birthing Intent of Acrimony, enthralled by its malignant pulse, and forever twisted into an avatar of dissolution.\n\nHis form is a gaping abyss of endless hunger: a spiraling maw of teeth and unraveling sinew, a body whose very presence gnaws at reality. He does not simply destroy—he unwinds, dissolves, and unmakes. Where he passes, stone pillars crack like brittle reeds, threads of fate unravel, and the meaning of things bleeds into hollow echoes.\n\nHis hunger is eternal, his tread catastrophic. Yet in every cycle of unraveling, creation lingers, whispering defiance through the roots of the life-trees. Bhaz’qorith’s doom may lie not in his defeat, but in the growth that rises defiantly from the ruins he leaves behind."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Vorthirith%2C%20Bhazquorith.png"
+                        }
+                    }
                 ]
             }
         },
@@ -58919,9 +60669,19 @@
                 "paralyzed"
             ],
             "cr": "20",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vorthirith,_Cthithrzho.png",
             "fluff": {
                 "entries": [
                     "C’thithr’zho is doom made manifest, the harbinger of laments whose presence turns hope to silence. Vast as a planet and draped in endless shadow, he drifts through the void as a dirge given form, a living requiem that consumes both flesh and spirit.\n\nHe feasts upon life and blood, unmaking the strong and the frail alike, until only desolation remains. Where others devour for hunger or curiosity, C’thithr’zho consumes for the sake of despair itself. His essence is evil distilled to its most perfect state, a toxin in the fabric of creation, saturating the stars with sorrow and fear.\n\nHis coming is heralded not by fire or ruin, but by silence: songs falter, prayers go unanswered, and even memory begins to weep. To behold him is to feel inevitability’s weight, the crushing truth that nothing endures. Planets blacken beneath his shadow, their oceans turned to blood-red voids, their skies collapsing into endless mourning.\n\nC’thithr’zho does not rage, nor revel, nor question—he laments. Yet in that lament lies the certainty of annihilation, for he is the requiem of all things, and every star that shines is but a verse in the dirge he will one day complete."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Vorthirith%2C%20Cthithrzho.png"
+                        }
+                    }
                 ]
             }
         }
