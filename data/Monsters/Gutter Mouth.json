@@ -1,1 +1,94 @@
-{"Source":"","Type":"Medium aberration, unaligned","HP":{"Value":33,"Notes":"6d10"},"AC":{"Value":12,"Notes":""},"InitiativeModifier":0,"InitiativeAdvantage":false,"Speed":["0 ft., swim 30 ft."],"Abilities":{"Str":1,"Dex":15,"Con":10,"Int":5,"Wis":14,"Cha":20},"DamageVulnerabilities":[],"DamageResistances":["None"],"DamageImmunities":["None"],"ConditionImmunities":["Deafened","Frightened"],"Saves":[{"Name":"DEX","Modifier":4},{"Name":"CHA","Modifier":7}],"Skills":[{"Name":"Deception","Modifier":7},{"Name":"Stealth","Modifier":4}],"Senses":["Blindsight 60 ft."],"Languages":["Understands Common but cannot speak"],"Challenge":"2","Traits":[{"Name":"Voice Mimicry","Content":"The Gutter Mouth can mimic voices it has heard, allowing it to speak in the tones of its victims to deceive and lure prey."},{"Name":"Storm Drain Camouflage","Content":"When in a storm drain or vent, the Gutter Mouth can attempt to hide as a bonus action, gaining advantage on Stealth checks while in its environment."}],"Actions":[{"Name":"Devouring Snare","Content":"Melee Attack: +5 to hit, dealing 10 (2d6 + 3) damage. The Gutter Mouth lashes out with its tongue, attempting to ensnare its target. On a hit, the target must succeed on a DC 13 Strength saving throw or be grappled and unable to speak. While grappled, the target takes 5 (1d10) acid damage at the start of its turns as the Gutter Mouth secretes corrosive saliva."},{"Name":"Echoing Lure","Content":"The Gutter Mouth mimics the sound of a familiar voice or a loved one's calling. Each creature of its choice within 60 feet must succeed on a DC 13 Wisdom saving throw or be charmed until the end of the Gutter Mouth's next turn. While charmed in this way, the creature must move toward the Gutter Mouth. If the creature ends its turn within 5 feet of the Gutter Mouth, it takes 24 (4d12 + 4) psychic damage as the voice turns into maddening whispers. Once used, this action can't be used again until the Gutter Mouth finishes a short or long rest."},{"Name":"Bitter Refrain","Content":"Ranged Spell Attack: +5 to hit, dealing 15 (3d8 + 3) psychic damage. The Gutter Mouth unleashes a wave of agonizing sound directed at a creature within 30 feet. The target must succeed on a DC 13 Constitution saving throw or have disadvantage on attack rolls and saving throws until the end of its next turn, as the disembodied mouth's haunting echoes invade their mind."}],"BonusActions":[],"Reactions":[],"MythicActions":[],"Description":"","Player":"","Version":"3.6.10","ImageURL":""}
+{
+	"Source": "",
+	"Type": "Medium aberration, unaligned",
+	"HP": {
+		"Value": 33,
+		"Notes": "6d10"
+	},
+	"AC": {
+		"Value": 12,
+		"Notes": ""
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"0 ft., swim 30 ft."
+	],
+	"Abilities": {
+		"Str": 1,
+		"Dex": 15,
+		"Con": 10,
+		"Int": 5,
+		"Wis": 14,
+		"Cha": 20
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"None"
+	],
+	"DamageImmunities": [
+		"None"
+	],
+	"ConditionImmunities": [
+		"Deafened",
+		"Frightened"
+	],
+	"Saves": [
+		{
+			"Name": "DEX",
+			"Modifier": 4
+		},
+		{
+			"Name": "CHA",
+			"Modifier": 7
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Deception",
+			"Modifier": 7
+		},
+		{
+			"Name": "Stealth",
+			"Modifier": 4
+		}
+	],
+	"Senses": [
+		"Blindsight 60 ft."
+	],
+	"Languages": [
+		"Understands Common but cannot speak"
+	],
+	"Challenge": "2",
+	"Traits": [
+		{
+			"Name": "Voice Mimicry",
+			"Content": "The Gutter Mouth can mimic voices it has heard, allowing it to speak in the tones of its victims to deceive and lure prey."
+		},
+		{
+			"Name": "Storm Drain Camouflage",
+			"Content": "When in a storm drain or vent, the Gutter Mouth can attempt to hide as a bonus action, gaining advantage on Stealth checks while in its environment."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Devouring Snare",
+			"Content": "Melee Attack: +5 to hit, dealing 10 (2d6 + 3) damage. The Gutter Mouth lashes out with its tongue, attempting to ensnare its target. On a hit, the target must succeed on a DC 13 Strength saving throw or be grappled and unable to speak. While grappled, the target takes 5 (1d10) acid damage at the start of its turns as the Gutter Mouth secretes corrosive saliva."
+		},
+		{
+			"Name": "Echoing Lure",
+			"Content": "The Gutter Mouth mimics the sound of a familiar voice or a loved one's calling. Each creature of its choice within 60 feet must succeed on a DC 13 Wisdom saving throw or be charmed until the end of the Gutter Mouth's next turn. While charmed in this way, the creature must move toward the Gutter Mouth. If the creature ends its turn within 5 feet of the Gutter Mouth, it takes 24 (4d12 + 4) psychic damage as the voice turns into maddening whispers. Once used, this action can't be used again until the Gutter Mouth finishes a short or long rest."
+		},
+		{
+			"Name": "Bitter Refrain",
+			"Content": "Ranged Spell Attack: +5 to hit, dealing 15 (3d8 + 3) psychic damage. The Gutter Mouth unleashes a wave of agonizing sound directed at a creature within 30 feet. The target must succeed on a DC 13 Constitution saving throw or have disadvantage on attack rolls and saving throws until the end of its next turn, as the disembodied mouth's haunting echoes invade their mind."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

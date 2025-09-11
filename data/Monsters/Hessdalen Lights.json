@@ -1,1 +1,94 @@
-{"Source":"","Type":"Small aberration, unaligned","HP":{"Value":22,"Notes":"5d6 + 3"},"AC":{"Value":11,"Notes":""},"InitiativeModifier":0,"InitiativeAdvantage":false,"Speed":["0 ft., fly 60 ft. (hover)"],"Abilities":{"Str":1,"Dex":16,"Con":12,"Int":1,"Wis":14,"Cha":1},"DamageVulnerabilities":[],"DamageResistances":["Radiant, Psychic, Force, Thunder"],"DamageImmunities":["Poison, Psychic"],"ConditionImmunities":["Blinded","Frightened"],"Saves":[{"Name":"DEX","Modifier":5},{"Name":"WIS","Modifier":4}],"Skills":[{"Name":"Arcana","Modifier":0},{"Name":"Perception","Modifier":4}],"Senses":["Darkvision 60 ft."],"Languages":["Understands Deep Speech but doesn't speak"],"Challenge":"2","Traits":[{"Name":"Cluster and Split","Content":"When reduced to half its hit points, the Hessdalen Lights can split into two smaller orbs that each have half the hit points and the same abilities."},{"Name":"Radiant Disorientation","Content":"Creatures within 30 feet of the Hessdalen Lights must succeed on a DC 12 Wisdom saving throw at the start of their turn or be disoriented until the start of their next turn, causing them to have disadvantage on their next attack roll."}],"Actions":[{"Name":"Radiant Pulse","Content":"Spell Attack: +5 to hit, dealing 8 (2d4 + 3) radiant damage, and the target must succeed on a DC 12 Constitution saving throw or be blinded until the end of their next turn."},{"Name":"Disorienting Flare","Content":"Ranged Attack: +5 to hit, dealing 10 (3d6 + 1) psychic damage, and the target must succeed on a DC 12 Wisdom saving throw or suffer disadvantage on its next ability check."},{"Name":"Orb Burst","Content":"Area Effect: Each creature in a 10-foot radius centered on the Hessdalen Lights must succeed on a DC 12 Dexterity saving throw or take 15 (3d10 + 1) force damage and be pushed 5 feet away from the Hessdalen Lights."}],"BonusActions":[],"Reactions":[],"MythicActions":[],"Description":"","Player":"","Version":"3.6.10","ImageURL":""}
+{
+	"Source": "",
+	"Type": "Small aberration, unaligned",
+	"HP": {
+		"Value": 22,
+		"Notes": "5d6 + 3"
+	},
+	"AC": {
+		"Value": 11,
+		"Notes": ""
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"0 ft., fly 60 ft. (hover)"
+	],
+	"Abilities": {
+		"Str": 1,
+		"Dex": 16,
+		"Con": 12,
+		"Int": 1,
+		"Wis": 14,
+		"Cha": 1
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Radiant, Psychic, Force, Thunder"
+	],
+	"DamageImmunities": [
+		"Poison, Psychic"
+	],
+	"ConditionImmunities": [
+		"Blinded",
+		"Frightened"
+	],
+	"Saves": [
+		{
+			"Name": "DEX",
+			"Modifier": 5
+		},
+		{
+			"Name": "WIS",
+			"Modifier": 4
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Arcana",
+			"Modifier": 0
+		},
+		{
+			"Name": "Perception",
+			"Modifier": 4
+		}
+	],
+	"Senses": [
+		"Darkvision 60 ft."
+	],
+	"Languages": [
+		"Understands Deep Speech but doesn't speak"
+	],
+	"Challenge": "0.5",
+	"Traits": [
+		{
+			"Name": "Cluster and Split",
+			"Content": "When reduced to half its hit points, the Hessdalen Lights can split into two smaller orbs that each have half the hit points and the same abilities."
+		},
+		{
+			"Name": "Radiant Disorientation",
+			"Content": "Creatures within 30 feet of the Hessdalen Lights must succeed on a DC 12 Wisdom saving throw at the start of their turn or be disoriented until the start of their next turn, causing them to have disadvantage on their next attack roll."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Radiant Pulse",
+			"Content": "Spell Attack: +5 to hit, dealing 8 (2d4 + 3) radiant damage, and the target must succeed on a DC 12 Constitution saving throw or be blinded until the end of their next turn."
+		},
+		{
+			"Name": "Disorienting Flare",
+			"Content": "Ranged Attack: +5 to hit, dealing 10 (3d6 + 1) psychic damage, and the target must succeed on a DC 12 Wisdom saving throw or suffer disadvantage on its next ability check."
+		},
+		{
+			"Name": "Orb Burst",
+			"Content": "Area Effect: Each creature in a 10-foot radius centered on the Hessdalen Lights must succeed on a DC 12 Dexterity saving throw or take 15 (3d10 + 1) force damage and be pushed 5 feet away from the Hessdalen Lights."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

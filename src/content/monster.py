@@ -162,7 +162,7 @@ def row_to_monster(row):
         # **({"languages":
         #       (languages[0] if len(languages) == 1 else languages[0])
         # } if pd.notnull(row.get("Languages")) else {}),
-        "cr": f"{int(row.get('CR (Challenge Rating)'))}",
+        "cr": f"{row.get('CR (Challenge Rating)')}",
         "tokenUrl": row.get("Tokens URL"),
         "fluff": {
           "entries": [

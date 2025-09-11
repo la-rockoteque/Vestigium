@@ -1,1 +1,94 @@
-{"Source":"","Type":"Medium aberration, unaligned","HP":{"Value":19,"Notes":"2d8 + 4"},"AC":{"Value":11,"Notes":""},"InitiativeModifier":0,"InitiativeAdvantage":false,"Speed":["0 ft., fly 40 ft. (hover)"],"Abilities":{"Str":1,"Dex":16,"Con":14,"Int":12,"Wis":10,"Cha":1},"DamageVulnerabilities":[],"DamageResistances":["Acid, Psychic, Force, Thunder"],"DamageImmunities":["Poison, Bludgeoning, Slashing and Piercing from non-magical weapons"],"ConditionImmunities":["Blinded","Frightened"],"Saves":[{"Name":"DEX","Modifier":5},{"Name":"CON","Modifier":4}],"Skills":[{"Name":"Stealth","Modifier":5},{"Name":"Arcana","Modifier":3}],"Senses":["Darkvision 60 ft."],"Languages":["Telepathy 60 ft."],"Challenge":"2","Traits":[{"Name":"Memory Wipe","Content":"Any creature that starts its turn within 30 feet of the Hollow File must make a DC 13 Wisdom saving throw or have its memory of the last minute erased."},{"Name":"Evasive Nature","Content":"The Hollow File has advantage on Dexterity saving throws against effects that would cause it to be hit or affected."}],"Actions":[{"Name":"Multiattack","Content":"The Hollow File makes two attacks: one with Memory Drain and one with Erasure Touch."},{"Name":"Memory Drain","Content":"Melee Spell Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) psychic damage and the target must succeed on a DC 13 Intelligence saving throw or have its memories of the past hour forgotten."},{"Name":"Erasure Touch","Content":"Melee Spell Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (2d4 + 2) force damage, and if the target is a creature with an active spell, it must succeed on a DC 13 Constitution saving throw or lose the spell!"}],"BonusActions":[],"Reactions":[],"MythicActions":[],"Description":"","Player":"","Version":"3.6.10","ImageURL":""}
+{
+	"Source": "",
+	"Type": "Medium aberration, unaligned",
+	"HP": {
+		"Value": 19,
+		"Notes": "2d8 + 4"
+	},
+	"AC": {
+		"Value": 11,
+		"Notes": ""
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"0 ft., fly 40 ft. (hover)"
+	],
+	"Abilities": {
+		"Str": 1,
+		"Dex": 16,
+		"Con": 14,
+		"Int": 12,
+		"Wis": 10,
+		"Cha": 1
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Acid, Psychic, Force, Thunder"
+	],
+	"DamageImmunities": [
+		"Poison, Bludgeoning, Slashing and Piercing from non-magical weapons"
+	],
+	"ConditionImmunities": [
+		"Blinded",
+		"Frightened"
+	],
+	"Saves": [
+		{
+			"Name": "DEX",
+			"Modifier": 5
+		},
+		{
+			"Name": "CON",
+			"Modifier": 4
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Stealth",
+			"Modifier": 5
+		},
+		{
+			"Name": "Arcana",
+			"Modifier": 3
+		}
+	],
+	"Senses": [
+		"Darkvision 60 ft."
+	],
+	"Languages": [
+		"Telepathy 60 ft."
+	],
+	"Challenge": "0.5",
+	"Traits": [
+		{
+			"Name": "Memory Wipe",
+			"Content": "Any creature that starts its turn within 30 feet of the Hollow File must make a DC 13 Wisdom saving throw or have its memory of the last minute erased."
+		},
+		{
+			"Name": "Evasive Nature",
+			"Content": "The Hollow File has advantage on Dexterity saving throws against effects that would cause it to be hit or affected."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Multiattack",
+			"Content": "The Hollow File makes two attacks: one with Memory Drain and one with Erasure Touch."
+		},
+		{
+			"Name": "Memory Drain",
+			"Content": "Melee Spell Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) psychic damage and the target must succeed on a DC 13 Intelligence saving throw or have its memories of the past hour forgotten."
+		},
+		{
+			"Name": "Erasure Touch",
+			"Content": "Melee Spell Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (2d4 + 2) force damage, and if the target is a creature with an active spell, it must succeed on a DC 13 Constitution saving throw or lose the spell!"
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

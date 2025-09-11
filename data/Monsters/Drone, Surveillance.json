@@ -1,1 +1,87 @@
-{"Source":"","Type":"Small construct, unaligned","HP":{"Value":11,"Notes":"2d8 + 2"},"AC":{"Value":18,"Notes":"magical shielding"},"InitiativeModifier":0,"InitiativeAdvantage":false,"Speed":["20 ft., fly 60 ft."],"Abilities":{"Str":1,"Dex":18,"Con":12,"Int":1,"Wis":10,"Cha":1},"DamageVulnerabilities":[],"DamageResistances":["Acid, Fire, Lightning, Thunder, Force"],"DamageImmunities":["Poison, Psychic, Bludgeoning, Slashing and Piercing from non-magical weapons"],"ConditionImmunities":["Blinded","Charmed","Deafened"],"Saves":[{"Name":"DEX","Modifier":6}],"Skills":[{"Name":"Perception","Modifier":2},{"Name":"Stealth","Modifier":6}],"Senses":["Blindsight 60 ft."],"Languages":["Understands Common but cannot speak"],"Challenge":"2","Traits":[{"Name":"Enhanced Sensors","Content":"The drone has advantage on Wisdom (Perception) checks that rely on sight."},{"Name":"Evasive Maneuvers","Content":"The drone can use its flying speed to evade attacks and has advantage on saving throws against effects that target it."}],"Actions":[{"Name":"Laser Scanning Beam","Content":"Ranged Attack: The drone releases a concentrated energy beam to target a creature within 60 feet. Attack: +3 to hit, dealing 5 (1d8 + 1) radiant damage. On a hit, the target must succeed on a DC 12 Constitution saving throw or become blinded until the end of its next turn."},{"Name":"Surveillance Burst","Content":"Area Effect: The drone emits a burst of interference in a 15-foot radius centered on itself. Each creature in that area must succeed on a DC 12 Dexterity saving throw or take 5 (1d8 + 1) force damage. On a failed save, affected creatures also have disadvantage on their next attack roll as they struggle to recalibrate their senses."}],"BonusActions":[],"Reactions":[],"MythicActions":[],"Description":"","Player":"","Version":"3.6.10","ImageURL":""}
+{
+	"Source": "",
+	"Type": "Small construct, unaligned",
+	"HP": {
+		"Value": 11,
+		"Notes": "2d8 + 2"
+	},
+	"AC": {
+		"Value": 18,
+		"Notes": "magical shielding"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"20 ft., fly 60 ft."
+	],
+	"Abilities": {
+		"Str": 1,
+		"Dex": 18,
+		"Con": 12,
+		"Int": 1,
+		"Wis": 10,
+		"Cha": 1
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Acid, Fire, Lightning, Thunder, Force"
+	],
+	"DamageImmunities": [
+		"Poison, Psychic, Bludgeoning, Slashing and Piercing from non-magical weapons"
+	],
+	"ConditionImmunities": [
+		"Blinded",
+		"Charmed",
+		"Deafened"
+	],
+	"Saves": [
+		{
+			"Name": "DEX",
+			"Modifier": 6
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Perception",
+			"Modifier": 2
+		},
+		{
+			"Name": "Stealth",
+			"Modifier": 6
+		}
+	],
+	"Senses": [
+		"Blindsight 60 ft."
+	],
+	"Languages": [
+		"Understands Common but cannot speak"
+	],
+	"Challenge": "0.5",
+	"Traits": [
+		{
+			"Name": "Enhanced Sensors",
+			"Content": "The drone has advantage on Wisdom (Perception) checks that rely on sight."
+		},
+		{
+			"Name": "Evasive Maneuvers",
+			"Content": "The drone can use its flying speed to evade attacks and has advantage on saving throws against effects that target it."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Laser Scanning Beam",
+			"Content": "Ranged Attack: The drone releases a concentrated energy beam to target a creature within 60 feet. Attack: +3 to hit, dealing 5 (1d8 + 1) radiant damage. On a hit, the target must succeed on a DC 12 Constitution saving throw or become blinded until the end of its next turn."
+		},
+		{
+			"Name": "Surveillance Burst",
+			"Content": "Area Effect: The drone emits a burst of interference in a 15-foot radius centered on itself. Each creature in that area must succeed on a DC 12 Dexterity saving throw or take 5 (1d8 + 1) force damage. On a failed save, affected creatures also have disadvantage on their next attack roll as they struggle to recalibrate their senses."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

@@ -1,1 +1,87 @@
-{"Source":"","Type":"Small beast, unaligned","HP":{"Value":11,"Notes":"2d8 + 2"},"AC":{"Value":12,"Notes":"natural armor"},"InitiativeModifier":0,"InitiativeAdvantage":false,"Speed":["10 ft., fly 50 ft."],"Abilities":{"Str":5,"Dex":15,"Con":12,"Int":1,"Wis":6,"Cha":1},"DamageVulnerabilities":[],"DamageResistances":["Acid, Fire, Lightning, Poison"],"DamageImmunities":["Bludgeoning, Slashing and Piercing from non-magical weapons"],"ConditionImmunities":["Blinded","Poisoned"],"Saves":[{"Name":"DEX","Modifier":4},{"Name":"CON","Modifier":3}],"Skills":[{"Name":"Stealth","Modifier":6}],"Senses":["Blindsight 60 ft.","darkvision 60 ft."],"Languages":["—"],"Challenge":"8","Traits":[{"Name":"Swarm Tactics","Content":"When in a swarm, the giant fruit fly has advantage on attack rolls against creatures that are smaller than it."},{"Name":"Evasive Flight","Content":"The giant fruit fly's speed increases by 10 ft. when it moves away from a creature that its allies were within 5 feet of."}],"Actions":[{"Name":"Bite","Content":"Melee Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. The target must succeed on a DC 12 Constitution saving throw or be poisoned until the end of its next turn."},{"Name":"Filth Spray","Content":"Ranged Attack: +3 to hit, range 30 ft., one target. Hit: 5 (1d8 + 1) acid damage. The target must succeed on a DC 12 Dexterity saving throw or be blinded until the end of its next turn."}],"BonusActions":[],"Reactions":[],"MythicActions":[],"Description":"","Player":"","Version":"3.6.10","ImageURL":""}
+{
+	"Source": "",
+	"Type": "Small beast, unaligned",
+	"HP": {
+		"Value": 11,
+		"Notes": "2d8 + 2"
+	},
+	"AC": {
+		"Value": 12,
+		"Notes": "natural armor"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"10 ft., fly 50 ft."
+	],
+	"Abilities": {
+		"Str": 5,
+		"Dex": 15,
+		"Con": 12,
+		"Int": 1,
+		"Wis": 6,
+		"Cha": 1
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Acid, Fire, Lightning, Poison"
+	],
+	"DamageImmunities": [
+		"Bludgeoning, Slashing and Piercing from non-magical weapons"
+	],
+	"ConditionImmunities": [
+		"Blinded",
+		"Poisoned"
+	],
+	"Saves": [
+		{
+			"Name": "DEX",
+			"Modifier": 4
+		},
+		{
+			"Name": "CON",
+			"Modifier": 3
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Stealth",
+			"Modifier": 6
+		}
+	],
+	"Senses": [
+		"Blindsight 60 ft.",
+		"darkvision 60 ft."
+	],
+	"Languages": [
+		"—"
+	],
+	"Challenge": "0.125",
+	"Traits": [
+		{
+			"Name": "Swarm Tactics",
+			"Content": "When in a swarm, the giant fruit fly has advantage on attack rolls against creatures that are smaller than it."
+		},
+		{
+			"Name": "Evasive Flight",
+			"Content": "The giant fruit fly's speed increases by 10 ft. when it moves away from a creature that its allies were within 5 feet of."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Bite",
+			"Content": "Melee Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage. The target must succeed on a DC 12 Constitution saving throw or be poisoned until the end of its next turn."
+		},
+		{
+			"Name": "Filth Spray",
+			"Content": "Ranged Attack: +3 to hit, range 30 ft., one target. Hit: 5 (1d8 + 1) acid damage. The target must succeed on a DC 12 Dexterity saving throw or be blinded until the end of its next turn."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}
