@@ -204,8 +204,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1757549594,
-        "_dateLastModifiedHash": "eaf57f9b34",
+        "dateLastModified": 1757585612,
+        "_dateLastModifiedHash": "3712ddd7f1",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -56358,7 +56358,7 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": " ",
+            "name": "Red Sky Dawn",
             "size": [
                 "M"
             ],
@@ -56419,7 +56419,7 @@
                 "immune to blinded; causes delayed"
             ],
             "cr": "5",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/_.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Red_Sky_Dawn.png",
             "fluff": {
                 "entries": [
                     "The Red Sky Dawn is not a herald of doom—it is doom itself, clothed in radiant flesh and dripping visions of the world’s end. Seers and prophets speak of it in whispers: a colossal figure of light that bleeds a crimson glow, staining the sky like sunrise at the world’s funeral. To behold it is to feel the marrow of reality tremble, and to know that catastrophe is near.\n\nHarbinger of the End. The Red Sky Dawn manifests only at thresholds of devastation: the collapse of empires, the shattering of continents, the fall of suns. Its presence alone fills mortals with visions of apocalypse—fires swallowing oceans, towers crumbling into dust, and blood raining from the heavens.\n\nBleeding Light. Crimson radiance pours from its wounds and pores, coating the world in dread illumination. This light is not mere glow but essence—raw, burning fragments of dying futures. Mortals who touch it find their skin blistering, their minds flooded with catastrophic prophecy.\n\nOmen Given Flesh. Unlike many apocalyptic beings, the Red Sky Dawn does not strike with weapons or claws. Its violence is the inevitability of its existence. Wherever it stands, crops fail, rivers boil, and the veil between vision and truth collapses. To defeat it is not to slay a monster, but to wrestle with fate itself.\n\nThe Last Vision. Those who survive encounters with the Red Sky Dawn are forever scarred. Their eyes flicker with ember-red light, and they dream nightly of skies bleeding fire. Some seers claim they carry pieces of the Dawn’s vision, destined to bring its prophecy to pass."
@@ -56429,7 +56429,7 @@
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/%20.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Red%20Sky%20Dawn.png"
                         }
                     }
                 ]
@@ -60984,9 +60984,9 @@
             "source": "EverydayGuidetoConcordCity",
             "name": "Poltergeist",
             "size": [
-                "U"
+                "M"
             ],
-            "type": "(incorporeal)",
+            "type": "undead",
             "alignment": [
                 "U"
             ],
@@ -61074,7 +61074,7 @@
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vorthirith_Cthithrzho.png",
             "fluff": {
                 "entries": [
-                    NaN
+                    "Unlike lingering spirits that haunt in silence, a poltergeist announces itself with violence. It has no form of its own — only the disturbances it leaves behind. Doors slam without warning, cupboards rattle, and objects launch across rooms with impossible force. Lights stutter, radios howl with bursts of static, and glass shatters as though struck by invisible hands.\n\nWhat sets a poltergeist apart is its intent. It does not merely haunt; it intrudes, forcing its presence on the living. Some say it feeds on attention, growing stronger when its disturbances are feared or acknowledged. Others whisper that it is not a soul at all, but an echo of raw emotional residue, anger and despair given agency.\n\nVictims often report the same sensations: a sudden drop in air pressure, the hairs on their neck standing upright, and the distinct impression of being watched from just over their shoulder — even when no one is there."
                 ],
                 "images": [
                     {
