@@ -3,6 +3,7 @@ from src.sources import source, json_source
 import inflection
 import re
 import json
+from fractions import Fraction
 
 monster_url = "https://docs.google.com/spreadsheets/d/1I4FHncl40_xx1Udc_Q2rWWWvpL6xaMlpJyY90WBftag/export?format=csv&gid=736393386"
 df_monster = pd.read_csv(monster_url)
@@ -162,7 +163,7 @@ def row_to_monster(row):
         # **({"languages":
         #       (languages[0] if len(languages) == 1 else languages[0])
         # } if pd.notnull(row.get("Languages")) else {}),
-        "cr": f"{row.get('CR (Challenge Rating)')}",
+        "cr": f"{Fraction(row.get('CR (Challenge Rating)'))}",
         "tokenUrl": row.get("Tokens URL"),
         "fluff": {
           "entries": [

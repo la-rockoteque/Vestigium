@@ -204,8 +204,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1757586494,
-        "_dateLastModifiedHash": "7a13d0fad3",
+        "dateLastModified": 1757586785,
+        "_dateLastModifiedHash": "692e3ff3bd",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -44697,7 +44697,7 @@
                 "frustrated",
                 "blinded"
             ],
-            "cr": "0.25",
+            "cr": "1/4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Air_Rods.png",
             "fluff": {
                 "entries": [
@@ -44788,7 +44788,7 @@
                 "blinded",
                 "poisoned"
             ],
-            "cr": "0.25",
+            "cr": "1/4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Annelids.png",
             "fluff": {
                 "entries": [
@@ -44892,7 +44892,7 @@
                 "blinded",
                 "frightened"
             ],
-            "cr": "10.0",
+            "cr": "10",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Architectural_Shifter.png",
             "fluff": {
                 "entries": [
@@ -44993,7 +44993,7 @@
             "conditionImmune": [
                 "none"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Asphalt_Crawler.png",
             "fluff": {
                 "entries": [
@@ -45083,7 +45083,7 @@
                 "frightened",
                 "poisoned"
             ],
-            "cr": "1.0",
+            "cr": "1",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Automated_Interrogator.png",
             "fluff": {
                 "entries": [
@@ -45190,7 +45190,7 @@
                 "charmed",
                 "frightened"
             ],
-            "cr": "4.0",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Babushka_Lady.png",
             "fluff": {
                 "entries": [
@@ -45287,7 +45287,7 @@
                 "incapacitated",
                 "prone"
             ],
-            "cr": "1.0",
+            "cr": "1",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ball_Lightning.png",
             "fluff": {
                 "entries": [
@@ -45385,7 +45385,7 @@
                 "perception": "+5",
                 "stealth": "+8"
             },
-            "cr": "9.0",
+            "cr": "9",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Beast_of_Gévaudan.png",
             "fluff": {
                 "entries": [
@@ -45489,7 +45489,7 @@
                 "frightened",
                 "invisible"
             ],
-            "cr": "12.0",
+            "cr": "12",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Black_Stick_Man.png",
             "fluff": {
                 "entries": [
@@ -45586,7 +45586,7 @@
                 "blinded",
                 "frightened"
             ],
-            "cr": "2.0",
+            "cr": "2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Blackout_Static.png",
             "fluff": {
                 "entries": [
@@ -45683,7 +45683,7 @@
             "conditionImmune": [
                 "resistant to under surveillance"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Blacksite_Executive_Manager.png",
             "fluff": {
                 "entries": [
@@ -45769,7 +45769,7 @@
                 "investigation": "+5",
                 "stealth": "+4"
             },
-            "cr": "1.0",
+            "cr": "1",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Blacksite_Executive_Scientist.png",
             "fluff": {
                 "entries": [
@@ -45866,7 +45866,7 @@
                 "perception": "+5",
                 "stealth": "+6"
             },
-            "cr": "5.0",
+            "cr": "5",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Blacksite_Executive_Security_Officier.png",
             "fluff": {
                 "entries": [
@@ -45964,7 +45964,7 @@
                 "deception": "+4",
                 "stealth": "+5"
             },
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Blemmyeus.png",
             "fluff": {
                 "entries": [
@@ -46070,7 +46070,7 @@
                 "deafened",
                 "frightened"
             ],
-            "cr": "12.0",
+            "cr": "12",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Bloop.png",
             "fluff": {
                 "entries": [
@@ -46188,7 +46188,7 @@
                 "frightened",
                 "charmed"
             ],
-            "cr": "16.0",
+            "cr": "16",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Bogeyman.png",
             "fluff": {
                 "entries": [
@@ -46276,7 +46276,7 @@
                 "blinded",
                 "poisoned"
             ],
-            "cr": "2.0",
+            "cr": "2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Bryozoa.png",
             "fluff": {
                 "entries": [
@@ -46371,7 +46371,7 @@
             "conditionImmune": [
                 "poisoned"
             ],
-            "cr": "1.0",
+            "cr": "1",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Cache_Leech.png",
             "fluff": {
                 "entries": [
@@ -46478,7 +46478,7 @@
             "conditionImmune": [
                 "frightened"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Candle_Walker.png",
             "fluff": {
                 "entries": [
@@ -46582,7 +46582,7 @@
                 "charmed",
                 "poisoned"
             ],
-            "cr": "6.0",
+            "cr": "6",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Channeler.png",
             "fluff": {
                 "entries": [
@@ -46684,7 +46684,7 @@
             "conditionImmune": [
                 "frightened"
             ],
-            "cr": "8.0",
+            "cr": "8",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Chernobyl_Blackbird.png",
             "fluff": {
                 "entries": [
@@ -46821,7 +46821,7 @@
                 "charmed",
                 "frightened"
             ],
-            "cr": "13.0",
+            "cr": "13",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Choir_of_the_Hollow_Sky.png",
             "fluff": {
                 "entries": [
@@ -46926,7 +46926,7 @@
             "conditionImmune": [
                 "prone"
             ],
-            "cr": "11.0",
+            "cr": "11",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Claws_on_Tile.png",
             "fluff": {
                 "entries": [
@@ -47029,7 +47029,7 @@
                 "blinded",
                 "frightened"
             ],
-            "cr": "7.0",
+            "cr": "7",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Clockwork_Morass.png",
             "fluff": {
                 "entries": [
@@ -47132,7 +47132,7 @@
                 "blinded",
                 "frightened"
             ],
-            "cr": "1.0",
+            "cr": "1",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Croakers.png",
             "fluff": {
                 "entries": [
@@ -47239,7 +47239,7 @@
             "conditionImmune": [
                 "immune to frightened; resistant to compelled"
             ],
-            "cr": "4.0",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Crouching_Elder.png",
             "fluff": {
                 "entries": [
@@ -47327,7 +47327,7 @@
             "conditionImmune": [
                 "frightened"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Crungus.png",
             "fluff": {
                 "entries": [
@@ -47416,7 +47416,7 @@
                 "blinded",
                 "poisoned"
             ],
-            "cr": "1.0",
+            "cr": "1",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Data_Spider.png",
             "fluff": {
                 "entries": [
@@ -47530,7 +47530,7 @@
                 "prone",
                 "restrained"
             ],
-            "cr": "18.0",
+            "cr": "18",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Day_of_the_Shadows.png",
             "fluff": {
                 "entries": [
@@ -47659,7 +47659,7 @@
                 "frightened",
                 "charmed"
             ],
-            "cr": "13.0",
+            "cr": "13",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Disco_Demon.png",
             "fluff": {
                 "entries": [
@@ -47750,7 +47750,7 @@
                 "stealth": "+6",
                 "perception": "+3"
             },
-            "cr": "2.0",
+            "cr": "2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Dover_Demon.png",
             "fluff": {
                 "entries": [
@@ -47860,7 +47860,7 @@
                 "stunned",
                 "unconscious"
             ],
-            "cr": "5.0",
+            "cr": "5",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Drone_Assault.png",
             "fluff": {
                 "entries": [
@@ -47974,7 +47974,7 @@
                 "stunned",
                 "unconscious"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Drone_Security.png",
             "fluff": {
                 "entries": [
@@ -48065,7 +48065,7 @@
                 "charmed",
                 "deafened"
             ],
-            "cr": "0.5",
+            "cr": "1/2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Drone_Surveillance.png",
             "fluff": {
                 "entries": [
@@ -48156,7 +48156,7 @@
                 "deafened",
                 "frightened"
             ],
-            "cr": "2.0",
+            "cr": "2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Drone_Traffic.png",
             "fluff": {
                 "entries": [
@@ -48241,7 +48241,7 @@
                 "performance": "+4",
                 "stealth": "+4"
             },
-            "cr": "1.0",
+            "cr": "1",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Echoling.png",
             "fluff": {
                 "entries": [
@@ -48341,7 +48341,7 @@
                 "incapacitated",
                 "prone"
             ],
-            "cr": "2.0",
+            "cr": "2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ectoplasm.png",
             "fluff": {
                 "entries": [
@@ -48454,7 +48454,7 @@
                 "blinded",
                 "frightened"
             ],
-            "cr": "15.0",
+            "cr": "15",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ending.png",
             "fluff": {
                 "entries": [
@@ -48561,7 +48561,7 @@
                 "stunned",
                 "unconscious"
             ],
-            "cr": "4.0",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Energy_Wraith.png",
             "fluff": {
                 "entries": [
@@ -48671,7 +48671,7 @@
                 "stunned",
                 "unconscious"
             ],
-            "cr": "2.0",
+            "cr": "2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Erratum_Swarm.png",
             "fluff": {
                 "entries": [
@@ -48769,7 +48769,7 @@
                 "insight": "+3",
                 "stealth": "+6"
             },
-            "cr": "5.0",
+            "cr": "5",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/False_Humans.png",
             "fluff": {
                 "entries": [
@@ -48871,7 +48871,7 @@
                 "frightened",
                 "poisoned"
             ],
-            "cr": "6.0",
+            "cr": "6",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Fleshgait.png",
             "fluff": {
                 "entries": [
@@ -48968,7 +48968,7 @@
                 "stealth": "+7",
                 "perception": "+4"
             },
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Forgotten.png",
             "fluff": {
                 "entries": [
@@ -49070,7 +49070,7 @@
             "conditionImmune": [
                 "immune to blinded; resistant to unstable"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Furnace_Moth.png",
             "fluff": {
                 "entries": [
@@ -49166,7 +49166,7 @@
                 "blinded",
                 "poisoned"
             ],
-            "cr": "8.0",
+            "cr": "8",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Gas_Breather.png",
             "fluff": {
                 "entries": [
@@ -49259,7 +49259,7 @@
             "conditionImmune": [
                 "blinded"
             ],
-            "cr": "0.125",
+            "cr": "1/8",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Giant_Booklice.png",
             "fluff": {
                 "entries": [
@@ -49352,7 +49352,7 @@
             "conditionImmune": [
                 "poisoned"
             ],
-            "cr": "0.25",
+            "cr": "1/4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Giant_Cockroach.png",
             "fluff": {
                 "entries": [
@@ -49442,7 +49442,7 @@
                 "blinded",
                 "poisoned"
             ],
-            "cr": "0.125",
+            "cr": "1/8",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Giant_Fruit_Fly.png",
             "fluff": {
                 "entries": [
@@ -49529,7 +49529,7 @@
             "conditionImmune": [
                 "poisoned"
             ],
-            "cr": "0.125",
+            "cr": "1/8",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Giant_Silverfish.png",
             "fluff": {
                 "entries": [
@@ -49642,7 +49642,7 @@
             "conditionImmune": [
                 "frightened"
             ],
-            "cr": "6.0",
+            "cr": "6",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Glasswalker.png",
             "fluff": {
                 "entries": [
@@ -49746,7 +49746,7 @@
                 "athletics": "+6",
                 "stealth": "+5"
             },
-            "cr": "5.0",
+            "cr": "5",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Goatman.png",
             "fluff": {
                 "entries": [
@@ -49857,7 +49857,7 @@
                 "stunned",
                 "unconscious"
             ],
-            "cr": "4.0",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem_Asphalt.png",
             "fluff": {
                 "entries": [
@@ -49964,7 +49964,7 @@
                 "stunned",
                 "unconscious"
             ],
-            "cr": "5.0",
+            "cr": "5",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem_Concrete.png",
             "fluff": {
                 "entries": [
@@ -50076,7 +50076,7 @@
                 "stunned",
                 "unconscious"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem_Electronic.png",
             "fluff": {
                 "entries": [
@@ -50186,7 +50186,7 @@
                 "stunned",
                 "unconscious"
             ],
-            "cr": "2.0",
+            "cr": "2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem_Paper.png",
             "fluff": {
                 "entries": [
@@ -50291,7 +50291,7 @@
             "conditionImmune": [
                 "poisoned"
             ],
-            "cr": "5.0",
+            "cr": "5",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem_Waste.png",
             "fluff": {
                 "entries": [
@@ -50387,7 +50387,7 @@
                 "deafened",
                 "frightened"
             ],
-            "cr": "2.0",
+            "cr": "2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Gutter_Mouth.png",
             "fluff": {
                 "entries": [
@@ -50503,7 +50503,7 @@
                 "frightened",
                 "charmed"
             ],
-            "cr": "6.0",
+            "cr": "6",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hat_Man.png",
             "fluff": {
                 "entries": [
@@ -50600,7 +50600,7 @@
                 "blinded",
                 "frightened"
             ],
-            "cr": "0.5",
+            "cr": "1/2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hessdalen_Lights.png",
             "fluff": {
                 "entries": [
@@ -50705,7 +50705,7 @@
                 "blinded",
                 "frightened"
             ],
-            "cr": "13.0",
+            "cr": "13",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hole_Punch_Cloud.png",
             "fluff": {
                 "entries": [
@@ -50814,7 +50814,7 @@
                 "frightened",
                 "charmed"
             ],
-            "cr": "8.0",
+            "cr": "8",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_Eyed_Woman.png",
             "fluff": {
                 "entries": [
@@ -50908,7 +50908,7 @@
             "conditionImmune": [
                 "unconscious"
             ],
-            "cr": "1.0",
+            "cr": "1",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_File_Greater.png",
             "fluff": {
                 "entries": [
@@ -51005,7 +51005,7 @@
                 "blinded",
                 "frightened"
             ],
-            "cr": "0.5",
+            "cr": "1/2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_File_Lesser.png",
             "fluff": {
                 "entries": [
@@ -51118,7 +51118,7 @@
                 "stunned",
                 "unconscious"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_File_Swarm.png",
             "fluff": {
                 "entries": [
@@ -51221,7 +51221,7 @@
                 "frightened",
                 "incapacitated"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_Adult.png",
             "fluff": {
                 "entries": [
@@ -51324,7 +51324,7 @@
                 "frightened",
                 "incapacitated"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_Child.png",
             "fluff": {
                 "entries": [
@@ -51427,7 +51427,7 @@
                 "frightened",
                 "incapacitated"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_Elder.png",
             "fluff": {
                 "entries": [
@@ -51530,7 +51530,7 @@
                 "frightened",
                 "incapacitated"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_Infant.png",
             "fluff": {
                 "entries": [
@@ -51633,7 +51633,7 @@
                 "frightened",
                 "incapacitated"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_Teenager.png",
             "fluff": {
                 "entries": [
@@ -51742,7 +51742,7 @@
                 "charmed",
                 "frightened"
             ],
-            "cr": "5.0",
+            "cr": "5",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollowed_Celebrity.png",
             "fluff": {
                 "entries": [
@@ -51848,7 +51848,7 @@
                 "perception": "+7",
                 "sleight of hand": "+4"
             },
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Holy_Molly.png",
             "fluff": {
                 "entries": [
@@ -51951,7 +51951,7 @@
                 "frightened",
                 "poisoned"
             ],
-            "cr": "6.0",
+            "cr": "6",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hound_of_Dead_Barghest.png",
             "fluff": {
                 "entries": [
@@ -52053,7 +52053,7 @@
                 "frightened",
                 "charmed"
             ],
-            "cr": "5.0",
+            "cr": "5",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hound_of_Dead_Black_Shuck.png",
             "fluff": {
                 "entries": [
@@ -52154,7 +52154,7 @@
                 "frightened",
                 "poisoned"
             ],
-            "cr": "4.0",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hound_of_Dead_Cŵn_Annwn.png",
             "fluff": {
                 "entries": [
@@ -52255,7 +52255,7 @@
                 "frightened",
                 "poisoned"
             ],
-            "cr": "6.0",
+            "cr": "6",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hound_of_Dead_Gabriel_Hounds.png",
             "fluff": {
                 "entries": [
@@ -52358,7 +52358,7 @@
                 "frightened",
                 "poisoned"
             ],
-            "cr": "5.0",
+            "cr": "5",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hound_of_Dead_Moddey_Dhoo.png",
             "fluff": {
                 "entries": [
@@ -52447,7 +52447,7 @@
                 "frightened",
                 "invisible"
             ],
-            "cr": "0.125",
+            "cr": "1/8",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/House_Hippo.png",
             "fluff": {
                 "entries": [
@@ -52559,7 +52559,7 @@
                 "stunned",
                 "unconscious"
             ],
-            "cr": "7.0",
+            "cr": "7",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Howling_Tunnel_Denizen.png",
             "fluff": {
                 "entries": [
@@ -52660,7 +52660,7 @@
                 "frightened",
                 "grappled"
             ],
-            "cr": "5.0",
+            "cr": "5",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Inkwell_Maw.png",
             "fluff": {
                 "entries": [
@@ -52761,7 +52761,7 @@
             "conditionImmune": [
                 "none"
             ],
-            "cr": "4.0",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Kotojelen.png",
             "fluff": {
                 "entries": [
@@ -52862,7 +52862,7 @@
             "conditionImmune": [
                 "frightened"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Loab.png",
             "fluff": {
                 "entries": [
@@ -52925,7 +52925,7 @@
             "conditionImmune": [
                 "immune to frightened; causes compelled"
             ],
-            "cr": "2.0",
+            "cr": "2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Lockjaw_Boys.png",
             "fluff": {
                 "entries": [
@@ -52989,7 +52989,7 @@
                 "immune to grappled",
                 "restrained; causes under surveillance"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Lurking_Ward.png",
             "fluff": {
                 "entries": [
@@ -53097,7 +53097,7 @@
                 "charmed",
                 "frightened"
             ],
-            "cr": "4.0",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Mall_Cloud_Humanoid.png",
             "fluff": {
                 "entries": [
@@ -53160,7 +53160,7 @@
             "conditionImmune": [
                 "immune to poisoned; causes restrained"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Mannequin_Drone.png",
             "fluff": {
                 "entries": [
@@ -53223,7 +53223,7 @@
             "conditionImmune": [
                 "immune to frightened; causes unstable"
             ],
-            "cr": "2.0",
+            "cr": "2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Maw_in_the_Ceiling.png",
             "fluff": {
                 "entries": [
@@ -53328,7 +53328,7 @@
                 "stealth": "+5",
                 "perception": "+4"
             },
-            "cr": "2.0",
+            "cr": "2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Melonheads.png",
             "fluff": {
                 "entries": [
@@ -53444,7 +53444,7 @@
                 "grappled",
                 "restrained"
             ],
-            "cr": "18.0",
+            "cr": "18",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Metropolitan_Aggregated_Gridlock_Organism.png",
             "fluff": {
                 "entries": [
@@ -53507,7 +53507,7 @@
             "conditionImmune": [
                 "immune to poisoned; resistant to charmed"
             ],
-            "cr": "4.0",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Militia_Solder_Human.png",
             "fluff": {
                 "entries": [
@@ -53570,7 +53570,7 @@
             "conditionImmune": [
                 "immune to poisoned; resistant to charmed"
             ],
-            "cr": "4.0",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Militia_Solder_Korrak.png",
             "fluff": {
                 "entries": [
@@ -53633,7 +53633,7 @@
             "conditionImmune": [
                 "immune to poisoned; resistant to charmed"
             ],
-            "cr": "4.0",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Militia_Solder_Vorraki.png",
             "fluff": {
                 "entries": [
@@ -53696,7 +53696,7 @@
             "conditionImmune": [
                 "immune to exhaustion"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Miner_Delvani_Old.png",
             "fluff": {
                 "entries": [
@@ -53759,7 +53759,7 @@
             "conditionImmune": [
                 "immune to exhaustion"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Miner_Delvani_Young.png",
             "fluff": {
                 "entries": [
@@ -53822,7 +53822,7 @@
             "conditionImmune": [
                 "immune to charmed; causes under surveillance"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Mnemonic_Leech.png",
             "fluff": {
                 "entries": [
@@ -53914,7 +53914,7 @@
             "conditionImmune": [
                 "immune to frightened; causes compelled"
             ],
-            "cr": "5.0",
+            "cr": "5",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Mothman.png",
             "fluff": {
                 "entries": [
@@ -54018,7 +54018,7 @@
                 "frightened",
                 "poisoned"
             ],
-            "cr": "6.0",
+            "cr": "6",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Muru.png",
             "fluff": {
                 "entries": [
@@ -54081,7 +54081,7 @@
             "conditionImmune": [
                 "immune to blinded; causes delayed"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Neon_Lurker.png",
             "fluff": {
                 "entries": [
@@ -54173,7 +54173,7 @@
                 "immune to grappled",
                 "restrained; causes altered"
             ],
-            "cr": "1.0",
+            "cr": "1",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Nightcrawler.png",
             "fluff": {
                 "entries": [
@@ -54237,7 +54237,7 @@
                 "immune to poisoned",
                 "exhaustion; causes erased"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Nullifier.png",
             "fluff": {
                 "entries": [
@@ -54301,7 +54301,7 @@
                 "immune to prone",
                 "grappled"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ore_Vein_Aggressive.png",
             "fluff": {
                 "entries": [
@@ -54365,7 +54365,7 @@
                 "immune to prone",
                 "grappled"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ore_Vein_Depressive.png",
             "fluff": {
                 "entries": [
@@ -54429,7 +54429,7 @@
                 "immune to prone",
                 "grappled"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ore_Vein_Hungry.png",
             "fluff": {
                 "entries": [
@@ -54493,7 +54493,7 @@
                 "immune to prone",
                 "grappled"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ore_Vein_Seductive.png",
             "fluff": {
                 "entries": [
@@ -54554,7 +54554,7 @@
             "conditionImmune": [
                 "immune to poisoned; causes restrained"
             ],
-            "cr": "5.0",
+            "cr": "5",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pantry_Root_Horror.png",
             "fluff": {
                 "entries": [
@@ -54650,7 +54650,7 @@
                 "prone",
                 "unconscious"
             ],
-            "cr": "1.0",
+            "cr": "1",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Paper_Plane.png",
             "fluff": {
                 "entries": [
@@ -54715,7 +54715,7 @@
                 "restrained",
                 "prone; causes frightened"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Phantom_Manifest.png",
             "fluff": {
                 "entries": [
@@ -54778,7 +54778,7 @@
             "conditionImmune": [
                 "immune to charmed; causes altered"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pile_Office_Furniture.png",
             "fluff": {
                 "entries": [
@@ -54881,7 +54881,7 @@
                 "blinded",
                 "poisoned"
             ],
-            "cr": "7.0",
+            "cr": "7",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis_Angelfish.png",
             "fluff": {
                 "entries": [
@@ -54990,7 +54990,7 @@
                 "blinded",
                 "stunned"
             ],
-            "cr": "6.0",
+            "cr": "6",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis_Discuss.png",
             "fluff": {
                 "entries": [
@@ -55106,7 +55106,7 @@
             "conditionImmune": [
                 "charmed"
             ],
-            "cr": "6.0",
+            "cr": "6",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis_Goldie.png",
             "fluff": {
                 "entries": [
@@ -55209,7 +55209,7 @@
                 "blinded",
                 "poisoned"
             ],
-            "cr": "7.0",
+            "cr": "7",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis_Rainbowfish.png",
             "fluff": {
                 "entries": [
@@ -55312,7 +55312,7 @@
                 "blinded",
                 "poisoned"
             ],
-            "cr": "7.0",
+            "cr": "7",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis_Ram.png",
             "fluff": {
                 "entries": [
@@ -55415,7 +55415,7 @@
                 "blinded",
                 "poisoned"
             ],
-            "cr": "7.0",
+            "cr": "7",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Piscis_Red_Crowtail.png",
             "fluff": {
                 "entries": [
@@ -55478,7 +55478,7 @@
             "conditionImmune": [
                 "resistant to compelled"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter_Aestari.png",
             "fluff": {
                 "entries": [
@@ -55541,7 +55541,7 @@
             "conditionImmune": [
                 "resistant to compelled"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter_Aestari_Champion.png",
             "fluff": {
                 "entries": [
@@ -55604,7 +55604,7 @@
             "conditionImmune": [
                 "resistant to compelled"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter_Aestari_Recruit.png",
             "fluff": {
                 "entries": [
@@ -55667,7 +55667,7 @@
             "conditionImmune": [
                 "resistant to poisoned"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter_Delvani.png",
             "fluff": {
                 "entries": [
@@ -55730,7 +55730,7 @@
             "conditionImmune": [
                 "resistant to frightened"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter_Human.png",
             "fluff": {
                 "entries": [
@@ -55793,7 +55793,7 @@
             "conditionImmune": [
                 "resistant to unstable"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter_Vorraki.png",
             "fluff": {
                 "entries": [
@@ -55893,7 +55893,7 @@
                 "prone",
                 "restrained"
             ],
-            "cr": "1.0",
+            "cr": "1",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Plumbing_Blob.png",
             "fluff": {
                 "entries": [
@@ -56000,7 +56000,7 @@
                 "prone",
                 "restrained"
             ],
-            "cr": "4.0",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vorthirith_Cthithrzho.png",
             "fluff": {
                 "entries": [
@@ -56079,7 +56079,7 @@
             "conditionImmune": [
                 "immune to charmed; resistant to frightened"
             ],
-            "cr": "4.0",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pope_Lick_Monster.png",
             "fluff": {
                 "entries": [
@@ -56144,7 +56144,7 @@
                 "restrained",
                 "prone; causes frightened"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pylon_Phantom.png",
             "fluff": {
                 "entries": [
@@ -56224,7 +56224,7 @@
                 "immune to charmed",
                 "frightened; causes unstable"
             ],
-            "cr": "5.0",
+            "cr": "5",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Rake.png",
             "fluff": {
                 "entries": [
@@ -56303,7 +56303,7 @@
             "conditionImmune": [
                 "immune to poisoned; resistant to exhaustion"
             ],
-            "cr": "6.0",
+            "cr": "6",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Rat_King.png",
             "fluff": {
                 "entries": [
@@ -56366,7 +56366,7 @@
             "conditionImmune": [
                 "immune to charmed"
             ],
-            "cr": "4.0",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Rat-Dog.png",
             "fluff": {
                 "entries": [
@@ -56446,7 +56446,7 @@
             "conditionImmune": [
                 "immune to charmed; causes under surveillance"
             ],
-            "cr": "2.0",
+            "cr": "2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Red_Mask_Girl.png",
             "fluff": {
                 "entries": [
@@ -56525,7 +56525,7 @@
             "conditionImmune": [
                 "immune to blinded; causes delayed"
             ],
-            "cr": "5.0",
+            "cr": "5",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Red_Sky_Dawn.png",
             "fluff": {
                 "entries": [
@@ -56604,7 +56604,7 @@
             "conditionImmune": [
                 "resistant to compelled"
             ],
-            "cr": "5.0",
+            "cr": "5",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Redeemer.png",
             "fluff": {
                 "entries": [
@@ -56667,7 +56667,7 @@
             "conditionImmune": [
                 "resistant to compelled"
             ],
-            "cr": "2.0",
+            "cr": "2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Requisitioner.png",
             "fluff": {
                 "entries": [
@@ -56730,7 +56730,7 @@
             "conditionImmune": [
                 "immune to frightened; causes unstable"
             ],
-            "cr": "1.0",
+            "cr": "1",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Residuum_Hound.png",
             "fluff": {
                 "entries": [
@@ -56794,7 +56794,7 @@
                 "immune to grappled",
                 "restrained; causes under surveillance"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Rustling_Ledger.png",
             "fluff": {
                 "entries": [
@@ -56857,7 +56857,7 @@
             "conditionImmune": [
                 "immune to under surveillance"
             ],
-            "cr": "4.0",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sablemarche_Spy.png",
             "fluff": {
                 "entries": [
@@ -56921,7 +56921,7 @@
                 "immune to poisoned",
                 "exhaustion; resistant to frightened"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret_Flamethrower.png",
             "fluff": {
                 "entries": [
@@ -56985,7 +56985,7 @@
                 "immune to poisoned",
                 "exhaustion; resistant to frightened"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret_Laser.png",
             "fluff": {
                 "entries": [
@@ -57049,7 +57049,7 @@
                 "immune to poisoned",
                 "exhaustion; resistant to frightened"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret_Machinegun.png",
             "fluff": {
                 "entries": [
@@ -57113,7 +57113,7 @@
                 "immune to poisoned",
                 "exhaustion; resistant to frightened"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret_Missile.png",
             "fluff": {
                 "entries": [
@@ -57177,7 +57177,7 @@
                 "immune to poisoned",
                 "exhaustion; resistant to frightened"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret_Sonic.png",
             "fluff": {
                 "entries": [
@@ -57240,7 +57240,7 @@
             "conditionImmune": [
                 "immune to charmed; resistant to compelled"
             ],
-            "cr": "4.0",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Serevan_Millitant.png",
             "fluff": {
                 "entries": [
@@ -57303,7 +57303,7 @@
             "conditionImmune": [
                 "immune to poisoned; causes grappled"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sewer_Alligator_Mutated.png",
             "fluff": {
                 "entries": [
@@ -57366,7 +57366,7 @@
             "conditionImmune": [
                 "immune to poisoned; resistant to charmed"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sewer_Rat_Mutated.png",
             "fluff": {
                 "entries": [
@@ -57429,7 +57429,7 @@
             "conditionImmune": [
                 "immune to poisoned; causes unstable"
             ],
-            "cr": "4.0",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sewer_Swine.png",
             "fluff": {
                 "entries": [
@@ -57493,7 +57493,7 @@
                 "immune to poisoned",
                 "exhaustion; causes altered"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sewer_Thing.png",
             "fluff": {
                 "entries": [
@@ -57556,7 +57556,7 @@
             "conditionImmune": [
                 "immune to prone; resistant to compelled"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sewer_Turtle_Mutated.png",
             "fluff": {
                 "entries": [
@@ -57675,7 +57675,7 @@
                 "frightened",
                 "charmed"
             ],
-            "cr": "16.0",
+            "cr": "16",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Shadowking.png",
             "fluff": {
                 "entries": [
@@ -57739,7 +57739,7 @@
                 "immune to poisoned",
                 "exhaustion; resistant to restrained"
             ],
-            "cr": "2.0",
+            "cr": "2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Shrike_Frame.png",
             "fluff": {
                 "entries": [
@@ -57800,7 +57800,7 @@
             "conditionImmune": [
                 "immune to frightened; causes under surveillance"
             ],
-            "cr": "5.0",
+            "cr": "5",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sierraman.png",
             "fluff": {
                 "entries": [
@@ -57865,7 +57865,7 @@
                 "restrained",
                 "prone; causes frightened"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Signal_Revenant.png",
             "fluff": {
                 "entries": [
@@ -57944,7 +57944,7 @@
             "conditionImmune": [
                 "immune to charmed; causes compelled"
             ],
-            "cr": "5.0",
+            "cr": "5",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Skinwalker.png",
             "fluff": {
                 "entries": [
@@ -58024,7 +58024,7 @@
                 "immune to charmed",
                 "frightened; causes altered"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Smiling_Man.png",
             "fluff": {
                 "entries": [
@@ -58104,7 +58104,7 @@
             "conditionImmune": [
                 "immune to poisoned; causes grappled"
             ],
-            "cr": "6.0",
+            "cr": "6",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Snallygaster.png",
             "fluff": {
                 "entries": [
@@ -58165,7 +58165,7 @@
             "conditionImmune": [
                 "immune to charmed; resistant to compelled"
             ],
-            "cr": "5.0",
+            "cr": "5",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Solway_Firth_Spaceman.png",
             "fluff": {
                 "entries": [
@@ -58244,7 +58244,7 @@
             "conditionImmune": [
                 "immune to frightened; causes altered"
             ],
-            "cr": "4.0",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Something_Terrifying.png",
             "fluff": {
                 "entries": [
@@ -58352,7 +58352,7 @@
             "conditionImmune": [
                 "poisoned"
             ],
-            "cr": "6.0",
+            "cr": "6",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer_Capelobo.png",
             "fluff": {
                 "entries": [
@@ -58455,7 +58455,7 @@
                 "charmed",
                 "frightened"
             ],
-            "cr": "4.0",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer_El_Sombreron.png",
             "fluff": {
                 "entries": [
@@ -58553,7 +58553,7 @@
                 "stealth": "+10",
                 "deception": "+8"
             },
-            "cr": "9.0",
+            "cr": "9",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer_Jack.png",
             "fluff": {
                 "entries": [
@@ -58649,7 +58649,7 @@
             "conditionImmune": [
                 "frightened"
             ],
-            "cr": "8.0",
+            "cr": "8",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer_Jersey_Devil.png",
             "fluff": {
                 "entries": [
@@ -58749,7 +58749,7 @@
             "conditionImmune": [
                 "frightened"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer_Le_Loyon.png",
             "fluff": {
                 "entries": [
@@ -58850,7 +58850,7 @@
                 "immune to grappled",
                 "restrained; causes delayed"
             ],
-            "cr": "4.0",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer_Mad_Gasser.png",
             "fluff": {
                 "entries": [
@@ -58946,7 +58946,7 @@
             "conditionImmune": [
                 "poisoned"
             ],
-            "cr": "6.0",
+            "cr": "6",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer_Pérák.png",
             "fluff": {
                 "entries": [
@@ -59048,7 +59048,7 @@
             "conditionImmune": [
                 "charmed; frightened"
             ],
-            "cr": "9.0",
+            "cr": "9",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer_Tikbalang.png",
             "fluff": {
                 "entries": [
@@ -59151,7 +59151,7 @@
                 "stunned",
                 "unconscious"
             ],
-            "cr": "1.0",
+            "cr": "1",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Suffocating_Plastic_Bag.png",
             "fluff": {
                 "entries": [
@@ -59261,7 +59261,7 @@
                 "frightened",
                 "poisoned"
             ],
-            "cr": "8.0",
+            "cr": "8",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sumashi_Abura.png",
             "fluff": {
                 "entries": [
@@ -59371,7 +59371,7 @@
                 "paralyzed",
                 "poisoned"
             ],
-            "cr": "8.0",
+            "cr": "8",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sumashi_Kemuri.png",
             "fluff": {
                 "entries": [
@@ -59481,7 +59481,7 @@
                 "poisoned",
                 "frightened"
             ],
-            "cr": "7.0",
+            "cr": "7",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sumashi_Ki.png",
             "fluff": {
                 "entries": [
@@ -59588,7 +59588,7 @@
             "conditionImmune": [
                 "poisoned"
             ],
-            "cr": "6.0",
+            "cr": "6",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sumashi_Kusa.png",
             "fluff": {
                 "entries": [
@@ -59698,7 +59698,7 @@
                 "poisoned",
                 "frightened"
             ],
-            "cr": "8.0",
+            "cr": "8",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sumashi_Mizu.png",
             "fluff": {
                 "entries": [
@@ -59801,7 +59801,7 @@
                 "blinded",
                 "frightened"
             ],
-            "cr": "7.0",
+            "cr": "7",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sunken_Drifter.png",
             "fluff": {
                 "entries": [
@@ -59904,7 +59904,7 @@
                 "deafened",
                 "frightened"
             ],
-            "cr": "4.0",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Symphony_of_Echoes.png",
             "fluff": {
                 "entries": [
@@ -60010,7 +60010,7 @@
                 "charmed",
                 "frightened"
             ],
-            "cr": "9.0",
+            "cr": "9",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Synthetic_Vampire.png",
             "fluff": {
                 "entries": [
@@ -60116,7 +60116,7 @@
                 "charmed",
                 "frightened"
             ],
-            "cr": "9.0",
+            "cr": "9",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Synthetic_Vampire_Elite.png",
             "fluff": {
                 "entries": [
@@ -60222,7 +60222,7 @@
                 "charmed",
                 "frightened"
             ],
-            "cr": "9.0",
+            "cr": "9",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Synthetic_Vampire_Hunter.png",
             "fluff": {
                 "entries": [
@@ -60328,7 +60328,7 @@
                 "charmed",
                 "frightened"
             ],
-            "cr": "9.0",
+            "cr": "9",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Synthetic_Vampire_Lurker.png",
             "fluff": {
                 "entries": [
@@ -60434,7 +60434,7 @@
                 "charmed",
                 "frightened"
             ],
-            "cr": "9.0",
+            "cr": "9",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Synthetic_Vampire_Seducer.png",
             "fluff": {
                 "entries": [
@@ -60497,7 +60497,7 @@
             "conditionImmune": [
                 "immune to frightened; causes compelled"
             ],
-            "cr": "3.0",
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Tearskin_Beast.png",
             "fluff": {
                 "entries": [
@@ -60613,7 +60613,7 @@
                 "frightened",
                 "charmed"
             ],
-            "cr": "6.0",
+            "cr": "6",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Time_Traveling_Hipster.png",
             "fluff": {
                 "entries": [
@@ -60714,7 +60714,7 @@
                 "frightened",
                 "incapacitated"
             ],
-            "cr": "6.0",
+            "cr": "6",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Urban_Wraith.png",
             "fluff": {
                 "entries": [
@@ -60832,7 +60832,7 @@
                 "frightened",
                 "charmed"
             ],
-            "cr": "20.0",
+            "cr": "20",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vorthirith_Abhaaldrac.png",
             "fluff": {
                 "entries": [
@@ -60952,7 +60952,7 @@
                 "paralyzed",
                 "petrified"
             ],
-            "cr": "20.0",
+            "cr": "20",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vorthirith_Bhazquorith.png",
             "fluff": {
                 "entries": [
@@ -61070,7 +61070,7 @@
                 "frightened",
                 "paralyzed"
             ],
-            "cr": "20.0",
+            "cr": "20",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vorthirith_Cthithrzho.png",
             "fluff": {
                 "entries": [

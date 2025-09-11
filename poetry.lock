@@ -987,6 +987,18 @@ files = [
 ]
 
 [[package]]
+name = "fraction"
+version = "2.2.0"
+description = "Fraction carries out all the fraction operations including addition, subtraction, multiplication, division, reciprocation"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "Fraction-2.2.0-py3-none-any.whl", hash = "sha256:f1b7f02a03cdbf3552172174191352dbe6c9cabe0c0841a4956a49db0ce1554a"},
+    {file = "Fraction-2.2.0.tar.gz", hash = "sha256:2c1179f20c8b749622935fe04db1c7f2987f011f2376bdad84c2a39c8e3d0fdb"},
+]
+
+[[package]]
 name = "fsspec"
 version = "2025.3.2"
 description = "File-system specification"
@@ -4670,4 +4682,4 @@ test = ["pytest"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12"
-content-hash = "cb03de5368d86b310e9296d4d5a4903682beb59b1609f0d946884650d42c9c0b"
+content-hash = "c6d412e308bfc1827e7dae72c8b7afdc47faa17cd985f1c9ac046c9afb638912"
