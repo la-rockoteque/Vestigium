@@ -204,8 +204,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1757586785,
-        "_dateLastModifiedHash": "692e3ff3bd",
+        "dateLastModified": 1757589412,
+        "_dateLastModifiedHash": "a7e32ae3bb",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -45106,7 +45106,7 @@
             "size": [
                 "M"
             ],
-            "type": "humanoid",
+            "type": "fey",
             "alignment": [
                 "U"
             ],
@@ -45512,7 +45512,7 @@
             "size": [
                 "M"
             ],
-            "type": "aberration",
+            "type": "elemental",
             "alignment": [
                 "U"
             ],
@@ -46093,7 +46093,7 @@
             "size": [
                 "M"
             ],
-            "type": "aberration",
+            "type": "monstrosity",
             "alignment": [
                 "C"
             ],
@@ -61075,6 +61075,497 @@
             "fluff": {
                 "entries": [
                     "C’thithr’zho is doom made manifest, the harbinger of laments whose presence turns hope to silence. Vast as a planet and draped in endless shadow, he drifts through the void as a dirge given form, a living requiem that consumes both flesh and spirit.\n\nHe feasts upon life and blood, unmaking the strong and the frail alike, until only desolation remains. Where others devour for hunger or curiosity, C’thithr’zho consumes for the sake of despair itself. His essence is evil distilled to its most perfect state, a toxin in the fabric of creation, saturating the stars with sorrow and fear.\n\nHis coming is heralded not by fire or ruin, but by silence: songs falter, prayers go unanswered, and even memory begins to weep. To behold him is to feel inevitability’s weight, the crushing truth that nothing endures. Planets blacken beneath his shadow, their oceans turned to blood-red voids, their skies collapsing into endless mourning.\n\nC’thithr’zho does not rage, nor revel, nor question—he laments. Yet in that lament lies the certainty of annihilation, for he is the requiem of all things, and every star that shines is but a verse in the dirge he will one day complete."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Vorthirith%2C%20Cthithrzho.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Macro-virus, Complex",
+            "size": [
+                "M"
+            ],
+            "type": "aberration",
+            "alignment": [
+                "C"
+            ],
+            "ac": [
+                {
+                    "ac": 16,
+                    "from": [
+                        "variable"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 135,
+                "formula": "1 + 3"
+            },
+            "save": {
+                "dex": "+8",
+                "con": "+7"
+            },
+            "passive": 15,
+            "speed": {
+                "walk": 30
+            },
+            "str": 16,
+            "dex": 18,
+            "con": 16,
+            "int": 1,
+            "wis": 10,
+            "cha": 1,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Macro-virus makes two Syringe Stab attacks and one Claw Sweep attack.;"
+                    ]
+                },
+                {
+                    "name": "Syringe Stab",
+                    "entries": [
+                        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (2d8 + 4) piercing damage, and the target must make a DC 15 Constitution saving throw. On a failed save, it gains 1 Viral Load.;"
+                    ]
+                },
+                {
+                    "name": "Claw Sweep",
+                    "entries": [
+                        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 4) slashing damage. If the target has 2 or more Viral Load stacks, it has disadvantage on the saving throw to escape the grapple (DC 15).;"
+                    ]
+                },
+                {
+                    "name": "Genome Rewrite (Recharge 5-6)",
+                    "entries": [
+                        "The Macro-virus unleashes a wave of corrupted energy in a 15-foot cone. Each creature in that area must make a DC 16 Constitution saving throw, taking 36 (4d8) necrotic damage on a failed save, or half as much damage on a successful one. On a failed save, the target’s speed is reduced by 10 ft. and their spell save DC or attack rolls are reduced by 1 until the end of their next turn for each stack of Viral Load (minimum of -1, maximum of -3)."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Viral Load",
+                    "entries": [
+                        "When a creature is hit by the Macro-virus's natural attack or starts its turn in the virus’s Aerosol Aura (10 ft.), it must make a Constitution saving throw. On a failed save, it gains 1 Viral Load (maximum 3/4 by tier). Each stack reduces attack rolls and checks by 1, and at 3+ stacks, the target is poisoned and cannot regain HP until the end of its next turn. A successful save removes 1 stack at the end of the creature's turn. Magical disease cures remove all stacks.;"
+                    ]
+                },
+                {
+                    "name": "Wall/Ceiling Vault",
+                    "entries": [
+                        "The Macro-virus ignores opportunity attacks when moving from wall or ceiling to the floor."
+                    ]
+                }
+            ],
+            "skill": {
+                "athletics": "+7",
+                "stealth": "+8"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "poisoned",
+                "charmed",
+                "frightened"
+            ],
+            "cr": "8",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vorthirith_Cthithrzho.png",
+            "fluff": {
+                "entries": [
+                    "Towering on syringe-like legs, this spiderish monstrosity plunges needle-limbs into victims and walls alike. It drains vitality with precision, rewriting the very code of its prey as it hunts with terrifying speed."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Vorthirith%2C%20Cthithrzho.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Macro-virus, Icosahedral",
+            "size": [
+                "M"
+            ],
+            "type": "aberration",
+            "alignment": [
+                "C"
+            ],
+            "ac": [
+                {
+                    "ac": 12,
+                    "from": [
+                        "spiked shell"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 76,
+                "formula": "8 + 3"
+            },
+            "save": {
+                "con": "+3"
+            },
+            "passive": 12,
+            "speed": {
+                "walk": 30
+            },
+            "str": 12,
+            "dex": 15,
+            "con": 16,
+            "int": 1,
+            "wis": 5,
+            "cha": 1,
+            "action": [
+                {
+                    "name": "Puncture Charge",
+                    "entries": [
+                        "Melee Attack: +8 to hit, dealing 19 (3d8 + 6) piercing damage. On a hit, the target must succeed on a DC 12 Constitution saving throw or gain 1 stack of Viral Load. If the target is affected by this condition, the macro-virus can use Spike Burst as a bonus action on its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Viral Spike Assault",
+                    "entries": [
+                        "Melee Attack: +8 to hit, dealing 22 (3d10 + 6) piercing damage. This action can only be used on a creature that has 1 or more stacks of Viral Load.;"
+                    ]
+                },
+                {
+                    "name": "Rolling Charge",
+                    "entries": [
+                        "The macro-virus rolls forward in a 30 ft. line. Each creature in the line must make a DC 14 Dexterity saving throw, taking 18 (3d6 bludgeoning + 2d4 piercing) damage on a failed save and is knocked prone. On a success, a creature takes half damage and is not knocked prone. Creatures that fail the saving throw also gain 1 stack of Viral Load."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Aerosol Aura",
+                    "entries": [
+                        "The macro-virus emanates a 10-foot radius aura. Creatures that start their turn in this aura must make a DC 12 Constitution saving throw or gain 1 stack of Viral Load.;"
+                    ]
+                },
+                {
+                    "name": "Viral Load",
+                    "entries": [
+                        "A creature with 1 stack has disadvantage on attack rolls and checks. At 3 or more stacks, the creature is poisoned and cannot regain hit points until the end of its next turn. A successful save reduces the stacks by 1 at the end of the creature's turn."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+4"
+            },
+            "conditionImmune": [
+                "poisoned",
+                "charmed",
+                "frightened"
+            ],
+            "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vorthirith_Cthithrzho.png",
+            "fluff": {
+                "entries": [
+                    "A spiked geometric behemoth, its faceted shell rolls and smashes through obstacles like a living siege engine. Each impact showers the ground with fragments that bite into flesh and spread corruption."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Vorthirith%2C%20Cthithrzho.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Macro-virus, Helical",
+            "size": [
+                "M"
+            ],
+            "type": "aberration",
+            "alignment": [
+                "C"
+            ],
+            "ac": [
+                {
+                    "ac": 12,
+                    "from": [
+                        "Viral Aura effects"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 90,
+                "formula": "1 + 2"
+            },
+            "save": {
+                "dex": "+6",
+                "con": "+4"
+            },
+            "passive": 10,
+            "speed": {
+                "walk": 40
+            },
+            "str": 16,
+            "dex": 18,
+            "con": 14,
+            "int": 1,
+            "wis": 1,
+            "cha": 1,
+            "action": [
+                {
+                    "name": "Coiling Lash",
+                    "entries": [
+                        "Melee Attack: +6 to hit, dealing 21 (5d6 + 4) bludgeoning damage. On hit, the target must make a Strength saving throw (DC 13) or be grappled and restrained until it escapes.;"
+                    ]
+                },
+                {
+                    "name": "Whip-Around",
+                    "entries": [
+                        "The Macro-virus unleashes a sudden burst of viral energy in a 10-ft radius. Each creature in the area must make a Dexterity saving throw (DC 13). On a failure, a creature takes 14 (2d6 + 1) bludgeoning damage and gains 1 Viral Load. On a success, a creature takes half damage and doesn't gain Viral Load. Additionally, failed targets are pushed back 10 feet."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Viral Load",
+                    "entries": [
+                        "When a creature is hit by the virus’s natural attack or starts its turn in the virus’s Aerosol Aura (10 ft., DC 12), it must make a Constitution saving throw. On a failure, it gains 1 Viral Load (maximum of 3 or 4 depending on tier). Each stack reduces attack rolls and checks by 1, and at 3 stacks, the target is poisoned and cannot regain hit points until the end of its next turn. A successful save removes 1 stack at the end of the creature's turn. All magical disease cures remove all stacks.;"
+                    ]
+                },
+                {
+                    "name": "Coiling Lash",
+                    "entries": [
+                        "The Macro-virus can use its tendrils to grapple. If it successfully hits a target, the target must make a Strength saving throw (DC 13) or be grappled and restrained. The escape DC is also 13."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+8",
+                "acrobatics": "+6"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "poisoned",
+                "charmed",
+                "frightened"
+            ],
+            "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vorthirith_Cthithrzho.png",
+            "fluff": {
+                "entries": [
+                    "A colossal filament twisting like a living whip, its segmented body glistens as it lashes out to ensnare prey. Victims describe its coils tightening with crushing force, leaving them gasping as infection seeps in."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Vorthirith%2C%20Cthithrzho.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Macro-virus, Polyhedral",
+            "size": [
+                "M"
+            ],
+            "type": "aberration",
+            "alignment": [
+                "C"
+            ],
+            "ac": [
+                {
+                    "ac": 14,
+                    "from": [
+                        "variable"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 70,
+                "formula": "1 + 2"
+            },
+            "save": {
+                "dex": "+6",
+                "con": "+5"
+            },
+            "passive": 13,
+            "speed": {
+                "walk": 30
+            },
+            "str": 10,
+            "dex": 16,
+            "con": 15,
+            "int": 1,
+            "wis": 6,
+            "cha": 1,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Macro-virus makes three attacks with Viral Emission.;"
+                    ]
+                },
+                {
+                    "name": "Viral Emission",
+                    "entries": [
+                        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (2d12 + 5) necrotic damage. The target must succeed on a DC 12 Constitution saving throw or gain 1 Viral Load.;"
+                    ]
+                },
+                {
+                    "name": "Contamination Tiles",
+                    "entries": [
+                        "The Macro-virus seeds two 10-foot squares within 60 feet, each becoming slick biofilm. Creatures that start their turn in these squares must make a DC 15 Constitution saving throw. On a failed save, they gain 1 Viral Load and take 7 (1d6 + 1) necrotic damage. The area is considered difficult terrain for enemies.;"
+                    ]
+                },
+                {
+                    "name": "Bacterial Wave (Recharge 5-6)",
+                    "entries": [
+                        "The Macro-virus releases a wave of viral energy in a 20-foot radius centered on itself. Each creature in that area must make a DC 15 saving throw, taking 55 (10d10) necrotic damage on a failed save, or half as much damage on a successful one. In addition, affected targets gain 1 Viral Load."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Viral Load",
+                    "entries": [
+                        "When a creature is hit by the virus's natural attack or starts its turn in the Macro-virus's Aerosol Aura (10 ft., DC 12-15), it must make a Constitution saving throw. On a failed save, it gains 1 Viral Load (maximum of 3 or 4 based on tier). Each stack imposes a -1 penalty to attack rolls and checks, and at 3 or more stacks, the target is poisoned and cannot regain hit points until the end of its next turn. A successful save removes 1 stack at the end of the creature's turn.;"
+                    ]
+                },
+                {
+                    "name": "Fractal Split",
+                    "entries": [
+                        "When the Macro-virus is reduced to 60 hit points or fewer, it splits into two Polyhedral Shards, each with an armor class of 14 and hit points of 45. The shards have identical actions as the Macro-virus but cannot split further."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+6"
+            },
+            "conditionImmune": [
+                "poisoned",
+                "charmed",
+                "frightened"
+            ],
+            "cr": "6",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vorthirith_Cthithrzho.png",
+            "fluff": {
+                "entries": [
+                    "A many-faced, crystalline horror that fractures into shards when damaged. Each shard scuttles and reforms, turning the battlefield into a minefield of cutting edges and infectious zones."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Vorthirith%2C%20Cthithrzho.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Macro-virus, Envelope",
+            "size": [
+                "M"
+            ],
+            "type": "aberration",
+            "alignment": [
+                "C"
+            ],
+            "ac": [
+                {
+                    "ac": 19,
+                    "from": [
+                        "Lipid Sheath"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 73,
+                "formula": "7 + 5"
+            },
+            "save": {
+                "con": "+8",
+                "dex": "+4"
+            },
+            "passive": 15,
+            "speed": {
+                "walk": 30
+            },
+            "str": 14,
+            "dex": 12,
+            "con": 20,
+            "int": 1,
+            "wis": 10,
+            "cha": 1,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "Enveloped makes four attacks: three with its Sticky Appendage and one with its Viral Burst.;"
+                    ]
+                },
+                {
+                    "name": "Sticky Appendage",
+                    "entries": [
+                        "Melee Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage. The target must succeed on a DC 12 Constitution saving throw or gain 1 Viral Load.;"
+                    ]
+                },
+                {
+                    "name": "Viral Burst",
+                    "entries": [
+                        "Ranged Attack: +6 to hit, range 30 ft., one target. Hit: 13 (3d6 + 3) necrotic damage. The target must succeed on a DC 14 Constitution saving throw or gain 1 Viral Load.;"
+                    ]
+                },
+                {
+                    "name": "Infective Eruption",
+                    "entries": [
+                        "Enveloped releases a cloud of infectious spores in a 10-foot radius. Each creature in that area must make a DC 15 Constitution saving throw. On a failed save, a creature takes 30 (4d12 + 4) poison damage and gains 1 Viral Load. On a successful save, the creature takes half damage and does not gain Viral Load. This action recharges on a roll of 5 or 6 on a d6."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Lipid Sheath",
+                    "entries": [
+                        "Enveloped has resistance to bludgeoning, piercing, and slashing damage from non-magical weapons while it has temporary hit points.;"
+                    ]
+                },
+                {
+                    "name": "Viral Load",
+                    "entries": [
+                        "When a creature is hit by Enveloped's natural attack or starts its turn in its 10-ft Aerosol Aura, it must make a Constitution saving throw. On a failure, it gains 1 Viral Load (maximum 3 stacks). Each stack imposes a -1 penalty to attack rolls and checks, and at 3 or more stacks, the target is poisoned and cannot regain hit points until the end of its next turn."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+4"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "poisoned",
+                "charmed",
+                "frightened"
+            ],
+            "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vorthirith_Cthithrzho.png",
+            "fluff": {
+                "entries": [
+                    "A swollen sphere wrapped in a shifting, oily membrane, dripping with infectious residue. It mutates with each strike, budding off smaller replicas that swarm and overwhelm fleeing survivors."
                 ],
                 "images": [
                     {

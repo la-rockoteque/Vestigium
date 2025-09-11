@@ -1,6 +1,6 @@
 {
 	"Source": "",
-	"Type": "Medium, Aberration (Anomalous, Viral), chaotic",
+	"Type": "Medium Aberration (Virus), chaotic",
 	"HP": {
 		"Value": 135,
 		"Notes": "18d10 + 45"
@@ -12,7 +12,7 @@
 	"InitiativeModifier": 0,
 	"InitiativeAdvantage": false,
 	"Speed": [
-		"40 ft., climb 40 ft., ceiling-walk"
+		"40 ft., climb 40 ft."
 	],
 	"Abilities": {
 		"Str": 16,
