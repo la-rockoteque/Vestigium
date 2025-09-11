@@ -1,0 +1,93 @@
+{
+	"Source": "",
+	"Type": "Medium aberration, unaligned",
+	"HP": {
+		"Value": 13,
+		"Notes": "2d8 + 4"
+	},
+	"AC": {
+		"Value": 10,
+		"Notes": "Ethereal Drift"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"30 ft."
+	],
+	"Abilities": {
+		"Str": 8,
+		"Dex": 15,
+		"Con": 14,
+		"Int": 1,
+		"Wis": 12,
+		"Cha": 10
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Necrotic, Psychic, Thunder"
+	],
+	"DamageImmunities": [
+		"Poison"
+	],
+	"ConditionImmunities": [
+		"Charmed"
+	],
+	"Saves": [
+		{
+			"Name": "DEX",
+			"Modifier": 4
+		},
+		{
+			"Name": "WIS",
+			"Modifier": 3
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Stealth",
+			"Modifier": 6
+		}
+	],
+	"Senses": [
+		"Darkvision 60 ft."
+	],
+	"Languages": [
+		"Understands Common but cannot speak"
+	],
+	"Challenge": "4",
+	"Traits": [
+		{
+			"Name": "Ethereal Drift",
+			"Content": "The Nightcrawler can move through difficult terrain without hindrance and leaves no tracks behind."
+		},
+		{
+			"Name": "Aura of Awe",
+			"Content": "Creatures within 30 ft. of the Nightcrawler must make a DC 12 Wisdom saving throw or be charmed until the Nightcrawler leaves their vicinity."
+		},
+		{
+			"Name": "Harmless Presence",
+			"Content": "Animals and children remain calm and are unaffected by the Nightcrawler's presence."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Multiattack",
+			"Content": "The Nightcrawler makes two attacks: one with Leg Sweep and one with Eerie Touch."
+		},
+		{
+			"Name": "Leg Sweep",
+			"Content": "Melee Attack: +3 to hit, Action dealing 2 (1d4) bludgeoning damage. If the target fails a DC 11 Dexterity saving throw, they are knocked prone."
+		},
+		{
+			"Name": "Eerie Touch",
+			"Content": "Melee Attack: +3 to hit, Action dealing 4 (1d6 + 1) necrotic damage. If the target is hit, they must succeed on a DC 11 Constitution saving throw or take an extra 2 (1d4) necrotic damage at the start of their next turn."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

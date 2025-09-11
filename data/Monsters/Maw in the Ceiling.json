@@ -1,0 +1,98 @@
+{
+	"Source": "",
+	"Type": "Large monstrosity, unaligned",
+	"HP": {
+		"Value": 123,
+		"Notes": "13d10 + 52"
+	},
+	"AC": {
+		"Value": 19,
+		"Notes": "natural armor"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"0 ft., climb 30 ft."
+	],
+	"Abilities": {
+		"Str": 14,
+		"Dex": 18,
+		"Con": 18,
+		"Int": 1,
+		"Wis": 12,
+		"Cha": 14
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Acid, Fire, Psychic"
+	],
+	"DamageImmunities": [
+		"Poison, Bludgeoning, Slashing and Piercing from non-magical weapons"
+	],
+	"ConditionImmunities": [
+		"Blinded",
+		"Stunned"
+	],
+	"Saves": [
+		{
+			"Name": "DEX",
+			"Modifier": 8
+		},
+		{
+			"Name": "CON",
+			"Modifier": 8
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Deception",
+			"Modifier": 6
+		},
+		{
+			"Name": "Stealth",
+			"Modifier": 8
+		}
+	],
+	"Senses": [
+		"Darkvision 60 ft."
+	],
+	"Languages": [
+		"Undercommon"
+	],
+	"Challenge": "6",
+	"Traits": [
+		{
+			"Name": "Whispers of Deception",
+			"Content": "The Maw can mimic familiar voices to disorient and lure creatures beneath it. Creatures that can hear it and are within 30 feet must succeed on a DC 15 Wisdom saving throw or become distracted and have disadvantage on their next perception check to detect it."
+		},
+		{
+			"Name": "Lingering Darkness",
+			"Content": "The Maw is surrounded by a magical darkness that extends 10 feet from it in all directions. While within this darkness, it is considered invisible."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Multiattack",
+			"Content": "The Maw in the Ceiling makes three attacks, either with Bite or Devouring Gaze. It can replace one of those attacks with Luring Whisper."
+		},
+		{
+			"Name": "Bite",
+			"Content": "Melee Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage. The target must succeed on a DC 15 Constitution saving throw or have its speed reduced by 10 feet until the end of its next turn."
+		},
+		{
+			"Name": "Devouring Gaze",
+			"Content": "Ranged Attack: +6 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) psychic damage plus 4 (1d8) acid damage. The target must succeed on a DC 15 Wisdom saving throw or be frightened until the end of its next turn."
+		},
+		{
+			"Name": "Luring Whisper",
+			"Content": "Melee Attack: +6 to hit, reach 5 ft., one creature. Hit: 2 (1d4) psychic damage plus 9 (2d8) necrotic damage. The target must succeed on a DC 15 Wisdom saving throw or be incapacitated until the end of its next turn, drawn in by the whispers it hears."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

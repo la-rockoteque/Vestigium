@@ -1,0 +1,85 @@
+{
+	"Source": "",
+	"Type": "Large aberration (elemental/geological), unaligned",
+	"HP": {
+		"Value": 65,
+		"Notes": "10d8 + 20"
+	},
+	"AC": {
+		"Value": 12,
+		"Notes": "hardened crystal"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"0 ft. (anchored)"
+	],
+	"Abilities": {
+		"Str": 16,
+		"Dex": 8,
+		"Con": 14,
+		"Int": 1,
+		"Wis": 10,
+		"Cha": 1
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [],
+	"DamageImmunities": [],
+	"ConditionImmunities": [
+		"Prone",
+		"Poisoned"
+	],
+	"Saves": [
+		{
+			"Name": "CON",
+			"Modifier": 4
+		},
+		{
+			"Name": "STR",
+			"Modifier": 3
+		}
+	],
+	"Skills": [],
+	"Senses": [
+		"Tremorsense 60 ft."
+	],
+	"Languages": [
+		"—"
+	],
+	"Challenge": "4",
+	"Traits": [
+		{
+			"Name": "Gnashing Maw",
+			"Content": "Can attempt a grapple against a creature within 10 ft.; grappled targets take 2d10 piercing damage and 2d10 acid damage at the start of each of their turns."
+		},
+		{
+			"Name": "Consume Metal",
+			"Content": "When a nonmagical metal weapon or piece of armor strikes it, the wielder must make a Constitution saving throw (DC 14) or the item becomes corroded, decreasing its AC or damage by 1 permanently."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Multiattack",
+			"Content": "The Ore Vein, Hungry makes three attacks: two with its Crystal Lash and one with Shatter Pulse."
+		},
+		{
+			"Name": "Crystal Lash",
+			"Content": "Melee Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (2d6 + 7) piercing damage."
+		},
+		{
+			"Name": "Shatter Pulse",
+			"Content": "Recharge 5–6: The Ore Vein emits a crack of crystal energy. All creatures within 15 ft. must make a Constitution saving throw (DC 13) or take 9 (2d8) thunder damage and be deafened until the end of its next turn."
+		},
+		{
+			"Name": "Devour Essence",
+			"Content": "A devastating attack that targets a creature within 10 ft. The target must make a Constitution saving throw (DC 14) or take 30 (4d12 + 4) acid damage. On a failed save, the target is also blinded until the end of its next turn. This attack can be used once per long rest."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

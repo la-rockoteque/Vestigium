@@ -1,0 +1,114 @@
+{
+	"Source": "",
+	"Type": "Medium construct, unaligned",
+	"HP": {
+		"Value": 22,
+		"Notes": "5d6 + 3"
+	},
+	"AC": {
+		"Value": 11,
+		"Notes": "density modulation"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"30 ft., fly 30 ft. (hover)"
+	],
+	"Abilities": {
+		"Str": 14,
+		"Dex": 12,
+		"Con": 16,
+		"Int": 3,
+		"Wis": 10,
+		"Cha": 1
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Psychic, Force, Radiant, Bludgeoning, Slashing, and Piercing from non-magical weapons"
+	],
+	"DamageImmunities": [
+		"Poison, Psychic"
+	],
+	"ConditionImmunities": [
+		"Charmed",
+		"Frightened"
+	],
+	"Saves": [
+		{
+			"Name": "CON",
+			"Modifier": 5
+		},
+		{
+			"Name": "WIS",
+			"Modifier": 2
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Stealth",
+			"Modifier": 3
+		}
+	],
+	"Senses": [
+		"Darkvision 60 ft."
+	],
+	"Languages": [
+		"Understands Common but can't speak"
+	],
+	"Challenge": "2",
+	"Traits": [
+		{
+			"Name": "Null Field",
+			"Content": "Creates an aura with a 10 ft. radius that suppresses spells, psionics, and supernatural abilities, rendering magical effects unusable within its range."
+		},
+		{
+			"Name": "Adaptive Shielding",
+			"Content": "When taking damage from spells or magical effects, the Nullifier gains resistance to that damage type until the start of its next turn."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Disruption Beam",
+			"Content": "Ranged Spell Attack: +9 to hit, range 60/120 ft. On hit: 27 (3d10) radiant damage and the target gains the Suppressed condition until the end of its next turn, preventing the use of reactions or bonus actions fueled by supernatural power."
+		},
+		{
+			"Name": "Overload Pulse",
+			"Content": "Burst Attack: The Nullifier emits a destructive wave in a 30-ft. radius as an action. Each creature in that area must make a DC 18 Constitution saving throw. On a failure, they take 40 (4d10) force damage and are stunned until the end of their next turn. On a success, they take half damage and are not stunned."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"LegendaryActions": [
+		{
+			"Name": "Suppressive Step",
+			"Content": "Moves up to half speed without provoking."
+		},
+		{
+			"Name": "Lockdown Scan",
+			"Content": "One creature in 30 ft. must succeed Wis save DC 18 or have its speed halved and attacks at disadvantage until start of its next turn."
+		},
+		{
+			"Name": "Overclock Pulse (Costs 2)",
+			"Content": "Triggers Null Field surge: all creatures in aura must succeed Con save DC 18 or gain 1 level of exhaustion until the end of combat (suppression fatigue)."
+		}
+	],
+	"LairActions": [
+		{
+			"Name": "Static Flood",
+			"Content": "All comms/magic sending fails"
+		},
+		{
+			"Name": "Power Drain",
+			"Content": "A random magical item in the area goes inert until the next round."
+		},
+		{
+			"Name": "Resonance Collapse",
+			"Content": "Suppression field expands another 20 ft. until end of round"
+		}
+	],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

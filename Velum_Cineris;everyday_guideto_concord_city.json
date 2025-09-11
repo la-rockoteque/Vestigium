@@ -204,8 +204,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1757589648,
-        "_dateLastModifiedHash": "9b8d51f3ad",
+        "dateLastModified": 1757592996,
+        "_dateLastModifiedHash": "ed684d5cf3",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -47864,7 +47864,7 @@
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Drone_Assault.png",
             "fluff": {
                 "entries": [
-                    "Flying mechanical spies or combat units, often deployed in urban zones."
+                    "Built for overwhelming force, the Assault Drone is a compact war platform bristling with integrated weapons. Heavy plating and short-burst thrusters let it punch through cover, unleashing suppressive fire and concussion rounds at close range. Its programming favors aggression over precision — the longer it engages, the more destructive its volleys become, as if it learns from each ricochet."
                 ],
                 "images": [
                     {
@@ -47978,7 +47978,7 @@
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Drone_Security.png",
             "fluff": {
                 "entries": [
-                    "Flying mechanical spies or combat units, often deployed in urban zones."
+                    "A blunt instrument of enforcement, the Security Drone patrols with a slow, deliberate presence. Boxy and reinforced, it carries non-lethal restraint systems alongside shock batons and tear-gas dispersers. In practice, “non-lethal” is a guideline, not a guarantee: intruders often leave broken, scorched, or unconscious. Its flashing signal lights double as intimidation, bathing hallways in a stuttering red glow."
                 ],
                 "images": [
                     {
@@ -48069,7 +48069,7 @@
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Drone_Surveillance.png",
             "fluff": {
                 "entries": [
-                    "Flying mechanical spies or combat units, often deployed in urban zones."
+                    "Lightweight and quiet, the Surveillance Drone is a floating lens array wrapped in a skeletal frame. It records continuously, tagging movement with predictive algorithms and relaying data to unseen overseers. Victims report feeling watched long before they hear the faint whine of its rotors. Alone, it rarely engages — but its presence almost always means reinforcements are on the way."
                 ],
                 "images": [
                     {
@@ -48160,7 +48160,7 @@
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Drone_Traffic.png",
             "fluff": {
                 "entries": [
-                    "Blip"
+                    "Ostensibly mundane, the Traffic Drone manages the flow of vehicles and pedestrians, hovering over intersections like metallic sentinels. Its glowing indicators and piercing sirens enforce order, while retractable arms issue fines, tags, or physical restraints when needed. Most ignore them as background infrastructure — until they shift from directing traffic to immobilizing a target, their docile hum replaced by the shriek of alarms and restraint clamps snapping shut."
                 ],
                 "images": [
                     {
@@ -52887,45 +52887,77 @@
             ],
             "type": "humanoid",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
-                    "ac": 12.0,
+                    "ac": 11.0,
                     "from": [
                         "natural armor"
                     ]
                 }
             ],
             "hp": {
-                "average": 16.0,
-                "formula": "2d15 + 0.0"
+                "average": 78.0,
+                "formula": "1 + 2.0"
             },
             "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+55"
+                "str": "+5",
+                "con": "+4"
             },
-            "passive": 10.0,
+            "passive": 15.0,
             "speed": {
                 "walk": 30
             },
-            "str": 10.0,
-            "dex": 10.0,
-            "con": 10.0,
-            "int": 10.0,
+            "str": 16.0,
+            "dex": 14.0,
+            "con": 14.0,
+            "int": 1.0,
             "wis": 10.0,
-            "cha": 10.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Brutal Assault",
+                    "entries": [
+                        "The Lockjaw Boys make two attacks: a powerful slam with their fists and a forceful shoulder charge. The fist attack is +5 to hit, dealing 10 (2d6 + 3) bludgeoning damage. If the target is an enemy with lower than half its hit points, the shoulder charge adds an additional 7 (2d6) bludgeoning damage. The target must succeed on a DC 13 Strength saving throw or be knocked prone.;"
+                    ]
+                },
+                {
+                    "name": "Silent Smash",
+                    "entries": [
+                        "Melee Attack: +5 to hit, dealing 10 (2d6 + 3) bludgeoning damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw or become stunned until the end of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Fearsome Grapple",
+                    "entries": [
+                        "The Lockjaw Boys attempt to grapple a target with their powerful hands. If successful, they deal 15 (3d8 + 3) bludgeoning damage as they crush their target and hold them tight. The target must succeed on a DC 15 Dexterity saving throw or be rendered incapacitated until they escape the grapple."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Enhanced Strength",
+                    "entries": [
+                        "The Lockjaw Boys have an innate strength that grants them advantage on Strength checks and saving throws.;"
+                    ]
+                },
+                {
+                    "name": "Silent Communication",
+                    "entries": [
+                        "Despite their inability to speak, Lockjaw Boys can communicate effectively with each other and their masters through gestures and body language."
+                    ]
+                }
+            ],
             "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+50"
+                "athletics": "+5",
+                "intimidation": "+1"
             },
             "conditionImmune": [
-                "immune to frightened; causes compelled"
+                "charmed",
+                "frightened"
             ],
-            "cr": "2",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Lockjaw_Boys.png",
             "fluff": {
                 "entries": [
@@ -52946,50 +52978,96 @@
             "source": "EverydayGuidetoConcordCity",
             "name": "Lurking Ward",
             "size": [
-                "M"
+                "L"
             ],
-            "type": "aberration",
+            "type": "construct",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
-                    "ac": 12.0,
+                    "ac": 18.0,
                     "from": [
                         "natural armor"
                     ]
                 }
             ],
             "hp": {
-                "average": 24.0,
-                "formula": "2d23 + 0.0"
+                "average": 127.0,
+                "formula": "1 + 3.0"
             },
             "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+54"
+                "dex": "+6",
+                "con": "+6",
+                "wis": "+5",
+                "int": "+5"
             },
-            "passive": 10.0,
+            "passive": 17.0,
             "speed": {
                 "walk": 30
             },
-            "str": 10.0,
-            "dex": 10.0,
-            "con": 10.0,
-            "int": 10.0,
-            "wis": 10.0,
-            "cha": 10.0,
-            "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+49"
-            },
-            "conditionImmune": [
-                "immune to grappled",
-                "restrained; causes under surveillance"
+            "str": 14.0,
+            "dex": 16.0,
+            "con": 16.0,
+            "int": 12.0,
+            "wis": 14.0,
+            "cha": 11.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Lurking Ward makes three attacks: one with Tile Smash and two with Architectural Strike.;"
+                    ]
+                },
+                {
+                    "name": "Tile Smash",
+                    "entries": [
+                        "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 19 (2d10 + 4) bludgeoning damage. On a hit, the target must succeed on a DC 14 Strength saving throw or be knocked prone.;"
+                    ]
+                },
+                {
+                    "name": "Architectural Strike",
+                    "entries": [
+                        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) force damage. The target must succeed on a DC 14 Constitution saving throw or have disadvantage on its next attack roll.;"
+                    ]
+                },
+                {
+                    "name": "Structural Collapse (Recharge 5-6)",
+                    "entries": [
+                        "The Lurking Ward creates an effect in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 49 (11d8) force damage on a failed save, or half as much damage on a successful one. Creatures that fail the save are also knocked back 10 feet."
+                    ]
+                }
             ],
-            "cr": "3",
+            "trait": [
+                {
+                    "name": "Architectural Alteration",
+                    "entries": [
+                        "The Lurking Ward can manipulate its surroundings, altering architecture within a 30-foot radius to create walls and barriers temporarily. This ability does not require an action and can last for up to 1 hour.;"
+                    ]
+                },
+                {
+                    "name": "Invisible Enforcement",
+                    "entries": [
+                        "The presence of a Lurking Ward creates an invisible field that prevents creatures from passing through certain areas without permission, effectively blocking paths unless a successful Intelligence (Investigation) check DC 15 is made.;"
+                    ]
+                },
+                {
+                    "name": "Spellcasting",
+                    "entries": [
+                        "The Lurking Ward's innate ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells: At will: mage hand, minor illusion. 1/day each: hold person, unseen servant."
+                    ]
+                }
+            ],
+            "skill": {
+                "arcana": "+5",
+                "perception": "+5"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "blinded",
+                "frightened"
+            ],
+            "cr": "7",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Lurking_Ward.png",
             "fluff": {
                 "entries": [
@@ -53001,6 +53079,497 @@
                         "href": {
                             "type": "external",
                             "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Lurking%20Ward.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Macro-virus, Complex",
+            "size": [
+                "M"
+            ],
+            "type": "aberration",
+            "alignment": [
+                "C"
+            ],
+            "ac": [
+                {
+                    "ac": 16.0,
+                    "from": [
+                        "variable"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 135.0,
+                "formula": "1 + 3.0"
+            },
+            "save": {
+                "dex": "+8",
+                "con": "+7"
+            },
+            "passive": 15.0,
+            "speed": {
+                "walk": 40
+            },
+            "str": 16.0,
+            "dex": 18.0,
+            "con": 16.0,
+            "int": 1.0,
+            "wis": 10.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Macro-virus makes two Syringe Stab attacks and one Claw Sweep attack.;"
+                    ]
+                },
+                {
+                    "name": "Syringe Stab",
+                    "entries": [
+                        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (2d8 + 4) piercing damage, and the target must make a DC 15 Constitution saving throw. On a failed save, it gains 1 Viral Load.;"
+                    ]
+                },
+                {
+                    "name": "Claw Sweep",
+                    "entries": [
+                        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 4) slashing damage. If the target has 2 or more Viral Load stacks, it has disadvantage on the saving throw to escape the grapple (DC 15).;"
+                    ]
+                },
+                {
+                    "name": "Genome Rewrite (Recharge 5-6)",
+                    "entries": [
+                        "The Macro-virus unleashes a wave of corrupted energy in a 15-foot cone. Each creature in that area must make a DC 16 Constitution saving throw, taking 36 (4d8) necrotic damage on a failed save, or half as much damage on a successful one. On a failed save, the target’s speed is reduced by 10 ft. and their spell save DC or attack rolls are reduced by 1 until the end of their next turn for each stack of Viral Load (minimum of -1, maximum of -3)."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Viral Load",
+                    "entries": [
+                        "When a creature is hit by the Macro-virus's natural attack or starts its turn in the virus’s Aerosol Aura (10 ft.), it must make a Constitution saving throw. On a failed save, it gains 1 Viral Load (maximum 3/4 by tier). Each stack reduces attack rolls and checks by 1, and at 3+ stacks, the target is poisoned and cannot regain HP until the end of its next turn. A successful save removes 1 stack at the end of the creature's turn. Magical disease cures remove all stacks.;"
+                    ]
+                },
+                {
+                    "name": "Wall/Ceiling Vault",
+                    "entries": [
+                        "The Macro-virus ignores opportunity attacks when moving from wall or ceiling to the floor."
+                    ]
+                }
+            ],
+            "skill": {
+                "athletics": "+7",
+                "stealth": "+8"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "poisoned",
+                "charmed",
+                "frightened"
+            ],
+            "cr": "8",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Macro-virus_Complex.png",
+            "fluff": {
+                "entries": [
+                    "Towering on syringe-like legs, this spiderish monstrosity plunges needle-limbs into victims and walls alike. It drains vitality with precision, rewriting the very code of its prey as it hunts with terrifying speed."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Macro-virus%2C%20Complex.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Macro-virus, Envelope",
+            "size": [
+                "M"
+            ],
+            "type": "aberration",
+            "alignment": [
+                "C"
+            ],
+            "ac": [
+                {
+                    "ac": 19.0,
+                    "from": [
+                        "Lipid Sheath"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 73.0,
+                "formula": "7 + 5.0"
+            },
+            "save": {
+                "con": "+8",
+                "dex": "+4"
+            },
+            "passive": 15.0,
+            "speed": {
+                "walk": 30
+            },
+            "str": 14.0,
+            "dex": 12.0,
+            "con": 20.0,
+            "int": 1.0,
+            "wis": 10.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "Enveloped makes four attacks: three with its Sticky Appendage and one with its Viral Burst.;"
+                    ]
+                },
+                {
+                    "name": "Sticky Appendage",
+                    "entries": [
+                        "Melee Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage. The target must succeed on a DC 12 Constitution saving throw or gain 1 Viral Load.;"
+                    ]
+                },
+                {
+                    "name": "Viral Burst",
+                    "entries": [
+                        "Ranged Attack: +6 to hit, range 30 ft., one target. Hit: 13 (3d6 + 3) necrotic damage. The target must succeed on a DC 14 Constitution saving throw or gain 1 Viral Load.;"
+                    ]
+                },
+                {
+                    "name": "Infective Eruption",
+                    "entries": [
+                        "Enveloped releases a cloud of infectious spores in a 10-foot radius. Each creature in that area must make a DC 15 Constitution saving throw. On a failed save, a creature takes 30 (4d12 + 4) poison damage and gains 1 Viral Load. On a successful save, the creature takes half damage and does not gain Viral Load. This action recharges on a roll of 5 or 6 on a d6."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Lipid Sheath",
+                    "entries": [
+                        "Enveloped has resistance to bludgeoning, piercing, and slashing damage from non-magical weapons while it has temporary hit points.;"
+                    ]
+                },
+                {
+                    "name": "Viral Load",
+                    "entries": [
+                        "When a creature is hit by Enveloped's natural attack or starts its turn in its 10-ft Aerosol Aura, it must make a Constitution saving throw. On a failure, it gains 1 Viral Load (maximum 3 stacks). Each stack imposes a -1 penalty to attack rolls and checks, and at 3 or more stacks, the target is poisoned and cannot regain hit points until the end of its next turn."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+4"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "poisoned",
+                "charmed",
+                "frightened"
+            ],
+            "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Macro-virus_Envelope.png",
+            "fluff": {
+                "entries": [
+                    "A swollen sphere wrapped in a shifting, oily membrane, dripping with infectious residue. It mutates with each strike, budding off smaller replicas that swarm and overwhelm fleeing survivors."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Macro-virus%2C%20Envelope.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Macro-virus, Helical",
+            "size": [
+                "M"
+            ],
+            "type": "aberration",
+            "alignment": [
+                "C"
+            ],
+            "ac": [
+                {
+                    "ac": 12.0,
+                    "from": [
+                        "Viral Aura effects"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 90.0,
+                "formula": "1 + 2.0"
+            },
+            "save": {
+                "dex": "+6",
+                "con": "+4"
+            },
+            "passive": 10.0,
+            "speed": {
+                "walk": 40
+            },
+            "str": 16.0,
+            "dex": 18.0,
+            "con": 14.0,
+            "int": 1.0,
+            "wis": 1.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Coiling Lash",
+                    "entries": [
+                        "Melee Attack: +6 to hit, dealing 21 (5d6 + 4) bludgeoning damage. On hit, the target must make a Strength saving throw (DC 13) or be grappled and restrained until it escapes.;"
+                    ]
+                },
+                {
+                    "name": "Whip-Around",
+                    "entries": [
+                        "The Macro-virus unleashes a sudden burst of viral energy in a 10-ft radius. Each creature in the area must make a Dexterity saving throw (DC 13). On a failure, a creature takes 14 (2d6 + 1) bludgeoning damage and gains 1 Viral Load. On a success, a creature takes half damage and doesn't gain Viral Load. Additionally, failed targets are pushed back 10 feet."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Viral Load",
+                    "entries": [
+                        "When a creature is hit by the virus’s natural attack or starts its turn in the virus’s Aerosol Aura (10 ft., DC 12), it must make a Constitution saving throw. On a failure, it gains 1 Viral Load (maximum of 3 or 4 depending on tier). Each stack reduces attack rolls and checks by 1, and at 3 stacks, the target is poisoned and cannot regain hit points until the end of its next turn. A successful save removes 1 stack at the end of the creature's turn. All magical disease cures remove all stacks.;"
+                    ]
+                },
+                {
+                    "name": "Coiling Lash",
+                    "entries": [
+                        "The Macro-virus can use its tendrils to grapple. If it successfully hits a target, the target must make a Strength saving throw (DC 13) or be grappled and restrained. The escape DC is also 13."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+8",
+                "acrobatics": "+6"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "poisoned",
+                "charmed",
+                "frightened"
+            ],
+            "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Macro-virus_Helical.png",
+            "fluff": {
+                "entries": [
+                    "A colossal filament twisting like a living whip, its segmented body glistens as it lashes out to ensnare prey. Victims describe its coils tightening with crushing force, leaving them gasping as infection seeps in."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Macro-virus%2C%20Helical.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Macro-virus, Icosahedral",
+            "size": [
+                "M"
+            ],
+            "type": "aberration",
+            "alignment": [
+                "C"
+            ],
+            "ac": [
+                {
+                    "ac": 12.0,
+                    "from": [
+                        "spiked shell"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 76.0,
+                "formula": "8 + 3.0"
+            },
+            "save": {
+                "con": "+3"
+            },
+            "passive": 12.0,
+            "speed": {
+                "walk": 30
+            },
+            "str": 12.0,
+            "dex": 15.0,
+            "con": 16.0,
+            "int": 1.0,
+            "wis": 5.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Puncture Charge",
+                    "entries": [
+                        "Melee Attack: +8 to hit, dealing 19 (3d8 + 6) piercing damage. On a hit, the target must succeed on a DC 12 Constitution saving throw or gain 1 stack of Viral Load. If the target is affected by this condition, the macro-virus can use Spike Burst as a bonus action on its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Viral Spike Assault",
+                    "entries": [
+                        "Melee Attack: +8 to hit, dealing 22 (3d10 + 6) piercing damage. This action can only be used on a creature that has 1 or more stacks of Viral Load.;"
+                    ]
+                },
+                {
+                    "name": "Rolling Charge",
+                    "entries": [
+                        "The macro-virus rolls forward in a 30 ft. line. Each creature in the line must make a DC 14 Dexterity saving throw, taking 18 (3d6 bludgeoning + 2d4 piercing) damage on a failed save and is knocked prone. On a success, a creature takes half damage and is not knocked prone. Creatures that fail the saving throw also gain 1 stack of Viral Load."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Aerosol Aura",
+                    "entries": [
+                        "The macro-virus emanates a 10-foot radius aura. Creatures that start their turn in this aura must make a DC 12 Constitution saving throw or gain 1 stack of Viral Load.;"
+                    ]
+                },
+                {
+                    "name": "Viral Load",
+                    "entries": [
+                        "A creature with 1 stack has disadvantage on attack rolls and checks. At 3 or more stacks, the creature is poisoned and cannot regain hit points until the end of its next turn. A successful save reduces the stacks by 1 at the end of the creature's turn."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+4"
+            },
+            "conditionImmune": [
+                "poisoned",
+                "charmed",
+                "frightened"
+            ],
+            "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Macro-virus_Icosahedral.png",
+            "fluff": {
+                "entries": [
+                    "A spiked geometric behemoth, its faceted shell rolls and smashes through obstacles like a living siege engine. Each impact showers the ground with fragments that bite into flesh and spread corruption."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Macro-virus%2C%20Icosahedral.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Macro-virus, Polyhedral",
+            "size": [
+                "M"
+            ],
+            "type": "aberration",
+            "alignment": [
+                "C"
+            ],
+            "ac": [
+                {
+                    "ac": 14.0,
+                    "from": [
+                        "variable"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 70.0,
+                "formula": "1 + 2.0"
+            },
+            "save": {
+                "dex": "+6",
+                "con": "+5"
+            },
+            "passive": 13.0,
+            "speed": {
+                "walk": 30
+            },
+            "str": 10.0,
+            "dex": 16.0,
+            "con": 15.0,
+            "int": 1.0,
+            "wis": 6.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Macro-virus makes three attacks with Viral Emission.;"
+                    ]
+                },
+                {
+                    "name": "Viral Emission",
+                    "entries": [
+                        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (2d12 + 5) necrotic damage. The target must succeed on a DC 12 Constitution saving throw or gain 1 Viral Load.;"
+                    ]
+                },
+                {
+                    "name": "Contamination Tiles",
+                    "entries": [
+                        "The Macro-virus seeds two 10-foot squares within 60 feet, each becoming slick biofilm. Creatures that start their turn in these squares must make a DC 15 Constitution saving throw. On a failed save, they gain 1 Viral Load and take 7 (1d6 + 1) necrotic damage. The area is considered difficult terrain for enemies.;"
+                    ]
+                },
+                {
+                    "name": "Bacterial Wave (Recharge 5-6)",
+                    "entries": [
+                        "The Macro-virus releases a wave of viral energy in a 20-foot radius centered on itself. Each creature in that area must make a DC 15 saving throw, taking 55 (10d10) necrotic damage on a failed save, or half as much damage on a successful one. In addition, affected targets gain 1 Viral Load."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Viral Load",
+                    "entries": [
+                        "When a creature is hit by the virus's natural attack or starts its turn in the Macro-virus's Aerosol Aura (10 ft., DC 12-15), it must make a Constitution saving throw. On a failed save, it gains 1 Viral Load (maximum of 3 or 4 based on tier). Each stack imposes a -1 penalty to attack rolls and checks, and at 3 or more stacks, the target is poisoned and cannot regain hit points until the end of its next turn. A successful save removes 1 stack at the end of the creature's turn.;"
+                    ]
+                },
+                {
+                    "name": "Fractal Split",
+                    "entries": [
+                        "When the Macro-virus is reduced to 60 hit points or fewer, it splits into two Polyhedral Shards, each with an armor class of 14 and hit points of 45. The shards have identical actions as the Macro-virus but cannot split further."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+6"
+            },
+            "conditionImmune": [
+                "poisoned",
+                "charmed",
+                "frightened"
+            ],
+            "cr": "6",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Macro-virus_Polyhedral.png",
+            "fluff": {
+                "entries": [
+                    "A many-faced, crystalline horror that fractures into shards when damaged. Each shard scuttles and reforms, turning the battlefield into a minefield of cutting edges and infectious zones."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Macro-virus%2C%20Polyhedral.png"
                         }
                     }
                 ]
@@ -53122,7 +53691,7 @@
             ],
             "type": "construct",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -53133,34 +53702,82 @@
                 }
             ],
             "hp": {
-                "average": 64.0,
-                "formula": "2d63 + 0.0"
+                "average": 76.0,
+                "formula": "8 + 3.0"
             },
             "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+53"
+                "dex": "+5"
             },
-            "passive": 10.0,
+            "passive": 15.0,
             "speed": {
                 "walk": 30
             },
-            "str": 10.0,
-            "dex": 10.0,
-            "con": 10.0,
-            "int": 10.0,
+            "str": 12.0,
+            "dex": 16.0,
+            "con": 16.0,
+            "int": 1.0,
             "wis": 10.0,
-            "cha": 10.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Razor Sharp Strike",
+                    "entries": [
+                        "Melee Attack: +8 to hit, dealing 19 (3d8 + 6) slashing damage. If the target is hit, they must succeed on a DC 12 Constitution saving throw or become Bleeding, taking 5 (1d10) damage at the start of their next turn. If the target is affected by this condition, the Mannequin Drone can use Follow-Up Strike as a bonus action.;"
+                    ]
+                },
+                {
+                    "name": "Follow-Up Strike",
+                    "entries": [
+                        "Melee Attack: +8 to hit, dealing 22 (3d10 + 6) piercing damage. This action can only be used against a creature affected by the Bleeding condition.;"
+                    ]
+                },
+                {
+                    "name": "Illusory Assault",
+                    "entries": [
+                        "The Mannequin Drone merges with its surroundings and creates illusory duplicates of itself. It makes three melee attacks against a single target: +8 to hit, each dealing 10 (2d6 + 3) psychic damage. On a hit, the target must succeed on a DC 12 Wisdom saving throw or become Confused until the end of their next turn. This ability recharges on a roll of 5 or 6 on a d6.;"
+                    ]
+                },
+                {
+                    "name": "Silent Watcher",
+                    "entries": [
+                        "The Mannequin Drone charges up its sensors for a moment, gaining advantage on its next attack. If this attack hits, it deals an additional 15 (3d8) force damage and the target must succeed on a DC 12 Strength saving throw or be pushed 10 feet away. This ability can be used once per short rest."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Lifelike Appearance",
+                    "entries": [
+                        "The Mannequin Drone has advantage on Dexterity (Stealth) checks made to avoid detection.;"
+                    ]
+                },
+                {
+                    "name": "Adaptive Camouflage",
+                    "entries": [
+                        "The Mannequin Drone can blend into its surroundings, granting it a +2 bonus to AC against attacks made from creatures that cannot see it."
+                    ]
+                }
+            ],
             "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+48"
+                "stealth": "+5",
+                "perception": "+2"
             },
             "conditionImmune": [
-                "immune to poisoned; causes restrained"
+                "blinded",
+                "charmed",
+                "deafened",
+                "frightened",
+                "grappled",
+                "incapacitated",
+                "paralyzed",
+                "petrified",
+                "poisoned",
+                "prone",
+                "restrained",
+                "stunned",
+                "unconscious"
             ],
-            "cr": "3",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Mannequin_Drone.png",
             "fluff": {
                 "entries": [
@@ -53181,49 +53798,88 @@
             "source": "EverydayGuidetoConcordCity",
             "name": "Maw in the Ceiling",
             "size": [
-                "M"
+                "L"
             ],
-            "type": "aberration",
+            "type": "monstrosity",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
-                    "ac": 12.0,
+                    "ac": 19.0,
                     "from": [
                         "natural armor"
                     ]
                 }
             ],
             "hp": {
-                "average": 14.0,
-                "formula": "2d13 + 0.0"
+                "average": 123.0,
+                "formula": "1 + 4.0"
             },
             "save": {
                 "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+52"
+                "con": "+8"
             },
-            "passive": 10.0,
+            "passive": 16.0,
             "speed": {
-                "walk": 30
+                "walk": 0
             },
-            "str": 10.0,
-            "dex": 10.0,
-            "con": 10.0,
-            "int": 10.0,
-            "wis": 10.0,
-            "cha": 10.0,
-            "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+47"
-            },
-            "conditionImmune": [
-                "immune to frightened; causes unstable"
+            "str": 14.0,
+            "dex": 18.0,
+            "con": 18.0,
+            "int": 1.0,
+            "wis": 12.0,
+            "cha": 14.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Maw in the Ceiling makes three attacks, either with Bite or Devouring Gaze. It can replace one of those attacks with Luring Whisper.;"
+                    ]
+                },
+                {
+                    "name": "Bite",
+                    "entries": [
+                        "Melee Attack: +6 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage. The target must succeed on a DC 15 Constitution saving throw or have its speed reduced by 10 feet until the end of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Devouring Gaze",
+                    "entries": [
+                        "Ranged Attack: +6 to hit, range 150/600 ft., one target. Hit: 7 (1d8 + 3) psychic damage plus 4 (1d8) acid damage. The target must succeed on a DC 15 Wisdom saving throw or be frightened until the end of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Luring Whisper",
+                    "entries": [
+                        "Melee Attack: +6 to hit, reach 5 ft., one creature. Hit: 2 (1d4) psychic damage plus 9 (2d8) necrotic damage. The target must succeed on a DC 15 Wisdom saving throw or be incapacitated until the end of its next turn, drawn in by the whispers it hears."
+                    ]
+                }
             ],
-            "cr": "2",
+            "trait": [
+                {
+                    "name": "Whispers of Deception",
+                    "entries": [
+                        "The Maw can mimic familiar voices to disorient and lure creatures beneath it. Creatures that can hear it and are within 30 feet must succeed on a DC 15 Wisdom saving throw or become distracted and have disadvantage on their next perception check to detect it.;"
+                    ]
+                },
+                {
+                    "name": "Lingering Darkness",
+                    "entries": [
+                        "The Maw is surrounded by a magical darkness that extends 10 feet from it in all directions. While within this darkness, it is considered invisible."
+                    ]
+                }
+            ],
+            "skill": {
+                "deception": "+6",
+                "stealth": "+8"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "blinded",
+                "stunned"
+            ],
+            "cr": "6",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Maw_in_the_Ceiling.png",
             "fluff": {
                 "entries": [
@@ -53463,52 +54119,89 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Militia Solder, Human",
+            "name": "Militia Soldier, Human",
             "size": [
                 "M"
             ],
             "type": "humanoid",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
-                    "ac": 20.0,
+                    "ac": 14.0,
                     "from": [
-                        "natural armor"
+                        "chain mail"
                     ]
                 }
             ],
             "hp": {
-                "average": 36.0,
-                "formula": "2d35 + 1.0"
+                "average": 68.0,
+                "formula": "8 + 3.0"
             },
             "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+51"
+                "con": "+5",
+                "wis": "+3"
             },
-            "passive": 10.0,
+            "passive": 16.0,
             "speed": {
-                "walk": 0
+                "walk": 30
             },
-            "str": 12.0,
-            "dex": 12.0,
-            "con": 12.0,
-            "int": 12.0,
+            "str": 14.0,
+            "dex": 11.0,
+            "con": 16.0,
+            "int": 10.0,
             "wis": 12.0,
-            "cha": 12.0,
+            "cha": 9.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The militia soldier makes three attacks: one with Shield Bash and two with Bayonet Strike.;"
+                    ]
+                },
+                {
+                    "name": "Shield Bash",
+                    "entries": [
+                        "Melee Attack: +5 to hit, dealing 7 (1d8 + 3) bludgeoning damage and pushing the target 5 feet away if it is Medium or smaller.;"
+                    ]
+                },
+                {
+                    "name": "Bayonet Strike",
+                    "entries": [
+                        "Melee Attack: +5 to hit, dealing 6 (1d6 + 3) piercing damage. The target must succeed on a DC 13 Strength saving throw or be knocked prone.;"
+                    ]
+                },
+                {
+                    "name": "Close Quarters Combat",
+                    "entries": [
+                        "Melee Attack: +5 to hit, dealing 7 (1d8 + 3) slashing damage. On a hit, the target is considered to have disadvantage on their next attack roll against the militia soldier before the end of their next turn."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Tactical Formation",
+                    "entries": [
+                        "Militia Soldiers gain a +2 bonus to AC when within 5 feet of an ally.;"
+                    ]
+                },
+                {
+                    "name": "Disciplined",
+                    "entries": [
+                        "Militia Soldiers have advantage on saving throws against being frightened."
+                    ]
+                }
+            ],
             "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+46"
+                "athletics": "+4",
+                "perception": "+3"
             },
             "conditionImmune": [
                 "immune to poisoned; resistant to charmed"
             ],
-            "cr": "4",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Militia_Solder_Human.png",
+            "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Militia_Soldier_Human.png",
             "fluff": {
                 "entries": [
                     "Press‑ganged regulars in mismatched kit: city-issue jacket over farm boots, surplus helmets two owners old. They fight by whistle and hand‑signal, anchoring alleys with shields and stub carbines while a sergeant reads the street like a map. Not cruel by default, but pay, pride, or panic can turn a line of Solder into a stampede (Human contingent)."
@@ -53518,7 +54211,7 @@
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Militia%20Solder%2C%20Human.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Militia%20Soldier%2C%20Human.png"
                         }
                     }
                 ]
@@ -53526,52 +54219,89 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Militia Solder, Korrak",
+            "name": "Militia Soldier, Korrak",
             "size": [
                 "M"
             ],
             "type": "humanoid",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
-                    "ac": 20.0,
+                    "ac": 14.0,
                     "from": [
-                        "natural armor"
+                        "chain mail"
                     ]
                 }
             ],
             "hp": {
-                "average": 36.0,
-                "formula": "2d35 + 1.0"
+                "average": 68.0,
+                "formula": "8 + 3.0"
             },
             "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+50"
+                "con": "+5",
+                "wis": "+3"
             },
-            "passive": 10.0,
+            "passive": 16.0,
             "speed": {
-                "walk": 0
+                "walk": 30
             },
-            "str": 12.0,
-            "dex": 12.0,
-            "con": 12.0,
-            "int": 12.0,
+            "str": 14.0,
+            "dex": 11.0,
+            "con": 16.0,
+            "int": 10.0,
             "wis": 12.0,
-            "cha": 12.0,
+            "cha": 9.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The militia soldier makes three attacks: one with Shield Bash and two with Bayonet Strike.;"
+                    ]
+                },
+                {
+                    "name": "Shield Bash",
+                    "entries": [
+                        "Melee Attack: +5 to hit, dealing 7 (1d8 + 3) bludgeoning damage and pushing the target 5 feet away if it is Medium or smaller.;"
+                    ]
+                },
+                {
+                    "name": "Bayonet Strike",
+                    "entries": [
+                        "Melee Attack: +5 to hit, dealing 6 (1d6 + 3) piercing damage. The target must succeed on a DC 13 Strength saving throw or be knocked prone.;"
+                    ]
+                },
+                {
+                    "name": "Close Quarters Combat",
+                    "entries": [
+                        "Melee Attack: +5 to hit, dealing 7 (1d8 + 3) slashing damage. On a hit, the target is considered to have disadvantage on their next attack roll against the militia soldier before the end of their next turn."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Tactical Formation",
+                    "entries": [
+                        "Militia Soldiers gain a +2 bonus to AC when within 5 feet of an ally.;"
+                    ]
+                },
+                {
+                    "name": "Disciplined",
+                    "entries": [
+                        "Militia Soldiers have advantage on saving throws against being frightened."
+                    ]
+                }
+            ],
             "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+45"
+                "athletics": "+4",
+                "perception": "+3"
             },
             "conditionImmune": [
                 "immune to poisoned; resistant to charmed"
             ],
-            "cr": "4",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Militia_Solder_Korrak.png",
+            "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Militia_Soldier_Korrak.png",
             "fluff": {
                 "entries": [
                     "Press‑ganged regulars in mismatched kit: city-issue jacket over farm boots, surplus helmets two owners old. They fight by whistle and hand‑signal, anchoring alleys with shields and stub carbines while a sergeant reads the street like a map. Not cruel by default, but pay, pride, or panic can turn a line of Solder into a stampede (Korrak contingent)."
@@ -53581,7 +54311,7 @@
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Militia%20Solder%2C%20Korrak.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Militia%20Soldier%2C%20Korrak.png"
                         }
                     }
                 ]
@@ -53589,52 +54319,89 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Militia Solder, Vorraki",
+            "name": "Militia Soldier, Vorraki",
             "size": [
                 "M"
             ],
             "type": "humanoid",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
-                    "ac": 20.0,
+                    "ac": 14.0,
                     "from": [
-                        "natural armor"
+                        "chain mail"
                     ]
                 }
             ],
             "hp": {
-                "average": 36.0,
-                "formula": "2d35 + 1.0"
+                "average": 68.0,
+                "formula": "8 + 3.0"
             },
             "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+49"
+                "con": "+5",
+                "wis": "+3"
             },
-            "passive": 10.0,
+            "passive": 16.0,
             "speed": {
-                "walk": 0
+                "walk": 30
             },
-            "str": 12.0,
-            "dex": 12.0,
-            "con": 12.0,
-            "int": 12.0,
+            "str": 14.0,
+            "dex": 11.0,
+            "con": 16.0,
+            "int": 10.0,
             "wis": 12.0,
-            "cha": 12.0,
+            "cha": 9.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The militia soldier makes three attacks: one with Shield Bash and two with Bayonet Strike.;"
+                    ]
+                },
+                {
+                    "name": "Shield Bash",
+                    "entries": [
+                        "Melee Attack: +5 to hit, dealing 7 (1d8 + 3) bludgeoning damage and pushing the target 5 feet away if it is Medium or smaller.;"
+                    ]
+                },
+                {
+                    "name": "Bayonet Strike",
+                    "entries": [
+                        "Melee Attack: +5 to hit, dealing 6 (1d6 + 3) piercing damage. The target must succeed on a DC 13 Strength saving throw or be knocked prone.;"
+                    ]
+                },
+                {
+                    "name": "Close Quarters Combat",
+                    "entries": [
+                        "Melee Attack: +5 to hit, dealing 7 (1d8 + 3) slashing damage. On a hit, the target is considered to have disadvantage on their next attack roll against the militia soldier before the end of their next turn."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Tactical Formation",
+                    "entries": [
+                        "Militia Soldiers gain a +2 bonus to AC when within 5 feet of an ally.;"
+                    ]
+                },
+                {
+                    "name": "Disciplined",
+                    "entries": [
+                        "Militia Soldiers have advantage on saving throws against being frightened."
+                    ]
+                }
+            ],
             "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+44"
+                "athletics": "+4",
+                "perception": "+3"
             },
             "conditionImmune": [
                 "immune to poisoned; resistant to charmed"
             ],
-            "cr": "4",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Militia_Solder_Vorraki.png",
+            "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Militia_Soldier_Vorraki.png",
             "fluff": {
                 "entries": [
                     "Press‑ganged regulars in mismatched kit: city-issue jacket over farm boots, surplus helmets two owners old. They fight by whistle and hand‑signal, anchoring alleys with shields and stub carbines while a sergeant reads the street like a map. Not cruel by default, but pay, pride, or panic can turn a line of Solder into a stampede (Vorraki contingent)."
@@ -53644,7 +54411,7 @@
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Militia%20Solder%2C%20Vorraki.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Militia%20Soldier%2C%20Vorraki.png"
                         }
                     }
                 ]
@@ -53652,52 +54419,73 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Miner, Delvani, Old",
+            "name": "Delvani Miner, Old",
             "size": [
                 "M"
             ],
             "type": "humanoid",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
-                    "ac": 12.0,
+                    "ac": 11.0,
                     "from": [
                         "natural armor"
                     ]
                 }
             ],
             "hp": {
-                "average": 40.0,
-                "formula": "2d39 + 0.0"
+                "average": 39.0,
+                "formula": "6 + 2.0"
             },
             "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+48"
+                "con": "+4"
             },
-            "passive": 10.0,
+            "passive": 15.0,
             "speed": {
                 "walk": 30
             },
-            "str": 10.0,
-            "dex": 10.0,
-            "con": 10.0,
+            "str": 14.0,
+            "dex": 12.0,
+            "con": 14.0,
             "int": 10.0,
-            "wis": 10.0,
-            "cha": 10.0,
-            "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+43"
-            },
-            "conditionImmune": [
-                "immune to exhaustion"
+            "wis": 11.0,
+            "cha": 9.0,
+            "action": [
+                {
+                    "name": "Pickaxe Strike",
+                    "entries": [
+                        "Melee Attack: +4 to hit, dealing 7 (1d10 + 2) slashing damage and 5 (1d10) bludgeoning damage. The target must succeed on a DC 12 Strength saving throw or be knocked prone, and cannot be targeted by this action again until the condition ends.;"
+                    ]
+                },
+                {
+                    "name": "Crushing Blow",
+                    "entries": [
+                        "Special Attack: The creature uses Pickaxe Strike against a target it has previously knocked prone. If it hits, the target takes 10 (3d6) bludgeoning damage at the start of each of the creature's turns. The creature can only have one target affected by Crushing Blow at a time. If the creature is removed from combat, the target can escape the condition."
+                    ]
+                }
             ],
-            "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Miner_Delvani_Old.png",
+            "trait": [
+                {
+                    "name": "Tunnel Adaptation",
+                    "entries": [
+                        "Advantage on checks made to navigate underground tunnels.;"
+                    ]
+                },
+                {
+                    "name": "Miner's Resilience",
+                    "entries": [
+                        "When taking damage from non-magical sources, subtract 1 from the damage taken."
+                    ]
+                }
+            ],
+            "skill": {
+                "survival": "+4",
+                "stealth": "+3"
+            },
+            "cr": "1",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Delvani_Miner_Old.png",
             "fluff": {
                 "entries": [
                     "A hardworking miner, often forced into labor in the deep tunnels."
@@ -53707,7 +54495,7 @@
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Miner%2C%20Delvani%2C%20Old.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Delvani%20Miner%2C%20Old.png"
                         }
                     }
                 ]
@@ -53715,52 +54503,73 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Miner, Delvani, Young",
+            "name": "Delvani Miner, Young",
             "size": [
                 "M"
             ],
             "type": "humanoid",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
-                    "ac": 12.0,
+                    "ac": 11.0,
                     "from": [
                         "natural armor"
                     ]
                 }
             ],
             "hp": {
-                "average": 40.0,
-                "formula": "2d39 + 0.0"
+                "average": 39.0,
+                "formula": "6 + 2.0"
             },
             "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+47"
+                "con": "+4"
             },
-            "passive": 10.0,
+            "passive": 15.0,
             "speed": {
                 "walk": 30
             },
-            "str": 10.0,
-            "dex": 10.0,
-            "con": 10.0,
+            "str": 14.0,
+            "dex": 12.0,
+            "con": 14.0,
             "int": 10.0,
-            "wis": 10.0,
-            "cha": 10.0,
-            "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+42"
-            },
-            "conditionImmune": [
-                "immune to exhaustion"
+            "wis": 11.0,
+            "cha": 9.0,
+            "action": [
+                {
+                    "name": "Pickaxe Strike",
+                    "entries": [
+                        "Melee Attack: +4 to hit, dealing 7 (1d10 + 2) slashing damage and 5 (1d10) bludgeoning damage. The target must succeed on a DC 12 Strength saving throw or be knocked prone, and cannot be targeted by this action again until the condition ends.;"
+                    ]
+                },
+                {
+                    "name": "Crushing Blow",
+                    "entries": [
+                        "Special Attack: The creature uses Pickaxe Strike against a target it has previously knocked prone. If it hits, the target takes 10 (3d6) bludgeoning damage at the start of each of the creature's turns. The creature can only have one target affected by Crushing Blow at a time. If the creature is removed from combat, the target can escape the condition."
+                    ]
+                }
             ],
-            "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Miner_Delvani_Young.png",
+            "trait": [
+                {
+                    "name": "Tunnel Adaptation",
+                    "entries": [
+                        "Advantage on checks made to navigate underground tunnels.;"
+                    ]
+                },
+                {
+                    "name": "Miner's Resilience",
+                    "entries": [
+                        "When taking damage from non-magical sources, subtract 1 from the damage taken."
+                    ]
+                }
+            ],
+            "skill": {
+                "survival": "+4",
+                "stealth": "+3"
+            },
+            "cr": "1",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Delvani_Miner_Young.png",
             "fluff": {
                 "entries": [
                     "A hardworking miner, often forced into labor in the deep tunnels."
@@ -53770,7 +54579,7 @@
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Miner%2C%20Delvani%2C%20Young.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Delvani%20Miner%2C%20Young.png"
                         }
                     }
                 ]
@@ -53784,7 +54593,7 @@
             ],
             "type": "aberration",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -53795,34 +54604,69 @@
                 }
             ],
             "hp": {
-                "average": 55.0,
-                "formula": "2d54 + 0.0"
+                "average": 85.0,
+                "formula": "1 + 3.0"
             },
             "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+46"
+                "dex": "+4",
+                "wis": "+3"
             },
-            "passive": 10.0,
+            "passive": 17.0,
             "speed": {
-                "walk": 30
+                "walk": 30,
+                "burrow": 20
             },
             "str": 10.0,
-            "dex": 10.0,
-            "con": 10.0,
+            "dex": 16.0,
+            "con": 16.0,
             "int": 10.0,
-            "wis": 10.0,
-            "cha": 10.0,
-            "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+41"
-            },
-            "conditionImmune": [
-                "immune to charmed; causes under surveillance"
+            "wis": 14.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Mnemonic Leech makes two attacks: one with Mind Siphon and one with Mind Probe.;"
+                    ]
+                },
+                {
+                    "name": "Mind Siphon",
+                    "entries": [
+                        "Melee Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) psychic damage, and the target must succeed on a DC 15 Intelligence saving throw or have disadvantage on the next attack roll it makes before the end of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Mind Probe",
+                    "entries": [
+                        "Melee Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) psychic damage, and the target must succeed on a DC 15 Wisdom saving throw or have its thoughts obscured until the end of its next turn, causing it to have disadvantage on all Intelligence checks.;"
+                    ]
+                },
+                {
+                    "name": "Memory Rewrite",
+                    "entries": [
+                        "The Mnemonic Leech forces a creature within 30 feet to make a Wisdom saving throw against its own spell save DC (DC 15). On a failure, the target forgets a significant memory and is incapacitated until the end of its next turn. This ability can be used again after the Mnemonic Leech successfully drains a memory with Memory Drain."
+                    ]
+                }
             ],
-            "cr": "3",
+            "trait": [
+                {
+                    "name": "Memory Drain",
+                    "entries": [
+                        "The Mnemonic Leech can sense the memories of creatures within 30 feet. It can force a target to make a Wisdom saving throw against its own spell save DC or lose a memory of the Leech's choice.;"
+                    ]
+                },
+                {
+                    "name": "Mind Burrow",
+                    "entries": [
+                        "When the Mnemonic Leech uses its burrow speed, it can move through creatures and objects as if they were difficult terrain. It takes 1d10 force damage if it ends its turn inside an object."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+5",
+                "insight": "+4"
+            },
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Mnemonic_Leech.png",
             "fluff": {
                 "entries": [
@@ -53847,78 +54691,87 @@
             ],
             "type": "monstrosity",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
-                    "ac": 17.0,
+                    "ac": 14.0,
                     "from": [
-                        "Carapace and wing"
+                        "natural armor"
                     ]
                 }
             ],
             "hp": {
-                "average": 72.0,
-                "formula": "13d10 + 2.0"
+                "average": 75.0,
+                "formula": "1 + 2.0"
             },
             "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+45"
+                "dex": "+7",
+                "wis": "+4"
             },
-            "passive": 13.0,
+            "passive": 16.0,
             "speed": {
-                "walk": 20,
+                "walk": 60,
                 "fly": 60
             },
             "str": 14.0,
             "dex": 18.0,
             "con": 14.0,
-            "int": 12.0,
-            "wis": 16.0,
-            "cha": 18.0,
+            "int": 2.0,
+            "wis": 12.0,
+            "cha": 16.0,
             "action": [
                 {
-                    "name": "Wing Buffet: Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 2d10 + 4 force damage and the target must succeed a DC 14 Strength save or be pushed 10 feet and knocked prone.",
+                    "name": "Multiattack",
                     "entries": [
-                        ""
+                        "The Mothman makes two Wing Buffet attacks and one Claw attack.;"
+                    ]
+                },
+                {
+                    "name": "Claw",
+                    "entries": [
+                        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage. The target must succeed on a DC 15 Wisdom saving throw or become frightened until the end of their next turn.;"
+                    ]
+                },
+                {
+                    "name": "Wing Buffet",
+                    "entries": [
+                        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) bludgeoning damage. The target must succeed on a DC 15 Strength saving throw or be pushed 10 feet away from the Mothman.;"
+                    ]
+                },
+                {
+                    "name": "Ominous Gaze",
+                    "entries": [
+                        "The Mothman targets one creature it can see within 60 feet. The target must succeed on a DC 15 Wisdom saving throw or be incapacitated until the end of its next turn, as it is overwhelmed by the terror of the Mothman's gaze."
                     ]
                 }
             ],
             "trait": [
                 {
-                    "name": "Omen Sense: The Mothman always knows when a major disaster will occur within 7 days and will linger nearby.",
+                    "name": "Ominous Presence",
                     "entries": [
-                        ""
+                        "Creatures that start their turn within 30 feet of the Mothman must succeed on a DC 13 Wisdom saving throw or become frightened until the start of their next turn.;"
                     ]
                 },
                 {
-                    "name": "Red-Eyed Terror: Any creature that starts its turn within 30 ft. and sees Mothman's glowing eyes must make a DC 15 Wisdom save or be frightened for 1 minute (repeat save at end of each turn).",
+                    "name": "Evasive Maneuvers",
                     "entries": [
-                        ""
-                    ]
-                },
-                {
-                    "name": "Silent Wings: The Mothman does not provoke opportunity attacks while flying and has advantage on Stealth checks at night.",
-                    "entries": [
-                        ""
+                        "The Mothman can take the Disengage action as a bonus action on its turn."
                     ]
                 }
             ],
             "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+40"
+                "perception": "+4",
+                "stealth": "+7"
             },
             "conditionImmune": [
                 "immune to frightened; causes compelled"
             ],
-            "cr": "5",
+            "cr": "6",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Mothman.png",
             "fluff": {
                 "entries": [
-                    "The Mothman is a winged, humanoid anomaly seen just before catastrophes. Its eyes glow with premonitory power, and it never speaks. Witnesses report psychic trauma, sleep disruption, and a sense of being watched long after the encounter."
+                    "A towering, winged figure said to appear before tragedy, the Mothman is both omen and anomaly. Its body is vaguely humanoid, cloaked in dark, matted plumage that swallows light. Most striking are its eyes — two burning red orbs that pierce the night and freeze witnesses in place with a mixture of dread and fascination.\n\nThose who encounter the creature describe it as silent save for the heavy rush of its wings. It does not always attack; often it only observes, perched on rooftops, bridges, or treelines, vanishing the moment it is pursued. Yet wherever it is sighted, calamity follows — bridges collapsing, disasters striking, communities left scarred. Whether the Mothman causes these events or merely heralds them remains uncertain, but survivors speak of its gaze as inescapable, as if it were measuring their worth against some unseen scale."
                 ],
                 "images": [
                     {
@@ -54037,62 +54890,106 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Neon Lurker",
+            "name": "Ad-specter",
             "size": [
                 "M"
             ],
             "type": "aberration",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
-                    "ac": 12.0,
+                    "ac": 14.0,
                     "from": [
-                        "natural armor"
+                        "glitching form"
                     ]
                 }
             ],
             "hp": {
-                "average": 49.0,
-                "formula": "2d48 + 0.0"
+                "average": 114.0,
+                "formula": "1 + 4.0"
             },
             "save": {
                 "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+44"
+                "wis": "+5"
             },
-            "passive": 10.0,
+            "passive": 16.0,
             "speed": {
-                "walk": 30
+                "walk": 40
             },
             "str": 10.0,
-            "dex": 10.0,
-            "con": 10.0,
-            "int": 10.0,
-            "wis": 10.0,
-            "cha": 10.0,
+            "dex": 18.0,
+            "con": 18.0,
+            "int": 2.0,
+            "wis": 12.0,
+            "cha": 15.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Ad-specter makes three attacks: one with its Glitch Claws and two with its Radiant Drain.;"
+                    ]
+                },
+                {
+                    "name": "Glitch Claws",
+                    "entries": [
+                        "Melee Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or be blinded until the end of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Radiant Drain",
+                    "entries": [
+                        "Melee Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (1d8 + 3 + 1d8) radiant damage. If the target is Medium or smaller, it suffers disadvantage on its next attack roll, as it becomes overwhelmed by flickering lights.;"
+                    ]
+                },
+                {
+                    "name": "Hypnotic Pulse",
+                    "entries": [
+                        "The Ad-specter channels the glowing light within it to create a mesmerizing aura. Each creature within 30 ft. must succeed on a DC 14 Wisdom saving throw or take 10 (2d6 + 3) psychic damage and be charmed until the end of the Ad-specter's next turn. On a successful save, the target takes half the damage and isn't charmed."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Lure of the Screen",
+                    "entries": [
+                        "Targets within 30 ft. must succeed on a DC 15 Wisdom saving throw or be compelled to walk toward the Ad-specter in a trance, ignoring any danger.;"
+                    ]
+                },
+                {
+                    "name": "Consume Glow",
+                    "entries": [
+                        "When the Ad-specter grapples a victim, that creature takes 10 (3d6) necrotic damage and 10 (3d6) psychic damage, leaving their skin faintly glowing afterward.;"
+                    ]
+                },
+                {
+                    "name": "Phased into Screens",
+                    "entries": [
+                        "As a bonus action, the Ad-specter can vanish into an electronic billboard, neon sign, or monitor within 10 ft., reappearing from another screen up to 60 ft. away."
+                    ]
+                }
+            ],
             "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+39"
+                "stealth": "+8",
+                "deception": "+6"
             },
             "conditionImmune": [
-                "immune to blinded; causes delayed"
+                "blinded",
+                "frightened"
             ],
-            "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Neon_Lurker.png",
+            "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ad-specter.png",
             "fluff": {
                 "entries": [
-                    "Entities that emerge from electronic billboards to lure and consume."
+                    "Born from light and hunger, these entities slide out of the glow of electronic billboards, their forms stitched from broken advertisements and flickering colors. They appear first as silhouettes within the screen — a model’s smile turned jagged, a mascot’s wave stretched too long — before peeling free into the night.\n\nOnce loose, their bodies shimmer with pixelated light, constantly glitching as fragments of text and logos crawl across their skin. They lure the unwary with hypnotic displays: promises of sales, familiar jingles, or even the faces of loved ones replayed in distorted neon. When prey approaches, the light collapses inward, wrapping around the victim like a radiant shroud until only silence remains.\n\nWhat remains afterward is a drained husk, skin faintly glowing as if stained by advertisement light — another message for passersby who dare to look too long."
                 ],
                 "images": [
                     {
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Neon%20Lurker.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Ad-specter.png"
                         }
                     }
                 ]
@@ -54104,76 +55001,84 @@
             "size": [
                 "M"
             ],
-            "type": "fey",
+            "type": "aberration",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
-                    "ac": 13.0,
+                    "ac": 10.0,
                     "from": [
-                        "Ethereal skin"
+                        "Ethereal Drift"
                     ]
                 }
             ],
             "hp": {
-                "average": 36.0,
-                "formula": "8d8 + 1.0"
+                "average": 13.0,
+                "formula": "2 + 2.0"
             },
             "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+43"
+                "dex": "+4",
+                "wis": "+3"
             },
-            "passive": 12.0,
+            "passive": 16.0,
             "speed": {
-                "walk": 40
+                "walk": 30
             },
             "str": 8.0,
-            "dex": 16.0,
-            "con": 12.0,
-            "int": 10.0,
-            "wis": 14.0,
-            "cha": 12.0,
+            "dex": 15.0,
+            "con": 14.0,
+            "int": 1.0,
+            "wis": 12.0,
+            "cha": 10.0,
             "action": [
                 {
-                    "name": "Peaceful Pulse (Recharge 5–6): Emits a calm wave in a 20-ft. radius. All creatures must succeed a DC 13 Wisdom save or be pacified (can’t take hostile actions) until the end of their next turn.",
+                    "name": "Multiattack",
                     "entries": [
-                        ""
+                        "The Nightcrawler makes two attacks: one with Leg Sweep and one with Eerie Touch.;"
+                    ]
+                },
+                {
+                    "name": "Leg Sweep",
+                    "entries": [
+                        "Melee Attack: +3 to hit, Action dealing 2 (1d4) bludgeoning damage. If the target fails a DC 11 Dexterity saving throw, they are knocked prone.;"
+                    ]
+                },
+                {
+                    "name": "Eerie Touch",
+                    "entries": [
+                        "Melee Attack: +3 to hit, Action dealing 4 (1d6 + 1) necrotic damage. If the target is hit, they must succeed on a DC 11 Constitution saving throw or take an extra 2 (1d4) necrotic damage at the start of their next turn."
                     ]
                 }
             ],
             "trait": [
                 {
-                    "name": "Alien Gait: The Nightcrawler can move across any terrain—natural or urban—without leaving tracks or triggering pressure plates.",
+                    "name": "Ethereal Drift",
                     "entries": [
-                        ""
+                        "The Nightcrawler can move through difficult terrain without hindrance and leaves no tracks behind.;"
                     ]
                 },
                 {
-                    "name": "Tranquil Presence: Creatures within 10 ft. of the Nightcrawler have advantage on Wisdom saving throws and death saving throws.",
+                    "name": "Aura of Awe",
                     "entries": [
-                        ""
+                        "Creatures within 30 ft. of the Nightcrawler must make a DC 12 Wisdom saving throw or be charmed until the Nightcrawler leaves their vicinity.;"
                     ]
                 },
                 {
-                    "name": "Ghostlike: The Nightcrawler can phase through fences, gates, or narrow cracks as if under the effect of *gaseous form*.",
+                    "name": "Harmless Presence",
                     "entries": [
-                        ""
+                        "Animals and children remain calm and are unaffected by the Nightcrawler's presence."
                     ]
                 }
             ],
             "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+38"
+                "stealth": "+6"
             },
+            "immune": null,
             "conditionImmune": [
-                "immune to grappled",
-                "restrained; causes altered"
+                "charmed"
             ],
-            "cr": "1",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Nightcrawler.png",
             "fluff": {
                 "entries": [
@@ -54198,50 +55103,76 @@
             ],
             "type": "construct",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
-                    "ac": 12.0,
+                    "ac": 11.0,
                     "from": [
-                        "natural armor"
+                        "density modulation"
                     ]
                 }
             ],
             "hp": {
-                "average": 54.0,
-                "formula": "2d53 + 0.0"
+                "average": 22.0,
+                "formula": "5 + 3.0"
             },
             "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+42"
+                "con": "+5",
+                "wis": "+2"
             },
-            "passive": 10.0,
+            "passive": 15.0,
             "speed": {
-                "walk": 30
+                "walk": 30,
+                "fly": 30
             },
-            "str": 10.0,
-            "dex": 10.0,
-            "con": 10.0,
-            "int": 10.0,
+            "str": 14.0,
+            "dex": 12.0,
+            "con": 16.0,
+            "int": 3.0,
             "wis": 10.0,
-            "cha": 10.0,
-            "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+37"
-            },
-            "conditionImmune": [
-                "immune to poisoned",
-                "exhaustion; causes erased"
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Disruption Beam",
+                    "entries": [
+                        "Ranged Spell Attack: +9 to hit, range 60/120 ft. On hit: 27 (3d10) radiant damage and the target gains the Suppressed condition until the end of its next turn, preventing the use of reactions or bonus actions fueled by supernatural power.;"
+                    ]
+                },
+                {
+                    "name": "Overload Pulse",
+                    "entries": [
+                        "Burst Attack: The Nullifier emits a destructive wave in a 30-ft. radius as an action. Each creature in that area must make a DC 18 Constitution saving throw. On a failure, they take 40 (4d10) force damage and are stunned until the end of their next turn. On a success, they take half damage and are not stunned."
+                    ]
+                }
             ],
-            "cr": "3",
+            "trait": [
+                {
+                    "name": "Null Field",
+                    "entries": [
+                        "Creates an aura with a 10 ft. radius that suppresses spells, psionics, and supernatural abilities, rendering magical effects unusable within its range.;"
+                    ]
+                },
+                {
+                    "name": "Adaptive Shielding",
+                    "entries": [
+                        "When taking damage from spells or magical effects, the Nullifier gains resistance to that damage type until the start of its next turn."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+3"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "charmed",
+                "frightened"
+            ],
+            "cr": "2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Nullifier.png",
             "fluff": {
                 "entries": [
-                    "ASTRAL units that suppress supernatural abilities in a radius."
+                    "An ASTRAL-engineered construct, the Nullifier is less a soldier than a silencing presence. Its form is angular and utilitarian, a chassis of matte alloy and sensor arrays that hum with a steady pulse. From its core radiates an invisible field that bends light, warps sound, and — most dangerously — smothers the spark of the anomalous. Spells fizzle, psionic energy recoils, and supernatural gifts feel as though they’ve been stripped away, leaving only silence and dread.\n\nThe Nullifier is rarely deployed alone. It moves with deliberate, almost ritual precision, escorted by assault or security drones that exploit its field. To those reliant on the supernatural, standing near one feels like drowning — as though the world itself has become smaller, heavier, and devoid of wonder."
                 ],
                 "images": [
                     {
@@ -54258,54 +55189,84 @@
             "source": "EverydayGuidetoConcordCity",
             "name": "Ore Vein, Aggressive",
             "size": [
-                "M"
+                "L"
             ],
             "type": "aberration",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
-                    "ac": 12.0,
+                    "ac": 14.0,
                     "from": [
-                        "natural armor"
+                        "hardened crystal"
                     ]
                 }
             ],
             "hp": {
-                "average": 41.0,
-                "formula": "2d40 + 0.0"
+                "average": 59.0,
+                "formula": "7 + 3.0"
             },
             "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+41"
+                "con": "+5"
             },
             "passive": 10.0,
             "speed": {
-                "walk": 30
+                "walk": 0
             },
             "str": 10.0,
-            "dex": 10.0,
-            "con": 10.0,
-            "int": 10.0,
-            "wis": 10.0,
-            "cha": 10.0,
+            "dex": 1.0,
+            "con": 16.0,
+            "int": 1.0,
+            "wis": 1.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Aggressive Ore Vein makes two attacks: one with its Crystal Lash and one with its Shatter Pulse.;"
+                    ]
+                },
+                {
+                    "name": "Crystal Lash",
+                    "entries": [
+                        "Melee Attack: +6 to hit, reach 10 ft., one target. The vein lashes out with razor-sharp shards, dealing 14 (2d8 + 5) piercing damage.;"
+                    ]
+                },
+                {
+                    "name": "Shatter Pulse",
+                    "entries": [
+                        "Recharge 5–6: The vein emits a crack of crystal energy. All creatures within 15 ft. must make a Constitution saving throw (DC 13) or take 9 (2d8) thunder damage and be deafened until the end of their next turn."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Aggressive Crystals",
+                    "entries": [
+                        "Whenever a creature hits the vein in melee, shards burst out; the attacker must make a Dexterity saving throw (DC 13) or take 1d6 piercing damage.;"
+                    ]
+                },
+                {
+                    "name": "Loyal Protection",
+                    "entries": [
+                        "Instead of moving, the Aggressive Ore Vein retaliates against attackers with its Crystal Lash ability, dealing increased damage of 2d8 piercing."
+                    ]
+                }
+            ],
             "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+36"
+                "perception": "+2"
             },
             "conditionImmune": [
-                "immune to prone",
-                "grappled"
+                "prone",
+                "poisoned",
+                "stunned"
             ],
-            "cr": "3",
+            "cr": "2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ore_Vein_Aggressive.png",
             "fluff": {
                 "entries": [
-                    "A mineral deposit that lashes out violently when disturbed."
+                    "Not just stone but a coiled predator, this vein bristles with crystalline spines that snap outward when struck. Miners report being impaled by shards launched with terrifying force, the tunnel itself seeming to turn hostile. Disturb it once, and it will not stop lashing until the intruder is gone or buried."
                 ],
                 "images": [
                     {
@@ -54322,54 +55283,76 @@
             "source": "EverydayGuidetoConcordCity",
             "name": "Ore Vein, Depressive",
             "size": [
-                "M"
+                "L"
             ],
             "type": "aberration",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
-                    "ac": 12.0,
+                    "ac": 11.0,
                     "from": [
                         "natural armor"
                     ]
                 }
             ],
             "hp": {
-                "average": 43.0,
-                "formula": "2d42 + 0.0"
+                "average": 22.0,
+                "formula": "5 + 2.0"
             },
             "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+40"
+                "con": "+4"
             },
-            "passive": 10.0,
+            "passive": 15.0,
             "speed": {
-                "walk": 30
+                "walk": 0
             },
-            "str": 10.0,
-            "dex": 10.0,
-            "con": 10.0,
-            "int": 10.0,
+            "str": 1.0,
+            "dex": 1.0,
+            "con": 14.0,
+            "int": 1.0,
             "wis": 10.0,
-            "cha": 10.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Crystal Lash",
+                    "entries": [
+                        "Melee Attack: +3 to hit, dealing 3 (1d6) piercing damage. The jagged crystals lash out, sapping the strength of those struck.;"
+                    ]
+                },
+                {
+                    "name": "Shatter Pulse",
+                    "entries": [
+                        "Targeted Effect: The vein emits a crack of crystal energy. All creatures within 15 ft. must make a Constitution saving throw (DC 13) or take 9 (2d8) thunder damage and be deafened until the end of their next turn."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Aura of Despair",
+                    "entries": [
+                        "Creatures that start their turn within 20 feet of the Ore Vein must make a Wisdom saving throw (DC 12) or suffer disadvantage on attack rolls and ability checks until the start of their next turn.;"
+                    ]
+                },
+                {
+                    "name": "Weakened Offense",
+                    "entries": [
+                        "The Ore Vein's Crystal Lash attack deals only 1d6 piercing damage."
+                    ]
+                }
+            ],
             "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+35"
+                "perception": "+2"
             },
             "conditionImmune": [
-                "immune to prone",
-                "grappled"
+                "prone"
             ],
-            "cr": "3",
+            "cr": "1",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ore_Vein_Depressive.png",
             "fluff": {
                 "entries": [
-                    "A sorrowful mineral that drains the willpower of those near it."
+                    "This mineral formation weeps a faint gray mist, its surface dull and heavy as lead. Those who linger nearby feel their thoughts slow, their shoulders sag, and their will to act slip away. Some claim they hear faint sobbing from within the stone, though whether it is the ore or their own despair made manifest is uncertain."
                 ],
                 "images": [
                     {
@@ -54386,54 +55369,92 @@
             "source": "EverydayGuidetoConcordCity",
             "name": "Ore Vein, Hungry",
             "size": [
-                "M"
+                "L"
             ],
             "type": "aberration",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
                     "ac": 12.0,
                     "from": [
-                        "natural armor"
+                        "hardened crystal"
                     ]
                 }
             ],
             "hp": {
-                "average": 44.0,
-                "formula": "2d43 + 0.0"
+                "average": 65.0,
+                "formula": "1 + 2.0"
             },
             "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+39"
+                "con": "+4",
+                "str": "+3"
             },
-            "passive": 10.0,
+            "passive": 15.0,
             "speed": {
-                "walk": 30
+                "walk": 0
             },
-            "str": 10.0,
-            "dex": 10.0,
-            "con": 10.0,
-            "int": 10.0,
+            "str": 16.0,
+            "dex": 8.0,
+            "con": 14.0,
+            "int": 1.0,
             "wis": 10.0,
-            "cha": 10.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Ore Vein, Hungry makes three attacks: two with its Crystal Lash and one with Shatter Pulse.;"
+                    ]
+                },
+                {
+                    "name": "Crystal Lash",
+                    "entries": [
+                        "Melee Attack: +6 to hit, reach 10 ft., one target. Hit: 14 (2d6 + 7) piercing damage.;"
+                    ]
+                },
+                {
+                    "name": "Shatter Pulse",
+                    "entries": [
+                        "Recharge 5–6: The Ore Vein emits a crack of crystal energy. All creatures within 15 ft. must make a Constitution saving throw (DC 13) or take 9 (2d8) thunder damage and be deafened until the end of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Devour Essence",
+                    "entries": [
+                        "A devastating attack that targets a creature within 10 ft. The target must make a Constitution saving throw (DC 14) or take 30 (4d12 + 4) acid damage. On a failed save, the target is also blinded until the end of its next turn. This attack can be used once per long rest."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Gnashing Maw",
+                    "entries": [
+                        "Can attempt a grapple against a creature within 10 ft.; grappled targets take 2d10 piercing damage and 2d10 acid damage at the start of each of their turns.;"
+                    ]
+                },
+                {
+                    "name": "Consume Metal",
+                    "entries": [
+                        "When a nonmagical metal weapon or piece of armor strikes it, the wielder must make a Constitution saving throw (DC 14) or the item becomes corroded, decreasing its AC or damage by 1 permanently."
+                    ]
+                }
+            ],
             "skill": {
                 "acrobatics": "+10",
                 "stealth": "+10",
                 "deception": "+34"
             },
             "conditionImmune": [
-                "immune to prone",
-                "grappled"
+                "prone",
+                "poisoned"
             ],
-            "cr": "3",
+            "cr": "4",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ore_Vein_Hungry.png",
             "fluff": {
                 "entries": [
-                    "A living rock that consumes flesh and metal alike."
+                    "Dark and jagged, this vein is studded with teeth-like crystals that gnash and grind when approached. It consumes indiscriminately — metal tools, lanterns, or flesh — all vanish into its grinding maw, leaving only bone dust and twisted fragments. Entire shafts have been devoured overnight when left in its reach."
                 ],
                 "images": [
                     {
@@ -54452,52 +55473,85 @@
             "size": [
                 "M"
             ],
-            "type": "aberration",
+            "type": "monstrosity",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
-                    "ac": 12.0,
+                    "ac": 13.0,
                     "from": [
-                        "natural armor"
+                        "tough hide"
                     ]
                 }
             ],
             "hp": {
-                "average": 42.0,
-                "formula": "2d41 + 0.0"
+                "average": 52.0,
+                "formula": "8 + 2.0"
             },
             "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+38"
+                "str": "+5",
+                "dex": "+4",
+                "con": "+2"
             },
-            "passive": 10.0,
+            "passive": 15.0,
             "speed": {
-                "walk": 30
+                "walk": 20
             },
-            "str": 10.0,
-            "dex": 10.0,
-            "con": 10.0,
-            "int": 10.0,
+            "str": 16.0,
+            "dex": 14.0,
+            "con": 14.0,
+            "int": 1.0,
             "wis": 10.0,
-            "cha": 10.0,
-            "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+33"
-            },
-            "conditionImmune": [
-                "immune to prone",
-                "grappled"
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Pantry Root Horror makes two attacks: one with Root Lash and one with Gnashing Maw.;"
+                    ]
+                },
+                {
+                    "name": "Root Lash",
+                    "entries": [
+                        "Melee Attack: +5 to hit, reach 10 ft., dealing 6 (1d8 + 2) bludgeoning damage. The target must succeed on a DC 12 Strength saving throw or be grappled (escape DC 12). While grappled, the target is restrained and takes 3 (1d6) damage at the start of each of its turns as it is slowly dragged towards the Pantry Root Horror.;"
+                    ]
+                },
+                {
+                    "name": "Gnashing Maw",
+                    "entries": [
+                        "Melee Attack: +5 to hit, dealing 8 (1d10 + 3) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 12 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to necrotic decay as the Pantry Root Horror's maw racially absorbs their vitality. Each time the Pantry Root Horror hits the affected target with this attack, the decay damage increases by an additional 5 (1d10). The target can take an action to end the effect with a successful DC 12 check. The condition also ends if the target receives magical healing.;"
+                    ]
+                },
+                {
+                    "name": "Soil Hunger",
+                    "entries": [
+                        "Recharge 5–6: The Pantry Root Horror creates a 10-foot patch of damp mulch and quicksand in a location within 30 feet. Creatures that enter or start their turn in this area must make a DC 12 Strength saving throw or be restrained and pulled prone into the ground as if being buried alive in sour earth. The area remains in place for 1 minute and is difficult terrain. Creatures can use an action to escape by succeeding on a DC 12 Strength check."
+                    ]
+                }
             ],
+            "trait": [
+                {
+                    "name": "Born of Neglect",
+                    "entries": [
+                        "The Pantry Root Horror awakens in areas of waste or neglect. Whenever food is thrown away or left to rot within a 30-foot radius, its presence becomes palpable, granting it advantage on Stealth checks made in those areas.;"
+                    ]
+                },
+                {
+                    "name": "Aura of Rot",
+                    "entries": [
+                        "Within 10 feet of the Pantry Root Horror, organic materials such as food, leather, or paper decay rapidly. Living creatures that start their turn within this aura must succeed on a DC 13 Constitution saving throw or be poisoned until the end of their next turn."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+4"
+            },
             "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Ore_Vein_Seductive.png",
             "fluff": {
                 "entries": [
-                    "A shimmering ore that lures miners into obsession and madness."
+                    "This vein glimmers with impossible colors, each shimmer crawling into the mind like a whispered promise. Workers become fixated, abandoning food and sleep to chip away at the shining stone. The longer they remain, the more frenzied their obsession, until hands bleed raw against unyielding crystal and reason is lost to madness."
                 ],
                 "images": [
                     {
@@ -54514,51 +55568,87 @@
             "source": "EverydayGuidetoConcordCity",
             "name": "Pantry Root Horror",
             "size": [
-                "L"
+                "M"
             ],
-            "type": "plant",
+            "type": "monstrosity",
             "alignment": [
-                "C"
+                "U"
             ],
             "ac": [
                 {
                     "ac": 13.0,
                     "from": [
-                        "Root hide"
+                        "tough hide"
                     ]
                 }
             ],
             "hp": {
-                "average": 65.0,
-                "formula": "2d64 + 0.0"
+                "average": 52.0,
+                "formula": "8 + 2.0"
             },
             "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+37"
+                "str": "+5",
+                "dex": "+4",
+                "con": "+2"
             },
-            "passive": 10.0,
-            "speed": {},
-            "str": 10.0,
-            "dex": 10.0,
-            "con": 10.0,
-            "int": 10.0,
+            "passive": 15.0,
+            "speed": {
+                "walk": 20
+            },
+            "str": 16.0,
+            "dex": 14.0,
+            "con": 14.0,
+            "int": 1.0,
             "wis": 10.0,
-            "cha": 10.0,
-            "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+32"
-            },
-            "conditionImmune": [
-                "immune to poisoned; causes restrained"
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Pantry Root Horror makes two attacks: one with Root Lash and one with Gnashing Maw.;"
+                    ]
+                },
+                {
+                    "name": "Root Lash",
+                    "entries": [
+                        "Melee Attack: +5 to hit, reach 10 ft., dealing 6 (1d8 + 2) bludgeoning damage. The target must succeed on a DC 12 Strength saving throw or be grappled (escape DC 12). While grappled, the target is restrained and takes 3 (1d6) damage at the start of each of its turns as it is slowly dragged towards the Pantry Root Horror.;"
+                    ]
+                },
+                {
+                    "name": "Gnashing Maw",
+                    "entries": [
+                        "Melee Attack: +5 to hit, dealing 8 (1d10 + 3) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 12 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to necrotic decay as the Pantry Root Horror's maw racially absorbs their vitality. Each time the Pantry Root Horror hits the affected target with this attack, the decay damage increases by an additional 5 (1d10). The target can take an action to end the effect with a successful DC 12 check. The condition also ends if the target receives magical healing.;"
+                    ]
+                },
+                {
+                    "name": "Soil Hunger",
+                    "entries": [
+                        "Recharge 5–6: The Pantry Root Horror creates a 10-foot patch of damp mulch and quicksand in a location within 30 feet. Creatures that enter or start their turn in this area must make a DC 12 Strength saving throw or be restrained and pulled prone into the ground as if being buried alive in sour earth. The area remains in place for 1 minute and is difficult terrain. Creatures can use an action to escape by succeeding on a DC 12 Strength check."
+                    ]
+                }
             ],
-            "cr": "5",
+            "trait": [
+                {
+                    "name": "Born of Neglect",
+                    "entries": [
+                        "The Pantry Root Horror awakens in areas of waste or neglect. Whenever food is thrown away or left to rot within a 30-foot radius, its presence becomes palpable, granting it advantage on Stealth checks made in those areas.;"
+                    ]
+                },
+                {
+                    "name": "Aura of Rot",
+                    "entries": [
+                        "Within 10 feet of the Pantry Root Horror, organic materials such as food, leather, or paper decay rapidly. Living creatures that start their turn within this aura must succeed on a DC 13 Constitution saving throw or be poisoned until the end of their next turn."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+4"
+            },
+            "cr": "3",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pantry_Root_Horror.png",
             "fluff": {
                 "entries": [
-                    "The Pantry Root Horror is what festers when neglect and hunger birth corruption. Once a simple tuber—potato, yam, or root vegetable—it lay too long in the dark. Sprouts twisted into limbs, eyes bloomed from buds, and a cavernous maw split across its body, demanding soil, flesh, and nourishment.\n\nIt shuffles on tangled root-legs, dragging a trail of damp earth and mildew. The smell of rot clings to it, and its rasping voice croaks like a stomach turned inside out. Left alone in pantries, barns, or root cellars, it waits for the careless to come close, then lunges with gnashing tendrils.\n\nBorn of Neglect. The Pantry Root Horror embodies waste and abandonment. Farmers and homemakers whisper that throwing away too much food or disrespecting harvest spirits risks waking one of these monsters in the cellar.\n\nSoil Hunger. Its gaping maw never closes, forever drooling wet earth. The Horror tries to bury its victims alive, dragging them down into loam and mulch conjured from nowhere.\n\nGrotesque Humanoid Form. Though plantlike, its outline is disturbingly human—arms sprouting from tuber shoots, a head forming where mold ate deepest. This uncanny shape unnerves even seasoned hunters."
+                    "Once a humble tuber left too long in the dark, the Pantry Root Horror is what festers when neglect, rot, and hunger take shape. Sprouting limbs of tangled roots, eyes budding from swollen nodes, and a gaping maw that leaks soil, it drags itself through pantries and root cellars in search of nourishment.\n\nBorn of Neglect. These creatures embody waste and disrespect for the harvest. Legends say that tossing food away or letting pantries spoil without care awakens the Horror, a punishment given form.\n\nSoil Hunger. Wherever it shuffles, the ground turns damp, its maw drooling loam and mold. It drags prey down with grasping roots, trying to bury them alive in conjured mulch and sour earth.\n\nUncanny Shape. Though clearly a mass of plant matter, its silhouette is unsettlingly human. Root-legs bend like knees, shoots twitch like fingers, and mold has carved a grotesque face where none should be. Witnesses report its voice as a rasping croak — like a stomach turned inside out.\n\nEncounter Notes. Most lie dormant in dark storerooms until disturbed. Once active, they are relentless, more parasite than predator: they don’t stalk prey, they simply consume whatever comes near."
                 ],
                 "images": [
                     {
@@ -61082,497 +62172,6 @@
                         "href": {
                             "type": "external",
                             "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Vorthirith%2C%20Cthithrzho.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
-            "name": "Macro-virus, Complex",
-            "size": [
-                "M"
-            ],
-            "type": "aberration",
-            "alignment": [
-                "C"
-            ],
-            "ac": [
-                {
-                    "ac": 16.0,
-                    "from": [
-                        "variable"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 135.0,
-                "formula": "1 + 3.0"
-            },
-            "save": {
-                "dex": "+8",
-                "con": "+7"
-            },
-            "passive": 15.0,
-            "speed": {
-                "walk": 30
-            },
-            "str": 16.0,
-            "dex": 18.0,
-            "con": 16.0,
-            "int": 1.0,
-            "wis": 10.0,
-            "cha": 1.0,
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The Macro-virus makes two Syringe Stab attacks and one Claw Sweep attack.;"
-                    ]
-                },
-                {
-                    "name": "Syringe Stab",
-                    "entries": [
-                        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (2d8 + 4) piercing damage, and the target must make a DC 15 Constitution saving throw. On a failed save, it gains 1 Viral Load.;"
-                    ]
-                },
-                {
-                    "name": "Claw Sweep",
-                    "entries": [
-                        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 4) slashing damage. If the target has 2 or more Viral Load stacks, it has disadvantage on the saving throw to escape the grapple (DC 15).;"
-                    ]
-                },
-                {
-                    "name": "Genome Rewrite (Recharge 5-6)",
-                    "entries": [
-                        "The Macro-virus unleashes a wave of corrupted energy in a 15-foot cone. Each creature in that area must make a DC 16 Constitution saving throw, taking 36 (4d8) necrotic damage on a failed save, or half as much damage on a successful one. On a failed save, the target’s speed is reduced by 10 ft. and their spell save DC or attack rolls are reduced by 1 until the end of their next turn for each stack of Viral Load (minimum of -1, maximum of -3)."
-                    ]
-                }
-            ],
-            "trait": [
-                {
-                    "name": "Viral Load",
-                    "entries": [
-                        "When a creature is hit by the Macro-virus's natural attack or starts its turn in the virus’s Aerosol Aura (10 ft.), it must make a Constitution saving throw. On a failed save, it gains 1 Viral Load (maximum 3/4 by tier). Each stack reduces attack rolls and checks by 1, and at 3+ stacks, the target is poisoned and cannot regain HP until the end of its next turn. A successful save removes 1 stack at the end of the creature's turn. Magical disease cures remove all stacks.;"
-                    ]
-                },
-                {
-                    "name": "Wall/Ceiling Vault",
-                    "entries": [
-                        "The Macro-virus ignores opportunity attacks when moving from wall or ceiling to the floor."
-                    ]
-                }
-            ],
-            "skill": {
-                "athletics": "+7",
-                "stealth": "+8"
-            },
-            "immune": null,
-            "conditionImmune": [
-                "poisoned",
-                "charmed",
-                "frightened"
-            ],
-            "cr": "8",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Macro-virus_Complex.png",
-            "fluff": {
-                "entries": [
-                    "Towering on syringe-like legs, this spiderish monstrosity plunges needle-limbs into victims and walls alike. It drains vitality with precision, rewriting the very code of its prey as it hunts with terrifying speed."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Macro-virus%2C%20Complex.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
-            "name": "Macro-virus, Icosahedral",
-            "size": [
-                "M"
-            ],
-            "type": "aberration",
-            "alignment": [
-                "C"
-            ],
-            "ac": [
-                {
-                    "ac": 12.0,
-                    "from": [
-                        "spiked shell"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 76.0,
-                "formula": "8 + 3.0"
-            },
-            "save": {
-                "con": "+3"
-            },
-            "passive": 12.0,
-            "speed": {
-                "walk": 30
-            },
-            "str": 12.0,
-            "dex": 15.0,
-            "con": 16.0,
-            "int": 1.0,
-            "wis": 5.0,
-            "cha": 1.0,
-            "action": [
-                {
-                    "name": "Puncture Charge",
-                    "entries": [
-                        "Melee Attack: +8 to hit, dealing 19 (3d8 + 6) piercing damage. On a hit, the target must succeed on a DC 12 Constitution saving throw or gain 1 stack of Viral Load. If the target is affected by this condition, the macro-virus can use Spike Burst as a bonus action on its next turn.;"
-                    ]
-                },
-                {
-                    "name": "Viral Spike Assault",
-                    "entries": [
-                        "Melee Attack: +8 to hit, dealing 22 (3d10 + 6) piercing damage. This action can only be used on a creature that has 1 or more stacks of Viral Load.;"
-                    ]
-                },
-                {
-                    "name": "Rolling Charge",
-                    "entries": [
-                        "The macro-virus rolls forward in a 30 ft. line. Each creature in the line must make a DC 14 Dexterity saving throw, taking 18 (3d6 bludgeoning + 2d4 piercing) damage on a failed save and is knocked prone. On a success, a creature takes half damage and is not knocked prone. Creatures that fail the saving throw also gain 1 stack of Viral Load."
-                    ]
-                }
-            ],
-            "trait": [
-                {
-                    "name": "Aerosol Aura",
-                    "entries": [
-                        "The macro-virus emanates a 10-foot radius aura. Creatures that start their turn in this aura must make a DC 12 Constitution saving throw or gain 1 stack of Viral Load.;"
-                    ]
-                },
-                {
-                    "name": "Viral Load",
-                    "entries": [
-                        "A creature with 1 stack has disadvantage on attack rolls and checks. At 3 or more stacks, the creature is poisoned and cannot regain hit points until the end of its next turn. A successful save reduces the stacks by 1 at the end of the creature's turn."
-                    ]
-                }
-            ],
-            "skill": {
-                "stealth": "+4"
-            },
-            "conditionImmune": [
-                "poisoned",
-                "charmed",
-                "frightened"
-            ],
-            "cr": "4",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Macro-virus_Icosahedral.png",
-            "fluff": {
-                "entries": [
-                    "A spiked geometric behemoth, its faceted shell rolls and smashes through obstacles like a living siege engine. Each impact showers the ground with fragments that bite into flesh and spread corruption."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Macro-virus%2C%20Icosahedral.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
-            "name": "Macro-virus, Helical",
-            "size": [
-                "M"
-            ],
-            "type": "aberration",
-            "alignment": [
-                "C"
-            ],
-            "ac": [
-                {
-                    "ac": 12.0,
-                    "from": [
-                        "Viral Aura effects"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 90.0,
-                "formula": "1 + 2.0"
-            },
-            "save": {
-                "dex": "+6",
-                "con": "+4"
-            },
-            "passive": 10.0,
-            "speed": {
-                "walk": 40
-            },
-            "str": 16.0,
-            "dex": 18.0,
-            "con": 14.0,
-            "int": 1.0,
-            "wis": 1.0,
-            "cha": 1.0,
-            "action": [
-                {
-                    "name": "Coiling Lash",
-                    "entries": [
-                        "Melee Attack: +6 to hit, dealing 21 (5d6 + 4) bludgeoning damage. On hit, the target must make a Strength saving throw (DC 13) or be grappled and restrained until it escapes.;"
-                    ]
-                },
-                {
-                    "name": "Whip-Around",
-                    "entries": [
-                        "The Macro-virus unleashes a sudden burst of viral energy in a 10-ft radius. Each creature in the area must make a Dexterity saving throw (DC 13). On a failure, a creature takes 14 (2d6 + 1) bludgeoning damage and gains 1 Viral Load. On a success, a creature takes half damage and doesn't gain Viral Load. Additionally, failed targets are pushed back 10 feet."
-                    ]
-                }
-            ],
-            "trait": [
-                {
-                    "name": "Viral Load",
-                    "entries": [
-                        "When a creature is hit by the virus’s natural attack or starts its turn in the virus’s Aerosol Aura (10 ft., DC 12), it must make a Constitution saving throw. On a failure, it gains 1 Viral Load (maximum of 3 or 4 depending on tier). Each stack reduces attack rolls and checks by 1, and at 3 stacks, the target is poisoned and cannot regain hit points until the end of its next turn. A successful save removes 1 stack at the end of the creature's turn. All magical disease cures remove all stacks.;"
-                    ]
-                },
-                {
-                    "name": "Coiling Lash",
-                    "entries": [
-                        "The Macro-virus can use its tendrils to grapple. If it successfully hits a target, the target must make a Strength saving throw (DC 13) or be grappled and restrained. The escape DC is also 13."
-                    ]
-                }
-            ],
-            "skill": {
-                "stealth": "+8",
-                "acrobatics": "+6"
-            },
-            "immune": null,
-            "conditionImmune": [
-                "poisoned",
-                "charmed",
-                "frightened"
-            ],
-            "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Macro-virus_Helical.png",
-            "fluff": {
-                "entries": [
-                    "A colossal filament twisting like a living whip, its segmented body glistens as it lashes out to ensnare prey. Victims describe its coils tightening with crushing force, leaving them gasping as infection seeps in."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Macro-virus%2C%20Helical.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
-            "name": "Macro-virus, Polyhedral",
-            "size": [
-                "M"
-            ],
-            "type": "aberration",
-            "alignment": [
-                "C"
-            ],
-            "ac": [
-                {
-                    "ac": 14.0,
-                    "from": [
-                        "variable"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 70.0,
-                "formula": "1 + 2.0"
-            },
-            "save": {
-                "dex": "+6",
-                "con": "+5"
-            },
-            "passive": 13.0,
-            "speed": {
-                "walk": 30
-            },
-            "str": 10.0,
-            "dex": 16.0,
-            "con": 15.0,
-            "int": 1.0,
-            "wis": 6.0,
-            "cha": 1.0,
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The Macro-virus makes three attacks with Viral Emission.;"
-                    ]
-                },
-                {
-                    "name": "Viral Emission",
-                    "entries": [
-                        "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (2d12 + 5) necrotic damage. The target must succeed on a DC 12 Constitution saving throw or gain 1 Viral Load.;"
-                    ]
-                },
-                {
-                    "name": "Contamination Tiles",
-                    "entries": [
-                        "The Macro-virus seeds two 10-foot squares within 60 feet, each becoming slick biofilm. Creatures that start their turn in these squares must make a DC 15 Constitution saving throw. On a failed save, they gain 1 Viral Load and take 7 (1d6 + 1) necrotic damage. The area is considered difficult terrain for enemies.;"
-                    ]
-                },
-                {
-                    "name": "Bacterial Wave (Recharge 5-6)",
-                    "entries": [
-                        "The Macro-virus releases a wave of viral energy in a 20-foot radius centered on itself. Each creature in that area must make a DC 15 saving throw, taking 55 (10d10) necrotic damage on a failed save, or half as much damage on a successful one. In addition, affected targets gain 1 Viral Load."
-                    ]
-                }
-            ],
-            "trait": [
-                {
-                    "name": "Viral Load",
-                    "entries": [
-                        "When a creature is hit by the virus's natural attack or starts its turn in the Macro-virus's Aerosol Aura (10 ft., DC 12-15), it must make a Constitution saving throw. On a failed save, it gains 1 Viral Load (maximum of 3 or 4 based on tier). Each stack imposes a -1 penalty to attack rolls and checks, and at 3 or more stacks, the target is poisoned and cannot regain hit points until the end of its next turn. A successful save removes 1 stack at the end of the creature's turn.;"
-                    ]
-                },
-                {
-                    "name": "Fractal Split",
-                    "entries": [
-                        "When the Macro-virus is reduced to 60 hit points or fewer, it splits into two Polyhedral Shards, each with an armor class of 14 and hit points of 45. The shards have identical actions as the Macro-virus but cannot split further."
-                    ]
-                }
-            ],
-            "skill": {
-                "stealth": "+6"
-            },
-            "conditionImmune": [
-                "poisoned",
-                "charmed",
-                "frightened"
-            ],
-            "cr": "6",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Macro-virus_Polyhedral.png",
-            "fluff": {
-                "entries": [
-                    "A many-faced, crystalline horror that fractures into shards when damaged. Each shard scuttles and reforms, turning the battlefield into a minefield of cutting edges and infectious zones."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Macro-virus%2C%20Polyhedral.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
-            "name": "Macro-virus, Envelope",
-            "size": [
-                "M"
-            ],
-            "type": "aberration",
-            "alignment": [
-                "C"
-            ],
-            "ac": [
-                {
-                    "ac": 19.0,
-                    "from": [
-                        "Lipid Sheath"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 73.0,
-                "formula": "7 + 5.0"
-            },
-            "save": {
-                "con": "+8",
-                "dex": "+4"
-            },
-            "passive": 15.0,
-            "speed": {
-                "walk": 30
-            },
-            "str": 14.0,
-            "dex": 12.0,
-            "con": 20.0,
-            "int": 1.0,
-            "wis": 10.0,
-            "cha": 1.0,
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "Enveloped makes four attacks: three with its Sticky Appendage and one with its Viral Burst.;"
-                    ]
-                },
-                {
-                    "name": "Sticky Appendage",
-                    "entries": [
-                        "Melee Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage. The target must succeed on a DC 12 Constitution saving throw or gain 1 Viral Load.;"
-                    ]
-                },
-                {
-                    "name": "Viral Burst",
-                    "entries": [
-                        "Ranged Attack: +6 to hit, range 30 ft., one target. Hit: 13 (3d6 + 3) necrotic damage. The target must succeed on a DC 14 Constitution saving throw or gain 1 Viral Load.;"
-                    ]
-                },
-                {
-                    "name": "Infective Eruption",
-                    "entries": [
-                        "Enveloped releases a cloud of infectious spores in a 10-foot radius. Each creature in that area must make a DC 15 Constitution saving throw. On a failed save, a creature takes 30 (4d12 + 4) poison damage and gains 1 Viral Load. On a successful save, the creature takes half damage and does not gain Viral Load. This action recharges on a roll of 5 or 6 on a d6."
-                    ]
-                }
-            ],
-            "trait": [
-                {
-                    "name": "Lipid Sheath",
-                    "entries": [
-                        "Enveloped has resistance to bludgeoning, piercing, and slashing damage from non-magical weapons while it has temporary hit points.;"
-                    ]
-                },
-                {
-                    "name": "Viral Load",
-                    "entries": [
-                        "When a creature is hit by Enveloped's natural attack or starts its turn in its 10-ft Aerosol Aura, it must make a Constitution saving throw. On a failure, it gains 1 Viral Load (maximum 3 stacks). Each stack imposes a -1 penalty to attack rolls and checks, and at 3 or more stacks, the target is poisoned and cannot regain hit points until the end of its next turn."
-                    ]
-                }
-            ],
-            "skill": {
-                "stealth": "+4"
-            },
-            "immune": null,
-            "conditionImmune": [
-                "poisoned",
-                "charmed",
-                "frightened"
-            ],
-            "cr": "5",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Macro-virus_Envelope.png",
-            "fluff": {
-                "entries": [
-                    "A swollen sphere wrapped in a shifting, oily membrane, dripping with infectious residue. It mutates with each strike, budding off smaller replicas that swarm and overwhelm fleeing survivors."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Macro-virus%2C%20Envelope.png"
                         }
                     }
                 ]

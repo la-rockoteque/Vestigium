@@ -1,0 +1,85 @@
+{
+	"Source": "",
+	"Type": "Medium humanoid (Delvani), unaligned",
+	"HP": {
+		"Value": 39,
+		"Notes": "6d10 + 6"
+	},
+	"AC": {
+		"Value": 11,
+		"Notes": "natural armor"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"30 ft."
+	],
+	"Abilities": {
+		"Str": 14,
+		"Dex": 12,
+		"Con": 14,
+		"Int": 10,
+		"Wis": 11,
+		"Cha": 9
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Bludgeoning, Slashing and Piercing from non-magical weapons"
+	],
+	"DamageImmunities": [
+		"None"
+	],
+	"ConditionImmunities": [
+		"None"
+	],
+	"Saves": [
+		{
+			"Name": "CON",
+			"Modifier": 4
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Survival",
+			"Modifier": 4
+		},
+		{
+			"Name": "Stealth",
+			"Modifier": 3
+		}
+	],
+	"Senses": [
+		"Darkvision 60 ft."
+	],
+	"Languages": [
+		"Common, Undercommon"
+	],
+	"Challenge": "1",
+	"Traits": [
+		{
+			"Name": "Tunnel Adaptation",
+			"Content": "Advantage on checks made to navigate underground tunnels."
+		},
+		{
+			"Name": "Miner's Resilience",
+			"Content": "When taking damage from non-magical sources, subtract 1 from the damage taken."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Pickaxe Strike",
+			"Content": "Melee Attack: +4 to hit, dealing 7 (1d10 + 2) slashing damage and 5 (1d10) bludgeoning damage. The target must succeed on a DC 12 Strength saving throw or be knocked prone, and cannot be targeted by this action again until the condition ends."
+		},
+		{
+			"Name": "Crushing Blow",
+			"Content": "Special Attack: The creature uses Pickaxe Strike against a target it has previously knocked prone. If it hits, the target takes 10 (3d6) bludgeoning damage at the start of each of the creature's turns. The creature can only have one target affected by Crushing Blow at a time. If the creature is removed from combat, the target can escape the condition."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

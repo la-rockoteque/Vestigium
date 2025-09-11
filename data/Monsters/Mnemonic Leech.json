@@ -1,0 +1,98 @@
+{
+	"Source": "",
+	"Type": "Medium aberration, unaligned",
+	"HP": {
+		"Value": 85,
+		"Notes": "10d10 + 30"
+	},
+	"AC": {
+		"Value": 12,
+		"Notes": ""
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"30 ft., burrow 20 ft."
+	],
+	"Abilities": {
+		"Str": 10,
+		"Dex": 16,
+		"Con": 16,
+		"Int": 10,
+		"Wis": 14,
+		"Cha": 1
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"None"
+	],
+	"DamageImmunities": [
+		"None"
+	],
+	"ConditionImmunities": [
+		"None"
+	],
+	"Saves": [
+		{
+			"Name": "DEX",
+			"Modifier": 4
+		},
+		{
+			"Name": "WIS",
+			"Modifier": 3
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Stealth",
+			"Modifier": 5
+		},
+		{
+			"Name": "Insight",
+			"Modifier": 4
+		}
+	],
+	"Senses": [
+		"Blindsight 60 ft.",
+		"Darkvision 60 ft."
+	],
+	"Languages": [
+		"Undercommon"
+	],
+	"Challenge": "4",
+	"Traits": [
+		{
+			"Name": "Memory Drain",
+			"Content": "The Mnemonic Leech can sense the memories of creatures within 30 feet. It can force a target to make a Wisdom saving throw against its own spell save DC or lose a memory of the Leech's choice."
+		},
+		{
+			"Name": "Mind Burrow",
+			"Content": "When the Mnemonic Leech uses its burrow speed, it can move through creatures and objects as if they were difficult terrain. It takes 1d10 force damage if it ends its turn inside an object."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Multiattack",
+			"Content": "The Mnemonic Leech makes two attacks: one with Mind Siphon and one with Mind Probe."
+		},
+		{
+			"Name": "Mind Siphon",
+			"Content": "Melee Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) psychic damage, and the target must succeed on a DC 15 Intelligence saving throw or have disadvantage on the next attack roll it makes before the end of its next turn."
+		},
+		{
+			"Name": "Mind Probe",
+			"Content": "Melee Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) psychic damage, and the target must succeed on a DC 15 Wisdom saving throw or have its thoughts obscured until the end of its next turn, causing it to have disadvantage on all Intelligence checks."
+		},
+		{
+			"Name": "Memory Rewrite",
+			"Content": "The Mnemonic Leech forces a creature within 30 feet to make a Wisdom saving throw against its own spell save DC (DC 15). On a failure, the target forgets a significant memory and is incapacitated until the end of its next turn. This ability can be used again after the Mnemonic Leech successfully drains a memory with Memory Drain."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

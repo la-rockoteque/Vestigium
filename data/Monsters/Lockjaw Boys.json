@@ -1,0 +1,94 @@
+{
+	"Source": "",
+	"Type": "Medium humanoid (variant), unaligned",
+	"HP": {
+		"Value": 78,
+		"Notes": "12d8 + 24"
+	},
+	"AC": {
+		"Value": 11,
+		"Notes": "natural armor"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"30 ft."
+	],
+	"Abilities": {
+		"Str": 16,
+		"Dex": 14,
+		"Con": 14,
+		"Int": 1,
+		"Wis": 10,
+		"Cha": 1
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Bludgeoning, Slashing and Piercing from non-magical weapons"
+	],
+	"DamageImmunities": [
+		"None"
+	],
+	"ConditionImmunities": [
+		"Charmed",
+		"Frightened"
+	],
+	"Saves": [
+		{
+			"Name": "STR",
+			"Modifier": 5
+		},
+		{
+			"Name": "CON",
+			"Modifier": 4
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Athletics",
+			"Modifier": 5
+		},
+		{
+			"Name": "Intimidation",
+			"Modifier": 1
+		}
+	],
+	"Senses": [
+		"Darkvision 60 ft."
+	],
+	"Languages": [
+		"Understands Common but cannot speak"
+	],
+	"Challenge": "4",
+	"Traits": [
+		{
+			"Name": "Enhanced Strength",
+			"Content": "The Lockjaw Boys have an innate strength that grants them advantage on Strength checks and saving throws."
+		},
+		{
+			"Name": "Silent Communication",
+			"Content": "Despite their inability to speak, Lockjaw Boys can communicate effectively with each other and their masters through gestures and body language."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Brutal Assault",
+			"Content": "The Lockjaw Boys make two attacks: a powerful slam with their fists and a forceful shoulder charge. The fist attack is +5 to hit, dealing 10 (2d6 + 3) bludgeoning damage. If the target is an enemy with lower than half its hit points, the shoulder charge adds an additional 7 (2d6) bludgeoning damage. The target must succeed on a DC 13 Strength saving throw or be knocked prone."
+		},
+		{
+			"Name": "Silent Smash",
+			"Content": "Melee Attack: +5 to hit, dealing 10 (2d6 + 3) bludgeoning damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw or become stunned until the end of its next turn."
+		},
+		{
+			"Name": "Fearsome Grapple",
+			"Content": "The Lockjaw Boys attempt to grapple a target with their powerful hands. If successful, they deal 15 (3d8 + 3) bludgeoning damage as they crush their target and hold them tight. The target must succeed on a DC 15 Dexterity saving throw or be rendered incapacitated until they escape the grapple."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

@@ -1,0 +1,98 @@
+{
+	"Source": "",
+	"Type": "Medium aberration, unaligned",
+	"HP": {
+		"Value": 114,
+		"Notes": "12d10 + 48"
+	},
+	"AC": {
+		"Value": 14,
+		"Notes": "glitching form"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"40 ft., climb 30 ft."
+	],
+	"Abilities": {
+		"Str": 10,
+		"Dex": 18,
+		"Con": 18,
+		"Int": 2,
+		"Wis": 12,
+		"Cha": 15
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [],
+	"DamageImmunities": [],
+	"ConditionImmunities": [
+		"Blinded",
+		"Frightened"
+	],
+	"Saves": [
+		{
+			"Name": "DEX",
+			"Modifier": 8
+		},
+		{
+			"Name": "WIS",
+			"Modifier": 5
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Stealth",
+			"Modifier": 8
+		},
+		{
+			"Name": "Deception",
+			"Modifier": 6
+		}
+	],
+	"Senses": [
+		"Darkvision 60 ft."
+	],
+	"Languages": [
+		"Understands Common but cannot speak"
+	],
+	"Challenge": "5",
+	"Traits": [
+		{
+			"Name": "Lure of the Screen",
+			"Content": "Targets within 30 ft. must succeed on a DC 15 Wisdom saving throw or be compelled to walk toward the Ad-specter in a trance, ignoring any danger."
+		},
+		{
+			"Name": "Consume Glow",
+			"Content": "When the Ad-specter grapples a victim, that creature takes 10 (3d6) necrotic damage and 10 (3d6) psychic damage, leaving their skin faintly glowing afterward."
+		},
+		{
+			"Name": "Phased into Screens",
+			"Content": "As a bonus action, the Ad-specter can vanish into an electronic billboard, neon sign, or monitor within 10 ft., reappearing from another screen up to 60 ft. away."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Multiattack",
+			"Content": "The Ad-specter makes three attacks: one with its Glitch Claws and two with its Radiant Drain."
+		},
+		{
+			"Name": "Glitch Claws",
+			"Content": "Melee Attack: +6 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or be blinded until the end of its next turn."
+		},
+		{
+			"Name": "Radiant Drain",
+			"Content": "Melee Attack: +6 to hit, reach 10 ft., one target. Hit: 11 (1d8 + 3 + 1d8) radiant damage. If the target is Medium or smaller, it suffers disadvantage on its next attack roll, as it becomes overwhelmed by flickering lights."
+		},
+		{
+			"Name": "Hypnotic Pulse",
+			"Content": "The Ad-specter channels the glowing light within it to create a mesmerizing aura. Each creature within 30 ft. must succeed on a DC 14 Wisdom saving throw or take 10 (2d6 + 3) psychic damage and be charmed until the end of the Ad-specter's next turn. On a successful save, the target takes half the damage and isn't charmed."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

@@ -1,0 +1,95 @@
+{
+	"Source": "",
+	"Type": "Large monstrosity, unaligned",
+	"HP": {
+		"Value": 75,
+		"Notes": "10d10 + 20"
+	},
+	"AC": {
+		"Value": 14,
+		"Notes": "natural armor"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"60 ft., fly 60 ft."
+	],
+	"Abilities": {
+		"Str": 14,
+		"Dex": 18,
+		"Con": 14,
+		"Int": 2,
+		"Wis": 12,
+		"Cha": 16
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Psychic"
+	],
+	"DamageImmunities": [],
+	"ConditionImmunities": [
+		""
+	],
+	"Saves": [
+		{
+			"Name": "DEX",
+			"Modifier": 7
+		},
+		{
+			"Name": "WIS",
+			"Modifier": 4
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Perception",
+			"Modifier": 4
+		},
+		{
+			"Name": "Stealth",
+			"Modifier": 7
+		}
+	],
+	"Senses": [
+		"Darkvision 60 ft."
+	],
+	"Languages": [
+		"Understands Common but cannot speak"
+	],
+	"Challenge": "6",
+	"Traits": [
+		{
+			"Name": "Ominous Presence",
+			"Content": "Creatures that start their turn within 30 feet of the Mothman must succeed on a DC 13 Wisdom saving throw or become frightened until the start of their next turn."
+		},
+		{
+			"Name": "Evasive Maneuvers",
+			"Content": "The Mothman can take the Disengage action as a bonus action on its turn."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Multiattack",
+			"Content": "The Mothman makes two Wing Buffet attacks and one Claw attack."
+		},
+		{
+			"Name": "Claw",
+			"Content": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) slashing damage. The target must succeed on a DC 15 Wisdom saving throw or become frightened until the end of their next turn."
+		},
+		{
+			"Name": "Wing Buffet",
+			"Content": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 5) bludgeoning damage. The target must succeed on a DC 15 Strength saving throw or be pushed 10 feet away from the Mothman."
+		},
+		{
+			"Name": "Ominous Gaze",
+			"Content": "The Mothman targets one creature it can see within 60 feet. The target must succeed on a DC 15 Wisdom saving throw or be incapacitated until the end of its next turn, as it is overwhelmed by the terror of the Mothman's gaze."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

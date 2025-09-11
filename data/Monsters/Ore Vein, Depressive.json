@@ -1,0 +1,79 @@
+{
+	"Source": "",
+	"Type": "Large aberration (elemental/geological), unaligned",
+	"HP": {
+		"Value": 22,
+		"Notes": "5d8"
+	},
+	"AC": {
+		"Value": 11,
+		"Notes": "natural armor"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"0 ft. (anchored)"
+	],
+	"Abilities": {
+		"Str": 1,
+		"Dex": 1,
+		"Con": 14,
+		"Int": 1,
+		"Wis": 10,
+		"Cha": 1
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Bludgeoning, Piercing, Slashing from non-magical weapons"
+	],
+	"DamageImmunities": [],
+	"ConditionImmunities": [
+		"Prone"
+	],
+	"Saves": [
+		{
+			"Name": "CON",
+			"Modifier": 4
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Perception",
+			"Modifier": 2
+		}
+	],
+	"Senses": [
+		"Tremorsense 60 ft."
+	],
+	"Languages": [
+		""
+	],
+	"Challenge": "1",
+	"Traits": [
+		{
+			"Name": "Aura of Despair",
+			"Content": "Creatures that start their turn within 20 feet of the Ore Vein must make a Wisdom saving throw (DC 12) or suffer disadvantage on attack rolls and ability checks until the start of their next turn."
+		},
+		{
+			"Name": "Weakened Offense",
+			"Content": "The Ore Vein's Crystal Lash attack deals only 1d6 piercing damage."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Crystal Lash",
+			"Content": "Melee Attack: +3 to hit, dealing 3 (1d6) piercing damage. The jagged crystals lash out, sapping the strength of those struck."
+		},
+		{
+			"Name": "Shatter Pulse",
+			"Content": "Targeted Effect: The vein emits a crack of crystal energy. All creatures within 15 ft. must make a Constitution saving throw (DC 13) or take 9 (2d8) thunder damage and be deafened until the end of their next turn."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

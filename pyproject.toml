@@ -36,7 +36,10 @@ dependencies = [
     "tqdm (>=4.67.1,<5.0.0)",
     "shutils (>=0.1.0,<0.2.0)",
     "gspread (>=6.2.1,<7.0.0)",
-    "fraction (>=2.2.0,<3.0.0)"
+    "fraction (>=2.2.0,<3.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "ipywidgets (>=8.1.7,<9.0.0)",
+    "widgetsnbextension (>=4.0.14,<5.0.0)"
 ]
 
 

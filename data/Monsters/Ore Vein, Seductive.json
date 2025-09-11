@@ -1,0 +1,97 @@
+{
+	"Source": "",
+	"Type": "Medium monstrosity, unaligned",
+	"HP": {
+		"Value": 52,
+		"Notes": "8d8 + 16"
+	},
+	"AC": {
+		"Value": 13,
+		"Notes": "tough hide"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"20 ft."
+	],
+	"Abilities": {
+		"Str": 16,
+		"Dex": 14,
+		"Con": 14,
+		"Int": 1,
+		"Wis": 10,
+		"Cha": 1
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"None"
+	],
+	"DamageImmunities": [
+		"None"
+	],
+	"ConditionImmunities": [
+		"None"
+	],
+	"Saves": [
+		{
+			"Name": "STR",
+			"Modifier": 5
+		},
+		{
+			"Name": "DEX",
+			"Modifier": 4
+		},
+		{
+			"Name": "CON",
+			"Modifier": 2
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Stealth",
+			"Modifier": 4
+		}
+	],
+	"Senses": [
+		"Darkvision 60 ft."
+	],
+	"Languages": [
+		"Understands Common but can't speak"
+	],
+	"Challenge": "3",
+	"Traits": [
+		{
+			"Name": "Born of Neglect",
+			"Content": "The Pantry Root Horror awakens in areas of waste or neglect. Whenever food is thrown away or left to rot within a 30-foot radius, its presence becomes palpable, granting it advantage on Stealth checks made in those areas."
+		},
+		{
+			"Name": "Aura of Rot",
+			"Content": "Within 10 feet of the Pantry Root Horror, organic materials such as food, leather, or paper decay rapidly. Living creatures that start their turn within this aura must succeed on a DC 13 Constitution saving throw or be poisoned until the end of their next turn."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Multiattack",
+			"Content": "The Pantry Root Horror makes two attacks: one with Root Lash and one with Gnashing Maw."
+		},
+		{
+			"Name": "Root Lash",
+			"Content": "Melee Attack: +5 to hit, reach 10 ft., dealing 6 (1d8 + 2) bludgeoning damage. The target must succeed on a DC 12 Strength saving throw or be grappled (escape DC 12). While grappled, the target is restrained and takes 3 (1d6) damage at the start of each of its turns as it is slowly dragged towards the Pantry Root Horror."
+		},
+		{
+			"Name": "Gnashing Maw",
+			"Content": "Melee Attack: +5 to hit, dealing 8 (1d10 + 3) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 12 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to necrotic decay as the Pantry Root Horror's maw racially absorbs their vitality. Each time the Pantry Root Horror hits the affected target with this attack, the decay damage increases by an additional 5 (1d10). The target can take an action to end the effect with a successful DC 12 check. The condition also ends if the target receives magical healing."
+		},
+		{
+			"Name": "Soil Hunger",
+			"Content": "Recharge 5–6: The Pantry Root Horror creates a 10-foot patch of damp mulch and quicksand in a location within 30 feet. Creatures that enter or start their turn in this area must make a DC 12 Strength saving throw or be restrained and pulled prone into the ground as if being buried alive in sour earth. The area remains in place for 1 minute and is difficult terrain. Creatures can use an action to escape by succeeding on a DC 12 Strength check."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

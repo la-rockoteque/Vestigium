@@ -1,0 +1,105 @@
+{
+	"Source": "",
+	"Type": "Medium construct, unaligned",
+	"HP": {
+		"Value": 76,
+		"Notes": "8d12 + 24"
+	},
+	"AC": {
+		"Value": 12,
+		"Notes": ""
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"30 ft."
+	],
+	"Abilities": {
+		"Str": 12,
+		"Dex": 16,
+		"Con": 16,
+		"Int": 1,
+		"Wis": 10,
+		"Cha": 1
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"None"
+	],
+	"DamageImmunities": [
+		"None"
+	],
+	"ConditionImmunities": [
+		"Blinded",
+		"Charmed",
+		"Deafened",
+		"Frightened",
+		"Grappled",
+		"Incapacitated",
+		"Paralyzed",
+		"Petrified",
+		"Poisoned",
+		"Prone",
+		"Restrained",
+		"Stunned",
+		"Unconscious"
+	],
+	"Saves": [
+		{
+			"Name": "DEX",
+			"Modifier": 5
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Stealth",
+			"Modifier": 5
+		},
+		{
+			"Name": "Perception",
+			"Modifier": 2
+		}
+	],
+	"Senses": [
+		"Blindsight 60 ft."
+	],
+	"Languages": [
+		"Understands Primordial but cannot speak"
+	],
+	"Challenge": "4",
+	"Traits": [
+		{
+			"Name": "Lifelike Appearance",
+			"Content": "The Mannequin Drone has advantage on Dexterity (Stealth) checks made to avoid detection."
+		},
+		{
+			"Name": "Adaptive Camouflage",
+			"Content": "The Mannequin Drone can blend into its surroundings, granting it a +2 bonus to AC against attacks made from creatures that cannot see it."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Razor Sharp Strike",
+			"Content": "Melee Attack: +8 to hit, dealing 19 (3d8 + 6) slashing damage. If the target is hit, they must succeed on a DC 12 Constitution saving throw or become Bleeding, taking 5 (1d10) damage at the start of their next turn. If the target is affected by this condition, the Mannequin Drone can use Follow-Up Strike as a bonus action."
+		},
+		{
+			"Name": "Follow-Up Strike",
+			"Content": "Melee Attack: +8 to hit, dealing 22 (3d10 + 6) piercing damage. This action can only be used against a creature affected by the Bleeding condition."
+		},
+		{
+			"Name": "Illusory Assault",
+			"Content": "The Mannequin Drone merges with its surroundings and creates illusory duplicates of itself. It makes three melee attacks against a single target: +8 to hit, each dealing 10 (2d6 + 3) psychic damage. On a hit, the target must succeed on a DC 12 Wisdom saving throw or become Confused until the end of their next turn. This ability recharges on a roll of 5 or 6 on a d6."
+		},
+		{
+			"Name": "Silent Watcher",
+			"Content": "The Mannequin Drone charges up its sensors for a moment, gaining advantage on its next attack. If this attack hits, it deals an additional 15 (3d8) force damage and the target must succeed on a DC 12 Strength saving throw or be pushed 10 feet away. This ability can be used once per short rest."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

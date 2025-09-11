@@ -1,0 +1,110 @@
+{
+	"Source": "",
+	"Type": "Large construct, unaligned",
+	"HP": {
+		"Value": 127,
+		"Notes": "15d10 + 45"
+	},
+	"AC": {
+		"Value": 18,
+		"Notes": "natural armor"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"30 ft., climb 30 ft."
+	],
+	"Abilities": {
+		"Str": 14,
+		"Dex": 16,
+		"Con": 16,
+		"Int": 12,
+		"Wis": 14,
+		"Cha": 11
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Thunder, Force, Psychic"
+	],
+	"DamageImmunities": [
+		"Poison, Psychic"
+	],
+	"ConditionImmunities": [
+		"Blinded",
+		"Frightened"
+	],
+	"Saves": [
+		{
+			"Name": "DEX",
+			"Modifier": 6
+		},
+		{
+			"Name": "CON",
+			"Modifier": 6
+		},
+		{
+			"Name": "WIS",
+			"Modifier": 5
+		},
+		{
+			"Name": "INT",
+			"Modifier": 5
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Arcana",
+			"Modifier": 5
+		},
+		{
+			"Name": "Perception",
+			"Modifier": 5
+		}
+	],
+	"Senses": [
+		"Blindsight 60 ft."
+	],
+	"Languages": [
+		"Primordial"
+	],
+	"Challenge": "7",
+	"Traits": [
+		{
+			"Name": "Architectural Alteration",
+			"Content": "The Lurking Ward can manipulate its surroundings, altering architecture within a 30-foot radius to create walls and barriers temporarily. This ability does not require an action and can last for up to 1 hour."
+		},
+		{
+			"Name": "Invisible Enforcement",
+			"Content": "The presence of a Lurking Ward creates an invisible field that prevents creatures from passing through certain areas without permission, effectively blocking paths unless a successful Intelligence (Investigation) check DC 15 is made."
+		},
+		{
+			"Name": "Spellcasting",
+			"Content": "The Lurking Ward's innate ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells: At will: mage hand, minor illusion. 1/day each: hold person, unseen servant."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Multiattack",
+			"Content": "The Lurking Ward makes three attacks: one with Tile Smash and two with Architectural Strike."
+		},
+		{
+			"Name": "Tile Smash",
+			"Content": "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 19 (2d10 + 4) bludgeoning damage. On a hit, the target must succeed on a DC 14 Strength saving throw or be knocked prone."
+		},
+		{
+			"Name": "Architectural Strike",
+			"Content": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) force damage. The target must succeed on a DC 14 Constitution saving throw or have disadvantage on its next attack roll."
+		},
+		{
+			"Name": "Structural Collapse (Recharge 5-6)",
+			"Content": "The Lurking Ward creates an effect in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 49 (11d8) force damage on a failed save, or half as much damage on a successful one. Creatures that fail the save are also knocked back 10 feet."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}
