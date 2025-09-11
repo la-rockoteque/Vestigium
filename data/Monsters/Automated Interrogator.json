@@ -1,1 +1,87 @@
-{"Source":"","Type":"Medium construct, unaligned","HP":{"Value":39,"Notes":"6d10 + 6"},"AC":{"Value":11,"Notes":"natural armor"},"InitiativeModifier":0,"InitiativeAdvantage":false,"Speed":["30 ft."],"Abilities":{"Str":12,"Dex":14,"Con":16,"Int":1,"Wis":14,"Cha":1},"DamageVulnerabilities":[],"DamageResistances":["Psychic"],"DamageImmunities":[],"ConditionImmunities":[""],"Saves":[{"Name":"CON","Modifier":5},{"Name":"WIS","Modifier":4}],"Skills":[{"Name":"Investigation","Modifier":4},{"Name":"Insight","Modifier":4}],"Senses":["Blindsight 60 ft."],"Languages":[" understands Common but cannot speak"],"Challenge":"1","Traits":[{"Name":"Adaptive Query","Content":"The Automated Interrogator can analyze a target's responses and adjust its interrogative tactics, gaining advantage on Insight checks against that target if it has already succeeded on an Investigation check related to them."},{"Name":"Dissonant Feedback","Content":"When a creature within 30 feet of the Automated Interrogator makes a saving throw against being frightened or charmed, the Automated Interrogator adds its proficiency bonus to the DC of the save."}],"Actions":[{"Name":"Psychic Probe","Content":"Melee Attack: +4 to hit, dealing 7 (1d10 + 2) psychic damage and 5 (1d10) additional psychic damage. The target must succeed on a DC 13 Intelligence saving throw or be affected by the stunned condition until the end of its next turn. The target cannot be targeted by this action again until the condition ends."},{"Name":"Enhanced Interrogation","Content":"Special Attack: The Automated Interrogator uses Psychic Probe against a target it has previously left stunned. If it hits, the target is affected by the frightened condition and takes 10 (3d6) psychic damage at the start of each of the creature's turns. The Automated Interrogator can only have one target affected by Enhanced Interrogation at a time. If the creature is removed, the target can escape the condition."}],"BonusActions":[],"Reactions":[],"MythicActions":[],"Description":"","Player":"","Version":"3.6.10","ImageURL":""}
+{
+	"Source": "",
+	"Type": "Medium construct, unaligned",
+	"HP": {
+		"Value": 39,
+		"Notes": "6d10 + 6"
+	},
+	"AC": {
+		"Value": 11,
+		"Notes": "natural armor"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"30 ft."
+	],
+	"Abilities": {
+		"Str": 12,
+		"Dex": 14,
+		"Con": 16,
+		"Int": 1,
+		"Wis": 14,
+		"Cha": 1
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Psychic"
+	],
+	"DamageImmunities": [],
+	"ConditionImmunities": [
+		""
+	],
+	"Saves": [
+		{
+			"Name": "CON",
+			"Modifier": 5
+		},
+		{
+			"Name": "WIS",
+			"Modifier": 4
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Investigation",
+			"Modifier": 4
+		},
+		{
+			"Name": "Insight",
+			"Modifier": 4
+		}
+	],
+	"Senses": [
+		"Blindsight 60 ft."
+	],
+	"Languages": [
+		" understands Common but cannot speak"
+	],
+	"Challenge": "1",
+	"Traits": [
+		{
+			"Name": "Adaptive Query",
+			"Content": "The Automated Interrogator can analyze a target's responses and adjust its interrogative tactics, gaining advantage on Insight checks against that target if it has already succeeded on an Investigation check related to them."
+		},
+		{
+			"Name": "Dissonant Feedback",
+			"Content": "When a creature within 30 feet of the Automated Interrogator makes a saving throw against being frightened or charmed, the Automated Interrogator adds its proficiency bonus to the DC of the save."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Psychic Probe",
+			"Content": "Melee Attack: +4 to hit, dealing 7 (1d10 + 2) psychic damage and 5 (1d10) additional psychic damage. The target must succeed on a DC 13 Intelligence saving throw or be affected by the stunned condition until the end of its next turn. The target cannot be targeted by this action again until the condition ends."
+		},
+		{
+			"Name": "Enhanced Interrogation",
+			"Content": "Special Attack: The Automated Interrogator uses Psychic Probe against a target it has previously left stunned. If it hits, the target is affected by the frightened condition and takes 10 (3d6) psychic damage at the start of each of the creature's turns. The Automated Interrogator can only have one target affected by Enhanced Interrogation at a time. If the creature is removed, the target can escape the condition."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

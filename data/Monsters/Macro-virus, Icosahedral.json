@@ -1,0 +1,87 @@
+{
+	"Source": "",
+	"Type": "Medium, Aberration (Anomalous, Viral), chaotic",
+	"HP": {
+		"Value": 76,
+		"Notes": "8d12 + 24"
+	},
+	"AC": {
+		"Value": 12,
+		"Notes": "spiked shell"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"30 ft."
+	],
+	"Abilities": {
+		"Str": 12,
+		"Dex": 15,
+		"Con": 16,
+		"Int": 1,
+		"Wis": 5,
+		"Cha": 1
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"None"
+	],
+	"DamageImmunities": [
+		"None"
+	],
+	"ConditionImmunities": [
+		"Poisoned",
+		"Charmed",
+		"Frightened"
+	],
+	"Saves": [
+		{
+			"Name": "CON",
+			"Modifier": 3
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Stealth",
+			"Modifier": 4
+		}
+	],
+	"Senses": [
+		"Blindsight 60 ft."
+	],
+	"Languages": [
+		"Understands Primordial but cannot speak"
+	],
+	"Challenge": "4",
+	"Traits": [
+		{
+			"Name": "Aerosol Aura",
+			"Content": "The macro-virus emanates a 10-foot radius aura. Creatures that start their turn in this aura must make a DC 12 Constitution saving throw or gain 1 stack of Viral Load."
+		},
+		{
+			"Name": "Viral Load",
+			"Content": "A creature with 1 stack has disadvantage on attack rolls and checks. At 3 or more stacks, the creature is poisoned and cannot regain hit points until the end of its next turn. A successful save reduces the stacks by 1 at the end of the creature's turn."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Puncture Charge",
+			"Content": "Melee Attack: +8 to hit, dealing 19 (3d8 + 6) piercing damage. On a hit, the target must succeed on a DC 12 Constitution saving throw or gain 1 stack of Viral Load. If the target is affected by this condition, the macro-virus can use Spike Burst as a bonus action on its next turn."
+		},
+		{
+			"Name": "Viral Spike Assault",
+			"Content": "Melee Attack: +8 to hit, dealing 22 (3d10 + 6) piercing damage. This action can only be used on a creature that has 1 or more stacks of Viral Load."
+		},
+		{
+			"Name": "Rolling Charge",
+			"Content": "The macro-virus rolls forward in a 30 ft. line. Each creature in the line must make a DC 14 Dexterity saving throw, taking 18 (3d6 bludgeoning + 2d4 piercing) damage on a failed save and is knocked prone. On a success, a creature takes half damage and is not knocked prone. Creatures that fail the saving throw also gain 1 stack of Viral Load."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

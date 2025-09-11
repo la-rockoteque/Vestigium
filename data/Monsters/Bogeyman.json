@@ -1,1 +1,132 @@
-{"Source":"","Type":"Medium aberration, chaotic neutral","HP":{"Value":240,"Notes":"20d12 + 110"},"AC":{"Value":18,"Notes":"natural armor"},"InitiativeModifier":0,"InitiativeAdvantage":false,"Speed":["40 ft., fly 60 ft."],"Abilities":{"Str":13,"Dex":16,"Con":20,"Int":14,"Wis":12,"Cha":20},"DamageVulnerabilities":[],"DamageResistances":["Psychic, Necrotic, Radiant"],"DamageImmunities":["Frightened"],"ConditionImmunities":["Frightened","Charmed"],"Saves":[{"Name":"DEX","Modifier":11},{"Name":"CON","Modifier":8},{"Name":"WIS","Modifier":8},{"Name":"CHA","Modifier":11}],"Skills":[{"Name":"Stealth","Modifier":11},{"Name":"Deception","Modifier":10},{"Name":"Insight","Modifier":8}],"Senses":["Darkvision 60 ft."],"Languages":["Common, telepathy 60 ft."],"Challenge":"16","Traits":[{"Name":"Aura of Fear","Content":"Any creature that starts its turn within 10 feet of the Bogeyman must succeed on a DC 18 Wisdom saving throw or be frightened until the start of its next turn."},{"Name":"Shapeshifter","Content":"The Bogeyman can change its appearance as per the disguise self spell at will, allowing it to blend into nightmares and fears."},{"Name":"Spellcasting","Content":"The Bogeyman is a 12th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). It can innately cast the following spells, requiring no material components: At will: minor illusion, dancing lights, fear. 3/day each: darkness, invisibility, nightmare, phantasmal killer."},{"Name":"Legendary Resistance (3/Day)","Content":"If the Bogeyman fails a saving throw, it can choose to succeed instead."}],"Actions":[{"Name":"Multiattack","Content":"The Bogeyman makes two attacks with Nightmarish Grasp and one attack with Haunting Strike."},{"Name":"Nightmarish Grasp","Content":"Melee Attack: +12 to hit, dealing 12 (2d10 + 2) psychic damage. A creature hit by this attack must succeed on a DC 19 Wisdom saving throw or be frightened until the end of its next turn."},{"Name":"Haunting Strike","Content":"Melee Attack: +12 to hit, dealing 19 (3d10 + 2) necrotic damage. The target must make a DC 19 Constitution saving throw. On a failure, it becomes poisoned until the end of its next turn."},{"Name":"Terrorizing Visions","Content":"The Bogeyman manifests a horrifying illusion in a 30-foot cone. Each creature within range must make a DC 19 Wisdom saving throw or take 39 (7d10) psychic damage, or half as much on a successful save, and be frightened until the end of its next turn."}],"BonusActions":[],"Reactions":[],"LegendaryActions":[{"Name":"Whispers of the Void Legendary Action 1 (Costs 1 Action)","Content":"The Bogeyman can emit haunting whispers that surround a single creature within 30 feet. The target must succeed on a DC 19 Wisdom saving throw or have disadvantage on its next attack roll before the end of its next turn."},{"Name":"Shadowy Terror Legendary Action 2 (Costs 2 Actions)","Content":"The Bogeyman can choose to use Terrorizing Visions."},{"Name":"Maddening Haunt Legendary Action 3 (Costs 3 Actions)","Content":"The Bogeyman releases a pulse of dark energy in a 20-foot radius. Each creature of its choice must succeed on a DC 19 Constitution saving throw or take 39 (7d10) necrotic damage and have disadvantage on saving throws against being frightened until the end of its next turn."}],"MythicActions":[],"Description":"","Player":"","Version":"3.6.10","ImageURL":""}
+{
+	"Source": "",
+	"Type": "Medium monstrosity, chaotic neutral",
+	"HP": {
+		"Value": 240,
+		"Notes": "20d12 + 110"
+	},
+	"AC": {
+		"Value": 18,
+		"Notes": "natural armor"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"40 ft., fly 60 ft."
+	],
+	"Abilities": {
+		"Str": 13,
+		"Dex": 16,
+		"Con": 20,
+		"Int": 14,
+		"Wis": 12,
+		"Cha": 20
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Psychic, Necrotic, Radiant"
+	],
+	"DamageImmunities": [
+		"Frightened"
+	],
+	"ConditionImmunities": [
+		"Frightened",
+		"Charmed"
+	],
+	"Saves": [
+		{
+			"Name": "DEX",
+			"Modifier": 11
+		},
+		{
+			"Name": "CON",
+			"Modifier": 8
+		},
+		{
+			"Name": "WIS",
+			"Modifier": 8
+		},
+		{
+			"Name": "CHA",
+			"Modifier": 11
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Stealth",
+			"Modifier": 11
+		},
+		{
+			"Name": "Deception",
+			"Modifier": 10
+		},
+		{
+			"Name": "Insight",
+			"Modifier": 8
+		}
+	],
+	"Senses": [
+		"Darkvision 60 ft."
+	],
+	"Languages": [
+		"Common, telepathy 60 ft."
+	],
+	"Challenge": "16",
+	"Traits": [
+		{
+			"Name": "Aura of Fear",
+			"Content": "Any creature that starts its turn within 10 feet of the Bogeyman must succeed on a DC 18 Wisdom saving throw or be frightened until the start of its next turn."
+		},
+		{
+			"Name": "Shapeshifter",
+			"Content": "The Bogeyman can change its appearance as per the disguise self spell at will, allowing it to blend into nightmares and fears."
+		},
+		{
+			"Name": "Spellcasting",
+			"Content": "The Bogeyman is a 12th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 18, +10 to hit with spell attacks). It can innately cast the following spells, requiring no material components: At will: minor illusion, dancing lights, fear. 3/day each: darkness, invisibility, nightmare, phantasmal killer."
+		},
+		{
+			"Name": "Legendary Resistance (3/Day)",
+			"Content": "If the Bogeyman fails a saving throw, it can choose to succeed instead."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Multiattack",
+			"Content": "The Bogeyman makes two attacks with Nightmarish Grasp and one attack with Haunting Strike."
+		},
+		{
+			"Name": "Nightmarish Grasp",
+			"Content": "Melee Attack: +12 to hit, dealing 12 (2d10 + 2) psychic damage. A creature hit by this attack must succeed on a DC 19 Wisdom saving throw or be frightened until the end of its next turn."
+		},
+		{
+			"Name": "Haunting Strike",
+			"Content": "Melee Attack: +12 to hit, dealing 19 (3d10 + 2) necrotic damage. The target must make a DC 19 Constitution saving throw. On a failure, it becomes poisoned until the end of its next turn."
+		},
+		{
+			"Name": "Terrorizing Visions",
+			"Content": "The Bogeyman manifests a horrifying illusion in a 30-foot cone. Each creature within range must make a DC 19 Wisdom saving throw or take 39 (7d10) psychic damage, or half as much on a successful save, and be frightened until the end of its next turn."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"LegendaryActions": [
+		{
+			"Name": "Whispers of the Void Legendary Action 1 (Costs 1 Action)",
+			"Content": "The Bogeyman can emit haunting whispers that surround a single creature within 30 feet. The target must succeed on a DC 19 Wisdom saving throw or have disadvantage on its next attack roll before the end of its next turn."
+		},
+		{
+			"Name": "Shadowy Terror Legendary Action 2 (Costs 2 Actions)",
+			"Content": "The Bogeyman can choose to use Terrorizing Visions."
+		},
+		{
+			"Name": "Maddening Haunt Legendary Action 3 (Costs 3 Actions)",
+			"Content": "The Bogeyman releases a pulse of dark energy in a 20-foot radius. Each creature of its choice must succeed on a DC 19 Constitution saving throw or take 39 (7d10) necrotic damage and have disadvantage on saving throws against being frightened until the end of its next turn."
+		}
+	],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

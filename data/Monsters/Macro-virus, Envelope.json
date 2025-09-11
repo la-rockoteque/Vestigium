@@ -1,0 +1,95 @@
+{
+	"Source": "",
+	"Type": "Medium, Aberration (Anomalous, Viral), chaotic",
+	"HP": {
+		"Value": 73,
+		"Notes": "7d8 + 42"
+	},
+	"AC": {
+		"Value": 19,
+		"Notes": "Lipid Sheath"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"30 ft."
+	],
+	"Abilities": {
+		"Str": 14,
+		"Dex": 12,
+		"Con": 20,
+		"Int": 1,
+		"Wis": 10,
+		"Cha": 1
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Bludgeoning, Piercing, and Slashing from non-magical weapons"
+	],
+	"DamageImmunities": [
+		"none"
+	],
+	"ConditionImmunities": [
+		"Poisoned",
+		"Charmed",
+		"Frightened"
+	],
+	"Saves": [
+		{
+			"Name": "CON",
+			"Modifier": 8
+		},
+		{
+			"Name": "DEX",
+			"Modifier": 4
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Stealth",
+			"Modifier": 4
+		}
+	],
+	"Senses": [
+		"Blindsight 30 ft."
+	],
+	"Languages": [
+		"none"
+	],
+	"Challenge": "5",
+	"Traits": [
+		{
+			"Name": "Lipid Sheath",
+			"Content": "Enveloped has resistance to bludgeoning, piercing, and slashing damage from non-magical weapons while it has temporary hit points."
+		},
+		{
+			"Name": "Viral Load",
+			"Content": "When a creature is hit by Enveloped's natural attack or starts its turn in its 10-ft Aerosol Aura, it must make a Constitution saving throw. On a failure, it gains 1 Viral Load (maximum 3 stacks). Each stack imposes a -1 penalty to attack rolls and checks, and at 3 or more stacks, the target is poisoned and cannot regain hit points until the end of its next turn."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Multiattack",
+			"Content": "Enveloped makes four attacks: three with its Sticky Appendage and one with its Viral Burst."
+		},
+		{
+			"Name": "Sticky Appendage",
+			"Content": "Melee Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage. The target must succeed on a DC 12 Constitution saving throw or gain 1 Viral Load."
+		},
+		{
+			"Name": "Viral Burst",
+			"Content": "Ranged Attack: +6 to hit, range 30 ft., one target. Hit: 13 (3d6 + 3) necrotic damage. The target must succeed on a DC 14 Constitution saving throw or gain 1 Viral Load."
+		},
+		{
+			"Name": "Infective Eruption",
+			"Content": "Enveloped releases a cloud of infectious spores in a 10-foot radius. Each creature in that area must make a DC 15 Constitution saving throw. On a failed save, a creature takes 30 (4d12 + 4) poison damage and gains 1 Viral Load. On a successful save, the creature takes half damage and does not gain Viral Load. This action recharges on a roll of 5 or 6 on a d6."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

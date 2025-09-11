@@ -1,0 +1,100 @@
+{
+	"Source": "",
+	"Type": "Medium, Aberration (Anomalous, Viral), chaotic",
+	"HP": {
+		"Value": 135,
+		"Notes": "18d10 + 45"
+	},
+	"AC": {
+		"Value": 16,
+		"Notes": ""
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"40 ft., climb 40 ft., ceiling-walk"
+	],
+	"Abilities": {
+		"Str": 16,
+		"Dex": 18,
+		"Con": 16,
+		"Int": 1,
+		"Wis": 10,
+		"Cha": 1
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Necrotic, Psychic"
+	],
+	"DamageImmunities": [
+		"Poison"
+	],
+	"ConditionImmunities": [
+		"Poisoned",
+		"Charmed",
+		"Frightened"
+	],
+	"Saves": [
+		{
+			"Name": "DEX",
+			"Modifier": 8
+		},
+		{
+			"Name": "CON",
+			"Modifier": 7
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Athletics",
+			"Modifier": 7
+		},
+		{
+			"Name": "Stealth",
+			"Modifier": 8
+		}
+	],
+	"Senses": [
+		"Blindsight 60 ft.",
+		"Darkvision 60 ft."
+	],
+	"Languages": [
+		"Undercommon"
+	],
+	"Challenge": "8",
+	"Traits": [
+		{
+			"Name": "Viral Load",
+			"Content": "When a creature is hit by the Macro-virus's natural attack or starts its turn in the virus’s Aerosol Aura (10 ft.), it must make a Constitution saving throw. On a failed save, it gains 1 Viral Load (maximum 3/4 by tier). Each stack reduces attack rolls and checks by 1, and at 3+ stacks, the target is poisoned and cannot regain HP until the end of its next turn. A successful save removes 1 stack at the end of the creature's turn. Magical disease cures remove all stacks."
+		},
+		{
+			"Name": "Wall/Ceiling Vault",
+			"Content": "The Macro-virus ignores opportunity attacks when moving from wall or ceiling to the floor."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Multiattack",
+			"Content": "The Macro-virus makes two Syringe Stab attacks and one Claw Sweep attack."
+		},
+		{
+			"Name": "Syringe Stab",
+			"Content": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 18 (2d8 + 4) piercing damage, and the target must make a DC 15 Constitution saving throw. On a failed save, it gains 1 Viral Load."
+		},
+		{
+			"Name": "Claw Sweep",
+			"Content": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d6 + 4) slashing damage. If the target has 2 or more Viral Load stacks, it has disadvantage on the saving throw to escape the grapple (DC 15)."
+		},
+		{
+			"Name": "Genome Rewrite (Recharge 5-6)",
+			"Content": "The Macro-virus unleashes a wave of corrupted energy in a 15-foot cone. Each creature in that area must make a DC 16 Constitution saving throw, taking 36 (4d8) necrotic damage on a failed save, or half as much damage on a successful one. On a failed save, the target’s speed is reduced by 10 ft. and their spell save DC or attack rolls are reduced by 1 until the end of their next turn for each stack of Viral Load (minimum of -1, maximum of -3)."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

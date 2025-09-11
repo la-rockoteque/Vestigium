@@ -1,1 +1,94 @@
-{"Source":"","Type":"Small elemental, unaligned","HP":{"Value":33,"Notes":"6d8 + 6"},"AC":{"Value":18,"Notes":"natural armor"},"InitiativeModifier":0,"InitiativeAdvantage":false,"Speed":["0 ft., fly 60 ft. (hover)"],"Abilities":{"Str":1,"Dex":18,"Con":13,"Int":1,"Wis":1,"Cha":1},"DamageVulnerabilities":[],"DamageResistances":["Lightning, Thunder"],"DamageImmunities":["Force"],"ConditionImmunities":["Incapacitated","Prone"],"Saves":[{"Name":"DEX","Modifier":6},{"Name":"CON","Modifier":3}],"Skills":[{"Name":"Acrobatics","Modifier":6},{"Name":"Stealth","Modifier":6}],"Senses":["Blindsight 60 ft."],"Languages":["—"],"Challenge":"1","Traits":[{"Name":"Evasive Movement","Content":"Ball Lightning can move through other creatures and objects as if they were difficult terrain. It takes 1d10 force damage if it ends its turn inside an object."},{"Name":"Explosive Presence","Content":"If Ball Lightning drops to 0 hit points, it explodes in a 10-foot radius, dealing 3d6 lightning damage to all creatures in that area (DC 13 Dexterity saving throw for half damage)."}],"Actions":[{"Name":"Multiattack","Content":"The Ball Lightning makes two attacks with its Lightning Snap."},{"Name":"Lightning Snap","Content":"Ranged Spell Attack: +4 to hit, range 60 ft., one target. Hit: 10 (3d6) lightning damage and the target must succeed on a DC 13 Constitution saving throw or become stunned until the end of its next turn."},{"Name":"Electric Surge","Content":"The Ball Lightning releases a burst of electricity in a 15-foot radius. Each creature in that area must make a DC 13 Dexterity saving throw, taking 12 (3d8 + 1) lightning damage on a failed save, or half as much damage on a successful one. Additionally, creatures that fail the save are pushed 10 feet away from the Ball Lightning."}],"BonusActions":[],"Reactions":[],"MythicActions":[],"Description":"","Player":"","Version":"3.6.10","ImageURL":""}
+{
+	"Source": "",
+	"Type": "Small elemental, unaligned",
+	"HP": {
+		"Value": 33,
+		"Notes": "6d8 + 6"
+	},
+	"AC": {
+		"Value": 18,
+		"Notes": "natural armor"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"0 ft., fly 60 ft. (hover)"
+	],
+	"Abilities": {
+		"Str": 1,
+		"Dex": 18,
+		"Con": 13,
+		"Int": 1,
+		"Wis": 1,
+		"Cha": 1
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Lightning, Thunder"
+	],
+	"DamageImmunities": [
+		"Force"
+	],
+	"ConditionImmunities": [
+		"Incapacitated",
+		"Prone"
+	],
+	"Saves": [
+		{
+			"Name": "DEX",
+			"Modifier": 6
+		},
+		{
+			"Name": "CON",
+			"Modifier": 3
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Acrobatics",
+			"Modifier": 6
+		},
+		{
+			"Name": "Stealth",
+			"Modifier": 6
+		}
+	],
+	"Senses": [
+		"Blindsight 60 ft."
+	],
+	"Languages": [
+		"—"
+	],
+	"Challenge": "1",
+	"Traits": [
+		{
+			"Name": "Evasive Movement",
+			"Content": "Ball Lightning can move through other creatures and objects as if they were difficult terrain. It takes 1d10 force damage if it ends its turn inside an object."
+		},
+		{
+			"Name": "Explosive Presence",
+			"Content": "If Ball Lightning drops to 0 hit points, it explodes in a 10-foot radius, dealing 3d6 lightning damage to all creatures in that area (DC 13 Dexterity saving throw for half damage)."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Multiattack",
+			"Content": "The Ball Lightning makes two attacks with its Lightning Snap."
+		},
+		{
+			"Name": "Lightning Snap",
+			"Content": "Ranged Spell Attack: +4 to hit, range 60 ft., one target. Hit: 10 (3d6) lightning damage and the target must succeed on a DC 13 Constitution saving throw or become stunned until the end of its next turn."
+		},
+		{
+			"Name": "Electric Surge",
+			"Content": "The Ball Lightning releases a burst of electricity in a 15-foot radius. Each creature in that area must make a DC 13 Dexterity saving throw, taking 12 (3d8 + 1) lightning damage on a failed save, or half as much damage on a successful one. Additionally, creatures that fail the save are pushed 10 feet away from the Ball Lightning."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

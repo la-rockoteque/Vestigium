@@ -1,1 +1,89 @@
-{"Source":"","Type":"Small aberration, unaligned","HP":{"Value":37,"Notes":"5d10 + 10"},"AC":{"Value":14,"Notes":"natural armor"},"InitiativeModifier":0,"InitiativeAdvantage":false,"Speed":["30 ft., fly 30 ft. (hover)"],"Abilities":{"Str":10,"Dex":16,"Con":14,"Int":1,"Wis":12,"Cha":1},"DamageVulnerabilities":[],"DamageResistances":["Necrotic, Psychic"],"DamageImmunities":["Poison"],"ConditionImmunities":["Poisoned"],"Saves":[{"Name":"DEX","Modifier":5},{"Name":"WIS","Modifier":3}],"Skills":[{"Name":"Stealth","Modifier":5}],"Senses":["Darkvision 60 ft."],"Languages":["Understands Common but can't speak"],"Challenge":"1","Traits":[{"Name":"Ribbonesque Absorption","Content":"The Cache Leech can absorb written text and erase meaning from objects or messages it touches."},{"Name":"Evasive Presence","Content":"The Cache Leech has advantage on Dexterity saving throws against attacks due to its unearthly and deceptive movements."}],"Actions":[{"Name":"Ribbin Lash","Content":"Melee Attack: +5 to hit, dealing 9 (2d4 + 3) slashing damage. Targets must make a DC 13 Intelligence saving throw or be affected by confusion, unable to focus clearly on their tasks for 1 minute."},{"Name":"Text Eraser Swipe","Content":"Melee Attack: +5 to hit, dealing 12 (2d8 + 3) psychic damage. Targets must make a DC 13 Wisdom saving throw or have disadvantage on their next attack roll as their words seem to fade away."},{"Name":"Ribbone Cascade","Content":"Melee Attack: +5 to hit, dealing 10 (2d6 + 3) necrotic damage. Targets must make a DC 13 Constitution saving throw or have a portion of their memory temporarily erased, granting them disadvantage on Intelligence checks for 1 minute."}],"BonusActions":[],"Reactions":[],"MythicActions":[],"Description":"","Player":"","Version":"3.6.10","ImageURL":""}
+{
+	"Source": "",
+	"Type": "Small aberration, unaligned",
+	"HP": {
+		"Value": 37,
+		"Notes": "5d10 + 10"
+	},
+	"AC": {
+		"Value": 14,
+		"Notes": "natural armor"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"30 ft., fly 30 ft. (hover)"
+	],
+	"Abilities": {
+		"Str": 10,
+		"Dex": 16,
+		"Con": 14,
+		"Int": 1,
+		"Wis": 12,
+		"Cha": 1
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Necrotic, Psychic"
+	],
+	"DamageImmunities": [
+		"Poison"
+	],
+	"ConditionImmunities": [
+		"Poisoned"
+	],
+	"Saves": [
+		{
+			"Name": "DEX",
+			"Modifier": 5
+		},
+		{
+			"Name": "WIS",
+			"Modifier": 3
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Stealth",
+			"Modifier": 5
+		}
+	],
+	"Senses": [
+		"Darkvision 60 ft."
+	],
+	"Languages": [
+		"Understands Common but can't speak"
+	],
+	"Challenge": "1",
+	"Traits": [
+		{
+			"Name": "Ribbonesque Absorption",
+			"Content": "The Cache Leech can absorb written text and erase meaning from objects or messages it touches."
+		},
+		{
+			"Name": "Evasive Presence",
+			"Content": "The Cache Leech has advantage on Dexterity saving throws against attacks due to its unearthly and deceptive movements."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Ribbin Lash",
+			"Content": "Melee Attack: +5 to hit, dealing 9 (2d4 + 3) slashing damage. Targets must make a DC 13 Intelligence saving throw or be affected by confusion, unable to focus clearly on their tasks for 1 minute."
+		},
+		{
+			"Name": "Text Eraser Swipe",
+			"Content": "Melee Attack: +5 to hit, dealing 12 (2d8 + 3) psychic damage. Targets must make a DC 13 Wisdom saving throw or have disadvantage on their next attack roll as their words seem to fade away."
+		},
+		{
+			"Name": "Ribbone Cascade",
+			"Content": "Melee Attack: +5 to hit, dealing 10 (2d6 + 3) necrotic damage. Targets must make a DC 13 Constitution saving throw or have a portion of their memory temporarily erased, granting them disadvantage on Intelligence checks for 1 minute."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

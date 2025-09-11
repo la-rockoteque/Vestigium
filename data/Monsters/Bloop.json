@@ -1,1 +1,107 @@
-{"Source":"","Type":"Huge monstrosity, unaligned","HP":{"Value":195,"Notes":"20d8 + 95"},"AC":{"Value":17,"Notes":"natural armor"},"InitiativeModifier":0,"InitiativeAdvantage":false,"Speed":["0 ft., swim 60 ft."],"Abilities":{"Str":20,"Dex":15,"Con":24,"Int":1,"Wis":14,"Cha":1},"DamageVulnerabilities":[],"DamageResistances":["Cold, Fire, Psychic"],"DamageImmunities":["Poison"],"ConditionImmunities":["Blinded","Deafened","Frightened"],"Saves":[{"Name":"STR","Modifier":8},{"Name":"CON","Modifier":9},{"Name":"DEX","Modifier":7},{"Name":"WIS","Modifier":9}],"Skills":[{"Name":"Perception","Modifier":9},{"Name":"Stealth","Modifier":7}],"Senses":["Blindsight 120 ft."],"Languages":["Undercommon"],"Challenge":"12","Traits":[{"Name":"Echolocation","Content":"The Bloop can sense its surroundings within 120 feet regardless of visibility, allowing it to detect creatures even in complete darkness."},{"Name":"Sound Pulse","Content":"The Bloop can emit a powerful sound pulse that disrupts nearby creatures, causing them to have disadvantage on Wisdom saving throws while within 60 feet of it."}],"Actions":[{"Name":"Multiattack","Content":"The Bloop makes one attack with Deep-Sea Slam and two attacks with Tentacle Lash."},{"Name":"Deep-Sea Slam","Content":"Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 40 (6d10 + 7) bludgeoning damage, and the target must succeed on a DC 17 Constitution saving throw or be stunned until the end of its next turn."},{"Name":"Tentacle Lash","Content":"Melee Weapon Attack: +10 to hit, reach 15 ft., one target. Hit: 19 (3d10 + 3) slashing damage."},{"Name":"Resonating Shockwave (Recharge 5-6)","Content":"The Bloop unleashes a powerful sound wave that resonates through the water in a 20-foot radius. Each creature in that area must succeed on a DC 17 Constitution saving throw, taking 44 (8d10) thunder damage on a failed save, or half as much damage on a successful one. Creatures that fail the save are also deafened until the end of their next turn."}],"BonusActions":[],"Reactions":[],"MythicActions":[],"Description":"","Player":"","Version":"3.6.10","ImageURL":""}
+{
+	"Source": "",
+	"Type": "Huge monstrosity, unaligned",
+	"HP": {
+		"Value": 195,
+		"Notes": "20d8 + 95"
+	},
+	"AC": {
+		"Value": 17,
+		"Notes": "natural armor"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"0 ft., swim 60 ft."
+	],
+	"Abilities": {
+		"Str": 20,
+		"Dex": 15,
+		"Con": 24,
+		"Int": 1,
+		"Wis": 14,
+		"Cha": 1
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Cold, Fire, Psychic"
+	],
+	"DamageImmunities": [
+		"Poison"
+	],
+	"ConditionImmunities": [
+		"Blinded",
+		"Deafened",
+		"Frightened"
+	],
+	"Saves": [
+		{
+			"Name": "STR",
+			"Modifier": 8
+		},
+		{
+			"Name": "CON",
+			"Modifier": 9
+		},
+		{
+			"Name": "DEX",
+			"Modifier": 7
+		},
+		{
+			"Name": "WIS",
+			"Modifier": 9
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Perception",
+			"Modifier": 9
+		},
+		{
+			"Name": "Stealth",
+			"Modifier": 7
+		}
+	],
+	"Senses": [
+		"Blindsight 120 ft."
+	],
+	"Languages": [
+		"Undercommon"
+	],
+	"Challenge": "12",
+	"Traits": [
+		{
+			"Name": "Echolocation",
+			"Content": "The Bloop can sense its surroundings within 120 feet regardless of visibility, allowing it to detect creatures even in complete darkness."
+		},
+		{
+			"Name": "Sound Pulse",
+			"Content": "The Bloop can emit a powerful sound pulse that disrupts nearby creatures, causing them to have disadvantage on Wisdom saving throws while within 60 feet of it."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Multiattack",
+			"Content": "The Bloop makes one attack with Deep-Sea Slam and two attacks with Tentacle Lash."
+		},
+		{
+			"Name": "Deep-Sea Slam",
+			"Content": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 40 (6d10 + 7) bludgeoning damage, and the target must succeed on a DC 17 Constitution saving throw or be stunned until the end of its next turn."
+		},
+		{
+			"Name": "Tentacle Lash",
+			"Content": "Melee Weapon Attack: +10 to hit, reach 15 ft., one target. Hit: 19 (3d10 + 3) slashing damage."
+		},
+		{
+			"Name": "Resonating Shockwave (Recharge 5-6)",
+			"Content": "The Bloop unleashes a powerful sound wave that resonates through the water in a 20-foot radius. Each creature in that area must succeed on a DC 17 Constitution saving throw, taking 44 (8d10) thunder damage on a failed save, or half as much damage on a successful one. Creatures that fail the save are also deafened until the end of their next turn."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

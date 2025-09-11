@@ -1,0 +1,92 @@
+{
+	"Source": "",
+	"Type": "Medium, Aberration (Anomalous, Viral), chaotic",
+	"HP": {
+		"Value": 90,
+		"Notes": "12d12 + 12"
+	},
+	"AC": {
+		"Value": 12,
+		"Notes": "Viral Aura effects"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"40 ft., climb 40 ft."
+	],
+	"Abilities": {
+		"Str": 16,
+		"Dex": 18,
+		"Con": 14,
+		"Int": 1,
+		"Wis": 1,
+		"Cha": 1
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Necrotic, Psychic"
+	],
+	"DamageImmunities": [
+		"Poison"
+	],
+	"ConditionImmunities": [
+		"Poisoned",
+		"Charmed",
+		"Frightened"
+	],
+	"Saves": [
+		{
+			"Name": "DEX",
+			"Modifier": 6
+		},
+		{
+			"Name": "CON",
+			"Modifier": 4
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Stealth",
+			"Modifier": 8
+		},
+		{
+			"Name": "Acrobatics",
+			"Modifier": 6
+		}
+	],
+	"Senses": [
+		"Blindsight 60 ft.",
+		"Darkvision 60 ft."
+	],
+	"Languages": [
+		" understands Common but cannot speak"
+	],
+	"Challenge": "3",
+	"Traits": [
+		{
+			"Name": "Viral Load",
+			"Content": "When a creature is hit by the virus’s natural attack or starts its turn in the virus’s Aerosol Aura (10 ft., DC 12), it must make a Constitution saving throw. On a failure, it gains 1 Viral Load (maximum of 3 or 4 depending on tier). Each stack reduces attack rolls and checks by 1, and at 3 stacks, the target is poisoned and cannot regain hit points until the end of its next turn. A successful save removes 1 stack at the end of the creature's turn. All magical disease cures remove all stacks."
+		},
+		{
+			"Name": "Coiling Lash",
+			"Content": "The Macro-virus can use its tendrils to grapple. If it successfully hits a target, the target must make a Strength saving throw (DC 13) or be grappled and restrained. The escape DC is also 13."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Coiling Lash",
+			"Content": "Melee Attack: +6 to hit, dealing 21 (5d6 + 4) bludgeoning damage. On hit, the target must make a Strength saving throw (DC 13) or be grappled and restrained until it escapes."
+		},
+		{
+			"Name": "Whip-Around",
+			"Content": "The Macro-virus unleashes a sudden burst of viral energy in a 10-ft radius. Each creature in the area must make a Dexterity saving throw (DC 13). On a failure, a creature takes 14 (2d6 + 1) bludgeoning damage and gains 1 Viral Load. On a success, a creature takes half damage and doesn't gain Viral Load. Additionally, failed targets are pushed back 10 feet."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

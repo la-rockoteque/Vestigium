@@ -1,1 +1,106 @@
-{"Source":"","Type":"Large construct, unaligned","HP":{"Value":178,"Notes":"17d10 + 85"},"AC":{"Value":18,"Notes":"shifting walls"},"InitiativeModifier":0,"InitiativeAdvantage":false,"Speed":["30 ft."],"Abilities":{"Str":14,"Dex":18,"Con":20,"Int":1,"Wis":12,"Cha":1},"DamageVulnerabilities":[],"DamageResistances":["Bludgeoning, Piercing, Slashing"],"DamageImmunities":["Poison, Psychic"],"ConditionImmunities":["Blinded","Frightened"],"Saves":[{"Name":"DEX","Modifier":9},{"Name":"CON","Modifier":8},{"Name":"WIS","Modifier":4},{"Name":"CHA","Modifier":4}],"Skills":[{"Name":"Perception","Modifier":7},{"Name":"Stealth","Modifier":9}],"Senses":["Blindsight 60 ft."],"Languages":["Doesn't understand language"],"Challenge":"10","Traits":[{"Name":"Rearranging Structure","Content":"The Architectural Shifter can subtly alter its surroundings, causing walls and furniture to shift positions at the start of its turn, making it difficult to navigate through."},{"Name":"Trap Setting","Content":"When a creature ends its turn within 15 feet of the Architectural Shifter, it must succeed on a DC 17 Dexterity saving throw or become restrained by shifting furniture."}],"Actions":[{"Name":"Multiattack","Content":"The Architectural Shifter makes three attacks: one with its Restructuring Strike and two with its Trapping Slam."},{"Name":"Restructuring Strike","Content":"Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) damage plus 3 (1d6) bludgeoning damage as the very walls of the room shift and strike the target."},{"Name":"Trapping Slam","Content":"Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) damage as nearby furniture aggressively shifts and slams into the target, knocking them off balance. The target must succeed on a DC 15 Strength saving throw or be knocked prone."},{"Name":"Room Collapse (Recharge 5-6)","Content":"The Architectural Shifter unleashes a wave of chaotic structural energy in a 30‐foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 56 (16d6) bludgeoning damage on a failed save or half as much damage on a successful one. Creatures that fail the save also become trapped underneath the chaos of shifting debris until they succeed on a DC 15 Strength check to escape."}],"BonusActions":[],"Reactions":[],"MythicActions":[],"Description":"","Player":"","Version":"3.6.10","ImageURL":""}
+{
+	"Source": "",
+	"Type": "Large construct, unaligned",
+	"HP": {
+		"Value": 178,
+		"Notes": "17d10 + 85"
+	},
+	"AC": {
+		"Value": 18,
+		"Notes": "shifting walls"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"30 ft."
+	],
+	"Abilities": {
+		"Str": 14,
+		"Dex": 18,
+		"Con": 20,
+		"Int": 1,
+		"Wis": 12,
+		"Cha": 1
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Bludgeoning, Piercing, Slashing"
+	],
+	"DamageImmunities": [
+		"Poison, Psychic"
+	],
+	"ConditionImmunities": [
+		"Blinded",
+		"Frightened"
+	],
+	"Saves": [
+		{
+			"Name": "DEX",
+			"Modifier": 9
+		},
+		{
+			"Name": "CON",
+			"Modifier": 8
+		},
+		{
+			"Name": "WIS",
+			"Modifier": 4
+		},
+		{
+			"Name": "CHA",
+			"Modifier": 4
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Perception",
+			"Modifier": 7
+		},
+		{
+			"Name": "Stealth",
+			"Modifier": 9
+		}
+	],
+	"Senses": [
+		"Blindsight 60 ft."
+	],
+	"Languages": [
+		"Doesn't understand language"
+	],
+	"Challenge": "10",
+	"Traits": [
+		{
+			"Name": "Rearranging Structure",
+			"Content": "The Architectural Shifter can subtly alter its surroundings, causing walls and furniture to shift positions at the start of its turn, making it difficult to navigate through."
+		},
+		{
+			"Name": "Trap Setting",
+			"Content": "When a creature ends its turn within 15 feet of the Architectural Shifter, it must succeed on a DC 17 Dexterity saving throw or become restrained by shifting furniture."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Multiattack",
+			"Content": "The Architectural Shifter makes three attacks: one with its Restructuring Strike and two with its Trapping Slam."
+		},
+		{
+			"Name": "Restructuring Strike",
+			"Content": "Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10 + 6) damage plus 3 (1d6) bludgeoning damage as the very walls of the room shift and strike the target."
+		},
+		{
+			"Name": "Trapping Slam",
+			"Content": "Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6 + 6) damage as nearby furniture aggressively shifts and slams into the target, knocking them off balance. The target must succeed on a DC 15 Strength saving throw or be knocked prone."
+		},
+		{
+			"Name": "Room Collapse (Recharge 5-6)",
+			"Content": "The Architectural Shifter unleashes a wave of chaotic structural energy in a 30‐foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 56 (16d6) bludgeoning damage on a failed save or half as much damage on a successful one. Creatures that fail the save also become trapped underneath the chaos of shifting debris until they succeed on a DC 15 Strength check to escape."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}
