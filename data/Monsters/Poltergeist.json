@@ -1,0 +1,100 @@
+{
+	"Source": "",
+	"Type": "Undead (Incorporeal), unaligned",
+	"HP": {
+		"Value": 45,
+		"Notes": "10d8"
+	},
+	"AC": {
+		"Value": 11,
+		"Notes": "incorporeal drift"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"0 ft., fly 40 ft. (hover)"
+	],
+	"Abilities": {
+		"Str": 1,
+		"Dex": 14,
+		"Con": 11,
+		"Int": 10,
+		"Wis": 14,
+		"Cha": 16
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"None"
+	],
+	"DamageImmunities": [
+		"None"
+	],
+	"ConditionImmunities": [
+		"Charmed",
+		"Frightened",
+		"Grappled",
+		"Paralyzed",
+		"Petrified",
+		"Poisoned",
+		"Prone",
+		"Restrained"
+	],
+	"Saves": [
+		{
+			"Name": "WIS",
+			"Modifier": 4
+		},
+		{
+			"Name": "CHA",
+			"Modifier": 5
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Stealth",
+			"Modifier": 4
+		}
+	],
+	"Senses": [
+		"Darkvision 60 ft."
+	],
+	"Languages": [
+		"Understands all it knew in life but cannot speak"
+	],
+	"Challenge": "4",
+	"Traits": [
+		{
+			"Name": "Incorporeal Movement",
+			"Content": "The poltergeist can move through creatures and objects as if they were difficult terrain. It takes 5 force damage if it ends its turn inside an object."
+		},
+		{
+			"Name": "Psychic Pressure (Aura)",
+			"Content": "Any creature that starts its turn within 20 ft. must succeed on a DC 14 Wisdom saving throw or have disadvantage on concentration checks and Perception checks until the start of their next turn."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Haunting Grasp",
+			"Content": "Melee Attack: +5 to hit, dealing 17 (4d6 + 3) necrotic damage. The target must succeed on a DC 14 Constitution saving throw or have disadvantage on the next attack roll it makes before the end of its next turn."
+		},
+		{
+			"Name": "Ethereal Manipulation",
+			"Content": "The poltergeist can manipulate physical objects and the environment. It can create spectral barriers or similar effects to obstruct movement or vision, imposing disadvantage on the next attack roll for any creature affected until the start of its next turn."
+		},
+		{
+			"Name": "Psychic Scream",
+			"Content": "Any creature within 30 ft. that can see the poltergeist must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. The affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+		},
+		{
+			"Name": "Dominate Emotion",
+			"Content": "The poltergeist attempts to take control of a creature's emotions. The target must succeed on a DC 14 Wisdom saving throw or be compelled to attack the nearest ally on its next turn. The affected creature is immune to this effect for 1 minute after succeeding on the saving throw."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

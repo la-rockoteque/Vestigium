@@ -204,8 +204,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1757532676,
-        "_dateLastModifiedHash": "97425e5146",
+        "dateLastModified": 1757549594,
+        "_dateLastModifiedHash": "eaf57f9b34",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -56358,7 +56358,7 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Red Sky Dawn",
+            "name": " ",
             "size": [
                 "M"
             ],
@@ -56419,7 +56419,7 @@
                 "immune to blinded; causes delayed"
             ],
             "cr": "5",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Red_Sky_Dawn.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/_.png",
             "fluff": {
                 "entries": [
                     "The Red Sky Dawn is not a herald of doom—it is doom itself, clothed in radiant flesh and dripping visions of the world’s end. Seers and prophets speak of it in whispers: a colossal figure of light that bleeds a crimson glow, staining the sky like sunrise at the world’s funeral. To behold it is to feel the marrow of reality tremble, and to know that catastrophe is near.\n\nHarbinger of the End. The Red Sky Dawn manifests only at thresholds of devastation: the collapse of empires, the shattering of continents, the fall of suns. Its presence alone fills mortals with visions of apocalypse—fires swallowing oceans, towers crumbling into dust, and blood raining from the heavens.\n\nBleeding Light. Crimson radiance pours from its wounds and pores, coating the world in dread illumination. This light is not mere glow but essence—raw, burning fragments of dying futures. Mortals who touch it find their skin blistering, their minds flooded with catastrophic prophecy.\n\nOmen Given Flesh. Unlike many apocalyptic beings, the Red Sky Dawn does not strike with weapons or claws. Its violence is the inevitability of its existence. Wherever it stands, crops fail, rivers boil, and the veil between vision and truth collapses. To defeat it is not to slay a monster, but to wrestle with fate itself.\n\nThe Last Vision. Those who survive encounters with the Red Sky Dawn are forever scarred. Their eyes flicker with ember-red light, and they dream nightly of skies bleeding fire. Some seers claim they carry pieces of the Dawn’s vision, destined to bring its prophecy to pass."
@@ -56429,7 +56429,7 @@
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Red%20Sky%20Dawn.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/%20.png"
                         }
                     }
                 ]
@@ -58747,7 +58747,7 @@
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Springer_Mad_Gasser.png",
             "fluff": {
                 "entries": [
-                    "Originating in stories of a faceless prowler who sprayed noxious fumes at night, the Mad Gasse is a gaunt, leaping figure wreathed in clouds of acrid smoke. Its jumps are chaotic bursts, often accompanied by the hiss of escaping gas. Victims describe sudden paralysis, confusion, and vivid hallucinations after an encounter, as though their senses had been poisoned. It is said that Mad Gasse delights in watching people stumble and cough as they flee, before vanishing into the night with a final, lung-crushing leap."
+                    "Polter"
                 ],
                 "images": [
                     {
@@ -60968,6 +60968,113 @@
             "fluff": {
                 "entries": [
                     "C’thithr’zho is doom made manifest, the harbinger of laments whose presence turns hope to silence. Vast as a planet and draped in endless shadow, he drifts through the void as a dirge given form, a living requiem that consumes both flesh and spirit.\n\nHe feasts upon life and blood, unmaking the strong and the frail alike, until only desolation remains. Where others devour for hunger or curiosity, C’thithr’zho consumes for the sake of despair itself. His essence is evil distilled to its most perfect state, a toxin in the fabric of creation, saturating the stars with sorrow and fear.\n\nHis coming is heralded not by fire or ruin, but by silence: songs falter, prayers go unanswered, and even memory begins to weep. To behold him is to feel inevitability’s weight, the crushing truth that nothing endures. Planets blacken beneath his shadow, their oceans turned to blood-red voids, their skies collapsing into endless mourning.\n\nC’thithr’zho does not rage, nor revel, nor question—he laments. Yet in that lament lies the certainty of annihilation, for he is the requiem of all things, and every star that shines is but a verse in the dirge he will one day complete."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Vorthirith%2C%20Cthithrzho.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Poltergeist",
+            "size": [
+                "U"
+            ],
+            "type": "(incorporeal)",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 11,
+                    "from": [
+                        "incorporeal drift"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 45,
+                "formula": "1 + 0"
+            },
+            "save": {
+                "wis": "+4",
+                "cha": "+5"
+            },
+            "passive": 17,
+            "speed": {
+                "walk": 0,
+                "fly": 40
+            },
+            "str": 1,
+            "dex": 14,
+            "con": 11,
+            "int": 10,
+            "wis": 14,
+            "cha": 16,
+            "action": [
+                {
+                    "name": "Haunting Grasp",
+                    "entries": [
+                        "Melee Attack: +5 to hit, dealing 17 (4d6 + 3) necrotic damage. The target must succeed on a DC 14 Constitution saving throw or have disadvantage on the next attack roll it makes before the end of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Ethereal Manipulation",
+                    "entries": [
+                        "The poltergeist can manipulate physical objects and the environment. It can create spectral barriers or similar effects to obstruct movement or vision, imposing disadvantage on the next attack roll for any creature affected until the start of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Psychic Scream",
+                    "entries": [
+                        "Any creature within 30 ft. that can see the poltergeist must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. The affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.;"
+                    ]
+                },
+                {
+                    "name": "Dominate Emotion",
+                    "entries": [
+                        "The poltergeist attempts to take control of a creature's emotions. The target must succeed on a DC 14 Wisdom saving throw or be compelled to attack the nearest ally on its next turn. The affected creature is immune to this effect for 1 minute after succeeding on the saving throw."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Incorporeal Movement",
+                    "entries": [
+                        "The poltergeist can move through creatures and objects as if they were difficult terrain. It takes 5 force damage if it ends its turn inside an object.;"
+                    ]
+                },
+                {
+                    "name": "Psychic Pressure (Aura)",
+                    "entries": [
+                        "Any creature that starts its turn within 20 ft. must succeed on a DC 14 Wisdom saving throw or have disadvantage on concentration checks and Perception checks until the start of their next turn."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+4"
+            },
+            "conditionImmune": [
+                "charmed",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "petrified",
+                "poisoned",
+                "prone",
+                "restrained"
+            ],
+            "cr": "4",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vorthirith_Cthithrzho.png",
+            "fluff": {
+                "entries": [
+                    NaN
                 ],
                 "images": [
                     {
