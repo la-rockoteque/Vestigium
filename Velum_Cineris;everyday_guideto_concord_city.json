@@ -204,8 +204,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1757594263,
-        "_dateLastModifiedHash": "0586bc0d1e",
+        "dateLastModified": 1757618359,
+        "_dateLastModifiedHash": "5a81b398a5",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -45306,7 +45306,7 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Beast of Gévaudan",
+            "name": "Beast of Soir-sans-fin",
             "size": [
                 "L"
             ],
@@ -46625,7 +46625,7 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Chernobyl Blackbird",
+            "name": "Bird of Omen",
             "size": [
                 "L"
             ],
@@ -46712,7 +46712,7 @@
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Chernobyl_Blackbird.png",
             "fluff": {
                 "entries": [
-                    "Seen before disasters, this winged shape radiates dread and nuclear decay. Just seeing one is an omen of dread and a promise of death."
+                    "hadows that circle before calamity, the Birds of Omen drift silently over cities, fields, and ruins alike. Their wings are tattered and dark, edges glowing faintly with unnatural light as though burned by something unseen. Witnesses claim they gather in flocks above sites of coming disaster — fires, collapses, massacres — their silhouettes blotting the sky like living warnings.\n\nTo see one is unsettling; to see many is cause for dread. Their cries sound not like birdsong, but like static carried on the wind, a broken signal that chills the bone. Whether they are true predators or simply scavengers of misfortune is uncertain — but where they hover, ruin always follows."
                 ],
                 "images": [
                     {
@@ -47782,7 +47782,7 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Dover Demon",
+            "name": "Moor Demon",
             "size": [
                 "S"
             ],
@@ -50674,7 +50674,7 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Hessdalen Lights",
+            "name": "Witchlights",
             "size": [
                 "S"
             ],
