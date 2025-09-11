@@ -1,8 +1,6 @@
 import pandas as pd
-from src.sources import source, json_source
-import inflection
+from src.sources import json_source
 import re
-import json
 from fractions import Fraction
 
 monster_url = "https://docs.google.com/spreadsheets/d/1I4FHncl40_xx1Udc_Q2rWWWvpL6xaMlpJyY90WBftag/export?format=csv&gid=736393386"
@@ -86,6 +84,7 @@ def parse_saves(raw_text):
   return saves
 
 def row_to_monster(row):
+    name = row.get("Name")
     languages = (
         row.get("Languages").lower().split(", ")
         if pd.notnull(row.get("Languages"))
@@ -93,7 +92,7 @@ def row_to_monster(row):
     )
     return {
         "source": json_source,
-        "name": row.get("Name"),
+        "name": name,
         "size": [row.get("Size")[:1].upper()],
         "type": row.get("Type").lower(),
         "alignment": [row.get("Alignment")[:1].upper()],
@@ -138,6 +137,22 @@ def row_to_monster(row):
         **(
           {"action": parse_entries(row.get("Actions"))}
           if pd.notnull(row.get("Actions"))
+          else {}
+        ),
+        **(
+          {"reaction": parse_entries(row.get("Reactions"))}
+          if pd.notnull(row.get("Reactions"))
+          else {}
+        ),
+        **(
+          {
+            "legendaryActions": 3,
+            "legendaryHeader": [
+              f"The {name} can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The {name} regains spent legendary actions at the start of its turn."
+            ],
+            "legendary": parse_entries(row.get("Legendary Actions"))
+           }
+          if pd.notnull(row.get("Legendary Actions"))
           else {}
         ),
         **(

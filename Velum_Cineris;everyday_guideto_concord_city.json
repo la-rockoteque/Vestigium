@@ -204,8 +204,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1757592996,
-        "_dateLastModifiedHash": "ed684d5cf3",
+        "dateLastModified": 1757594263,
+        "_dateLastModifiedHash": "0586bc0d1e",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -46152,6 +46152,30 @@
                     ]
                 }
             ],
+            "legendaryActions": 3,
+            "legendaryHeader": [
+                "The Bogeyman can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Bogeyman regains spent legendary actions at the start of its turn."
+            ],
+            "legendary": [
+                {
+                    "name": "Whispers of the Void Legendary Action 1 (Costs 1 Action)",
+                    "entries": [
+                        "The Bogeyman can emit haunting whispers that surround a single creature within 30 feet. The target must succeed on a DC 19 Wisdom saving throw or have disadvantage on its next attack roll before the end of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Shadowy Terror Legendary Action 2 (Costs 2 Actions)",
+                    "entries": [
+                        "The Bogeyman can choose to use Terrorizing Visions.;"
+                    ]
+                },
+                {
+                    "name": "Maddening Haunt Legendary Action 3 (Costs 3 Actions)",
+                    "entries": [
+                        "The Bogeyman releases a pulse of dark energy in a 20-foot radius. Each creature of its choice must succeed on a DC 19 Constitution saving throw or take 39 (7d10) necrotic damage and have disadvantage on saving throws against being frightened until the end of its next turn."
+                    ]
+                }
+            ],
             "trait": [
                 {
                     "name": "Aura of Fear",
@@ -46785,6 +46809,30 @@
                     ]
                 }
             ],
+            "legendaryActions": 3,
+            "legendaryHeader": [
+                "The Choir of the Hollow Sky can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Choir of the Hollow Sky regains spent legendary actions at the start of its turn."
+            ],
+            "legendary": [
+                {
+                    "name": "Detect",
+                    "entries": [
+                        "The Choir makes a Wisdom (Perception) check to sense the presence of creatures around it.;"
+                    ]
+                },
+                {
+                    "name": "Harmonic Strike",
+                    "entries": [
+                        "The Choir makes a Harmonic Strike attack.;"
+                    ]
+                },
+                {
+                    "name": "Resonant Shift (Costs 2 Actions)",
+                    "entries": [
+                        "The Choir activates a special ability. Each creature within 10 feet of it must succeed on a DC 19 Constitution saving throw or take 13 (2d6 + 6) thunder damage and be stunned until the end of its next turn. The Choir can then move up to half its flying speed, rearranging itself within the bounds of the celestial soundscape."
+                    ]
+                }
+            ],
             "trait": [
                 {
                     "name": "Harmonious Resilience",
@@ -47306,6 +47354,14 @@
                     ]
                 }
             ],
+            "reaction": [
+                {
+                    "name": "—",
+                    "entries": [
+                        ""
+                    ]
+                }
+            ],
             "trait": [
                 {
                     "name": "Digital Evasion",
@@ -47499,6 +47555,30 @@
                     ]
                 }
             ],
+            "legendaryActions": 3,
+            "legendaryHeader": [
+                "The Day of the Shadows can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Day of the Shadows regains spent legendary actions at the start of its turn."
+            ],
+            "legendary": [
+                {
+                    "name": "Shadow Shift (Costs 1 Action)",
+                    "entries": [
+                        "The Day of the Shadows can shift to a position within 30 feet without provoking opportunity attacks. This action may also free it from grapples or restraints, allowing it to re-position and attack more effectively on its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Unsettling Whispers (Costs 2 Actions)",
+                    "entries": [
+                        "The Day of the Shadows targets one creature within 120 feet, forcing it to make a DC 20 Wisdom saving throw. On a failed save, the creature is incapacitated until the end of its next turn as haunting whispers flood its mind, sapping its will to fight.;"
+                    ]
+                },
+                {
+                    "name": "Shroud of Despair (Costs 3 Actions)",
+                    "entries": [
+                        "The Day of the Shadows conjures a thick cloud of darkness in a 20-foot radius around it. Each creature that starts its turn in this area must make a DC 22 Constitution saving throw. On a failed save, they take 50 (9d10) necrotic damage, and their visions are clouded, giving them disadvantage on saving throws until the end of their next turn."
+                    ]
+                }
+            ],
             "trait": [
                 {
                     "name": "Shadowform",
@@ -47620,6 +47700,30 @@
                     "name": "Rhythmic Wave (Recharge 5–6)",
                     "entries": [
                         "The Disco Demon releases a torrent of energy in a 60-foot cone. Each creature in that area must make a DC 19 Dexterity saving throw, taking 54 (12d8) thunder damage on a failed save, or half as much damage on a successful one, as the sound wave knocks them off their feet and sends them spinning."
+                    ]
+                }
+            ],
+            "legendaryActions": 3,
+            "legendaryHeader": [
+                "The Disco Demon can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Disco Demon regains spent legendary actions at the start of its turn."
+            ],
+            "legendary": [
+                {
+                    "name": "Detect",
+                    "entries": [
+                        "The Disco Demon makes a Wisdom (Perception) check, attuning to the emotional vibrations in the room.;"
+                    ]
+                },
+                {
+                    "name": "Frenzied Strike",
+                    "entries": [
+                        "The Disco Demon makes a Frenzied Strike attack, attacking wildly in a manic dance.;"
+                    ]
+                },
+                {
+                    "name": "Cursed Boogie (Costs 2 Actions)",
+                    "entries": [
+                        "The Disco Demon activates a cursed ability. Each creature within 10 feet must succeed on a DC 19 Charisma saving throw or take 13 (2d6 + 6) necrotic damage and be compelled to dance, becoming unable to take reactions until the end of its next turn. The Disco Demon can then move up to half its speed, allowing it to reposition itself for the next round of chaos."
                     ]
                 }
             ],
@@ -48421,6 +48525,30 @@
                     "name": "Hallucinatory Cataclysm",
                     "entries": [
                         "Area of effect: 30-foot radius centered on Ending. Each creature within range must make a DC 16 Wisdom saving throw or take 33 (7d10) psychic damage, or half as much on a successful save. Creatures who fail the save also have disadvantage on the next attack roll they make as they are haunted by terrifying visions."
+                    ]
+                }
+            ],
+            "legendaryActions": 3,
+            "legendaryHeader": [
+                "The Ending can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Ending regains spent legendary actions at the start of its turn."
+            ],
+            "legendary": [
+                {
+                    "name": "Veil of Despair (Costs 1 Action)",
+                    "entries": [
+                        "Ending shrouds itself in a veil of darkness, granting it advantage on the next Dexterity saving throw made against an attack. This ability reflects the creature's connection to the fear of death and the unknown.;"
+                    ]
+                },
+                {
+                    "name": "Shattered Reality (Costs 2 Actions)",
+                    "entries": [
+                        "Ending can use the Shattered Reality action.;"
+                    ]
+                },
+                {
+                    "name": "Time's Lament (Costs 3 Actions)",
+                    "entries": [
+                        "Ending targets one creature it can see within 60 feet. The creature must succeed on a DC 18 Intelligence saving throw or take 27 (5d10) psychic damage as memories of their life flash before their eyes and they become incapacitated until the end of their next turn."
                     ]
                 }
             ],
@@ -50262,6 +50390,30 @@
                     "name": "Toxic Surge",
                     "entries": [
                         "The Waste Golem releases a wave of toxic waste in a 15-foot radius. Each creature in that area must make a DC 15 Constitution saving throw, taking 22 (4d10) poison damage on a failed save, or half as much damage on a successful one. The area becomes difficult terrain until the end of the golem's next turn."
+                    ]
+                }
+            ],
+            "legendaryActions": 3,
+            "legendaryHeader": [
+                "The Golem, Waste can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Golem, Waste regains spent legendary actions at the start of its turn."
+            ],
+            "legendary": [
+                {
+                    "name": "Primary Attack",
+                    "entries": [
+                        "The Waste Golem makes one attack with its Slam.;"
+                    ]
+                },
+                {
+                    "name": "Toxic Shield (Costs 2 Actions)",
+                    "entries": [
+                        "The Waste Golem surrounds itself with a mist of corrosive waste. All creatures within 5 feet of it must make a DC 15 Dexterity saving throw, taking 14 (4d6) acid damage on a failed save, or half as much on a success.;"
+                    ]
+                },
+                {
+                    "name": "Regenerate (Costs 3 Actions)",
+                    "entries": [
+                        "The Waste Golem regains 11 (2d8 + 2) hit points as it absorbs waste from the environment."
                     ]
                 }
             ],
@@ -54065,6 +54217,30 @@
                     ]
                 }
             ],
+            "legendaryActions": 3,
+            "legendaryHeader": [
+                "The Metropolitan Aggregated Gridlock Organism can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Metropolitan Aggregated Gridlock Organism regains spent legendary actions at the start of its turn."
+            ],
+            "legendary": [
+                {
+                    "name": "Traffic Jam Surge (Costs 1 Action)",
+                    "entries": [
+                        "The Living Traffic Jam gains a burst of speed, allowing it to move up to half its speed in any direction without provoking opportunity attacks, merging with objects in its path and trapping them.;"
+                    ]
+                },
+                {
+                    "name": "Panic Inducer (Costs 2 Actions)",
+                    "entries": [
+                        "The Living Traffic Jam targets one creature within 60 feet with a rush of chaotic energy. The target must make a DC 20 Intelligence saving throw. On a failure, they are frightened for 1 minute, feeling the overwhelming weight of the Jam’s presence. They can repeat the saving throw at the end of each of their turns, ending the effect on themselves on a success.;"
+                    ]
+                },
+                {
+                    "name": "City-Wide Collapse (Costs 3 Actions)",
+                    "entries": [
+                        "The Living Traffic Jam creates a localized catastrophe in a 20-foot radius centered on itself. Each creature in that area must succeed on a DC 22 Strength saving throw or take 50 (9d10) bludgeoning damage and be knocked prone as the street buckles and crumbles under the pressure of the Jam's weight."
+                    ]
+                }
+            ],
             "trait": [
                 {
                     "name": "Congested Mass",
@@ -55143,6 +55319,30 @@
                     "name": "Overload Pulse",
                     "entries": [
                         "Burst Attack: The Nullifier emits a destructive wave in a 30-ft. radius as an action. Each creature in that area must make a DC 18 Constitution saving throw. On a failure, they take 40 (4d10) force damage and are stunned until the end of their next turn. On a success, they take half damage and are not stunned."
+                    ]
+                }
+            ],
+            "legendaryActions": 3,
+            "legendaryHeader": [
+                "The Nullifier can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Nullifier regains spent legendary actions at the start of its turn."
+            ],
+            "legendary": [
+                {
+                    "name": "Suppressive Step",
+                    "entries": [
+                        "Moves up to half speed without provoking.;"
+                    ]
+                },
+                {
+                    "name": "Lockdown Scan",
+                    "entries": [
+                        "One creature in 30 ft. must succeed Wis save DC 18 or have its speed halved and attacks at disadvantage until start of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Overclock Pulse (Costs 2)",
+                    "entries": [
+                        "Triggers Null Field surge: all creatures in aura must succeed Con save DC 18 or gain 1 level of exhaustion until the end of combat (suppression fatigue)."
                     ]
                 }
             ],
@@ -58729,6 +58929,30 @@
                     ]
                 }
             ],
+            "legendaryActions": 3,
+            "legendaryHeader": [
+                "The Shadowking can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Shadowking regains spent legendary actions at the start of its turn."
+            ],
+            "legendary": [
+                {
+                    "name": "Veil of Shadows Legendary Action 1 (Costs 1 Action)",
+                    "entries": [
+                        "The Shadowking can fade into the ethereal plane until the start of its next turn. Until then, it imposes disadvantage on the next attack roll made against it.;"
+                    ]
+                },
+                {
+                    "name": "Macabre Manifestation Legendary Action 2 (Costs 2 Actions)",
+                    "entries": [
+                        "The Shadowking can choose to use Shadowy Onslaught.;"
+                    ]
+                },
+                {
+                    "name": "Whispers of Dread Legendary Action 3 (Costs 3 Actions)",
+                    "entries": [
+                        "The Shadowking targets one creature it can see within 60 feet. The target must succeed on a DC 19 Wisdom saving throw or be frightened and take 39 (7d10) psychic damage."
+                    ]
+                }
+            ],
             "trait": [
                 {
                     "name": "Shadow Stealth",
@@ -60321,6 +60545,14 @@
                     ]
                 }
             ],
+            "reaction": [
+                {
+                    "name": "Echoing Voice (Reaction): Once per round, can mimic a traveler’s voice to sow confusion.",
+                    "entries": [
+                        ""
+                    ]
+                }
+            ],
             "trait": [
                 {
                     "name": "Fearful Presence",
@@ -60647,6 +60879,14 @@
                     "name": "Cursed Touch",
                     "entries": [
                         "Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 11 (2d6 + 4) necrotic damage. The target must make a DC 15 Constitution saving throw, taking 24 (7d6) necrotic damage on a failed save, or half as much damage on a successful one. On a failure, the target's movement speed is reduced by 10 feet until the end of its next turn."
+                    ]
+                }
+            ],
+            "reaction": [
+                {
+                    "name": "Seed Burst: When struck, releases choking seeds; DC 12 CON or blinded 1 round.",
+                    "entries": [
+                        ""
                     ]
                 }
             ],
@@ -61886,6 +62126,30 @@
                     ]
                 }
             ],
+            "legendaryActions": 3,
+            "legendaryHeader": [
+                "The Vorthirith, Abhaaldrac can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Vorthirith, Abhaaldrac regains spent legendary actions at the start of its turn."
+            ],
+            "legendary": [
+                {
+                    "name": "Curious Displacement (Costs 1 Action)",
+                    "entries": [
+                        "Vorthirith can momentarily shift his form, imposing disadvantage on the next attack roll made against him by a creature within 60 feet, as he becomes a swirling mass of cosmic energy, evading their grasp.;"
+                    ]
+                },
+                {
+                    "name": "Enigmatic Grasp (Costs 2 Actions)",
+                    "entries": [
+                        "Vorthirith targets one creature within 60 feet. The target must succeed on a DC 21 Intelligence saving throw or have their thoughts muddled, incapacitating them for 1 round as their mind is filled with visions of the cosmos unraveling.;"
+                    ]
+                },
+                {
+                    "name": "Astral Siphon (Costs 3 Actions)",
+                    "entries": [
+                        "Vorthirith unleashes a wave of pulsating energy in a 30-foot cone. Each creature in that area must make a DC 21 Constitution saving throw or take 50 (9d10) necrotic damage, and be poisoned until the end of their next turn as a fragment of their life force is consumed by the cosmic entity."
+                    ]
+                }
+            ],
             "trait": [
                 {
                     "name": "Curiosity Unbound",
@@ -62001,6 +62265,30 @@
                     "name": "Cacophony of the Woven",
                     "entries": [
                         "Area of effect action (30-foot radius sphere centered on a point Vorthirith can see). Each creature within range must make a DC 23 Constitution saving throw or take 60 (11d10) psychic damage, or half as much on a successful save. Creatures that fail the save are also deafened until the end of their next turn, their thoughts echoing with the dissonance of unwinding reality."
+                    ]
+                }
+            ],
+            "legendaryActions": 3,
+            "legendaryHeader": [
+                "The Vorthirith, Bhazquorith can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Vorthirith, Bhazquorith regains spent legendary actions at the start of its turn."
+            ],
+            "legendary": [
+                {
+                    "name": "Ethereal Gluttony Legendary Action 1 (Costs 1 Action)",
+                    "entries": [
+                        "Vorthirith can absorb a fragment of a creature's essence, regaining hit points equal to 10 (1d10 + 6) for each creature that has died within 60 feet of him this turn. This ability allows him to sustain his appetite for chaos.;"
+                    ]
+                },
+                {
+                    "name": "Disjunction Wave Legendary Action 2 (Costs 2 Actions)",
+                    "entries": [
+                        "Vorthirith targets one creature within 60 feet with a wave of chaotic energy. The creature must make a DC 23 Intelligence saving throw. On a failure, it suffers confusion, unable to take actions until the end of its next turn as fragmented thoughts unravel its focus.;"
+                    ]
+                },
+                {
+                    "name": "Consuming Void Legendary Action 3 (Costs 3 Actions)",
+                    "entries": [
+                        "Vorthirith unleashes a wave of nullifying energy in a 60-foot cone. Creatures within the area must make a DC 23 Dexterity saving throw. On a failure, they take 50 (9d10) force damage and are knocked prone, the very ground beneath them strategically fraying as their essence seems to dissolve."
                     ]
                 }
             ],
@@ -62121,6 +62409,30 @@
                     "name": "Desolation's Embrace",
                     "entries": [
                         "C'thithr'zho unleashes a wave of despair in a 60-foot radius. Each creature within range must make a DC 23 Wisdom saving throw or take 60 (11d10) psychic damage and be frightened until the end of their next turn on a failed save, or half as much damage on a successful one."
+                    ]
+                }
+            ],
+            "legendaryActions": 3,
+            "legendaryHeader": [
+                "The Vorthirith, Cthithrzho can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Vorthirith, Cthithrzho regains spent legendary actions at the start of its turn."
+            ],
+            "legendary": [
+                {
+                    "name": "Siphon Spirit (Costs 1 Action)",
+                    "entries": [
+                        "C'thithr'zho targets one creature within 60 feet and attempts to siphon their life force. The creature must succeed on a DC 23 Constitution saving throw or take 20 (4d8 + 6) necrotic damage, and C'thithr'zho regains hit points equal to half the damage dealt. On a successful save, the target takes half as much damage and C'thithr'zho regains no hit points.;"
+                    ]
+                },
+                {
+                    "name": "Wail of the Damned (Costs 2 Actions)",
+                    "entries": [
+                        "C'thithr'zho issues a haunting cry that targets one creature. The creature must make a DC 23 Wisdom saving throw. On a failed save, the target becomes incapacitated until the end of its next turn as the sound of lament fills their mind with despair.;"
+                    ]
+                },
+                {
+                    "name": "Shadow of Oblivion (Costs 3 Actions)",
+                    "entries": [
+                        "C'thithr'zho manifests a dark shadow that spreads within a 30-foot radius around itself. Each creature within range must make a DC 23 Dexterity saving throw. On a failed save, they take 50 (9d10) necrotic damage and are blinded until the end of their next turn. On a successful save, they take half as much damage and are not blinded."
                     ]
                 }
             ],
