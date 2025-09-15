@@ -98,7 +98,8 @@ def row_to_monster(row):
         "alignment": [row.get("Alignment")[:1].upper()],
         "ac": [{
           "ac": row.get("Armor Class"),
-          "from": [row.get("Armor Type")],
+          "from": [row.get("Armor Type") if pd.notnull(row.get("Armor Type"))
+          else "natural armor"]
         }],
         "hp": {
             "average": row.get("Hit Points"),

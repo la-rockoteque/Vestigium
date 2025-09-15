@@ -204,8 +204,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1757945171,
-        "_dateLastModifiedHash": "6614c8da9a",
+        "dateLastModified": 1757957203,
+        "_dateLastModifiedHash": "7400c1804e",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -61151,17 +61151,17 @@
                 "prone"
             ],
             "cr": "8",
-            "tokenUrl": NaN,
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sunken_Drifter.png",
             "fluff": {
                 "entries": [
-                    NaN
+                    "The Sunken Drifter looks like a rusting sedan, its frame sagging with water damage and streaked with oil. Yet despite shattered windows and corroded steel, it moves of its own accord, rolling steadily down empty highways and abandoned roads. No driver sits at the wheel. No passengers stir inside. Its headlights flicker like dying eyes, and the air around it smells of wet asphalt and burning oil.\n\nGhost in the Machine. Scholars argue whether the Drifter is a haunted vehicle, a cursed construct, or a spirit that has chosen metal for its shell. The truth is uncertain, but all agree its presence is a bad omen: roadkill rises in its wake, engines sputter, and stormwater thickens with black sludge.\n\nTrail of Oil. Wherever it passes, the ground is left streaked with smoldering oil. This trail burns if ignited, sometimes sparking into sudden fires long after the Drifter has vanished.\n\nUrban Haunter. The Sunken Drifter is most often seen in storm-flooded underpasses, crumbling parking lots, or highways where accidents claimed many lives. Travelers tell of hearing the wet hiss of tires on asphalt behind them, only to find the road empty—until the flicker of headlights appears again in the distance.\n\nOmen of Tragedy. The Drifter rarely attacks unprovoked. Instead it stalks, circling or tailing its chosen quarry for miles. Some claim it heralds a coming accident; others say it seeks new victims to join whatever drowned spirits haunt its waterlogged interior."
                 ],
                 "images": [
                     {
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": NaN
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sunken%20Drifter.png"
                         }
                     }
                 ]
@@ -61263,17 +61263,17 @@
                 "prone"
             ],
             "cr": "10",
-            "tokenUrl": NaN,
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sunken_Drifter.png",
             "fluff": {
                 "entries": [
-                    NaN
+                    "The Sunken Drifter looks like a rusting sedan, its frame sagging with water damage and streaked with oil. Yet despite shattered windows and corroded steel, it moves of its own accord, rolling steadily down empty highways and abandoned roads. No driver sits at the wheel. No passengers stir inside. Its headlights flicker like dying eyes, and the air around it smells of wet asphalt and burning oil.\n\nGhost in the Machine. Scholars argue whether the Drifter is a haunted vehicle, a cursed construct, or a spirit that has chosen metal for its shell. The truth is uncertain, but all agree its presence is a bad omen: roadkill rises in its wake, engines sputter, and stormwater thickens with black sludge.\n\nTrail of Oil. Wherever it passes, the ground is left streaked with smoldering oil. This trail burns if ignited, sometimes sparking into sudden fires long after the Drifter has vanished.\n\nUrban Haunter. The Sunken Drifter is most often seen in storm-flooded underpasses, crumbling parking lots, or highways where accidents claimed many lives. Travelers tell of hearing the wet hiss of tires on asphalt behind them, only to find the road empty—until the flicker of headlights appears again in the distance.\n\nOmen of Tragedy. The Drifter rarely attacks unprovoked. Instead it stalks, circling or tailing its chosen quarry for miles. Some claim it heralds a coming accident; others say it seeks new victims to join whatever drowned spirits haunt its waterlogged interior."
                 ],
                 "images": [
                     {
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": NaN
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sunken%20Drifter.png"
                         }
                     }
                 ]
@@ -63002,7 +63002,7 @@
                 {
                     "ac": 15.0,
                     "from": [
-                        NaN
+                        "natural armor"
                     ]
                 }
             ],
