@@ -1,0 +1,110 @@
+{
+	"Source": "",
+	"Type": "Medium undead, unaligned",
+	"HP": {
+		"Value": 200,
+		"Notes": "32d10 + 50"
+	},
+	"AC": {
+		"Value": 18,
+		"Notes": "corroded steel frame"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"40 ft. (rolling)"
+	],
+	"Abilities": {
+		"Str": 20,
+		"Dex": 12,
+		"Con": 15,
+		"Int": 5,
+		"Wis": 12,
+		"Cha": 10
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Necrotic, Cold, Bludgeoning, Piercing, Slashing from non-magical attacks"
+	],
+	"DamageImmunities": [
+		"Poison, Psychic"
+	],
+	"ConditionImmunities": [
+		"Charmed",
+		"Frightened",
+		"Paralyzed",
+		"Poisoned",
+		"Prone"
+	],
+	"Saves": [
+		{
+			"Name": "STR",
+			"Modifier": 8
+		},
+		{
+			"Name": "CON",
+			"Modifier": 6
+		},
+		{
+			"Name": "DEX",
+			"Modifier": 6
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Perception",
+			"Modifier": 4
+		},
+		{
+			"Name": "Intimidation",
+			"Modifier": 3
+		}
+	],
+	"Senses": [
+		"Darkvision 60 ft.",
+		"tremorsense 30 ft."
+	],
+	"Languages": [
+		"Understands Common but cannot speak"
+	],
+	"Challenge": "10",
+	"Traits": [
+		{
+			"Name": "Driverless",
+			"Content": "The Drifter is immune to being mounted, shoved, or grappled. Effects that would knock it prone instead stagger it, halving its speed until the next turn."
+		},
+		{
+			"Name": "Trail of Oil",
+			"Content": "Wherever the Drifter moves, it leaves behind a streak of spectral oil. If ignited, it burns for 1 minute in a 5-ft.-wide line, dealing 2d6 fire damage to any creature that crosses."
+		},
+		{
+			"Name": "Electronic Suppression Aura (30 ft.)",
+			"Content": "Vehicles and mundane electronics automatically fail within the aura."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Multiattack",
+			"Content": "The Drifter makes two Slam attacks."
+		},
+		{
+			"Name": "Slam",
+			"Content": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 4) bludgeoning damage."
+		},
+		{
+			"Name": "Ramming Charge",
+			"Content": "The Drifter barrels forward in a 60-ft. line. All creatures in its path must succeed on a DC 16 Dexterity saving throw or take 34 (6d10 + 8) bludgeoning damage and be knocked prone. Leaves Explosive Oil Trail (3d6 fire when ignited)"
+		},
+		{
+			"Name": "Headlight Glare (Recharge 4-6)",
+			"Content": "The Drifter’s headlights flare with a ghostly glow. Each creature in a 30-ft. cone must make a DC 15 Constitution saving throw or be blinded until the end of their next turn. On a successful save, they take no damage but feel a wave of disorientation."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

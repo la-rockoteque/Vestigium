@@ -1,0 +1,87 @@
+{
+	"Source": "",
+	"Type": "Medium undead, unaligned",
+	"HP": {
+		"Value": 11,
+		"Notes": "2d8 + 2"
+	},
+	"AC": {
+		"Value": 18,
+		"Notes": "Smoky Form"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"30 ft., fly 30 ft. (hover)"
+	],
+	"Abilities": {
+		"Str": 1,
+		"Dex": 16,
+		"Con": 12,
+		"Int": 1,
+		"Wis": 10,
+		"Cha": 1
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Bludgeoning, Slashing and Piercing from non-magical weapons, Psychic, Fire, Cold"
+	],
+	"DamageImmunities": [
+		"Poison, Necrotic, Psychic"
+	],
+	"ConditionImmunities": [
+		"Blinded",
+		"Frightened",
+		"Incapacitated"
+	],
+	"Saves": [
+		{
+			"Name": "DEX",
+			"Modifier": 5
+		},
+		{
+			"Name": "CON",
+			"Modifier": 3
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Stealth",
+			"Modifier": 5
+		}
+	],
+	"Senses": [
+		"Darkvision 60 ft."
+	],
+	"Languages": [
+		"Understands Common but cannot speak"
+	],
+	"Challenge": "2",
+	"Traits": [
+		{
+			"Name": "Cigarette's Life",
+			"Content": "The Invisible Smoking Man exists only while its cigarette burns, lasting 1d6 + 2 minutes. When the cigarette extinguishes, the entity dissipates."
+		},
+		{
+			"Name": "Haunting Glow",
+			"Content": "The faint light of the cigarette illuminates a 5-ft. radius in dim red light."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Smoke Choke",
+			"Content": "Melee Attack: +3 to hit, dealing 5 (1d8 + 1) necrotic damage. The target must make a DC 12 Constitution saving throw or be unable to speak until the start of its next turn."
+		},
+		{
+			"Name": "Coughing Specter",
+			"Content": "Ranged Attack: +3 to hit, dealing 5 (1d8 + 1) necrotic damage. On a hit, the target must make a DC 12 Constitution saving throw or be frightened until the end of their next turn."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}

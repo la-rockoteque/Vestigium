@@ -1,0 +1,93 @@
+{
+	"Source": "",
+	"Type": "Medium undead/plant hybrid, unaligned",
+	"HP": {
+		"Value": 59,
+		"Notes": "7d10 + 21"
+	},
+	"AC": {
+		"Value": 13,
+		"Notes": "overgrown armor"
+	},
+	"InitiativeModifier": 0,
+	"InitiativeAdvantage": false,
+	"Speed": [
+		"20 ft."
+	],
+	"Abilities": {
+		"Str": 14,
+		"Dex": 8,
+		"Con": 16,
+		"Int": 1,
+		"Wis": 10,
+		"Cha": 5
+	},
+	"DamageVulnerabilities": [],
+	"DamageResistances": [
+		"Necrotic"
+	],
+	"DamageImmunities": [
+		"None"
+	],
+	"ConditionImmunities": [
+		"Poisoned"
+	],
+	"Saves": [
+		{
+			"Name": "CON",
+			"Modifier": 6
+		}
+	],
+	"Skills": [
+		{
+			"Name": "Nature",
+			"Modifier": 3
+		},
+		{
+			"Name": "Stealth",
+			"Modifier": 1
+		}
+	],
+	"Senses": [
+		"Darkvision 60 ft."
+	],
+	"Languages": [
+		"Understands Common but can't speak"
+	],
+	"Challenge": "3",
+	"Traits": [
+		{
+			"Name": "Rooted Resilience",
+			"Content": "When reduced to 0 hit points, the Floral Astronaut instead falls to the ground, becoming incapacitated and with 1 hit point. It can use its reaction to immediately regenerate 5 hit points at the start of its turn thereafter."
+		},
+		{
+			"Name": "Nature's Touch",
+			"Content": "The Floral Astronaut has advantage on saving throws against being poisoned and is treated as a plant for the purposes of spells and abilities."
+		}
+	],
+	"Actions": [
+		{
+			"Name": "Multiattack",
+			"Content": "The Floral Astronaut makes two attacks: one with Vine Grasp and one with Thorn Strike."
+		},
+		{
+			"Name": "Vine Grasp",
+			"Content": "Melee Attack: +7 to hit, reach 15 ft., dealing 10 (1d8 + 5) bludgeoning damage and grappling the target."
+		},
+		{
+			"Name": "Thorn Strike",
+			"Content": "Melee Attack: +7 to hit, dealing 14 (2d8 + 5) piercing damage. The target must succeed on a DC 13 Constitution saving throw or be poisoned until the end of its next turn."
+		},
+		{
+			"Name": "Spore Bloom",
+			"Content": "The Floral Astronaut releases a cloud of spores in a 10-foot radius. Creatures within this area must succeed on a DC 13 Constitution saving throw or be poisoned and lightly blinded for 1 minute. The Floral Astronaut can use this action again after a recharge (5-6)."
+		}
+	],
+	"BonusActions": [],
+	"Reactions": [],
+	"MythicActions": [],
+	"Description": "",
+	"Player": "",
+	"Version": "3.6.10",
+	"ImageURL": ""
+}
