@@ -204,8 +204,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1757957203,
-        "_dateLastModifiedHash": "7400c1804e",
+        "dateLastModified": 1758016321,
+        "_dateLastModifiedHash": "3ecf3a9bcb",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -44733,6 +44733,105 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
+            "name": "AI Hologram",
+            "size": [
+                "M"
+            ],
+            "type": "construct",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 13.0,
+                    "from": [
+                        "intangible projection"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 36.0,
+                "formula": "8 + 0.0"
+            },
+            "save": {
+                "dex": "+4",
+                "int": "+5"
+            },
+            "passive": 16.0,
+            "speed": {
+                "walk": 0,
+                "fly": 0
+            },
+            "str": 1.0,
+            "dex": 14.0,
+            "con": 10.0,
+            "int": 16.0,
+            "wis": 12.0,
+            "cha": 18.0,
+            "action": [
+                {
+                    "name": "Data Pulse",
+                    "entries": [
+                        "Ranged Attack: +3 to hit, dealing 10 (2d6 + 4) psychic damage. The target must succeed on a DC 13 Wisdom saving throw or be unable to distinguish reality from holographic illusions until the end of their next turn.;"
+                    ]
+                },
+                {
+                    "name": "Corrupting Static",
+                    "entries": [
+                        "Melee Attack: +3 to hit, dealing 12 (2d8 + 3) lightning damage. On a hit, the target must succeed on a DC 10 Constitution saving throw or have its speed halved until the end of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Holo-Illusion",
+                    "entries": [
+                        "Recharge 5–6: The Hologram AI creates a 20-ft. cube of holographic terrain and figures. Creatures within the area must succeed on a DC 14 Investigation check to disbelieve the illusion. If they fail, they are considered blinded until the end of their next turn as they interact with the illusory scene."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Socket-Bound",
+                    "entries": [
+                        "The Hologram AI cannot leave a 20 ft. radius of its emitter. Destroying the emitter ends the projection.;"
+                    ]
+                },
+                {
+                    "name": "Incorporeal Image",
+                    "entries": [
+                        "The Hologram AI is immune to physical damage, but vulnerable to lightning and psychic damage.;"
+                    ]
+                },
+                {
+                    "name": "Archive Access",
+                    "entries": [
+                        "The Hologram AI knows vast fragments of history, but its memory is corrupted and fragmented, leading to potentially misleading information."
+                    ]
+                }
+            ],
+            "skill": {
+                "arcana": "+5",
+                "insight": "+3",
+                "deception": "+6"
+            },
+            "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/AI_Hologram.png",
+            "fluff": {
+                "entries": [
+                    "A flickering projection of a human form (sometimes clear, sometimes glitching into static). It speaks with a voice tinged by synthetic distortion, carrying memory fragments of its original programming. Though it cannot leave the radius of its emitter socket, it can see, converse, and project illusions. Some are helpful, guiding lost travelers, while others have become hostile, corrupted by centuries of isolation and decaying code."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/AI%20Hologram.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
             "name": "Air Rods",
             "size": [
                 "T"
@@ -45493,7 +45592,7 @@
                 "stealth": "+8"
             },
             "cr": "9",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Beast_of_G%C3%A9vaudan.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Beast_of_Soir-sans-fin.png",
             "fluff": {
                 "entries": [
                     "Once thought slain centuries ago, the Beast of Gévaudan endures as a curse that outlives centuries. Towering over any natural wolf, its hide shifts like shadowed iron, turning aside musket balls and modern bullets alike. Eyes like burning coals pierce the dark as it stalks villages, leaving behind only mauled corpses and whispers of its return. Neither beast nor spirit, the Gévaudan is a terror bound to cycles of fear—resurfacing whenever humanity dares believe the wilderness has been tamed."
@@ -45503,7 +45602,7 @@
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Beast%20of%20G%C3%A9vaudan.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Beast%20of%20Soir-sans-fin.png"
                         }
                     }
                 ]
@@ -45595,7 +45694,7 @@
                 "frightened"
             ],
             "cr": "8",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Chernobyl_Blackbird.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Bird_of_Omen.png",
             "fluff": {
                 "entries": [
                     "hadows that circle before calamity, the Birds of Omen drift silently over cities, fields, and ruins alike. Their wings are tattered and dark, edges glowing faintly with unnatural light as though burned by something unseen. Witnesses claim they gather in flocks above sites of coming disaster — fires, collapses, massacres — their silhouettes blotting the sky like living warnings.\n\nTo see one is unsettling; to see many is cause for dread. Their cries sound not like birdsong, but like static carried on the wind, a broken signal that chills the bone. Whether they are true predators or simply scavengers of misfortune is uncertain — but where they hover, ruin always follows."
@@ -45605,7 +45704,7 @@
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Chernobyl%20Blackbird.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Bird%20of%20Omen.png"
                         }
                     }
                 ]
@@ -47196,6 +47295,145 @@
                         "href": {
                             "type": "external",
                             "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Clockwork%20Morass.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Concrete Pigeon",
+            "size": [
+                "M"
+            ],
+            "type": "construct",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 18.0,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 360.0,
+                "formula": "4 + 5.0"
+            },
+            "save": {
+                "dex": "+14",
+                "con": "+11",
+                "wis": "+11",
+                "cha": "+10"
+            },
+            "passive": 16.0,
+            "speed": {
+                "walk": 30,
+                "fly": 60
+            },
+            "str": 14.0,
+            "dex": 24.0,
+            "con": 20.0,
+            "int": 1.0,
+            "wis": 12.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Concrete Pigeon makes two attacks with Wing Strike and one attack with Shattering Peck.;"
+                    ]
+                },
+                {
+                    "name": "Wing Strike",
+                    "entries": [
+                        "Melee Attack: +11 to hit, dealing 12 (2d10 + 1) bludgeoning damage. The attack sends a shockwave of debris around the target, causing them to make a DC 18 Dexterity saving throw or be knocked prone.;"
+                    ]
+                },
+                {
+                    "name": "Shattering Peck",
+                    "entries": [
+                        "Melee Attack: +11 to hit, dealing 15 (2d10 + 3) piercing damage. The target must make a DC 18 Constitution saving throw or suffer the 'Stunned' condition until the end of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Rubble Cascade",
+                    "entries": [
+                        "Area of effect action: The Concrete Pigeon flaps its wings, creating a 30-foot cone of debris. Each creature within range must make a DC 18 Dexterity saving throw or take 33 (6d10) bludgeoning damage or half as much on a successful save. The area becomes difficult terrain as rubble falls and settles."
+                    ]
+                }
+            ],
+            "legendaryActions": 3,
+            "legendaryHeader": [
+                "The Concrete Pigeon can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Concrete Pigeon regains spent legendary actions at the start of its turn."
+            ],
+            "legendary": [
+                {
+                    "name": "Urban Camouflage (Costs 1 Action)",
+                    "entries": [
+                        "The Concrete Pigeon momentarily melds into its surroundings, gaining advantage on its next Stealth check and becoming invisible until it attacks.;"
+                    ]
+                },
+                {
+                    "name": "Rubble Cascade (Costs 2 Actions)",
+                    "entries": [
+                        "The creature can choose to use the Rubble Cascade action.;"
+                    ]
+                },
+                {
+                    "name": "Terrifying Call (Costs 3 Actions)",
+                    "entries": [
+                        "The Concrete Pigeon emits a chilling call that reverberates like shattering glass. Each creature within 30 feet must make a DC 18 Wisdom saving throw or become frightened until the end of their next turn."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Camouflage",
+                    "entries": [
+                        "The Concrete Pigeon has advantage on Dexterity (Stealth) checks made to hide in urban environments.;"
+                    ]
+                },
+                {
+                    "name": "Rubble Wing",
+                    "entries": [
+                        "When the Concrete Pigeon flies, it leaves a trail of debris in its wake, causing difficult terrain in a 10-foot radius around its flight path until the end of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries": [
+                        "If the creature fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+13",
+                "perception": "+8"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "blinded",
+                "frightened",
+                "grappled",
+                "paralyzed",
+                "petrified",
+                "poisoned"
+            ],
+            "cr": "19",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Concrete_Pigeon.png",
+            "fluff": {
+                "entries": [
+                    "Urban scavengers sculpted by grit and dust, these animate statues blend seamlessly with real birds until one notices their eyes — cold, pitted, and unblinking. They perch above streets, waiting to swoop, wings shedding fragments of rubble. Their calls echo like shattering glass, and rooftops marked by them soon crumble."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Concrete%20Pigeon.png"
                         }
                     }
                 ]
@@ -49002,6 +49240,109 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
+            "name": "Escalator Wraith",
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "alignment": [
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 16.0,
+                    "from": [
+                        "evasive form"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 135.0,
+                "formula": "1 + 3.0"
+            },
+            "save": {
+                "dex": "+8",
+                "con": "+6"
+            },
+            "passive": 17.0,
+            "speed": {
+                "walk": 0,
+                "fly": 60
+            },
+            "str": 6.0,
+            "dex": 18.0,
+            "con": 16.0,
+            "int": 12.0,
+            "wis": 14.0,
+            "cha": 16.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Escalator Wraith makes two Touch of the Unseen attacks and one Grasp of Despair attack.;"
+                    ]
+                },
+                {
+                    "name": "Touch of the Unseen",
+                    "entries": [
+                        "Melee Spell Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) necrotic damage. The target must succeed on a DC 16 Constitution saving throw or have disadvantage on the next attack roll it makes before the end of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Grasp of Despair",
+                    "entries": [
+                        "Melee Spell Attack: +8 to hit, reach 5 ft., one target. Hit: 20 (3d8 + 6) psychic damage. The target must succeed on a DC 16 Wisdom saving throw or become paralyzed until the end of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Ethereal Glide",
+                    "entries": [
+                        "The Escalator Wraith can become incorporeal, allowing it to pass through creatures and objects. As part of this action, it can make one touch attack against a creature. This attack deals 25 (4d10 + 4) necrotic damage, and the target must succeed on a DC 16 Dexterity saving throw or be grappled (escape DC 16) until the start of the wraith's next turn. This ability recharges after a short or long rest."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Evasive Presence",
+                    "entries": [
+                        "The Escalator Wraith has advantage on Dexterity saving throws and ranged attacks against it have disadvantage.;"
+                    ]
+                },
+                {
+                    "name": "Haunting Motion",
+                    "entries": [
+                        "Once per turn, when a creature moves within 10 feet of the Escalator Wraith, they must succeed on a DC 16 Wisdom saving throw or become frightened until the end of their next turn."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+8",
+                "perception": "+6"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "paralyzed",
+                "frightened"
+            ],
+            "cr": "8",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Escalator_Wraith.png",
+            "fluff": {
+                "entries": [
+                    "A pale silhouette that flickers at the edge of vision when riding moving stairs. Always just one step behind, never closer. Some say it’s a remnant of those crushed or mangled in escalator accidents; others think it’s a mimic that follows habitual human motion, waiting for someone to falter."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Escalator%20Wraith.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
             "name": "False Humans",
             "size": [
                 "H"
@@ -49195,6 +49536,105 @@
                         "href": {
                             "type": "external",
                             "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Fleshgait.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Floral Astronaut",
+            "size": [
+                "M"
+            ],
+            "type": "undead/plant",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 13.0,
+                    "from": [
+                        "overgrown armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 59.0,
+                "formula": "7 + 3.0"
+            },
+            "save": {
+                "con": "+6"
+            },
+            "passive": 15.0,
+            "speed": {
+                "walk": 20
+            },
+            "str": 14.0,
+            "dex": 8.0,
+            "con": 16.0,
+            "int": 1.0,
+            "wis": 10.0,
+            "cha": 5.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Floral Astronaut makes two attacks: one with Vine Grasp and one with Thorn Strike.;"
+                    ]
+                },
+                {
+                    "name": "Vine Grasp",
+                    "entries": [
+                        "Melee Attack: +7 to hit, reach 15 ft., dealing 10 (1d8 + 5) bludgeoning damage and grappling the target.;"
+                    ]
+                },
+                {
+                    "name": "Thorn Strike",
+                    "entries": [
+                        "Melee Attack: +7 to hit, dealing 14 (2d8 + 5) piercing damage. The target must succeed on a DC 13 Constitution saving throw or be poisoned until the end of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Spore Bloom",
+                    "entries": [
+                        "The Floral Astronaut releases a cloud of spores in a 10-foot radius. Creatures within this area must succeed on a DC 13 Constitution saving throw or be poisoned and lightly blinded for 1 minute. The Floral Astronaut can use this action again after a recharge (5-6)."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Rooted Resilience",
+                    "entries": [
+                        "When reduced to 0 hit points, the Floral Astronaut instead falls to the ground, becoming incapacitated and with 1 hit point. It can use its reaction to immediately regenerate 5 hit points at the start of its turn thereafter.;"
+                    ]
+                },
+                {
+                    "name": "Nature's Touch",
+                    "entries": [
+                        "The Floral Astronaut has advantage on saving throws against being poisoned and is treated as a plant for the purposes of spells and abilities."
+                    ]
+                }
+            ],
+            "skill": {
+                "nature": "+3",
+                "stealth": "+1"
+            },
+            "conditionImmune": [
+                "poisoned"
+            ],
+            "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Floral_Astronaut.png",
+            "fluff": {
+                "entries": [
+                    "Once a human explorer, their body has long since been claimed by creeping roots and blossoms. Vines coil through the cracked visor of the helmet, flowers bloom from joints in the suit, and moss softens the metal. They move with uncanny slowness, guided not by the mind of the original astronaut, but by the quiet will of the plant colony within. Their presence is both haunting and strangely serene — a reminder that nature reclaims even the farthest reaches of space."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Floral%20Astronaut.png"
                         }
                     }
                 ]
@@ -50639,6 +51079,142 @@
                         "href": {
                             "type": "external",
                             "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Golem%2C%20Waste.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Grey Nun",
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "alignment": [
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 19.0,
+                    "from": [
+                        "shrouded presence"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 400.0,
+                "formula": "4 + 7.0"
+            },
+            "save": {
+                "con": "+15",
+                "wis": "+12",
+                "dex": "+11",
+                "cha": "+12"
+            },
+            "passive": 20.0,
+            "speed": {
+                "walk": 0,
+                "fly": 40
+            },
+            "str": 10.0,
+            "dex": 14.0,
+            "con": 24.0,
+            "int": 8.0,
+            "wis": 20.0,
+            "cha": 18.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Grey Nun makes two attacks with Grasp of Desolation and one attack with Wail of the Lost.;"
+                    ]
+                },
+                {
+                    "name": "Grasp of Desolation",
+                    "entries": [
+                        "Melee Attack: +20 to hit, dealing 30 (5d10 + 3) necrotic damage. A creature hit by this attack must succeed on a DC 22 Constitution saving throw or have their maximum hit points reduced by the damage taken until they finish a long rest.;"
+                    ]
+                },
+                {
+                    "name": "Wail of the Lost",
+                    "entries": [
+                        "Melee Attack: +20 to hit, dealing 63 (10d10 + 8) psychic damage. The creature must make a DC 24 saving throw or suffer the incapacitated condition until the end of their next turn.;"
+                    ]
+                },
+                {
+                    "name": "Veil of Sorrow",
+                    "entries": [
+                        "The Grey Nun emits a 30-foot radius aura of despair. Each creature within range must make a DC 23 Wisdom saving throw or take 85 (16d10) psychic damage or half as much on a successful save. Creatures that fail the save are also frightened until the end of their next turn."
+                    ]
+                }
+            ],
+            "legendaryActions": 3,
+            "legendaryHeader": [
+                "The Grey Nun can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Grey Nun regains spent legendary actions at the start of its turn."
+            ],
+            "legendary": [
+                {
+                    "name": "Eerie Presence Legendary Action (Costs 1 Action)",
+                    "entries": [
+                        "The Grey Nun can invoke her unnatural aura. For the next turn, all creatures that start their turn within 30 feet of her must succeed on a DC 20 Wisdom saving throw or have disadvantage on their attack rolls against her.;"
+                    ]
+                },
+                {
+                    "name": "Consume Sorrow Legendary Action (Costs 2 Actions)",
+                    "entries": [
+                        "The Grey Nun targets one creature within 60 feet. The target must make a DC 22 Wisdom saving throw. On a failed save, the target is paralyzed until the end of their next turn, as they are overwhelmed with visions of despair.;"
+                    ]
+                },
+                {
+                    "name": "Spectral Approach Legendary Action (Costs 3 Actions)",
+                    "entries": [
+                        "The Grey Nun moves up to her flying speed without provoking opportunity attacks. When she moves this way, she can pass through creatures and objects, dealing 80 (15d10) necrotic damage to any creature she ends her movement within. Affected creatures must succeed on a DC 24 Constitution saving throw or be stunned until the end of their next turn."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Ethereal Form",
+                    "entries": [
+                        "Grey Nun can move through other creatures and objects as if they were difficult terrain. She takes 5 (1d10) force damage if she ends her turn inside an object.;"
+                    ]
+                },
+                {
+                    "name": "Aura of Sorrow",
+                    "entries": [
+                        "Creatures that start their turn within 30 feet of the Grey Nun must succeed on a DC 20 Wisdom saving throw or have disadvantage on attack rolls and saving throws until the start of their next turn.;"
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries": [
+                        "If the Grey Nun fails a saving throw, she can choose to succeed instead."
+                    ]
+                }
+            ],
+            "skill": {
+                "perception": "+12",
+                "stealth": "+11"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "frightened",
+                "paralyzed",
+                "stunned"
+            ],
+            "cr": "28",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Grey_Nun.png",
+            "fluff": {
+                "entries": [
+                    "A spectral figure in pale habit, seen gliding silently through hospitals, orphanages, and abandoned convents. Witnesses describe her presence as heavy with sorrow, as though she carries the weight of countless unspoken prayers. She never speaks — only watches, her hollow eyes following the living with patient dread."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Grey%20Nun.png"
                         }
                     }
                 ]
@@ -52918,6 +53494,97 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
+            "name": "Invisible Smoking Man",
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 18.0,
+                    "from": [
+                        "Smoky Form"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 11.0,
+                "formula": "2 + 1.0"
+            },
+            "save": {
+                "dex": "+5",
+                "con": "+3"
+            },
+            "passive": 15.0,
+            "speed": {
+                "walk": 30,
+                "fly": 30
+            },
+            "str": 1.0,
+            "dex": 16.0,
+            "con": 12.0,
+            "int": 1.0,
+            "wis": 10.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Smoke Choke",
+                    "entries": [
+                        "Melee Attack: +3 to hit, dealing 5 (1d8 + 1) necrotic damage. The target must make a DC 12 Constitution saving throw or be unable to speak until the start of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Coughing Specter",
+                    "entries": [
+                        "Ranged Attack: +3 to hit, dealing 5 (1d8 + 1) necrotic damage. On a hit, the target must make a DC 12 Constitution saving throw or be frightened until the end of their next turn."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Cigarette's Life",
+                    "entries": [
+                        "The Invisible Smoking Man exists only while its cigarette burns, lasting 1d6 + 2 minutes. When the cigarette extinguishes, the entity dissipates.;"
+                    ]
+                },
+                {
+                    "name": "Haunting Glow",
+                    "entries": [
+                        "The faint light of the cigarette illuminates a 5-ft. radius in dim red light."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+5"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "blinded",
+                "frightened",
+                "incapacitated"
+            ],
+            "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Invisible_Smoking_Man.png",
+            "fluff": {
+                "entries": [
+                    "A presence that manifests only through a glowing cigarette and the smoke it exhales. The ember drifts in the dark, hanging in mid-air, with no body attached. Each drag fills the outline of lungs in a faint smoky glow, visible for a moment before being exhaled in a human-shaped sigh. Then—nothing. The man vanishes entirely when the cigarette burns down to its end, leaving behind only the lingering smell of ash and tobacco. Witnesses often report feeling watched, though no one is ever there."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Invisible%20Smoking%20Man.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
             "name": "Kotojelen",
             "size": [
                 "L"
@@ -54853,7 +55520,7 @@
                 "perception": "+3"
             },
             "cr": "2",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Dover_Demon.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Moor_Demon.png",
             "fluff": {
                 "entries": [
                     "A pale, humanoid cryptid that watches from shadows and never attacks unless cornered."
@@ -54863,7 +55530,7 @@
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Dover%20Demon.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Moor%20Demon.png"
                         }
                     }
                 ]
@@ -58069,52 +58736,178 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Sentry Turret, Flamethrower",
+            "name": "Sentry Turret, EMP",
             "size": [
-                "M"
+                "S"
             ],
             "type": "construct",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
-                    "ac": 12.0,
+                    "ac": 17.0,
                     "from": [
                         "natural armor"
                     ]
                 }
             ],
             "hp": {
-                "average": 72.0,
-                "formula": "2d71 + 0.0"
+                "average": 32.0,
+                "formula": "5 + 2.0"
             },
             "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+16"
+                "str": "+2",
+                "dex": "+0",
+                "con": "+4",
+                "wis": "+1"
             },
-            "passive": 10.0,
+            "passive": 16.0,
             "speed": {
-                "walk": 30
+                "walk": 0
             },
-            "str": 10.0,
+            "str": 14.0,
             "dex": 10.0,
-            "con": 10.0,
-            "int": 10.0,
-            "wis": 10.0,
-            "cha": 10.0,
+            "con": 15.0,
+            "int": 1.0,
+            "wis": 12.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Precision Laser Fire",
+                    "entries": [
+                        "Melee Attack: +5 to hit, dealing 8 (1d10 + 3) radiant damage. The turret locks onto a target and unleashes a focused beam of light, accurate and swift.;"
+                    ]
+                },
+                {
+                    "name": "Targeting Beam (Recharge 5-6)",
+                    "entries": [
+                        "The turret creates a 40-foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 16 (3d10) force damage on a failed save, or half as much damage on a successful one as the line crackles with energy, overwhelming those caught in its path.;"
+                    ]
+                },
+                {
+                    "name": "Suppressive Fire",
+                    "entries": [
+                        "The turret unleashes a barrage of projectiles in a 30-foot cone. Each creature in that area must succeed on a DC 12 Strength saving throw. On a failed save, the creature is pushed 30 feet away from the turret as the projectiles whiz by, knocking them back with the force of the attack."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Automated Targeting",
+                    "entries": [
+                        "The sentry turret can detect creatures within a 30-foot radius and can automatically prepare to fire at them.;"
+                    ]
+                },
+                {
+                    "name": "Reactive Defense",
+                    "entries": [
+                        "The sentry turret gains advantage on saving throws against being targeted by ranged attacks due to its defensive programming."
+                    ]
+                }
+            ],
             "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+11"
+                "perception": "+3"
             },
             "conditionImmune": [
-                "immune to poisoned",
-                "exhaustion; resistant to frightened"
+                "prone"
             ],
-            "cr": "3",
+            "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret_EMP.png",
+            "fluff": {
+                "entries": [
+                    "Automated defense turrets programmed to eliminate threats."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sentry%20Turret%2C%20EMP.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Sentry Turret, Flamethrower",
+            "size": [
+                "S"
+            ],
+            "type": "construct",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 17.0,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 32.0,
+                "formula": "5 + 2.0"
+            },
+            "save": {
+                "str": "+2",
+                "dex": "+0",
+                "con": "+4",
+                "wis": "+1"
+            },
+            "passive": 16.0,
+            "speed": {
+                "walk": 0
+            },
+            "str": 14.0,
+            "dex": 10.0,
+            "con": 15.0,
+            "int": 1.0,
+            "wis": 12.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Precision Laser Fire",
+                    "entries": [
+                        "Melee Attack: +5 to hit, dealing 8 (1d10 + 3) radiant damage. The turret locks onto a target and unleashes a focused beam of light, accurate and swift.;"
+                    ]
+                },
+                {
+                    "name": "Targeting Beam (Recharge 5-6)",
+                    "entries": [
+                        "The turret creates a 40-foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 16 (3d10) force damage on a failed save, or half as much damage on a successful one as the line crackles with energy, overwhelming those caught in its path.;"
+                    ]
+                },
+                {
+                    "name": "Suppressive Fire",
+                    "entries": [
+                        "The turret unleashes a barrage of projectiles in a 30-foot cone. Each creature in that area must succeed on a DC 12 Strength saving throw. On a failed save, the creature is pushed 30 feet away from the turret as the projectiles whiz by, knocking them back with the force of the attack."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Automated Targeting",
+                    "entries": [
+                        "The sentry turret can detect creatures within a 30-foot radius and can automatically prepare to fire at them.;"
+                    ]
+                },
+                {
+                    "name": "Reactive Defense",
+                    "entries": [
+                        "The sentry turret gains advantage on saving throws against being targeted by ranged attacks due to its defensive programming."
+                    ]
+                }
+            ],
+            "skill": {
+                "perception": "+3"
+            },
+            "conditionImmune": [
+                "prone"
+            ],
+            "cr": "2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret_Flamethrower.png",
             "fluff": {
                 "entries": [
@@ -58133,52 +58926,273 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Sentry Turret, Laser",
+            "name": "Sentry Turret, Gauss Canon",
             "size": [
-                "M"
+                "S"
             ],
             "type": "construct",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
-                    "ac": 12.0,
+                    "ac": 17.0,
                     "from": [
                         "natural armor"
                     ]
                 }
             ],
             "hp": {
-                "average": 72.0,
-                "formula": "2d71 + 0.0"
+                "average": 32.0,
+                "formula": "5 + 2.0"
             },
             "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+15"
+                "str": "+2",
+                "dex": "+0",
+                "con": "+4",
+                "wis": "+1"
             },
-            "passive": 10.0,
+            "passive": 16.0,
             "speed": {
-                "walk": 30
+                "walk": 0
             },
-            "str": 10.0,
+            "str": 14.0,
             "dex": 10.0,
-            "con": 10.0,
-            "int": 10.0,
-            "wis": 10.0,
-            "cha": 10.0,
+            "con": 15.0,
+            "int": 1.0,
+            "wis": 12.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Precision Laser Fire",
+                    "entries": [
+                        "Melee Attack: +5 to hit, dealing 8 (1d10 + 3) radiant damage. The turret locks onto a target and unleashes a focused beam of light, accurate and swift.;"
+                    ]
+                },
+                {
+                    "name": "Targeting Beam (Recharge 5-6)",
+                    "entries": [
+                        "The turret creates a 40-foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 16 (3d10) force damage on a failed save, or half as much damage on a successful one as the line crackles with energy, overwhelming those caught in its path.;"
+                    ]
+                },
+                {
+                    "name": "Suppressive Fire",
+                    "entries": [
+                        "The turret unleashes a barrage of projectiles in a 30-foot cone. Each creature in that area must succeed on a DC 12 Strength saving throw. On a failed save, the creature is pushed 30 feet away from the turret as the projectiles whiz by, knocking them back with the force of the attack."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Automated Targeting",
+                    "entries": [
+                        "The sentry turret can detect creatures within a 30-foot radius and can automatically prepare to fire at them.;"
+                    ]
+                },
+                {
+                    "name": "Reactive Defense",
+                    "entries": [
+                        "The sentry turret gains advantage on saving throws against being targeted by ranged attacks due to its defensive programming."
+                    ]
+                }
+            ],
             "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+10"
+                "perception": "+3"
             },
             "conditionImmune": [
-                "immune to poisoned",
-                "exhaustion; resistant to frightened"
+                "prone"
             ],
-            "cr": "3",
+            "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret_Gauss_Canon.png",
+            "fluff": {
+                "entries": [
+                    "Automated defense turrets programmed to eliminate threats."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sentry%20Turret%2C%20Gauss%20Canon.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Sentry Turret, Gaz",
+            "size": [
+                "S"
+            ],
+            "type": "construct",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 17.0,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 32.0,
+                "formula": "5 + 2.0"
+            },
+            "save": {
+                "str": "+2",
+                "dex": "+0",
+                "con": "+4",
+                "wis": "+1"
+            },
+            "passive": 16.0,
+            "speed": {
+                "walk": 0
+            },
+            "str": 14.0,
+            "dex": 10.0,
+            "con": 15.0,
+            "int": 1.0,
+            "wis": 12.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Precision Laser Fire",
+                    "entries": [
+                        "Melee Attack: +5 to hit, dealing 8 (1d10 + 3) radiant damage. The turret locks onto a target and unleashes a focused beam of light, accurate and swift.;"
+                    ]
+                },
+                {
+                    "name": "Targeting Beam (Recharge 5-6)",
+                    "entries": [
+                        "The turret creates a 40-foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 16 (3d10) force damage on a failed save, or half as much damage on a successful one as the line crackles with energy, overwhelming those caught in its path.;"
+                    ]
+                },
+                {
+                    "name": "Suppressive Fire",
+                    "entries": [
+                        "The turret unleashes a barrage of projectiles in a 30-foot cone. Each creature in that area must succeed on a DC 12 Strength saving throw. On a failed save, the creature is pushed 30 feet away from the turret as the projectiles whiz by, knocking them back with the force of the attack."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Automated Targeting",
+                    "entries": [
+                        "The sentry turret can detect creatures within a 30-foot radius and can automatically prepare to fire at them.;"
+                    ]
+                },
+                {
+                    "name": "Reactive Defense",
+                    "entries": [
+                        "The sentry turret gains advantage on saving throws against being targeted by ranged attacks due to its defensive programming."
+                    ]
+                }
+            ],
+            "skill": {
+                "perception": "+3"
+            },
+            "conditionImmune": [
+                "prone"
+            ],
+            "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret_Gaz.png",
+            "fluff": {
+                "entries": [
+                    "Automated defense turrets programmed to eliminate threats."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sentry%20Turret%2C%20Gaz.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Sentry Turret, Laser",
+            "size": [
+                "S"
+            ],
+            "type": "construct",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 17.0,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 32.0,
+                "formula": "5 + 2.0"
+            },
+            "save": {
+                "str": "+2",
+                "dex": "+0",
+                "con": "+4",
+                "wis": "+1"
+            },
+            "passive": 16.0,
+            "speed": {
+                "walk": 0
+            },
+            "str": 14.0,
+            "dex": 10.0,
+            "con": 15.0,
+            "int": 1.0,
+            "wis": 12.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Precision Laser Fire",
+                    "entries": [
+                        "Melee Attack: +5 to hit, dealing 8 (1d10 + 3) radiant damage. The turret locks onto a target and unleashes a focused beam of light, accurate and swift.;"
+                    ]
+                },
+                {
+                    "name": "Targeting Beam (Recharge 5-6)",
+                    "entries": [
+                        "The turret creates a 40-foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 16 (3d10) force damage on a failed save, or half as much damage on a successful one as the line crackles with energy, overwhelming those caught in its path.;"
+                    ]
+                },
+                {
+                    "name": "Suppressive Fire",
+                    "entries": [
+                        "The turret unleashes a barrage of projectiles in a 30-foot cone. Each creature in that area must succeed on a DC 12 Strength saving throw. On a failed save, the creature is pushed 30 feet away from the turret as the projectiles whiz by, knocking them back with the force of the attack."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Automated Targeting",
+                    "entries": [
+                        "The sentry turret can detect creatures within a 30-foot radius and can automatically prepare to fire at them.;"
+                    ]
+                },
+                {
+                    "name": "Reactive Defense",
+                    "entries": [
+                        "The sentry turret gains advantage on saving throws against being targeted by ranged attacks due to its defensive programming."
+                    ]
+                }
+            ],
+            "skill": {
+                "perception": "+3"
+            },
+            "conditionImmune": [
+                "prone"
+            ],
+            "cr": "2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret_Laser.png",
             "fluff": {
                 "entries": [
@@ -58199,50 +59213,81 @@
             "source": "EverydayGuidetoConcordCity",
             "name": "Sentry Turret, Machinegun",
             "size": [
-                "M"
+                "S"
             ],
             "type": "construct",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
-                    "ac": 12.0,
+                    "ac": 17.0,
                     "from": [
                         "natural armor"
                     ]
                 }
             ],
             "hp": {
-                "average": 72.0,
-                "formula": "2d71 + 0.0"
+                "average": 32.0,
+                "formula": "5 + 2.0"
             },
             "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+14"
+                "str": "+2",
+                "dex": "+0",
+                "con": "+4",
+                "wis": "+1"
             },
-            "passive": 10.0,
+            "passive": 16.0,
             "speed": {
-                "walk": 30
+                "walk": 0
             },
-            "str": 10.0,
+            "str": 14.0,
             "dex": 10.0,
-            "con": 10.0,
-            "int": 10.0,
-            "wis": 10.0,
-            "cha": 10.0,
+            "con": 15.0,
+            "int": 1.0,
+            "wis": 12.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Precision Laser Fire",
+                    "entries": [
+                        "Melee Attack: +5 to hit, dealing 8 (1d10 + 3) radiant damage. The turret locks onto a target and unleashes a focused beam of light, accurate and swift.;"
+                    ]
+                },
+                {
+                    "name": "Targeting Beam (Recharge 5-6)",
+                    "entries": [
+                        "The turret creates a 40-foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 16 (3d10) force damage on a failed save, or half as much damage on a successful one as the line crackles with energy, overwhelming those caught in its path.;"
+                    ]
+                },
+                {
+                    "name": "Suppressive Fire",
+                    "entries": [
+                        "The turret unleashes a barrage of projectiles in a 30-foot cone. Each creature in that area must succeed on a DC 12 Strength saving throw. On a failed save, the creature is pushed 30 feet away from the turret as the projectiles whiz by, knocking them back with the force of the attack."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Automated Targeting",
+                    "entries": [
+                        "The sentry turret can detect creatures within a 30-foot radius and can automatically prepare to fire at them.;"
+                    ]
+                },
+                {
+                    "name": "Reactive Defense",
+                    "entries": [
+                        "The sentry turret gains advantage on saving throws against being targeted by ranged attacks due to its defensive programming."
+                    ]
+                }
+            ],
             "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+9"
+                "perception": "+3"
             },
             "conditionImmune": [
-                "immune to poisoned",
-                "exhaustion; resistant to frightened"
+                "prone"
             ],
-            "cr": "3",
+            "cr": "2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret_Machinegun.png",
             "fluff": {
                 "entries": [
@@ -58263,50 +59308,81 @@
             "source": "EverydayGuidetoConcordCity",
             "name": "Sentry Turret, Missile",
             "size": [
-                "M"
+                "S"
             ],
             "type": "construct",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
-                    "ac": 12.0,
+                    "ac": 17.0,
                     "from": [
                         "natural armor"
                     ]
                 }
             ],
             "hp": {
-                "average": 72.0,
-                "formula": "2d71 + 0.0"
+                "average": 32.0,
+                "formula": "5 + 2.0"
             },
             "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+13"
+                "str": "+2",
+                "dex": "+0",
+                "con": "+4",
+                "wis": "+1"
             },
-            "passive": 10.0,
+            "passive": 16.0,
             "speed": {
-                "walk": 30
+                "walk": 0
             },
-            "str": 10.0,
+            "str": 14.0,
             "dex": 10.0,
-            "con": 10.0,
-            "int": 10.0,
-            "wis": 10.0,
-            "cha": 10.0,
+            "con": 15.0,
+            "int": 1.0,
+            "wis": 12.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Precision Laser Fire",
+                    "entries": [
+                        "Melee Attack: +5 to hit, dealing 8 (1d10 + 3) radiant damage. The turret locks onto a target and unleashes a focused beam of light, accurate and swift.;"
+                    ]
+                },
+                {
+                    "name": "Targeting Beam (Recharge 5-6)",
+                    "entries": [
+                        "The turret creates a 40-foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 16 (3d10) force damage on a failed save, or half as much damage on a successful one as the line crackles with energy, overwhelming those caught in its path.;"
+                    ]
+                },
+                {
+                    "name": "Suppressive Fire",
+                    "entries": [
+                        "The turret unleashes a barrage of projectiles in a 30-foot cone. Each creature in that area must succeed on a DC 12 Strength saving throw. On a failed save, the creature is pushed 30 feet away from the turret as the projectiles whiz by, knocking them back with the force of the attack."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Automated Targeting",
+                    "entries": [
+                        "The sentry turret can detect creatures within a 30-foot radius and can automatically prepare to fire at them.;"
+                    ]
+                },
+                {
+                    "name": "Reactive Defense",
+                    "entries": [
+                        "The sentry turret gains advantage on saving throws against being targeted by ranged attacks due to its defensive programming."
+                    ]
+                }
+            ],
             "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+8"
+                "perception": "+3"
             },
             "conditionImmune": [
-                "immune to poisoned",
-                "exhaustion; resistant to frightened"
+                "prone"
             ],
-            "cr": "3",
+            "cr": "2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret_Missile.png",
             "fluff": {
                 "entries": [
@@ -58325,52 +59401,178 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Sentry Turret, Sonic",
+            "name": "Sentry Turret, Plasma",
             "size": [
-                "M"
+                "S"
             ],
             "type": "construct",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
-                    "ac": 12.0,
+                    "ac": 17.0,
                     "from": [
                         "natural armor"
                     ]
                 }
             ],
             "hp": {
-                "average": 72.0,
-                "formula": "2d71 + 0.0"
+                "average": 32.0,
+                "formula": "5 + 2.0"
             },
             "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+12"
+                "str": "+2",
+                "dex": "+0",
+                "con": "+4",
+                "wis": "+1"
             },
-            "passive": 10.0,
+            "passive": 16.0,
             "speed": {
-                "walk": 30
+                "walk": 0
             },
-            "str": 10.0,
+            "str": 14.0,
             "dex": 10.0,
-            "con": 10.0,
-            "int": 10.0,
-            "wis": 10.0,
-            "cha": 10.0,
+            "con": 15.0,
+            "int": 1.0,
+            "wis": 12.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Precision Laser Fire",
+                    "entries": [
+                        "Melee Attack: +5 to hit, dealing 8 (1d10 + 3) radiant damage. The turret locks onto a target and unleashes a focused beam of light, accurate and swift.;"
+                    ]
+                },
+                {
+                    "name": "Targeting Beam (Recharge 5-6)",
+                    "entries": [
+                        "The turret creates a 40-foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 16 (3d10) force damage on a failed save, or half as much damage on a successful one as the line crackles with energy, overwhelming those caught in its path.;"
+                    ]
+                },
+                {
+                    "name": "Suppressive Fire",
+                    "entries": [
+                        "The turret unleashes a barrage of projectiles in a 30-foot cone. Each creature in that area must succeed on a DC 12 Strength saving throw. On a failed save, the creature is pushed 30 feet away from the turret as the projectiles whiz by, knocking them back with the force of the attack."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Automated Targeting",
+                    "entries": [
+                        "The sentry turret can detect creatures within a 30-foot radius and can automatically prepare to fire at them.;"
+                    ]
+                },
+                {
+                    "name": "Reactive Defense",
+                    "entries": [
+                        "The sentry turret gains advantage on saving throws against being targeted by ranged attacks due to its defensive programming."
+                    ]
+                }
+            ],
             "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+7"
+                "perception": "+3"
             },
             "conditionImmune": [
-                "immune to poisoned",
-                "exhaustion; resistant to frightened"
+                "prone"
             ],
-            "cr": "3",
+            "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret_Plasma.png",
+            "fluff": {
+                "entries": [
+                    "Automated defense turrets programmed to eliminate threats."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sentry%20Turret%2C%20Plasma.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Sentry Turret, Sonic",
+            "size": [
+                "S"
+            ],
+            "type": "construct",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 17.0,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 32.0,
+                "formula": "5 + 2.0"
+            },
+            "save": {
+                "str": "+2",
+                "dex": "+0",
+                "con": "+4",
+                "wis": "+1"
+            },
+            "passive": 16.0,
+            "speed": {
+                "walk": 0
+            },
+            "str": 14.0,
+            "dex": 10.0,
+            "con": 15.0,
+            "int": 1.0,
+            "wis": 12.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Precision Laser Fire",
+                    "entries": [
+                        "Melee Attack: +5 to hit, dealing 8 (1d10 + 3) radiant damage. The turret locks onto a target and unleashes a focused beam of light, accurate and swift.;"
+                    ]
+                },
+                {
+                    "name": "Targeting Beam (Recharge 5-6)",
+                    "entries": [
+                        "The turret creates a 40-foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 16 (3d10) force damage on a failed save, or half as much damage on a successful one as the line crackles with energy, overwhelming those caught in its path.;"
+                    ]
+                },
+                {
+                    "name": "Suppressive Fire",
+                    "entries": [
+                        "The turret unleashes a barrage of projectiles in a 30-foot cone. Each creature in that area must succeed on a DC 12 Strength saving throw. On a failed save, the creature is pushed 30 feet away from the turret as the projectiles whiz by, knocking them back with the force of the attack."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Automated Targeting",
+                    "entries": [
+                        "The sentry turret can detect creatures within a 30-foot radius and can automatically prepare to fire at them.;"
+                    ]
+                },
+                {
+                    "name": "Reactive Defense",
+                    "entries": [
+                        "The sentry turret gains advantage on saving throws against being targeted by ranged attacks due to its defensive programming."
+                    ]
+                }
+            ],
+            "skill": {
+                "perception": "+3"
+            },
+            "conditionImmune": [
+                "prone"
+            ],
+            "cr": "2",
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret_Sonic.png",
             "fluff": {
                 "entries": [
@@ -58382,6 +59584,101 @@
                         "href": {
                             "type": "external",
                             "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sentry%20Turret%2C%20Sonic.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Sentry Turret, Tesla",
+            "size": [
+                "S"
+            ],
+            "type": "construct",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 17.0,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 32.0,
+                "formula": "5 + 2.0"
+            },
+            "save": {
+                "str": "+2",
+                "dex": "+0",
+                "con": "+4",
+                "wis": "+1"
+            },
+            "passive": 16.0,
+            "speed": {
+                "walk": 0
+            },
+            "str": 14.0,
+            "dex": 10.0,
+            "con": 15.0,
+            "int": 1.0,
+            "wis": 12.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Precision Laser Fire",
+                    "entries": [
+                        "Melee Attack: +5 to hit, dealing 8 (1d10 + 3) radiant damage. The turret locks onto a target and unleashes a focused beam of light, accurate and swift.;"
+                    ]
+                },
+                {
+                    "name": "Targeting Beam (Recharge 5-6)",
+                    "entries": [
+                        "The turret creates a 40-foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 16 (3d10) force damage on a failed save, or half as much damage on a successful one as the line crackles with energy, overwhelming those caught in its path.;"
+                    ]
+                },
+                {
+                    "name": "Suppressive Fire",
+                    "entries": [
+                        "The turret unleashes a barrage of projectiles in a 30-foot cone. Each creature in that area must succeed on a DC 12 Strength saving throw. On a failed save, the creature is pushed 30 feet away from the turret as the projectiles whiz by, knocking them back with the force of the attack."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Automated Targeting",
+                    "entries": [
+                        "The sentry turret can detect creatures within a 30-foot radius and can automatically prepare to fire at them.;"
+                    ]
+                },
+                {
+                    "name": "Reactive Defense",
+                    "entries": [
+                        "The sentry turret gains advantage on saving throws against being targeted by ranged attacks due to its defensive programming."
+                    ]
+                }
+            ],
+            "skill": {
+                "perception": "+3"
+            },
+            "conditionImmune": [
+                "prone"
+            ],
+            "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sentry_Turret_Tesla.png",
+            "fluff": {
+                "entries": [
+                    "Automated defense turrets programmed to eliminate threats."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sentry%20Turret%2C%20Tesla.png"
                         }
                     }
                 ]
@@ -61039,7 +62336,7 @@
                 "prone"
             ],
             "cr": "7",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sunken_Drifter.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sunken_Drifter_Sedan.png",
             "fluff": {
                 "entries": [
                     "The Sunken Drifter looks like a rusting sedan, its frame sagging with water damage and streaked with oil. Yet despite shattered windows and corroded steel, it moves of its own accord, rolling steadily down empty highways and abandoned roads. No driver sits at the wheel. No passengers stir inside. Its headlights flicker like dying eyes, and the air around it smells of wet asphalt and burning oil.\n\nGhost in the Machine. Scholars argue whether the Drifter is a haunted vehicle, a cursed construct, or a spirit that has chosen metal for its shell. The truth is uncertain, but all agree its presence is a bad omen: roadkill rises in its wake, engines sputter, and stormwater thickens with black sludge.\n\nTrail of Oil. Wherever it passes, the ground is left streaked with smoldering oil. This trail burns if ignited, sometimes sparking into sudden fires long after the Drifter has vanished.\n\nUrban Haunter. The Sunken Drifter is most often seen in storm-flooded underpasses, crumbling parking lots, or highways where accidents claimed many lives. Travelers tell of hearing the wet hiss of tires on asphalt behind them, only to find the road empty—until the flicker of headlights appears again in the distance.\n\nOmen of Tragedy. The Drifter rarely attacks unprovoked. Instead it stalks, circling or tailing its chosen quarry for miles. Some claim it heralds a coming accident; others say it seeks new victims to join whatever drowned spirits haunt its waterlogged interior."
@@ -61049,7 +62346,7 @@
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sunken%20Drifter.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sunken%20Drifter%2C%20Sedan.png"
                         }
                     }
                 ]
@@ -61151,7 +62448,7 @@
                 "prone"
             ],
             "cr": "8",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sunken_Drifter.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sunken_Drifter_SUV.png",
             "fluff": {
                 "entries": [
                     "The Sunken Drifter looks like a rusting sedan, its frame sagging with water damage and streaked with oil. Yet despite shattered windows and corroded steel, it moves of its own accord, rolling steadily down empty highways and abandoned roads. No driver sits at the wheel. No passengers stir inside. Its headlights flicker like dying eyes, and the air around it smells of wet asphalt and burning oil.\n\nGhost in the Machine. Scholars argue whether the Drifter is a haunted vehicle, a cursed construct, or a spirit that has chosen metal for its shell. The truth is uncertain, but all agree its presence is a bad omen: roadkill rises in its wake, engines sputter, and stormwater thickens with black sludge.\n\nTrail of Oil. Wherever it passes, the ground is left streaked with smoldering oil. This trail burns if ignited, sometimes sparking into sudden fires long after the Drifter has vanished.\n\nUrban Haunter. The Sunken Drifter is most often seen in storm-flooded underpasses, crumbling parking lots, or highways where accidents claimed many lives. Travelers tell of hearing the wet hiss of tires on asphalt behind them, only to find the road empty—until the flicker of headlights appears again in the distance.\n\nOmen of Tragedy. The Drifter rarely attacks unprovoked. Instead it stalks, circling or tailing its chosen quarry for miles. Some claim it heralds a coming accident; others say it seeks new victims to join whatever drowned spirits haunt its waterlogged interior."
@@ -61161,7 +62458,7 @@
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sunken%20Drifter.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sunken%20Drifter%2C%20SUV.png"
                         }
                     }
                 ]
@@ -61263,7 +62560,7 @@
                 "prone"
             ],
             "cr": "10",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sunken_Drifter.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Sunken_Drifter_Truck.png",
             "fluff": {
                 "entries": [
                     "The Sunken Drifter looks like a rusting sedan, its frame sagging with water damage and streaked with oil. Yet despite shattered windows and corroded steel, it moves of its own accord, rolling steadily down empty highways and abandoned roads. No driver sits at the wheel. No passengers stir inside. Its headlights flicker like dying eyes, and the air around it smells of wet asphalt and burning oil.\n\nGhost in the Machine. Scholars argue whether the Drifter is a haunted vehicle, a cursed construct, or a spirit that has chosen metal for its shell. The truth is uncertain, but all agree its presence is a bad omen: roadkill rises in its wake, engines sputter, and stormwater thickens with black sludge.\n\nTrail of Oil. Wherever it passes, the ground is left streaked with smoldering oil. This trail burns if ignited, sometimes sparking into sudden fires long after the Drifter has vanished.\n\nUrban Haunter. The Sunken Drifter is most often seen in storm-flooded underpasses, crumbling parking lots, or highways where accidents claimed many lives. Travelers tell of hearing the wet hiss of tires on asphalt behind them, only to find the road empty—until the flicker of headlights appears again in the distance.\n\nOmen of Tragedy. The Drifter rarely attacks unprovoked. Instead it stalks, circling or tailing its chosen quarry for miles. Some claim it heralds a coming accident; others say it seeks new victims to join whatever drowned spirits haunt its waterlogged interior."
@@ -61273,7 +62570,7 @@
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sunken%20Drifter.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Sunken%20Drifter%2C%20Truck.png"
                         }
                     }
                 ]
@@ -61914,6 +63211,141 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
+            "name": "Taos Hum",
+            "size": [
+                "H"
+            ],
+            "type": "aberration",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 18.0,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 325.0,
+                "formula": "2 + 5.0"
+            },
+            "save": {
+                "con": "+12",
+                "int": "+9",
+                "wis": "+9",
+                "dex": "+8"
+            },
+            "passive": 16.0,
+            "speed": {
+                "walk": 0
+            },
+            "str": 10.0,
+            "dex": 16.0,
+            "con": 20.0,
+            "int": 18.0,
+            "wis": 12.0,
+            "cha": 10.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The presence of Taos Hum creates a disconcerting aura that affects the minds of its targets. It can unleash a resonating vibration twice as a psychic attack and follow with a disorienting pulse.;"
+                    ]
+                },
+                {
+                    "name": "Dissonant Strike",
+                    "entries": [
+                        "Melee Attack: +8 to hit, dealing 9 (1d10 + 3) psychic damage. Affected targets must succeed on a DC 17 Intelligence saving throw or be stunned until the end of their next turn.;"
+                    ]
+                },
+                {
+                    "name": "Resonating Pulse",
+                    "entries": [
+                        "Melee Attack: +8 to hit, dealing 9 (1d10 + 3) thunder damage. On a failed DC 18 Constitution saving throw, the target is pushed back 10 feet and cannot take reactions until the end of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Void Resonance",
+                    "entries": [
+                        "Each creature within a 30-foot radius must make a DC 16 Wisdom saving throw or take 33 (7d10) psychic damage, or half as much on a successful save. Creatures that fail the save also suffer disadvantage on the next attack roll they make before the end of their next turn."
+                    ]
+                }
+            ],
+            "legendaryActions": 3,
+            "legendaryHeader": [
+                "The Taos Hum can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Taos Hum regains spent legendary actions at the start of its turn."
+            ],
+            "legendary": [
+                {
+                    "name": "Echoing Veil (Costs 1 Action)",
+                    "entries": [
+                        "Taos Hum envelops itself in a shroud of discordant sound, creating an illusory distortion of its true form. For the next round, it imposes disadvantage on attack rolls against it.;"
+                    ]
+                },
+                {
+                    "name": "Harmonic Displacement (Costs 2 Actions)",
+                    "entries": [
+                        "The creature can choose to use Void Resonance.;"
+                    ]
+                },
+                {
+                    "name": "Uproarious Wail (Costs 3 Actions)",
+                    "entries": [
+                        "Taos Hum emits a terrifying wail that resonates with deeply buried fears. Each creature of its choice within 60 feet must make a DC 18 Wisdom saving throw, taking 27 (5d10) psychic damage on a failed save or half as much on a success. Those who fail are also frightened until the end of their next turn."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Resonant Aura",
+                    "entries": [
+                        "The presence of Taos Hum creates an aura of unease, causing creatures within 30 feet to have disadvantage on saving throws against being frightened.;"
+                    ]
+                },
+                {
+                    "name": "Whispers of the Past",
+                    "entries": [
+                        "Creatures that can hear Taos Hum must succeed on a DC 17 Wisdom saving throw or suffer disadvantage on Wisdom saving throws until the end of their next turn.;"
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries": [
+                        "If the creature fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "skill": {
+                "insight": "+9",
+                "perception": "+9",
+                "stealth": "+8"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "frightened",
+                "incapacitated"
+            ],
+            "cr": "15",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Taos_Hum.png",
+            "fluff": {
+                "entries": [
+                    "Not a creature, but a presence. A low, ceaseless vibration that rattles bones and stirs unease in the gut. Those who hear it grow restless, sleepless, and paranoid, claiming that the Hum is alive — a buried machine, a hidden intelligence, or something older still, humming beneath the earth’s skin."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Taos%20Hum.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
             "name": "Tearskin Beast",
             "size": [
                 "M"
@@ -62086,6 +63518,140 @@
                         "href": {
                             "type": "external",
                             "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Time%20Traveling%20Hipster.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Turnstile Gnasher",
+            "size": [
+                "L"
+            ],
+            "type": "monstrosity",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 23.0,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 360.0,
+                "formula": "4 + 5.0"
+            },
+            "save": {
+                "str": "+13",
+                "dex": "+17",
+                "con": "+14",
+                "wis": "+14"
+            },
+            "passive": 17.0,
+            "speed": {
+                "walk": 30
+            },
+            "str": 26.0,
+            "dex": 20.0,
+            "con": 20.0,
+            "int": 3.0,
+            "wis": 14.0,
+            "cha": 3.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Turnstile Gnasher makes two attacks with Metal Jaws and one attack with Grasping Turnstile.;"
+                    ]
+                },
+                {
+                    "name": "Metal Jaws",
+                    "entries": [
+                        "Melee Attack: +14 to hit, dealing 16 (2d10 + 5) piercing damage. A creature hit by this attack must succeed on a DC 21 Wisdom saving throw or be frightened until the end of its next turn, as it senses a dreadful inevitability.;"
+                    ]
+                },
+                {
+                    "name": "Grasping Turnstile",
+                    "entries": [
+                        "Melee Attack: +14 to hit, dealing 22 (3d10 + 2) bludgeoning damage. The creature must make a DC 21 Constitution saving throw or be grappled by the Turnstile Gnasher until the grapple ends, taking 10 (3d6) additional bludgeoning damage at the start of each of its turns.;"
+                    ]
+                },
+                {
+                    "name": "Crowd Surge",
+                    "entries": [
+                        "The Turnstile Gnasher creates an area of chaotic movement in a 30-foot cone. Each creature within range must make a DC 21 Dexterity saving throw or take 44 (8d10) slashing damage from whirling metal edges and be pushed back 10 feet. On a success, a creature takes half damage and is not pushed."
+                    ]
+                }
+            ],
+            "legendaryActions": 3,
+            "legendaryHeader": [
+                "The Turnstile Gnasher can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Turnstile Gnasher regains spent legendary actions at the start of its turn."
+            ],
+            "legendary": [
+                {
+                    "name": "Hesitation Riposte (Costs 1 Action)",
+                    "entries": [
+                        "The Turnstile Gnasher can use its reaction to force one creature that took an action to search for an item within 30 ft. of it to make a DC 18 Wisdom saving throw. On a failure, that creature is paralyzed until the end of its next turn as they are caught in a phantom embrace.;"
+                    ]
+                },
+                {
+                    "name": "Converging Turnstiles (Costs 2 Actions)",
+                    "entries": [
+                        "The Turnstile Gnasher can use Crowd Surge.;"
+                    ]
+                },
+                {
+                    "name": "Phantom Bite (Costs 3 Actions)",
+                    "entries": [
+                        "The Turnstile Gnasher unleashes a flurry of ghostly bites. Each creature in a 15-foot radius must make a DC 21 Constitution saving throw or take 44 (8d10) necrotic damage and suffer the 'bruised' condition, giving disadvantage on their next attack roll. A successful save results in half damage and no condition."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Evasive Maneuvering",
+                    "entries": [
+                        "The Turnstile Gnasher has advantage on Dexterity saving throws against effects it can see, such as spells.;"
+                    ]
+                },
+                {
+                    "name": "Hesitation Inducement",
+                    "entries": [
+                        "Any creature that attempts to use an action to search for an item within 30 ft. of the creature must succeed on a DC 18 Wisdom saving throw or be unable to complete their action and be frightened until the end of their next turn.;"
+                    ]
+                },
+                {
+                    "name": "Legendary Resistance (3/Day)",
+                    "entries": [
+                        "If the creature fails a saving throw, it can choose to succeed instead."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+12",
+                "insight": "+10"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "charmed",
+                "paralyzed"
+            ],
+            "cr": "24",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Turnstile_Gnasher.png",
+            "fluff": {
+                "entries": [
+                    "A hunched, mechanical-jawed phantom bound to subway gates and amusement park entrances. It feeds on hesitation: those who fumble for tickets, coins, or passes hear its hungry grinding in the turnstile’s metal teeth. Victims report bruises, phantom bites, and the uncanny sense of being swallowed by the crowd."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Turnstile%20Gnasher.png"
                         }
                     }
                 ]
@@ -62622,374 +64188,6 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Witchlights",
-            "size": [
-                "S"
-            ],
-            "type": "aberration",
-            "alignment": [
-                "U"
-            ],
-            "ac": [
-                {
-                    "ac": 11.0,
-                    "from": [
-                        "Luminescent shield"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 22.0,
-                "formula": "5 + 1.0"
-            },
-            "save": {
-                "dex": "+5",
-                "wis": "+4"
-            },
-            "passive": 17.0,
-            "speed": {
-                "walk": 0,
-                "fly": 60
-            },
-            "str": 1.0,
-            "dex": 16.0,
-            "con": 12.0,
-            "int": 1.0,
-            "wis": 14.0,
-            "cha": 1.0,
-            "action": [
-                {
-                    "name": "Radiant Pulse",
-                    "entries": [
-                        "Spell Attack: +5 to hit, dealing 8 (2d4 + 3) radiant damage, and the target must succeed on a DC 12 Constitution saving throw or be blinded until the end of their next turn.;"
-                    ]
-                },
-                {
-                    "name": "Disorienting Flare",
-                    "entries": [
-                        "Ranged Attack: +5 to hit, dealing 10 (3d6 + 1) psychic damage, and the target must succeed on a DC 12 Wisdom saving throw or suffer disadvantage on its next ability check.;"
-                    ]
-                },
-                {
-                    "name": "Orb Burst",
-                    "entries": [
-                        "Area Effect: Each creature in a 10-foot radius centered on the Hessdalen Lights must succeed on a DC 12 Dexterity saving throw or take 15 (3d10 + 1) force damage and be pushed 5 feet away from the Hessdalen Lights."
-                    ]
-                }
-            ],
-            "trait": [
-                {
-                    "name": "Cluster and Split",
-                    "entries": [
-                        "When reduced to half its hit points, the Hessdalen Lights can split into two smaller orbs that each have half the hit points and the same abilities.;"
-                    ]
-                },
-                {
-                    "name": "Radiant Disorientation",
-                    "entries": [
-                        "Creatures within 30 feet of the Hessdalen Lights must succeed on a DC 12 Wisdom saving throw at the start of their turn or be disoriented until the start of their next turn, causing them to have disadvantage on their next attack roll."
-                    ]
-                }
-            ],
-            "skill": {
-                "arcana": "+0",
-                "perception": "+4"
-            },
-            "immune": null,
-            "conditionImmune": [
-                "blinded",
-                "frightened"
-            ],
-            "cr": "1/2",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hessdalen_Lights.png",
-            "fluff": {
-                "entries": [
-                    "Floating, glowing orbs that cluster and split. Emit intense radiation and induce disorientation in observers."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hessdalen%20Lights.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
-            "name": "Grey Nun",
-            "size": [
-                "M"
-            ],
-            "type": "undead",
-            "alignment": [
-                "N"
-            ],
-            "ac": [
-                {
-                    "ac": 19.0,
-                    "from": [
-                        "shrouded presence"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 400.0,
-                "formula": "4 + 7.0"
-            },
-            "save": {
-                "con": "+15",
-                "wis": "+12",
-                "dex": "+11",
-                "cha": "+12"
-            },
-            "passive": 20.0,
-            "speed": {
-                "walk": 0,
-                "fly": 40
-            },
-            "str": 10.0,
-            "dex": 14.0,
-            "con": 24.0,
-            "int": 8.0,
-            "wis": 20.0,
-            "cha": 18.0,
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The Grey Nun makes two attacks with Grasp of Desolation and one attack with Wail of the Lost.;"
-                    ]
-                },
-                {
-                    "name": "Grasp of Desolation",
-                    "entries": [
-                        "Melee Attack: +20 to hit, dealing 30 (5d10 + 3) necrotic damage. A creature hit by this attack must succeed on a DC 22 Constitution saving throw or have their maximum hit points reduced by the damage taken until they finish a long rest.;"
-                    ]
-                },
-                {
-                    "name": "Wail of the Lost",
-                    "entries": [
-                        "Melee Attack: +20 to hit, dealing 63 (10d10 + 8) psychic damage. The creature must make a DC 24 saving throw or suffer the incapacitated condition until the end of their next turn.;"
-                    ]
-                },
-                {
-                    "name": "Veil of Sorrow",
-                    "entries": [
-                        "The Grey Nun emits a 30-foot radius aura of despair. Each creature within range must make a DC 23 Wisdom saving throw or take 85 (16d10) psychic damage or half as much on a successful save. Creatures that fail the save are also frightened until the end of their next turn."
-                    ]
-                }
-            ],
-            "legendaryActions": 3,
-            "legendaryHeader": [
-                "The Grey Nun can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Grey Nun regains spent legendary actions at the start of its turn."
-            ],
-            "legendary": [
-                {
-                    "name": "Eerie Presence Legendary Action (Costs 1 Action)",
-                    "entries": [
-                        "The Grey Nun can invoke her unnatural aura. For the next turn, all creatures that start their turn within 30 feet of her must succeed on a DC 20 Wisdom saving throw or have disadvantage on their attack rolls against her.;"
-                    ]
-                },
-                {
-                    "name": "Consume Sorrow Legendary Action (Costs 2 Actions)",
-                    "entries": [
-                        "The Grey Nun targets one creature within 60 feet. The target must make a DC 22 Wisdom saving throw. On a failed save, the target is paralyzed until the end of their next turn, as they are overwhelmed with visions of despair.;"
-                    ]
-                },
-                {
-                    "name": "Spectral Approach Legendary Action (Costs 3 Actions)",
-                    "entries": [
-                        "The Grey Nun moves up to her flying speed without provoking opportunity attacks. When she moves this way, she can pass through creatures and objects, dealing 80 (15d10) necrotic damage to any creature she ends her movement within. Affected creatures must succeed on a DC 24 Constitution saving throw or be stunned until the end of their next turn."
-                    ]
-                }
-            ],
-            "trait": [
-                {
-                    "name": "Ethereal Form",
-                    "entries": [
-                        "Grey Nun can move through other creatures and objects as if they were difficult terrain. She takes 5 (1d10) force damage if she ends her turn inside an object.;"
-                    ]
-                },
-                {
-                    "name": "Aura of Sorrow",
-                    "entries": [
-                        "Creatures that start their turn within 30 feet of the Grey Nun must succeed on a DC 20 Wisdom saving throw or have disadvantage on attack rolls and saving throws until the start of their next turn.;"
-                    ]
-                },
-                {
-                    "name": "Legendary Resistance (3/Day)",
-                    "entries": [
-                        "If the Grey Nun fails a saving throw, she can choose to succeed instead."
-                    ]
-                }
-            ],
-            "skill": {
-                "perception": "+12",
-                "stealth": "+11"
-            },
-            "immune": null,
-            "conditionImmune": [
-                "frightened",
-                "paralyzed",
-                "stunned"
-            ],
-            "cr": "28",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Grey_Nun.png",
-            "fluff": {
-                "entries": [
-                    "A spectral figure in pale habit, seen gliding silently through hospitals, orphanages, and abandoned convents. Witnesses describe her presence as heavy with sorrow, as though she carries the weight of countless unspoken prayers. She never speaks — only watches, her hollow eyes following the living with patient dread."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Grey%20Nun.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
-            "name": "Taos Hum",
-            "size": [
-                "H"
-            ],
-            "type": "aberration",
-            "alignment": [
-                "U"
-            ],
-            "ac": [
-                {
-                    "ac": 18.0,
-                    "from": [
-                        "natural armor"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 325.0,
-                "formula": "2 + 5.0"
-            },
-            "save": {
-                "con": "+12",
-                "int": "+9",
-                "wis": "+9",
-                "dex": "+8"
-            },
-            "passive": 16.0,
-            "speed": {
-                "walk": 0
-            },
-            "str": 10.0,
-            "dex": 16.0,
-            "con": 20.0,
-            "int": 18.0,
-            "wis": 12.0,
-            "cha": 10.0,
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The presence of Taos Hum creates a disconcerting aura that affects the minds of its targets. It can unleash a resonating vibration twice as a psychic attack and follow with a disorienting pulse.;"
-                    ]
-                },
-                {
-                    "name": "Dissonant Strike",
-                    "entries": [
-                        "Melee Attack: +8 to hit, dealing 9 (1d10 + 3) psychic damage. Affected targets must succeed on a DC 17 Intelligence saving throw or be stunned until the end of their next turn.;"
-                    ]
-                },
-                {
-                    "name": "Resonating Pulse",
-                    "entries": [
-                        "Melee Attack: +8 to hit, dealing 9 (1d10 + 3) thunder damage. On a failed DC 18 Constitution saving throw, the target is pushed back 10 feet and cannot take reactions until the end of its next turn.;"
-                    ]
-                },
-                {
-                    "name": "Void Resonance",
-                    "entries": [
-                        "Each creature within a 30-foot radius must make a DC 16 Wisdom saving throw or take 33 (7d10) psychic damage, or half as much on a successful save. Creatures that fail the save also suffer disadvantage on the next attack roll they make before the end of their next turn."
-                    ]
-                }
-            ],
-            "legendaryActions": 3,
-            "legendaryHeader": [
-                "The Taos Hum can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Taos Hum regains spent legendary actions at the start of its turn."
-            ],
-            "legendary": [
-                {
-                    "name": "Echoing Veil (Costs 1 Action)",
-                    "entries": [
-                        "Taos Hum envelops itself in a shroud of discordant sound, creating an illusory distortion of its true form. For the next round, it imposes disadvantage on attack rolls against it.;"
-                    ]
-                },
-                {
-                    "name": "Harmonic Displacement (Costs 2 Actions)",
-                    "entries": [
-                        "The creature can choose to use Void Resonance.;"
-                    ]
-                },
-                {
-                    "name": "Uproarious Wail (Costs 3 Actions)",
-                    "entries": [
-                        "Taos Hum emits a terrifying wail that resonates with deeply buried fears. Each creature of its choice within 60 feet must make a DC 18 Wisdom saving throw, taking 27 (5d10) psychic damage on a failed save or half as much on a success. Those who fail are also frightened until the end of their next turn."
-                    ]
-                }
-            ],
-            "trait": [
-                {
-                    "name": "Resonant Aura",
-                    "entries": [
-                        "The presence of Taos Hum creates an aura of unease, causing creatures within 30 feet to have disadvantage on saving throws against being frightened.;"
-                    ]
-                },
-                {
-                    "name": "Whispers of the Past",
-                    "entries": [
-                        "Creatures that can hear Taos Hum must succeed on a DC 17 Wisdom saving throw or suffer disadvantage on Wisdom saving throws until the end of their next turn.;"
-                    ]
-                },
-                {
-                    "name": "Legendary Resistance (3/Day)",
-                    "entries": [
-                        "If the creature fails a saving throw, it can choose to succeed instead."
-                    ]
-                }
-            ],
-            "skill": {
-                "insight": "+9",
-                "perception": "+9",
-                "stealth": "+8"
-            },
-            "immune": null,
-            "conditionImmune": [
-                "frightened",
-                "incapacitated"
-            ],
-            "cr": "15",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Taos_Hum.png",
-            "fluff": {
-                "entries": [
-                    "Not a creature, but a presence. A low, ceaseless vibration that rattles bones and stirs unease in the gut. Those who hear it grow restless, sleepless, and paranoid, claiming that the Hum is alive — a buried machine, a hidden intelligence, or something older still, humming beneath the earth’s skin."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Taos%20Hum.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
             "name": "Window Knockers",
             "size": [
                 "M"
@@ -63092,664 +64290,96 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Escalator Wraith",
+            "name": "Witchlights",
             "size": [
-                "M"
+                "S"
             ],
-            "type": "undead",
+            "type": "aberration",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
-                    "ac": 16.0,
+                    "ac": 11.0,
                     "from": [
-                        "evasive form"
+                        "Luminescent shield"
                     ]
                 }
             ],
             "hp": {
-                "average": 135.0,
-                "formula": "1 + 3.0"
+                "average": 22.0,
+                "formula": "5 + 1.0"
             },
             "save": {
-                "dex": "+8",
-                "con": "+6"
+                "dex": "+5",
+                "wis": "+4"
             },
             "passive": 17.0,
             "speed": {
                 "walk": 0,
                 "fly": 60
-            },
-            "str": 6.0,
-            "dex": 18.0,
-            "con": 16.0,
-            "int": 12.0,
-            "wis": 14.0,
-            "cha": 16.0,
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The Escalator Wraith makes two Touch of the Unseen attacks and one Grasp of Despair attack.;"
-                    ]
-                },
-                {
-                    "name": "Touch of the Unseen",
-                    "entries": [
-                        "Melee Spell Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) necrotic damage. The target must succeed on a DC 16 Constitution saving throw or have disadvantage on the next attack roll it makes before the end of its next turn.;"
-                    ]
-                },
-                {
-                    "name": "Grasp of Despair",
-                    "entries": [
-                        "Melee Spell Attack: +8 to hit, reach 5 ft., one target. Hit: 20 (3d8 + 6) psychic damage. The target must succeed on a DC 16 Wisdom saving throw or become paralyzed until the end of its next turn.;"
-                    ]
-                },
-                {
-                    "name": "Ethereal Glide",
-                    "entries": [
-                        "The Escalator Wraith can become incorporeal, allowing it to pass through creatures and objects. As part of this action, it can make one touch attack against a creature. This attack deals 25 (4d10 + 4) necrotic damage, and the target must succeed on a DC 16 Dexterity saving throw or be grappled (escape DC 16) until the start of the wraith's next turn. This ability recharges after a short or long rest."
-                    ]
-                }
-            ],
-            "trait": [
-                {
-                    "name": "Evasive Presence",
-                    "entries": [
-                        "The Escalator Wraith has advantage on Dexterity saving throws and ranged attacks against it have disadvantage.;"
-                    ]
-                },
-                {
-                    "name": "Haunting Motion",
-                    "entries": [
-                        "Once per turn, when a creature moves within 10 feet of the Escalator Wraith, they must succeed on a DC 16 Wisdom saving throw or become frightened until the end of their next turn."
-                    ]
-                }
-            ],
-            "skill": {
-                "stealth": "+8",
-                "perception": "+6"
-            },
-            "immune": null,
-            "conditionImmune": [
-                "paralyzed",
-                "frightened"
-            ],
-            "cr": "8",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Escalator_Wraith.png",
-            "fluff": {
-                "entries": [
-                    "A pale silhouette that flickers at the edge of vision when riding moving stairs. Always just one step behind, never closer. Some say it’s a remnant of those crushed or mangled in escalator accidents; others think it’s a mimic that follows habitual human motion, waiting for someone to falter."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Escalator%20Wraith.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
-            "name": "Turnstile Gnasher",
-            "size": [
-                "L"
-            ],
-            "type": "monstrosity",
-            "alignment": [
-                "U"
-            ],
-            "ac": [
-                {
-                    "ac": 23.0,
-                    "from": [
-                        "natural armor"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 360.0,
-                "formula": "4 + 5.0"
-            },
-            "save": {
-                "str": "+13",
-                "dex": "+17",
-                "con": "+14",
-                "wis": "+14"
-            },
-            "passive": 17.0,
-            "speed": {
-                "walk": 30
-            },
-            "str": 26.0,
-            "dex": 20.0,
-            "con": 20.0,
-            "int": 3.0,
-            "wis": 14.0,
-            "cha": 3.0,
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The Turnstile Gnasher makes two attacks with Metal Jaws and one attack with Grasping Turnstile.;"
-                    ]
-                },
-                {
-                    "name": "Metal Jaws",
-                    "entries": [
-                        "Melee Attack: +14 to hit, dealing 16 (2d10 + 5) piercing damage. A creature hit by this attack must succeed on a DC 21 Wisdom saving throw or be frightened until the end of its next turn, as it senses a dreadful inevitability.;"
-                    ]
-                },
-                {
-                    "name": "Grasping Turnstile",
-                    "entries": [
-                        "Melee Attack: +14 to hit, dealing 22 (3d10 + 2) bludgeoning damage. The creature must make a DC 21 Constitution saving throw or be grappled by the Turnstile Gnasher until the grapple ends, taking 10 (3d6) additional bludgeoning damage at the start of each of its turns.;"
-                    ]
-                },
-                {
-                    "name": "Crowd Surge",
-                    "entries": [
-                        "The Turnstile Gnasher creates an area of chaotic movement in a 30-foot cone. Each creature within range must make a DC 21 Dexterity saving throw or take 44 (8d10) slashing damage from whirling metal edges and be pushed back 10 feet. On a success, a creature takes half damage and is not pushed."
-                    ]
-                }
-            ],
-            "legendaryActions": 3,
-            "legendaryHeader": [
-                "The Turnstile Gnasher can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Turnstile Gnasher regains spent legendary actions at the start of its turn."
-            ],
-            "legendary": [
-                {
-                    "name": "Hesitation Riposte (Costs 1 Action)",
-                    "entries": [
-                        "The Turnstile Gnasher can use its reaction to force one creature that took an action to search for an item within 30 ft. of it to make a DC 18 Wisdom saving throw. On a failure, that creature is paralyzed until the end of its next turn as they are caught in a phantom embrace.;"
-                    ]
-                },
-                {
-                    "name": "Converging Turnstiles (Costs 2 Actions)",
-                    "entries": [
-                        "The Turnstile Gnasher can use Crowd Surge.;"
-                    ]
-                },
-                {
-                    "name": "Phantom Bite (Costs 3 Actions)",
-                    "entries": [
-                        "The Turnstile Gnasher unleashes a flurry of ghostly bites. Each creature in a 15-foot radius must make a DC 21 Constitution saving throw or take 44 (8d10) necrotic damage and suffer the 'bruised' condition, giving disadvantage on their next attack roll. A successful save results in half damage and no condition."
-                    ]
-                }
-            ],
-            "trait": [
-                {
-                    "name": "Evasive Maneuvering",
-                    "entries": [
-                        "The Turnstile Gnasher has advantage on Dexterity saving throws against effects it can see, such as spells.;"
-                    ]
-                },
-                {
-                    "name": "Hesitation Inducement",
-                    "entries": [
-                        "Any creature that attempts to use an action to search for an item within 30 ft. of the creature must succeed on a DC 18 Wisdom saving throw or be unable to complete their action and be frightened until the end of their next turn.;"
-                    ]
-                },
-                {
-                    "name": "Legendary Resistance (3/Day)",
-                    "entries": [
-                        "If the creature fails a saving throw, it can choose to succeed instead."
-                    ]
-                }
-            ],
-            "skill": {
-                "stealth": "+12",
-                "insight": "+10"
-            },
-            "immune": null,
-            "conditionImmune": [
-                "charmed",
-                "paralyzed"
-            ],
-            "cr": "24",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Turnstile_Gnasher.png",
-            "fluff": {
-                "entries": [
-                    "A hunched, mechanical-jawed phantom bound to subway gates and amusement park entrances. It feeds on hesitation: those who fumble for tickets, coins, or passes hear its hungry grinding in the turnstile’s metal teeth. Victims report bruises, phantom bites, and the uncanny sense of being swallowed by the crowd."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Turnstile%20Gnasher.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
-            "name": "Concrete Pigeon",
-            "size": [
-                "M"
-            ],
-            "type": "construct",
-            "alignment": [
-                "U"
-            ],
-            "ac": [
-                {
-                    "ac": 18.0,
-                    "from": [
-                        "natural armor"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 360.0,
-                "formula": "4 + 5.0"
-            },
-            "save": {
-                "dex": "+14",
-                "con": "+11",
-                "wis": "+11",
-                "cha": "+10"
-            },
-            "passive": 16.0,
-            "speed": {
-                "walk": 30,
-                "fly": 60
-            },
-            "str": 14.0,
-            "dex": 24.0,
-            "con": 20.0,
-            "int": 1.0,
-            "wis": 12.0,
-            "cha": 1.0,
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The Concrete Pigeon makes two attacks with Wing Strike and one attack with Shattering Peck.;"
-                    ]
-                },
-                {
-                    "name": "Wing Strike",
-                    "entries": [
-                        "Melee Attack: +11 to hit, dealing 12 (2d10 + 1) bludgeoning damage. The attack sends a shockwave of debris around the target, causing them to make a DC 18 Dexterity saving throw or be knocked prone.;"
-                    ]
-                },
-                {
-                    "name": "Shattering Peck",
-                    "entries": [
-                        "Melee Attack: +11 to hit, dealing 15 (2d10 + 3) piercing damage. The target must make a DC 18 Constitution saving throw or suffer the 'Stunned' condition until the end of its next turn.;"
-                    ]
-                },
-                {
-                    "name": "Rubble Cascade",
-                    "entries": [
-                        "Area of effect action: The Concrete Pigeon flaps its wings, creating a 30-foot cone of debris. Each creature within range must make a DC 18 Dexterity saving throw or take 33 (6d10) bludgeoning damage or half as much on a successful save. The area becomes difficult terrain as rubble falls and settles."
-                    ]
-                }
-            ],
-            "legendaryActions": 3,
-            "legendaryHeader": [
-                "The Concrete Pigeon can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The Concrete Pigeon regains spent legendary actions at the start of its turn."
-            ],
-            "legendary": [
-                {
-                    "name": "Urban Camouflage (Costs 1 Action)",
-                    "entries": [
-                        "The Concrete Pigeon momentarily melds into its surroundings, gaining advantage on its next Stealth check and becoming invisible until it attacks.;"
-                    ]
-                },
-                {
-                    "name": "Rubble Cascade (Costs 2 Actions)",
-                    "entries": [
-                        "The creature can choose to use the Rubble Cascade action.;"
-                    ]
-                },
-                {
-                    "name": "Terrifying Call (Costs 3 Actions)",
-                    "entries": [
-                        "The Concrete Pigeon emits a chilling call that reverberates like shattering glass. Each creature within 30 feet must make a DC 18 Wisdom saving throw or become frightened until the end of their next turn."
-                    ]
-                }
-            ],
-            "trait": [
-                {
-                    "name": "Camouflage",
-                    "entries": [
-                        "The Concrete Pigeon has advantage on Dexterity (Stealth) checks made to hide in urban environments.;"
-                    ]
-                },
-                {
-                    "name": "Rubble Wing",
-                    "entries": [
-                        "When the Concrete Pigeon flies, it leaves a trail of debris in its wake, causing difficult terrain in a 10-foot radius around its flight path until the end of its next turn.;"
-                    ]
-                },
-                {
-                    "name": "Legendary Resistance (3/Day)",
-                    "entries": [
-                        "If the creature fails a saving throw, it can choose to succeed instead."
-                    ]
-                }
-            ],
-            "skill": {
-                "stealth": "+13",
-                "perception": "+8"
-            },
-            "immune": null,
-            "conditionImmune": [
-                "blinded",
-                "frightened",
-                "grappled",
-                "paralyzed",
-                "petrified",
-                "poisoned"
-            ],
-            "cr": "19",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Concrete_Pigeon.png",
-            "fluff": {
-                "entries": [
-                    "Urban scavengers sculpted by grit and dust, these animate statues blend seamlessly with real birds until one notices their eyes — cold, pitted, and unblinking. They perch above streets, waiting to swoop, wings shedding fragments of rubble. Their calls echo like shattering glass, and rooftops marked by them soon crumble."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Concrete%20Pigeon.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
-            "name": "Floral Astronaut",
-            "size": [
-                "M"
-            ],
-            "type": "undead/plant",
-            "alignment": [
-                "U"
-            ],
-            "ac": [
-                {
-                    "ac": 13.0,
-                    "from": [
-                        "overgrown armor"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 59.0,
-                "formula": "7 + 3.0"
-            },
-            "save": {
-                "con": "+6"
-            },
-            "passive": 15.0,
-            "speed": {
-                "walk": 20
-            },
-            "str": 14.0,
-            "dex": 8.0,
-            "con": 16.0,
-            "int": 1.0,
-            "wis": 10.0,
-            "cha": 5.0,
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The Floral Astronaut makes two attacks: one with Vine Grasp and one with Thorn Strike.;"
-                    ]
-                },
-                {
-                    "name": "Vine Grasp",
-                    "entries": [
-                        "Melee Attack: +7 to hit, reach 15 ft., dealing 10 (1d8 + 5) bludgeoning damage and grappling the target.;"
-                    ]
-                },
-                {
-                    "name": "Thorn Strike",
-                    "entries": [
-                        "Melee Attack: +7 to hit, dealing 14 (2d8 + 5) piercing damage. The target must succeed on a DC 13 Constitution saving throw or be poisoned until the end of its next turn.;"
-                    ]
-                },
-                {
-                    "name": "Spore Bloom",
-                    "entries": [
-                        "The Floral Astronaut releases a cloud of spores in a 10-foot radius. Creatures within this area must succeed on a DC 13 Constitution saving throw or be poisoned and lightly blinded for 1 minute. The Floral Astronaut can use this action again after a recharge (5-6)."
-                    ]
-                }
-            ],
-            "trait": [
-                {
-                    "name": "Rooted Resilience",
-                    "entries": [
-                        "When reduced to 0 hit points, the Floral Astronaut instead falls to the ground, becoming incapacitated and with 1 hit point. It can use its reaction to immediately regenerate 5 hit points at the start of its turn thereafter.;"
-                    ]
-                },
-                {
-                    "name": "Nature's Touch",
-                    "entries": [
-                        "The Floral Astronaut has advantage on saving throws against being poisoned and is treated as a plant for the purposes of spells and abilities."
-                    ]
-                }
-            ],
-            "skill": {
-                "nature": "+3",
-                "stealth": "+1"
-            },
-            "conditionImmune": [
-                "poisoned"
-            ],
-            "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Floral_Astronaut.png",
-            "fluff": {
-                "entries": [
-                    "Once a human explorer, their body has long since been claimed by creeping roots and blossoms. Vines coil through the cracked visor of the helmet, flowers bloom from joints in the suit, and moss softens the metal. They move with uncanny slowness, guided not by the mind of the original astronaut, but by the quiet will of the plant colony within. Their presence is both haunting and strangely serene — a reminder that nature reclaims even the farthest reaches of space."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Floral%20Astronaut.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
-            "name": "Invisible Smoking Man",
-            "size": [
-                "M"
-            ],
-            "type": "undead",
-            "alignment": [
-                "U"
-            ],
-            "ac": [
-                {
-                    "ac": 18.0,
-                    "from": [
-                        "Smoky Form"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 11.0,
-                "formula": "2 + 1.0"
-            },
-            "save": {
-                "dex": "+5",
-                "con": "+3"
-            },
-            "passive": 15.0,
-            "speed": {
-                "walk": 30,
-                "fly": 30
             },
             "str": 1.0,
             "dex": 16.0,
             "con": 12.0,
             "int": 1.0,
-            "wis": 10.0,
+            "wis": 14.0,
             "cha": 1.0,
             "action": [
                 {
-                    "name": "Smoke Choke",
+                    "name": "Radiant Pulse",
                     "entries": [
-                        "Melee Attack: +3 to hit, dealing 5 (1d8 + 1) necrotic damage. The target must make a DC 12 Constitution saving throw or be unable to speak until the start of its next turn.;"
+                        "Spell Attack: +5 to hit, dealing 8 (2d4 + 3) radiant damage, and the target must succeed on a DC 12 Constitution saving throw or be blinded until the end of their next turn.;"
                     ]
                 },
                 {
-                    "name": "Coughing Specter",
+                    "name": "Disorienting Flare",
                     "entries": [
-                        "Ranged Attack: +3 to hit, dealing 5 (1d8 + 1) necrotic damage. On a hit, the target must make a DC 12 Constitution saving throw or be frightened until the end of their next turn."
+                        "Ranged Attack: +5 to hit, dealing 10 (3d6 + 1) psychic damage, and the target must succeed on a DC 12 Wisdom saving throw or suffer disadvantage on its next ability check.;"
+                    ]
+                },
+                {
+                    "name": "Orb Burst",
+                    "entries": [
+                        "Area Effect: Each creature in a 10-foot radius centered on the Hessdalen Lights must succeed on a DC 12 Dexterity saving throw or take 15 (3d10 + 1) force damage and be pushed 5 feet away from the Hessdalen Lights."
                     ]
                 }
             ],
             "trait": [
                 {
-                    "name": "Cigarette's Life",
+                    "name": "Cluster and Split",
                     "entries": [
-                        "The Invisible Smoking Man exists only while its cigarette burns, lasting 1d6 + 2 minutes. When the cigarette extinguishes, the entity dissipates.;"
+                        "When reduced to half its hit points, the Hessdalen Lights can split into two smaller orbs that each have half the hit points and the same abilities.;"
                     ]
                 },
                 {
-                    "name": "Haunting Glow",
+                    "name": "Radiant Disorientation",
                     "entries": [
-                        "The faint light of the cigarette illuminates a 5-ft. radius in dim red light."
+                        "Creatures within 30 feet of the Hessdalen Lights must succeed on a DC 12 Wisdom saving throw at the start of their turn or be disoriented until the start of their next turn, causing them to have disadvantage on their next attack roll."
                     ]
                 }
             ],
             "skill": {
-                "stealth": "+5"
+                "arcana": "+0",
+                "perception": "+4"
             },
             "immune": null,
             "conditionImmune": [
                 "blinded",
-                "frightened",
-                "incapacitated"
+                "frightened"
             ],
-            "cr": "2",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Invisible_Smoking_Man.png",
+            "cr": "1/2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Witchlights.png",
             "fluff": {
                 "entries": [
-                    "A presence that manifests only through a glowing cigarette and the smoke it exhales. The ember drifts in the dark, hanging in mid-air, with no body attached. Each drag fills the outline of lungs in a faint smoky glow, visible for a moment before being exhaled in a human-shaped sigh. Then—nothing. The man vanishes entirely when the cigarette burns down to its end, leaving behind only the lingering smell of ash and tobacco. Witnesses often report feeling watched, though no one is ever there."
+                    "Floating, glowing orbs that cluster and split. Emit intense radiation and induce disorientation in observers."
                 ],
                 "images": [
                     {
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Invisible%20Smoking%20Man.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
-            "name": "AI Hologram",
-            "size": [
-                "M"
-            ],
-            "type": "construct",
-            "alignment": [
-                "U"
-            ],
-            "ac": [
-                {
-                    "ac": 13.0,
-                    "from": [
-                        "intangible projection"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 36.0,
-                "formula": "8 + 0.0"
-            },
-            "save": {
-                "dex": "+4",
-                "int": "+5"
-            },
-            "passive": 16.0,
-            "speed": {
-                "walk": 0,
-                "fly": 0
-            },
-            "str": 1.0,
-            "dex": 14.0,
-            "con": 10.0,
-            "int": 16.0,
-            "wis": 12.0,
-            "cha": 18.0,
-            "action": [
-                {
-                    "name": "Data Pulse",
-                    "entries": [
-                        "Ranged Attack: +3 to hit, dealing 10 (2d6 + 4) psychic damage. The target must succeed on a DC 13 Wisdom saving throw or be unable to distinguish reality from holographic illusions until the end of their next turn.;"
-                    ]
-                },
-                {
-                    "name": "Corrupting Static",
-                    "entries": [
-                        "Melee Attack: +3 to hit, dealing 12 (2d8 + 3) lightning damage. On a hit, the target must succeed on a DC 10 Constitution saving throw or have its speed halved until the end of its next turn.;"
-                    ]
-                },
-                {
-                    "name": "Holo-Illusion",
-                    "entries": [
-                        "Recharge 5–6: The Hologram AI creates a 20-ft. cube of holographic terrain and figures. Creatures within the area must succeed on a DC 14 Investigation check to disbelieve the illusion. If they fail, they are considered blinded until the end of their next turn as they interact with the illusory scene."
-                    ]
-                }
-            ],
-            "trait": [
-                {
-                    "name": "Socket-Bound",
-                    "entries": [
-                        "The Hologram AI cannot leave a 20 ft. radius of its emitter. Destroying the emitter ends the projection.;"
-                    ]
-                },
-                {
-                    "name": "Incorporeal Image",
-                    "entries": [
-                        "The Hologram AI is immune to physical damage, but vulnerable to lightning and psychic damage.;"
-                    ]
-                },
-                {
-                    "name": "Archive Access",
-                    "entries": [
-                        "The Hologram AI knows vast fragments of history, but its memory is corrupted and fragmented, leading to potentially misleading information."
-                    ]
-                }
-            ],
-            "skill": {
-                "arcana": "+5",
-                "insight": "+3",
-                "deception": "+6"
-            },
-            "cr": "2",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/AI_Hologram.png",
-            "fluff": {
-                "entries": [
-                    "A flickering projection of a human form (sometimes clear, sometimes glitching into static). It speaks with a voice tinged by synthetic distortion, carrying memory fragments of its original programming. Though it cannot leave the radius of its emitter socket, it can see, converse, and project illusions. Some are helpful, guiding lost travelers, while others have become hostile, corrupted by centuries of isolation and decaying code."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/AI%20Hologram.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Witchlights.png"
                         }
                     }
                 ]
