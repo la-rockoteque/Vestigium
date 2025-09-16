@@ -204,8 +204,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1758016321,
-        "_dateLastModifiedHash": "3ecf3a9bcb",
+        "dateLastModified": 1758033188,
+        "_dateLastModifiedHash": "e2c1c20c6d",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -44733,105 +44733,6 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "AI Hologram",
-            "size": [
-                "M"
-            ],
-            "type": "construct",
-            "alignment": [
-                "U"
-            ],
-            "ac": [
-                {
-                    "ac": 13.0,
-                    "from": [
-                        "intangible projection"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 36.0,
-                "formula": "8 + 0.0"
-            },
-            "save": {
-                "dex": "+4",
-                "int": "+5"
-            },
-            "passive": 16.0,
-            "speed": {
-                "walk": 0,
-                "fly": 0
-            },
-            "str": 1.0,
-            "dex": 14.0,
-            "con": 10.0,
-            "int": 16.0,
-            "wis": 12.0,
-            "cha": 18.0,
-            "action": [
-                {
-                    "name": "Data Pulse",
-                    "entries": [
-                        "Ranged Attack: +3 to hit, dealing 10 (2d6 + 4) psychic damage. The target must succeed on a DC 13 Wisdom saving throw or be unable to distinguish reality from holographic illusions until the end of their next turn.;"
-                    ]
-                },
-                {
-                    "name": "Corrupting Static",
-                    "entries": [
-                        "Melee Attack: +3 to hit, dealing 12 (2d8 + 3) lightning damage. On a hit, the target must succeed on a DC 10 Constitution saving throw or have its speed halved until the end of its next turn.;"
-                    ]
-                },
-                {
-                    "name": "Holo-Illusion",
-                    "entries": [
-                        "Recharge 5–6: The Hologram AI creates a 20-ft. cube of holographic terrain and figures. Creatures within the area must succeed on a DC 14 Investigation check to disbelieve the illusion. If they fail, they are considered blinded until the end of their next turn as they interact with the illusory scene."
-                    ]
-                }
-            ],
-            "trait": [
-                {
-                    "name": "Socket-Bound",
-                    "entries": [
-                        "The Hologram AI cannot leave a 20 ft. radius of its emitter. Destroying the emitter ends the projection.;"
-                    ]
-                },
-                {
-                    "name": "Incorporeal Image",
-                    "entries": [
-                        "The Hologram AI is immune to physical damage, but vulnerable to lightning and psychic damage.;"
-                    ]
-                },
-                {
-                    "name": "Archive Access",
-                    "entries": [
-                        "The Hologram AI knows vast fragments of history, but its memory is corrupted and fragmented, leading to potentially misleading information."
-                    ]
-                }
-            ],
-            "skill": {
-                "arcana": "+5",
-                "insight": "+3",
-                "deception": "+6"
-            },
-            "cr": "2",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/AI_Hologram.png",
-            "fluff": {
-                "entries": [
-                    "A flickering projection of a human form (sometimes clear, sometimes glitching into static). It speaks with a voice tinged by synthetic distortion, carrying memory fragments of its original programming. Though it cannot leave the radius of its emitter socket, it can see, converse, and project illusions. Some are helpful, guiding lost travelers, while others have become hostile, corrupted by centuries of isolation and decaying code."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/AI%20Hologram.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
             "name": "Air Rods",
             "size": [
                 "T"
@@ -45415,6 +45316,109 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
+            "name": "Bahkauv",
+            "size": [
+                "L"
+            ],
+            "type": "undead",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 15.0,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 136.0,
+                "formula": "1 + 3.0"
+            },
+            "save": {
+                "str": "+7",
+                "dex": "+6",
+                "con": "+10"
+            },
+            "passive": 16.0,
+            "speed": {
+                "walk": 60
+            },
+            "str": 18.0,
+            "dex": 16.0,
+            "con": 16.0,
+            "int": 1.0,
+            "wis": 12.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Hound of Dead, Moddey Dhoo makes two primary attacks. If both attacks hit a Medium or smaller target, the target suffers the Frightened condition (escape DC 14), and the Hound uses its Cursed Gaze ability on it.;"
+                    ]
+                },
+                {
+                    "name": "Primary Attack",
+                    "entries": [
+                        "Melee Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) necrotic damage. The jaws of the Moddey Dhoo tear into the flesh of its prey, leaving a lingering curse upon those who succumb to its bite.;"
+                    ]
+                },
+                {
+                    "name": "Cursed Gaze",
+                    "entries": [
+                        "The Moddey Dhoo locks eyes with a creature within 30 feet. The target must succeed on a DC 15 Wisdom saving throw or be cursed. A cursed creature takes 13 (2d8 + 4) necrotic damage at the start of each of its turns. The curse lasts until removed by a greater restoration spell or similar magic.;"
+                    ]
+                },
+                {
+                    "name": "Shadow of Death",
+                    "entries": [
+                        "The Moddey Dhoo shrouds a target in a wave of invisible terror. One creature within 30 feet must succeed on a DC 14 Wisdom saving throw or become paralyzed until the end of its next turn. On a failed save, it also takes 13 (2d8 + 4) necrotic damage as it feels the weight of impending doom. This ability recharges after a short or long rest."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Silent Watch",
+                    "entries": [
+                        "The Moddey Dhoo is always aware of its surroundings and can sense creatures within 30 feet, even if they are invisible or hidden.;"
+                    ]
+                },
+                {
+                    "name": "Cursed Gaze",
+                    "entries": [
+                        "Any creature that starts its turn within 30 feet of the Moddey Dhoo and can see its eyes must succeed on a DC 15 Wisdom saving throw or be cursed. A cursed creature takes 3d6 necrotic damage at the start of each of its turns. The curse lasts until removed by a greater restoration spell or similar magic."
+                    ]
+                }
+            ],
+            "skill": {
+                "perception": "+4",
+                "stealth": "+10"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "frightened",
+                "poisoned"
+            ],
+            "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Bahkauv.png",
+            "fluff": {
+                "entries": [
+                    "blip"
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Bahkauv.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
             "name": "Ball Lightning",
             "size": [
                 "S"
@@ -45718,7 +45722,7 @@
             ],
             "type": "aberration",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -46835,7 +46839,7 @@
             ],
             "type": "aberration",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -47842,7 +47846,7 @@
             ],
             "type": "aberration",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -47967,6 +47971,90 @@
                         "href": {
                             "type": "external",
                             "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Day%20of%20the%20Shadows.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Delvani Miner, Foreman",
+            "size": [
+                "M"
+            ],
+            "type": "humanoid",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 11.0,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 39.0,
+                "formula": "6 + 2.0"
+            },
+            "save": {
+                "con": "+4"
+            },
+            "passive": 15.0,
+            "speed": {
+                "walk": 30
+            },
+            "str": 14.0,
+            "dex": 12.0,
+            "con": 14.0,
+            "int": 10.0,
+            "wis": 11.0,
+            "cha": 9.0,
+            "action": [
+                {
+                    "name": "Pickaxe Strike",
+                    "entries": [
+                        "Melee Attack: +4 to hit, dealing 7 (1d10 + 2) slashing damage and 5 (1d10) bludgeoning damage. The target must succeed on a DC 12 Strength saving throw or be knocked prone, and cannot be targeted by this action again until the condition ends.;"
+                    ]
+                },
+                {
+                    "name": "Crushing Blow",
+                    "entries": [
+                        "Special Attack: The creature uses Pickaxe Strike against a target it has previously knocked prone. If it hits, the target takes 10 (3d6) bludgeoning damage at the start of each of the creature's turns. The creature can only have one target affected by Crushing Blow at a time. If the creature is removed from combat, the target can escape the condition."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Tunnel Adaptation",
+                    "entries": [
+                        "Advantage on checks made to navigate underground tunnels.;"
+                    ]
+                },
+                {
+                    "name": "Miner's Resilience",
+                    "entries": [
+                        "When taking damage from non-magical sources, subtract 1 from the damage taken."
+                    ]
+                }
+            ],
+            "skill": {
+                "survival": "+4",
+                "stealth": "+3"
+            },
+            "cr": "1",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Delvani_Miner_Foreman.png",
+            "fluff": {
+                "entries": [
+                    "A hardworking miner, often forced into labor in the deep tunnels."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Delvani%20Miner%2C%20Foreman.png"
                         }
                     }
                 ]
@@ -49029,7 +49117,7 @@
             ],
             "type": "undead",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -49246,7 +49334,7 @@
             ],
             "type": "undead",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -49349,7 +49437,7 @@
             ],
             "type": "(shapechanger)",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -49536,105 +49624,6 @@
                         "href": {
                             "type": "external",
                             "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Fleshgait.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
-            "name": "Floral Astronaut",
-            "size": [
-                "M"
-            ],
-            "type": "undead/plant",
-            "alignment": [
-                "U"
-            ],
-            "ac": [
-                {
-                    "ac": 13.0,
-                    "from": [
-                        "overgrown armor"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 59.0,
-                "formula": "7 + 3.0"
-            },
-            "save": {
-                "con": "+6"
-            },
-            "passive": 15.0,
-            "speed": {
-                "walk": 20
-            },
-            "str": 14.0,
-            "dex": 8.0,
-            "con": 16.0,
-            "int": 1.0,
-            "wis": 10.0,
-            "cha": 5.0,
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The Floral Astronaut makes two attacks: one with Vine Grasp and one with Thorn Strike.;"
-                    ]
-                },
-                {
-                    "name": "Vine Grasp",
-                    "entries": [
-                        "Melee Attack: +7 to hit, reach 15 ft., dealing 10 (1d8 + 5) bludgeoning damage and grappling the target.;"
-                    ]
-                },
-                {
-                    "name": "Thorn Strike",
-                    "entries": [
-                        "Melee Attack: +7 to hit, dealing 14 (2d8 + 5) piercing damage. The target must succeed on a DC 13 Constitution saving throw or be poisoned until the end of its next turn.;"
-                    ]
-                },
-                {
-                    "name": "Spore Bloom",
-                    "entries": [
-                        "The Floral Astronaut releases a cloud of spores in a 10-foot radius. Creatures within this area must succeed on a DC 13 Constitution saving throw or be poisoned and lightly blinded for 1 minute. The Floral Astronaut can use this action again after a recharge (5-6)."
-                    ]
-                }
-            ],
-            "trait": [
-                {
-                    "name": "Rooted Resilience",
-                    "entries": [
-                        "When reduced to 0 hit points, the Floral Astronaut instead falls to the ground, becoming incapacitated and with 1 hit point. It can use its reaction to immediately regenerate 5 hit points at the start of its turn thereafter.;"
-                    ]
-                },
-                {
-                    "name": "Nature's Touch",
-                    "entries": [
-                        "The Floral Astronaut has advantage on saving throws against being poisoned and is treated as a plant for the purposes of spells and abilities."
-                    ]
-                }
-            ],
-            "skill": {
-                "nature": "+3",
-                "stealth": "+1"
-            },
-            "conditionImmune": [
-                "poisoned"
-            ],
-            "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Floral_Astronaut.png",
-            "fluff": {
-                "entries": [
-                    "Once a human explorer, their body has long since been claimed by creeping roots and blossoms. Vines coil through the cracked visor of the helmet, flowers bloom from joints in the suit, and moss softens the metal. They move with uncanny slowness, guided not by the mind of the original astronaut, but by the quiet will of the plant colony within. Their presence is both haunting and strangely serene — a reminder that nature reclaims even the farthest reaches of space."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Floral%20Astronaut.png"
                         }
                     }
                 ]
@@ -50306,7 +50295,7 @@
             ],
             "type": "aberration",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -50613,7 +50602,7 @@
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem_Asphalt.png",
             "fluff": {
                 "entries": [
-                    "A wretched amalgamation of waste, disease, and sludge, animated by unknown forces."
+                    "A wretched amalgamation of asphalt, animated by unknown forces."
                 ],
                 "images": [
                     {
@@ -50720,7 +50709,7 @@
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem_Concrete.png",
             "fluff": {
                 "entries": [
-                    "A wretched amalgamation of waste, disease, and sludge, animated by unknown forces."
+                    "A wretched amalgamation of concrete, animated by unknown forces."
                 ],
                 "images": [
                     {
@@ -50832,7 +50821,7 @@
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem_Electronic.png",
             "fluff": {
                 "entries": [
-                    "A wretched amalgamation of waste, disease, and sludge, animated by unknown forces."
+                    "A wretched amalgamation of wires and electronic parts, animated by unknown forces."
                 ],
                 "images": [
                     {
@@ -50942,7 +50931,7 @@
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem_Paper.png",
             "fluff": {
                 "entries": [
-                    "A wretched amalgamation of waste, disease, and sludge, animated by unknown forces."
+                    "A wretched amalgamation of paper and carton, animated by unknown forces."
                 ],
                 "images": [
                     {
@@ -51071,7 +51060,7 @@
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Golem_Waste.png",
             "fluff": {
                 "entries": [
-                    "A wretched amalgamation of waste, disease, and sludge, animated by unknown forces."
+                    "A wretched amalgamation of waste, and sludge, animated by unknown forces."
                 ],
                 "images": [
                     {
@@ -51092,7 +51081,7 @@
             ],
             "type": "undead",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -51324,7 +51313,7 @@
             ],
             "type": "aberration",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -51545,7 +51534,7 @@
             ],
             "type": "undead",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -51958,7 +51947,7 @@
             ],
             "type": "undead",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -52061,7 +52050,7 @@
             ],
             "type": "undead",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -52164,7 +52153,7 @@
             ],
             "type": "undead",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -52267,7 +52256,7 @@
             ],
             "type": "undead",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -52349,7 +52338,7 @@
             "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hollow_Infant.png",
             "fluff": {
                 "entries": [
-                    "Blip"
+                    "The Hollows are not corpses that rise, nor spirits bound in decay. They are husks of humanity emptied of soul, left behind when life has moved on. Though they were once living people, their deaths were incomplete — a faltering of passage, a failure of release. What remains is a body that breathes but feels nothing, a shell that walks among the living with glassy stillness.\n\nHollows are not predators. They carry no hunger, ambition, or desire; no joy stirs them, no grief bends them. They persist only because they cannot do otherwise. Death has already claimed them, yet their bodies do not rot, their minds do not wander, and their presence lingers indefinitely.\n\nTo outsiders, Hollows are uncanny but not monstrous. They farm, trade, and dwell in towns, but only in motions learned from life, not driven by purpose. Their words are sparse, their laughter absent, their eyes dull. They exist, yet do not live."
                 ],
                 "images": [
                     {
@@ -52370,7 +52359,7 @@
             ],
             "type": "undead",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -52473,7 +52462,7 @@
             ],
             "type": "undead",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -52887,13 +52876,116 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
+            "name": "Hound of Dead, Cù-sìth",
+            "size": [
+                "L"
+            ],
+            "type": "undead",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 15.0,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 136.0,
+                "formula": "1 + 3.0"
+            },
+            "save": {
+                "str": "+7",
+                "dex": "+6",
+                "con": "+9"
+            },
+            "passive": 16.0,
+            "speed": {
+                "walk": 60
+            },
+            "str": 18.0,
+            "dex": 16.0,
+            "con": 16.0,
+            "int": 1.0,
+            "wis": 12.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Hound of Dead, Moddey Dhoo makes two primary attacks. If both attacks hit a Medium or smaller target, the target suffers the Frightened condition (escape DC 14), and the Hound uses its Cursed Gaze ability on it.;"
+                    ]
+                },
+                {
+                    "name": "Primary Attack",
+                    "entries": [
+                        "Melee Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) necrotic damage. The jaws of the Moddey Dhoo tear into the flesh of its prey, leaving a lingering curse upon those who succumb to its bite.;"
+                    ]
+                },
+                {
+                    "name": "Cursed Gaze",
+                    "entries": [
+                        "The Moddey Dhoo locks eyes with a creature within 30 feet. The target must succeed on a DC 15 Wisdom saving throw or be cursed. A cursed creature takes 13 (2d8 + 4) necrotic damage at the start of each of its turns. The curse lasts until removed by a greater restoration spell or similar magic.;"
+                    ]
+                },
+                {
+                    "name": "Shadow of Death",
+                    "entries": [
+                        "The Moddey Dhoo shrouds a target in a wave of invisible terror. One creature within 30 feet must succeed on a DC 14 Wisdom saving throw or become paralyzed until the end of its next turn. On a failed save, it also takes 13 (2d8 + 4) necrotic damage as it feels the weight of impending doom. This ability recharges after a short or long rest."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Silent Watch",
+                    "entries": [
+                        "The Moddey Dhoo is always aware of its surroundings and can sense creatures within 30 feet, even if they are invisible or hidden.;"
+                    ]
+                },
+                {
+                    "name": "Cursed Gaze",
+                    "entries": [
+                        "Any creature that starts its turn within 30 feet of the Moddey Dhoo and can see its eyes must succeed on a DC 15 Wisdom saving throw or be cursed. A cursed creature takes 3d6 necrotic damage at the start of each of its turns. The curse lasts until removed by a greater restoration spell or similar magic."
+                    ]
+                }
+            ],
+            "skill": {
+                "perception": "+4",
+                "stealth": "+9"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "frightened",
+                "poisoned"
+            ],
+            "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hound_of_Dead_C%C3%B9-s%C3%ACth.png",
+            "fluff": {
+                "entries": [
+                    "A shaggy black hound that prowls castle halls and guards ancient ruins. It is said that those who gaze upon the Moddey Dhoo’s eyes are cursed to die within days, their fate sealed by the beast’s silent watch."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hound%20of%20Dead%2C%20C%C3%B9-s%C3%ACth.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
             "name": "Hound of Dead, Cŵn Annwn",
             "size": [
                 "M"
             ],
             "type": "undead",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -52988,7 +53080,7 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Hound of Dead, Gabriel Hounds",
+            "name": "Hound of Dead, Gabble Ratchet,",
             "size": [
                 "M"
             ],
@@ -53071,7 +53163,7 @@
                 "poisoned"
             ],
             "cr": "6",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hound_of_Dead_Gabriel_Hounds.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hound_of_Dead_Gabble_Ratchet.png",
             "fluff": {
                 "entries": [
                     "A pack of spectral dogs flying in formation across the night sky. Their baying resembles the cries of lost souls, and their passage signals plague or calamity. To hear them above one’s home is an omen of doom within the household."
@@ -53081,7 +53173,213 @@
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hound%20of%20Dead%2C%20Gabriel%20Hounds.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hound%20of%20Dead%2C%20Gabble%20Ratchet%2C.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Hound of Dead, Garghest",
+            "size": [
+                "L"
+            ],
+            "type": "undead",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 15.0,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 136.0,
+                "formula": "1 + 3.0"
+            },
+            "save": {
+                "str": "+7",
+                "dex": "+6",
+                "con": "+7"
+            },
+            "passive": 16.0,
+            "speed": {
+                "walk": 60
+            },
+            "str": 18.0,
+            "dex": 16.0,
+            "con": 16.0,
+            "int": 1.0,
+            "wis": 12.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Hound of Dead, Moddey Dhoo makes two primary attacks. If both attacks hit a Medium or smaller target, the target suffers the Frightened condition (escape DC 14), and the Hound uses its Cursed Gaze ability on it.;"
+                    ]
+                },
+                {
+                    "name": "Primary Attack",
+                    "entries": [
+                        "Melee Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) necrotic damage. The jaws of the Moddey Dhoo tear into the flesh of its prey, leaving a lingering curse upon those who succumb to its bite.;"
+                    ]
+                },
+                {
+                    "name": "Cursed Gaze",
+                    "entries": [
+                        "The Moddey Dhoo locks eyes with a creature within 30 feet. The target must succeed on a DC 15 Wisdom saving throw or be cursed. A cursed creature takes 13 (2d8 + 4) necrotic damage at the start of each of its turns. The curse lasts until removed by a greater restoration spell or similar magic.;"
+                    ]
+                },
+                {
+                    "name": "Shadow of Death",
+                    "entries": [
+                        "The Moddey Dhoo shrouds a target in a wave of invisible terror. One creature within 30 feet must succeed on a DC 14 Wisdom saving throw or become paralyzed until the end of its next turn. On a failed save, it also takes 13 (2d8 + 4) necrotic damage as it feels the weight of impending doom. This ability recharges after a short or long rest."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Silent Watch",
+                    "entries": [
+                        "The Moddey Dhoo is always aware of its surroundings and can sense creatures within 30 feet, even if they are invisible or hidden.;"
+                    ]
+                },
+                {
+                    "name": "Cursed Gaze",
+                    "entries": [
+                        "Any creature that starts its turn within 30 feet of the Moddey Dhoo and can see its eyes must succeed on a DC 15 Wisdom saving throw or be cursed. A cursed creature takes 3d6 necrotic damage at the start of each of its turns. The curse lasts until removed by a greater restoration spell or similar magic."
+                    ]
+                }
+            ],
+            "skill": {
+                "perception": "+4",
+                "stealth": "+7"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "frightened",
+                "poisoned"
+            ],
+            "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hound_of_Dead_Garghest.png",
+            "fluff": {
+                "entries": [
+                    "A shaggy black hound that prowls castle halls and guards ancient ruins. It is said that those who gaze upon the Moddey Dhoo’s eyes are cursed to die within days, their fate sealed by the beast’s silent watch."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hound%20of%20Dead%2C%20Garghest.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Hound of Dead, Gwyllgi",
+            "size": [
+                "L"
+            ],
+            "type": "undead",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 15.0,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 136.0,
+                "formula": "1 + 3.0"
+            },
+            "save": {
+                "str": "+7",
+                "dex": "+6",
+                "con": "+8"
+            },
+            "passive": 16.0,
+            "speed": {
+                "walk": 60
+            },
+            "str": 18.0,
+            "dex": 16.0,
+            "con": 16.0,
+            "int": 1.0,
+            "wis": 12.0,
+            "cha": 1.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Hound of Dead, Moddey Dhoo makes two primary attacks. If both attacks hit a Medium or smaller target, the target suffers the Frightened condition (escape DC 14), and the Hound uses its Cursed Gaze ability on it.;"
+                    ]
+                },
+                {
+                    "name": "Primary Attack",
+                    "entries": [
+                        "Melee Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) necrotic damage. The jaws of the Moddey Dhoo tear into the flesh of its prey, leaving a lingering curse upon those who succumb to its bite.;"
+                    ]
+                },
+                {
+                    "name": "Cursed Gaze",
+                    "entries": [
+                        "The Moddey Dhoo locks eyes with a creature within 30 feet. The target must succeed on a DC 15 Wisdom saving throw or be cursed. A cursed creature takes 13 (2d8 + 4) necrotic damage at the start of each of its turns. The curse lasts until removed by a greater restoration spell or similar magic.;"
+                    ]
+                },
+                {
+                    "name": "Shadow of Death",
+                    "entries": [
+                        "The Moddey Dhoo shrouds a target in a wave of invisible terror. One creature within 30 feet must succeed on a DC 14 Wisdom saving throw or become paralyzed until the end of its next turn. On a failed save, it also takes 13 (2d8 + 4) necrotic damage as it feels the weight of impending doom. This ability recharges after a short or long rest."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Silent Watch",
+                    "entries": [
+                        "The Moddey Dhoo is always aware of its surroundings and can sense creatures within 30 feet, even if they are invisible or hidden.;"
+                    ]
+                },
+                {
+                    "name": "Cursed Gaze",
+                    "entries": [
+                        "Any creature that starts its turn within 30 feet of the Moddey Dhoo and can see its eyes must succeed on a DC 15 Wisdom saving throw or be cursed. A cursed creature takes 3d6 necrotic damage at the start of each of its turns. The curse lasts until removed by a greater restoration spell or similar magic."
+                    ]
+                }
+            ],
+            "skill": {
+                "perception": "+4",
+                "stealth": "+8"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "frightened",
+                "poisoned"
+            ],
+            "cr": "5",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Hound_of_Dead_Gwyllgi.png",
+            "fluff": {
+                "entries": [
+                    "A shaggy black hound that prowls castle halls and guards ancient ruins. It is said that those who gaze upon the Moddey Dhoo’s eyes are cursed to die within days, their fate sealed by the beast’s silent watch."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Hound%20of%20Dead%2C%20Gwyllgi.png"
                         }
                     }
                 ]
@@ -53095,7 +53393,7 @@
             ],
             "type": "undead",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -53287,7 +53585,7 @@
             ],
             "type": "undead",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -53585,13 +53883,310 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
+            "name": "Izzed Umbranauts, Floral",
+            "size": [
+                "M"
+            ],
+            "type": "undead/plant",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 13.0,
+                    "from": [
+                        "overgrown armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 59.0,
+                "formula": "7 + 3.0"
+            },
+            "save": {
+                "con": "+6"
+            },
+            "passive": 15.0,
+            "speed": {
+                "walk": 20
+            },
+            "str": 14.0,
+            "dex": 8.0,
+            "con": 16.0,
+            "int": 1.0,
+            "wis": 10.0,
+            "cha": 5.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Floral Astronaut makes two attacks: one with Vine Grasp and one with Thorn Strike.;"
+                    ]
+                },
+                {
+                    "name": "Vine Grasp",
+                    "entries": [
+                        "Melee Attack: +7 to hit, reach 15 ft., dealing 10 (1d8 + 5) bludgeoning damage and grappling the target.;"
+                    ]
+                },
+                {
+                    "name": "Thorn Strike",
+                    "entries": [
+                        "Melee Attack: +7 to hit, dealing 14 (2d8 + 5) piercing damage. The target must succeed on a DC 13 Constitution saving throw or be poisoned until the end of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Spore Bloom",
+                    "entries": [
+                        "The Floral Astronaut releases a cloud of spores in a 10-foot radius. Creatures within this area must succeed on a DC 13 Constitution saving throw or be poisoned and lightly blinded for 1 minute. The Floral Astronaut can use this action again after a recharge (5-6)."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Rooted Resilience",
+                    "entries": [
+                        "When reduced to 0 hit points, the Floral Astronaut instead falls to the ground, becoming incapacitated and with 1 hit point. It can use its reaction to immediately regenerate 5 hit points at the start of its turn thereafter.;"
+                    ]
+                },
+                {
+                    "name": "Nature's Touch",
+                    "entries": [
+                        "The Floral Astronaut has advantage on saving throws against being poisoned and is treated as a plant for the purposes of spells and abilities."
+                    ]
+                }
+            ],
+            "skill": {
+                "nature": "+3",
+                "stealth": "+1"
+            },
+            "conditionImmune": [
+                "poisoned"
+            ],
+            "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Izzed_Umbranauts_Floral.png",
+            "fluff": {
+                "entries": [
+                    "Once a human explorer, their body has long since been claimed by creeping roots and blossoms. Vines coil through the cracked visor of the helmet, flowers bloom from joints in the suit, and moss softens the metal. They move with uncanny slowness, guided not by the mind of the original astronaut, but by the quiet will of the plant colony within. Their presence is both haunting and strangely serene — a reminder that nature reclaims even the farthest reaches of space."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Izzed%20Umbranauts%2C%20Floral.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Izzed Umbranauts, Fungal",
+            "size": [
+                "M"
+            ],
+            "type": "undead/plant",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 13.0,
+                    "from": [
+                        "overgrown armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 59.0,
+                "formula": "7 + 3.0"
+            },
+            "save": {
+                "con": "+6"
+            },
+            "passive": 15.0,
+            "speed": {
+                "walk": 20
+            },
+            "str": 14.0,
+            "dex": 8.0,
+            "con": 16.0,
+            "int": 1.0,
+            "wis": 10.0,
+            "cha": 5.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Floral Astronaut makes two attacks: one with Vine Grasp and one with Thorn Strike.;"
+                    ]
+                },
+                {
+                    "name": "Vine Grasp",
+                    "entries": [
+                        "Melee Attack: +7 to hit, reach 15 ft., dealing 10 (1d8 + 5) bludgeoning damage and grappling the target.;"
+                    ]
+                },
+                {
+                    "name": "Thorn Strike",
+                    "entries": [
+                        "Melee Attack: +7 to hit, dealing 14 (2d8 + 5) piercing damage. The target must succeed on a DC 13 Constitution saving throw or be poisoned until the end of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Spore Bloom",
+                    "entries": [
+                        "The Floral Astronaut releases a cloud of spores in a 10-foot radius. Creatures within this area must succeed on a DC 13 Constitution saving throw or be poisoned and lightly blinded for 1 minute. The Floral Astronaut can use this action again after a recharge (5-6)."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Rooted Resilience",
+                    "entries": [
+                        "When reduced to 0 hit points, the Floral Astronaut instead falls to the ground, becoming incapacitated and with 1 hit point. It can use its reaction to immediately regenerate 5 hit points at the start of its turn thereafter.;"
+                    ]
+                },
+                {
+                    "name": "Nature's Touch",
+                    "entries": [
+                        "The Floral Astronaut has advantage on saving throws against being poisoned and is treated as a plant for the purposes of spells and abilities."
+                    ]
+                }
+            ],
+            "skill": {
+                "nature": "+3",
+                "stealth": "+1"
+            },
+            "conditionImmune": [
+                "poisoned"
+            ],
+            "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Izzed_Umbranauts_Fungal.png",
+            "fluff": {
+                "entries": [
+                    "Once a human explorer, their body has long since been claimed by creeping roots and blossoms. Vines coil through the cracked visor of the helmet, flowers bloom from joints in the suit, and moss softens the metal. They move with uncanny slowness, guided not by the mind of the original astronaut, but by the quiet will of the plant colony within. Their presence is both haunting and strangely serene — a reminder that nature reclaims even the farthest reaches of space."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Izzed%20Umbranauts%2C%20Fungal.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Izzed Umbranauts, Moss",
+            "size": [
+                "M"
+            ],
+            "type": "undead/plant",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 13.0,
+                    "from": [
+                        "overgrown armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 59.0,
+                "formula": "7 + 3.0"
+            },
+            "save": {
+                "con": "+6"
+            },
+            "passive": 15.0,
+            "speed": {
+                "walk": 20
+            },
+            "str": 14.0,
+            "dex": 8.0,
+            "con": 16.0,
+            "int": 1.0,
+            "wis": 10.0,
+            "cha": 5.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Floral Astronaut makes two attacks: one with Vine Grasp and one with Thorn Strike.;"
+                    ]
+                },
+                {
+                    "name": "Vine Grasp",
+                    "entries": [
+                        "Melee Attack: +7 to hit, reach 15 ft., dealing 10 (1d8 + 5) bludgeoning damage and grappling the target.;"
+                    ]
+                },
+                {
+                    "name": "Thorn Strike",
+                    "entries": [
+                        "Melee Attack: +7 to hit, dealing 14 (2d8 + 5) piercing damage. The target must succeed on a DC 13 Constitution saving throw or be poisoned until the end of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Spore Bloom",
+                    "entries": [
+                        "The Floral Astronaut releases a cloud of spores in a 10-foot radius. Creatures within this area must succeed on a DC 13 Constitution saving throw or be poisoned and lightly blinded for 1 minute. The Floral Astronaut can use this action again after a recharge (5-6)."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Rooted Resilience",
+                    "entries": [
+                        "When reduced to 0 hit points, the Floral Astronaut instead falls to the ground, becoming incapacitated and with 1 hit point. It can use its reaction to immediately regenerate 5 hit points at the start of its turn thereafter.;"
+                    ]
+                },
+                {
+                    "name": "Nature's Touch",
+                    "entries": [
+                        "The Floral Astronaut has advantage on saving throws against being poisoned and is treated as a plant for the purposes of spells and abilities."
+                    ]
+                }
+            ],
+            "skill": {
+                "nature": "+3",
+                "stealth": "+1"
+            },
+            "conditionImmune": [
+                "poisoned"
+            ],
+            "cr": "3",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Izzed_Umbranauts_Moss.png",
+            "fluff": {
+                "entries": [
+                    "Once a human explorer, their body has long since been claimed by creeping roots and blossoms. Vines coil through the cracked visor of the helmet, flowers bloom from joints in the suit, and moss softens the metal. They move with uncanny slowness, guided not by the mind of the original astronaut, but by the quiet will of the plant colony within. Their presence is both haunting and strangely serene — a reminder that nature reclaims even the farthest reaches of space."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Izzed%20Umbranauts%2C%20Moss.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
             "name": "Kotojelen",
             "size": [
                 "L"
             ],
             "type": "fey",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -53692,7 +54287,7 @@
             ],
             "type": "aberration",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -54909,6 +55504,111 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
+            "name": "Mercury Man",
+            "size": [
+                "S"
+            ],
+            "type": "humanoid",
+            "alignment": [
+                "C"
+            ],
+            "ac": [
+                {
+                    "ac": 17.0,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 38.0,
+                "formula": "7 + 1.0"
+            },
+            "save": {
+                "dex": "+3",
+                "wis": "+2",
+                "str": "+1",
+                "con": "+4"
+            },
+            "passive": 17.0,
+            "speed": {
+                "walk": 30
+            },
+            "str": 12.0,
+            "dex": 16.0,
+            "con": 13.0,
+            "int": 6.0,
+            "wis": 14.0,
+            "cha": 8.0,
+            "action": [
+                {
+                    "name": "Puppet Snap",
+                    "entries": [
+                        "Melee Attack: +4 to hit, dealing 7 (1d10 + 2) piercing damage plus 3 (1d6) psychic damage. The target must succeed on a DC 12 Wisdom saving throw or be frightened until the end of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Echoing Fright (Recharge 5-6)",
+                    "entries": [
+                        "The Melonhead releases a high-pitched wail in a 15-foot cone. Each creature in that area must make a DC 11 Constitution saving throw, taking 21 (6d6) sonic damage on a failed save, or half as much damage on a successful one, and is deafened until the end of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Frenzied Flurry",
+                    "entries": [
+                        "In a sudden burst of panic, the Melonhead attacks twice in one turn. Each melee attack is +4 to hit, dealing 10 (2d6 + 3) slashing damage. After this action, the Melonhead must succeed in a DC 12 Constitution saving throw or be incapacitated until the end of its next turn."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Pack Instincts",
+                    "entries": [
+                        "Melonheads gain advantage on attack rolls against creatures within 5 feet of an ally.;"
+                    ]
+                },
+                {
+                    "name": "Uncanny Stare",
+                    "entries": [
+                        "A creature that meets a Melonhead's gaze must succeed on a DC 12 Wisdom saving throw or become frightened until the end of its next turn.;"
+                    ]
+                },
+                {
+                    "name": "Quick Ambush",
+                    "entries": [
+                        "Melonheads have advantage on Stealth checks made in natural terrain.;"
+                    ]
+                },
+                {
+                    "name": "Paranoid Frenzy",
+                    "entries": [
+                        "When reduced to half HP, Melonheads may enter a frenzy, gaining a +2 bonus to attack rolls and damage."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+5",
+                "perception": "+5"
+            },
+            "cr": "2",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Mercury_Man.png",
+            "fluff": {
+                "entries": [
+                    "Haunting industrial zones, creeping in reflective surface"
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Mercury%20Man.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
             "name": "Metropolitan Aggregated Gridlock Organism",
             "size": [
                 "H"
@@ -55645,7 +56345,7 @@
             ],
             "type": "aberration",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -56535,7 +57235,7 @@
             ],
             "type": "construct",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -56600,7 +57300,7 @@
             ],
             "type": "construct",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -57300,7 +58000,7 @@
             ],
             "type": "humanoid",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -57363,7 +58063,7 @@
             ],
             "type": "humanoid",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -57426,7 +58126,7 @@
             ],
             "type": "humanoid",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -57489,7 +58189,7 @@
             ],
             "type": "humanoid",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -57552,7 +58252,7 @@
             ],
             "type": "humanoid",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -57615,7 +58315,7 @@
             ],
             "type": "humanoid",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -57964,7 +58664,7 @@
             ],
             "type": "construct",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -58188,7 +58888,7 @@
             ],
             "type": "humanoid",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -58489,7 +59189,7 @@
             ],
             "type": "construct",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -58552,7 +59252,7 @@
             ],
             "type": "aberration",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -58615,7 +59315,7 @@
             ],
             "type": "aberration",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -58679,7 +59379,7 @@
             ],
             "type": "humanoid",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -59692,7 +60392,7 @@
             ],
             "type": "humanoid",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -59755,7 +60455,7 @@
             ],
             "type": "beast",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -59818,7 +60518,7 @@
             ],
             "type": "beast",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -59881,7 +60581,7 @@
             ],
             "type": "humanoid",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -59944,7 +60644,7 @@
             ],
             "type": "aberration",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -60008,7 +60708,7 @@
             ],
             "type": "beast",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -60214,7 +60914,7 @@
             ],
             "type": "aberration",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -60339,7 +61039,7 @@
             ],
             "type": "undead",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -60483,7 +61183,7 @@
             ],
             "type": "humanoid",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -60630,67 +61330,6 @@
                         "href": {
                             "type": "external",
                             "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Snallygaster.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
-            "name": "Solway Firth Spaceman",
-            "size": [
-                "M"
-            ],
-            "type": "aberration",
-            "alignment": [
-                "L"
-            ],
-            "ac": [
-                {
-                    "ac": 16.0,
-                    "from": [
-                        "Photonic suit"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 65.0,
-                "formula": "2d64 + 0.0"
-            },
-            "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+1"
-            },
-            "passive": 10.0,
-            "speed": {},
-            "str": 10.0,
-            "dex": 10.0,
-            "con": 10.0,
-            "int": 10.0,
-            "wis": 10.0,
-            "cha": 10.0,
-            "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+6"
-            },
-            "conditionImmune": [
-                "immune to charmed; resistant to compelled"
-            ],
-            "cr": "5",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Solway_Firth_Spaceman.png",
-            "fluff": {
-                "entries": [
-                    "Pale, astronaut-like figure appearing in photographs but unseen by the naked eye. Radiates unsettling static energy."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Solway%20Firth%20Spaceman.png"
                         }
                     }
                 ]
@@ -60891,7 +61530,7 @@
             ],
             "type": "fey",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -61188,7 +61827,7 @@
             ],
             "type": "humanoid",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -61690,7 +62329,7 @@
             ],
             "type": "undead",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -61808,7 +62447,7 @@
             ],
             "type": "undead",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -61918,7 +62557,7 @@
             ],
             "type": "elemental",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -62028,7 +62667,7 @@
             ],
             "type": "undead",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -62143,7 +62782,7 @@
             ],
             "type": "elemental",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -62578,639 +63217,6 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Symphony of Echoes",
-            "size": [
-                "M"
-            ],
-            "type": "aberration",
-            "alignment": [
-                "C"
-            ],
-            "ac": [
-                {
-                    "ac": 16.0,
-                    "from": [
-                        "magical resonance"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 93.0,
-                "formula": "1 + 2.0"
-            },
-            "save": {
-                "int": "+7",
-                "cha": "+6"
-            },
-            "passive": 16.0,
-            "speed": {
-                "walk": 30,
-                "fly": 60
-            },
-            "str": 10.0,
-            "dex": 16.0,
-            "con": 14.0,
-            "int": 18.0,
-            "wis": 12.0,
-            "cha": 16.0,
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The Symphony of Echoes makes two Sound Wave attacks. If the Symphony is engaged with another creature, it can also use its Echoing Grasp once.;"
-                    ]
-                },
-                {
-                    "name": "Sound Wave",
-                    "entries": [
-                        "Ranged Spell Attack: +6 to hit, range 60 ft., one target. Hit: 11 (2d6 + 4) thunder damage. The target must succeed on a DC 15 Constitution saving throw or be deafened until the end of its next turn.;"
-                    ]
-                },
-                {
-                    "name": "Echoing Grasp",
-                    "entries": [
-                        "One creature that is deafened by the Symphony of Echoes must succeed on a DC 15 Wisdom saving throw or be enveloped in a haunting echo that causes it to be incapacitated until the end of its next turn. The target can repeat the saving throw at the end of its turns, ending the effect on a success.;"
-                    ]
-                },
-                {
-                    "name": "Cacophonic Burst",
-                    "entries": [
-                        "The Symphony releases a disorienting blast of sound in a 30-foot radius. Each creature in that area must make a DC 15 Wisdom saving throw. On a failed save, a creature takes 30 (4d12 + 4) psychic damage and is frightened for 1 minute. A creature can repeat the saving throw at the end of its turns, ending the effect on itself on a success. This ability can't be used again until the Symphony of Echoes finishes a short or long rest."
-                    ]
-                }
-            ],
-            "trait": [
-                {
-                    "name": "Echoing Whispers",
-                    "entries": [
-                        "The Symphony of Echoes emanates disorienting sounds that may confuse creatures. Creatures that start their turn within 30 feet of it must succeed on a DC 15 Wisdom saving throw or be unable to take reactions until the start of their next turn.;"
-                    ]
-                },
-                {
-                    "name": "Haunting Melody",
-                    "entries": [
-                        "Whenever a creature hears the Symphony of Echoes, it must make a DC 15 Charisma saving throw. On a failed save, that creature has disadvantage on saving throws against being frightened for 1 minute."
-                    ]
-                }
-            ],
-            "skill": {
-                "deception": "+6",
-                "performance": "+6"
-            },
-            "immune": null,
-            "conditionImmune": [
-                "deafened",
-                "frightened"
-            ],
-            "cr": "4",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Symphony_of_Echoes.png",
-            "fluff": {
-                "entries": [
-                    "A sentient cacophony of lost voices, driving listeners insane."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Symphony%20of%20Echoes.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
-            "name": "Synthetic Vampire",
-            "size": [
-                "M"
-            ],
-            "type": "undead",
-            "alignment": [
-                "N"
-            ],
-            "ac": [
-                {
-                    "ac": 18.0,
-                    "from": [
-                        "adaptive skin armor"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 152.0,
-                "formula": "1 + 4.0"
-            },
-            "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+4"
-            },
-            "passive": 16.0,
-            "speed": {
-                "walk": 30,
-                "fly": 60
-            },
-            "str": 10.0,
-            "dex": 18.0,
-            "con": 18.0,
-            "int": 14.0,
-            "wis": 12.0,
-            "cha": 16.0,
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The Synthetic Vampire makes three attacks: one with Blood Drain and two with Talon Strike.;"
-                    ]
-                },
-                {
-                    "name": "Blood Drain",
-                    "entries": [
-                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) necrotic damage plus 5 (1d10) psychic damage. The target must succeed on a DC 16 Constitution saving throw or be grappled (escape DC 16). Until the grapple ends, the target is restrained, and the Synthetic Vampire can't use this attack against another target.;"
-                    ]
-                },
-                {
-                    "name": "Talon Strike",
-                    "entries": [
-                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage. The target must succeed on a DC 16 Dexterity saving throw or be knocked prone.;"
-                    ]
-                },
-                {
-                    "name": "Shadow Veil (Recharge 5-6)",
-                    "entries": [
-                        "The Synthetic Vampire envelops itself in swirling mist, becoming heavily obscured for 1 minute. Any creature that starts its turn within 30 feet of the Synthetic Vampire must make a DC 16 Wisdom saving throw, taking 30 (6d8) psychic damage on a failed save, or half as much damage on a successful one. While in this state, the Synthetic Vampire has advantage on Stealth checks."
-                    ]
-                }
-            ],
-            "trait": [
-                {
-                    "name": "Regeneration",
-                    "entries": [
-                        "The Synthetic Vampire regains 10 hit points at the start of its turn if it has at least 1 hit point.;"
-                    ]
-                },
-                {
-                    "name": "Life Siphon",
-                    "entries": [
-                        "Whenever the Synthetic Vampire reduces a creature to 0 hit points, it regains hit points equal to half the damage dealt."
-                    ]
-                }
-            ],
-            "skill": {
-                "stealth": "+12",
-                "insight": "+5",
-                "deception": "+7"
-            },
-            "immune": null,
-            "conditionImmune": [
-                "charmed",
-                "frightened"
-            ],
-            "cr": "9",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Synthetic_Vampire.png",
-            "fluff": {
-                "entries": [
-                    "Beings sustained by cybernetic components rather than blood."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Synthetic%20Vampire.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
-            "name": "Synthetic Vampire, Elite",
-            "size": [
-                "M"
-            ],
-            "type": "undead",
-            "alignment": [
-                "N"
-            ],
-            "ac": [
-                {
-                    "ac": 18.0,
-                    "from": [
-                        "adaptive skin armor"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 152.0,
-                "formula": "1 + 4.0"
-            },
-            "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+4"
-            },
-            "passive": 16.0,
-            "speed": {
-                "walk": 30,
-                "fly": 60
-            },
-            "str": 10.0,
-            "dex": 18.0,
-            "con": 18.0,
-            "int": 14.0,
-            "wis": 12.0,
-            "cha": 16.0,
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The Synthetic Vampire makes three attacks: one with Blood Drain and two with Talon Strike.;"
-                    ]
-                },
-                {
-                    "name": "Blood Drain",
-                    "entries": [
-                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) necrotic damage plus 5 (1d10) psychic damage. The target must succeed on a DC 16 Constitution saving throw or be grappled (escape DC 16). Until the grapple ends, the target is restrained, and the Synthetic Vampire can't use this attack against another target.;"
-                    ]
-                },
-                {
-                    "name": "Talon Strike",
-                    "entries": [
-                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage. The target must succeed on a DC 16 Dexterity saving throw or be knocked prone.;"
-                    ]
-                },
-                {
-                    "name": "Shadow Veil (Recharge 5-6)",
-                    "entries": [
-                        "The Synthetic Vampire envelops itself in swirling mist, becoming heavily obscured for 1 minute. Any creature that starts its turn within 30 feet of the Synthetic Vampire must make a DC 16 Wisdom saving throw, taking 30 (6d8) psychic damage on a failed save, or half as much damage on a successful one. While in this state, the Synthetic Vampire has advantage on Stealth checks."
-                    ]
-                }
-            ],
-            "trait": [
-                {
-                    "name": "Regeneration",
-                    "entries": [
-                        "The Synthetic Vampire regains 10 hit points at the start of its turn if it has at least 1 hit point.;"
-                    ]
-                },
-                {
-                    "name": "Life Siphon",
-                    "entries": [
-                        "Whenever the Synthetic Vampire reduces a creature to 0 hit points, it regains hit points equal to half the damage dealt."
-                    ]
-                }
-            ],
-            "skill": {
-                "stealth": "+12",
-                "insight": "+5",
-                "deception": "+7"
-            },
-            "immune": null,
-            "conditionImmune": [
-                "charmed",
-                "frightened"
-            ],
-            "cr": "9",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Synthetic_Vampire_Elite.png",
-            "fluff": {
-                "entries": [
-                    "Beings sustained by cybernetic components rather than blood."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Synthetic%20Vampire%2C%20Elite.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
-            "name": "Synthetic Vampire, Hunter",
-            "size": [
-                "M"
-            ],
-            "type": "undead",
-            "alignment": [
-                "N"
-            ],
-            "ac": [
-                {
-                    "ac": 18.0,
-                    "from": [
-                        "adaptive skin armor"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 152.0,
-                "formula": "1 + 4.0"
-            },
-            "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+4"
-            },
-            "passive": 16.0,
-            "speed": {
-                "walk": 30,
-                "fly": 60
-            },
-            "str": 10.0,
-            "dex": 18.0,
-            "con": 18.0,
-            "int": 14.0,
-            "wis": 12.0,
-            "cha": 16.0,
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The Synthetic Vampire makes three attacks: one with Blood Drain and two with Talon Strike.;"
-                    ]
-                },
-                {
-                    "name": "Blood Drain",
-                    "entries": [
-                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) necrotic damage plus 5 (1d10) psychic damage. The target must succeed on a DC 16 Constitution saving throw or be grappled (escape DC 16). Until the grapple ends, the target is restrained, and the Synthetic Vampire can't use this attack against another target.;"
-                    ]
-                },
-                {
-                    "name": "Talon Strike",
-                    "entries": [
-                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage. The target must succeed on a DC 16 Dexterity saving throw or be knocked prone.;"
-                    ]
-                },
-                {
-                    "name": "Shadow Veil (Recharge 5-6)",
-                    "entries": [
-                        "The Synthetic Vampire envelops itself in swirling mist, becoming heavily obscured for 1 minute. Any creature that starts its turn within 30 feet of the Synthetic Vampire must make a DC 16 Wisdom saving throw, taking 30 (6d8) psychic damage on a failed save, or half as much damage on a successful one. While in this state, the Synthetic Vampire has advantage on Stealth checks."
-                    ]
-                }
-            ],
-            "trait": [
-                {
-                    "name": "Regeneration",
-                    "entries": [
-                        "The Synthetic Vampire regains 10 hit points at the start of its turn if it has at least 1 hit point.;"
-                    ]
-                },
-                {
-                    "name": "Life Siphon",
-                    "entries": [
-                        "Whenever the Synthetic Vampire reduces a creature to 0 hit points, it regains hit points equal to half the damage dealt."
-                    ]
-                }
-            ],
-            "skill": {
-                "stealth": "+12",
-                "insight": "+5",
-                "deception": "+7"
-            },
-            "immune": null,
-            "conditionImmune": [
-                "charmed",
-                "frightened"
-            ],
-            "cr": "9",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Synthetic_Vampire_Hunter.png",
-            "fluff": {
-                "entries": [
-                    "Beings sustained by cybernetic components rather than blood."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Synthetic%20Vampire%2C%20Hunter.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
-            "name": "Synthetic Vampire, Lurker",
-            "size": [
-                "M"
-            ],
-            "type": "undead",
-            "alignment": [
-                "N"
-            ],
-            "ac": [
-                {
-                    "ac": 18.0,
-                    "from": [
-                        "adaptive skin armor"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 152.0,
-                "formula": "1 + 4.0"
-            },
-            "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+4"
-            },
-            "passive": 16.0,
-            "speed": {
-                "walk": 30,
-                "fly": 60
-            },
-            "str": 10.0,
-            "dex": 18.0,
-            "con": 18.0,
-            "int": 14.0,
-            "wis": 12.0,
-            "cha": 16.0,
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The Synthetic Vampire makes three attacks: one with Blood Drain and two with Talon Strike.;"
-                    ]
-                },
-                {
-                    "name": "Blood Drain",
-                    "entries": [
-                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) necrotic damage plus 5 (1d10) psychic damage. The target must succeed on a DC 16 Constitution saving throw or be grappled (escape DC 16). Until the grapple ends, the target is restrained, and the Synthetic Vampire can't use this attack against another target.;"
-                    ]
-                },
-                {
-                    "name": "Talon Strike",
-                    "entries": [
-                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage. The target must succeed on a DC 16 Dexterity saving throw or be knocked prone.;"
-                    ]
-                },
-                {
-                    "name": "Shadow Veil (Recharge 5-6)",
-                    "entries": [
-                        "The Synthetic Vampire envelops itself in swirling mist, becoming heavily obscured for 1 minute. Any creature that starts its turn within 30 feet of the Synthetic Vampire must make a DC 16 Wisdom saving throw, taking 30 (6d8) psychic damage on a failed save, or half as much damage on a successful one. While in this state, the Synthetic Vampire has advantage on Stealth checks."
-                    ]
-                }
-            ],
-            "trait": [
-                {
-                    "name": "Regeneration",
-                    "entries": [
-                        "The Synthetic Vampire regains 10 hit points at the start of its turn if it has at least 1 hit point.;"
-                    ]
-                },
-                {
-                    "name": "Life Siphon",
-                    "entries": [
-                        "Whenever the Synthetic Vampire reduces a creature to 0 hit points, it regains hit points equal to half the damage dealt."
-                    ]
-                }
-            ],
-            "skill": {
-                "stealth": "+12",
-                "insight": "+5",
-                "deception": "+7"
-            },
-            "immune": null,
-            "conditionImmune": [
-                "charmed",
-                "frightened"
-            ],
-            "cr": "9",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Synthetic_Vampire_Lurker.png",
-            "fluff": {
-                "entries": [
-                    "Beings sustained by cybernetic components rather than blood."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Synthetic%20Vampire%2C%20Lurker.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
-            "name": "Synthetic Vampire, Seducer",
-            "size": [
-                "M"
-            ],
-            "type": "undead",
-            "alignment": [
-                "N"
-            ],
-            "ac": [
-                {
-                    "ac": 18.0,
-                    "from": [
-                        "adaptive skin armor"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 152.0,
-                "formula": "1 + 4.0"
-            },
-            "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+4"
-            },
-            "passive": 16.0,
-            "speed": {
-                "walk": 30,
-                "fly": 60
-            },
-            "str": 10.0,
-            "dex": 18.0,
-            "con": 18.0,
-            "int": 14.0,
-            "wis": 12.0,
-            "cha": 16.0,
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "The Synthetic Vampire makes three attacks: one with Blood Drain and two with Talon Strike.;"
-                    ]
-                },
-                {
-                    "name": "Blood Drain",
-                    "entries": [
-                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) necrotic damage plus 5 (1d10) psychic damage. The target must succeed on a DC 16 Constitution saving throw or be grappled (escape DC 16). Until the grapple ends, the target is restrained, and the Synthetic Vampire can't use this attack against another target.;"
-                    ]
-                },
-                {
-                    "name": "Talon Strike",
-                    "entries": [
-                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage. The target must succeed on a DC 16 Dexterity saving throw or be knocked prone.;"
-                    ]
-                },
-                {
-                    "name": "Shadow Veil (Recharge 5-6)",
-                    "entries": [
-                        "The Synthetic Vampire envelops itself in swirling mist, becoming heavily obscured for 1 minute. Any creature that starts its turn within 30 feet of the Synthetic Vampire must make a DC 16 Wisdom saving throw, taking 30 (6d8) psychic damage on a failed save, or half as much damage on a successful one. While in this state, the Synthetic Vampire has advantage on Stealth checks."
-                    ]
-                }
-            ],
-            "trait": [
-                {
-                    "name": "Regeneration",
-                    "entries": [
-                        "The Synthetic Vampire regains 10 hit points at the start of its turn if it has at least 1 hit point.;"
-                    ]
-                },
-                {
-                    "name": "Life Siphon",
-                    "entries": [
-                        "Whenever the Synthetic Vampire reduces a creature to 0 hit points, it regains hit points equal to half the damage dealt."
-                    ]
-                }
-            ],
-            "skill": {
-                "stealth": "+12",
-                "insight": "+5",
-                "deception": "+7"
-            },
-            "immune": null,
-            "conditionImmune": [
-                "charmed",
-                "frightened"
-            ],
-            "cr": "9",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Synthetic_Vampire_Seducer.png",
-            "fluff": {
-                "entries": [
-                    "Beings sustained by cybernetic components rather than blood."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Synthetic%20Vampire%2C%20Seducer.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
             "name": "Taos Hum",
             "size": [
                 "H"
@@ -63352,7 +63358,7 @@
             ],
             "type": "aberration",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -63665,7 +63671,7 @@
             ],
             "type": "undead",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
@@ -63753,6 +63759,430 @@
                         "href": {
                             "type": "external",
                             "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Urban%20Wraith.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Vampire, Elite",
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "alignment": [
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 18.0,
+                    "from": [
+                        "adaptive skin armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 152.0,
+                "formula": "1 + 4.0"
+            },
+            "save": {
+                "dex": "+8",
+                "con": "+7",
+                "int": "+5",
+                "cha": "+4"
+            },
+            "passive": 16.0,
+            "speed": {
+                "walk": 30,
+                "fly": 60
+            },
+            "str": 10.0,
+            "dex": 18.0,
+            "con": 18.0,
+            "int": 14.0,
+            "wis": 12.0,
+            "cha": 16.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Synthetic Vampire makes three attacks: one with Blood Drain and two with Talon Strike.;"
+                    ]
+                },
+                {
+                    "name": "Blood Drain",
+                    "entries": [
+                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) necrotic damage plus 5 (1d10) psychic damage. The target must succeed on a DC 16 Constitution saving throw or be grappled (escape DC 16). Until the grapple ends, the target is restrained, and the Synthetic Vampire can't use this attack against another target.;"
+                    ]
+                },
+                {
+                    "name": "Talon Strike",
+                    "entries": [
+                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage. The target must succeed on a DC 16 Dexterity saving throw or be knocked prone.;"
+                    ]
+                },
+                {
+                    "name": "Shadow Veil (Recharge 5-6)",
+                    "entries": [
+                        "The Synthetic Vampire envelops itself in swirling mist, becoming heavily obscured for 1 minute. Any creature that starts its turn within 30 feet of the Synthetic Vampire must make a DC 16 Wisdom saving throw, taking 30 (6d8) psychic damage on a failed save, or half as much damage on a successful one. While in this state, the Synthetic Vampire has advantage on Stealth checks."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Regeneration",
+                    "entries": [
+                        "The Synthetic Vampire regains 10 hit points at the start of its turn if it has at least 1 hit point.;"
+                    ]
+                },
+                {
+                    "name": "Life Siphon",
+                    "entries": [
+                        "Whenever the Synthetic Vampire reduces a creature to 0 hit points, it regains hit points equal to half the damage dealt."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+12",
+                "insight": "+5",
+                "deception": "+7"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "charmed",
+                "frightened"
+            ],
+            "cr": "9",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vampire_Elite.png",
+            "fluff": {
+                "entries": [
+                    "Beings sustained by cybernetic components rather than blood."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Vampire%2C%20Elite.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Vampire, Hunter",
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "alignment": [
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 18.0,
+                    "from": [
+                        "adaptive skin armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 152.0,
+                "formula": "1 + 4.0"
+            },
+            "save": {
+                "dex": "+8",
+                "con": "+7",
+                "int": "+5",
+                "cha": "+4"
+            },
+            "passive": 16.0,
+            "speed": {
+                "walk": 30,
+                "fly": 60
+            },
+            "str": 10.0,
+            "dex": 18.0,
+            "con": 18.0,
+            "int": 14.0,
+            "wis": 12.0,
+            "cha": 16.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Synthetic Vampire makes three attacks: one with Blood Drain and two with Talon Strike.;"
+                    ]
+                },
+                {
+                    "name": "Blood Drain",
+                    "entries": [
+                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) necrotic damage plus 5 (1d10) psychic damage. The target must succeed on a DC 16 Constitution saving throw or be grappled (escape DC 16). Until the grapple ends, the target is restrained, and the Synthetic Vampire can't use this attack against another target.;"
+                    ]
+                },
+                {
+                    "name": "Talon Strike",
+                    "entries": [
+                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage. The target must succeed on a DC 16 Dexterity saving throw or be knocked prone.;"
+                    ]
+                },
+                {
+                    "name": "Shadow Veil (Recharge 5-6)",
+                    "entries": [
+                        "The Synthetic Vampire envelops itself in swirling mist, becoming heavily obscured for 1 minute. Any creature that starts its turn within 30 feet of the Synthetic Vampire must make a DC 16 Wisdom saving throw, taking 30 (6d8) psychic damage on a failed save, or half as much damage on a successful one. While in this state, the Synthetic Vampire has advantage on Stealth checks."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Regeneration",
+                    "entries": [
+                        "The Synthetic Vampire regains 10 hit points at the start of its turn if it has at least 1 hit point.;"
+                    ]
+                },
+                {
+                    "name": "Life Siphon",
+                    "entries": [
+                        "Whenever the Synthetic Vampire reduces a creature to 0 hit points, it regains hit points equal to half the damage dealt."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+12",
+                "insight": "+5",
+                "deception": "+7"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "charmed",
+                "frightened"
+            ],
+            "cr": "9",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vampire_Hunter.png",
+            "fluff": {
+                "entries": [
+                    "Beings sustained by cybernetic components rather than blood."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Vampire%2C%20Hunter.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Vampire, Lurker",
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "alignment": [
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 18.0,
+                    "from": [
+                        "adaptive skin armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 152.0,
+                "formula": "1 + 4.0"
+            },
+            "save": {
+                "dex": "+8",
+                "con": "+7",
+                "int": "+5",
+                "cha": "+4"
+            },
+            "passive": 16.0,
+            "speed": {
+                "walk": 30,
+                "fly": 60
+            },
+            "str": 10.0,
+            "dex": 18.0,
+            "con": 18.0,
+            "int": 14.0,
+            "wis": 12.0,
+            "cha": 16.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Synthetic Vampire makes three attacks: one with Blood Drain and two with Talon Strike.;"
+                    ]
+                },
+                {
+                    "name": "Blood Drain",
+                    "entries": [
+                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) necrotic damage plus 5 (1d10) psychic damage. The target must succeed on a DC 16 Constitution saving throw or be grappled (escape DC 16). Until the grapple ends, the target is restrained, and the Synthetic Vampire can't use this attack against another target.;"
+                    ]
+                },
+                {
+                    "name": "Talon Strike",
+                    "entries": [
+                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage. The target must succeed on a DC 16 Dexterity saving throw or be knocked prone.;"
+                    ]
+                },
+                {
+                    "name": "Shadow Veil (Recharge 5-6)",
+                    "entries": [
+                        "The Synthetic Vampire envelops itself in swirling mist, becoming heavily obscured for 1 minute. Any creature that starts its turn within 30 feet of the Synthetic Vampire must make a DC 16 Wisdom saving throw, taking 30 (6d8) psychic damage on a failed save, or half as much damage on a successful one. While in this state, the Synthetic Vampire has advantage on Stealth checks."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Regeneration",
+                    "entries": [
+                        "The Synthetic Vampire regains 10 hit points at the start of its turn if it has at least 1 hit point.;"
+                    ]
+                },
+                {
+                    "name": "Life Siphon",
+                    "entries": [
+                        "Whenever the Synthetic Vampire reduces a creature to 0 hit points, it regains hit points equal to half the damage dealt."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+12",
+                "insight": "+5",
+                "deception": "+7"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "charmed",
+                "frightened"
+            ],
+            "cr": "9",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vampire_Lurker.png",
+            "fluff": {
+                "entries": [
+                    "Beings sustained by cybernetic components rather than blood."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Vampire%2C%20Lurker.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "EverydayGuidetoConcordCity",
+            "name": "Vampire, Seducer",
+            "size": [
+                "M"
+            ],
+            "type": "undead",
+            "alignment": [
+                "N"
+            ],
+            "ac": [
+                {
+                    "ac": 18.0,
+                    "from": [
+                        "adaptive skin armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 152.0,
+                "formula": "1 + 4.0"
+            },
+            "save": {
+                "dex": "+8",
+                "con": "+7",
+                "int": "+5",
+                "cha": "+4"
+            },
+            "passive": 16.0,
+            "speed": {
+                "walk": 30,
+                "fly": 60
+            },
+            "str": 10.0,
+            "dex": 18.0,
+            "con": 18.0,
+            "int": 14.0,
+            "wis": 12.0,
+            "cha": 16.0,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Synthetic Vampire makes three attacks: one with Blood Drain and two with Talon Strike.;"
+                    ]
+                },
+                {
+                    "name": "Blood Drain",
+                    "entries": [
+                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 16 (2d10 + 5) necrotic damage plus 5 (1d10) psychic damage. The target must succeed on a DC 16 Constitution saving throw or be grappled (escape DC 16). Until the grapple ends, the target is restrained, and the Synthetic Vampire can't use this attack against another target.;"
+                    ]
+                },
+                {
+                    "name": "Talon Strike",
+                    "entries": [
+                        "Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 5) slashing damage. The target must succeed on a DC 16 Dexterity saving throw or be knocked prone.;"
+                    ]
+                },
+                {
+                    "name": "Shadow Veil (Recharge 5-6)",
+                    "entries": [
+                        "The Synthetic Vampire envelops itself in swirling mist, becoming heavily obscured for 1 minute. Any creature that starts its turn within 30 feet of the Synthetic Vampire must make a DC 16 Wisdom saving throw, taking 30 (6d8) psychic damage on a failed save, or half as much damage on a successful one. While in this state, the Synthetic Vampire has advantage on Stealth checks."
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Regeneration",
+                    "entries": [
+                        "The Synthetic Vampire regains 10 hit points at the start of its turn if it has at least 1 hit point.;"
+                    ]
+                },
+                {
+                    "name": "Life Siphon",
+                    "entries": [
+                        "Whenever the Synthetic Vampire reduces a creature to 0 hit points, it regains hit points equal to half the damage dealt."
+                    ]
+                }
+            ],
+            "skill": {
+                "stealth": "+12",
+                "insight": "+5",
+                "deception": "+7"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "charmed",
+                "frightened"
+            ],
+            "cr": "9",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Vampire_Seducer.png",
+            "fluff": {
+                "entries": [
+                    "Beings sustained by cybernetic components rather than blood."
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Vampire%2C%20Seducer.png"
                         }
                     }
                 ]
@@ -64194,7 +64624,7 @@
             ],
             "type": "undead",
             "alignment": [
-                "N"
+                "U"
             ],
             "ac": [
                 {
