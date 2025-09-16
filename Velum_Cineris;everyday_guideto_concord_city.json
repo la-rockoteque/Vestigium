@@ -204,8 +204,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1758033188,
-        "_dateLastModifiedHash": "e2c1c20c6d",
+        "dateLastModified": 1758039059,
+        "_dateLastModifiedHash": "c764547d0e",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -53883,7 +53883,7 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Izzed Umbranauts, Floral",
+            "name": "Izzed Umbranaut, Floral",
             "size": [
                 "M"
             ],
@@ -53964,7 +53964,7 @@
                 "poisoned"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Izzed_Umbranauts_Floral.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Izzed_Umbranaut_Floral.png",
             "fluff": {
                 "entries": [
                     "Once a human explorer, their body has long since been claimed by creeping roots and blossoms. Vines coil through the cracked visor of the helmet, flowers bloom from joints in the suit, and moss softens the metal. They move with uncanny slowness, guided not by the mind of the original astronaut, but by the quiet will of the plant colony within. Their presence is both haunting and strangely serene — a reminder that nature reclaims even the farthest reaches of space."
@@ -53974,7 +53974,7 @@
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Izzed%20Umbranauts%2C%20Floral.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Izzed%20Umbranaut%2C%20Floral.png"
                         }
                     }
                 ]
@@ -53982,7 +53982,7 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Izzed Umbranauts, Fungal",
+            "name": "Izzed Umbranaut, Fungal",
             "size": [
                 "M"
             ],
@@ -54063,7 +54063,7 @@
                 "poisoned"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Izzed_Umbranauts_Fungal.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Izzed_Umbranaut_Fungal.png",
             "fluff": {
                 "entries": [
                     "Once a human explorer, their body has long since been claimed by creeping roots and blossoms. Vines coil through the cracked visor of the helmet, flowers bloom from joints in the suit, and moss softens the metal. They move with uncanny slowness, guided not by the mind of the original astronaut, but by the quiet will of the plant colony within. Their presence is both haunting and strangely serene — a reminder that nature reclaims even the farthest reaches of space."
@@ -54073,7 +54073,7 @@
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Izzed%20Umbranauts%2C%20Fungal.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Izzed%20Umbranaut%2C%20Fungal.png"
                         }
                     }
                 ]
@@ -54081,7 +54081,7 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Izzed Umbranauts, Moss",
+            "name": "Izzed Umbranaut, Moss",
             "size": [
                 "M"
             ],
@@ -54162,7 +54162,7 @@
                 "poisoned"
             ],
             "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Izzed_Umbranauts_Moss.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Izzed_Umbranaut_Moss.png",
             "fluff": {
                 "entries": [
                     "Once a human explorer, their body has long since been claimed by creeping roots and blossoms. Vines coil through the cracked visor of the helmet, flowers bloom from joints in the suit, and moss softens the metal. They move with uncanny slowness, guided not by the mind of the original astronaut, but by the quiet will of the plant colony within. Their presence is both haunting and strangely serene — a reminder that nature reclaims even the farthest reaches of space."
@@ -54172,7 +54172,7 @@
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Izzed%20Umbranauts%2C%20Moss.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Izzed%20Umbranaut%2C%20Moss.png"
                         }
                     }
                 ]
@@ -58050,132 +58050,6 @@
                         "href": {
                             "type": "external",
                             "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Pit%20Fighter%2C%20Aestari.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
-            "name": "Pit Fighter, Aestari, Champion",
-            "size": [
-                "M"
-            ],
-            "type": "humanoid",
-            "alignment": [
-                "U"
-            ],
-            "ac": [
-                {
-                    "ac": 12.0,
-                    "from": [
-                        "natural armor"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 36.0,
-                "formula": "2d35 + 0.0"
-            },
-            "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+33"
-            },
-            "passive": 10.0,
-            "speed": {
-                "walk": 30
-            },
-            "str": 10.0,
-            "dex": 10.0,
-            "con": 10.0,
-            "int": 10.0,
-            "wis": 10.0,
-            "cha": 10.0,
-            "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+28"
-            },
-            "conditionImmune": [
-                "resistant to compelled"
-            ],
-            "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter_Aestari_Champion.png",
-            "fluff": {
-                "entries": [
-                    "A highly skilled Aestari warrior, hardened by brutal arena combat."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Pit%20Fighter%2C%20Aestari%2C%20Champion.png"
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "source": "EverydayGuidetoConcordCity",
-            "name": "Pit Fighter, Aestari, Recruit",
-            "size": [
-                "M"
-            ],
-            "type": "humanoid",
-            "alignment": [
-                "U"
-            ],
-            "ac": [
-                {
-                    "ac": 12.0,
-                    "from": [
-                        "natural armor"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 36.0,
-                "formula": "2d35 + 0.0"
-            },
-            "save": {
-                "dex": "+8",
-                "con": "+7",
-                "int": "+5",
-                "cha": "+32"
-            },
-            "passive": 10.0,
-            "speed": {
-                "walk": 30
-            },
-            "str": 10.0,
-            "dex": 10.0,
-            "con": 10.0,
-            "int": 10.0,
-            "wis": 10.0,
-            "cha": 10.0,
-            "skill": {
-                "acrobatics": "+10",
-                "stealth": "+10",
-                "deception": "+27"
-            },
-            "conditionImmune": [
-                "resistant to compelled"
-            ],
-            "cr": "3",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Pit_Fighter_Aestari_Recruit.png",
-            "fluff": {
-                "entries": [
-                    "A highly skilled Aestari warrior, hardened by brutal arena combat."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Pit%20Fighter%2C%20Aestari%2C%20Recruit.png"
                         }
                     }
                 ]
@@ -64618,7 +64492,7 @@
         },
         {
             "source": "EverydayGuidetoConcordCity",
-            "name": "Window Knockers",
+            "name": "Window Knocker",
             "size": [
                 "M"
             ],
@@ -64702,7 +64576,7 @@
                 "frightened"
             ],
             "cr": "9",
-            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Window_Knockers.png",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Window_Knocker.png",
             "fluff": {
                 "entries": [
                     "Nocturnal pests of the paranormal. They manifest as disembodied hands or unseen shapes that rap insistently against glass. The knocks are always rhythmic, too deliberate to be random, as though repeating a code. If answered or acknowledged, the Knockers vanish — only to return at another window deeper inside the house."
@@ -64712,7 +64586,7 @@
                         "type": "image",
                         "href": {
                             "type": "external",
-                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Window%20Knockers.png"
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/Window%20Knocker.png"
                         }
                     }
                 ]
