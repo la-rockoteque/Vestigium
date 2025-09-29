@@ -8,6 +8,7 @@ import gspread
 from google.oauth2.service_account import Credentials
 
 from PIL import Image, ImageDraw, ImageFont, ImageOps, ImageColor, ImageChops
+import math
 
 TYPE_COLORS = {
   # Vestigium New Types
@@ -127,8 +128,8 @@ def ImageColor_safe(hex_or_rgb: str):
   return (68, 68, 68, 255)
 
 def text_width(text: str, font: ImageFont.FreeTypeFont) -> int:
-  bbox = font.getbbox(text)
-  return bbox[2] - bbox[0]
+  left, top, right, bottom = font.getbbox(text)
+  return int(right) - int(left)
 
 def draw_text_center(draw: ImageDraw.ImageDraw, text: str, x: int, y: int, font: ImageFont.FreeTypeFont, fill):
   bbox = font.getbbox(text)
@@ -156,6 +157,102 @@ def fill_round_rect(draw: ImageDraw.ImageDraw, x: int, y: int, w: int, h: int, r
   draw.pieslice((x, y + h - 2 * r, x + 2 * r, y + h), 90, 180, fill=fill)
   draw.pieslice((x + w - 2 * r, y + h - 2 * r, x + w, y + h), 0, 90, fill=fill)
 
+def draw_text_ring(
+    base_img: Image.Image,
+    center: tuple[int, int],
+    radius: int,
+    text: str,
+    font: ImageFont.FreeTypeFont,
+    *,
+    fill=(255, 255, 255, 255),
+    stroke_fill=(0, 0, 0, 180),
+    stroke_width=3,
+    start_angle_deg: float = -90.0,   # 12 o'clock
+    clockwise: bool = True,
+    equal_angle: bool = True,         # even angular spacing around full circle
+    angle_step_deg: float | None = None,  # set a fixed step if you want
+    offset_px: int = 0,
+    show_debug_dots: bool = False,
+) -> None:
+  n = len(text)
+  if n == 0:
+    return
+
+  # per-char angle step
+  if angle_step_deg is not None:
+    step = float(angle_step_deg)
+  elif equal_angle:
+    step = 360.0 / n
+  else:
+    step = 360.0 / n  # fallback
+
+  eff_r = max(1, radius - int(offset_px))
+
+  for i, ch in enumerate(text.upper()):
+    theta_deg = start_angle_deg + (i * step if clockwise else -i * step)
+    theta = math.radians(theta_deg)
+    cx, cy = center
+    x = cx + eff_r * math.cos(theta)
+    y = cy + eff_r * math.sin(theta)
+
+    if show_debug_dots:
+      ImageDraw.Draw(base_img).ellipse((x-2, y-2, x+2, y+2), fill=(255,0,0,255))
+
+    # render glyph on a padded canvas, then rotate tangentially
+    pad = max(int(font.size * 2.5) + 16, 64)
+    glyph = Image.new("RGBA", (pad, pad), (0, 0, 0, 0))
+    gd = ImageDraw.Draw(glyph)
+    gd.text((pad//2, pad//2), ch, font=font, fill=fill,
+            stroke_width=stroke_width, stroke_fill=stroke_fill, anchor="mm")
+
+    tangent_deg = theta_deg + 90 if clockwise else theta_deg - 90
+    rotated = glyph.rotate(-tangent_deg, resample=Image.Resampling.BICUBIC, expand=True)
+
+    base_img.paste(rotated, (int(x-rotated.width/2), int(y-rotated.height/2)), rotated)
+
+def make_metal_texture(size: int) -> Image.Image:
+  """Return a grayscale brushed metal texture."""
+  import random
+  img = Image.new("L", (size, size), 0)
+  d = ImageDraw.Draw(img)
+  # horizontal brushed effect
+  for y in range(size):
+    gray = int(180 + 40 * math.sin(y / size * math.pi * 8))
+    d.line((0, y, size, y), fill=gray)
+  # speckles
+  px = img.load()
+  for _ in range(size * size // 40):
+    x = random.randint(0, size - 1)
+    y = random.randint(0, size - 1)
+    val = random.randint(200, 255)
+    px[x, y] = val
+  return img
+
+def add_ring_lighting(size: int, ring_width: int) -> Image.Image:
+  highlight = Image.new("RGBA", (size, size), (0,0,0,0))
+  d = ImageDraw.Draw(highlight)
+  # soft white glow from top-left
+  grad = Image.new("L", (size, size), 0)
+  gd = ImageDraw.Draw(grad)
+  gd.ellipse((0, 0, size, size), fill=180)
+  inset = ring_width
+  gd.ellipse((inset, inset, size-inset, size-inset), fill=0)
+  highlight = ImageOps.colorize(grad, black=(0,0,0,0), white=(255,255,255,100)).convert("RGBA")
+  return highlight
+
+def tint_texture(img: Image.Image, hex_color: str) -> Image.Image:
+  """Tint a grayscale texture by a given hex color."""
+  base = Image.new("RGBA", img.size, ImageColor_safe(hex_color))
+  # multiply the grayscale texture with the base color
+  return ImageChops.multiply(base.convert("RGBA"), img.convert("L").convert("RGBA"))
+
+def texture_for_ring(size: int, ring_width: int, hex_color: str) -> Image.Image:
+  tex = make_metal_texture(size)  # grayscale metal
+  annulus = make_annulus_mask(size, ring_width)
+  tinted = tint_texture(tex, hex_color)  # apply type color
+  return Image.composite(tinted, Image.new("RGBA", (size, size), (0,0,0,0)), annulus)
+
+
 def draw_circle_token(
     size: int,
     bg_hex: str,
@@ -175,22 +272,15 @@ def draw_circle_token(
   bg_color = ImageColor_safe(bg_hex)
   draw.ellipse((0, 0, size, size), fill=bg_color)
 
-  # Outer ring
+  # Outer ring base
   ring_bb = (border // 2, border // 2, size - border // 2, size - border // 2)
-  draw.ellipse(ring_bb, outline=(255, 255, 255, 255), width=border)
+  draw.ellipse(ring_bb, outline=bg_color, width=border)
 
   # CR-based frame texture overlay
-  try:
-    tex_mask = texture_for_cr(size=size, ring_width=border, cr=cr)
-    # Use a neutral gray texture color so it shows over the white ring but stays subtle.
-    tex_rgba = Image.new("RGBA", (size, size), (0, 0, 0, 0))
-    # Paint the texture as semi-transparent black
-    shade = Image.new("RGBA", (size, size), (0, 0, 0, int(255 * 0.28)))
-    tex_rgba = Image.composite(shade, tex_rgba, tex_mask)
-    token.alpha_composite(tex_rgba)
-  except Exception:
-    # If anything goes wrong, skip texture silently
-    pass
+  if cr:
+      cr_tex = texture_for_cr(size, border, cr)
+      color_layer = Image.new("RGBA", (size, size), bg_color)
+      token.alpha_composite(Image.composite(color_layer, Image.new("RGBA", (size, size), (0,0,0,0)), cr_tex))
 
   # Inner stroke
   inner_bb = (
@@ -220,6 +310,29 @@ def draw_circle_token(
     cx, cy = size // 2, size // 2
     draw_text_center(draw, mono, cx + 3, cy + 3, font, fill=(0, 0, 0, int(0.65 * 255)))
     draw_text_center(draw, mono, cx, cy, font, fill=(243, 246, 255, 255))
+
+  W, H = token.size
+  center = (W//2, H//2)
+  portrait_radius = min(W, H)//2  # full portrait radius
+  
+  # ~25–30% inward from the portrait edge usually looks right
+  offset_px = int(border * 1.8)
+  
+  font_ring = best_font(font_path, max(10, int(W * 0.08)))
+
+  draw_text_ring(
+    token, center, portrait_radius,
+    name, font_ring,
+    fill=(255,255,255,255),
+    stroke_fill=(0,0,0,180),
+    stroke_width=2,
+    start_angle_deg=90,        # start at top
+    clockwise=False,             # reading direction
+    equal_angle=True,           # coin-style even spacing
+    angle_step_deg=3,        # let it fill the full circle
+    offset_px=offset_px,        # pulls it onto the portrait
+    show_debug_dots=False,      # set True once to verify placement
+  )
 
   # CR badge
   if show_badge and cr:
@@ -425,3 +538,4 @@ def main():
 
 if __name__ == "__main__":
   main()
+# New helper functions for CR-based texture
