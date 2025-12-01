@@ -3,7 +3,7 @@ from src.sources import json_source
 import re
 from fractions import Fraction
 
-monster_url = "https://docs.google.com/spreadsheets/d/1NBZGu29IfE1ZfAWO1Z6ShR5GMLMMbaSyS0m-46PSYm4/edit?gid=736393386#gid=736393386"
+monster_url = "https://docs.google.com/spreadsheets/d/1NBZGu29IfE1ZfAWO1Z6ShR5GMLMMbaSyS0m-46PSYm4/export?format=csv&gid=736393386"
 df_monster = pd.read_csv(monster_url)
 df_monster.head()
 
