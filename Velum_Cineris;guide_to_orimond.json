@@ -2,200 +2,30 @@
     "_meta": {
         "sources": [
             {
-                "json": "EverydayGuidetoConcordCity",
-                "abbreviation": "VSTGCC",
-                "full": "Everyday Guide to Concord City",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;everyday_guideto_concord_city.json",
+                "json": "GuidetoOrimond",
+                "abbreviation": "ORIO",
+                "full": "Guide to Orimond",
+                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;guideto_orimond.json",
                 "authors": [
                     "Velum Cineris"
                 ],
                 "version": "1.0"
             },
             {
-                "json": "EspionnageGuidetoSablemarche",
-                "abbreviation": "VSTGSM",
-                "full": "Espionnage Guide to Sablemarche",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;everyday_guideto_concord_city.json",
+                "json": "ChartersoftheVeil",
+                "abbreviation": "ORIV",
+                "full": "Charters of the Veil",
+                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;guideto_orimond.json",
                 "authors": [
                     "Velum Cineris"
                 ],
                 "version": "1.0"
             },
             {
-                "json": "ThesisofLysoria",
-                "abbreviation": "VSTGLY",
-                "full": "Thesis of Lysoria",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;everyday_guideto_concord_city.json",
-                "authors": [
-                    "Velum Cineris"
-                ],
-                "version": "1.0"
-            },
-            {
-                "json": "UnknownGuidetoErelis",
-                "abbreviation": "VSTGER",
-                "full": "Unknown Guide to Erelis",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;everyday_guideto_concord_city.json",
-                "authors": [
-                    "Velum Cineris"
-                ],
-                "version": "1.0"
-            },
-            {
-                "json": "WarManifestoofVexholm",
-                "abbreviation": "VSTGVX",
-                "full": "War Manifesto of Vexholm",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;everyday_guideto_concord_city.json",
-                "authors": [
-                    "Velum Cineris"
-                ],
-                "version": "1.0"
-            },
-            {
-                "json": "GeologyManualtoVareithal",
-                "abbreviation": "VSTGVA",
-                "full": "Geology Manual to Vareithal",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;everyday_guideto_concord_city.json",
-                "authors": [
-                    "Velum Cineris"
-                ],
-                "version": "1.0"
-            },
-            {
-                "json": "HuntingGuidetoYShaara",
-                "abbreviation": "VSTGYS",
-                "full": "Hunting Guide to YShaara",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;everyday_guideto_concord_city.json",
-                "authors": [
-                    "Velum Cineris"
-                ],
-                "version": "1.0"
-            },
-            {
-                "json": "YdillicJournalsoftheDreamscape",
-                "abbreviation": "VSTGDS",
-                "full": "Ydillic Journals of the Dreamscape",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;everyday_guideto_concord_city.json",
-                "authors": [
-                    "Velum Cineris"
-                ],
-                "version": "1.0"
-            },
-            {
-                "json": "InstructionsofDreadmere",
-                "abbreviation": "VSTGDR",
-                "full": "Instructions of Dreadmere",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;everyday_guideto_concord_city.json",
-                "authors": [
-                    "Velum Cineris"
-                ],
-                "version": "1.0"
-            },
-            {
-                "json": "ScripturesofAurisfall",
-                "abbreviation": "VSTGAU",
-                "full": "Scriptures of Aurisfall",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;everyday_guideto_concord_city.json",
-                "authors": [
-                    "Velum Cineris"
-                ],
-                "version": "1.0"
-            },
-            {
-                "json": "GuidetoVarnhallow",
-                "abbreviation": "VSTGVR",
-                "full": "Guide to Varnhallow",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;everyday_guideto_concord_city.json",
-                "authors": [
-                    "Velum Cineris"
-                ],
-                "version": "1.0"
-            },
-            {
-                "json": "PropagandaofSerevan",
-                "abbreviation": "VSTGSE",
-                "full": "Propaganda of Serevan",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;everyday_guideto_concord_city.json",
-                "authors": [
-                    "Velum Cineris"
-                ],
-                "version": "1.0"
-            },
-            {
-                "json": "BlueprintstoCinderhold",
-                "abbreviation": "VSTGCI",
-                "full": "Blueprints to Cinderhold",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;everyday_guideto_concord_city.json",
-                "authors": [
-                    "Velum Cineris"
-                ],
-                "version": "1.0"
-            },
-            {
-                "json": "UnstableGuidetoMirrorshard",
-                "abbreviation": "VSTGMR",
-                "full": "Unstable Guide to Mirrorshard",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;everyday_guideto_concord_city.json",
-                "authors": [
-                    "Velum Cineris"
-                ],
-                "version": "1.0"
-            },
-            {
-                "json": "UnrevalingGuidetoTheWailingCitadel",
-                "abbreviation": "VSTGWC",
-                "full": "Unrevaling Guide to The Wailing Citadel",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;everyday_guideto_concord_city.json",
-                "authors": [
-                    "Velum Cineris"
-                ],
-                "version": "1.0"
-            },
-            {
-                "json": "RottenGuidetoNhalZhym",
-                "abbreviation": "VSTGNZ",
-                "full": "Rotten Guide to Nhal Zhym",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;everyday_guideto_concord_city.json",
-                "authors": [
-                    "Velum Cineris"
-                ],
-                "version": "1.0"
-            },
-            {
-                "json": "MigrationGuidetoAeris",
-                "abbreviation": "VSTGAE",
-                "full": "Migration Guide to Aeris",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;everyday_guideto_concord_city.json",
-                "authors": [
-                    "Velum Cineris"
-                ],
-                "version": "1.0"
-            },
-            {
-                "json": "TravelGuidetoTheVeil",
-                "abbreviation": "VSTGVE",
-                "full": "Travel Guide to The Veil",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;everyday_guideto_concord_city.json",
-                "authors": [
-                    "Velum Cineris"
-                ],
-                "version": "1.0"
-            },
-            {
-                "json": "PainGuidetoPriskiatt",
-                "abbreviation": "VSTGPK",
-                "full": "Pain Guide to Priskiatt",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;everyday_guideto_concord_city.json",
-                "authors": [
-                    "Velum Cineris"
-                ],
-                "version": "1.0"
-            },
-            {
-                "json": "GuidetoSubcultures",
-                "abbreviation": "VSTGSC",
-                "full": "Guide to Subcultures",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;everyday_guideto_concord_city.json",
+                "json": "TalesfromtheDomainofTorment",
+                "abbreviation": "ORIDoT",
+                "full": "Tales from the Domain of Torment",
+                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;guideto_orimond.json",
                 "authors": [
                     "Velum Cineris"
                 ],
@@ -204,14 +34,14 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1764608076,
-        "_dateLastModifiedHash": "2f85ffa854",
+        "dateLastModified": 1764939326,
+        "_dateLastModifiedHash": "4e2f00e7ef",
         "edition": "classic",
         "currencyConversions": {
-            "credit": [
+            "crown": [
                 {
-                    "coin": "credit",
-                    "mult": 0.001,
+                    "coin": "crown",
+                    "mult": 1,
                     "isFallback": true
                 }
             ]
