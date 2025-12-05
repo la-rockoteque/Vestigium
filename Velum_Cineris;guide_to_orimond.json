@@ -2,30 +2,30 @@
     "_meta": {
         "sources": [
             {
-                "json": "GuidetoOrimond",
+                "json": "GuideToOrimond",
                 "abbreviation": "ORIO",
-                "full": "Guide to Orimond",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;guide to orimond.json",
+                "full": "Guide To Orimond",
+                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;guide_to_orimond.json",
                 "authors": [
                     "Velum Cineris"
                 ],
                 "version": "1.0"
             },
             {
-                "json": "ChartersoftheVeil",
+                "json": "ChartersOftheVeil",
                 "abbreviation": "ORIV",
-                "full": "Charters of the Veil",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;guide to orimond.json",
+                "full": "Charters Of the Veil",
+                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;guide_to_orimond.json",
                 "authors": [
                     "Velum Cineris"
                 ],
                 "version": "1.0"
             },
             {
-                "json": "TalesfromtheDomainofTorment",
+                "json": "TalesFromtheDomainofTorment",
                 "abbreviation": "ORIDoT",
-                "full": "Tales from the Domain of Torment",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;guide to orimond.json",
+                "full": "Tales From the Domain of Torment",
+                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;guide_to_orimond.json",
                 "authors": [
                     "Velum Cineris"
                 ],
@@ -34,8 +34,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1764947686,
-        "_dateLastModifiedHash": "27fccfb39a",
+        "dateLastModified": 1764948057,
+        "_dateLastModifiedHash": "6cdd8cb1d7",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -30859,7 +30859,7 @@
     ],
     "monster": [
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Pavani",
             "size": [
                 "M"
@@ -30929,7 +30929,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Pavani, Moon",
             "size": [
                 "M"
@@ -30999,7 +30999,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Pavani, Dusk",
             "size": [
                 "M"
@@ -31069,7 +31069,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Kilpen",
             "size": [
                 "S"
@@ -31139,7 +31139,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Reikh",
             "size": [
                 "M"
@@ -31209,7 +31209,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Reikh, Broodmother",
             "size": [
                 "L"
@@ -31280,7 +31280,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Grumplet",
             "size": [
                 "S"
@@ -31350,7 +31350,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Grumplet, Wild",
             "size": [
                 "S"
@@ -31422,7 +31422,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Karnyx Burrower",
             "size": [
                 "L"
@@ -31494,7 +31494,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Terebeye",
             "size": [
                 "M"
@@ -31563,7 +31563,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Flesh Crab, Swarm",
             "size": [
                 "T"
@@ -31634,7 +31634,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Flesh Crab, Queen",
             "size": [
                 "L"
@@ -31710,7 +31710,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Looming Faleon",
             "size": [
                 "M"
@@ -31780,7 +31780,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Kharuk Oxenclad",
             "size": [
                 "H"
@@ -31852,7 +31852,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Irontusk Harrowhound",
             "size": [
                 "M"
@@ -31922,7 +31922,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Dusk-Plume Courierraptor",
             "size": [
                 "M"
@@ -31993,7 +31993,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Stoneback Broadcrawler",
             "size": [
                 "L"
@@ -32065,7 +32065,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Shardback Strider",
             "size": [
                 "L"
@@ -32134,7 +32134,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Ember-Crete Forgebeetle",
             "size": [
                 "M"
@@ -32207,7 +32207,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Ridge-Mantle Cliffrunner",
             "size": [
                 "L"
@@ -32278,7 +32278,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Iron-Weft Packmole",
             "size": [
                 "S"
@@ -32349,7 +32349,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Bloodbound Sentinel Aukra",
             "size": [
                 "L"
@@ -32419,7 +32419,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Thunder-Reed Envoy Serpent",
             "size": [
                 "S"
@@ -32488,7 +32488,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Hearth-Fur Yakul",
             "size": [
                 "M"
@@ -32558,7 +32558,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Pebble-Shell Darter",
             "size": [
                 "T"
@@ -32627,7 +32627,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Lantern-Finch",
             "size": [
                 "T"
@@ -32697,7 +32697,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Moss-Tuft Scamper",
             "size": [
                 "T"
@@ -32767,7 +32767,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Glass-Eyed Nibblit",
             "size": [
                 "T"
@@ -32837,7 +32837,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Ironsnout Shovelhog",
             "size": [
                 "M"
@@ -32908,7 +32908,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Ridgeback Striderjack",
             "size": [
                 "L"
@@ -32977,7 +32977,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Snap-Feather Raptalon",
             "size": [
                 "M"
@@ -33047,7 +33047,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Cleft-Hoof Dune Grazer",
             "size": [
                 "L"
@@ -33116,7 +33116,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Thunderback Bellumoose",
             "size": [
                 "H"
@@ -33185,7 +33185,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Crest-Hammer Goliathorne",
             "size": [
                 "H"
@@ -33253,7 +33253,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Brook-Spine Flowtil",
             "size": [
                 "S"
@@ -33323,7 +33323,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Coral-Tusk Driftseal",
             "size": [
                 "H"
@@ -33393,7 +33393,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Wild Ember-Beetle",
             "size": [
                 "S"
@@ -33461,7 +33461,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Cliff-Ribbon Crawler",
             "size": [
                 "T"
@@ -33531,7 +33531,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Meadow Yakulin",
             "size": [
                 "M"
@@ -33599,7 +33599,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Oathperch Aukralet",
             "size": [
                 "T"
@@ -33669,7 +33669,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Lantern-Bell Driftoad",
             "size": [
                 "S"
@@ -33739,7 +33739,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Spine-Weave Fibramoth",
             "size": [
                 "M"
@@ -33809,7 +33809,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Mirror-Fin Tideskipper",
             "size": [
                 "S"
@@ -33880,7 +33880,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Howlspun Crag-Lynx",
             "size": [
                 "M"
@@ -33950,7 +33950,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Tideglass Vellumray",
             "size": [
                 "L"
@@ -34019,7 +34019,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Crestjaw Tidegrazer",
             "size": [
                 "L"
@@ -34087,7 +34087,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Abyssal Pinwheel Grinner",
             "size": [
                 "L"
@@ -34155,7 +34155,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Shoalstep Pierskipper",
             "size": [
                 "S"
@@ -34225,7 +34225,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Sirenback Murmurling",
             "size": [
                 "T"
@@ -34293,7 +34293,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Verdant Coilsprout",
             "size": [
                 "M"
@@ -34362,7 +34362,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Brine-Marked Javelinwolf",
             "size": [
                 "M"
@@ -34431,7 +34431,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": " Moonkeel Glistenta",
             "size": [
                 "S"
@@ -34502,7 +34502,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Depthroot Slumberclad",
             "size": [
                 "H"
@@ -34576,7 +34576,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Rift-Slip Weavereel",
             "size": [
                 "M"
@@ -34645,7 +34645,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Abyssal Loom-Drake",
             "size": [
                 "G"
@@ -34716,7 +34716,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Glimmerjaw Tidewyrm",
             "size": [
                 "L"
@@ -34786,7 +34786,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Reef-Spine Siltshaper",
             "size": [
                 "L"
@@ -34862,7 +34862,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Stonecoil Bastionwyrm",
             "size": [
                 "H"
@@ -34938,7 +34938,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Cinderhide Emberstepper",
             "size": [
                 "L"
@@ -35007,7 +35007,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Hollowbone Mire-Drake",
             "size": [
                 "L"
@@ -35079,7 +35079,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Ember-Spine Howler",
             "size": [
                 "L"
@@ -35148,7 +35148,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Ridgeback Ironbreaker",
             "size": [
                 "H"
@@ -35219,7 +35219,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Sky-Root Tanglewyrm",
             "size": [
                 "H"
@@ -35289,7 +35289,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Glassbrand Mirage-Drake",
             "size": [
                 "L"
@@ -35360,7 +35360,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Veil-Slip Lanternwyrm",
             "size": [
                 "L"
@@ -35437,7 +35437,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Bone-Thread Harrowwyrm",
             "size": [
                 "L"
@@ -35514,7 +35514,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Fernmane Puffdrake",
             "size": [
                 "T"
@@ -35587,7 +35587,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Antler-Crowned Whistlewyrm",
             "size": [
                 "S"
@@ -35661,7 +35661,7 @@
             }
         },
         {
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "name": "Hearthbound Emberkit",
             "size": [
                 "S"
@@ -36578,7 +36578,7 @@
     "language": [
         {
             "name": "Brimic",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Drens|bestiary|type=humanoid|tag= any race;Dren}",
@@ -36592,7 +36592,7 @@
         },
         {
             "name": "Cawthic",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "rare",
             "typicalSpeakers": [
                 "{@filter Corvanis|bestiary|type=humanoid|tag= any race;Corvani}",
@@ -36609,7 +36609,7 @@
         },
         {
             "name": "Concordian",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Aestaris|bestiary|type=humanoid|tag= any race;Aestari}",
@@ -36632,7 +36632,7 @@
         },
         {
             "name": "Duresh",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "rare",
             "typicalSpeakers": [
                 "{@filter Drens|bestiary|type=humanoid|tag= any race;Dren}",
@@ -36646,7 +36646,7 @@
         },
         {
             "name": "Emberic",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Drens|bestiary|type=humanoid|tag= any race;Dren}",
@@ -36660,7 +36660,7 @@
         },
         {
             "name": "Erelian",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Aestaris|bestiary|type=humanoid|tag= any race;Aestari}",
@@ -36674,7 +36674,7 @@
         },
         {
             "name": "Florathic",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Zhimeus|bestiary|type=humanoid|tag= any race;Zhimeus}",
@@ -36687,7 +36687,7 @@
         },
         {
             "name": "Gravemurmur",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter The Vessels|bestiary|type=humanoid|tag= any race;The Vessels}",
@@ -36701,7 +36701,7 @@
         },
         {
             "name": "Gravenmur",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Custodians|bestiary|type=humanoid|tag= any race;Custodian}",
@@ -36715,7 +36715,7 @@
         },
         {
             "name": "Grurn",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Mireborns|bestiary|type=humanoid|tag= any race;Mireborn}"
@@ -36728,7 +36728,7 @@
         },
         {
             "name": "High Concordian",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "rare",
             "typicalSpeakers": [
                 "{@filter Ithilaris|bestiary|type=humanoid|tag= any race;Ithilari}"
@@ -36741,7 +36741,7 @@
         },
         {
             "name": "Liturgian",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Emanants|bestiary|type=humanoid|tag= any race;Emanants}"
@@ -36754,7 +36754,7 @@
         },
         {
             "name": "Luminari",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Luminaris|bestiary|type=humanoid|tag= any race;Luminari}"
@@ -36767,7 +36767,7 @@
         },
         {
             "name": "Lysorian",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Lysorians|bestiary|type=humanoid|tag= any race;Lysorian}"
@@ -36780,7 +36780,7 @@
         },
         {
             "name": "Marilic",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "rare",
             "typicalSpeakers": [
                 "{@filter Sablemarchers|bestiary|type=humanoid|tag= any race;Sablemarchers}",
@@ -36795,7 +36795,7 @@
         },
         {
             "name": "Miradoir",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Weftifeles|bestiary|type=humanoid|tag= any race;Weftifeles}",
@@ -36809,7 +36809,7 @@
         },
         {
             "name": "Noctalspeech",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "rare",
             "typicalSpeakers": [
                 "{@filter Veilborns|bestiary|type=humanoid|tag= any race;Veilborn}",
@@ -36823,7 +36823,7 @@
         },
         {
             "name": "Sablemarcher",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Sablemarchers|bestiary|type=humanoid|tag= any race;Sablemarchers}",
@@ -36837,7 +36837,7 @@
         },
         {
             "name": "Sinteric",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Cindralis|bestiary|type=humanoid|tag= any race;Cindralis}",
@@ -36851,7 +36851,7 @@
         },
         {
             "name": "Songscript",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Lysorians|bestiary|type=humanoid|tag= any race;Lysorian}"
@@ -36863,7 +36863,7 @@
         },
         {
             "name": "Threnin",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "rare",
             "typicalSpeakers": [
                 "{@filter Cyrnaris|bestiary|type=humanoid|tag= any race;Cyrnari}",
@@ -36881,7 +36881,7 @@
         },
         {
             "name": "Trade Pidgins",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Delvanis|bestiary|type=humanoid|tag= any race;Delvani}",
@@ -36898,7 +36898,7 @@
         },
         {
             "name": "Umbrial",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Veilborns|bestiary|type=humanoid|tag= any race;Veilborn}",
@@ -36913,7 +36913,7 @@
         },
         {
             "name": "Varnhallan",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Varnhallans|bestiary|type=humanoid|tag= any race;Varnhallan}",
@@ -36927,7 +36927,7 @@
         },
         {
             "name": "Varnish",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Varnhallans|bestiary|type=humanoid|tag= any race;Varnhallan}"
@@ -36940,7 +36940,7 @@
         },
         {
             "name": "Veilcant",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Veilborns|bestiary|type=humanoid|tag= any race;Veilborn}",
@@ -36955,7 +36955,7 @@
         },
         {
             "name": "Verdanic",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Myrleths|bestiary|type=humanoid|tag= any race;Myrleth}",
@@ -36969,7 +36969,7 @@
         },
         {
             "name": "Vexholmic",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Vexholmics|bestiary|type=humanoid|tag= any race;Vexholmic}",
@@ -36983,7 +36983,7 @@
         },
         {
             "name": "Wazzar",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Mistaryns|bestiary|type=humanoid|tag= any race;Mistaryn}"
@@ -36996,7 +36996,7 @@
         },
         {
             "name": "Whisquall",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "rare",
             "typicalSpeakers": [
                 "{@filter Aquilanis|bestiary|type=humanoid|tag= any race;Aquilani}",
@@ -37012,7 +37012,7 @@
         },
         {
             "name": "Wildscript",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Weftifeles|bestiary|type=humanoid|tag= any race;Weftifeles}"
@@ -37025,7 +37025,7 @@
         },
         {
             "name": "Sibraen",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Kairos|bestiary|type=humanoid|tag= any race;Kairos}",
@@ -37038,7 +37038,7 @@
         },
         {
             "name": "Malgrin",
-            "source": "GuidetoOrimond",
+            "source": "GuideToOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Zyrrkhals|bestiary|type=humanoid|tag= any race;Zyrrkhal}",
