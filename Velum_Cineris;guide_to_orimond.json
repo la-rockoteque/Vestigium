@@ -34,8 +34,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1764946444,
-        "_dateLastModifiedHash": "367230a4b0",
+        "dateLastModified": 1764946690,
+        "_dateLastModifiedHash": "0cd0b32b6d",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -31103,9 +31103,9 @@
             "cha": 8,
             "action": [
                 {
-                    "name": "Skullbreak Peck::; Melee Weapon Attack: +5 to hit, reach 5 ft., one target",
+                    "name": "Skullbreak Peck",
                     "entries": [
-                        "Hit: 6 (1d6 + 3) piercing damage. If the target is a Small or Tiny creature, it must succeed on a DC 12 Constitution saving throw or become stunned until the end of its next turn.; Harassing Flutter::; The Kilpen distracts an enemy with wingbeats and shrill chirps"
+                        "Melee Weapon Attack: +5 to hit, reach 5 ft., one target"
                     ]
                 }
             ],
@@ -31313,9 +31313,9 @@
             "cha": 8,
             "action": [
                 {
-                    "name": "Feeble Slap::; Melee Weapon Attack: +3 to hit, reach 5 ft., one target",
+                    "name": "Feeble Slap",
                     "entries": [
-                        "Hit: 2 (1d4) bludgeoning damage.; Comforting Glow (Recharge 5–6)::; The Grumplet emits a soft, warm light for 1 minute. Allies within 10 feet gain 3 temporary hit points and advantage on their next Wisdom saving throw::; Distracted Mumbling::; The Grumplet mutters sadly in several languages. One creature within 5 feet must succeed on a DC 12 Wisdom saving throw or have disadvantage on the next attack roll it makes before the end of its next turn::;"
+                        "Melee Weapon Attack: +3 to hit, reach 5 ft., one target"
                     ]
                 }
             ],
@@ -33635,7 +33635,7 @@
                 {
                     "name": "Peck",
                     "entries": [
-                        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage.;"
+                        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage.;;"
                     ]
                 }
             ],
@@ -34678,9 +34678,9 @@
             "cha": 14,
             "action": [
                 {
-                    "name": "Tidal Coil Strike::; Melee Weapon Attack: +12 to hit, reach 20 ft., one target",
+                    "name": "Tidal Coil Strike",
                     "entries": [
-                        "Hit: 30 (4d10 + 8) bludgeoning damage.; Spiral Surge (Recharge 5–6)::; The Loom-Drake folds and whirls its body, creating a spiraling current. Creatures within 30 feet must succeed on a DC 18 Strength saving throw or be pulled 20 feet toward the center and knocked prone. A creature that succeeds moves at half speed on its next turn::; Thermal Vent Pulse::; The Loom-Drake releases a burst of redirected geothermal heat. Each creature within a 15-foot cone takes 27 (6d8) fire damage, or half on a successful DC 18 Constitution saving throw. Water absorbs excess heat, preventing broader spread::;"
+                        "Melee Weapon Attack: +12 to hit, reach 20 ft., one target"
                     ]
                 }
             ],
@@ -34750,9 +34750,9 @@
             "cha": 12,
             "action": [
                 {
-                    "name": "Luminous Bite::; Melee Weapon Attack: +7 to hit, reach 10 ft., one target",
+                    "name": "Luminous Bite",
                     "entries": [
-                        "Hit: 15 (2d10 + 4) piercing damage plus 7 (2d6) radiant damage.; Flashburst (Recharge 4–6)::; The Tidewyrm snaps its jaw open, releasing a sharp flash of refracted light"
+                        "Melee Weapon Attack: +7 to hit, reach 10 ft., one target"
                     ]
                 }
             ],
@@ -34821,9 +34821,9 @@
             "cha": 12,
             "action": [
                 {
-                    "name": "Reefbite::; Melee Weapon Attack: +9 to hit, reach 10 ft., one target",
+                    "name": "Reefbite",
                     "entries": [
-                        "Hit: 18 (2d10 + 5) piercing damage plus 7 (2d6) acid damage.; Tail Sweep::; Melee Weapon Attack: +9 to hit, reach 15 ft., one target"
+                        "Melee Weapon Attack: +9 to hit, reach 10 ft., one target"
                     ]
                 }
             ],
@@ -34896,9 +34896,9 @@
             "cha": 20,
             "action": [
                 {
-                    "name": "Bastion Bite::; Melee Weapon Attack: +12 to hit, reach 10 ft., one target",
+                    "name": "Bastion Bite",
                     "entries": [
-                        "Hit: 23 (3d10 + 7) piercing damage.; Coil Crush::; Melee Weapon Attack: +12 to hit, reach 5 ft., one target"
+                        "Melee Weapon Attack: +12 to hit, reach 10 ft., one target"
                     ]
                 }
             ],
@@ -34971,9 +34971,9 @@
             "cha": 12,
             "action": [
                 {
-                    "name": "Multiattack::; The Emberstepper makes two attacks: one with its bite and one with its tail, or two claw attacks::; Bite::; Melee Weapon Attack: +8 to hit, reach 5 ft., one target",
+                    "name": "Multiattack",
                     "entries": [
-                        "Hit: 16 (2d10 + 5) piercing damage plus 7 (2d6) fire damage.; Claw::; Melee Weapon Attack: +8 to hit, reach 5 ft., one target"
+                        "The Emberstepper makes two attacks: one with its bite and one with its tail, or two claw attacks"
                     ]
                 }
             ],
@@ -35041,9 +35041,9 @@
             "cha": 14,
             "action": [
                 {
-                    "name": "Multiattack::; The Mire-Drake makes two attacks: one bite and one tail lash::; Bite::; Melee Weapon Attack: +7 to hit, reach 10 ft., one target",
+                    "name": "Multiattack",
                     "entries": [
-                        "Hit: 18 (2d12 + 4) piercing damage.; Tail Lash::; Melee Weapon Attack: +7 to hit, reach 10 ft., one target"
+                        "The Mire-Drake makes two attacks: one bite and one tail lash"
                     ]
                 }
             ],
@@ -35112,9 +35112,9 @@
             "cha": 10,
             "action": [
                 {
-                    "name": "Bite::; Melee Weapon Attack: +7 to hit, reach 5 ft., one target",
+                    "name": "Bite",
                     "entries": [
-                        "Hit: 12 (2d6 + 4) piercing damage plus 4 (1d8) fire damage.; Ember Spine Flick::; The Howler lashes its glowing spines"
+                        "Melee Weapon Attack: +7 to hit, reach 5 ft., one target"
                     ]
                 }
             ],
@@ -35181,9 +35181,9 @@
             "cha": 12,
             "action": [
                 {
-                    "name": "Multiattack::; The Ridgeback Ironbreaker makes two attacks: one with its Iron Ram and one with its Tail Smash, or two Tail Smash attacks::; Iron Ram::; Melee Weapon Attack: +11 to hit, reach 5 ft., one target",
+                    "name": "Multiattack",
                     "entries": [
-                        "Hit: 19 (3d8 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC 18 Strength saving throw or be pushed up to 10 feet and knocked prone.; Tail Smash::; Melee Weapon Attack: +11 to hit, reach 15 ft., one target"
+                        "The Ridgeback Ironbreaker makes two attacks: one with its Iron Ram and one with its Tail Smash, or two Tail Smash attacks"
                     ]
                 }
             ],
@@ -35252,9 +35252,9 @@
             "cha": 12,
             "action": [
                 {
-                    "name": "Multiattack::; The Tanglewyrm makes two attacks: one with its Bite and one with its Constrict::; Bite::; Melee Weapon Attack: +10 to hit, reach 10 ft., one target",
+                    "name": "Multiattack",
                     "entries": [
-                        "Hit: 21 (3d10 + 6) piercing damage plus 7 (2d6) lightning damage.; Constrict::; Melee Weapon Attack: +10 to hit, reach 15 ft., one target"
+                        "The Tanglewyrm makes two attacks: one with its Bite and one with its Constrict"
                     ]
                 }
             ],
@@ -35323,9 +35323,9 @@
             "cha": 14,
             "action": [
                 {
-                    "name": "Multiattack::; The drake makes two attacks: one with its Claw and one with its Tail Lash::; Claw::; Melee Weapon Attack: +8 to hit, reach 10 ft., one target",
+                    "name": "Multiattack",
                     "entries": [
-                        "Hit: 14 (2d8 + 4) slashing damage.; Tail Lash::; Melee Weapon Attack: +8 to hit, reach 15 ft., one target"
+                        "The drake makes two attacks: one with its Claw and one with its Tail Lash"
                     ]
                 }
             ],
@@ -35394,9 +35394,9 @@
             "cha": 17,
             "action": [
                 {
-                    "name": "Luminous Breath (Recharge 5–6)::; The Lanternwyrm exhales a cone of shimmering veil light. Each creature in a 30-foot cone must make a DC 16 Wisdom saving throw. On a failed save, the creature takes 27 (6d8) radiant damage and is overwhelmed with emotional recollection, becoming stunned until the end of its next turn. On a successful save, the creature takes half damage and is not stunned::; Memory Thread::; Melee Spell Attack: +8 to hit, reach 10 ft., one target",
+                    "name": "Luminous Breath (Recharge 5–6)",
                     "entries": [
-                        "Hit: 17 (3d8 + 4) psychic damage. The target must succeed on a DC 16 Wisdom saving throw or have one random short-term memory suppressed for 1 hour.; Lantern Pulse::; The Lanternwyrm releases a burst of lantern motes in a 15-foot radius. Creatures in the area must succeed on a DC 16 Charisma saving throw or become charmed by the Lanternwyrm for 1 minute::;"
+                        "The Lanternwyrm exhales a cone of shimmering veil light. Each creature in a 30-foot cone must make a DC 16 Wisdom saving throw. On a failed save, the creature takes 27 (6d8) radiant damage and is overwhelmed with emotional recollection, becoming stunned until the end of its next turn. On a successful save, the creature takes half damage and is not stunned"
                     ]
                 }
             ],
@@ -35471,9 +35471,9 @@
             "cha": 14,
             "action": [
                 {
-                    "name": "Multiattack::; The Harrowwyrm makes two Bone Thread Lash attacks::; Bone Thread Lash::; Melee Weapon Attack: +8 to hit, reach 15 ft., one target",
+                    "name": "Multiattack",
                     "entries": [
-                        "Hit: 18 (3d8 + 4) slashing damage. If the target is Large or smaller, it must succeed on a DC 16 Strength saving throw or be entangled in bone threads and restrained until the end of its next turn.; Shadow Stitch Burst (Recharge 5–6)::; The Harrowwyrm releases a wave of shadow threads in a 20-foot radius. Each creature in the area must succeed on a DC 16 Dexterity saving throw or take 27 (6d8) necrotic damage and become blinded for 1 minute. A creature can repeat the saving throw at the end of each of its turns::; Rift Mend::; The Harrowwyrm stabilizes a magical fracture or environmental hazard. Any planar portal, unstable spell effect, or collapsing tunnel within 30 feet is suppressed for 1 minute::;"
+                        "The Harrowwyrm makes two Bone Thread Lash attacks"
                     ]
                 }
             ],
@@ -35547,9 +35547,9 @@
             "cha": 16,
             "action": [
                 {
-                    "name": "Leaf-Fur Nip::; Melee Weapon Attack: +4 to hit, reach 5 ft., one target",
+                    "name": "Leaf-Fur Nip",
                     "entries": [
-                        "Hit: 1 piercing damage.; Soothing Chirrup::; One creature within 10 feet that can hear the Puffdrake gains 1 temporary hit point and advantage on its next saving throw against being frightened::;"
+                        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target"
                     ]
                 }
             ],
@@ -35621,9 +35621,9 @@
             "cha": 16,
             "action": [
                 {
-                    "name": "Nuzzle Peck::; Melee Weapon Attack: +4 to hit, reach 5 ft., one target",
+                    "name": "Nuzzle Peck",
                     "entries": [
-                        "Hit: 2 (1d4) piercing damage.; Harmonic Whistle::; Each creature of the Whistlewyrm’s choice within 20 feet must succeed on a DC 11 Wisdom saving throw or be distracted until the end of its next turn. Distracted creatures have disadvantage on their next attack roll::;"
+                        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target"
                     ]
                 }
             ],
@@ -35694,9 +35694,9 @@
             "cha": 16,
             "action": [
                 {
-                    "name": "Terracotta Nibble::; Melee Weapon Attack: +4 to hit, reach 5 ft., one target",
+                    "name": "Terracotta Nibble",
                     "entries": [
-                        "Hit: 3 (1d4 + 1) piercing damage.; Cinder Puff::; The Emberkit exhales a tiny burst of glowing air. One creature within 10 feet has disadvantage on its next attack roll before the end of its next turn::;"
+                        "Melee Weapon Attack: +4 to hit, reach 5 ft., one target"
                     ]
                 }
             ],
