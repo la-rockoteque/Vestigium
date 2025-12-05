@@ -138,12 +138,12 @@ def row_to_monster(row):
                 else {}
             ),
         },
-        "str": row.get("STR"),
-        "dex": row.get("DEX"),
-        "con": row.get("CON"),
-        "int": row.get("INT"),
-        "wis": row.get("WIS"),
-        "cha": row.get("CHA"),
+        "str": int(row.get("STR")),
+        "dex": int(row.get("DEX")),
+        "con": int(row.get("CON")),
+        "int": int(row.get("INT")),
+        "wis": int(row.get("WIS")),
+        "cha": int(row.get("CHA")),
         **(
             {"action": parse_entries(row.get("Actions"))}
             if pd.notnull(row.get("Actions"))

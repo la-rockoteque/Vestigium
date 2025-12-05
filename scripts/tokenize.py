@@ -110,13 +110,14 @@ def name_to_monogram(name: str) -> str:
       break
   return "".join(picks) or words[0][:2].upper()
 
-def load_portrait(images_dir: Path, base: str) -> Optional[Path]:
+def load_portrait(images_dir: Path, base: str, suffix: str = "") -> Optional[Path]:
   """
   Look for a portrait file using the monster's name exactly as given in the sheet.
   The sheet's 'Name' column is assumed to match the portrait file's Sentence Case.
   """
   for ext in (".png", ".jpg", ".jpeg", ".webp"):
-    p = images_dir / f"{base}{ext}"
+    filename = f"{base}{suffix}{ext}" if suffix else f"{base}{ext}"
+    p = images_dir / filename
     if p.exists():
       return p
   return None
@@ -489,6 +490,11 @@ def main():
   ap.add_argument("--crlabel", action="store_true", help="Prefix 'CR ' on badge.")
   ap.add_argument("--font", help="Path to a TTF/OTF font to use (optional).")
   ap.add_argument("--name_filter", help="Optional substring filter on Name column (case-insensitive).")
+  ap.add_argument(
+    "--suffix",
+    default="",
+    help="Optional suffix required in the portrait filename before the extension (e.g. '.alt')."
+  )
 
   args = ap.parse_args()
   images_dir = Path(args.images_dir)
@@ -515,7 +521,7 @@ def main():
       name = get_name_from_row(row)
       cr = get_cr_from_row(row)
       color = pick_color_from_row(row)
-      portrait = load_portrait(images_dir, name)
+      portrait = load_portrait(images_dir, name, args.suffix)
 
       token = draw_circle_token(
         size=args.size,
