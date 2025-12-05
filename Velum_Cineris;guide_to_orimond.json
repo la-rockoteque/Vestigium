@@ -34,8 +34,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1764946690,
-        "_dateLastModifiedHash": "0cd0b32b6d",
+        "dateLastModified": 1764947686,
+        "_dateLastModifiedHash": "27fccfb39a",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -36578,7 +36578,7 @@
     "language": [
         {
             "name": "Brimic",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Drens|bestiary|type=humanoid|tag= any race;Dren}",
@@ -36592,7 +36592,7 @@
         },
         {
             "name": "Cawthic",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "rare",
             "typicalSpeakers": [
                 "{@filter Corvanis|bestiary|type=humanoid|tag= any race;Corvani}",
@@ -36609,7 +36609,7 @@
         },
         {
             "name": "Concordian",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Aestaris|bestiary|type=humanoid|tag= any race;Aestari}",
@@ -36632,7 +36632,7 @@
         },
         {
             "name": "Duresh",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "rare",
             "typicalSpeakers": [
                 "{@filter Drens|bestiary|type=humanoid|tag= any race;Dren}",
@@ -36646,7 +36646,7 @@
         },
         {
             "name": "Emberic",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Drens|bestiary|type=humanoid|tag= any race;Dren}",
@@ -36660,7 +36660,7 @@
         },
         {
             "name": "Erelian",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Aestaris|bestiary|type=humanoid|tag= any race;Aestari}",
@@ -36674,7 +36674,7 @@
         },
         {
             "name": "Florathic",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Zhimeus|bestiary|type=humanoid|tag= any race;Zhimeus}",
@@ -36687,7 +36687,7 @@
         },
         {
             "name": "Gravemurmur",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter The Vessels|bestiary|type=humanoid|tag= any race;The Vessels}",
@@ -36701,7 +36701,7 @@
         },
         {
             "name": "Gravenmur",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Custodians|bestiary|type=humanoid|tag= any race;Custodian}",
@@ -36715,7 +36715,7 @@
         },
         {
             "name": "Grurn",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Mireborns|bestiary|type=humanoid|tag= any race;Mireborn}"
@@ -36728,7 +36728,7 @@
         },
         {
             "name": "High Concordian",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "rare",
             "typicalSpeakers": [
                 "{@filter Ithilaris|bestiary|type=humanoid|tag= any race;Ithilari}"
@@ -36741,7 +36741,7 @@
         },
         {
             "name": "Liturgian",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Emanants|bestiary|type=humanoid|tag= any race;Emanants}"
@@ -36754,7 +36754,7 @@
         },
         {
             "name": "Luminari",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Luminaris|bestiary|type=humanoid|tag= any race;Luminari}"
@@ -36767,7 +36767,7 @@
         },
         {
             "name": "Lysorian",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Lysorians|bestiary|type=humanoid|tag= any race;Lysorian}"
@@ -36780,7 +36780,7 @@
         },
         {
             "name": "Marilic",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "rare",
             "typicalSpeakers": [
                 "{@filter Sablemarchers|bestiary|type=humanoid|tag= any race;Sablemarchers}",
@@ -36795,7 +36795,7 @@
         },
         {
             "name": "Miradoir",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Weftifeles|bestiary|type=humanoid|tag= any race;Weftifeles}",
@@ -36809,7 +36809,7 @@
         },
         {
             "name": "Noctalspeech",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "rare",
             "typicalSpeakers": [
                 "{@filter Veilborns|bestiary|type=humanoid|tag= any race;Veilborn}",
@@ -36823,7 +36823,7 @@
         },
         {
             "name": "Sablemarcher",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Sablemarchers|bestiary|type=humanoid|tag= any race;Sablemarchers}",
@@ -36837,7 +36837,7 @@
         },
         {
             "name": "Sinteric",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Cindralis|bestiary|type=humanoid|tag= any race;Cindralis}",
@@ -36851,7 +36851,7 @@
         },
         {
             "name": "Songscript",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Lysorians|bestiary|type=humanoid|tag= any race;Lysorian}"
@@ -36863,7 +36863,7 @@
         },
         {
             "name": "Threnin",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "rare",
             "typicalSpeakers": [
                 "{@filter Cyrnaris|bestiary|type=humanoid|tag= any race;Cyrnari}",
@@ -36881,7 +36881,7 @@
         },
         {
             "name": "Trade Pidgins",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Delvanis|bestiary|type=humanoid|tag= any race;Delvani}",
@@ -36898,7 +36898,7 @@
         },
         {
             "name": "Umbrial",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Veilborns|bestiary|type=humanoid|tag= any race;Veilborn}",
@@ -36913,7 +36913,7 @@
         },
         {
             "name": "Varnhallan",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Varnhallans|bestiary|type=humanoid|tag= any race;Varnhallan}",
@@ -36927,7 +36927,7 @@
         },
         {
             "name": "Varnish",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Varnhallans|bestiary|type=humanoid|tag= any race;Varnhallan}"
@@ -36940,7 +36940,7 @@
         },
         {
             "name": "Veilcant",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Veilborns|bestiary|type=humanoid|tag= any race;Veilborn}",
@@ -36955,7 +36955,7 @@
         },
         {
             "name": "Verdanic",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Myrleths|bestiary|type=humanoid|tag= any race;Myrleth}",
@@ -36969,7 +36969,7 @@
         },
         {
             "name": "Vexholmic",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Vexholmics|bestiary|type=humanoid|tag= any race;Vexholmic}",
@@ -36983,7 +36983,7 @@
         },
         {
             "name": "Wazzar",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "standard",
             "typicalSpeakers": [
                 "{@filter Mistaryns|bestiary|type=humanoid|tag= any race;Mistaryn}"
@@ -36996,7 +36996,7 @@
         },
         {
             "name": "Whisquall",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "rare",
             "typicalSpeakers": [
                 "{@filter Aquilanis|bestiary|type=humanoid|tag= any race;Aquilani}",
@@ -37012,7 +37012,7 @@
         },
         {
             "name": "Wildscript",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Weftifeles|bestiary|type=humanoid|tag= any race;Weftifeles}"
@@ -37025,7 +37025,7 @@
         },
         {
             "name": "Sibraen",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Kairos|bestiary|type=humanoid|tag= any race;Kairos}",
@@ -37038,7 +37038,7 @@
         },
         {
             "name": "Malgrin",
-            "source": "EverydayGuidetoConcordCity",
+            "source": "GuidetoOrimond",
             "type": "exotic",
             "typicalSpeakers": [
                 "{@filter Zyrrkhals|bestiary|type=humanoid|tag= any race;Zyrrkhal}",
