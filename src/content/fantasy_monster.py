@@ -64,7 +64,7 @@ def parse_skills(raw_text):
 
 def parse_saves(raw_text):
   # Regex to match things like STR +13
-  pattern = re.compile(r"([A-Z]{3})\s*([+-]\d+)")
+  pattern = re.compile(r"([A-Z][a-z]{2})\s*([+-]\d+)")
   saves = {}
 
   # Map abbreviations to lowercase keys
@@ -79,7 +79,7 @@ def parse_saves(raw_text):
 
   for stat, value in pattern.findall(raw_text):
     if stat in key_map:
-      saves[key_map[stat]] = value
+      saves[key_map[stat.upper()]] = value
 
   return saves
 
@@ -96,16 +96,25 @@ def row_to_monster(row):
         "size": [row.get("Size")[:1].upper()],
         "type": row.get("Type").lower(),
         "alignment": [row.get("Alignment")[:1].upper()],
-        "ac": [{
-          "ac": row.get("Armor Class"),
-          "from": [row.get("Armor Type") if pd.notnull(row.get("Armor Type"))
-          else "natural armor"]
-        }],
+        "ac": [
+            {
+                "ac": row.get("Armor Class"),
+                "from": [
+                    row.get("Armor Type")
+                    if pd.notnull(row.get("Armor Type"))
+                    else "natural armor"
+                ],
+            }
+        ],
         "hp": {
             "average": row.get("Hit Points"),
             "formula": f"{row.get('Hit Dice').lower()} + {row.get('CON Mod')}",
         },
-        "save": parse_saves(row.get("Saving Throws")),
+        **(
+            {"save": parse_saves(row.get("Saving Throws")),}
+            if pd.notnull(row.get("save"))
+            else {}
+        ),
         "passive": row.get("Passive Perception"),
         "speed": {
             **(
@@ -136,43 +145,43 @@ def row_to_monster(row):
         "wis": row.get("WIS"),
         "cha": row.get("CHA"),
         **(
-          {"action": parse_entries(row.get("Actions"))}
-          if pd.notnull(row.get("Actions"))
-          else {}
+            {"action": parse_entries(row.get("Actions"))}
+            if pd.notnull(row.get("Actions"))
+            else {}
         ),
         **(
-          {"reaction": parse_entries(row.get("Reactions"))}
-          if pd.notnull(row.get("Reactions"))
-          else {}
+            {"reaction": parse_entries(row.get("Reactions"))}
+            if pd.notnull(row.get("Reactions"))
+            else {}
         ),
         **(
-          {
-            "legendaryActions": 3,
-            "legendaryHeader": [
-              f"The {name} can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The {name} regains spent legendary actions at the start of its turn."
-            ],
-            "legendary": parse_entries(row.get("Legendary Actions"))
-           }
-          if pd.notnull(row.get("Legendary Actions"))
-          else {}
+            {
+                "legendaryActions": 3,
+                "legendaryHeader": [
+                    f"The {name} can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The {name} regains spent legendary actions at the start of its turn."
+                ],
+                "legendary": parse_entries(row.get("Legendary Actions")),
+            }
+            if pd.notnull(row.get("Legendary Actions"))
+            else {}
         ),
         **(
-          {"trait": parse_entries(row.get("Traits"))}
-          if pd.notnull(row.get("Traits"))
-          else {}
+            {"trait": parse_entries(row.get("Traits"))}
+            if pd.notnull(row.get("Traits"))
+            else {}
         ),
         **(
-          {"skill": parse_skills(row.get("Skills"))}
-          if pd.notnull(row.get("Skills"))
-          else {}
+            {"skill": parse_skills(row.get("Skills"))}
+            if pd.notnull(row.get("Skills"))
+            else {}
         ),
         **(
-          {"immune": parse_immunities(row.get("Damage Immunities"))}
-          if pd.notnull(row.get("Damage Immunities"))
-          else {}
+            {"immune": parse_immunities(row.get("Damage Immunities"))}
+            if pd.notnull(row.get("Damage Immunities"))
+            else {}
         ),
         **(
-          {"conditionImmune": row.get("Condition Immunities").lower().split(", ")}
+            {"conditionImmune": row.get("Condition Immunities").lower().split(", ")}
             if pd.notnull(row.get("Condition Immunities"))
             else {}
         ),
@@ -182,19 +191,17 @@ def row_to_monster(row):
         "cr": f"{Fraction(row.get('CR (Challenge Rating)'))}",
         "tokenUrl": row.get("Tokens URL"),
         "fluff": {
-          "entries": [
-            row.get("Description")
-          ],
-          "images": [
-            {
-              "type": "image",
-              "href": {
-                "type": "external",
-                "url": row.get("Image URL"),
-              }
-            }
-          ]
-      }
+            "entries": [row.get("Description")],
+            "images": [
+                {
+                    "type": "image",
+                    "href": {
+                        "type": "external",
+                        "url": row.get("Image URL"),
+                    },
+                }
+            ],
+        },
     }
 
 
