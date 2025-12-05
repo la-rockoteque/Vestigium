@@ -1,5 +1,5 @@
 import pandas as pd
-from src.sources import source, json_source
+from src.fantasy_sources import source, json_source
 import inflection
 
 languages_url = "https://docs.google.com/spreadsheets/d/1NBZGu29IfE1ZfAWO1Z6ShR5GMLMMbaSyS0m-46PSYm4/export?format=csv&gid=163123529"
