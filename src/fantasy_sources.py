@@ -19,6 +19,7 @@ sources = [
         "abbreviation": row["Source"],
         "full": row["Full"],
         "url": f"https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;{inflection.underscore(json_source)}.json",
+        "url": f"https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris%3Bguide_to_orimond.json",
         "authors": ["Velum Cineris"],
         "version": "1.0",
     }

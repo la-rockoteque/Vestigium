@@ -1,5 +1,5 @@
 import pandas as pd
-from src.sources import json_source
+from src.fantasy_sources import json_source
 import re
 from fractions import Fraction
 

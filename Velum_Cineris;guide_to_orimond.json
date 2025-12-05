@@ -2,30 +2,30 @@
     "_meta": {
         "sources": [
             {
-                "json": "GuidetoOrimond",
+                "json": "GuideToOrimond",
                 "abbreviation": "ORIO",
-                "full": "Guide to Orimond",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;guideto_orimond.json",
+                "full": "Guide To Orimond",
+                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris%3Bguide_to_orimond.json",
                 "authors": [
                     "Velum Cineris"
                 ],
                 "version": "1.0"
             },
             {
-                "json": "ChartersoftheVeil",
+                "json": "ChartersOftheVeil",
                 "abbreviation": "ORIV",
-                "full": "Charters of the Veil",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;guideto_orimond.json",
+                "full": "Charters Of the Veil",
+                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris%3Bguide_to_orimond.json",
                 "authors": [
                     "Velum Cineris"
                 ],
                 "version": "1.0"
             },
             {
-                "json": "TalesfromtheDomainofTorment",
+                "json": "TalesFromtheDomainofTorment",
                 "abbreviation": "ORIDoT",
-                "full": "Tales from the Domain of Torment",
-                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris;guideto_orimond.json",
+                "full": "Tales From the Domain of Torment",
+                "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/Velum_Cineris%3Bguide_to_orimond.json",
                 "authors": [
                     "Velum Cineris"
                 ],
@@ -34,14 +34,14 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1764939326,
-        "_dateLastModifiedHash": "4e2f00e7ef",
+        "dateLastModified": 1764939984,
+        "_dateLastModifiedHash": "807446370d",
         "edition": "classic",
         "currencyConversions": {
-            "crown": [
+            "credit": [
                 {
-                    "coin": "crown",
-                    "mult": 1,
+                    "coin": "credit",
+                    "mult": 0.001,
                     "isFallback": true
                 }
             ]
