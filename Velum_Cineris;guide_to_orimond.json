@@ -34,8 +34,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1765133935,
-        "_dateLastModifiedHash": "977a1a5264",
+        "dateLastModified": 1765135550,
+        "_dateLastModifiedHash": "111c2e81eb",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -36090,6 +36090,298 @@
                         "href": {
                             "type": "external",
                             "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/fantasy/Faultspire%20Reaver.alt.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "GuideToOrimond",
+            "name": "Grave-Root Devourer, Blood-Beet",
+            "size": [
+                "H"
+            ],
+            "type": "plant",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 16.0,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 179.0,
+                "formula": "17d12+68 + 4.0"
+            },
+            "passive": 12.0,
+            "speed": {
+                "walk": 30,
+                "burrow": 40
+            },
+            "str": 21,
+            "dex": 10,
+            "con": 18,
+            "int": 3,
+            "wis": 14,
+            "cha": 6,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Devourer makes two Tendril Slam attacks and one Devour attack if a creature is grappled.; Siphoning Bite"
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Root Network Awareness",
+                    "entries": [
+                        "The Devourer automatically detects all creatures touching the ground within 120 feet. It cannot be surprised while burrowed.; Buried Ambush"
+                    ]
+                }
+            ],
+            "immune": null,
+            "conditionImmune": [
+                "blinded",
+                "poisoned",
+                "prone",
+                "charmed"
+            ],
+            "cr": "11",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Grave-Root_Devourer_Blood-Beet.png",
+            "fluff": {
+                "entries": [
+                    "Burrowing Carnivorous Root-Beast of the Lowlands\n\nGrave-Root Devourers are colossal predatory vegetables that resemble overgrown root crops twisted into monstrous life. Their bodies take the shape of massive radishes, turnips, parsnips, or beets, each variety determined by the magical soil in which they germinate. Only the crown of fibrous leaves and a faint spiral of breathing pores betray their presence at the surface. Beneath the ground, the creature coils like a subterranean serpent of knotted flesh and muscle.\n\nThey hunt by stillness. A Devourer can remain buried for weeks without moving, sensing vibrations through its root network. When prey draws close, the ground erupts as the creature snaps upward with explosive force, dragging victims beneath the soil in a whirl of choking dirt and crushing tendrils.\n\n⸻\n\nTrap Predators of Living Soil\n\nGrave-Root Devourers do not stalk. They farm their hunting grounds. Over months, their burrowing aerates the soil, encouraging grasses, flowers, and insects to flourish. Herd animals soon follow. Once prey patterns stabilize, multiple Devourers coordinate their strike, erupting in sequence to funnel targets toward one another.\n\nThey digest slowly and completely. Nothing returns to the surface from a Devourer’s feeding pit except churned black loam and scattered gear. Armor often resurfaces days later, corroded by acidic root enzymes.\n\n⸻\n\nCrop-Terrors of Many Lands\n\nAestari ward-gardens contain sealed Devourer pits for experimental containment. Delvani druids consider them ecological abominations caused by corrupted soil rites. Humans associate vanished villages with Devourer colony blooms. Korrak treat their emergence sites as warzones. Pykari and Arochi folklore warns children never to trust perfectly circular vegetable fields. Varnhallan trench engineers have lost entire excavation teams to Devourer ambush colonies. Westifeles scholars believe Devourers form where death-fed ley energy saturates farmland too deeply.\n\n⸻\n\nSigns of a Grave-Root Hunting Ground\n\n• Perfectly circular vegetation growth rings\n• Soil that breathes faintly at dusk\n• Ground that remains unnaturally warm after sunset\n• Tools or bones slowly surfacing from the dirt\n• Sudden collapse pits after heavy rain"
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/fantasy/Grave-Root%20Devourer%2C%20Blood-Beet.alt.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "GuideToOrimond",
+            "name": "Grave-Root Devourer, Gold-Parsnip",
+            "size": [
+                "H"
+            ],
+            "type": "plant",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 16.0,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 179.0,
+                "formula": "17d12+68 + 4.0"
+            },
+            "passive": 11.0,
+            "speed": {
+                "walk": 30,
+                "burrow": 40
+            },
+            "str": 21,
+            "dex": 10,
+            "con": 18,
+            "int": 4,
+            "wis": 14,
+            "cha": 6,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Devourer makes two Tendril Slam attacks and one Devour attack if a creature is grappled.; Leeching Clamp"
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Root Network Awareness",
+                    "entries": [
+                        "The Devourer automatically detects all creatures touching the ground within 120 feet. It cannot be surprised while burrowed.; Buried Ambush"
+                    ]
+                }
+            ],
+            "immune": null,
+            "conditionImmune": [
+                "blinded",
+                "poisoned",
+                "prone",
+                "charmed"
+            ],
+            "cr": "11",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Grave-Root_Devourer_Gold-Parsnip.png",
+            "fluff": {
+                "entries": [
+                    "Burrowing Carnivorous Root-Beast of the Lowlands\n\nGrave-Root Devourers are colossal predatory vegetables that resemble overgrown root crops twisted into monstrous life. Their bodies take the shape of massive radishes, turnips, parsnips, or beets, each variety determined by the magical soil in which they germinate. Only the crown of fibrous leaves and a faint spiral of breathing pores betray their presence at the surface. Beneath the ground, the creature coils like a subterranean serpent of knotted flesh and muscle.\n\nThey hunt by stillness. A Devourer can remain buried for weeks without moving, sensing vibrations through its root network. When prey draws close, the ground erupts as the creature snaps upward with explosive force, dragging victims beneath the soil in a whirl of choking dirt and crushing tendrils.\n\n⸻\n\nTrap Predators of Living Soil\n\nGrave-Root Devourers do not stalk. They farm their hunting grounds. Over months, their burrowing aerates the soil, encouraging grasses, flowers, and insects to flourish. Herd animals soon follow. Once prey patterns stabilize, multiple Devourers coordinate their strike, erupting in sequence to funnel targets toward one another.\n\nThey digest slowly and completely. Nothing returns to the surface from a Devourer’s feeding pit except churned black loam and scattered gear. Armor often resurfaces days later, corroded by acidic root enzymes.\n\n⸻\n\nCrop-Terrors of Many Lands\n\nAestari ward-gardens contain sealed Devourer pits for experimental containment. Delvani druids consider them ecological abominations caused by corrupted soil rites. Humans associate vanished villages with Devourer colony blooms. Korrak treat their emergence sites as warzones. Pykari and Arochi folklore warns children never to trust perfectly circular vegetable fields. Varnhallan trench engineers have lost entire excavation teams to Devourer ambush colonies. Westifeles scholars believe Devourers form where death-fed ley energy saturates farmland too deeply.\n\n⸻\n\nSigns of a Grave-Root Hunting Ground\n\n• Perfectly circular vegetation growth rings\n• Soil that breathes faintly at dusk\n• Ground that remains unnaturally warm after sunset\n• Tools or bones slowly surfacing from the dirt\n• Sudden collapse pits after heavy rain"
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/fantasy/Grave-Root%20Devourer%2C%20Gold-Parsnip.alt.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "GuideToOrimond",
+            "name": "Grave-Root Devourer, Black-Turnip",
+            "size": [
+                "H"
+            ],
+            "type": "plant",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 16.0,
+                    "from": [
+                        "natural armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 179.0,
+                "formula": "17d12+68 + 4.0"
+            },
+            "passive": 12.0,
+            "speed": {
+                "walk": 30,
+                "burrow": 40
+            },
+            "str": 22,
+            "dex": 16,
+            "con": 18,
+            "int": 3,
+            "wis": 14,
+            "cha": 5,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Devourer makes two Tendril Slam attacks and one Devour attack if a creature is grappled.; Carapace Slam"
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Root Network Awareness",
+                    "entries": [
+                        "The Devourer automatically detects all creatures touching the ground within 120 feet. It cannot be surprised while burrowed.; Buried Ambush"
+                    ]
+                }
+            ],
+            "immune": null,
+            "conditionImmune": [
+                "blinded",
+                "poisoned",
+                "prone",
+                "charmed"
+            ],
+            "cr": "11",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Grave-Root_Devourer_Black-Turnip.png",
+            "fluff": {
+                "entries": [
+                    "Burrowing Carnivorous Root-Beast of the Lowlands\n\nGrave-Root Devourers are colossal predatory vegetables that resemble overgrown root crops twisted into monstrous life. Their bodies take the shape of massive radishes, turnips, parsnips, or beets, each variety determined by the magical soil in which they germinate. Only the crown of fibrous leaves and a faint spiral of breathing pores betray their presence at the surface. Beneath the ground, the creature coils like a subterranean serpent of knotted flesh and muscle.\n\nThey hunt by stillness. A Devourer can remain buried for weeks without moving, sensing vibrations through its root network. When prey draws close, the ground erupts as the creature snaps upward with explosive force, dragging victims beneath the soil in a whirl of choking dirt and crushing tendrils.\n\n⸻\n\nTrap Predators of Living Soil\n\nGrave-Root Devourers do not stalk. They farm their hunting grounds. Over months, their burrowing aerates the soil, encouraging grasses, flowers, and insects to flourish. Herd animals soon follow. Once prey patterns stabilize, multiple Devourers coordinate their strike, erupting in sequence to funnel targets toward one another.\n\nThey digest slowly and completely. Nothing returns to the surface from a Devourer’s feeding pit except churned black loam and scattered gear. Armor often resurfaces days later, corroded by acidic root enzymes.\n\n⸻\n\nCrop-Terrors of Many Lands\n\nAestari ward-gardens contain sealed Devourer pits for experimental containment. Delvani druids consider them ecological abominations caused by corrupted soil rites. Humans associate vanished villages with Devourer colony blooms. Korrak treat their emergence sites as warzones. Pykari and Arochi folklore warns children never to trust perfectly circular vegetable fields. Varnhallan trench engineers have lost entire excavation teams to Devourer ambush colonies. Westifeles scholars believe Devourers form where death-fed ley energy saturates farmland too deeply.\n\n⸻\n\nSigns of a Grave-Root Hunting Ground\n\n• Perfectly circular vegetation growth rings\n• Soil that breathes faintly at dusk\n• Ground that remains unnaturally warm after sunset\n• Tools or bones slowly surfacing from the dirt\n• Sudden collapse pits after heavy rain"
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/fantasy/Grave-Root%20Devourer%2C%20Black-Turnip.alt.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "GuideToOrimond",
+            "name": "Grave-Root Devourer, Ash-Yam",
+            "size": [
+                "H"
+            ],
+            "type": "plant",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 19.0,
+                    "from": [
+                        "black carapace"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 179.0,
+                "formula": "17d12+68 + 4.0"
+            },
+            "passive": 12.0,
+            "speed": {
+                "walk": 30,
+                "burrow": 35
+            },
+            "str": 18,
+            "dex": 10,
+            "con": 18,
+            "int": 3,
+            "wis": 14,
+            "cha": 6,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Devourer makes two Tendril Slam attacks and one Devour attack if a creature is grappled.; Spiral Lunge"
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Root Network Awareness",
+                    "entries": [
+                        "The Devourer automatically detects all creatures touching the ground within 120 feet. It cannot be surprised while burrowed.; Buried Ambush"
+                    ]
+                }
+            ],
+            "immune": null,
+            "conditionImmune": [
+                "blinded",
+                "poisoned",
+                "prone",
+                "charmed"
+            ],
+            "cr": "11",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Grave-Root_Devourer_Ash-Yam.png",
+            "fluff": {
+                "entries": [
+                    "Burrowing Carnivorous Root-Beast of the Lowlands\n\nGrave-Root Devourers are colossal predatory vegetables that resemble overgrown root crops twisted into monstrous life. Their bodies take the shape of massive radishes, turnips, parsnips, or beets, each variety determined by the magical soil in which they germinate. Only the crown of fibrous leaves and a faint spiral of breathing pores betray their presence at the surface. Beneath the ground, the creature coils like a subterranean serpent of knotted flesh and muscle.\n\nThey hunt by stillness. A Devourer can remain buried for weeks without moving, sensing vibrations through its root network. When prey draws close, the ground erupts as the creature snaps upward with explosive force, dragging victims beneath the soil in a whirl of choking dirt and crushing tendrils.\n\n⸻\n\nTrap Predators of Living Soil\n\nGrave-Root Devourers do not stalk. They farm their hunting grounds. Over months, their burrowing aerates the soil, encouraging grasses, flowers, and insects to flourish. Herd animals soon follow. Once prey patterns stabilize, multiple Devourers coordinate their strike, erupting in sequence to funnel targets toward one another.\n\nThey digest slowly and completely. Nothing returns to the surface from a Devourer’s feeding pit except churned black loam and scattered gear. Armor often resurfaces days later, corroded by acidic root enzymes.\n\n⸻\n\nCrop-Terrors of Many Lands\n\nAestari ward-gardens contain sealed Devourer pits for experimental containment. Delvani druids consider them ecological abominations caused by corrupted soil rites. Humans associate vanished villages with Devourer colony blooms. Korrak treat their emergence sites as warzones. Pykari and Arochi folklore warns children never to trust perfectly circular vegetable fields. Varnhallan trench engineers have lost entire excavation teams to Devourer ambush colonies. Westifeles scholars believe Devourers form where death-fed ley energy saturates farmland too deeply.\n\n⸻\n\nSigns of a Grave-Root Hunting Ground\n\n• Perfectly circular vegetation growth rings\n• Soil that breathes faintly at dusk\n• Ground that remains unnaturally warm after sunset\n• Tools or bones slowly surfacing from the dirt\n• Sudden collapse pits after heavy rain"
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/fantasy/Grave-Root%20Devourer%2C%20Ash-Yam.alt.png"
                         }
                     }
                 ]
