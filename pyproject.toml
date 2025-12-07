@@ -39,7 +39,9 @@ dependencies = [
     "fraction (>=2.2.0,<3.0.0)",
     "jupyter (>=1.1.1,<2.0.0)",
     "ipywidgets (>=8.1.7,<9.0.0)",
-    "widgetsnbextension (>=4.0.14,<5.0.0)"
+    "widgetsnbextension (>=4.0.14,<5.0.0)",
+    "nltk (>=3.9.2,<4.0.0)",
+    "ollama (>=0.6.1,<0.7.0)"
 ]
 
 
@@ -50,3 +52,5 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry.group.dev.dependencies]
 pypdf2 = "^3.0.1"
 
+[tool.poetry.scripts]
+download-wordnet = "scripts.download_wordnet:main"

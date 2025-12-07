@@ -34,8 +34,8 @@
         ],
         "unlisted": true,
         "dateAdded": 1743879729,
-        "dateLastModified": 1764948057,
-        "_dateLastModifiedHash": "6cdd8cb1d7",
+        "dateLastModified": 1765133935,
+        "_dateLastModifiedHash": "977a1a5264",
         "edition": "classic",
         "currencyConversions": {
             "credit": [
@@ -35724,6 +35724,372 @@
                         "href": {
                             "type": "external",
                             "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/fantasy/Hearthbound%20Emberkit.alt.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "GuideToOrimond",
+            "name": "Stone Delver",
+            "size": [
+                "L"
+            ],
+            "type": "elemental",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 16.0,
+                    "from": [
+                        "rotating lithic plates"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 111.0,
+                "formula": "13d10+39 + 3.0"
+            },
+            "passive": 11.0,
+            "speed": {
+                "walk": 25,
+                "burrow": 30
+            },
+            "str": 19,
+            "dex": 11,
+            "con": 17,
+            "int": 5,
+            "wis": 13,
+            "cha": 6,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Stone Delver makes two Modular Slam attacks. Modular Slam Melee Weapon Attack: +7 to hit, reach 15 ft., one target. Hit: 14 (2d8 + 4) bludgeoning damage plus 4 (1d8) force damage. If the target is touching stone, it must succeed on a DC 15 Strength saving throw or be pulled 5 feet toward the Delver as gravity distorts.; Lithic Collapse Wave (Recharge 5–6)"
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Orbital Body",
+                    "entries": [
+                        "The Delver’s stone plates continuously rotate. The first attack made against it each round has disadvantage as plates shift to intercept the blow.; Structural Sense"
+                    ]
+                }
+            ],
+            "immune": null,
+            "conditionImmune": [
+                "charmed",
+                "exhaustion",
+                "frightened",
+                "paralyzed",
+                "poisoned"
+            ],
+            "cr": "7",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Stone_Delver.png",
+            "fluff": {
+                "entries": [
+                    "Stone Delver\n\nAncestral Lithic Wanderer of the Bastion Plane\n\nThe Stone Delver no longer resembles a simple floating boulder. Instead, its body forms a broken crown of rotating stone plates surrounding a suspended crystalline nucleus. These plates orbit the core in slow, grinding gyres, constantly reconfiguring the Delver’s shape like a miniature tectonic system. The creature’s two arms do not emerge from its sides but instead assemble themselves from drifting stone segments, extending and retracting like modular siege limbs.\n\nIts core crystal is not smooth or spherical. It is a jagged polyhedral growth veined with slow-moving inner light, suspended by gravity distortions rather than physical attachment. Around it, magnetic mineral dust and shard-fragments form a shifting halo. When active, the entire construct sounds like a distant quarry in motion, with layered grinding, impact clicks, and deep subsonic resonance.\n\nStone Delvers are recognized as pre-flesh ancestors of the Delvani, originating in the Plane of the Lithic Bastion where identity is defined by pressure, fracture, and crystallization rather than blood or bone. When one emerges into the Material Plane through tectonic rupture or planar shear, it does not wander randomly. It seeks mineral stress points and begins reshaping the land as if attempting to restore Bastion architecture inside softer reality.\n\n⸻\n\nLiving Tectonic Engines\n\nA Stone Delver does not truly dig. It reorganizes stone on a molecular fault level, disassembling structural cohesion by rotating its plate-crown at specific frequencies. Rock loses integrity, collapses inward, and is then repositioned as floating orbital debris. These orbiting fragments later reattach wherever the Delver settles, forming unnaturally smooth tunnel walls and faceted caverns.\n\nUnlike simple burrowers, Delvers often construct geometric void-chambers within mountains or beneath plains. These chambers exhibit crystalline symmetry and unnatural acoustic properties. Varnhallan engineers and Westifeles scholars have confirmed that these are not nests, but resonance anchor points, possibly part of a larger Lithic Bastion lattice that no longer fully exists.\n\n⸻\n\nAlien but Not Mindless\n\nStone Delvers possess no language, but they do process intent. They react not only to vibration but to structural interference. Mining, drilling, siege impacts, tesseral extraction, and geomantic spellcasting all provoke immediate corrective response. To the Delver, these acts indicate instability that must be corrected through total structural override.\n\nThey ignore soft movement on soil, water, or organic matter unless those movements coincide with mineral stress lines. This is why Delvers sometimes pass completely beneath unaware villages, while annihilating nearby mines used by Humans, Korrak, or Varnhallan syndicates.\n\nDelvani ancestral orders insist that Delvers are not hostile. They are architectural immune systems acting against perceived lithic corruption.\n\n⸻\n\nSigns of a True Stone Delver Incursion\n\n• Floating stone plates rotating in slow, grinding halos\n• Perfectly faceted collapse zones rather than jagged cave-ins\n• Subharmonic pulses felt in the chest rather than heard\n• Magnetic dust storms with no wind\n• Symmetrical cavern voids forming beneath surface terrain"
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/fantasy/Stone%20Delver.alt.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "GuideToOrimond",
+            "name": "Basalt Maw Colossid",
+            "size": [
+                "H"
+            ],
+            "type": "elemental",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 18.0,
+                    "from": [
+                        "volcanic armor"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 207.0,
+                "formula": "18d12+90 + 5.0"
+            },
+            "passive": 11.0,
+            "speed": {
+                "walk": 30,
+                "burrow": 20
+            },
+            "str": 26,
+            "dex": 8,
+            "con": 21,
+            "int": 3,
+            "wis": 12,
+            "cha": 7,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Basalt Maw Colossid makes two Slam attacks or one Slam and one Devour. Slam Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 22 (3d8 + 8) bludgeoning damage plus 9 (2d8) fire damage.; Devour Structure"
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Magma Metabolism",
+                    "entries": [
+                        "The Colossid regains 10 hit points at the start of its turn if it consumed at least 50 pounds of stone, metal, or structure material since its last turn.; Siege Devourer"
+                    ]
+                }
+            ],
+            "immune": null,
+            "conditionImmune": [
+                "charmed",
+                "frightened",
+                "paralyzed",
+                "poisoned"
+            ],
+            "cr": "11",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Basalt_Maw_Colossid.png",
+            "fluff": {
+                "entries": [
+                    "Volcanic Devourer of the Lithic Bastion\n\nThe Basalt Maw Colossid is a towering, quadrupedal lithic predator whose body resembles a living volcanic outcrop in constant slow collapse and reformation. Its hide is formed from layered basalt plates cracked with dim internal orange heat. These fractures are not random. They open and seal rhythmically as magma circulates through deep channels inside its body.\n\nInstead of a normal head, the Colossid’s front mass is dominated by a massive vertical furnace-maw. This gaping mineral throat is lined with concentric rows of obsidian crushing ridges rather than teeth. When it feeds, the entire front of its body opens like a splitting mountain face, swallowing stone, metal, bone, and siege structures alike. Anything consumed is compacted, liquefied, and metabolized in its magma core.\n\nColossids originate in the deeper pressure layers of the Lithic Bastion plane where gravity, heat, and structure are violently unstable. When one breaches into the Material Plane through volcanic or tectonic rifts, it behaves like a roaming geological catastrophe.\n\n⸻\n\nDevourer of Structure\n\nThe Basalt Maw Colossid does not hunt for flesh. It hunts for density and construction. Fortifications, walls, bridges, mines, armored caravans, and siege engines all trigger immediate feeding behavior. Living creatures are attacked only if they block access to desirable material density.\n\nAs the Colossid advances, its crushing mass compacts the terrain beneath it into hardened slag paths. What it leaves behind is neither rubble nor crater, but blacked, glass-slick ground fused by extreme pressure and heat. These paths remain warm for days and are unmistakable evidence of its passage.\n\n⸻\n\nTemperament and Behavior\n\nBasalt Maw Colossids are extraordinarily difficult to divert once they begin feeding. Pain responses barely register unless structural integrity of the magma core is threatened. They do not retreat from combat unless severely destabilized, and even then they simply burrow straight downward into the earth rather than flee laterally.\n\nDelvani, Aestari, and Westifeles scholars believe Colossids function as pressure release organisms, preventing runaway tectonic overload in the Bastion plane by consuming excess mass. On the Material Plane, this instinct becomes a siege-level extinction threat.\n\n⸻\n\nSigns of a Basalt Maw Colossid\n\n• Vast tracts of glassed ground still radiating heat\n• Fortifications partially swallowed and compacted inward\n• Deep furnace roars emerging from beneath stone\n• Rivers of slag replacing collapses\n• Tremors synchronized with slow, heavy movement"
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/fantasy/Basalt%20Maw%20Colossid.alt.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "GuideToOrimond",
+            "name": "Shardveil Skitterkin",
+            "size": [
+                "M"
+            ],
+            "type": "elemental",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 15.0,
+                    "from": [
+                        "crystal hide"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 85.0,
+                "formula": "10d8+40 + 4.0"
+            },
+            "passive": 16.0,
+            "speed": {
+                "walk": 40
+            },
+            "str": 14,
+            "dex": 20,
+            "con": 18,
+            "int": 5,
+            "wis": 14,
+            "cha": 6,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Skitterkin makes three Shard Claw attacks. Shard Claw Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 5) slashing damage plus 7 (2d6) radiant damage.; Veil-Shear Dash (Recharge 5–6)"
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Shardveil Refraction",
+                    "entries": [
+                        "The Skitterkin has advantage on Dexterity (Stealth) checks made in rocky terrain. Ranged attack rolls against it have disadvantage while it has not taken damage since its last turn.; Fragment Blink"
+                    ]
+                }
+            ],
+            "skill": {
+                "acrobatics": "+9",
+                "stealth": "+9",
+                "perception": "+6"
+            },
+            "immune": null,
+            "conditionImmune": [
+                "blinded"
+            ],
+            "cr": "6",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Shardveil_Skitterkin.png",
+            "fluff": {
+                "entries": [
+                    "Veiled Crystal Stalker of the Lithic Bastion\n\nThe Shardveil Skitterkin is a fast, razor-limbed lithic predator that resembles a living explosion of broken crystal plates held together by shadow and momentum. Its body is low and angular, composed of dozens of overlapping translucent shards that slide and re-lock as it moves. These shards refract light erratically, causing the creature’s outline to blur and fragment as it scuttles across stone.\n\nInstead of eyes, the Skitterkin perceives through vibration-sensitive crystal nodes embedded throughout its body. These nodes pulse faintly with white-violet light whenever nearby movement disturbs stone or metal. In the Lithic Bastion plane, Skitterkin function as territorial sentinels that purge instability along fracture borders. When they slip into the Material Plane, they colonize ruins, caverns, shattered fortresses, and tectonic fault zones.\n\n⸻\n\nAmbush Predator of Fractured Ground\n\nSkitterkin do not chase prey over distance. They remain perfectly still, shards aligned with surrounding rubble, until a vibration passes within striking range. Then the creature unfolds in a sudden burst of angular motion, slicing with multiple hooked crystal limbs before snapping back into concealment.\n\nTheir strange refractive bodies create false afterimages when they move. To observers, it often appears as though two or three Skitterkin are attacking at once. In truth this is a single creature phasing between angles of light and shadow.\n\n⸻\n\nRole in the Lithic Ecology\n\nIn the Lithic Bastion plane, Shardveil Skitterkin prevent runaway crystal overgrowth by fragmenting excess formations into inert shards. They serve a similar role to apex predators, but for structural pressure rather than biological population.\n\nDelvani geomancers theorize that Skitterkin are an early evolutionary offshoot of the same lithic ancestry as the Delvani themselves, though warped by planar pressure rather than organic adaptation.\n\n⸻\n\nSigns of a Shardveil Skitterkin Presence\n\n• Glimmering shard fragments arranged in unnatural spirals\n• Sudden light distortions close to ground level\n• Cleanly sliced stone edges with no impact marks\n• Thin crystal clicking heard just before an ambush\n• Shattered armor plates drained of residual magic"
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/fantasy/Shardveil%20Skitterkin.alt.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "GuideToOrimond",
+            "name": "Cairnbound Warden",
+            "size": [
+                "L"
+            ],
+            "type": "construct",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 17.0,
+                    "from": [
+                        "ritual stone plating"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 168.0,
+                "formula": "16d10 + 80 + 5.0"
+            },
+            "passive": 12.0,
+            "speed": {
+                "walk": 25
+            },
+            "str": 22,
+            "dex": 8,
+            "con": 20,
+            "int": 6,
+            "wis": 14,
+            "cha": 5,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Warden makes two Slam attacks. Slam Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 21 (3d10 + 6) bludgeoning damage.; Cairn Eruption (Recharge 5–6)"
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "Boundary Sentinel",
+                    "entries": [
+                        "The Warden automatically knows when a creature crosses into its assigned ward zone, even through stone or earth.; Graveweight Body"
+                    ]
+                }
+            ],
+            "immune": null,
+            "conditionImmune": [
+                "charmed",
+                "frightened",
+                "poisoned",
+                "exhaustion"
+            ],
+            "cr": "10",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Cairnbound_Warden.png",
+            "fluff": {
+                "entries": [
+                    "Grave-Sentinel of the Lithic Bastion\n\nCairnbound Wardens appear as towering humanoid figures assembled from stacked grave-stone slabs, boundary markers, and weathered monolith fragments. Each stone bears the scars of age, erosion, and forgotten sigils. Moss, bone-dust, and mineral offerings sift constantly from between their joints as they move. A Warden’s core is not a heart, but a suspended cairn-stone that slowly rotates within its chest cavity, bound by geomantic force.\n\nThese entities were created to guard ancient passage points, planar sepulchers, and sealed tectonic vaults within the Lithic Bastion. They do not patrol. They wait. Decades or centuries may pass between their activations. When awakened, they rise with the sound of grinding headstones and falling gravel, and will pursue their directive until the trespass is obliterated or expelled from the boundary zone.\n\n⸻\n\nGuardians of Threshold and Burial Law\n\nUnlike siege constructs, Cairnbound Wardens are not purely destructive. They enforce ancient lithic jurisdiction. Their directives are tied to territorial violation, soul disturbance, and tomb desecration. They often ignore living creatures entirely until a ward-condition is met. Then they activate with no hesitation and no mercy.\n\nTheir attacks are heavy, deliberate, and funerary in nature. Each blow carries crushing force and geomantic weight. When they strike the ground, standing stones erupt upward like sudden tomb-markers, reshaping the battlefield into a ritual killing ground.\n\n⸻\n\nRelationship to the Delvani\n\nDelvani deep-lore records identify Wardens as relic-forged ancestors of early lithic sentience experiments. While Stone Delvers evolved into mobile shard-cores, the Cairnbound represent the bound, static enforcement caste. Some Delvani geomancers can sense dormant Wardens beneath old battlefields and refuse to settle anywhere near their resting zones.\n\n⸻\n\nSigns of a Cairnbound Warden\n\n• Unnatural stone stacks forming perfect spiral cairns\n• Grave-marker fragments embedded in bedrock\n• Sudden alignment of loose stones into ritual rings\n• Deep echoing clicks beneath the earth at night\n• Animals refusing to cross specific invisible boundaries"
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/fantasy/Cairnbound%20Warden.alt.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "source": "GuideToOrimond",
+            "name": "Faultspire Reaver",
+            "size": [
+                "H"
+            ],
+            "type": "elemental",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 18.0,
+                    "from": [
+                        "fault-stone plating"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 210.0,
+                "formula": "20d12+80 + 5.0"
+            },
+            "passive": 12.0,
+            "speed": {
+                "walk": 40,
+                "burrow": 40
+            },
+            "str": 24,
+            "dex": 12,
+            "con": 20,
+            "int": 4,
+            "wis": 14,
+            "cha": 6,
+            "action": [
+                {
+                    "name": "Multiattack",
+                    "entries": [
+                        "The Reaver makes two Breaker Talon attacks and one Impale attack. Breaker Talon Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 25 (3d12 + 7) slashing damage. If the target is wearing metal armor, it suffers disadvantage on its next attack roll as the armor warps from stress.; Impale"
+                    ]
+                }
+            ],
+            "trait": [
+                {
+                    "name": "ectonic Predator",
+                    "entries": [
+                        "The Reaver has advantage on attack rolls against creatures that moved more than 10 feet since the end of its last turn.; Faultstep Movement"
+                    ]
+                }
+            ],
+            "immune": null,
+            "conditionImmune": [
+                "poisoned",
+                "prone",
+                "paralyzed",
+                "exhaustion"
+            ],
+            "cr": "13",
+            "tokenUrl": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/tokens/Faultspire_Reaver.png",
+            "fluff": {
+                "entries": [
+                    "Tectonic Ambush Predator of the Lithic Bastion\n\nThe Faultspire Reaver resembles a towering, inverted stone spear supported by four jagged, jointed limbs that unfold from its central core. Its body is composed of compressed fault-stone and shear-layer rock, packed so tightly that it appears veined with black glass fractures. These fractures glow faintly with deep geothermal light when the Reaver becomes active. Unlike Wardens, Reavers do not guard. They hunt.\n\nFaultspire Reavers migrate along tectonic stress lines both in the Lithic Bastion and in deep regions of the Material Plane where planar pressure bleeds through. They remain dormant beneath the surface for months or years at a time, waiting for vibrations large enough to signal prey. When they strike, they erupt vertically from the rock in a shower of stone shards and superheated dust.\n\n⸻\n\nLiving Fault Weapons\n\nA Faultspire Reaver does not rely on strength alone. It weaponizes seismic instability. Each movement destabilizes nearby stone, loosening ceilings, splitting floors, and triggering chain fractures across battlefields. Its limbs terminate in wedge-shaped breaker talons designed to pry armor apart and split bone along stress seams.\n\nReavers feed on crushed organic matter and the trace heat released by broken stone. After major quakes or volcanic shifts, they gather in temporary hunting territories where the ground remains unstable. Once the fault quiets, they burrow back into dormancy.\n\n⸻\n\nTerror of the Deep Roads\n\nDelvani tunnel-cities mark known Reaver fault-paths with forbidden glyphs. Sablemarcher seismographs mounted in deep hulls can detect their movement days in advance. Varnhallan deep-forges occasionally lose entire excavation crews to Reaver ambushes when fault pressure spikes without warning. To most underground cultures, the Reaver is not a monster but a natural disaster given intent.\n\n⸻\n\nSigns of a Faultspire Reaver\n\n• Fresh zigzag fracture lines in solid stone\n• Sudden heat haze rising from the ground\n• Deep rhythmic clicking beneath the earth\n• Armor plating found split clean along stress seams\n• Burrow shafts formed as perfect vertical slits"
+                ],
+                "images": [
+                    {
+                        "type": "image",
+                        "href": {
+                            "type": "external",
+                            "url": "https://raw.githubusercontent.com/la-rockoteque/Vestigium/refs/heads/main/images/Monsters/fantasy/Faultspire%20Reaver.alt.png"
                         }
                     }
                 ]
